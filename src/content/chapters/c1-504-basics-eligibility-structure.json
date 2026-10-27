@@ -1,0 +1,399 @@
+{
+  "id": "c1-504-basics-eligibility-structure",
+  "order": 310,
+  "part": "C",
+  "program": "504",
+  "title": "504 Basics: Eligibility, Project Structure and Debenture Terms",
+  "subtitle": "Section C, Ch. 1 Part 1 - who the 504 partners are, how a Project is structured, the job and public policy tests, Third Party Loan rules and debenture limits",
+  "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Paras. A, B and D",
+  "estimatedMinutes": 55,
+  "learningObjectives": [
+    "Explain the roles of the CDC, Third Party Lender, interim lender, Borrower and SLPC in a 504 Project",
+    "Apply the 50/40/10, 50/35/15 and 50/30/20 structures to New Businesses and Limited or Special Purpose Properties",
+    "Calculate whether a Project meets the $95,000 or $150,000 per-job standard and know when portfolio averages apply",
+    "Identify Energy Public Policy Projects and their documentation requirements",
+    "List the rules the Third Party Loan must follow, including size, term and prohibited provisions",
+    "State the debenture minimum, maximums, maturities and interest rate benchmarks"
+  ],
+  "topics": [
+    {
+      "id": "c1-504-at-a-glance",
+      "title": "504 at a glance: purpose, partners and the debenture",
+      "body": "Section C of SOP 50 10 8.1 contains the rules that apply only to the 504 Loan Program. It sits on top of Section A (Core Requirements for all 7(a) and 504 Loans). The SOP is blunt about the order of work: **CDCs must always start by reviewing Section A**, then apply the 504-specific rules in Section C.\n\n### What 504 is for\n\nThe 504 program is an **economic development program**. Its purpose is to create and preserve job opportunities and to stimulate growth, expansion and modernization of small businesses (13 CFR 120.2(c)). In practice that means 504 finances **fixed assets** - land, buildings, long-lived machinery and equipment - for eligible small businesses. It is not a working capital product.\n\n### The three partners\n\nEvery 504 Project is a three-way financing:\n\n| Partner | Typical share | What they provide |\n|---|---|---|\n| Third Party Lender (TPL) | 50% or more | A conventional (non-guaranteed) loan, usually in 1st lien position on the Project Property |\n| Certified Development Company (CDC) | Up to 40% | The 504 loan, funded by a debenture that SBA guarantees 100% |\n| Borrower | At least 10% | Equity injection (the Borrower's Contribution) |\n\n(13 CFR 120.801 and 120.900.) A further cap applies: **no more than 50% of eligible Project costs can come from Federal sources** (13 CFR 120.930(a)).\n\n### Who is who\n\n- **CDC (Certified Development Company)** - an organization certified by SBA to package, process, close and service 504 loans. The CDC is SBA's program partner, analogous to the 7(a) Lender. Most rules in Section C are written as \"the CDC must...\".\n- **Third Party Lender** - usually a bank or other financial institution that makes the senior loan. SBA does not guarantee the Third Party Loan.\n- **Interim lender** - the lender (often the TPL) who funds the CDC's share during construction or acquisition until the debenture is sold.\n- **SLPC** - the Sacramento Loan Processing Center, where all 504 loans are processed.\n\n### The debenture in one paragraph\n\nThe CDC's share is funded by a debenture, not by the CDC's own money. After the Project is complete, the CDC closes the 504 loan and SBA's debenture is sold to investors. The debenture is guaranteed 100% by SBA, and its proceeds repay the interim lender for the part of the Project it advanced. The **Net Debenture Proceeds** are the part that finances eligible Project costs; add eligible administrative costs and you get the **Gross Debenture**, which is the figure the dollar limits apply to.\n\n### Veterans\n\nSBA prioritizes processing of applications from veteran-owned businesses when the loan is processed by SBA under non-delegated procedures. For delegated loans, SBA encourages CDCs and Third Party Lenders to give veterans special consideration.\n\n> **In practice:** When you see a 504 deal sheet, find the three numbers first - TPL amount, debenture amount, Borrower injection - and check them against the percentages in the next topic. Most structural problems show up right there.",
+      "keyPoints": [
+        "504 is an economic development program that finances fixed assets, governed by Section C plus Section A",
+        "Typical split: TPL 50%+, CDC/SBA debenture up to 40%, Borrower at least 10%",
+        "No more than 50% of eligible Project costs may come from Federal sources (13 CFR 120.930(a))",
+        "The debenture is 100% guaranteed by SBA; the Third Party Loan is not guaranteed",
+        "Gross Debenture = Net Debenture Proceeds + eligible administrative costs",
+        "All 504 loans are processed at the SLPC; veteran-owned applications get priority in non-delegated processing"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Purpose; Para. B"
+    },
+    {
+      "id": "c1-project-structure-contribution",
+      "title": "Project structure and the Borrower's Contribution",
+      "body": "The single most important structural table in 504 is the \"Typical 504 Structures\" table. It shows how the percentages shift when the Borrower is a new business or the property is limited or special purpose.\n\n| | Standard | New Business OR Limited/Special Purpose Property | New Business AND Limited/Special Purpose Property |\n|---|---|---|---|\n| Third Party Lender | 50% | 50% | 50% |\n| CDC/SBA (debenture) | 40% | 35% | 30% |\n| Borrower | 10% | 15% | 20% |\n\nNotice the pattern: the TPL share stays at 50%, and every extra point of risk is absorbed by a **larger Borrower contribution and a smaller SBA share**. The SOP says this directly: any additional Borrower's contribution reduces SBA's portion of the financing.\n\n### The contribution rules (excluding administrative costs)\n\n- **All Borrowers**: at least **10%**.\n- **New Businesses**: at least **15%**. The debenture finances no more than **35%**, and at least **50%** of the Project financing comes from banks or other financial institutions, state or local government, or foundations or other non-profit institutions.\n- **Limited or Special Purpose Property**: at least **15%** (debenture no more than 35%, at least 50% from those same sources).\n- **New Business plus Limited or Special Purpose Property**: at least **20%**; debenture no more than **30%**; at least 50% from the sources above (13 CFR 120.910).\n\n\"New Business\" is defined in Appendix 3; a Borrower (or the Operating Company, for an EPC) that has operated for 2 years or less is treated that way for the TPL 50% rule.\n\n### What counts as a contribution\n\nThe Borrower may contribute:\n\n- **Cash**, or property acceptable to SBA obtained with that cash;\n- **Land** that is part of the Project Property - equity in land and/or buildings previously acquired counts if they are part of the Project;\n- **Equity in equipment** in debt refinancing with or without expansion, if the debt was originally used to acquire that specific equipment;\n- **Borrowed funds**, as long as they are subordinate to the Third Party Loan and the 504 debenture.\n\n### If the contribution is borrowed\n\n- Any lien on the Project Property must be **subordinate to the 504 loan**.\n- Where the borrowed contribution is secured by the Project Property, it may **not be repaid faster than the 504 loan** (13 CFR 120.912) unless the D/FA or designee approves in writing.\n- Where it is secured by other assets, the Borrower must show it can repay that loan from business cash flow or other sources.\n\n> **Watch out:** The CDC must address in its credit memorandum whether the Project Property is Limited or Special Purpose and explain its conclusion. Getting this wrong means the whole structure (and the debenture percentage) is wrong.\n\n> **In practice:** These are policy *minimums*. A CDC may require more contribution or collateral to offset credit weaknesses such as marginal cash flow, limited working capital, a recent big jump in debt, a narrow customer base, or little or no net worth.",
+      "keyPoints": [
+        "Standard 50/40/10; New Business OR Limited/Special Purpose 50/35/15; both 50/30/20",
+        "Contribution percentages exclude administrative costs",
+        "Extra Borrower contribution reduces SBA's share, not the TPL's",
+        "Borrowed contribution must be subordinate to the TPL loan and the 504 debenture",
+        "Borrowed contribution secured by Project Property cannot be repaid faster than the 504 loan without D/FA (or designee) written approval",
+        "Equity in land/buildings already owned counts if they are part of the Project"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. B and Para. E.1 (Borrower's Contribution)"
+    },
+    {
+      "id": "c1-limited-special-purpose",
+      "title": "Limited or Special Purpose Property",
+      "body": "A Limited or Special Purpose Property is one designed for a particular use, so it would be hard to sell or re-use if the business failed. Because the collateral is weaker, 504 asks the Borrower for more skin in the game: a **15%** contribution (or **20%** if it is also a New Business), and the Third Party Loan must equal at least **50%** of Project costs.\n\nThe CDC must decide whether the Project Property is Limited or Special Purpose and **explain its conclusion in the credit memorandum**.\n\n### SBA's example list\n\nSBA publishes a list of examples. It is **not all-inclusive** - SBA may decide other properties also meet the definition.\n\n| | | |\n|---|---|---|\n| Amusement parks | Bowling alleys | Car wash businesses |\n| Cemeteries | Cold storage (more than 50% of square footage refrigerated) | Dormitories |\n| Farms, including livestock and dairy | Funeral homes with crematoriums | Gas stations |\n| Golf courses | Hospitals, surgery centers, urgent care and other medical facilities | Hotels, motels and other lodging |\n| Marinas | Mines | Nursing homes, including assisted living |\n| Oil wells | Quarries, including gravel pits | Railroads |\n| Sanitary landfills | Service centers with pits and in-ground lifts (oil and lube, brake, transmission) | Sports arenas |\n| Swimming pools | Tennis clubs | Theaters and auditoriums |\n| Wineries | | |\n\n### Details that trip people up\n\n- **Cold storage** only qualifies when **more than 50%** of total square footage is equipped for refrigeration. A warehouse with a small cooler is not on the list.\n- **Funeral homes** are listed only **with crematoriums**.\n- **Service centers** are listed when they have **pits and in-ground lifts**.\n- Medical facilities are broad: hospitals, surgery centers, urgent care centers and \"other health or medical facilities.\"\n\n### Related rules elsewhere in the chapter\n\n- When a debt Refinancing Project involves a Limited or Special Purpose Property, the Borrower must meet the same higher contribution requirements.\n- When the collateral is a Special Purpose Property, the appraiser must be **experienced in that particular industry**.\n\n> **In practice:** For software, treat \"limited or special purpose\" as a required yes/no field with a free-text justification. The yes/no drives the minimum contribution, the maximum debenture percentage and the TPL 50% floor all at once.",
+      "keyPoints": [
+        "Limited or Special Purpose Property requires at least 15% contribution (20% if also a New Business)",
+        "The list of examples is not all-inclusive",
+        "Cold storage counts only if more than 50% of square footage is refrigerated",
+        "Funeral homes count when they have crematoriums; service centers when they have pits and in-ground lifts",
+        "The CDC must document its Limited/Special Purpose conclusion in the credit memorandum",
+        "Special purpose appraisals need an appraiser experienced in that industry"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. E.1 (Borrower's Contribution, Limited or Special Purpose Property)"
+    },
+    {
+      "id": "c1-job-creation",
+      "title": "Economic development objectives: the job creation and retention test",
+      "body": "Because 504 is an economic development program, every 504 Project must achieve **at least one** Economic Development Objective (13 CFR 120.860, 120.861 and 120.862). The most common is job creation or retention, measured in **dollars of SBA guarantee per job**.\n\n### Project-level standard\n\n| Project type | Must create or retain one job opportunity per |\n|---|---|\n| Standard Project | **$95,000** guaranteed by SBA |\n| Small Manufacturer | **$150,000** guaranteed by SBA |\n| Project meeting an Energy Public Policy Goal | **$150,000** guaranteed by SBA |\n\nA **Small Manufacturer** is a small business with its primary NAICS code in Sectors **31, 32 or 33** and **all** of its production facilities located in the United States.\n\nExample: a $760,000 debenture on a standard Project must create or retain at least 8 jobs ($760,000 / $95,000).\n\n### Portfolio-level averages\n\nNot every Project has to hit the job ratio by itself. Projects that qualify under \"Other economic development objectives\" (13 CFR 120.862) are eligible if the **CDC's portfolio**, including the subject loan, meets its required job opportunity average. The CDC's portfolio must average one job created or retained for every:\n\n- **$95,000** guaranteed by SBA; or\n- **$150,000** for Projects in **Special Geographic Areas**: Alaska, Hawaii, State-designated enterprise zones, empowerment zones, enterprise communities, Opportunity Zones and labor surplus areas (as determined by the Secretary of Labor), and other areas SBA designates. A CDC may separate these loans from the rest of its portfolio when calculating averages.\n\n**Loans to Small Manufacturers and eligible Energy Public Policy Projects are excluded from the portfolio average.**\n\n### If nothing works\n\nIf the Project cannot meet any Economic Development Objective, **the debenture must be reduced** until it meets the job creation or retention requirement.\n\n> **Watch out:** The job ratio is calculated on the amount **guaranteed by SBA** (the debenture), not on total Project cost. A $3 million building with a $1.2 million debenture is measured against the $1.2 million.\n\n> **In practice:** Debt refinancing without expansion has its own alternative sizing test (number of employees times $95,000) when the Project does not meet the job or other objectives. That is covered in the Uses of Proceeds chapter.",
+      "keyPoints": [
+        "Every 504 Project must meet at least one Economic Development Objective",
+        "Standard: 1 job per $95,000 guaranteed by SBA",
+        "Small Manufacturers (NAICS 31-33, all production in the U.S.) and Energy Public Policy Projects: 1 job per $150,000",
+        "CDC portfolio average: $95,000 per job, or $150,000 in Special Geographic Areas",
+        "Small Manufacturer and eligible Energy Public Policy loans are excluded from the portfolio average",
+        "If no objective is met, the debenture must be reduced to meet the job requirement"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. A"
+    },
+    {
+      "id": "c1-public-policy-energy",
+      "title": "Community development, public policy goals and Energy Public Policy Projects",
+      "body": "A Project that does not hit the job ratio on its own can still qualify by achieving one of the **Community Development or Public Policy Goals** listed in 13 CFR 120.862 - as long as the CDC's portfolio of 504 loans, including the subject loan, still meets or exceeds the CDC's required job opportunity average. The **loan application must state how the Project will meet the specified objective**.\n\n### Energy Public Policy Projects\n\nSBA gives extra guidance for the energy goals in 13 CFR 120.862(b)(11)-(13). A Project is an Energy Public Policy Project if it meets one of these:\n\n**i. Reduce existing energy consumption by at least 10%.** Not available for **new businesses**. Then:\n- If it involves **constructing or acquiring a facility**: the new facility must **replace** an existing one; the Applicant must show the new facility uses **10% less energy**, compared on a **square footage basis**; and the new facility must be in the **same local area** (city, town, county, zip code, MSA or as SBA deems appropriate).\n- If it is a **retrofit** of an existing facility: the retrofit must cut that facility's consumption by at least 10%, regardless of energy use at the Applicant's other facilities.\n\n**ii. Renewable energy sources generating more than 15%** of the energy used at the Project facility. Includes plant, equipment and process upgrades such as micropower (small-scale production for individual buildings or communities) and renewable fuel producers such as biodiesel and ethanol. **Each Project** must generate more than 15% of the energy the Applicant uses at that facility, and all improvements or equipment needed to generate it must be **included in the 504 Project costs**.\n\n**iii. Increased use of sustainable designs**, including designs that reduce greenhouse-gas-emitting fossil fuels or low-impact designs that reduce use of non-renewable resources. The terms in ii and iii follow the LEED green building standards.\n\n### Why i and ii matter more\n\nOnly categories **i and ii** are \"**Eligible Energy Public Policy Projects**.\" They get the larger **$5,500,000** per-project debenture limit and the $150,000-per-job standard. Category iii is a valid public policy goal but does not unlock the higher limit.\n\n### Documentation for i and ii\n\nThe Applicant must document compliance through an **energy audit, engineering report or other professional evaluation** acceptable to SBA, based on **annual energy usage measured in actual units** (kilowatt hours, therms, gallons) - **not dollar costs**. At a minimum it includes:\n\n1. A description of the facility or facilities;\n2. Current energy usage;\n3. Projected energy usage, based on all building modifications and retrofits and all equipment installations, replacements and retrofits;\n4. The qualifications of the preparer, who must be an **independent third party** - not the Applicant, the interim lender, the Third Party Lender or any of their affiliates.\n\n> **Watch out:** An energy study prepared by the bank's in-house engineer does not count. The independence requirement excludes the interim lender and the TPL, not just the Applicant.",
+      "keyPoints": [
+        "Public policy Projects qualify only if the CDC portfolio, including the subject loan, still meets its job average",
+        "The application must state how the Project meets the specific objective",
+        "Energy reduction category: at least 10% less energy; not available to new businesses",
+        "Replacement facilities: compare energy per square foot; same local area",
+        "Renewable category: each Project must generate more than 15% of energy used at the facility",
+        "Only categories i and ii are Eligible Energy Public Policy Projects with the $5.5 million limit",
+        "Energy studies must use actual energy units, not dollars, and be done by an independent third party"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. A.2"
+    },
+    {
+      "id": "c1-third-party-loan",
+      "title": "The Third Party Loan: rules the senior lender must follow",
+      "body": "The Third Party Lender (TPL) is the senior partner in a 504 deal. SBA does not guarantee its loan, but SBA still sets rules so the TPL loan does not undercut the 504 loan (13 CFR 120.920 and 120.921).\n\n### At application\n\n- The TPL must be **in place at the time of application**, evidenced by a **letter of intent/term sheet or commitment letter** in the application package, outlining the terms of the Interim and/or Third Party Loan. The letter must also state why the TPL will not finance the entire Project.\n- For any 504 project with **total project costs of at least $5,000,000**, SBA requires the TPL's **credit memorandum or underwriting analysis** to be submitted to SLPC. It may omit sections on additional products, services or risk ratings. Two delivery options:\n  1. The CDC obtains it and **includes it in the CDC credit memorandum** (no extra forms or templates needed); or\n  2. The TPL sends it **directly to SLPC** (by email to the TPL.504 mailbox or by electronic upload; a direct upload in the SBA lending platform is planned).\n  The CDC's credit memorandum must say which option is used.\n\n### Size and timing\n\n- The Third Party Loan must be **at least as much as the net debenture proceeds**.\n- It must be **at least 50% of Project costs** if the Borrower (or the Operating Company, if the Borrower is an EPC) has operated **2 years or less**, or the Project is for a **limited or single purpose asset**.\n- It **may close and begin amortizing before** the debenture is funded.\n\n### Terms SBA prohibits\n\n- **No cross-default, \"deem-at-risk\" or other provisions** that let the TPL demand payment before maturity unless the loan is in default.\n- CDCs must not sign any intercreditor agreement with the TPL other than **SBA Form 2287, \"Third Party Lender Agreement,\"** without SBA's prior written consent.\n\n### Additional collateral\n\nThe 504 loan usually holds a **second lien** on the Project Property. The TPL may take **Additional Collateral** beyond the Project Property only if, in liquidation and unless the D/OFPO approves otherwise in writing, it:\n1. Liquidates or exhausts all reasonable collection avenues on the Additional Collateral **no later than** disposition of the Project Property; and\n2. Applies those proceeds to the Third Party Loan **before** applying Project Property proceeds.\n\nThis stops the TPL from being made whole out of the shared Project Property first and leaving SBA short.\n\n### Interest rate swaps\n\nA swap lets the Borrower fix its effective rate on a variable TPL loan. Example from the SOP: a prime + 2% loan (5.25% today) swapped to 7%; when the note rate is below 7% the swap seller keeps the difference, and when it is above 7% the swap seller pays the excess. Third Party Loans may use swaps if:\n- The contract is between the Borrower and the lender (or a third-party swap seller); **SBA is not a party**;\n- SBA will not review swap contracts, give guidance on them, or publish cost guidelines; there is no SBA standard form;\n- Swaps may be used on new or existing Third Party Loans and need not run for the full term;\n- **Any fees owed the swap counterparty because of Borrower default are subordinated to the SBA 504 loan.**",
+      "keyPoints": [
+        "TPL must be in place at application, evidenced by a letter of intent/term sheet or commitment letter",
+        "Projects with total costs of at least $5,000,000 need the TPL credit memo or underwriting analysis at SLPC",
+        "TPL loan must be at least the net debenture proceeds; at least 50% of Project costs for businesses 2 years old or less or limited/single purpose assets",
+        "No cross-default or deem-at-risk clauses allowing demand before maturity absent default",
+        "Only SBA Form 2287 may be used as the intercreditor agreement without SBA's prior written consent",
+        "Swap default fees are subordinated to the 504 loan; SBA is not a party to swaps"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. B.1"
+    },
+    {
+      "id": "c1-interim-financing",
+      "title": "Interim financing: bridging until the debenture sells",
+      "body": "The 504 loan is **permanent or take-out financing**. The debenture is sold only after the Project is complete, so someone has to fund the CDC's share in the meantime. That is the **interim lender**.\n\n### How the flow works\n\n1. SBA approves the Project.\n2. The interim lender advances funds to cover the CDC/SBA portion of Project costs during construction or acquisition.\n3. After the Project is completed, the CDC closes the 504 loan.\n4. The debenture is sold, and the proceeds **repay the interim lender** for the 504 Project costs it advanced.\n\nA Project can also close in **escrow with no interim loan** (covered in Ch. 2, Para. C.2 of Section C).\n\n### Who may provide it\n\n- **Any experienced, independent source**, including the Third Party Lender, that meets 13 CFR 120.890.\n- A **CDC** may provide interim financing, **but only for a Project financed by another CDC**.\n- **Neither the Borrower nor an Associate of the Borrower** may provide interim financing.\n\nThe CDC's credit memorandum also has to confirm that the interim loan (if any):\n- Does **not cover the Applicant's contribution**;\n- Comes from a source with the **experience and qualifications to monitor** construction and program payments;\n- Is **not from any SBA program**, directly or indirectly, and not from the Applicant or an Associate; and\n- Has acceptable terms and conditions.\n\n### Note structures when the TPL is also the interim lender\n\n| Option | How it works |\n|---|---|\n| Two notes | An **interim note**, paid in full with the net debenture proceeds, plus a separate **permanent note** |\n| Single note | One note covering both interim and permanent financing, **reduced by** the net debenture proceeds |\n\n> **Watch out:** Interim loan costs (points, fees and interest) can be part of eligible Project costs as \"repayment of interim financing,\" but the interim loan itself cannot be used to fund the Borrower's required injection.\n\n> **In practice:** Attorney's fees incurred to close the Interim and Third Party Loans are **not** eligible professional fees in the 504 Project costs.",
+      "keyPoints": [
+        "504 is permanent/take-out financing; the interim lender bridges until the debenture sale",
+        "Any experienced, independent source, including the TPL, may be the interim lender (13 CFR 120.890)",
+        "A CDC may give interim financing only for another CDC's Project",
+        "The Borrower and its Associates may not provide interim financing",
+        "Interim loan must not cover the Applicant's contribution or come from any SBA program",
+        "TPL as interim lender may use two notes or a single note reduced by net debenture proceeds"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. B.2"
+    },
+    {
+      "id": "c1-bonds-tax-credits",
+      "title": "Industrial development bonds and historic rehabilitation tax credits",
+      "body": "Some 504 Projects are layered with other public financing. SBA allows two common ones, with conditions that protect SBA's lien.\n\n### Tax-exempt financing: the ground rule\n\nSBA **may** participate in Projects financed in part by obligations exempt from **state or local** taxes (for example, real estate tax exemptions). Under OMB Circular A-129, SBA **may not** participate in Projects financed directly or indirectly by **Federal** tax-exempt obligations. For Projects without Federal tax-exempt obligations, **IDBs/IRBs** (industrial development or revenue bonds) can be a funding source.\n\n**When bond proceeds fund the Third Party Loan:**\n- If the bond issuer must hold title, the TPL's and SBA's liens must be **recorded before** title transfers to the issuer.\n- If the issuer takes title and leases the property to the Borrower, the issuer must **assign the lease to the TPL**, and lease payments go to the TPL as loan payments.\n- If both conditions are met, the Third Party Loan may stay in senior lien position.\n- If the issuer only takes a lien (not title), the TPL may still be senior, but **SBA's lien must not be subordinate to the bond issuer's lien**.\n\n**When bond proceeds fund the Borrower's Contribution:**\n- Liens recorded before any title transfer, as above;\n- SBA's lien must not be subordinate to the bond issuer's lien;\n- The Borrower may not repay the bond-funded loan **faster than the 504 loan** unless the D/FA or designee approves.\n\n**In all cases:** a default on the tax-exempt obligation may **never** result in a tax lien on the property. If the issuer takes collateral other than the Project Property, SBA may, at its discretion, take a subordinate lien on that collateral. Structures vary by state and other conditions may apply.\n\n### Historic rehabilitation tax credits\n\nUnder Internal Revenue Code Section 50, an owner of property eligible for historic rehabilitation credits may lease the property and transfer the credits to a **Tax Credit Investor**. SBA may participate when:\n\n1. The Borrower owns the property and leases it to the Tax Credit Investor, which **simultaneously subleases it back** to the Borrower. **The sublease term must equal the lease term.**\n2. The credit transfer complies with all IRS requirements.\n3. Copies of both the lease and the sublease are submitted **with the 504 application**; the **executed** copies go to SBA for review (including SBA counsel legal review) **before closing**. That review is limited to confirming the two leases have equal terms.\n\nAdditional rules:\n- SBA's lien on the Project Property must not be subordinate to the lease with the Tax Credit Investor.\n- The loan **may not be structured as an EPC/OC** loan.\n- Structures vary; CDCs and SLPC should consult SBA Counsel and OCA. State rehabilitation tax credit transfers may also be allowed if all State requirements and the conditions above are met.",
+      "keyPoints": [
+        "SBA may not participate in Projects financed by Federal tax-exempt obligations (OMB Circular A-129)",
+        "State or local tax-exempt obligations, including IDBs/IRBs, are allowed under conditions",
+        "SBA's lien must never be subordinate to the bond issuer's lien",
+        "Default on a tax-exempt obligation may never create a tax lien on the property",
+        "Historic tax credit structures: lease to Tax Credit Investor plus simultaneous sublease back, equal terms",
+        "Historic tax credit loans may not be structured as EPC/OC"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. B.3 and B.4"
+    },
+    {
+      "id": "c1-debenture-terms",
+      "title": "Debenture limits, maturities and interest rates",
+      "body": "Paragraph D sets the hard numbers for the 504 loan itself.\n\n### Net vs. Gross Debenture\n\n- **Net Debenture Proceeds** (13 CFR 120.802): the part of the debenture that finances eligible Project costs, excluding administrative costs.\n- **Gross Debenture**: Net Debenture Proceeds **plus** eligible administrative costs (13 CFR 120.883). Administrative costs are not Project costs, so they do not count when you compute the 40/35/30% debenture shares or the Borrower contribution.\n\nThe dollar limits apply to the **Gross Debenture**.\n\n### Dollar limits\n\n| Limit | Amount |\n|---|---|\n| Minimum debenture | **$25,000** (13 CFR 120.930(b)) |\n| Maximum, standard Projects | **$5,000,000** outstanding, in the aggregate, per small business concern including affiliates |\n| Eligible Energy Public Policy Project | **$5,500,000** per eligible project |\n| Small Manufacturer Project | **$5,500,000** per eligible project |\n\nHow the aggregate limit works:\n- Count **all SBA 504 loans, committed or outstanding**, of the Applicant and its affiliates. (Only 504 loans count toward this limit.)\n- An **EPC and its OC are \"one business\"** for this purpose.\n- Gross Debentures for Eligible Energy Public Policy Projects **do not reduce** the $5,000,000 limit available for the business's other 504 Projects.\n\n### Maturities (13 CFR 120.933)\n\nThe 504 loan has a maturity of **10, 20 or 25 years**, based on the remaining useful life of what is financed:\n- **Real estate**: maximum **25 years**;\n- **Machinery and equipment**: minimum **10 years**;\n- Mixed Projects: maturity follows the asset category that makes up the **majority of loan proceeds**.\n\nThe Third Party Loan must have a term of **at least 7 years** when the 504 loan is 10 years, and **at least 10 years** when the 504 loan is 20 or 25 years (13 CFR 120.921(a)). If there is more than one Third Party Loan, calculate an overall maturity weighted by amount and term. A **balloon payment** must be justified in the loan report and clearly identified in the SBA Loan System Terms and Conditions.\n\n### Interest rates\n\nThe debenture rate is set by **market conditions for long-term government debt at the time of sale** (13 CFR 120.932). Most commonly:\n- The **10-year Treasury** is the benchmark for **20-year and 25-year** debentures;\n- The **5-year Treasury** is the benchmark for the **10-year** debenture.\n\nThe Third Party Loan's rate must be reasonable (13 CFR 120.921(b)).\n\n> **Watch out:** A 25-year debenture paired with an 8-year bank loan fails the TPL term rule - the bank loan must be at least 10 years.",
+      "keyPoints": [
+        "Minimum debenture: $25,000",
+        "Standard maximum: $5,000,000 aggregate Gross Debenture outstanding per business including affiliates; EPC and OC are one business",
+        "Small Manufacturer and Eligible Energy Public Policy Projects: $5,500,000 per project",
+        "Energy Project debentures do not reduce the $5,000,000 limit for other 504 Projects",
+        "504 maturities: 10, 20 or 25 years; real estate max 25, M&E min 10; majority of proceeds decides mixed Projects",
+        "TPL term: at least 7 years with a 10-year debenture, at least 10 years with a 20 or 25-year debenture"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. D"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Certified Development Company (CDC)",
+      "definition": "An SBA-certified organization that packages, processes, closes and services 504 loans and funds its share of a Project through an SBA-guaranteed debenture."
+    },
+    {
+      "term": "Third Party Lender (TPL)",
+      "definition": "The lender, usually a bank, that provides the senior non-guaranteed Third Party Loan, typically 50% or more of Project costs with a 1st lien on the Project Property."
+    },
+    {
+      "term": "Debenture",
+      "definition": "The security, guaranteed 100% by SBA, that is sold to investors to fund the 504 loan; its proceeds repay the interim lender."
+    },
+    {
+      "term": "Net Debenture Proceeds",
+      "definition": "The portion of debenture proceeds that finances eligible Project costs, excluding administrative costs (13 CFR 120.802)."
+    },
+    {
+      "term": "Gross Debenture",
+      "definition": "Net Debenture Proceeds plus eligible administrative costs; the amount the $25,000 minimum and $5,000,000/$5,500,000 maximums apply to."
+    },
+    {
+      "term": "Borrower's Contribution",
+      "definition": "The Borrower's equity injection into the Project: at least 10%, 15% for a New Business or Limited/Special Purpose Property, or 20% for both, excluding administrative costs."
+    },
+    {
+      "term": "Limited or Special Purpose Property",
+      "definition": "Property designed for a particular use (e.g., hotels, car washes, gas stations, medical facilities) that requires a higher Borrower contribution and a TPL loan of at least 50% of Project costs."
+    },
+    {
+      "term": "Interim lender",
+      "definition": "An experienced, independent lender (often the TPL) that funds the CDC/SBA share of the Project until the debenture is sold; may not be the Borrower or an Associate."
+    },
+    {
+      "term": "Small Manufacturer",
+      "definition": "A small business with its primary NAICS code in Sectors 31, 32 or 33 and all production facilities in the United States; qualifies for $150,000 per job and a $5,500,000 per-project limit."
+    },
+    {
+      "term": "Eligible Energy Public Policy Project",
+      "definition": "A Project that reduces existing energy consumption by at least 10% or uses renewable sources generating more than 15% of energy at the Project facility; eligible for a $5,500,000 debenture."
+    },
+    {
+      "term": "Special Geographic Areas",
+      "definition": "Alaska, Hawaii, State-designated enterprise zones, empowerment zones, enterprise communities, Opportunity Zones and labor surplus areas, where the CDC portfolio may average up to $150,000 per job."
+    },
+    {
+      "term": "SLPC",
+      "definition": "Sacramento Loan Processing Center, where all 504 loan applications are processed."
+    },
+    {
+      "term": "SBA Form 2287",
+      "definition": "The Third Party Lender Agreement; the only intercreditor agreement a CDC may sign with the TPL without SBA's prior written consent."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-p1-q1",
+      "question": "In a standard 504 Project (existing business, general purpose property), what is the typical financing split among the Third Party Lender, CDC/SBA and Borrower?",
+      "options": [
+        "50% / 40% / 10%",
+        "50% / 35% / 15%",
+        "75% / 15% / 10%",
+        "40% / 50% / 10%"
+      ],
+      "correctIndex": 0,
+      "explanation": "The standard structure is TPL 50%, CDC/SBA debenture 40% and Borrower 10%. 50/35/15 is the structure for a New Business or a Limited/Special Purpose Property, not the standard case.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. B",
+      "difficulty": "basic"
+    },
+    {
+      "id": "c1-p1-q2",
+      "question": "A dental practice is buying its office building with a $1,140,000 debenture. It is not a manufacturer and the Project has no energy component. Under the Project-level job standard, how many jobs must it create or retain?",
+      "options": [
+        "8 jobs",
+        "10 jobs",
+        "12 jobs",
+        "15 jobs"
+      ],
+      "correctIndex": 2,
+      "explanation": "The standard is one job per $95,000 guaranteed by SBA: $1,140,000 / $95,000 = 12. Using the $150,000 standard (which is only for Small Manufacturers or Energy Public Policy Projects) would give about 8.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. A.1",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c1-p1-q3",
+      "question": "Which business qualifies as a Small Manufacturer for the $150,000-per-job standard and the $5,500,000 per-project limit?",
+      "options": [
+        "A distributor in NAICS Sector 42 that imports finished goods",
+        "A firm with primary NAICS in Sector 33 that has one plant in Ohio and one in Mexico",
+        "A firm with primary NAICS in Sector 54 that designs products manufactured by contractors",
+        "A firm with primary NAICS in Sector 32 whose production facilities are all in Texas and Georgia"
+      ],
+      "correctIndex": 3,
+      "explanation": "A Small Manufacturer has its primary NAICS code in Sectors 31, 32 or 33 and all of its production facilities in the United States. The Sector 33 firm with a plant in Mexico fails the all-U.S. production test.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. A.1 and D.1",
+      "difficulty": "applied"
+    },
+    {
+      "id": "c1-p1-q4",
+      "question": "A startup (in business 6 months) is buying a hotel. What is the minimum Borrower contribution and the maximum debenture share?",
+      "options": [
+        "10% contribution; 40% debenture",
+        "15% contribution; 35% debenture",
+        "20% contribution; 30% debenture",
+        "25% contribution; 25% debenture"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hotels are on SBA's Limited or Special Purpose Property list, and a 6-month-old business is a New Business. When both apply, the Borrower must contribute at least 20% and the debenture may finance no more than 30%. 15%/35% applies when only one of the two conditions is present.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. E.1 (Borrower's Contribution)",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c1-p1-q5",
+      "question": "Which of these properties is on SBA's example list of Limited or Special Purpose Property?",
+      "options": [
+        "A dry warehouse with a refrigerated area covering 30% of the floor space",
+        "A funeral home with a crematorium",
+        "A multi-tenant office building",
+        "A retail strip center"
+      ],
+      "correctIndex": 1,
+      "explanation": "Funeral homes with crematoriums are on the list. Cold storage qualifies only when more than 50% of total square footage is equipped for refrigeration, so a warehouse with 30% refrigerated space does not.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. E.1 (Limited or Special Purpose Property)",
+      "difficulty": "basic"
+    },
+    {
+      "id": "c1-p1-q6",
+      "question": "A 504 Project has total project costs of $6,200,000. What must happen regarding the Third Party Lender's underwriting?",
+      "options": [
+        "Nothing; SBA never reviews the TPL's analysis",
+        "The TPL must obtain SBA approval of its own loan",
+        "The TPL's credit memorandum or underwriting analysis must reach SLPC, either inside the CDC's credit memo or sent directly by the TPL",
+        "The TPL must use an SBA template credit memorandum including its risk rating"
+      ],
+      "correctIndex": 2,
+      "explanation": "For any 504 project with total project costs of at least $5,000,000, SBA requires the TPL's credit memorandum or underwriting analysis, delivered either within the CDC credit memorandum or directly to SLPC. No SBA template is required, and the TPL may omit sections on additional products, services or risk ratings.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. B.1.b",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c1-p1-q7",
+      "question": "A bank's proposed Third Party Loan note allows the bank to call the loan if it 'deems itself at risk', even with no payment default. What is the correct response?",
+      "options": [
+        "Acceptable if the bank also signs SBA Form 2287",
+        "The provision must be removed; TPL documents may not allow demand before maturity unless the loan is in default",
+        "Acceptable as long as the 504 loan has a shared (pari passu) lien",
+        "Acceptable if the D/FA approves it after closing"
+      ],
+      "correctIndex": 1,
+      "explanation": "The TPL's note and loan documents must not have cross-default, deem-at-risk or other provisions allowing demand before maturity unless the loan is in default. Signing Form 2287 does not cure a prohibited term.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. B.1.f",
+      "difficulty": "applied"
+    },
+    {
+      "id": "c1-p1-q8",
+      "question": "Who may NOT provide interim financing for a 504 Project?",
+      "options": [
+        "The Third Party Lender",
+        "Another CDC, for a Project financed by a different CDC",
+        "An experienced, independent commercial lender",
+        "An Associate of the Borrower"
+      ],
+      "correctIndex": 3,
+      "explanation": "Neither the Borrower nor an Associate of the Borrower may supply interim financing. The TPL and other experienced, independent sources may, and a CDC may provide interim financing for a Project financed by another CDC.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. B.2",
+      "difficulty": "basic"
+    },
+    {
+      "id": "c1-p1-q9",
+      "question": "A company with $4,200,000 of outstanding 504 debentures (including affiliates) wants a new standard 504 Project. What is the most Gross Debenture it could receive for the new Project?",
+      "options": [
+        "$800,000",
+        "$1,300,000",
+        "$5,000,000",
+        "$5,500,000"
+      ],
+      "correctIndex": 0,
+      "explanation": "The standard limit is $5,000,000 outstanding in the aggregate per small business concern including affiliates, counting all 504 loans committed or outstanding. $5,000,000 - $4,200,000 = $800,000. The $5,500,000 per-project limit applies only to Small Manufacturer and Eligible Energy Public Policy Projects.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. D.1",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c1-p1-q10",
+      "question": "Which Energy Public Policy category CANNOT be used by a new business?",
+      "options": [
+        "Renewable energy sources generating more than 15% of energy used at the facility",
+        "Reduction of existing energy consumption by at least 10%",
+        "Increased use of sustainable designs",
+        "All three categories are available to new businesses"
+      ],
+      "correctIndex": 1,
+      "explanation": "The SOP states the 10% energy reduction category may not be used for Projects involving new businesses (a new business has no existing consumption to reduce). No such restriction is stated for the renewable or sustainable design categories.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. A.2.a.i",
+      "difficulty": "basic"
+    },
+    {
+      "id": "c1-p1-q11",
+      "question": "An Applicant's renewable energy Project is supported by an energy study prepared by the Third Party Lender's in-house engineering staff, expressing savings in dollars per year. What is wrong?",
+      "options": [
+        "Nothing; any professional study is acceptable",
+        "Only the dollar measurement is a problem",
+        "Only the preparer is a problem",
+        "Both: the study must be by an independent third party (not the TPL or its affiliates) and based on actual energy units, not dollar costs"
+      ],
+      "correctIndex": 3,
+      "explanation": "The energy audit, engineering report or other evaluation must be performed by an independent third party other than the Applicant, interim lender, TPL or their affiliates, and must measure actual energy usage such as kilowatt hours, therms or gallons, not dollar costs. Both problems must be fixed.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. A.2.a.iv",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c1-p1-q12",
+      "question": "A 504 loan has a 25-year debenture. What is the minimum term for the Third Party Loan?",
+      "options": [
+        "7 years",
+        "10 years",
+        "20 years",
+        "25 years"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Third Party Loan must have a term of at least 10 years when the 504 loan is 20 or 25 years, and at least 7 years when the 504 loan is 10 years. 7 years is the trap from the 10-year debenture rule.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. D.2",
+      "difficulty": "basic"
+    },
+    {
+      "id": "c1-p1-q13",
+      "question": "IDB proceeds will fund the Borrower's Contribution. Which condition is required?",
+      "options": [
+        "The bond issuer's lien must be senior to SBA's lien",
+        "The Borrower may repay the bond loan on any schedule it chooses",
+        "SBA's lien position must not be subordinate to the bond issuer's lien",
+        "The Project must also be financed with Federal tax-exempt obligations"
+      ],
+      "correctIndex": 2,
+      "explanation": "When bond proceeds fund the Borrower's Contribution, SBA's lien must not be subordinate to the bond issuer's lien, and the Borrower may not repay that loan faster than the 504 loan without D/FA (or designee) approval. SBA may not participate at all in Projects financed by Federal tax-exempt obligations.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. B.3.b",
+      "difficulty": "applied"
+    },
+    {
+      "id": "c1-p1-q14",
+      "question": "Which benchmark is most commonly used to price a 20-year 504 debenture?",
+      "options": [
+        "The 10-year Treasury rate",
+        "The 5-year Treasury rate",
+        "The Prime rate",
+        "The SOFR rate"
+      ],
+      "correctIndex": 0,
+      "explanation": "The SOP says the 10-year Treasury rate is most commonly the benchmark for 20- and 25-year debentures, while the 5-year Treasury is the benchmark for the 10-year debenture.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. D.3",
+      "difficulty": "basic"
+    }
+  ]
+}

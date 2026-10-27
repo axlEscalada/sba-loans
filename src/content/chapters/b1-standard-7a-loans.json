@@ -1,0 +1,415 @@
+{
+  "id": "b1-standard-7a-loans",
+  "order": 210,
+  "part": "B",
+  "program": "7a",
+  "title": "Standard 7(a) Loans (over $350,000)",
+  "subtitle": "Section B intro and Chapter 1: loan limits, rate caps, credit memo requirements, DSC and equity for Standard 7(a) loans",
+  "sopRef": "SOP 50 10 8.1, Section B, Ch. 1",
+  "estimatedMinutes": 55,
+  "learningObjectives": [
+    "Explain how Section B relates to Section A and which loans are Standard 7(a) loans",
+    "State the $5,000,000 loan maximum, the affiliate rule and the variable rate caps by loan size",
+    "Contrast non-delegated and PLP processing and who decides credit and equity",
+    "List the required components of a Standard 7(a) credit memorandum",
+    "Apply the 1.15 business DSC, 1:1 global DSC and projection rules",
+    "Calculate the start-up 10% equity injection and identify acceptable sources of equity"
+  ],
+  "topics": [
+    {
+      "id": "b1-section-b-orientation",
+      "title": "Section B orientation and what counts as a Standard 7(a) loan",
+      "body": "Section B of SOP 50 10 8.1 holds the rules that are specific to SBA's 7(a) business loan programs. It never stands alone: it sits on top of Section A, the Core Requirements for all 7(a) and 504 loans. The SOP repeats this at the start of almost every chapter, and it is the first habit to build: **always start with Section A**, then layer on the program-specific rules in Section B.\n\n**A few framing points from the Section B introduction:**\n\n- **PPP loans are 7(a) loans.** Paycheck Protection Program loans were authorized under section 7(a)(36) of the Small Business Act, so the SOP applies to them too, except where PPP-specific requirements supersede or conflict with it.\n- **Veterans get special consideration.** For loans SBA processes under non-delegated procedures, SBA will prioritize applications from veteran-owned businesses. For delegated loans, SBA encourages Lenders to give veterans special consideration during application processing.\n\n#### What is a \"Standard 7(a)\" loan?\n\nChapter 1 covers **Standard 7(a) Loans**: 7(a) loans **greater than $350,000**. The definition is partly by size and partly by exclusion. A Standard 7(a) loan is not any of the following, even if it is over $350,000:\n\n| Excluded product | Where it is covered |\n|---|---|\n| 7(a) Small (term loans of $350,000 or less) | Section B, Ch. 2 |\n| SBA Express | Section B, Ch. 2 |\n| Export Express, EWCP, International Trade | Other Section B chapters |\n| CAPLines | Other Section B chapters |\n| Pilot Program loans | Program-specific guidance |\n\nSo a $1.2 million term loan to buy a building, processed by a PLP Lender, is a Standard 7(a) loan. A $450,000 SBA Express line of credit is not, even though it is above $350,000.\n\n> **In practice:** In lender software, \"Standard 7(a)\" is usually the default product type once the amount crosses $350,000. Watch for the exclusions: a product code like Express, CAPLines or EWCP takes the loan out of Chapter 1 regardless of amount.",
+      "keyPoints": [
+        "Section B always builds on Section A, Core Requirements - read Section A first",
+        "PPP loans are 7(a) loans; the SOP applies unless PPP-specific rules supersede it",
+        "SBA prioritizes veteran-owned applications on non-delegated loans and encourages Lenders to do so on delegated loans",
+        "Standard 7(a) = 7(a) loans greater than $350,000, excluding 7(a) Small, Express, Export Express, CAPLines, EWCP, International Trade and Pilot loans"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Introduction and Ch. 1"
+    },
+    {
+      "id": "b1-uses-limits-roadmap",
+      "title": "Uses of proceeds, the $5 million cap, and where the details live",
+      "body": "Chapter 1 is short on purpose: many of the detailed Standard 7(a) rules sit in the 7(a) appendices. Think of this chapter as a roadmap that tells you which appendix paragraph applies to Standard 7(a) loans.\n\n#### Eligible uses of proceeds\n\nStandard 7(a) loans can use proceeds for everything allowed under the Core Requirements, plus:\n\n- **Debt refinancing** - governed by Appendix 14, Para. B.1 (the Standard 7(a) rules for refinancing).\n- **Change of ownership** - governed by Appendix 15, 7(a) Changes of Ownership.\n\n#### Maximum loan amount\n\n- The maximum for **any one Standard 7(a) loan is $5,000,000**.\n- **Affiliates count (13 CFR 120.151).** Lenders must determine whether the Applicant has any affiliates and document the result in the credit analysis. If affiliation exists, SBA's loan maximums apply to the Applicant **and all affiliates as if they were a single business**.\n\n> **Watch out:** The $5,000,000 limit is not just per borrower entity. If the Applicant's affiliate already has SBA debt, that exposure is aggregated with the new request when testing the loan maximums.\n\n#### Pointers to the appendices\n\n| Topic | Where to look for Standard 7(a) |\n|---|---|\n| Debt refinancing | Appendix 14, Para. B.1 |\n| Changes of ownership | Appendix 15 |\n| Maximum guaranty amounts and percentages | Appendix 16, Para. B.1 |\n| Loan maturities | Appendix 17, Para. B.1 |\n| Interest rates | Appendix 18, Para. B.1 |\n| Collateral | Appendix 19, plus Standard 7(a) program-specific requirements |\n| Personal guaranties | Section A, Ch. 5, Para. A |\n| Submitting the guaranty application | Appendix 20 |\n\n> **In practice:** When a credit officer asks \"what's the max maturity\" or \"do we need to take a lien on the house\", the answer for a Standard 7(a) loan is in the appendix paragraph for Standard 7(a), not in Chapter 1 itself. Learn the map; the appendix chapters of this course cover each one.",
+      "keyPoints": [
+        "Maximum for any one Standard 7(a) loan is $5,000,000",
+        "Lenders must determine and document affiliates (13 CFR 120.151); loan maximums apply to Applicant plus all affiliates as one business",
+        "Debt refinancing rules: Appendix 14, Para. B.1; change of ownership: Appendix 15",
+        "Guaranty percentages, maturities, interest rates and collateral live in Appendices 16, 17, 18 and 19",
+        "Guaranty requirements: Section A, Ch. 5, Para. A; application submission: Appendix 20"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 1, Paras. A and B; Para. C.3; Para. D"
+    },
+    {
+      "id": "b1-interest-rate-caps",
+      "title": "Maximum interest rates for Standard 7(a) loans",
+      "body": "SBA does not set the rate on a 7(a) loan, but it does cap it. The detailed rules are in Appendix 18, Para. B.1; Chapter 1 includes a quick reference chart that every new team member should be able to recite.\n\n**Fixed rates:** the maximum allowable fixed rate is published on SBA's Wiki page and is not stated in the SOP itself.\n\n**Variable rates:** the maximum is a spread over the base rate, which is either **Prime** or the **SBA Optional Peg Rate**. The allowed spread shrinks as the loan size grows:\n\n| Loan amount | Maximum variable rate |\n|---|---|\n| $50,000 or less | Prime or SBA Optional Peg Rate + 6.5% |\n| $50,001 up to and including $250,000 | Prime or SBA Optional Peg Rate + 6.0% |\n| $250,001 up to and including $350,000 | Prime or SBA Optional Peg Rate + 4.5% |\n| $350,001 and greater | Prime or SBA Optional Peg Rate + 3.0% |\n\nBecause a Standard 7(a) loan is by definition greater than $350,000, the row that matters in practice for Chapter 1 loans is the last one: **base + 3.0%**. The smaller tiers are shown on the chart because the same table structure applies across the 7(a) products.\n\n#### Why the tiers matter\n\nThe rate cap is tested against the **loan amount**, so a change in loan amount can move a loan into a different tier. For example, a loan that is increased from $340,000 to $400,000 crosses $350,000: its maximum spread drops from 4.5% to 3.0%, and (as Chapter 2 explains) a 7(a) Small loan increased above $350,000 becomes a Standard 7(a) loan.\n\n> **Watch out:** A common mistake is to remember the old idea that \"bigger loans get the biggest spread.\" The opposite is true: the largest loans get the tightest cap.\n\n> **In practice:** Lender systems typically validate the spread at data entry. If you are building rate logic, key it off the tier boundaries exactly as written (\"$50,001 up to and including $250,000\"), and pull the fixed-rate maximum from SBA's published source rather than hard-coding it.",
+      "keyPoints": [
+        "Maximum fixed rate is published on SBA's Wiki page",
+        "Variable caps use Prime or the SBA Optional Peg Rate as the base",
+        "$50,000 or less: base + 6.5%; $50,001-$250,000: base + 6.0%",
+        "$250,001-$350,000: base + 4.5%; $350,001 and greater: base + 3.0%",
+        "Standard 7(a) loans (over $350,000) are capped at base + 3.0% variable"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 1, Para. B.4; Appendix 18, Para. B.1"
+    },
+    {
+      "id": "b1-credit-standards-processing",
+      "title": "Credit standards and the two processing methods",
+      "body": "SBA's credit standards start with **13 CFR 120.101** (credit not available elsewhere) and **13 CFR 120.150** (what SBA looks for in deciding whether to make a loan). Chapter 1 adds the procedural detail of what a Lender should or must consider for a Standard 7(a) request.\n\n#### The core principle: cash flow repays the loan\n\nA Lender must analyze each application in a **commercially reasonable manner, consistent with prudent lending standards**. The **cash flow of the Applicant is the primary source of repayment**, not expected recovery from liquidating collateral. If the Lender's analysis shows the Applicant lacks reasonable assurance of repayment in a timely manner from business cash flow, the loan **must be declined**, regardless of the collateral available or outside sources of repayment.\n\n> **Watch out:** \"But it's fully secured by real estate\" is never a reason to approve a 7(a) loan with weak cash flow. Collateral mitigates loss; it does not establish repayment ability.\n\n#### Non-delegated vs. PLP\n\n| | Non-delegated | PLP (Preferred Lender Program) |\n|---|---|---|\n| What the Lender sends SBA | The application and supporting documents | The guaranty request under its PLP authority |\n| Who decides eligibility and credit | **SBA** makes the final determination | The **Lender** analyzes creditworthiness under SBA Loan Program Requirements |\n| What SBA decides on | Eligibility, creditworthiness, uses of proceeds, adequacy of collateral, loan structure, any required equity contribution | Nothing before the loan number is issued: SBA does not review the credit or structure first |\n| When SBA reviews the analysis | Up front, before approval | Later: when the Lender requests guaranty purchase, or during lender oversight |\n\nThe PLP model shifts risk to the Lender. Because SBA does not look at the file before the loan number is issued, a weak or poorly documented analysis typically surfaces at guaranty purchase, when SBA reviews it for adequacy and can seek repair or denial.\n\n> **In practice:** \"Properly document its file\" is the operative phrase for PLP Lenders. Software that helps a PLP Lender build a complete, consistent credit memo is directly protecting the guaranty.",
+      "keyPoints": [
+        "Credit standards start with 13 CFR 120.101 and 120.150",
+        "Business cash flow is the primary source of repayment, not collateral liquidation",
+        "If cash flow does not reasonably assure timely repayment, the loan must be declined regardless of collateral",
+        "Non-delegated: SBA makes the final eligibility and credit determination, including collateral, structure and equity",
+        "PLP: SBA does not review credit or structure before issuing the loan number; it reviews at purchase or during oversight"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 1, Para. C.1"
+    },
+    {
+      "id": "b1-credit-memo-business",
+      "title": "The credit memo, part 1: describing the business and its management",
+      "body": "For Standard 7(a) loans the SOP spells out what the Lender's credit memorandum must contain. The overall test is that the memo addresses the Applicant's **ability and likelihood to repay the loan from the cash flow of the business and past performance**. The first required block is a description and history of the business.\n\n#### Required description and history\n\n1. **Nature of the business** - what it does and how it makes money.\n2. **Length of time in business under current management** - not just how long the company has existed.\n3. **Depth of management experience** in the industry or a related industry.\n4. **The management team**, including each principal's involvement in daily onsite management, or, if the principals are not there daily, how daily operations will be managed.\n5. **Management agreements.** If daily operations will be handled under a management agreement, the Lender must:\n   - obtain a copy of the management agreement,\n   - review it to determine whether it results in an **ineligible passive business**, and\n   - keep it in the loan file.\n\n   The one exception: the Lender does not need to obtain the agreement if it is part of the franchise disclosure documents for a brand listed on SBA's **Franchise Directory**.\n\n#### Why management gets so much attention\n\nAn SBA loan is underwritten on the expectation that the business, as run by these people, will generate the cash to repay. Two things can undermine that:\n\n- **Inexperienced management**, which raises repayment risk and should be discussed.\n- **A hands-off owner** who hands operations to a third-party manager. If the arrangement makes the Applicant a passive business, the loan is ineligible, which is a far bigger problem than credit risk.\n\n> **Watch out:** A hotel or similar business run by a management company is the classic case. If the brand is on the Franchise Directory and the management agreement is part of the franchise disclosure documents, the Lender does not need a separate copy. Otherwise it must obtain, review and retain it.\n\n> **In practice:** \"Length of time under current management\" matters for change of ownership deals: a business with 20 years of history under a seller who is leaving tells you less about future performance than the buyer's own industry experience.",
+      "keyPoints": [
+        "The credit memo must address ability and likelihood to repay from business cash flow and past performance",
+        "Describe nature of business, time under current management, management depth, and principals' daily involvement",
+        "If a management agreement will run daily operations, obtain, review for ineligible passive business, and retain it",
+        "Exception: management agreements that are part of franchise disclosure documents for a Franchise Directory brand"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 1, Para. C.2.a"
+    },
+    {
+      "id": "b1-financial-analysis",
+      "title": "The credit memo, part 2: financial analysis of repayment ability",
+      "body": "The heart of a Standard 7(a) credit memo is the financial analysis. What the Lender must analyze depends on whether the business has a track record.\n\n#### Existing businesses vs. start-ups\n\n- **Existing businesses:** analysis is based on the **three most recent years** of historical financial information (tax returns, or a balance sheet with debt schedule and income statement) **plus an interim financial statement** (13 CFR 120.191).\n- **Start-ups, new businesses, and other projection-based applications:** detailed projections with supporting assumptions that show a **debt service coverage of 1.15 or greater within 2 years from loan funding**, or, for construction projects, **within 2 years from the end of construction**.\n\n#### Personal credit\n\nThe Lender must review and analyze the personal credit reports of the Applicant's owners and Guarantors and discuss any credit issues. For **non-delegated** loans, a copy of the credit report **dated within 90 days** must be included with the documents submitted in the SBA Loan System.\n\n#### What the analysis must address (as applicable)\n\n1. **Historical cash flow** showing total debt service coverage **after** the SBA loan. If the most recent full year plus interim statements do not show sufficient coverage, the Lender must obtain and analyze **2 years of detailed projections**, with assumptions that justify relying on projections instead of history.\n2. **EBITDA** calculation.\n3. **Justification for additions and subtractions** to cash flow, such as:\n   - unfunded capital expenditures\n   - non-recurring income\n   - expenses and distributions\n   - distributions for S-Corp taxes\n   - rent payments\n   - owner's draw\n   - a **global cash flow analysis** that assesses cash flow to and from any affiliate business (anticipated rental income from the Project Property **may** be included in the global analysis)\n4. The **effect of any affiliates** on the Applicant's ultimate repayment ability.\n\n> **Watch out:** Projections are a fallback, not a shortcut. For an existing business, the Lender may lean on projections only after the historical numbers fall short, and it must explain why projections are more reliable than past performance.\n\n> **In practice:** Every add-back needs a written justification. An unexplained add-back of \"owner's discretionary expenses\" is exactly the kind of thing SBA questions when reviewing a defaulted PLP loan.",
+      "keyPoints": [
+        "Existing businesses: 3 most recent years of financials plus interim (13 CFR 120.191)",
+        "Projection-based applications: DSC of 1.15 or more within 2 years of funding (or of end of construction)",
+        "Non-delegated loans: include a credit report dated within 90 days",
+        "If latest full year plus interim do not show sufficient DSC, obtain and analyze 2 years of detailed projections",
+        "Every cash flow add-back or subtraction must be justified; global cash flow covers affiliates"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 1, Para. C.2.a"
+    },
+    {
+      "id": "b1-debt-service-coverage",
+      "title": "Debt service coverage and projection assumptions",
+      "body": "Debt service coverage (DSC) is the number every 7(a) credit decision turns on. Chapter 1 sets the Standard 7(a) thresholds.\n\n#### Definitions and thresholds\n\n- **Debt Service (DS)** = the **future required principal and interest payments on all business debt**, including the new SBA loan.\n- The Applicant's **DSC must be 1.15 or greater** on a historical and/or projected cash flow basis.\n- On a **global** basis (including owners and affiliates), DSC must be at least **1:1**.\n\nTo do this properly the Lender should obtain a **current debt schedule prepared by the Applicant, including any shareholder debt**. Missing debts make DSC look better than it really is.\n\n| Measure | Minimum for Standard 7(a) |\n|---|---|\n| Business DSC (historical and/or projected) | 1.15 |\n| Global DSC | 1.00 |\n| Projected DSC for start-ups / projection-based loans | 1.15 within 2 years of funding (or end of construction) |\n\n#### Rules for projections\n\nWhen the Lender relies on projected cash flow, it must calculate DSC and document the assumptions behind it, including as applicable:\n\n1. **Justification for revenue growth** - for example new product lines, sales channels, or new production facilities.\n2. **Justification for any reduction in expenses.**\n3. **A comparison to current industry trends.**\n\nOne important restriction: projected DSC **may not include anticipated cash flow from rental income from the Project Property**. Contrast this with the global cash flow analysis, where that rental income **may** be included.\n\n> **Watch out:** The rental-income rule is easy to get backwards. Rental income from the Project Property is allowed in the **global** cash flow analysis but **not** in the projected debt service coverage calculation.\n\n#### Worked example\n\nA business shows operating cash flow of $460,000. Total annual debt service on all business debt after the new loan is $400,000. DSC = 460,000 / 400,000 = **1.15**, which just meets the Standard 7(a) minimum. If the Applicant forgot a $30,000-per-year shareholder note on the debt schedule, true DS is $430,000 and DSC drops to about 1.07, below the minimum.",
+      "keyPoints": [
+        "Debt Service = future required principal and interest on all business debt, including the new SBA loan",
+        "Standard 7(a) DSC must be at least 1.15 (historical and/or projected) and 1:1 on a global basis",
+        "Obtain a current Applicant-prepared debt schedule, including shareholder debt",
+        "Projected DSC may not include anticipated rental income from the Project Property",
+        "Projection assumptions must justify revenue growth and expense reductions and compare to industry trends"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 1, Para. C.2.a"
+    },
+    {
+      "id": "b1-balance-sheet-collateral-insurance",
+      "title": "Balance sheet, ratios, working capital, collateral, insurance and refinancing",
+      "body": "Beyond cash flow, the Standard 7(a) credit memo must cover the shape of the balance sheet after the loan and the protections around it.\n\n#### Pro forma balance sheet and ratios\n\n- **Spread a pro forma business balance sheet**: the current balance sheet adjusted for all changes in assets and liabilities caused by the SBA loan, other debt, any required equity injection, and the use of proceeds.\n- **Calculate ratios** from the pro forma balance sheet and the historical and projected income statements. At minimum:\n  - Current Ratio\n  - Debt / Tangible Net Worth\n  - Debt Service Coverage\n  - Any other ratios the Lender considers significant for the business or industry (for example inventory, receivables and payables turnover)\n- **Compare to industry trends** and discuss that comparison.\n\n#### Working capital\n\nThe Lender must analyze working capital adequacy **at a minimum over the next 12 months**.\n\n#### Collateral\n\nAssess collateral adequacy, adjusted in accordance with **Appendix 19 (7(a) Collateral Requirements)**, to offset the risk of default. Guaranty requirements are in Section A, Ch. 5, Para. A.\n\n#### Insurance\n\n- **Life insurance:** state on whom and how much. If life insurance will not be required, the memo must **justify** that.\n- **Business hazard and liability insurance.**\n\n#### Debt refinancing\n\nIf the loan refinances any debt, the memo must explain and justify it with supporting documentation, following **Appendix 14 (7(a) Debt Refinancing Requirements)**, and must include a **written explanation for any late payments over the past 12 months**.\n\n> **Watch out:** \"No life insurance\" is allowed, but silence is not. The memo must either name the insured and amount or explain why it is not required.\n\n> **In practice:** The pro forma balance sheet is where a missing equity injection becomes visible. If the deal needs a 10% injection, the pro forma should show the cash or assets coming in; if it does not, the equity and DSC analysis will not reconcile.",
+      "keyPoints": [
+        "Spread a pro forma balance sheet reflecting the SBA loan, other debt, equity injection and use of proceeds",
+        "Required ratios: Current Ratio, Debt/Tangible Net Worth, DSC, plus industry-relevant ratios compared to industry trends",
+        "Analyze working capital adequacy for at least the next 12 months",
+        "Collateral adequacy is assessed per Appendix 19",
+        "Life insurance: say on whom and how much, or justify not requiring it",
+        "Refinancing must follow Appendix 14 and explain any late payments in the past 12 months"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 1, Para. C.2.a"
+    },
+    {
+      "id": "b1-approval-rationale",
+      "title": "The credit memo, part 3: the Lender's rationale for approval",
+      "body": "The last required block of a Standard 7(a) credit memo is the Lender's rationale for recommending approval. This is where the Lender pulls the analysis together and addresses specific risk factors SBA wants to see discussed.\n\n#### Required discussion items\n\n1. **Credit not available elsewhere** - the factors showing the Applicant cannot get credit on reasonable commercial terms from non-Federal, non-State, non-local government sources (Section A, Ch. 1, Para. H).\n2. **Working capital at 50% or more** - when 50 percent or more of the loan proceeds will be used for working capital, the Lender must explain why that level is necessary and appropriate for the business.\n3. **Competition.**\n4. **Seller financing.**\n5. **Standby agreements.**\n6. **90+ day delinquencies.**\n7. **Trade disputes.**\n8. **Federal, State, or local citations** that would preclude normal business operations.\n9. **Business valuation (change of ownership)** - discussion and analysis of the valuation used to support the purchase price (Appendix 15, Para. C.1.a).\n10. **Liens, judgments, bankruptcy filings, or pending litigation, including divorce proceedings.**\n11. **Franchises** - if the application involves a franchise as defined by the FTC, the Lender must review any credit information provided, such as the number of failed franchisees and the franchisor's cash flow projections.\n12. **Other relevant information.**\n\n#### Reading the list like an examiner\n\nMany of these items point to hidden claims on cash flow or on ownership:\n\n- Seller notes and standby debt affect both DSC and equity.\n- Liens, judgments and litigation (including a divorce) can threaten the owner's ability to keep and run the business.\n- Delinquencies over 90 days and trade disputes are early warning signs of cash stress.\n\n> **Watch out:** The working capital explanation is triggered by the share of proceeds, not the dollar amount. A $2,000,000 loan with $1,000,000 for working capital is exactly at 50% and requires the explanation.\n\n> **In practice:** A credit memo template for Standard 7(a) loans should have a heading for each of these items so nothing is skipped. \"Not applicable\" is a valid answer; a missing section is not.",
+      "keyPoints": [
+        "The memo must document why credit is not available elsewhere (Section A, Ch. 1, Para. H)",
+        "If 50% or more of proceeds are working capital, explain why that level is necessary and appropriate",
+        "Discuss competition, seller financing, standby agreements, 90+ day delinquencies, trade disputes and citations",
+        "Change of ownership: analyze the business valuation supporting the purchase price (Appendix 15, Para. C.1.a)",
+        "Discuss liens, judgments, bankruptcies and litigation, including divorce; review franchisor credit information"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 1, Para. C.2.a"
+    },
+    {
+      "id": "b1-equity-requirements",
+      "title": "Equity requirements and the start-up 10% injection",
+      "body": "SBA wants the owners to have meaningful money at risk. The equity rules for Standard 7(a) loans come from **13 CFR 120.150**.\n\n#### Who decides whether equity is sufficient\n\n- **PLP loans:** the **Lender** determines it.\n- **Non-delegated loans:** **SBA** determines it.\n\nEither way, the question is whether the equity position, any required equity contribution, and the **pro forma debt-to-worth** are acceptable given the type of business, management experience, and the level of competition in the market area. The Lender's credit memo must include a **detailed discussion of the equity position (net worth) and any required equity injection**. Documentation and verification of the injection are covered in Section B, Ch. 6, Para. D.3.\n\n#### Start-up businesses: 10% minimum\n\n- A business is a **start-up** for equity purposes if it has been in operation (generating revenue from intended operations) for **1 year or less**.\n- SBA requires an equity injection of **at least 10 percent of total project costs**.\n- **Total project costs** = all costs required to become operational, **regardless of the source of funds**, **except lines of credit and 504 loans**.\n- The 10% applies to **all 7(a) loans made to a start-up**.\n- Loans **approved more than 90 days apart** are treated as **separate projects**.\n\n**Example:** A start-up restaurant needs $1,000,000 to open: $800,000 Standard 7(a) loan for build-out and equipment, a $100,000 landlord tenant-improvement allowance, and a $100,000 owner contribution. Total project cost is $1,000,000, so required injection is at least $100,000. The owner's $100,000 meets the minimum. A revolving line of credit opened for inventory would not be counted in project costs.\n\n#### Changes of ownership\n\nChange of ownership transactions have their own equity rules in **Appendix 15**.\n\n> **Watch out:** The 90-day rule cuts both ways. Two 7(a) loans to the same start-up approved 60 days apart are one project, so the 10% is measured on the combined costs. Approvals more than 90 days apart are separate projects.\n\n> **In practice:** \"In operation\" means generating revenue from intended operations. A company formed three years ago that has only just started selling is still a start-up for this purpose.",
+      "keyPoints": [
+        "Equity sufficiency is determined by the Lender for PLP loans and by SBA for non-delegated loans (13 CFR 120.150)",
+        "The credit memo must discuss equity position (net worth) and any required injection in detail",
+        "Start-up = in operation (generating revenue from intended operations) 1 year or less",
+        "Start-ups require at least 10% of total project costs; lines of credit and 504 loans are excluded from project costs",
+        "Loans approved more than 90 days apart are separate projects; change of ownership equity rules are in Appendix 15"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 1, Para. C.2.b"
+    },
+    {
+      "id": "b1-sources-of-equity",
+      "title": "What counts as equity injection",
+      "body": "Not every dollar an owner brings to the table qualifies as equity. Chapter 1 lists what **may** be considered equity injection.\n\n| Source | Counts as equity when... |\n|---|---|\n| **Standby debt** | It is on **full standby**: no payments of principal or interest for the term of the 7(a) loan |\n| **Cash not borrowed** | It is the business's own cash or comes from other non-borrowed sources, such as a gift |\n| **Personal loan proceeds** | Repayment comes from a source **other than business cash flow** (salary paid to the owner by the business does not qualify) |\n| **Grants** | They have **no repayment or clawback provisions** during the life of the 7(a) loan |\n| **Non-cash assets** | Valued at net book value, or if valued higher, supported by an **independent third-party appraisal or valuation** |\n| **Prepaid expenses** | Eligible, and verified by paid invoices, canceled checks or bank statements kept in the loan file |\n| **Equity investments** | Not subject to an agreement to repay equity or make distributions to recover the investment before the guaranty is released |\n\n#### Standby agreement details\n\n- Use **SBA Form 155** or the Lender's equivalent standby agreement, with a **copy of the note attached**.\n- The standby debt **may accrue interest**, which may be added to the standby debt and **amortized after the 7(a) loan is paid in full**.\n- The standby creditor must **subordinate its lien rights** in collateral securing the loan to the Lender's rights, and take **no action** against the Borrower or collateral without the Lender's consent.\n\n#### Common traps\n\n- **Assets valued above net book value** need an appraisal or valuation by an independent third party. A valuation of fixed assets that is part of a **business valuation does not satisfy** this requirement.\n- **Ineligible prepaid expenses:** education costs, advisory services, and fees paid by the Applicant to an **Agent** are not equity.\n- **Redeemable preferred stock** and similar instruments that must be repaid or bought back before the guaranty is released are treated as **debt, not equity**.\n\n> **Watch out:** A seller note that requires even interest-only payments during the 7(a) loan term is not on full standby, so it cannot be counted as equity.\n\n> **In practice:** For a personal loan to count, the memo should show where the owner will get the money to repay it (for example a spouse's W-2 income), because the owner's salary from the business is excluded.",
+      "keyPoints": [
+        "Standby debt counts only on full standby: no principal or interest payments for the term of the 7(a) loan",
+        "Use SBA Form 155 or equivalent with the note attached; standby creditor subordinates liens and takes no action without Lender consent",
+        "Personal loan proceeds count only if repaid from a source other than business cash flow (owner salary does not qualify)",
+        "Grants count only if they have no repayment or clawback provisions during the life of the 7(a) loan",
+        "Assets valued above net book value need an independent third-party valuation; a business valuation does not suffice",
+        "Fees paid to an Agent, education and advisory expenses are not equity; redeemable investments are debt"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 1, Para. C.2.b"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Standard 7(a) Loan",
+      "definition": "A 7(a) loan greater than $350,000, excluding 7(a) Small, SBA Express, Export Express, CAPLines, EWCP, International Trade and Pilot Program loans. Maximum of $5,000,000 per loan."
+    },
+    {
+      "term": "Affiliate",
+      "definition": "A business or person whose relationship to the Applicant causes SBA to combine them for loan maximums; under 13 CFR 120.151 the Applicant and all affiliates are treated as a single business."
+    },
+    {
+      "term": "Non-delegated processing",
+      "definition": "Processing method where the Lender submits the application to SBA and SBA makes the final eligibility and credit determination."
+    },
+    {
+      "term": "PLP (Preferred Lender Program)",
+      "definition": "Delegated processing where SBA issues a loan number without first reviewing the Lender's credit analysis; SBA reviews it at guaranty purchase or during lender oversight."
+    },
+    {
+      "term": "Debt Service (DS)",
+      "definition": "Future required principal and interest payments on all business debt, including the new SBA loan proceeds."
+    },
+    {
+      "term": "Debt Service Coverage (DSC)",
+      "definition": "Operating cash flow divided by debt service. Standard 7(a) requires at least 1.15 (historical and/or projected) and 1:1 on a global basis."
+    },
+    {
+      "term": "EBITDA",
+      "definition": "Earnings before interest, taxes, depreciation and amortization; the starting point for operating cash flow in the repayment analysis."
+    },
+    {
+      "term": "Global cash flow analysis",
+      "definition": "Cash flow analysis that combines the Applicant with owners and affiliates and assesses cash flow to and from affiliate businesses."
+    },
+    {
+      "term": "Start-Up Business",
+      "definition": "For equity purposes, a business in operation (generating revenue from intended operations) for 1 year or less; requires at least a 10% equity injection of total project costs."
+    },
+    {
+      "term": "Total project costs",
+      "definition": "All costs required to become operational, regardless of source of funds, except lines of credit and 504 loans."
+    },
+    {
+      "term": "Full standby",
+      "definition": "Debt on which no principal or interest is paid for the term of the 7(a) loan; only such debt may count as equity."
+    },
+    {
+      "term": "SBA Form 155",
+      "definition": "SBA's Standby Agreement form; Lenders may use it or their own equivalent, with a copy of the standby note attached."
+    },
+    {
+      "term": "SBA Optional Peg Rate",
+      "definition": "An SBA-published base rate that may be used instead of Prime when setting and capping variable 7(a) interest rates."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "b1-q1",
+      "question": "What is the maximum amount of any one Standard 7(a) loan?",
+      "options": [
+        "$350,000",
+        "$500,000",
+        "$5,000,000",
+        "$5,500,000"
+      ],
+      "correctIndex": 2,
+      "explanation": "Chapter 1 sets the maximum for any one Standard 7(a) loan at $5,000,000. $350,000 is the dividing line between 7(a) Small and Standard 7(a), and $500,000 is the SBA Express maximum.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 1, Para. B.1",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b1-q2",
+      "question": "What is the maximum variable interest rate on a Standard 7(a) loan of $1,500,000?",
+      "options": [
+        "Prime or SBA Optional Peg Rate + 3.0%",
+        "Prime or SBA Optional Peg Rate + 4.5%",
+        "Prime or SBA Optional Peg Rate + 6.0%",
+        "Prime or SBA Optional Peg Rate + 6.5%"
+      ],
+      "correctIndex": 0,
+      "explanation": "Loans of $350,001 and greater are capped at base + 3.0%. The 4.5% spread applies to loans from $250,001 up to and including $350,000, and higher spreads apply only to smaller loans.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 1, Para. B.4",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b1-q3",
+      "question": "What minimum debt service coverage ratio must a Standard 7(a) Applicant show on a historical and/or projected basis, and on a global basis?",
+      "options": [
+        "1.15 business and 1:1 global",
+        "1.10 business and 1.10 global",
+        "1.25 business and 1.15 global",
+        "1.15 business and 1.15 global"
+      ],
+      "correctIndex": 0,
+      "explanation": "The SOP requires DSC of 1.15 or greater on a historical and/or projected basis and 1:1 on a global basis. 1.10 is the 7(a) Small threshold, not Standard 7(a).",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 1, Para. C.2.a",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b1-q4",
+      "question": "A Lender is building projected cash flow for a Standard 7(a) loan to buy a building that the Applicant will partly occupy and partly lease to tenants. How should the anticipated rental income from the Project Property be treated?",
+      "options": [
+        "It may be included in both the projected DSC and the global cash flow analysis",
+        "It may be included in the global cash flow analysis but not in the projected DSC calculation",
+        "It may be included in the projected DSC but not in the global cash flow analysis",
+        "It may not be included anywhere in the analysis"
+      ],
+      "correctIndex": 1,
+      "explanation": "The SOP says the projected DSC calculation may not include anticipated rental income from the Project Property, but that rental income may be included in the global cash flow analysis. The other options reverse or overstate the rule.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 1, Para. C.2.a",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b1-q5",
+      "question": "An existing manufacturer applies for a $2,000,000 Standard 7(a) loan. The most recent full year and the interim statements show DSC of 1.05 after the new loan. What does the SOP require next?",
+      "options": [
+        "Decline immediately, because historical DSC must always be at least 1.15",
+        "Approve if the loan is fully secured by real estate",
+        "Use 12 months of projections showing 1.10 DSC within one year",
+        "Obtain and analyze 2 years of detailed projections with assumptions justifying reliance on projections instead of historical performance"
+      ],
+      "correctIndex": 3,
+      "explanation": "When the most recent full year and interim statements do not show sufficient coverage, the Lender must obtain and analyze 2 years of detailed projections with supporting assumptions. Collateral cannot cure weak cash flow, and the 12-month/1.10 method belongs to 7(a) Small loans.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 1, Para. C.2.a",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b1-q6",
+      "question": "A business that started generating revenue from its intended operations 10 months ago seeks a $900,000 Standard 7(a) loan. Total costs to become operational are $1,200,000, including a $100,000 revolving line of credit from another lender. What is the minimum equity injection?",
+      "options": [
+        "$90,000",
+        "$110,000",
+        "$120,000",
+        "$240,000"
+      ],
+      "correctIndex": 1,
+      "explanation": "The business is a start-up (1 year or less in operation), so it needs at least 10% of total project costs. Lines of credit are excluded, so project cost is $1,100,000 and the minimum is $110,000. $120,000 wrongly includes the line of credit; $90,000 is 10% of the loan, not the project.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 1, Para. C.2.b",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b1-q7",
+      "question": "Which of the following may count as equity injection for a Standard 7(a) loan?",
+      "options": [
+        "A seller note with interest-only payments during the 7(a) loan term",
+        "Fees the Applicant prepaid to its loan Agent, documented by canceled checks",
+        "A personal loan to the owner that will be repaid from the owner's salary from the business",
+        "A grant with no repayment or clawback provisions during the life of the 7(a) loan"
+      ],
+      "correctIndex": 3,
+      "explanation": "Grants qualify when they have no repayment or clawback provisions during the life of the 7(a) loan. Seller debt must be on full standby with no principal or interest payments, fees paid to an Agent are expressly not equity, and owner salary from the business is not an acceptable repayment source for a personal loan.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 1, Para. C.2.b",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b1-q8",
+      "question": "Under PLP processing of a Standard 7(a) loan, when does SBA review the adequacy of the Lender's credit analysis?",
+      "options": [
+        "Before issuing the SBA loan number",
+        "Only if the loan exceeds $2,000,000",
+        "Never; PLP credit decisions are final",
+        "When the Lender requests guaranty purchase or during lender oversight activities"
+      ],
+      "correctIndex": 3,
+      "explanation": "For PLP loans SBA does not review the credit or structure before issuing a loan number; the analysis is subject to SBA review when the Lender requests purchase or during oversight. Review before the loan number is how non-delegated processing works.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 1, Para. C.1",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b1-q9",
+      "question": "A franchised hotel will be run day-to-day by a third-party management company. The brand is not listed on the SBA Franchise Directory. What must the Lender do with the management agreement?",
+      "options": [
+        "Obtain a copy, review it to determine whether it results in an ineligible passive business, and retain it in the loan file",
+        "Nothing; management agreements are a franchisor matter",
+        "Send it to SBA for approval before submitting the guaranty request",
+        "Obtain it only if the loan is processed non-delegated"
+      ],
+      "correctIndex": 0,
+      "explanation": "If daily operations will be handled under a management agreement, the Lender must obtain it, review it for an ineligible passive business, and retain it. The only exception is an agreement that is part of the franchise disclosure documents for a Franchise Directory brand, which does not apply here.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 1, Para. C.2.a",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b1-q10",
+      "question": "Which statement about non-cash assets offered as equity injection is correct?",
+      "options": [
+        "Any asset may be counted at fair market value based on the owner's estimate",
+        "A fixed asset valuation included in a business valuation is sufficient to support a value above net book value",
+        "An independent third-party appraisal or valuation is required if the fixed assets are valued above net book value",
+        "Non-cash assets can never count as equity"
+      ],
+      "correctIndex": 2,
+      "explanation": "Assets other than cash may count, but an independent third-party appraisal or valuation is required if the value exceeds net book value. The SOP expressly says a fixed-asset valuation provided as part of a business valuation does not meet this requirement.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 1, Para. C.2.b",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b1-q11",
+      "question": "A $1,600,000 Standard 7(a) request has $800,000 earmarked for working capital and the rest for equipment. What must the credit memo contain about this?",
+      "options": [
+        "Nothing special, because working capital is an eligible use",
+        "An explanation of why this level of working capital is necessary and appropriate for the business",
+        "SBA's prior written approval of the working capital amount",
+        "A plan to reduce working capital below 25% of proceeds"
+      ],
+      "correctIndex": 1,
+      "explanation": "When 50 percent or more of proceeds will be used for working capital, the Lender must explain in the credit memo why that level is necessary and appropriate. $800,000 is exactly 50%, so the explanation is required. No SBA prior approval or percentage cap is imposed.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 1, Para. C.2.a",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b1-q12",
+      "question": "An Applicant requests a $4,000,000 Standard 7(a) loan. Its 100%-owned sister company already has a $1,500,000 SBA 7(a) loan. How must the Lender apply the loan maximums?",
+      "options": [
+        "Apply the maximums to the Applicant alone, since the sister company is a separate legal entity",
+        "Ignore affiliates for PLP loans",
+        "Apply SBA loan maximums to the Applicant and all affiliates as if they were a single business, and document the affiliation analysis",
+        "Request an exception to policy from the D/FA"
+      ],
+      "correctIndex": 2,
+      "explanation": "Under 13 CFR 120.151, Lenders must determine and document affiliates, and the loan maximums apply to the Applicant and all affiliates as a single business. Separate legal form does not avoid aggregation, and there is no PLP exemption.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 1, Para. B.1",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b1-q13",
+      "question": "For a Standard 7(a) loan processed non-delegated, how recent must the personal credit report submitted in the SBA Loan System be?",
+      "options": [
+        "Dated within 90 days",
+        "Dated within 30 days",
+        "Dated within 60 days",
+        "Dated within 120 days"
+      ],
+      "correctIndex": 0,
+      "explanation": "For loans processed under non-delegated authority, Lenders must include a copy of the credit report dated within 90 days. 120 days is the dating window for 7(a) Small financial statements, not credit reports.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 1, Para. C.2.a",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b1-q14",
+      "question": "A projection-based Standard 7(a) loan finances construction of a new facility. Construction will take 12 months after first funding. By when must the projections show DSC of at least 1.15?",
+      "options": [
+        "Within 1 year from loan funding",
+        "Within 2 years from the end of construction",
+        "Within 2 years from loan funding, regardless of construction",
+        "Within 3 years from loan approval"
+      ],
+      "correctIndex": 1,
+      "explanation": "For construction projects, projections must reflect DSC of 1.15 or greater within 2 years from the end of construction. For non-construction projection-based loans the clock runs from loan funding. The 1-year window belongs to 7(a) Small projections.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 1, Para. C.2.a",
+      "difficulty": "scenario"
+    }
+  ]
+}

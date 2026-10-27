@@ -1,0 +1,276 @@
+{
+  "id": "appx16-guaranty",
+  "order": 430,
+  "part": "APPX",
+  "program": "7a",
+  "title": "Appendix 16: Maximum Guaranty Amounts and Percentages",
+  "subtitle": "How much of a 7(a) loan SBA will guarantee, program by program, and how exposure is counted",
+  "sopRef": "SOP 50 10 8.1, Appendix 16",
+  "estimatedMinutes": 20,
+  "learningObjectives": [
+    "Apply the $3,750,000 maximum guaranty to a Borrower and all of its affiliates, including EPC/OC pairs",
+    "Identify the maximum guaranty percentage for each 7(a) program and loan size",
+    "Calculate the reduced guaranty percentage when multiple loans are approved within 90 days",
+    "Sequence combined 7(a) and 504 requests correctly with SBA",
+    "Explain why no part of a 7(a) loan may be guaranteed at zero percent"
+  ],
+  "topics": [
+    {
+      "id": "cap-and-exposure",
+      "title": "The $3,750,000 guaranty cap and how exposure is counted",
+      "body": "Every 7(a) loan carries a federal guaranty, which SBA also calls the **SBA share** or the **guaranteed portion**. Appendix 16 puts a ceiling on how much of that guaranty a single business can have outstanding at once.\n\n**The rule:** the maximum dollar amount of SBA's guaranty outstanding to any one business **and its affiliates** must not exceed **$3,750,000** (13 CFR 120.151).\n\n#### What counts toward the cap\n\nWhen a Lender figures out how much guaranty is still available, it must add together:\n\n- The **approved amount of the new loan** being requested, and\n- **Any existing 7(a) or 504 loans** to the Borrower and its affiliates, **including revolving lines of credit**.\n\nTwo points newcomers often miss:\n\n- **Affiliates are included.** The cap is not per legal entity. If an owner controls three companies, the guaranteed exposure across all three counts against one $3,750,000 limit.\n- **An EPC and its OC are \"one business.\"** In a real estate structure where an Eligible Passive Company (EPC) owns the building and leases it to the Operating Company (OC), SBA treats the pair as a single business for this cap.\n\n#### Every program draws from the same bucket\n\nThe cap is shared across 7(a) delivery methods. The guaranteed amount of **7(a) Small loans, SBA Express loans, and Export Express loans** all count toward the same $3,750,000 maximum SBA exposure that may be outstanding to a Borrower and its affiliates at any one time. A small Express line opened last year reduces the room available for a large Standard 7(a) today.\n\nThe one exception in this Appendix is the trade finance family: **EWCP and International Trade (IT) loans** carry a higher maximum guaranty amount of **$4,500,000** (covered in the program topic).\n\n> **In practice:** Before sizing a loan, pull the full SBA exposure of the Applicant and every affiliate, including 504 debentures and undrawn-but-approved revolvers. Lender software that only looks at the single Borrower entity will understate exposure.\n\n> **Watch out:** The cap is on the **guaranteed** amount, not the loan amount. A $5,000,000 Standard 7(a) at 75% produces a $3,750,000 guaranty and uses the entire cap by itself.",
+      "keyPoints": [
+        "Max SBA guaranty outstanding to one business and its affiliates: $3,750,000 (13 CFR 120.151)",
+        "Count the new approved loan plus all existing 7(a) and 504 loans, including revolving lines",
+        "An EPC and its OC are treated as one business for the cap",
+        "7(a) Small, SBA Express and Export Express guaranties all count toward the same $3,750,000",
+        "The guaranty is also called the SBA share or guaranteed portion"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 16, General Requirements, Para. 1"
+    },
+    {
+      "id": "percentages-by-program",
+      "title": "Maximum guaranty percentages by program",
+      "body": "The percentage of each loan SBA will guarantee depends on the loan size and the 7(a) program. Use this table as the master reference.\n\n| Program | Maximum guaranty percentage | Maximum guaranty amount |\n|---|---|---|\n| Standard 7(a) | 85% for loans of $150,000 or less; 75% for loans over $150,000 | $3,750,000 |\n| 7(a) Small | 85% for loans of $150,000 or less; 75% for loans over $150,000 | Counts toward $3,750,000 |\n| SBA Express | 50% | Counts toward $3,750,000 |\n| MARC - Manufacturers (NAICS 31-33) | 85% for loans of $150,000 or less; 75% over $150,000 | $3,750,000 (loans up to $5,000,000) |\n| MARC - all other eligible industries | 85% for loans of $150,000 or less; 75% over $150,000 | $1,500,000 (loans up to $2,000,000) |\n| CAPLines (all variants) | General rules apply (85% / 75%) | $3,750,000 |\n| Export Express | 90% for loans of $350,000 or less; 75% for loans over $350,000 up to $500,000 | Counts toward $3,750,000 |\n| EWCP and International Trade | 90% | $4,500,000 |\n\n#### Reading the table\n\n- **The $150,000 breakpoint** is the general dividing line. At or below it, SBA guarantees up to 85%; above it, up to 75%.\n- **SBA Express is the outlier at 50%.** Express gives the Lender more delegated freedom (its own forms, credit and collateral policies) in exchange for a much smaller guaranty.\n- **Export Express uses a $350,000 breakpoint** and a higher 90% guaranty below it. The program maximum loan amount is **$500,000 gross**.\n- **EWCP and IT** get a flat **90%** and the highest dollar cap, **$4,500,000**, reflecting the policy priority on exporters and trade-impacted businesses.\n- **MARC** follows the general percentages, but its maximum guaranty amount depends on industry: manufacturers in NAICS 31-33 can borrow up to $5,000,000 with up to a $3,750,000 guaranty; all other eligible industries are limited to loans up to $2,000,000 and a $1,500,000 guaranty.\n- **Standard 7(a) and CAPLines** have no program-specific exceptions; all General Requirements apply.\n\n> **In practice:** The percentages are maximums. Whatever percentage applies, the resulting guaranty dollars must also fit under the program's dollar cap after counting the Borrower's and affiliates' existing SBA exposure.",
+      "keyPoints": [
+        "General: 85% for loans of $150,000 or less, 75% over $150,000",
+        "SBA Express guaranty is 50%",
+        "Export Express: 90% up to $350,000; 75% over $350,000 up to $500,000",
+        "EWCP and IT: 90% guaranty, $4,500,000 maximum guaranty amount",
+        "MARC manufacturers (NAICS 31-33): loans up to $5,000,000, guaranty up to $3,750,000",
+        "MARC other industries: loans up to $2,000,000, guaranty up to $1,500,000"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 16, Program-Specific Requirements"
+    },
+    {
+      "id": "multiple-loans-90-days",
+      "title": "Multiple loans within 90 days: blending the guaranty",
+      "body": "A Borrower cannot get around the 75% limit by splitting one large need into several small loans. Under 13 CFR 120.210, SBA looks at loans approved close together as if they were one.\n\n**The rule:** for multiple 7(a) loans approved **within 90 days of each other**, the **gross dollar amounts are combined**. If the combined gross amount **exceeds $150,000**, the guaranty percentage on the combined loans must not be more than **75%** (still subject to the $3,750,000 limit).\n\n#### Worked example from the SOP\n\n| Step | Amount |\n|---|---|\n| Loan 1: $140,000 at 85% guaranty | $119,000 guaranteed |\n| Loan 2 requested within 90 days | $50,000 |\n| Combined gross loans | $190,000 |\n| Maximum combined guaranty (75% x $190,000) | $142,500 |\n| Room left for Loan 2 ($142,500 - $119,000) | $23,500 |\n| Loan 2 guaranty percentage ($23,500 / $50,000) | **47%** |\n\nThe first loan keeps its 85%; it is the **second** loan whose percentage is reduced so the combined guaranty lands at no more than 75% of the total.\n\n#### Export Express version\n\nExport Express has its own breakpoint. Multiple Export Express loans are allowed up to the program maximum of **$500,000 gross**. If multiple Export Express loans are approved within 90 days and the combined gross amount to one Borrower (including affiliates) **exceeds $350,000**, the guaranty on the second loan must be reduced so the combined guaranty is no more than **75%** (subject to the $3,750,000 limit).\n\n> **Watch out:** The 90-day window is measured between **approval** dates, not application or disbursement dates. Your system should flag any SBA loan to the same Borrower or affiliates approved within 90 days before computing the guaranty percentage.\n\n> **In practice:** The formula is simple: (75% x combined gross) minus guaranty already approved = maximum guaranty dollars for the new loan; divide by the new loan amount to get the percentage.",
+      "keyPoints": [
+        "Loans approved within 90 days of each other are combined (13 CFR 120.210)",
+        "If combined gross exceeds $150,000, combined guaranty may not exceed 75%",
+        "The later loan's percentage is reduced, e.g. $140,000 at 85% + $50,000 = second loan at 47%",
+        "Export Express: combine within 90 days; above $350,000 combined, cap at 75%",
+        "Export Express program maximum is $500,000 gross"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 16, General Requirements, Para. 1.d"
+    },
+    {
+      "id": "combos-and-zero-percent",
+      "title": "7(a) plus 504 combinations and the zero percent rule",
+      "body": "#### When an Applicant needs both 7(a) and 504\n\nSome projects use a 504 loan for the real estate and a 7(a) loan for working capital or equipment. Because the $3,750,000 cap is shared across both programs, **the order in which the loans are approved determines the maximum loan and guaranty amount available.**\n\n- **Process and approve the 7(a) first.** The General Requirements say this is due to statutory requirements; the EWCP/IT section adds that the 7(a) loan has the lower maximum guaranteed amount, so it should be approved first.\n- **Tell SBA about the companion loan.** Lenders **must advise the SBA processing centers** that there is a companion 504 application so the 7(a) loan is processed and approved **before** the 504 loan application is processed and approved.\n\nThe same two-step instruction is repeated for EWCP and IT loans, which can also be paired with 504 financing.\n\n> **In practice:** If the 504 is approved first and consumes exposure, the 7(a) may no longer fit under the cap. Coordinating the sequence with the processing center up front avoids having to resize a deal late.\n\n#### No zero percent guaranty for ineligible pieces\n\nLenders sometimes ask whether they can fold an ineligible item into a 7(a) loan and simply leave that piece unguaranteed. The answer is no:\n\n- A 7(a) loan **cannot include proceeds for an ineligible purpose**.\n- **No portion** of the loan may be made to an **ineligible business**.\n- **No part** of an SBA 7(a) loan may be guaranteed at **zero percent**.\n\nIf part of the financing need is ineligible, it must be financed outside the 7(a) loan entirely (for example, with a separate conventional loan, subject to the other SOP rules on piggyback and preference).\n\n> **Watch out:** A request to \"carve out\" an ineligible use by assigning it a 0% guaranty is a red flag. The whole 7(a) loan must be for eligible purposes and eligible businesses.",
+      "keyPoints": [
+        "Approval order of 7(a) and 504 loans determines the maximum loan and guaranty available",
+        "The 7(a) loan should be processed and approved first",
+        "Lenders must advise SBA processing centers of a companion 504 application",
+        "No part of a 7(a) loan may be guaranteed at zero percent",
+        "A 7(a) loan cannot include ineligible proceeds or any portion to an ineligible business"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 16, General Requirements, Para. 1.c and 1.e"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Guaranteed portion (SBA share)",
+      "definition": "The part of a 7(a) loan that SBA guarantees; capped by both a percentage and a dollar amount."
+    },
+    {
+      "term": "Maximum guaranty amount",
+      "definition": "$3,750,000 of SBA guaranty outstanding to one business and its affiliates (13 CFR 120.151); $4,500,000 for EWCP and IT loans."
+    },
+    {
+      "term": "Affiliates",
+      "definition": "Related businesses whose SBA exposure is combined with the Borrower's when applying the guaranty cap."
+    },
+    {
+      "term": "EPC / OC",
+      "definition": "Eligible Passive Company and Operating Company; treated as one business for the maximum guaranty amount."
+    },
+    {
+      "term": "90-day combination rule",
+      "definition": "7(a) loans approved within 90 days of each other are combined; above $150,000 combined, the combined guaranty may not exceed 75% (13 CFR 120.210)."
+    },
+    {
+      "term": "Companion 504 application",
+      "definition": "A 504 loan requested alongside a 7(a) loan; the Lender must tell the SBA processing center so the 7(a) is approved first."
+    },
+    {
+      "term": "Zero percent guaranty",
+      "definition": "Not permitted; no part of a 7(a) loan may be unguaranteed to cover an ineligible purpose or business."
+    },
+    {
+      "term": "MARC",
+      "definition": "Manufacturers' Access to Revolving Credit; guaranty limits depend on whether the business is a manufacturer (NAICS 31-33)."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "a16-q1",
+      "question": "What is the maximum dollar amount of SBA guaranty that may be outstanding to one business and its affiliates for Standard 7(a) loans?",
+      "options": [
+        "$5,000,000",
+        "$3,750,000",
+        "$4,500,000",
+        "$2,000,000"
+      ],
+      "correctIndex": 1,
+      "explanation": "13 CFR 120.151 caps the outstanding SBA guaranty to any one business and its affiliates at $3,750,000. $5,000,000 is a loan amount (the MARC manufacturer loan limit), not a guaranty cap, and $4,500,000 applies only to EWCP and IT loans.",
+      "sopRef": "SOP 50 10 8.1, Appendix 16, General Requirements, Para. 1",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a16-q2",
+      "question": "What is the maximum guaranty percentage on an SBA Express loan?",
+      "options": [
+        "75%",
+        "85%",
+        "90%",
+        "50%"
+      ],
+      "correctIndex": 3,
+      "explanation": "Appendix 16 sets the SBA Express guaranty at 50%. The 85%/75% split applies to Standard and 7(a) Small loans, and 90% applies to EWCP, IT and smaller Export Express loans.",
+      "sopRef": "SOP 50 10 8.1, Appendix 16, Program-Specific Requirements, 7(a) Small Loans and SBA Express",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a16-q3",
+      "question": "A $400,000 Export Express loan may carry what maximum guaranty percentage?",
+      "options": [
+        "75%",
+        "90%",
+        "85%",
+        "50%"
+      ],
+      "correctIndex": 0,
+      "explanation": "Export Express is 90% for loans of $350,000 or less and 75% for loans over $350,000 up to $500,000. At $400,000 the loan is above the $350,000 breakpoint, so 75% applies.",
+      "sopRef": "SOP 50 10 8.1, Appendix 16, Program-Specific Requirements, Export Express Loans",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a16-q4",
+      "question": "Which statement about EWCP and International Trade loans is correct under Appendix 16?",
+      "options": [
+        "They carry an 85% guaranty and a $3,750,000 maximum guaranty",
+        "They carry a 75% guaranty and a $4,500,000 maximum guaranty",
+        "They carry a 90% guaranty and a $4,500,000 maximum guaranty",
+        "They carry a 90% guaranty and a $5,000,000 maximum guaranty"
+      ],
+      "correctIndex": 2,
+      "explanation": "EWCP and IT loans have a maximum guaranty amount of $4,500,000 and a 90% guaranty. The $3,750,000 cap is the general limit, and $5,000,000 is a MARC loan amount, not a guaranty amount.",
+      "sopRef": "SOP 50 10 8.1, Appendix 16, Program-Specific Requirements, EWCP and IT Loans",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a16-q5",
+      "question": "A business got an 85% guaranty on a $140,000 7(a) loan. Within 90 days of that approval, the Lender submits a second 7(a) application for $50,000. What is the maximum guaranty percentage on the second loan?",
+      "options": [
+        "85%",
+        "75%",
+        "47%",
+        "50%"
+      ],
+      "correctIndex": 2,
+      "explanation": "Loans approved within 90 days are combined: $190,000 total, so the combined guaranty cannot exceed 75% x $190,000 = $142,500. The first loan uses $119,000, leaving $23,500, which is 47% of $50,000. Using 75% on the second loan ignores the guaranty already used at 85% on the first loan.",
+      "sopRef": "SOP 50 10 8.1, Appendix 16, General Requirements, Para. 1.d",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a16-q6",
+      "question": "A Borrower's real estate is held by an EPC that leases it to the Borrower's OC. Each entity already has SBA-guaranteed loans. How does Appendix 16 treat them for the guaranty cap?",
+      "options": [
+        "As one business, so their guaranteed exposure is combined under one $3,750,000 limit",
+        "As two businesses, each with its own $3,750,000 limit",
+        "Only the OC's loans count; EPC loans are excluded",
+        "Only 504 loans are combined; 7(a) loans are counted separately"
+      ],
+      "correctIndex": 0,
+      "explanation": "SBA considers an EPC and an OC to be one business for the maximum guaranty amount, and the Lender must include existing 7(a) and 504 loans when calculating available guaranty. Treating them as two businesses would double the allowed exposure.",
+      "sopRef": "SOP 50 10 8.1, Appendix 16, General Requirements, Para. 1",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a16-q7",
+      "question": "When calculating the guaranty available to a Borrower and its affiliates, which of the following must the Lender include?",
+      "options": [
+        "Only the new loan's approved amount",
+        "The new loan plus existing 7(a) term loans, but not revolving lines",
+        "The new loan plus existing 7(a) loans, but not 504 loans",
+        "The new loan plus any existing 7(a) or 504 loans, including revolving lines of credit"
+      ],
+      "correctIndex": 3,
+      "explanation": "Appendix 16 requires the approved loan amount plus any existing 7(a) or 504 loans, including revolving lines of credit. Excluding revolvers or 504 loans would understate exposure.",
+      "sopRef": "SOP 50 10 8.1, Appendix 16, General Requirements, Para. 1",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a16-q8",
+      "question": "A non-manufacturing business (not in NAICS 31-33) applies for a MARC loan. What are the applicable maximums?",
+      "options": [
+        "Loan up to $5,000,000 with guaranty up to $3,750,000",
+        "Loan up to $2,000,000 with guaranty up to $1,500,000",
+        "Loan up to $2,000,000 with guaranty up to $3,750,000",
+        "Loan up to $500,000 with a 50% guaranty"
+      ],
+      "correctIndex": 1,
+      "explanation": "For MARC, all other eligible industries are limited to loans of $2,000,000 or less with a maximum guaranty of $1,500,000. The $5,000,000 / $3,750,000 maximums are reserved for manufacturers in NAICS 31-33.",
+      "sopRef": "SOP 50 10 8.1, Appendix 16, Program-Specific Requirements, MARC Loans",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a16-q9",
+      "question": "An Applicant needs a 7(a) working capital loan and a 504 loan for its building. What should the Lender do?",
+      "options": [
+        "Submit the 504 first because it is the larger loan",
+        "Submit both at once; approval order does not matter",
+        "Advise the SBA processing center of the companion 504 application so the 7(a) loan is approved first",
+        "Combine both into a single 7(a) loan to avoid the sequencing issue"
+      ],
+      "correctIndex": 2,
+      "explanation": "The approval order determines the maximum loan and guaranty available, and the 7(a) loan should be processed and approved first. Lenders must advise the SBA processing centers of the companion 504 application. Approval order matters, so submitting without coordination is wrong.",
+      "sopRef": "SOP 50 10 8.1, Appendix 16, General Requirements, Para. 1.c",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a16-q10",
+      "question": "A Borrower wants a $600,000 7(a) loan where $40,000 would pay for an item SBA considers ineligible. The Lender proposes guaranteeing that $40,000 at 0%. Is this allowed?",
+      "options": [
+        "Yes, as long as the ineligible portion is under 10% of the loan",
+        "Yes, if the Lender documents it in the credit memo",
+        "No, unless the overall guaranty is reduced to 50%",
+        "No; a 7(a) loan cannot include ineligible proceeds and no part may be guaranteed at zero percent"
+      ],
+      "correctIndex": 3,
+      "explanation": "Appendix 16 says a 7(a) loan cannot include proceeds for an ineligible purpose and no part of an SBA 7(a) loan may be guaranteed at zero percent. There is no percentage or documentation exception.",
+      "sopRef": "SOP 50 10 8.1, Appendix 16, General Requirements, Para. 1.e",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a16-q11",
+      "question": "Two Export Express loans are approved 60 days apart to the same Borrower: $250,000 and $200,000. What does Appendix 16 require?",
+      "options": [
+        "Reduce the second loan's guaranty so the combined guaranty is no more than 75%",
+        "Both loans may keep a 90% guaranty because each is under $350,000",
+        "The second loan must be declined because Export Express allows only one loan",
+        "Reduce both loans to 50%"
+      ],
+      "correctIndex": 0,
+      "explanation": "Export Express loans approved within 90 days are combined; $450,000 exceeds $350,000, so the second loan's guaranty must be reduced so the combined guaranty is no more than 75%. Multiple Export Express loans are allowed up to $500,000 gross, so declining is wrong.",
+      "sopRef": "SOP 50 10 8.1, Appendix 16, Program-Specific Requirements, Export Express Loans",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a16-q12",
+      "question": "A $150,000 Standard 7(a) loan may carry what maximum guaranty percentage?",
+      "options": [
+        "75%",
+        "90%",
+        "85%",
+        "80%"
+      ],
+      "correctIndex": 2,
+      "explanation": "The general rule is 85% for loans of $150,000 or less and 75% for loans over $150,000. A loan of exactly $150,000 falls in the 85% tier.",
+      "sopRef": "SOP 50 10 8.1, Appendix 16, General Requirements, Para. 1.b",
+      "difficulty": "applied"
+    }
+  ]
+}

@@ -1,0 +1,481 @@
+{
+  "id": "b6-terms-through-disbursement",
+  "order": 260,
+  "part": "B",
+  "program": "7a",
+  "title": "SBA Terms and Conditions through Disbursement",
+  "subtitle": "Chapter 6: authorizing the guaranty, construction, post-approval changes, closing documents and disbursement for all 7(a) loans",
+  "sopRef": "SOP 50 10 8.1, Section B, Ch. 6",
+  "estimatedMinutes": 70,
+  "learningObjectives": [
+    "Explain the roles of SBA Form 750 and the SBA Terms and Conditions and what must be submitted",
+    "Apply construction requirements, including seismic standards, bonds, waivers and do-it-yourself rules",
+    "Route post-approval modifications, increases and guaranty transfers to the right SBA center",
+    "Apply the 48-month disbursement period, escrow limits and the definition of fully disbursed",
+    "Identify required Note terms, secondary market terms, prepayment rules and subsidy recoupment fees",
+    "Document disbursements and verify equity injection to protect the guaranty",
+    "List required forms, federal-law language and Borrower certifications needed before disbursement"
+  ],
+  "topics": [
+    {
+      "id": "b6-terms-and-conditions",
+      "title": "SBA Form 750 and the SBA Terms and Conditions",
+      "body": "Chapter 6 picks up after a 7(a) loan is approved and follows it through closing and disbursement. It applies to **all 7(a) loans**. Two documents frame the relationship.\n\n#### SBA Form 750: the Lender's master agreement\n\nThe Lender's executed **SBA Form 750** is the written agreement between SBA and the Lender. It requires the Lender to comply with all **SBA Loan Program Requirements** (defined in 13 CFR 120.10 to include the statute, regulations and SOP guidance) and allows the Lender to make SBA-guaranteed loans when SBA authorizes them.\n\n#### SBA Terms and Conditions: the loan-level authorization\n\nThe **SBA Terms and Conditions** is the Lender's **digital loan guaranty authorization request** submitted in the SBA Loan System. Key points:\n\n- SBA's guaranty is subject to the terms and conditions **authorized by SBA in the SBA Loan System**, including any changes, and to the Lender's compliance with them and with all other Loan Program Requirements.\n- After confirming the conditions are appropriate for the credit, the Lender **must close the loan in accordance with the SBA Terms and Conditions**, including any SBA-approved post-approval modifications.\n- **No signatures** are required on the terms and conditions; they are stored electronically in the SBA Loan System.\n- Unless SBA requires otherwise (for example OCRM), the Lender **should not send SBA closing documentation**, including disbursement information, except through periodic loan status reports on **SBA Form 1502**.\n- Servicing and liquidation are governed by **SOP 50 57** and the Servicing and Liquidation Actions 7(a) Lender Matrix.\n\n#### How the loan number is issued\n\n| Processing | What happens |\n|---|---|\n| Delegated (PLP, PLP-EWCP, SBA Express, Export Express) | Lender submits the guaranty request with the Terms and Conditions; the loan number is issued in the SBA Loan System |\n| Non-delegated (LGPC) | Lender submits the terms and conditions; SBA reviews the application and issues the loan number **if approved** |\n\n#### What must be submitted digitally\n\n1. 7(a) Lender fees payable to SBA: the **Upfront Fee** and the **Lender's Annual Service Fee**\n2. **Repayment terms**\n3. **Use of Proceeds**\n4. **Guarantors**\n5. **Collateral, including lien priority**\n6. **Construction terms**, if applicable\n\n> **Watch out:** Closing \"close enough\" to the Terms and Conditions is a guaranty risk. If the deal changes, the change must be made through the post-approval modification process, not just in the Lender's own documents.",
+      "keyPoints": [
+        "SBA Form 750 is the Lender's agreement with SBA to comply with all Loan Program Requirements (13 CFR 120.10)",
+        "SBA Terms and Conditions is the digital guaranty authorization request in the SBA Loan System; no signatures required",
+        "The Lender must close the loan in accordance with the SBA Terms and Conditions, including approved modifications",
+        "Do not send SBA closing or disbursement documents except via SBA Form 1502 reports, unless SBA requests them",
+        "Required digital terms: upfront and annual service fees, repayment terms, use of proceeds, guarantors, collateral with lien priority, construction terms"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. A"
+    },
+    {
+      "id": "b6-construction-bonds-seismic",
+      "title": "Construction loans: seismic standards, bonds and waivers",
+      "body": "Construction adds risk the Lender must control before money goes into the ground. The rules come from **13 CFR 120.200 and 120.174**.\n\n#### Seismic compliance (all construction of new buildings or additions)\n\nFor construction of a **new building or an addition to an existing building**, whether by a licensed contractor or \"do-it-yourself\", the Lender must obtain evidence of compliance with the **NEHRP** (National Earthquake Hazards Reduction Program Recommended Provisions for the Development of Seismic Regulations for New Buildings) or a building code with substantially equivalent provisions.\n\n- NEHRP provisions are found in **ASCE Standard 7** and the **International Building Code**.\n- Acceptable evidence includes a certificate from a licensed architect, construction engineer or similar professional, or a letter from a state or local government agency stating that an occupancy permit is required and the local codes behind it include the seismic standards.\n\n#### Bonds and insurance depend on the size of the construction component\n\n| Construction component of the 7(a) loan | Requirement |\n|---|---|\n| **$350,000 or less** | SBA blanket waiver of performance bond, labor and materials payment bond, and evidence of Builder's Risk and Worker's Compensation insurance, **if** the Lender applies the same risk-offsetting policies it uses on similarly-sized, non-SBA construction loans |\n| **More than $350,000** | Before construction starts, Lender must obtain evidence the licensed contractor has furnished a **100% performance bond and labor and materials payment bond** and carries **Builder's Risk and Worker's Compensation** insurance |\n\nFor the bonds on projects over $350,000:\n\n- Only a **corporate surety approved by the Treasury Department**, using an **American Institute of Architects (AIA)** form or comparable coverage, may issue them.\n- Only the **Borrower** may be named as obligee.\n\n#### Blanket waivers for larger projects\n\nSBA also waives the bond and insurance evidence requirement for projects over $350,000 when:\n\n1. The Lender has retained a **third-party construction management firm** that provides commercially reasonable and prudent monitoring, including **funds control for all disbursements**; or\n2. The Lender has an **existing internal construction management department** that routinely manages construction for its similarly-sized, non-SBA commercial loans, with prudent monitoring and funds control.\n\nIn either waiver case, the Lender must document that construction was **completed in conformance with the plans and specifications** and that **all lien waivers and releases** were obtained. If mechanics' or other liens take priority over the Lender's lien, the Lender may face **repair or denial** of the guaranty.\n\n> **Watch out:** The $350,000 threshold is measured on the **construction component**, not the whole loan. A $2,000,000 loan with $300,000 of renovation falls under the smaller-project waiver.",
+      "keyPoints": [
+        "New buildings and additions need evidence of NEHRP seismic compliance (ASCE 7, International Building Code) or equivalent code",
+        "Construction component of $350,000 or less: blanket waiver of bonds and insurance evidence if the Lender follows its non-SBA construction practices",
+        "Over $350,000: 100% performance bond and labor and materials payment bond, plus Builder's Risk and Worker's Compensation",
+        "Bonds must be from a Treasury-approved corporate surety on an AIA or comparable form; only the Borrower may be obligee",
+        "Waiver also available with a third-party construction manager or internal construction department providing funds control",
+        "Liens that prime the Lender can lead to repair or denial of the guaranty"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. A.4"
+    },
+    {
+      "id": "b6-construction-lender-steps",
+      "title": "Construction loans: Lender steps and do-it-yourself projects",
+      "body": "For construction components **over $350,000**, the bonds are only part of the picture. Before construction starts and throughout the project, the Lender must also do the following (13 CFR 120.200).\n\n#### Before construction begins\n\n- Obtain a copy of the **final plans and specifications**.\n- Obtain a copy of the **Construction Contract** with:\n  - an acceptable **licensed contractor at a specified price**, and\n  - an agreement that the Borrower will **not order or permit material changes** to the approved plans without the **prior written consent of the Lender and the surety** providing the bonds.\n\n#### During the project\n\n1. **Borrower injection first:** if the Borrower is injecting funds into the construction project, obtain evidence the Borrower **injected the required funds before loan disbursement**.\n2. **Cost overruns:** obtain evidence of the Borrower's ability to pay cost overruns or additional construction financing expenses **before approving any contract modification**. Neither the Lender nor SBA is obligated to increase the loan to cover overruns.\n3. **Inspections:** make **interim and final inspections** to confirm construction conforms to the plans and specifications.\n4. **Codes and permits:** obtain evidence the completed building will comply with all state and local building and zoning codes and applicable licensing and permit requirements.\n5. **Lien waivers:** obtain lien waivers or releases from **all material men, contractors and subcontractors**.\n\n#### \"Do-it-yourself\" construction\n\nDIY construction, including renovations and installation of machinery and equipment, or a Borrower acting as its own contractor, has **proven to be generally unsatisfactory**: it can cause problems with lien waivers and mechanics' liens and losses to the Lender and SBA. It **may be permitted** only if the Lender justifies and documents in the loan file that:\n\n1. The Borrower/contractor is **experienced** in that type of construction and has **all appropriate licenses**;\n2. The cost is **the same as or less than** either:\n   - what an unaffiliated contractor would charge, evidenced by **2 bids**; or\n   - a **single estimate** from a third-party construction management firm, or from the Lender's existing internal construction management department (if it routinely manages construction on similarly-sized, non-SBA loans); and\n3. The Borrower/contractor **will not earn a profit** on the construction.\n\n> **Watch out:** A Borrower who is a licensed general contractor and wants to build its own facility may do so, but it cannot mark up the work. The budget must be at or below the 2 bids or the single third-party estimate.\n\n> **In practice:** Draw management software should hold disbursements until the Borrower's own injection is documented, and should track lien waivers per draw so the final file is complete.",
+      "keyPoints": [
+        "Over $350,000: obtain final plans and specs and a fixed-price contract with a licensed contractor",
+        "No material changes without prior written consent of the Lender and the surety",
+        "Borrower's required injection must be in before loan disbursement",
+        "Confirm ability to pay cost overruns before approving contract changes; Lender and SBA need not increase the loan",
+        "Do interim and final inspections, confirm code compliance, and collect all lien waivers",
+        "DIY construction requires experience and licenses, cost at or below 2 bids or 1 third-party estimate, and no profit"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. A.4"
+    },
+    {
+      "id": "b6-post-approval-modifications",
+      "title": "Post-approval modifications and transfers between Lenders",
+      "body": "Deals change between approval and funding. Chapter 6 tells Lenders where to send changes, and that depends on whether the loan has been **fully disbursed**. The complete instructions are in **SOP 50 57** and the **Servicing and Liquidation Actions 7(a) Lender Matrix**.\n\n#### Before final disbursement (LGPC)\n\nRegardless of processing method (non-delegated or delegated):\n\n- Lenders **must not unilaterally approve** actions that require prior SBA approval. Those requests go to the **LGPC** and must include the reason, details of the requested action, supporting documentation and the Lender's recommendation.\n- For actions that only require **notification** under the Lender Matrix, the Lender makes the change in **E-Tran Servicing** (or successor SBA Loan System). No separate notice to SBA is needed, SBA approval is not needed, and SBA will not respond in writing.\n\n#### After final disbursement (CLSC)\n\n- Actions requiring SBA notification and requests for prior approval go to the **CLSC** for loans in regular servicing status.\n- **Revolving lines of credit are considered fully disbursed upon initial disbursement**, so even a partially drawn line goes to the CLSC.\n- Lenders use SOP 50 57 and the Lender Matrix to decide whether notification or prior approval is needed.\n- **All loan increases**, regardless of disbursement status, are subject to statutory, administrative and program maximums and **must be approved by SBA**, under the SOP 50 10 and the 7(a) fee Information Notice **in effect when the loan was approved**.\n\n#### Transferring the guaranty to another participating Lender\n\n| Situation | Where to send it |\n|---|---|\n| One loan, before final disbursement | Written explanation and supporting documents to the **LGPC** |\n| More than one loan, before final disbursement | Written explanation to the **LGPC**, which forwards it to the **D/FA or designee** for decision |\n| After final disbursement | **CLSC**, under SOP 50 57 |\n\n> **Watch out:** \"Final disbursement\" for a line of credit is the first draw. A Lender that thinks of an undrawn line as \"not fully disbursed\" will send its servicing request to the wrong center.\n\n> **In practice:** The routing rule is a good candidate for automation: check disbursement status and product type, then route to LGPC or CLSC.",
+      "keyPoints": [
+        "Lenders must never unilaterally approve actions that require prior SBA approval",
+        "Before final disbursement: prior-approval requests go to the LGPC; notification-only changes are made in E-Tran Servicing",
+        "After final disbursement: notifications and prior-approval requests go to the CLSC",
+        "Revolving lines of credit are considered fully disbursed upon initial disbursement",
+        "Guaranty transfers before final disbursement go to the LGPC; multiple-loan transfers are decided by the D/FA or designee"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Paras. B and C"
+    },
+    {
+      "id": "b6-loan-increases",
+      "title": "Loan increases",
+      "body": "Every 7(a) loan increase, regardless of disbursement status, is subject to **statutory, administrative and program maximums**. Upfront and ongoing fees on increases in later years use the **rates in effect when the loan was originally approved**, and increases follow the SOP 50 10 and 7(a) fee Information Notice in effect at original approval.\n\n#### Term loans\n\nApplies to Standard 7(a) (including International Trade), 7(a) Small, EWCP, PLP, PLP-EWCP, SBA Express and Export Express **term loans**. An increase is \"large\" if it is **more than 20% of the original loan amount** or **more than 18 months after original approval**:\n\n| Processing | What the Lender must do for a large increase |\n|---|---|\n| Non-delegated | **Request SBA approval**, including analysis showing the increase has the **same purpose** as the original loan and the Borrower's **cash flow supports** the higher payment |\n| Delegated | Document the **same analysis** and retain it in the loan file |\n\n#### Revolving lines of credit\n\n| | SBA Express and Export Express | CAPLines |\n|---|---|---|\n| Time window | Any time, but **within 5 years (Express) or 7 years (Export Express)** of approval, and within maximum maturities | Any time, but **within 10 years** of approval (**Builder's CAPLines: 5 years**), and within maximum maturities |\n| Analysis trigger | Increase **above 33%** of original amount: analysis of credit and risk factors consistent with the Lender's non-SBA procedures | Increase **more than 20%** or **more than 18 months** after approval: analysis of same purpose and cash flow support |\n\nAll revolving line increases also **may not exceed the program dollar limit in effect when the loan was originally approved**, counting other outstanding SBA Express, Export Express, Community Express and Patriot Express loans.\n\n#### SBA Express and Export Express increases\n\nSubject to the rules above, Lenders follow their **established internal credit procedures** for similarly-sized non-SBA loans to decide whether the increase is appropriate and keep the documentation. **Approval of the increase in the SBA Loan System is SBA's prior written consent.** SBA may review the support during oversight and at guaranty purchase.\n\n#### Example\n\nA non-delegated $1,000,000 Standard 7(a) term loan approved 10 months ago needs a $250,000 increase. That is 25% of the original amount, more than 20%, so the Lender must request SBA approval with its same-purpose and cash flow analysis.\n\n> **Watch out:** The term loan test uses **or**: a 5% increase requested 24 months after approval still triggers the analysis.",
+      "keyPoints": [
+        "All increases are subject to statutory, administrative and program maximums, using fees in effect at original approval",
+        "Term loans: increase over 20% or more than 18 months after approval requires same-purpose and cash flow analysis",
+        "Non-delegated term loans: submit that analysis to SBA for approval; delegated: document and retain it",
+        "Express lines: within 5 years of approval; Export Express: 7 years; analysis if increase above 33%",
+        "CAPLines lines: within 10 years (Builder's: 5); analysis if over 20% or more than 18 months",
+        "Line increases cannot exceed the program limit in effect at original approval"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. B.3"
+    },
+    {
+      "id": "b6-disbursement-period-escrow",
+      "title": "Disbursement period, escrow at closing and full disbursement",
+      "body": "#### The 48-month disbursement window\n\n- The disbursement period must be stated in the SBA Terms and Conditions.\n- The loan must be **fully disbursed within 48 months of approval**. Any undisbursed balance after that is **canceled by SBA**.\n- A **line of credit is fully disbursed at the time of first disbursement**.\n- Exceptions follow the SOP's **\"Exceptions to Policy\"** process. The request must include:\n  - the SBA loan number,\n  - a detailed explanation of how cost increases are being financed, or why there are none,\n  - any other relevant information, and\n  - **how many months** the Lender wants added.\n\n#### Using escrow to close\n\nLenders may use an **escrow account for not more than 5 business days** to facilitate a closing. While funds sit in escrow:\n\n- The Lender must **not report the loan as \"disbursed\"** on SBA Form 1502.\n- The Lender must **not charge the guaranty fee** to the Borrower until all funds are disbursed from escrow.\n- The Lender may charge **interest only on funds disbursed out of escrow** to the Borrower.\n\n#### When is a loan \"fully disbursed\"?\n\nA loan is fully disbursed, and **may then be sold on the Secondary Market**, when the **Borrower has access to all of the loan proceeds and can use them** in accordance with the SBA Terms and Conditions.\n\n| Event | Fully disbursed? |\n|---|---|\n| Term loan proceeds wired to title company escrow, day 2 | No, still in escrow |\n| Escrow releases all funds to seller and Borrower, day 4 | Yes |\n| $400,000 revolving line, first draw of $20,000 | Yes, lines are fully disbursed at first draw |\n| Construction loan 60% drawn at month 30 | No; must finish by month 48 or request an exception |\n\n> **Watch out:** Charging the guaranty fee or interest on money still sitting in escrow violates the SOP, even if the closing is only a few days away.\n\n> **In practice:** Construction projects are the usual source of 48-month problems. Track the approval date and alert well before month 48 so an exception request can be prepared with cost overrun details.",
+      "keyPoints": [
+        "Loans must be fully disbursed within 48 months of approval or SBA cancels the undisbursed balance",
+        "A line of credit is fully disbursed at first disbursement",
+        "Exception requests need the loan number, cost increase explanation, and number of months requested",
+        "Escrow may be used for no more than 5 business days; no 1502 'disbursed' report or guaranty fee until funds leave escrow",
+        "Interest may only be charged on funds disbursed out of escrow",
+        "Fully disbursed (and saleable) = Borrower has access to and can use all proceeds"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. D.1"
+    },
+    {
+      "id": "b6-note-terms",
+      "title": "What the Note must say",
+      "body": "Whether the Lender uses the SBA Note or its own, the Note must include specific terms.\n\n#### Required note terms\n\n1. **All interest rate requirements**, including any interest-only period.\n2. The **date of initial rate adjustment** and the **frequency** of later adjustments.\n3. The **maturity date**.\n4. **Repayment terms:**\n   - Using the **SBA Note**: insert the repayment terms from the SBA Terms and Conditions (any format, as long as the information appears).\n   - Using the **Lender's own Note**: comply with SBA repayment terms, but the specific SBA language is not required.\n5. **Loans with a maturity of 15 years or more** must include the **prepayment/subsidy recoupment fee** payable to SBA (13 CFR 120.223).\n6. **State-specific language** needed in the loan documents.\n\n#### CAPLines repayment terms\n\n- **Interest-only payments are not permitted** beyond the Borrower's cash cycle, seasonal cycle, contract final payment date, or project completion date.\n- Each CAPLine has a **Master Note** covering the total amount and general repayment period. **Sub-notes** may set repayment periods for particular seasons, contracts or projects, and should be used when the line finances more than one asset (such as two contracts). Sub-notes may not conflict with the Master Note except for repayment schedule differences.\n\n#### Escrow for commercial real estate taxes and insurance\n\nThe Borrower and Lender may agree to an escrow for real estate taxes, hazard insurance, and flood and earthquake insurance. If they do:\n\n| Rule | Requirement |\n|---|---|\n| Amount collected | Not more than **105%** of the current year's charges for annual taxes and insurance |\n| Account type | **FDIC-insured** |\n| Interest to Borrower | The **greater of** a money market rate or the rate typically paid on commercial real estate escrows on non-SBA loans |\n| Administration | Consistent with the Lender's conventional loans (SBLCs follow federally regulated institution practice) |\n| Interest and statements | Remit all accrued interest to the Borrower and provide **annual statements**, unless law requires otherwise |\n| Closing the account | Return remaining funds within **15 business days** |\n\n> **Watch out:** The subsidy recoupment fee must appear in the Note for any loan with a maturity of **15 years or more**. Leaving it out of a 25-year real estate note is a documentation defect.",
+      "keyPoints": [
+        "Note must state interest terms (including interest-only), adjustment dates and frequency, maturity and repayment terms",
+        "Loans with maturities of 15 years or more must include the subsidy recoupment fee (13 CFR 120.223)",
+        "Lender's own Note must comply with SBA repayment terms but need not use SBA's exact wording",
+        "CAPLines: no interest-only beyond the cash cycle, season, contract or project; Master Note with optional sub-notes",
+        "Tax and insurance escrow: max 105% of current year charges, FDIC-insured, pay interest, annual statements, refund within 15 business days"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. D.2"
+    },
+    {
+      "id": "b6-secondary-market-note-terms",
+      "title": "Note terms for loans sold on the secondary market",
+      "body": "If the guaranteed portion will be sold on the secondary market, the Note needs additional terms so that investors and the Fiscal Transfer Agent can understand the cash flows.\n\n#### Additional required terms\n\n1. The date the complete application is received by SBA, which is the date the loan is **approved and assigned an SBA loan number**.\n2. **Initial interest rate** as a percent.\n3. For variable rates: the **base rate** (for example Prime) or alternative base rate (for example SOFR), **publication source** (for example WSJ), **spread** as a percent, **date of first change** (exact date or description, such as the first calendar quarter after first disbursement) and **change period** (for example calendar quarterly).\n4. Any interest rate **ceiling and floor**.\n5. **Maturity**, as an exact date or description (for example 300 months from the date of Note).\n6. **First payment due date** (exact or described).\n7. **Payment frequency** (for example monthly).\n8. **Payment due date** (for example the 14th of the month).\n9. **Payment amount**.\n10. **Payment application order:** interest accrued to the day the payment is received, then principal to bring it current, then late fees, then any remaining balance to principal.\n11. **Prepayment language** (below).\n12. **Subsidy recoupment fee language**, if applicable (below).\n\n#### Prepayment language\n\nThe Borrower may always prepay. Prepayments of **20% or less** of the unpaid principal may be made **at any time without notice**. If the Borrower prepays **more than 20%** and the loan has been sold on the secondary market, the Borrower must:\n\n1. Give the Lender **written notice**;\n2. Pay all **accrued interest**; and\n3. If the prepayment arrives **less than 21 days** after the Lender receives the notice, pay **21 days' interest** from the notice date, less interest already paid for those days.\n\nIf the Borrower does not prepay **within 30 days** of the notice, it must give a new notice.\n\n#### Subsidy recoupment fee\n\nWhen the Borrower **voluntarily prepays more than 25%** of the outstanding principal in any of the **first three years after first disbursement**, it pays the Lender, on behalf of SBA, a fee on the total prepayment amount:\n\n| Year after first disbursement | Fee |\n|---|---|\n| Year 1 | **5%** |\n| Year 2 | **3%** |\n| Year 3 | **1%** |\n\n**Example:** 18 months after first disbursement, a Borrower voluntarily prepays $300,000 on a $900,000 balance (33%). It is year 2, so the fee is 3% x $300,000 = $9,000.\n\n> **Watch out:** Two different percentages: **20%** triggers the notice requirement for secondary market prepayments; **25%** triggers the subsidy recoupment fee.",
+      "keyPoints": [
+        "Secondary market notes must spell out rate, base rate source, spread, change dates, caps/floors, maturity and payment details",
+        "Payments apply to accrued interest, then current principal, then late fees, then remaining principal",
+        "Prepaying 20% or less needs no notice; more than 20% on a sold loan requires written notice and possibly 21 days' interest",
+        "Notice expires if prepayment is not made within 30 days",
+        "Subsidy recoupment fee on voluntary prepayments over 25% in years 1-3: 5%, 3%, 1%"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. D.2"
+    },
+    {
+      "id": "b6-closing-documentation",
+      "title": "Closing documentation and proof of disbursement",
+      "body": "Proving that loan proceeds went where the SBA Terms and Conditions said they would is one of the most important parts of a 7(a) file. At guaranty purchase, gaps here are a common reason for repair or denial.\n\n#### Disburse per the Terms and Conditions\n\nFor **all** 7(a) loans the Lender must disburse proceeds in accordance with the SBA Terms and Conditions, and **document each disbursement**.\n\n#### SBA Form 1050\n\n- **Except** under **SBA Express, Export Express and 7(a) Small** loans, Lender and Borrower must complete and sign **SBA Form 1050** (Settlement Sheet) or the Lender's equivalent **at first disbursement**.\n- Later disbursements must be documented and **attached to the original Form 1050**.\n- The documentation must let SBA determine, for each disbursement:\n  1. the **recipient**,\n  2. the **date and amount**, and\n  3. the **purpose**.\n- The Lender must keep the signed Form 1050 and all supporting documents in its loan file.\n\n#### Evidence of use\n\nThe Lender must obtain evidence that proceeds were used as stated, such as **cancelled checks or paid receipts**. Acceptable evidence includes:\n\n- **Joint payee checks**;\n- **Receipts, invoices or other documents marked paid** by the seller or vendor; or\n- **Evidence of an electronic funds transfer to a vendor plus a copy of the invoice**.\n\n**Exception:** if the Terms and Conditions list **working capital** and those proceeds pay **normal operating expenses** (for example payroll or utilities), the working capital disbursement **does not need to be documented**.\n\n#### Example\n\n| Use of proceeds | Acceptable evidence |\n|---|---|\n| $250,000 equipment purchase | Wire confirmation to the vendor plus the vendor's invoice |\n| $100,000 leasehold improvements | Contractor invoices marked paid, or joint payee checks |\n| $50,000 working capital for payroll | No disbursement documentation required |\n| $400,000 debt refinance | Payoff to the existing creditor (for example wire plus payoff statement) |\n\n> **Watch out:** A wire to the **Borrower's** account for \"equipment\" is not evidence that equipment was bought. The evidence must tie the money to the vendor and the purpose.",
+      "keyPoints": [
+        "All 7(a) loans must be disbursed per the SBA Terms and Conditions, with every disbursement documented",
+        "SBA Form 1050 (or equivalent) signed at first disbursement, except for SBA Express, Export Express and 7(a) Small",
+        "Documentation must show recipient, date, amount and purpose of each disbursement",
+        "Acceptable evidence: joint payee checks, paid receipts or invoices, or EFT to vendor plus invoice",
+        "Working capital used for normal operating expenses need not be documented"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. D.3"
+    },
+    {
+      "id": "b6-equity-injection-verification",
+      "title": "Verifying equity injection before disbursement",
+      "body": "Underwriting decides how much equity is required; Chapter 6 says how to prove it actually came in.\n\n#### The rule\n\nWith the exception of **SBA Express and Export Express**, Lenders must **verify the SBA-required equity injection before disbursing any loan proceeds** and keep evidence in the loan file. Lenders must use reasonable and prudent efforts to verify that equity is injected and used as intended. **Failure to do so may warrant a repair or partial/full denial.** The documentation must also be **submitted with each purchase request** on a loan where SBA requires equity.\n\n#### Verifying a cash injection requires all three:\n\n1. A copy of a **check or wire transfer** plus evidence it was processed, showing funds moved into the **Borrower's account or escrow**;\n2. The most recent **statement(s) covering at least 30 days** from the account the funds came from, showing the money was available; and\n3. A **statement from the Borrower's account** showing the deposit, or a **settlement statement or HUD-1** showing how the cash was used.\n\n#### Not enough on its own\n\nA **promissory note, \"gift letter,\" or financial statement** is not sufficient evidence of a cash injection without the corroborating evidence above.\n\n#### Borrowed equity\n\nIf equity will come from **borrowed funds** (for example a HELOC, or seller financing beyond the minimum Borrower injection), the Lender must address the **proposed repayment terms** and any **standby or subordination** terms.\n\n#### SBA Express and Export Express\n\nIf the Lender **requires** an equity injection and, under its standard process for similarly-sized non-SBA loans, **verifies** it, then it **must** verify it on its SBA Express and Export Express loans too.\n\n> **Watch out:** A gift letter from a parent saying \"I am giving my son $100,000\" proves nothing by itself. The file needs the parent's bank statement showing the funds, the wire, and the deposit into the Borrower's account or escrow.\n\n> **In practice:** Equity verification is one of the most frequently cited issues at guaranty purchase. A closing checklist should block disbursement until all three cash-injection documents are uploaded.",
+      "keyPoints": [
+        "Except SBA Express and Export Express, verify required equity before disbursing any proceeds",
+        "Failure to verify equity may warrant repair or partial/full denial; submit the evidence with any purchase request",
+        "Cash injection proof: processed check or wire, source account statements covering at least 30 days, and deposit or settlement statement",
+        "A promissory note, gift letter or financial statement alone is not sufficient",
+        "Borrowed equity (HELOC, extra seller financing) requires analysis of repayment and standby/subordination terms",
+        "Express/Export Express: verify if the Lender requires equity and verifies it on its non-SBA loans"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. D.3.f"
+    },
+    {
+      "id": "b6-required-forms-language",
+      "title": "Required SBA forms and mandatory federal-law language",
+      "body": "#### Notes and guaranties\n\nFor all 7(a) loans, Lenders may use **their own Note and guaranty agreements** or the SBA versions (**SBA Forms 147, 148 and 148L**).\n\nIf the Lender uses **its own Note**:\n\n- It must be **legally enforceable and assignable**, have a **stated maturity**, and **not be payable on demand**.\n- Regardless of delivery method, it **must** include SBA's required language stating that when **SBA is the holder**, the Note is interpreted and enforced under **Federal law, including SBA regulations**; that Lender or SBA may use state or local procedures without SBA waiving Federal immunity; and that the Borrower may not assert state or local law against SBA to deny an obligation, defeat a claim or preempt Federal law.\n\nLenders that intend to sell the guaranteed portion on the **secondary market** are **strongly encouraged to use SBA Form 147**. If they use their own note, it must include **all terms and conditions in Form 147**. The **Fiscal Transfer Agent** reviews non-147 notes, which may slow settlement.\n\nIf the Lender uses **its own guaranty form** (equivalent of Form 148/148L), it **must** include parallel language: when SBA is the holder, the Note and Guarantee are enforced under Federal law, and the Guarantor may not assert state or local law against SBA.\n\n#### Lien instruments\n\n**All lien instruments** (mortgages, deeds of trust, security agreements) must state that the loan was made under an SBA nationwide program using tax dollars, and that if the United States is enforcing the document:\n\n1. When SBA holds the Note, the documents are construed under **Federal law**.\n2. Lender or SBA may use local or state procedures without waiving Federal immunity, and no Borrower or Guarantor may assert local or state law against SBA.\n3. **Any arbitration clause is not enforceable when SBA is the holder** of the Note.\n\n#### Other required documents\n\n| Document | When |\n|---|---|\n| Documentation the Lender uses on similarly-sized non-SBA loans | All loans |\n| **SBA Form 159**, Fee Disclosure and Compensation Agreement | Lender fees **over $2,500**, and for **any Agents** |\n| **SBA Form 722**, Equal Employment Opportunity Poster | All loans |\n| **IRS Form 4506-C** (IVES) or **IRS Form 8821** | Per Section A, Ch. 5, Para. B (tax transcript verification) |\n\n> **Watch out:** An arbitration clause in a Lender's standard security agreement can stay, but it is unenforceable once SBA holds the Note, and the required SBA lien language must be added.",
+      "keyPoints": [
+        "Lenders may use their own Note and guaranty forms or SBA Forms 147, 148 and 148L",
+        "A Lender's own Note must be enforceable, assignable, have a stated maturity, not be payable on demand, and include SBA's Federal-law language",
+        "SBA Form 147 is strongly encouraged for secondary market sales; otherwise the note must contain all Form 147 terms",
+        "All lien instruments need SBA language, including that arbitration clauses are unenforceable when SBA holds the Note",
+        "SBA Form 159 for Lender fees over $2,500 and for any Agents; SBA Form 722 for all loans; IRS Form 4506-C or 8821"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. D.4"
+    },
+    {
+      "id": "b6-collateral-licenses-reporting",
+      "title": "Collateral perfection, licenses, credit reporting and loan agreements",
+      "body": "#### Collateral and other conditions\n\nThe Lender must obtain **all required collateral** and meet all other required terms and conditions **before or at disbursement**. Those include conditions in the credit memo, such as cash/equity injections, standby agreements, and appraisals or evaluations.\n\n- Lenders must obtain a **valid and enforceable security interest** with evidence of **proper lien priority**.\n- They must keep **proof of the lien filings** and, when received, **proof of recordation**.\n\n**Selling before recordation:** a Lender may sell the loan on the secondary market after **filing** a required lien but before receiving proof it was **recorded**. However, if the loan defaults and there is a loss caused by the Lender's failure to obtain a properly perfected and recorded lien with the required priority, the Lender faces a **full or partial denial of liability equal to the guaranteed share of the net loss**.\n\n#### Licenses\n\n- The Lender must obtain evidence of **all licenses required to operate the business** within **no more than 90 days after final disbursement**.\n- The loan **may not be sold on the secondary market** until all required licenses are obtained.\n\n#### Credit bureau reporting\n\nUnder the **Debt Collection Improvement Act of 1996**, Lenders must report to the appropriate credit reporting agencies whenever they extend credit through an SBA loan, and should continue reporting servicing, liquidation and charge-off activity throughout the loan's life (SOP 50 57).\n\n#### Separate loan agreement\n\nSBA does **not** require a separate loan agreement. But if the Lender requires one on its **non-SBA** loans, it **must** require one on its SBA loans, and may use its own form.\n\n#### PLP loans\n\n- Closing requirements for **PLP loans are the same as for non-delegated loans**, with the same forms.\n- PLP Lenders should not send SBA closing documentation, including disbursement information, except through **SBA Form 1502** reports or when SBA specifically requests it (for example OCRM).\n\n> **Watch out:** The license rule has two parts that are easy to blur. The Lender has up to 90 days **after final disbursement** to obtain evidence of licenses, but the loan cannot be **sold** on the secondary market until they are obtained, even if the 90 days have not run.",
+      "keyPoints": [
+        "Obtain all required collateral and meet all conditions before or at disbursement",
+        "Keep proof of lien filings and recordation; perfected liens must have the required priority",
+        "Selling before recordation is allowed, but loss from an unperfected lien means denial equal to the guaranteed share of net loss",
+        "Evidence of required business licenses within 90 days after final disbursement; no secondary market sale until obtained",
+        "Report SBA loans to credit bureaus under the Debt Collection Improvement Act of 1996",
+        "Separate loan agreement only if the Lender requires one on non-SBA loans; PLP closing requirements match non-delegated"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Paras. D.5 - D.7, D.9 - D.10"
+    },
+    {
+      "id": "b6-borrower-certifications",
+      "title": "Borrower certifications before disbursement",
+      "body": "Before disbursing, the Lender must obtain certain certifications and agreements from the Borrower(s), including the **Operating Company (OC)** and **Eligible Passive Company (EPC)**.\n\n#### The Borrower and OC must certify that:\n\n1. They received a copy of the **SBA Terms and Conditions** or the Lender's equivalent.\n2. There has been **no adverse change** in financial condition, organization, operations or fixed assets since the Loan Application was signed.\n3. No principal owning **at least 50 percent** of the ownership or voting interest is **delinquent more than 60 days on child support** under an administrative order, court order or repayment agreement.\n4. They are **current on all federal, state and local taxes** (income, payroll, real estate, sales).\n5. If applicable, the Borrower and its **401(k) plan** comply with IRS, Treasury and Department of Labor requirements.\n6. **Environmental:** for real estate pledged as collateral or where the business operates, they comply with environmental laws, are unaware of other actual or potential environmental hazards, and **fully indemnify Lender and SBA** against contamination losses before or during the loan term.\n7. They will **reimburse the Lender's out-of-pocket expenses** for making and administering the loan.\n8. They will **maintain proper books and records**, give Lender and SBA access, and furnish financial statements **annually or on request**.\n9. They will **post SBA Form 722**, the Equal Opportunity Poster, where employees, applicants and the public can see it.\n10. To the extent practicable, they will **buy only American-made equipment and products** with loan proceeds.\n11. They will **pay all taxes** of the business when due.\n12. For **debt refinancing**, the refinanced debt was used **exclusively for the Applicant's business**, including any credit card, HELOC or balance sheet debt.\n13. During the loan, real estate purchased with 7(a) proceeds, pledged as collateral, or where the business operates will **not be leased to or occupied by a business engaged in illegal activity** under Federal, state or local law, or activity that supports or facilitates it.\n\n#### Without the Lender's prior written consent, the Borrower and OC will not:\n\n- Make **distributions** of company assets that adversely affect financial condition;\n- **Change the ownership structure** or interests during the loan term; or\n- **Sell, lease, pledge, encumber** or otherwise dispose of property or assets except in the ordinary course of business (purchase money liens on later-acquired property are allowed).\n\n> **Watch out:** The illegal-activity tenant certification uses **Federal** law. A tenant whose business is legal under state law but illegal under Federal law is covered.\n\n> **In practice:** The no-adverse-change certification is the last checkpoint. If the Lender learns of a material adverse change before funding, it should not rely on a signed certification it knows to be untrue.",
+      "keyPoints": [
+        "Certifications are obtained from the Borrower, OC and EPC before disbursement",
+        "No adverse change since the application was signed; current on all taxes",
+        "No 50%+ principal more than 60 days delinquent on child support",
+        "Environmental compliance and full indemnification of Lender and SBA",
+        "Refinanced debt was used exclusively for the business; real estate not leased to businesses engaged in illegal activity",
+        "No harmful distributions, ownership changes, or asset dispositions without Lender's prior written consent"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. D.8"
+    },
+    {
+      "id": "b6-express-small-closing",
+      "title": "Closing SBA Express, Export Express and 7(a) Small loans",
+      "body": "These three streamlined products close using the Lender's own procedures, with a defined list of SBA-specific checkpoints.\n\n#### Use the Lender's own closing process\n\n- Use the same written closing and disbursement procedures and documentation the Lender uses for **similarly-sized non-SBA commercial loans**, **plus** the Required SBA Forms (Para. D.4).\n- There must be a **promissory note that is legally enforceable and assignable** in case it is ever assigned to SBA.\n- Obtain **all required collateral** and meet **all required conditions before disbursement**, including valid security interests and conditions in the loan write-up (standby agreements, appraisals or evaluations, **business licenses**, cash/equity injections).\n\n#### Before disbursing, the Lender must:\n\n1. **Verify Borrower financial information** under Section A, Ch. 5, Para. B (IRS tax transcript verification).\n2. Obtain evidence of **no un-remedied adverse change** since the application (or since the last disbursement). For revolving lines, follow the Lender's practices on its non-SBA revolving lines.\n3. Obtain required **hazard insurance**.\n4. Make the required **flood hazard determination** and require flood insurance if applicable.\n5. For a new building or addition, obtain the Borrower's agreement that construction will conform to **NEHRP** seismic provisions.\n6. Obtain the Borrower's agreement to buy **American-made** equipment and products to the extent feasible (this certification is on **SBA Form 1919**).\n7. Obtain the **child support certification** (no 50%+ principal more than 60 days delinquent).\n8. Require appropriate **environmental reviews** under Section A, Ch. 5, Para. E. Lenders **may not request a loan number** for a loan secured by collateral that will not meet SBA's environmental requirements or that needs a **non-standard indemnification agreement**.\n\n#### After final disbursement (all loans)\n\n**Regardless of processing method or loan size**, within **15 business days after final disbursement**, the Lender must submit through **E-Tran Servicing** (or successor SBA Loan System) any **changes to the terms and conditions** in place when the loan number was issued, and keep all other documents in its file.\n\n#### Access to funds\n\nBorrowers may access funds in any way consistent with the Lender's normal practice on similarly-sized non-SBA loans, **including credit or debit cards**, as long as the loans are documented by **legally enforceable and assignable promissory notes**.\n\n> **Watch out:** SBA Form 1050 is not required for these three products, but documenting each disbursement still is.\n\n> **In practice:** An SBA Express line accessed by a business debit card is permitted. The key compliance artifact is still the signed, assignable promissory note.",
+      "keyPoints": [
+        "Express, Export Express and 7(a) Small close with the Lender's own procedures plus Required SBA Forms",
+        "A legally enforceable and assignable promissory note is required",
+        "Before disbursing: tax transcript verification, no adverse change, hazard and flood insurance, NEHRP, American-made, child support, environmental",
+        "No loan number for collateral that fails SBA environmental requirements or needs a non-standard indemnification",
+        "All loans: submit changes to terms and conditions in E-Tran Servicing within 15 business days after final disbursement",
+        "Funds may be accessed by credit or debit card if backed by enforceable, assignable notes"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. D.11"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "SBA Form 750",
+      "definition": "The Lender's written agreement with SBA to comply with all SBA Loan Program Requirements and make SBA-guaranteed loans when authorized."
+    },
+    {
+      "term": "SBA Terms and Conditions",
+      "definition": "The digital loan guaranty authorization in the SBA Loan System; the Lender must close the loan in accordance with it. No signatures required."
+    },
+    {
+      "term": "SBA Form 1502",
+      "definition": "The periodic loan status report through which Lenders report disbursement and loan status to SBA."
+    },
+    {
+      "term": "SBA Form 1050",
+      "definition": "Settlement Sheet signed by Lender and Borrower at first disbursement documenting recipients, dates, amounts and purposes of disbursements; not required for SBA Express, Export Express and 7(a) Small."
+    },
+    {
+      "term": "NEHRP",
+      "definition": "National Earthquake Hazards Reduction Program seismic provisions for new buildings; construction of new buildings or additions must comply or meet an equivalent code."
+    },
+    {
+      "term": "LGPC",
+      "definition": "Loan Guaranty Processing Center; handles prior-approval actions and guaranty transfers before final disbursement."
+    },
+    {
+      "term": "CLSC",
+      "definition": "Commercial Loan Service Center; handles notifications and prior-approval requests after final disbursement."
+    },
+    {
+      "term": "Fully disbursed",
+      "definition": "The Borrower has access to and can use all loan proceeds; lines of credit are fully disbursed at first disbursement. A loan may be sold on the secondary market only then."
+    },
+    {
+      "term": "Subsidy recoupment fee",
+      "definition": "Fee paid on behalf of SBA when a Borrower voluntarily prepays more than 25% of principal in the first three years after first disbursement: 5%, 3%, 1%. Required in notes with maturities of 15 years or more."
+    },
+    {
+      "term": "Master Note and sub-notes",
+      "definition": "CAPLines documentation: one Master Note for the total amount, with optional sub-notes setting repayment for particular seasons, contracts or projects."
+    },
+    {
+      "term": "SBA Form 159",
+      "definition": "Fee Disclosure and Compensation Agreement, required for Lender fees over $2,500 and for any Agents."
+    },
+    {
+      "term": "SBA Form 722",
+      "definition": "Equal Employment Opportunity Poster required for all loans, posted where employees, applicants and the public can see it."
+    },
+    {
+      "term": "Fiscal Transfer Agent",
+      "definition": "The agent that settles secondary market sales and reviews non-SBA Form 147 notes for required terms."
+    },
+    {
+      "term": "Debt Collection Improvement Act of 1996",
+      "definition": "Law requiring Lenders to report SBA loans to credit reporting agencies when they extend credit."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "b6-q1",
+      "question": "Within what period must a 7(a) loan be fully disbursed before SBA cancels the undisbursed balance?",
+      "options": [
+        "18 months of approval",
+        "24 months of approval",
+        "36 months of approval",
+        "48 months of approval"
+      ],
+      "correctIndex": 3,
+      "explanation": "The loan must be fully disbursed within 48 months of approval or any remaining undisbursed balance is canceled, unless an exception is approved. 18 months is a loan increase trigger, not the disbursement period.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. D.1",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b6-q2",
+      "question": "What is the longest a Lender may hold 7(a) loan funds in an escrow account to facilitate a closing?",
+      "options": [
+        "5 business days",
+        "10 business days",
+        "15 business days",
+        "30 calendar days"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lenders may use an escrow account for not more than 5 business days. 15 business days is the deadline to report term changes after final disbursement and to return tax and insurance escrow funds.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. D.1",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b6-q3",
+      "question": "A $1,400,000 7(a) loan includes a $500,000 construction component using a licensed contractor. The Lender has no construction management department and has not hired a construction management firm. What must it obtain before construction begins?",
+      "options": [
+        "Nothing, because construction components under $1,000,000 are covered by a blanket waiver",
+        "A 100% performance bond and labor and materials payment bond from a Treasury-approved corporate surety, with the Borrower as sole obligee, plus evidence of Builder's Risk and Worker's Compensation insurance",
+        "A 50% performance bond with the Lender named as obligee",
+        "Only a fixed-price contract and the final plans"
+      ],
+      "correctIndex": 1,
+      "explanation": "For a construction component over $350,000, without a third-party or internal construction manager, the Lender must obtain 100% performance and payment bonds from a Treasury-approved surety with only the Borrower as obligee, plus insurance evidence. The blanket waiver applies at $350,000 or less.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. A.4",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b6-q4",
+      "question": "A Borrower who is a licensed general contractor wants to build its own new warehouse with 7(a) proceeds. Which plan can the Lender accept?",
+      "options": [
+        "The Borrower's budget is at or below the lower of 2 unaffiliated contractor bids, and it will earn no profit",
+        "The Borrower charges cost plus a 10% fee, equal to the lowest of 2 unaffiliated bids",
+        "The Borrower's own estimate, since it is licensed",
+        "Any budget approved by the Borrower's accountant"
+      ],
+      "correctIndex": 0,
+      "explanation": "Do-it-yourself construction may be permitted if the Borrower is experienced and licensed, the cost is the same as or less than what an unaffiliated contractor would charge (2 bids) or a single third-party estimate, and the Borrower earns no profit. A 10% fee is profit, and the Borrower's own estimate is not acceptable evidence.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. A.4",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b6-q5",
+      "question": "A non-delegated $800,000 Standard 7(a) term loan was approved 12 months ago. The Borrower requests a $200,000 increase for the same purpose. What is required?",
+      "options": [
+        "The Lender can approve it unilaterally because it is within 18 months",
+        "No analysis is needed because the increase is exactly 25%",
+        "The increase must wait until 18 months have passed",
+        "The Lender must request SBA approval with analysis showing the same purpose and that cash flow supports the higher payment"
+      ],
+      "correctIndex": 3,
+      "explanation": "$200,000 is 25% of the original amount, more than 20%. For non-delegated term loans, an increase over 20% or more than 18 months after approval requires an SBA approval request with same-purpose and cash flow analysis. Both tests are joined by 'or', so being within 18 months does not help.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. B.3",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b6-q6",
+      "question": "A 7(a) revolving line of credit has had one $15,000 draw on a $250,000 commitment. The Lender needs SBA's prior approval for a change in collateral. Where does it send the request?",
+      "options": [
+        "The LGPC, because the line is not fully drawn",
+        "The CLSC, because a revolving line is considered fully disbursed upon initial disbursement",
+        "The district office",
+        "No request is needed for delegated loans"
+      ],
+      "correctIndex": 1,
+      "explanation": "After final disbursement, notifications and prior-approval requests go to the CLSC, and revolving lines are considered fully disbursed at initial disbursement. Lenders may never unilaterally approve actions requiring prior SBA approval.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. B.2",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b6-q7",
+      "question": "Which 7(a) loans must include the prepayment/subsidy recoupment fee in the Note?",
+      "options": [
+        "Loans with a maturity of 15 years or more",
+        "All loans over $350,000",
+        "Only loans sold on the secondary market",
+        "Only real estate loans with a maturity of 25 years"
+      ],
+      "correctIndex": 0,
+      "explanation": "Loans with a maturity of 15 years or more must contain the subsidy recoupment fee under 13 CFR 120.223. The requirement is tied to maturity, not loan size, collateral type or secondary market sale.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. D.2",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b6-q8",
+      "question": "Twenty months after first disbursement, a Borrower voluntarily prepays $400,000 of a $1,000,000 outstanding balance on a 25-year 7(a) loan. What subsidy recoupment fee is owed?",
+      "options": [
+        "$4,000",
+        "$12,000",
+        "$20,000",
+        "None, because the prepayment is under 50%"
+      ],
+      "correctIndex": 1,
+      "explanation": "The fee applies when more than 25% of outstanding principal is voluntarily prepaid in the first three years. Twenty months is in year 2, so the fee is 3% of $400,000 = $12,000. 5% ($20,000) applies only in year 1, and 1% ($4,000) in year 3.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. D.2",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b6-q9",
+      "question": "Which set of documents is sufficient to verify a $150,000 cash equity injection on a Standard 7(a) loan?",
+      "options": [
+        "A signed gift letter from the Borrower's parent",
+        "The Borrower's personal financial statement showing $500,000 in savings",
+        "A processed wire into the Borrower's account, source account statements covering at least 30 days showing the funds, and a Borrower account statement showing the deposit",
+        "A promissory note from a relative"
+      ],
+      "correctIndex": 2,
+      "explanation": "Verifying a cash injection requires a processed check or wire into the Borrower's account or escrow, source statements covering at least 30 days showing the funds were available, and a statement or settlement statement showing the deposit or use. A gift letter, financial statement or promissory note alone is expressly insufficient.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. D.3.f",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b6-q10",
+      "question": "For which loans is SBA Form 1050 (Settlement Sheet) NOT required at first disbursement?",
+      "options": [
+        "SBA Express, Export Express and 7(a) Small loans",
+        "PLP loans only",
+        "Standard 7(a) loans over $1,000,000",
+        "Any loan using the Lender's own Note"
+      ],
+      "correctIndex": 0,
+      "explanation": "Except under SBA Express, Export Express and 7(a) Small loans, Lender and Borrower must complete and sign SBA Form 1050 or an equivalent at first disbursement. PLP closing requirements are the same as non-delegated, so PLP loans still need it.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. D.3",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b6-q11",
+      "question": "A Lender's standard security agreement includes a mandatory arbitration clause. It wants to use that form on a 7(a) loan. What is correct?",
+      "options": [
+        "The form cannot be used for an SBA loan",
+        "The form may be used only on loans not sold on the secondary market",
+        "The arbitration clause is enforceable against SBA if the Borrower signed it",
+        "The form may be used, but it must include SBA's required lien language, which states that any arbitration clause is not enforceable when SBA is the holder of the Note"
+      ],
+      "correctIndex": 3,
+      "explanation": "All lien instruments must include SBA's required language, which includes that any arbitration clause is unenforceable when SBA holds the Note. The Lender's own form is otherwise allowed.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. D.4",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b6-q12",
+      "question": "A loan closes and funds on March 1. On March 20 the Lender still has not seen the Borrower's required state operating license, and an investor wants to buy the guaranteed portion. What applies?",
+      "options": [
+        "The sale can proceed because the 90-day license period has not ended",
+        "The license requirement is waived for loans sold on the secondary market",
+        "The loan may not be sold until all required licenses are obtained; the Lender must obtain them within 90 days after final disbursement",
+        "The loan must be canceled"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Lender must obtain evidence of all required licenses within 90 days after final disbursement, and the loan may not be sold on the secondary market until they are obtained. The 90-day window does not permit selling before the licenses are in hand.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. D.6",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b6-q13",
+      "question": "A Borrower with a secondary-market-sold 7(a) loan wants to prepay 30% of its unpaid principal. Which is correct?",
+      "options": [
+        "No notice is needed for any prepayment",
+        "The Borrower must wait 30 days after notice before paying",
+        "Prepayment over 20% is prohibited on sold loans",
+        "The Borrower must give written notice, pay accrued interest, and if paying less than 21 days after the notice, pay 21 days' interest from the notice date (less interest already paid for that period)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Up to 20% may be prepaid without notice. Above 20% on a sold loan, the Borrower must give written notice, pay accrued interest and, if paying within 21 days of notice, pay 21 days' interest less interest accrued and paid. The 30-day period is when a new notice is needed if prepayment has not occurred.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. D.2",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b6-q14",
+      "question": "Within how many business days after final disbursement must a Lender submit changes to the terms and conditions through E-Tran Servicing?",
+      "options": [
+        "5 business days",
+        "10 business days",
+        "15 business days",
+        "30 business days"
+      ],
+      "correctIndex": 2,
+      "explanation": "Regardless of processing method or size, within 15 business days after final disbursement the Lender must submit changes to the terms in place when the loan number was issued. 5 business days is the escrow limit.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. D.11",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b6-q15",
+      "question": "A Lender and Borrower set up an escrow for real estate taxes and insurance. Annual taxes plus insurance for the current year total $40,000. What is the most the Lender may collect for the escrow?",
+      "options": [
+        "$40,000",
+        "$42,000",
+        "$44,000",
+        "$50,000"
+      ],
+      "correctIndex": 1,
+      "explanation": "The escrow may not collect more than 105% of the current year's charges: 105% of $40,000 is $42,000. The account must also be FDIC-insured, pay interest, and return remaining funds within 15 business days of termination.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 6, Para. D.2",
+      "difficulty": "applied"
+    }
+  ]
+}

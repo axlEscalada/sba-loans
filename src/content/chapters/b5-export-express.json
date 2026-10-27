@@ -1,0 +1,361 @@
+{
+  "id": "b5-export-express",
+  "order": 250,
+  "part": "B",
+  "program": "7a",
+  "title": "Export Trade Finance: Export Express",
+  "subtitle": "The three 7(a) trade programs at a glance, and how Export Express works from eligibility to underwriting",
+  "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. A",
+  "estimatedMinutes": 40,
+  "learningObjectives": [
+    "Distinguish Export Express, EWCP and International Trade loans by purpose and structure",
+    "Apply Export Express eligibility rules, including the 12-month operating test and NAICS exclusions",
+    "Identify eligible and prohibited uses of Export Express proceeds, including the 70% export-use floor",
+    "Calculate Export Express guaranty percentages, including the 90-day multiple-loan rule",
+    "Explain delegated processing, credit scoring limits and non-financial default rules for Export Express"
+  ],
+  "topics": [
+    {
+      "id": "b5-trade-programs-overview",
+      "title": "The three 7(a) export trade finance programs",
+      "body": "Most of the 7(a) program is product-agnostic: a loan funds a business, and the business repays from cash flow. Chapter 5 of Section B is different. It covers three 7(a) products that exist specifically to help small businesses sell abroad, or to compete against imports at home. A lender software team will see these as distinct loan types with their own eligibility screens, limits, collateral rules and reporting.\n\nThe three programs are:\n\n| Program | What SBA guarantees | Typical use |\n|---|---|---|\n| **Export Express** | Smaller dollar revolving lines of credit or term loans | Developing the export side of a business, with SBA Express-style streamlining |\n| **Export Working Capital Program (EWCP)** | Short-term working capital loans to small business Exporters | Financing specific export orders, foreign receivables and export inventory |\n| **International Trade (IT)** | Term loans | Improving the competitive position of Exporters, or of businesses adversely affected by import competition |\n\n### How they differ in spirit\n\n- **Export Express** is the \"small and fast\" option. It borrows many streamlined features from SBA Express, but SBA provides a *higher* guaranty to offset the extra risk of international credit.\n- **EWCP** is a self-liquidating working capital product. The lender is repaid when the foreign buyer pays, so the analysis focuses on the export cash cycle and the borrowing base rather than long-term cash flow.\n- **IT** is a long-term investment product, closer to a standard 7(a) loan: facilities, equipment, working capital, certain changes of ownership and refinancing, repaid from business cash flow.\n\n### Two shared terms\n\n- **Exporter** and **Export Transaction** are defined terms in the SOP glossary. In plain language, an Export Transaction is a sale of goods or services to a buyer outside the United States, and an Exporter is a business engaged in such sales.\n- All three programs layer on top of Section A. The SOP opens each program by reminding lenders that they \"must always start by reviewing\" the **Core Requirements for all 7(a) and 504 Loans**. Size, eligibility, credit elsewhere, character and the rest still apply.\n\n> **In practice:** When a borrower says \"we want an SBA loan to grow exports,\" the first triage question is what the money is for. Pre-shipment and receivables financing points to EWCP. A modest line or term loan for marketing, translation or equipment points to Export Express. A large equipment, facility, working capital or acquisition request points to IT.\n\nThe rest of this course section takes each program in turn: Export Express in this chapter, EWCP in the next two chapters (underwriting, then the closing and borrowing base mechanics), and International Trade in the last chapter.\n",
+      "keyPoints": [
+        "SBA has three core 7(a) international trade programs: Export Express, EWCP and International Trade (IT).",
+        "Export Express: smaller revolving lines or term loans, streamlined like SBA Express, with a higher guaranty.",
+        "EWCP: short-term working capital for Exporters engaged in Export Transactions.",
+        "IT: term loans for Exporters or for businesses hurt by import competition.",
+        "Every trade loan still starts with the Section A Core Requirements."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5 (introduction)"
+    },
+    {
+      "id": "b5-ee-eligibility",
+      "title": "Export Express eligibility",
+      "body": "Export Express eligibility starts with all the Section A core requirements and then adds a time-in-business test and an industry exclusion.\n\n### The 12-month rule\n\nThe business must have been in operation for **at least 12 full months**. Note the wording: in operation, *not necessarily as an Exporter*. A domestic manufacturer with years of history that is only now starting to export qualifies.\n\nA business with **less than 12 months** of operation can still be eligible, but only if **both** of these are true:\n\n1. The Applicant's key personnel have **clearly demonstrated Export Transaction expertise and substantial previous successful business experience**; and\n2. The Lender processes the loan using **conventional commercial loan underwriting procedures** and does **not rely solely on credit scoring or credit matrices** to approve it.\n\nThere is an extra hurdle for **non-bank Lenders that do not have a conventional loan portfolio**: they must submit their underwriting procedures to the **Office of Credit Risk Management (OCRM) for written approval** before making an Export Express loan to such an Applicant.\n\nThe Lender must **retain evidence of compliance with both conditions** in its file.\n\n> **Watch out:** The exception is conjunctive. Strong export experience alone does not cure a short operating history if the lender approved the deal off a scorecard.\n\n### Industries that cannot use Export Express\n\n\"For purposes of clarification,\" businesses in these NAICS Industry Subsector Codes cannot be financed with an Export Express loan:\n\n| NAICS subsector | Industry |\n|---|---|\n| 721 | Accommodation |\n| 457 | Gasoline Stations |\n\nThese businesses are not ineligible for SBA altogether. The SOP is explicit that they **may be financed using other SBA 7(a) financial assistance**. A hotel or gas station that exports nothing would rarely ask for this product anyway, but the exclusion matters for loan systems that screen NAICS codes automatically.\n\n> **In practice:** Build the eligibility checklist in this order: core Section A eligibility, then the NAICS screen, then the 12-month test. If the business is under 12 months old, capture the experience narrative and confirm the file shows conventional underwriting before going further.\n",
+      "keyPoints": [
+        "Applicant must have operated (not necessarily as an Exporter) for at least 12 full months.",
+        "Under 12 months is allowed only if key personnel have demonstrated export expertise AND the Lender uses conventional underwriting, not solely credit scoring.",
+        "Non-bank Lenders without a conventional portfolio need written OCRM approval of their underwriting procedures first.",
+        "Evidence of both conditions must be kept in the Lender's file.",
+        "NAICS 721 (Accommodation) and 457 (Gasoline Stations) cannot use Export Express."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. A (Eligibility and Eligible Uses of Proceeds for Export Express)"
+    },
+    {
+      "id": "b5-ee-uses",
+      "title": "Export Express: eligible and ineligible uses of proceeds",
+      "body": "Every Export Express dollar must support an **export development activity**. The SOP lists what counts:\n\n1. **Translating** product brochures or catalogues for markets outside the United States.\n2. A **general line of credit** for Export Transaction purposes. In the normal course of business the borrower may use part of the line domestically, **as long as no less than 70% of the line will be used for export purposes**.\n3. **Performing a service contract** from buyers located outside the United States.\n4. **Transaction-specific financing** to complete Export Transaction orders.\n5. **Acquiring, constructing, renovating, modernizing, improving or expanding** a production facility or equipment *used in the United States* to produce goods or services for Export Transactions.\n6. **Term loans and other financing** to help a small business, including an export trading company or export management company, **develop a market outside the United States**.\n\nTwo clarifications sit in the same list:\n\n- A 7(a) loan **may not refinance debt owed to a Small Business Investment Company (SBIC) or a New Markets Venture Capital Company** (13 CFR 120.130(b)).\n- **Paying trade payables is not considered debt refinancing.**\n\nOther debt refinancing is governed by **Appendix 14, Para. B.6** (7(a) Debt Refinancing Requirements).\n\n### What proceeds may not do\n\nExport Express proceeds may **not** be used to:\n\n- **Finance operations outside the United States**, except for marketing and/or distribution of products or services exported from the United States;\n- **Refinance existing SBA-guaranteed loans**, except as Appendix 14, Para. B.6 permits; or\n- **Fund a Change of Ownership** transaction (Appendix 15 has the change of ownership rules for other 7(a) products).\n\n| Request | Export Express? |\n|---|---|\n| Line of credit, 75% export use, 25% domestic | Yes (meets the 70% floor) |\n| Line of credit, 60% export use | No |\n| New CNC machine in the borrower's Ohio plant for export production | Yes |\n| Leasing a sales office in Germany to run local operations | No, unless it is marketing or distribution of U.S. exports |\n| Buying out a retiring partner | No, Change of Ownership is not permitted |\n| Paying overdue supplier invoices | Allowed; trade payables are not refinancing |\n\n> **Watch out:** The IT program *does* allow some changes of ownership. Do not carry that rule over to Export Express, where funding a Change of Ownership is prohibited.\n",
+      "keyPoints": [
+        "Proceeds must be used for an export development activity.",
+        "A general line of credit may be partly used domestically, but no less than 70% must be used for export purposes.",
+        "Proceeds cannot finance operations outside the U.S., except marketing or distribution of U.S. exports.",
+        "No Change of Ownership financing under Export Express.",
+        "No refinancing of SBIC or New Markets Venture Capital Company debt; paying trade payables is not refinancing."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. A (Eligibility and Eligible Uses of Proceeds for Export Express)"
+    },
+    {
+      "id": "b5-ee-country-docs",
+      "title": "Export Express: country screening, OFAC and required documentation",
+      "body": "### Who are we selling to, and where?\n\nWhen an Export Express loan finances **specific export transactions (including indirect exports)** under the transaction-specific, facility/equipment, or market development uses, the Lender must determine whether **U.S. companies are authorized to do business with the parties and the countries** the goods or services will be shipped to. Two checks are required:\n\n1. **Ex-Im Bank's Country Limitation Schedule** (on Ex-Im Bank's website, or available from SBA's Office of International Trade).\n2. The **Department of Treasury Office of Foreign Assets Control (OFAC) sanctions lists**.\n\nHow the OFAC requirement is satisfied depends on the lender type:\n\n| Lender type | OFAC compliance |\n|---|---|\n| Federally regulated Lender | Following the procedures required by its Federal Financial Institution Regulator **constitutes compliance** |\n| SBA Supervised Lender | Must check the OFAC lists **prior to first disbursement of funds on each specific export transaction** |\n\nA loan **may not** be made to a business that **directly or indirectly exports to a foreign country listed as prohibited (Note #7 on the Country Limitation Schedule)**, or if the transaction would be prohibited under any OFAC sanctions program.\n\n> **Watch out:** \"Indirect\" matters. A borrower that sells to a U.S. distributor who ships to a Note #7 country is still exporting indirectly to that country.\n\n### Documenting the export story\n\nSBA requires the Lender to obtain information about the **use of proceeds and its projected impact on the borrower's export sales**, and to keep it in the loan file. The Applicant must document:\n\n1. **Estimated total export sales** the loan will support;\n2. A **brief description of the product or service** to be exported;\n3. **How the loan will enable** the business to enter a new export market or expand in an existing one;\n4. The **countries** to which the business will export; and\n5. An **estimate of export sales for the 12-month period following the date of the loan application**.\n\nThis can come in whatever form is convenient: a general business plan, an attachment to the loan application, or a **Lender-developed questionnaire**.\n\n> **In practice:** Many Export Express lenders standardize on a one-page questionnaire that captures all five items. It keeps files consistent and gives SBA reviewers exactly what they look for.\n",
+      "keyPoints": [
+        "When financing specific export transactions (uses iv, v or vi), check the Ex-Im Bank Country Limitation Schedule and OFAC sanctions lists.",
+        "Federally regulated Lenders comply with OFAC by following their federal regulator's procedures.",
+        "SBA Supervised Lenders must check OFAC before first disbursement on each specific export transaction.",
+        "No loan to a business that directly or indirectly exports to a Note #7 prohibited country.",
+        "Borrower must document five items about export use and impact, kept in the Lender's file."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. A (Eligibility and Eligible Uses of Proceeds for Export Express)"
+    },
+    {
+      "id": "b5-ee-limits-guaranty",
+      "title": "Export Express loan size and guaranty",
+      "body": "### Loan amount\n\n- The **maximum Export Express loan is $500,000 (gross)**.\n- Affiliation applies (13 CFR 120.151). The Lender must determine whether the Applicant has affiliates and **document the results in its credit analysis**. If affiliates exist, the loan maximums apply to the Applicant and all affiliates **as if they were a single business**.\n- **Multiple Export Express loans are allowed** up to the program maximum of $500,000 gross.\n\n### Guaranty percentage\n\nThe higher guaranty is the core selling point of Export Express:\n\n| Loan amount | Maximum guaranty |\n|---|---|\n| $350,000 or less | **90%** |\n| Over $350,000 up to $500,000 | **75%** |\n\n### Guaranty dollar cap\n\nSBA's guaranty outstanding to any one business, **including affiliates**, may not exceed **$3,750,000**. An Eligible Passive Company (EPC) and its Operating Company (OC) are treated as **one business** for this purpose. The guaranteed amount of all Export Express loans counts toward this $3,750,000 cap on **all SBA loans** to the borrower and affiliates at any one time.\n\nWhen calculating available guaranty, a **revolving line of credit counts at its approved loan amount**, not its current drawn balance.\n\n### The 90-day stacking rule\n\nIf **multiple Export Express loans are approved within 90 days of each other** and their **combined gross amount exceeds $350,000**, the guaranty percentage on the second loan must be reduced so the **combined guaranty is no more than 75%** (still subject to the $3,750,000 cap).\n\n*Example:* Loan 1 for $300,000 at 90% ($270,000 guaranteed). Sixty days later, Loan 2 for $150,000. Combined $450,000 exceeds $350,000, so combined guaranty can be at most 75% x $450,000 = $337,500. Loan 2 can carry at most $67,500 of guaranty, which is 45%.\n\n> **Watch out:** This rule exists to stop a lender from splitting a $450,000 need into two sub-$350,000 loans to capture 90% on both.\n\n### Pairing with a 504 loan\n\nWhen an Applicant seeks any combination of 7(a) and 504 loans, **the order of approval determines** the maximum loan and guaranty available. Because the 7(a) loan has the lower maximum guaranteed amount, **process and approve the 7(a) loan first**. Lenders must **tell the SBA processing centers about a companion 504 application** so the sequence is respected.\n\n### No zero-percent guaranty\n\nA 7(a) loan cannot include proceeds for an ineligible purpose or any portion made to an ineligible business, and **no part of an SBA 7(a) loan may be guaranteed at zero percent**. You cannot \"carve out\" an ineligible piece as an unguaranteed tranche.\n",
+      "keyPoints": [
+        "Maximum Export Express loan: $500,000 (gross), including affiliates.",
+        "Guaranty: 90% for loans of $350,000 or less; 75% for loans over $350,000 up to $500,000.",
+        "Maximum SBA guaranty outstanding to one business and affiliates: $3,750,000 (EPC and OC count as one).",
+        "Multiple loans within 90 days totaling over $350,000: reduce the second loan's guaranty so combined guaranty is no more than 75%.",
+        "Revolving lines count at the approved amount; no part of a 7(a) loan may be guaranteed at zero percent."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. A (Loan Terms and Conditions for Export Express)"
+    },
+    {
+      "id": "b5-ee-rates-maturity",
+      "title": "Export Express interest rates, maturities and collateral",
+      "body": "Chapter 5 points to the 7(a) appendices for most loan terms. For Export Express the cross-references are:\n\n| Term | Where the rule lives |\n|---|---|\n| Debt refinancing | Appendix 14, Para. B.6 |\n| Loan maturities | Appendix 17, Para. B.6 |\n| Interest rates | Appendix 18, Para. B.6 |\n| Collateral | Appendix 19, Para. B.6 |\n| Personal guaranties | Section A, Ch. 5, Para. A |\n| Submitting the guaranty application | Appendix 20 |\n\n### Maximum interest rates\n\nThe chapter includes SBA's quick reference chart for Export Express. The **maximum allowable fixed rate is published on SBA's Wiki page**. Maximum **variable** rates are tiered by loan size:\n\n| Loan amount | Maximum variable rate |\n|---|---|\n| $50,000 or less | Prime or SBA Optional Peg Rate + **6.5%** |\n| $50,001 up to and including $250,000 | Prime or SBA Optional Peg Rate + **6.0%** |\n| $250,001 up to and including $350,000 | Prime or SBA Optional Peg Rate + **4.5%** |\n| $350,001 and greater | Prime or SBA Optional Peg Rate + **3.0%** |\n\nNotice how the rate tiers line up with the guaranty tiers: $350,000 is both the break point between a 90% and 75% guaranty and the break point into the lowest spread.\n\n> **In practice:** A $400,000 Export Express line gets a 75% guaranty and is capped at base + 3.0%. A $300,000 line gets 90% and can price up to base + 4.5%. Rate engines should key off the gross loan amount for both.\n\n> **Watch out:** Do not hard-code fixed-rate maximums. The SOP deliberately points to the Wiki because those figures change.\n",
+      "keyPoints": [
+        "Maturities: Appendix 17, Para. B.6. Interest rates: Appendix 18, Para. B.6. Collateral: Appendix 19, Para. B.6.",
+        "Maximum fixed rates are published on SBA's Wiki page.",
+        "Max variable rate: Prime or SBA Optional Peg + 6.5% ($50,000 or less), + 6.0% ($50,001-$250,000), + 4.5% ($250,001-$350,000), + 3.0% ($350,001+).",
+        "Guaranty requirements come from Section A, Ch. 5, Para. A."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. A (Loan Terms and Conditions for Export Express)"
+    },
+    {
+      "id": "b5-ee-credit-processing",
+      "title": "Export Express credit standards and delegated processing",
+      "body": "### The credit standard\n\nSBA's credit standards begin with **13 CFR 120.101 and 120.150**. Every Export Express application must be analyzed in a **commercially reasonable manner, consistent with prudent lending standards**.\n\nThe **cash flow of the Applicant is the primary source of repayment**, not expected recovery from liquidating collateral. If the Lender's analysis shows the Applicant **lacks reasonable assurance of timely repayment from business cash flow, the loan must be declined**, regardless of collateral or outside sources of repayment.\n\n### Delegated-only processing\n\nExport Express loans are **only processed via an Export Express Lender's delegated authority**. When a Lender submits a guaranty request under that authority:\n\n- SBA **does not review the Lender's credit analysis or loan structure** before issuing a loan number.\n- The Lender must analyze creditworthiness under SBA Loan Program Requirements and **properly document its file**.\n- SBA reviews the analysis for adequacy **when the Lender requests purchase of the guaranty** or **during lender oversight**.\n\nThat last point is the real control: a weak file may not cost anything at approval, but it can cost the guaranty later.\n\n### Using the lender's own documents\n\nTo the maximum extent practicable, Export Express Lenders **may use their own forms, internal credit memoranda, notes, collateral documents, and servicing and liquidation documentation**. When they do, they must follow the **established and proven internal procedures** they use for **similarly-sized non-SBA guaranteed commercial loans**.\n\n### Underwriting must-haves\n\n1. Lenders **must not** make an Export Express loan that would be available on **reasonable commercial terms** from the Lender itself or another source **without an SBA guaranty**.\n2. The credit analysis must show a **reasonable assurance of repayment**.\n3. The analysis must include the factors showing **credit is not available elsewhere** on reasonable commercial terms from non-Federal, non-State, non-local government sources (Section A, Ch. 1, Para. H).\n4. The Lender must use **appropriate, prudent, generally accepted** credit analysis processes (which may include credit scoring) that are **consistent with its similarly-sized non-SBA commercial loans**.\n\n> **In practice:** \"Consistent with similarly-sized non-SBA loans\" is the recurring test in Export Express. If an SBA examiner asks why a file looks thin, the answer must be \"this is exactly what we do for our conventional loans of this size,\" and the lender's written policy should prove it.\n",
+      "keyPoints": [
+        "Cash flow of the Applicant is the primary source of repayment; collateral cannot cure weak cash flow.",
+        "Export Express is processed only under the Lender's delegated Export Express authority.",
+        "SBA does not review the credit analysis before issuing a loan number; review comes at purchase or oversight.",
+        "Lenders may use their own forms and procedures, consistent with similarly-sized non-SBA commercial loans.",
+        "No Export Express loan if credit is available on reasonable commercial terms without an SBA guaranty."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. A (Credit Standards for Export Express)"
+    },
+    {
+      "id": "b5-ee-scoring-judgment",
+      "title": "Export Express: credit scoring and lender judgment",
+      "body": "### Business credit scoring\n\nExport Express Lenders **may** use a **business credit scoring model** to assess character, reputation, credit history and/or repayment ability, **if they do so for their similarly-sized, non-SBA guaranteed commercial loans**. The rules:\n\n- The model **cannot rely solely on consumer credit scores**.\n- It may **only be used in addition to** the Lender's appropriate, prudent and generally accepted credit analysis. It is a supplement, never a replacement.\n- If used, the **scoring results must be documented in each loan file** and available for SBA review.\n- Lenders must **validate (and document)** with appropriate statistical methods that the model **predicts loan performance**, and provide that documentation to SBA **upon request**.\n- **Small Business Lending Companies (SBLCs)** do not make non-SBA guaranteed loans, but SBA allows them to use credit scoring. SBLCs must provide **credit scoring model validation to SBA on an annual basis**.\n\n### Judgment calls left to the lender\n\nThe credit decision, including **how much weight to give a past bankruptcy** and **whether to require an equity injection**, is left to the Lender's business judgment. But there are guardrails:\n\n- If the Lender requires an equity injection and, under its standard process for similarly-sized non-SBA loans, **verifies** that injection, it **must verify it on Export Express loans too**.\n- **Early loan defaults will be reviewed by SBA** under **SOP 50 57** (7(a) Loan Servicing and Liquidation). Freedom in underwriting comes with scrutiny after the fact.\n\n### Franchises and management agreements\n\n- If the application involves a **franchise (as defined by the FTC)**, the Lender must review any credit information provided, such as the **number of failed franchisees and cash flow projections** from the franchisor.\n- The Lender must review any **management agreement** to determine whether it results in an **ineligible passive company**, unless the management agreement is part of the franchise disclosure documents for a brand listed on the **Franchise Directory**.\n\n> **Watch out:** A lender that never uses credit scoring for its own commercial loans cannot start using it only for Export Express. The permission is tied to what the lender does on its conventional book.\n",
+      "keyPoints": [
+        "A business credit scoring model may be used only in addition to the Lender's normal credit analysis.",
+        "The model cannot rely solely on consumer credit scores; results must be documented in each file.",
+        "Lenders must statistically validate the model and provide documentation to SBA on request; SBLCs must provide validation annually.",
+        "Bankruptcy weight and equity injection are left to Lender judgment, but if the Lender verifies equity on its own loans it must on Export Express too.",
+        "Early defaults are reviewed under SOP 50 57; franchise and management agreements must be reviewed."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. A (Credit Standards for Export Express - Underwriting)"
+    },
+    {
+      "id": "b5-ee-nonfinancial-defaults",
+      "title": "Export Express non-financial default provisions",
+      "body": "A **non-financial default provision** is a loan condition that, if violated, puts the loan in default **even though the borrower has made every payment as agreed**. Examples in commercial lending include failing to deliver financial statements, breaching a covenant, or an unapproved change in ownership.\n\nExport Express permits these provisions, which is a feature borrowed from conventional lending. The conditions are:\n\n1. **Substantive.** The provisions must be meaningful, not boilerplate traps.\n2. **Agreed in writing at closing.** The Borrower must agree to them in writing at loan closing.\n3. **Consistent with the Lender's conventional book.** They must match those used on the Lender's **similarly-sized non-SBA guaranteed commercial loans**.\n4. **Not a standalone basis for purchase.** A Lender **may not request purchase of the guaranty solely based on a violation of a non-financial default provision** (13 CFR 120.520).\n5. **A maturity date is still required.** The note must establish a maturity date. For example, a line of credit could say it is **payable on demand under certain conditions, but in no case later than a certain date**.\n\n> **Watch out:** A demand line with no outside maturity date does not comply. Loan document templates should always carry a hard maturity date even when demand features are included.\n\n> **In practice:** Non-financial defaults give the lender leverage to call or restructure a line early, for example when a borrower stops sending receivables agings. They do not give the lender a shortcut to SBA's guaranty. If the lender wants SBA to purchase, there must be a payment default or other basis beyond the covenant breach.\n\n### Where submission rules live\n\nWhen the loan is ready, the guaranty application is submitted under the rules in **Appendix 20, Submission of Application for Guaranty**.\n",
+      "keyPoints": [
+        "Non-financial default provisions are allowed in Export Express.",
+        "They must be substantive and agreed to by the Borrower in writing at loan closing.",
+        "They must match those used on the Lender's similarly-sized non-SBA commercial loans.",
+        "A Lender may not request guaranty purchase solely because of a non-financial default (13 CFR 120.520).",
+        "The note must set a maturity date, even for a demand line."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. A (Credit Standards for Export Express - Underwriting)"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Export Express",
+      "definition": "7(a) program guaranteeing smaller revolving lines or term loans (up to $500,000 gross) for export development, with SBA Express-style streamlining and a higher guaranty."
+    },
+    {
+      "term": "Export Working Capital Program (EWCP)",
+      "definition": "7(a) program guaranteeing short-term working capital loans to small business Exporters engaged in Export Transactions."
+    },
+    {
+      "term": "International Trade (IT) Loan",
+      "definition": "7(a) term loan for businesses expanding or developing export markets, or adversely affected by import competition, to improve their competitive position."
+    },
+    {
+      "term": "Export development activity",
+      "definition": "The required purpose of Export Express proceeds, such as translation of catalogues, export lines of credit, foreign service contracts, export orders, U.S. production facilities for exports and market development abroad."
+    },
+    {
+      "term": "Country Limitation Schedule (CLS)",
+      "definition": "Ex-Im Bank schedule lenders must check to confirm U.S. companies may do business with a destination country; Note #7 identifies prohibited countries."
+    },
+    {
+      "term": "OFAC",
+      "definition": "Department of Treasury Office of Foreign Assets Control, which maintains the sanctions lists lenders must check for export transactions."
+    },
+    {
+      "term": "Non-financial default provision",
+      "definition": "A loan condition whose violation puts the loan in default even though all payments have been made as agreed."
+    },
+    {
+      "term": "Business credit scoring model",
+      "definition": "A statistically validated scoring model, not relying solely on consumer scores, that Export Express Lenders may use in addition to their normal credit analysis."
+    },
+    {
+      "term": "OCRM",
+      "definition": "SBA's Office of Credit Risk Management, which must approve in writing the underwriting procedures of non-bank Lenders lacking a conventional portfolio before they make certain Export Express loans."
+    },
+    {
+      "term": "SBA Supervised Lender",
+      "definition": "A non-depository lender regulated by SBA; for export loans it must check OFAC lists before first disbursement on each specific export transaction."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "b5-ee-q1",
+      "question": "What is the maximum gross loan amount for an Export Express loan?",
+      "options": [
+        "$350,000",
+        "$500,000",
+        "$5,000,000",
+        "$3,750,000"
+      ],
+      "correctIndex": 1,
+      "explanation": "Export Express loans are capped at $500,000 gross. $350,000 is the break point between the 90% and 75% guaranty, $5,000,000 is the EWCP and IT maximum, and $3,750,000 is the maximum SBA guaranty outstanding to one business.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. A (Loan Terms and Conditions for Export Express), Maximum Loan Amount",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b5-ee-q2",
+      "question": "What maximum guaranty percentage applies to a $420,000 Export Express loan?",
+      "options": [
+        "90%",
+        "85%",
+        "50%",
+        "75%"
+      ],
+      "correctIndex": 3,
+      "explanation": "Export Express guarantees 90% for loans of $350,000 or less and 75% for loans over $350,000 up to $500,000. A $420,000 loan is in the 75% tier; 90% applies only at or below $350,000.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. A (Loan Terms and Conditions for Export Express), Maximum Guaranty Amounts and Percentages",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b5-ee-q3",
+      "question": "A borrower's Export Express line of credit will be used partly for domestic purposes. Which split complies with the SOP?",
+      "options": [
+        "72% export, 28% domestic",
+        "65% export, 35% domestic",
+        "51% export, 49% domestic",
+        "50% export, 50% domestic"
+      ],
+      "correctIndex": 0,
+      "explanation": "A general Export Express line may be partly used domestically as long as no less than 70% is used for export purposes. Only the 72% option meets the 70% floor; a simple majority (51%) is not enough.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. A (Eligibility and Eligible Uses of Proceeds for Export Express), Para. 1",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b5-ee-q4",
+      "question": "Which of the following is an eligible use of Export Express proceeds?",
+      "options": [
+        "Funding a partner buyout (Change of Ownership)",
+        "Running a manufacturing plant located in Mexico",
+        "Translating product catalogues for overseas markets",
+        "Refinancing debt owed to an SBIC"
+      ],
+      "correctIndex": 2,
+      "explanation": "Translation of brochures or catalogues for markets outside the U.S. is a listed export development activity. Changes of ownership are expressly prohibited under Export Express, operations outside the U.S. cannot be financed (except marketing/distribution of U.S. exports), and SBIC debt cannot be refinanced.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. A (Eligibility and Eligible Uses of Proceeds for Export Express)",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b5-ee-q5",
+      "question": "A software consulting firm has operated for 8 months. Its founders previously ran a successful exporting business for a decade. A bank approves an Export Express loan solely on its small business credit scorecard. Is the loan eligible?",
+      "options": [
+        "Yes, because the founders have demonstrated export expertise",
+        "No, because the Lender relied solely on credit scoring; both exception conditions must be met",
+        "Yes, because time in business is measured as an Exporter, not overall",
+        "No, because Export Express requires 24 months of operating history"
+      ],
+      "correctIndex": 1,
+      "explanation": "Applicants under 12 months qualify only if key personnel have demonstrated export expertise AND the Lender uses conventional underwriting rather than relying solely on credit scoring or matrices. Expertise alone is not enough. The requirement is 12 full months, not 24, and it is time in operation, not as an Exporter.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. A (Eligibility and Eligible Uses of Proceeds for Export Express)",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b5-ee-q6",
+      "question": "A lender approved a $300,000 Export Express loan at 90%. Forty-five days later the same borrower is approved for a second Export Express loan of $100,000. What is the maximum guaranty on the second loan?",
+      "options": [
+        "$90,000 (90%)",
+        "$75,000 (75%)",
+        "$30,000 (30%)",
+        "$0, a second loan within 90 days is not allowed"
+      ],
+      "correctIndex": 2,
+      "explanation": "Loans approved within 90 days with combined gross over $350,000 must hold combined guaranty at no more than 75%. 75% x $400,000 = $300,000; loan 1 already uses $270,000, leaving $30,000 (30%) for loan 2. Multiple loans are permitted, so $0 is wrong, and applying 90% or 75% to loan 2 alone ignores the combined test.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. A (Loan Terms and Conditions for Export Express), Maximum Guaranty Amounts and Percentages, Para. 2",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b5-ee-q7",
+      "question": "What is the maximum variable interest rate on a $200,000 Export Express loan?",
+      "options": [
+        "Prime or SBA Optional Peg Rate + 6.0%",
+        "Prime or SBA Optional Peg Rate + 6.5%",
+        "Prime or SBA Optional Peg Rate + 4.5%",
+        "Prime or SBA Optional Peg Rate + 3.0%"
+      ],
+      "correctIndex": 0,
+      "explanation": "Loans of $50,001 up to and including $250,000 are capped at base + 6.0%. Base + 6.5% applies to $50,000 or less, + 4.5% to $250,001-$350,000, and + 3.0% to $350,001 and greater.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. A (Loan Terms and Conditions for Export Express), Interest Rates (Quick Reference Chart)",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b5-ee-q8",
+      "question": "An SBA Supervised Lender makes an Export Express loan to finance specific export orders. When must it check the OFAC sanctions lists?",
+      "options": [
+        "Only once, at loan application",
+        "Prior to first disbursement of funds on each specific export transaction",
+        "Annually, at the line's renewal",
+        "Never; following its federal regulator's procedures is sufficient"
+      ],
+      "correctIndex": 1,
+      "explanation": "SBA Supervised Lenders must check OFAC lists before first disbursement on each specific export transaction. Relying on federal regulator procedures is the compliance path for federally regulated Lenders, not SBA Supervised Lenders.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. A (Eligibility and Eligible Uses of Proceeds for Export Express), Para. 4",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b5-ee-q9",
+      "question": "A bank writes Export Express notes with a demand feature and several financial reporting covenants. The borrower is current on all payments but has missed two reporting deadlines. The bank wants SBA to purchase the guaranty immediately. What does the SOP say?",
+      "options": [
+        "The bank may request purchase because any default triggers purchase rights",
+        "Non-financial default provisions are not allowed in Export Express",
+        "The bank may request purchase only after 60 days of covenant breach",
+        "The bank may not request purchase solely based on a non-financial default"
+      ],
+      "correctIndex": 3,
+      "explanation": "Non-financial default provisions are allowed in Export Express, but a Lender may not request purchase of the guaranty solely based on violating one (13 CFR 120.520). There is no 60-day cure rule in the SOP, and non-financial defaults are permitted, so the other options are wrong.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. A (Credit Standards for Export Express), Underwriting, Para. 7",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b5-ee-q10",
+      "question": "Which statement about business credit scoring for Export Express is correct?",
+      "options": [
+        "It may replace the Lender's traditional credit analysis on loans under $350,000",
+        "A model based solely on consumer credit scores is acceptable",
+        "SBLCs must provide credit scoring model validation to SBA annually",
+        "Scoring results need not be kept in the file if the loan is approved"
+      ],
+      "correctIndex": 2,
+      "explanation": "SBLCs may use credit scoring but must provide validation to SBA on an annual basis. Scoring may only supplement, never replace, the Lender's normal analysis; it cannot rely solely on consumer scores; and results must be documented in each loan file.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. A (Credit Standards for Export Express), Underwriting, Para. 5",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b5-ee-q11",
+      "question": "A gas station chain (NAICS 457) that sells fuel additives to Canadian buyers asks for an Export Express line. What should the lender tell them?",
+      "options": [
+        "They are ineligible for Export Express but may be financed with other SBA 7(a) assistance",
+        "They are eligible because they have export sales",
+        "They are ineligible for any SBA financing",
+        "They are eligible only if 70% of revenue is from exports"
+      ],
+      "correctIndex": 0,
+      "explanation": "NAICS 457 (Gasoline Stations) and 721 (Accommodation) cannot use Export Express, but the SOP states they may be financed using other SBA 7(a) financial assistance. They are not barred from SBA altogether, and export revenue does not override the exclusion.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. A (Other Restrictions that apply to Export Express Loans)",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b5-ee-q12",
+      "question": "What is the maximum SBA guaranty amount that may be outstanding to one business, including affiliates, for Export Express purposes?",
+      "options": [
+        "$500,000",
+        "$1,000,000",
+        "$5,000,000",
+        "$3,750,000"
+      ],
+      "correctIndex": 3,
+      "explanation": "SBA's guaranty to one business including affiliates may not exceed $3,750,000, and Export Express guaranties count toward it. $500,000 is the Export Express loan maximum, not a guaranty cap.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. A (Loan Terms and Conditions for Export Express), Maximum Guaranty Amounts and Percentages",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b5-ee-q13",
+      "question": "A borrower wants an Export Express line and a companion 504 loan for a new facility. In what order should they be processed?",
+      "options": [
+        "The 504 loan first, because it is larger",
+        "The 7(a) loan first, and the Lender must tell the SBA processing center about the companion 504",
+        "Simultaneously, so both get the same approval date",
+        "Order does not matter for maximum guaranty purposes"
+      ],
+      "correctIndex": 1,
+      "explanation": "The approval order determines the maximum loan and guaranty available. Because the 7(a) loan has the lower maximum guaranteed amount, it should be approved first, and the Lender must advise SBA processing centers of the companion 504 application.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. A (Loan Terms and Conditions for Export Express), Maximum Guaranty Amounts and Percentages, Para. 4",
+      "difficulty": "scenario"
+    }
+  ]
+}

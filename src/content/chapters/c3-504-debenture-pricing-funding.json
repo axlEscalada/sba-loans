@@ -1,0 +1,276 @@
+{
+  "id": "c3-504-debenture-pricing-funding",
+  "order": 330,
+  "part": "C",
+  "program": "504",
+  "title": "504 Debenture Pricing and Funding",
+  "subtitle": "How a 504 debenture is sized from the Net Debenture, re-priced when costs change, and sold and disbursed each month",
+  "sopRef": "SOP 50 10 8.1, Section C, Ch. 3",
+  "estimatedMinutes": 30,
+  "learningObjectives": [
+    "Distinguish the Net Debenture from the Gross Debenture",
+    "Calculate a Gross Debenture and Underwriter's Fee for 10, 20 and 25 year debentures using the SOP pricing model",
+    "Explain which fees may be paid up front and how that changes the calculation",
+    "Apply the 2% unused contingency rule to decide between a CSA refund and an SLPC modification",
+    "Describe the monthly debenture sale calendar and how the CSA disburses proceeds"
+  ],
+  "topics": [
+    {
+      "id": "c3-sba-share",
+      "title": "Net Debenture: SBA's share of the project",
+      "body": "A 504 loan is funded by selling a **debenture**, a bond guaranteed by SBA. Before the debenture can be sold, it has to be sized, or **priced**. The regulatory hook for this chapter is 13 CFR 120.931.\n\n### Two numbers to keep apart\n\n- **Net Debenture**: the amount that funds the **eligible project costs**, that is, SBA's share of the project.\n- **Gross Debenture**: the Net Debenture **plus the administrative costs** of issuing it (fees and closing costs). This is the face amount of the bond actually sold and the amount the borrower repays.\n\nSo the first job is to find SBA's share of total project costs.\n\n### The SOP's hypothetical\n\nThe SOP uses a project for a **new business or a Limited or Special Purpose Property**. Total project costs (land, building, machinery and equipment, and eligible soft costs) are **$1,000,000**, and SBA finances **35%** for 20 or 25 years:\n\n| % | Participant | Amount |\n|---|---|---|\n| 50% | Third Party Lender | $500,000 |\n| 35% | 504 Net Debenture | $350,000 |\n| 15% | Small business injection | $150,000 |\n| 100% | Total project costs | $1,000,000 |\n\nThe 15% injection in this example reflects its new business or Limited or Special Purpose Property facts. The injection and participation rules themselves are covered in Section C, Ch. 1.\n\n### Why this matters for pricing\n\nEvery fee except the underwriting fee and the closing costs is a **percentage of the Net Debenture**. Get the Net Debenture wrong and every downstream number is wrong.\n\n> **In practice:** When software shows \"504 loan amount,\" make sure it is clear whether that is the Net Debenture (project financing) or the Gross Debenture (what the borrower owes). Borrowers and bankers often mix them up.\n\nThe next topic walks through turning the Net Debenture into the Gross Debenture.",
+      "keyPoints": [
+        "Pricing starts with SBA's share of total project cost: the Net Debenture",
+        "Net Debenture funds eligible project costs; adding administrative costs gives the Gross Debenture",
+        "SOP example: $1,000,000 project = $500,000 TPL (50%), $350,000 Net Debenture (35%), $150,000 injection (15%)",
+        "Governing regulation: 13 CFR 120.931"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 3, Determining SBA's Share of the Project Costs"
+    },
+    {
+      "id": "c3-gross-debenture-steps",
+      "title": "Calculating the Gross Debenture step by step",
+      "body": "The SOP gives a fixed pricing model. Except for the **underwriting fee** and **closing costs**, each administrative cost is a percentage of the **Net Debenture**. (See also Section C, Ch. 1, Para. C.12, Eligible Administrative Costs, and Section A, Ch. 4, Para. E on 504 fees.)\n\n### The steps\n\n| Step | Item | How it is computed | SOP example |\n|---|---|---|---|\n| 1 | Net Debenture | SBA's share of project costs | $350,000 |\n| 2 | SBA Guaranty Fee | **0.5%** of Net Debenture | $1,750 |\n| 3 | Funding Fee | **0.25%** of Net Debenture | $875 |\n| 4 | CDC Processing Fee | **1.5%** of Net Debenture | $5,250 |\n| 5 | Eligible closing costs | Actual eligible amount | $2,500 |\n| | **Subtotal (1-5)** | | **$360,375** |\n| 6 | Gross Debenture | Subtotal / **0.996** for 20 or 25 year (**0.99625** for 10 year), then **round up to the next even thousand** | $362,000 |\n| 7 | Underwriter's Fee | Gross Debenture x **0.004** for 20 or 25 year (**0.00375** for 10 year) | $1,448 |\n| 8 | Balance to Borrower | Gross Debenture minus (Net Debenture + fees and closing costs + Underwriter's Fee) | see note |\n\n### Why divide instead of multiply?\n\nThe Underwriter's Fee is a percentage of the **Gross** Debenture, which is not known yet. Dividing the subtotal by 0.996 (that is, 1 minus 0.004) \"grosses up\" the bond so that after the Underwriter's Fee comes out, enough is left to cover everything else. That is why the SOP notes: **the Gross Debenture is calculated first because the Underwriter's Fee is based on the Gross Debenture, not the Net Debenture.**\n\n### Rounding creates a small surplus\n\nRounding **up to the next even thousand** means the bond raises slightly more than needed. That surplus is the **Balance to Borrower** and is paid to the borrower.\n\n> **Watch out:** The SOP's printed worked example has figures that do not reconcile. It shows $360,065 after dividing $360,375 by 0.996 (the actual quotient is about $361,822, which still rounds up to $362,000) and states a Balance to Borrower of $931. Applying the SOP's own step 8 formula to its own numbers gives $362,000 - ($350,000 + $10,375 + $1,448) = $177. Follow the method, not the printed arithmetic, and do not hard-code the $931 figure.\n\n> **In practice:** The 10-year debenture uses different factors in two places: 0.99625 for the gross-up and 0.00375 for the Underwriter's Fee. A calculator that only handles 20 and 25 year terms will misprice 10-year debentures.",
+      "keyPoints": [
+        "SBA Guaranty Fee 0.5%, Funding Fee 0.25%, CDC Processing Fee 1.5%, each on the Net Debenture",
+        "Eligible closing costs are added as a dollar amount, not a percentage",
+        "Divide items 1-5 by 0.996 (20 or 25 year) or 0.99625 (10 year), then round up to the next even thousand",
+        "Underwriter's Fee = Gross Debenture x 0.004 (20/25 year) or 0.00375 (10 year)",
+        "The Gross Debenture is calculated first because the Underwriter's Fee is based on it",
+        "Whatever remains after net proceeds, fees and Underwriter's Fee goes to the Borrower"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 3, Steps to Calculate the Gross Debenture"
+    },
+    {
+      "id": "c3-separate-payment",
+      "title": "Paying the CDC Processing Fee and closing costs up front",
+      "body": "Some borrowers prefer to pay certain costs out of pocket rather than finance them for 20 or 25 years. The SOP allows this only for two items.\n\n### What can be paid up front\n\n**The CDC's Processing Fee and the closing costs are the only fees that can be paid up front and deleted from the Gross Debenture calculation.** The SBA Guaranty Fee, Funding Fee and Underwriter's Fee are always built into the debenture.\n\n### Paying the CDC Processing Fee up front\n\nIf the borrower pays the CDC's Processing Fee up front, there are two paths:\n\n| Borrower choice | How the Gross Debenture is computed | Cash flow |\n|---|---|---|\n| **Wants to be reimbursed** from debenture proceeds | Processing Fee **stays in** the Gross Debenture calculation | CDC receives the fee from the proceeds as usual, then **the CDC reimburses the borrower** |\n| **Does not want reimbursement** | Include the Processing Fee first to compute the correct **Underwriter's Fee**; then enter **zero** on the Processing Fee line of **SBA Form 1506** (Servicing Agent Agreement), re-total, and **round up to the next higher thousand** for the new Gross Debenture | Borrower's debenture is smaller; no reimbursement |\n\n### Why the two-pass calculation?\n\nIn the \"no reimbursement\" path, the SOP has you calculate the Underwriter's Fee **with** the Processing Fee included, then remove the Processing Fee. That keeps the Underwriter's Fee on the SOP's prescribed basis even though the final bond is smaller.\n\n> **Watch out:** A borrower cannot pay the SBA Guaranty Fee or Funding Fee up front to shrink the debenture. Only the CDC Processing Fee and closing costs qualify.\n\n> **In practice:** Ask the borrower early which path they want. Choosing \"no reimbursement\" changes the Form 1506 entries and the final Gross Debenture figure, and both need to match what the CSA prices.",
+      "keyPoints": [
+        "Only the CDC Processing Fee and closing costs may be paid up front and removed from the Gross Debenture",
+        "If the borrower pays the Processing Fee up front, it may be reimbursed from debenture proceeds",
+        "If reimbursed: the fee stays in the Gross Debenture, the CDC receives it as usual, then reimburses the borrower",
+        "If not reimbursed: include the fee to compute the Underwriter's Fee, then enter zero on the Form 1506 Processing Fee line, re-total and round up to the next higher thousand"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 3, Separate Payment of the Debenture Fees"
+    },
+    {
+      "id": "c3-repricing",
+      "title": "When the debenture is priced and re-priced",
+      "body": "### Initial pricing\n\n**A debenture is priced at time of application.** That price is an estimate built on the approved project costs.\n\n### Re-pricing when costs change\n\nIf the **504 portion of project costs changes** between loan approval and project completion, the debenture **must be re-priced**. Because fees are percentages of the Net Debenture and the gross-up and rounding depend on the subtotal, any change ripples through the whole calculation.\n\n### Unused contingency\n\nConstruction budgets usually include a contingency. If the borrower does not use all of it, what happens depends on the size of the unused amount **relative to the approved Gross Debenture**:\n\n| Unused contingency | What happens | Loan modification? |\n|---|---|---|\n| **2% or less** of the approved Gross Debenture | The difference is **refunded to the borrower from the Gross Debenture proceeds by the CSA**. The debenture amount does not change. | **No** |\n| **More than 2%** of the approved Gross Debenture | The CDC requests a **loan modification from SLPC before closing** to **reduce the Net Debenture Proceeds** by the unused contingency; the debenture is recalculated (13 CFR 120.930(c)). | **Yes** |\n\n### Example\n\nApproved Gross Debenture: $500,000. Two percent is $10,000.\n\n- Unused contingency of $8,000: at or under 2%, so the CSA refunds $8,000 to the borrower from proceeds. No 327 action.\n- Unused contingency of $15,000: over 2%, so the CDC must get an SLPC modification before closing to cut the Net Debenture by $15,000 and re-price.\n\n> **Watch out:** The 2% test is measured against the **approved Gross Debenture**, not total project cost and not the Net Debenture.\n\n> **In practice:** Track contingency draws during construction so the CDC knows well before closing whether a modification will be needed. A late discovery can push the loan into a later monthly sale.",
+      "keyPoints": [
+        "The debenture is priced at time of application",
+        "Any change in the 504 portion of project costs between approval and completion requires re-pricing",
+        "Unused contingency of 2% or less of approved Gross Debenture: CSA refunds the difference to the borrower; no debenture change and no loan modification",
+        "Unused contingency greater than 2%: CDC requests a loan modification from SLPC before closing to reduce Net Debenture and recalculate (13 CFR 120.930(c))"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 3, When the Debenture is Priced"
+    },
+    {
+      "id": "c3-funding-disbursement",
+      "title": "Debenture sale day and how proceeds flow",
+      "body": "### The monthly calendar\n\n504 debentures are sold in a **monthly** cycle:\n\n| Event | Normal timing |\n|---|---|\n| Fiscal Agent negotiates the **final rate and fees** with underwriters | **Tuesday after the first Sunday** of the month |\n| Debentures are **sold and proceeds disbursed** | **Wednesday after the second Sunday** of the month |\n\nEverything in Chapter 2 (package deadlines, the CSA Cut-Off Date, the adverse change opinion) is timed backward from this sale date. Miss a deadline and the loan waits for next month.\n\n### Where the money goes\n\nOn the scheduled sale date, the **Gross Debenture proceeds, less the Underwriter's Fee**, are **wired to the CSA**. The CSA then:\n\n**1. Deducts** enough to cover:\n\n- Its **initiation fee**, as computed and identified by SBA in the Servicing Agent Agreement, if applicable (**not presently applicable**); and\n- The **guaranty fee payable to SBA**, as **in effect at the time of loan approval**.\n\n**2. Disburses the balance within 48 hours** of receiving funds:\n\n1. **Pays off the interim lender** the **Net Debenture** amount;\n2. Pays the **CDC's Processing Fee**; and\n3. Pays the **Balance to Borrower**, based on the CSA's computations under the pricing model.\n\n### Putting it together\n\nUsing the Chapter 3 pricing example, the $362,000 Gross Debenture is sold; the $1,448 Underwriter's Fee is taken before the wire; the CSA takes the SBA guaranty fee; the interim lender receives $350,000; the CDC receives its Processing Fee; and the rounding surplus goes to the borrower.\n\n> **Watch out:** The interim lender is repaid the **Net Debenture**, not the Gross Debenture. If the interim loan balance exceeds the Net Debenture, the difference is not covered by debenture proceeds.\n\n> **In practice:** \"Funding\" in 504 means this monthly sale. When a borrower asks when their loan \"closes,\" distinguish the interim loan closing, the 504 loan closing, and the debenture sale date.",
+      "keyPoints": [
+        "Debentures normally sell and proceeds disburse on the Wednesday after the second Sunday of each month",
+        "The Fiscal Agent normally negotiates final rate and fees with underwriters on the Tuesday after the first Sunday",
+        "Gross proceeds less the Underwriter's Fee are wired to the CSA",
+        "CSA deducts its initiation fee (not presently applicable) and the SBA guaranty fee in effect at loan approval",
+        "CSA disburses within 48 hours: Net Debenture to the interim lender, CDC Processing Fee, and Balance to Borrower"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 3, Funding the Debenture; Disbursement of Debenture Proceeds"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Net Debenture",
+      "definition": "SBA's share of eligible project costs; the base for the guaranty, funding and CDC processing fees."
+    },
+    {
+      "term": "Gross Debenture",
+      "definition": "Net Debenture plus administrative costs, grossed up for the Underwriter's Fee and rounded up to the next even thousand."
+    },
+    {
+      "term": "SBA Guaranty Fee",
+      "definition": "Fee of 0.5% of the Net Debenture in the SOP pricing model, deducted by the CSA at the rate in effect at loan approval."
+    },
+    {
+      "term": "Funding Fee",
+      "definition": "Fee of 0.25% of the Net Debenture in the SOP pricing model."
+    },
+    {
+      "term": "CDC Processing Fee",
+      "definition": "Fee of 1.5% of the Net Debenture; may be paid up front by the borrower and optionally reimbursed."
+    },
+    {
+      "term": "Underwriter's Fee",
+      "definition": "Gross Debenture times 0.004 for 20 or 25 year debentures, or 0.00375 for 10 year; withheld before proceeds are wired to the CSA."
+    },
+    {
+      "term": "Balance to Borrower",
+      "definition": "The rounding surplus left after the Net Debenture, fees, closing costs and Underwriter's Fee; paid to the borrower by the CSA."
+    },
+    {
+      "term": "Fiscal Agent",
+      "definition": "Party that normally negotiates the final debenture rate and fees with underwriters on the Tuesday after the first Sunday of the month."
+    },
+    {
+      "term": "Contingency fund",
+      "definition": "Budgeted cushion in project costs; unused amounts over 2% of the approved Gross Debenture require an SLPC modification before closing."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c3-q1",
+      "question": "In the 504 debenture pricing model, which fees are calculated as a percentage of the Net Debenture?",
+      "options": [
+        "The SBA Guaranty Fee, Funding Fee and CDC Processing Fee",
+        "Only the Underwriter's Fee",
+        "All fees including closing costs",
+        "The Underwriter's Fee and the Funding Fee"
+      ],
+      "correctIndex": 0,
+      "explanation": "Except for the underwriting fee and closing costs, each administrative cost is based on the Net Debenture. The Underwriter's Fee is based on the Gross Debenture, and closing costs are an actual dollar amount.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 3, Steps to Calculate the Gross Debenture",
+      "difficulty": "basic"
+    },
+    {
+      "id": "c3-q2",
+      "question": "What CDC Processing Fee percentage does the SOP pricing model apply to the Net Debenture?",
+      "options": [
+        "0.5%",
+        "1.5%",
+        "0.25%",
+        "2.0%"
+      ],
+      "correctIndex": 1,
+      "explanation": "The CDC Processing Fee is 1.5% of the Net Debenture. 0.5% is the SBA Guaranty Fee and 0.25% is the Funding Fee in the same model.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 3, Steps to Calculate the Gross Debenture",
+      "difficulty": "basic"
+    },
+    {
+      "id": "c3-q3",
+      "question": "For a 10-year debenture, what factors replace the 0.996 gross-up divisor and the 0.004 Underwriter's Fee rate?",
+      "options": [
+        "0.995 and 0.005",
+        "0.996 and 0.00375",
+        "0.99625 and 0.00375",
+        "0.99625 and 0.004"
+      ],
+      "correctIndex": 2,
+      "explanation": "For 10-year debentures, the subtotal is divided by 0.99625 and the Underwriter's Fee is 0.00375 times the Gross Debenture. 0.996 and 0.004 apply to 20 and 25 year debentures.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 3, Steps to Calculate the Gross Debenture",
+      "difficulty": "basic"
+    },
+    {
+      "id": "c3-q4",
+      "question": "Items 1-5 for a 20-year debenture total $498,000. Following the SOP method, what is the Gross Debenture?",
+      "options": [
+        "$498,000",
+        "$499,992",
+        "$500,500",
+        "$500,000"
+      ],
+      "correctIndex": 3,
+      "explanation": "$498,000 / 0.996 = $500,000 exactly, which needs no further rounding to the next even thousand. $499,992 is what you get from multiplying by 1.004 instead of dividing by 0.996.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 3, Steps to Calculate the Gross Debenture",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c3-q5",
+      "question": "Why does the SOP have you compute the Gross Debenture before the Underwriter's Fee?",
+      "options": [
+        "Because the Underwriter's Fee is based on the Gross Debenture, not the Net Debenture",
+        "Because the Underwriter's Fee is paid up front by the borrower",
+        "Because the Gross Debenture must be approved by SLPC before fees are set",
+        "Because the Underwriter's Fee is a flat dollar amount"
+      ],
+      "correctIndex": 0,
+      "explanation": "The SOP notes the Gross Debenture is calculated first because the Underwriter's Fee is a percentage of the Gross Debenture. Dividing by 0.996 grosses up the bond to cover that fee.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 3, Steps to Calculate the Gross Debenture",
+      "difficulty": "applied"
+    },
+    {
+      "id": "c3-q6",
+      "question": "A borrower wants to reduce the amount financed by paying some debenture costs out of pocket. Which costs may be paid up front and removed from the Gross Debenture calculation?",
+      "options": [
+        "The SBA Guaranty Fee and Funding Fee",
+        "The CDC Processing Fee and closing costs",
+        "The Underwriter's Fee only",
+        "Any fee the borrower chooses"
+      ],
+      "correctIndex": 1,
+      "explanation": "The CDC's Processing Fee and the closing costs are the only fees that can be paid up front and deleted from the Gross Debenture calculation. The guaranty, funding and underwriter's fees remain in the debenture.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 3, Separate Payment of the Debenture Fees",
+      "difficulty": "applied"
+    },
+    {
+      "id": "c3-q7",
+      "question": "A borrower paid the CDC Processing Fee up front and does not want to be reimbursed. How is the Gross Debenture determined?",
+      "options": [
+        "Leave the Processing Fee out entirely from the start",
+        "Keep the Processing Fee in and have the CDC refund it after funding",
+        "Include the Processing Fee to compute the Underwriter's Fee, then enter zero on the Form 1506 Processing Fee line, re-total and round up to the next higher thousand",
+        "Include the Processing Fee and reduce the Net Debenture by the same amount"
+      ],
+      "correctIndex": 2,
+      "explanation": "The SOP requires including the Processing Fee to get the correct Underwriter's Fee, then entering zero on the Processing Fee line of SBA Form 1506 and re-totaling and rounding up. Keeping the fee in and having the CDC refund it is the path for a borrower who does want reimbursement.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 3, Separate Payment of the Debenture Fees",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c3-q8",
+      "question": "The approved Gross Debenture is $600,000. At project completion, $11,000 of the contingency is unused. What must happen?",
+      "options": [
+        "The CSA refunds $11,000 to the borrower from the proceeds; no modification needed",
+        "The unused amount is applied to the Third Party Lender's loan",
+        "Nothing; contingencies are never re-priced",
+        "The CDC must request a loan modification from SLPC before closing to reduce the Net Debenture by $11,000 and re-price"
+      ],
+      "correctIndex": 0,
+      "explanation": "2% of the $600,000 approved Gross Debenture is $12,000. The $11,000 unused contingency is 2% or less, so the CSA refunds it to the borrower from the Gross Debenture proceeds, with no change to the debenture and no loan modification. A modification is required only when the unused amount exceeds 2%.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 3, When the Debenture is Priced",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c3-q9",
+      "question": "The approved Gross Debenture is $400,000 and $10,000 of contingency is unused at completion. What does the SOP require?",
+      "options": [
+        "The CSA refunds the difference to the borrower from the Gross Debenture proceeds; no modification needed",
+        "The CDC must request an SLPC loan modification before closing to reduce the Net Debenture and recalculate",
+        "The unused contingency is escrowed for 1 year",
+        "The borrower must prepay $10,000 of the debenture after funding"
+      ],
+      "correctIndex": 1,
+      "explanation": "2% of $400,000 is $8,000. $10,000 exceeds 2%, so the CDC must request a loan modification from SLPC before closing to reduce the Net Debenture Proceeds by the unused amount and recalculate the debenture (13 CFR 120.930(c)). The CSA refund path applies only at 2% or less.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 3, When the Debenture is Priced",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c3-q10",
+      "question": "On what day are 504 debentures normally sold and proceeds disbursed?",
+      "options": [
+        "The first business day of each month",
+        "The Tuesday after the first Sunday of each month",
+        "The last Friday of each month",
+        "The Wednesday after the second Sunday of each month"
+      ],
+      "correctIndex": 3,
+      "explanation": "Debentures are normally sold and proceeds disbursed on the Wednesday after the second Sunday of each month. The Tuesday after the first Sunday is when the Fiscal Agent normally negotiates the final rate and fees with underwriters.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 3, Funding the Debenture",
+      "difficulty": "basic"
+    },
+    {
+      "id": "c3-q11",
+      "question": "After the debenture sale, the CSA receives the wired proceeds. Within what time must it disburse the balance, and who receives the Net Debenture amount?",
+      "options": [
+        "Within 5 business days; the borrower",
+        "Within 48 hours; the Third Party Lender",
+        "Within 48 hours; the interim lender",
+        "Within 30 days; the CDC"
+      ],
+      "correctIndex": 2,
+      "explanation": "The CSA must disburse the balance within 48 hours of receipt, paying off the interim lender the Net Debenture amount, then the CDC Processing Fee, then the Balance to Borrower. The Third Party Lender is not paid from debenture proceeds.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 3, Disbursement of Debenture Proceeds",
+      "difficulty": "applied"
+    }
+  ]
+}

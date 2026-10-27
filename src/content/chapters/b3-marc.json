@@ -1,0 +1,395 @@
+{
+  "id": "b3-marc",
+  "order": 230,
+  "part": "B",
+  "program": "7a",
+  "title": "7(a) MARC: Manufacturers' Access to Revolving Credit",
+  "subtitle": "A revolving working capital line for manufacturers, wholesalers and the food supply chain, with its own underwriting, fee and annual review rules",
+  "sopRef": "SOP 50 10 8.1, Section B, Ch. 3",
+  "estimatedMinutes": 45,
+  "learningObjectives": [
+    "Determine whether a business qualifies for MARC based on its primary NAICS code",
+    "Distinguish eligible from ineligible MARC uses of proceeds, including change of ownership situations",
+    "Apply the MARC loan maximums, revolving structure rules and interest rate caps",
+    "Underwrite a MARC request using the required credit memo elements and 1.15:1 DSC tests",
+    "Calculate which extraordinary servicing fees a Lender may charge on a MARC line",
+    "Run the annual review to decide whether a line keeps revolving or must be termed out"
+  ],
+  "topics": [
+    {
+      "id": "b3-what-is-marc",
+      "title": "What MARC is and who qualifies",
+      "body": "The **7(a) Manufacturers' Access to Revolving Credit (MARC)** program is a 7(a) loan built as a **revolving working capital line** for businesses that make, distribute, or move goods. Think of it as SBA's answer to the question \"how does a small manufacturer or distributor get a guaranteed line of credit sized to its operating cycle?\"\n\nAs with every program in Section B, the starting point is Section A. The SOP opens the chapter by telling Lenders to **always start with Section A, Core Requirements for all 7(a) and 504 Loans**. MARC adds an industry filter on top of those core rules - it does not replace them.\n\n#### The industry filter\n\nAn otherwise eligible small business qualifies for MARC only if its **primary 6-digit NAICS code** falls in one of these groups:\n\n| Group | How the code is tested | Notes |\n|---|---|---|\n| Manufacturing | First 2 digits are 31, 32 or 33 | Gets the higher $5,000,000 maximum |\n| Wholesale | First 2 digits are 42 | Two codes are carved out (below) |\n| Food supply chain | First 2 digits are 11 | Plus three specific National Industry Codes |\n\nThe three additional food supply chain National Industry Codes are:\n\n- **445110** - Supermarkets and Other Grocery Retailers\n- **493120** - Refrigerated Warehousing and Storage\n- **493130** - Farm Warehousing and Storage\n\nTwo wholesale codes are **not eligible** for MARC even though they start with 42:\n\n- **423110** - Automobile and Other Motor Vehicle Merchant Wholesalers\n- **425120** - Wholesale Trade Agents and Brokers\n\n#### Finding the right NAICS code\n\nNAICS codes are listed at **13 CFR 121.201**. The Census Bureau NAICS site and NAICS.com both offer searchable databases. To decide which code is the Applicant's **primary** code (many businesses do more than one thing), apply **13 CFR 121.107**.\n\n> **Watch out:** The test is the business's *primary* NAICS code, not any secondary activity. A retailer that also runs a small wholesale side business is still a retailer for MARC purposes, and a car dealer-wholesaler coded 423110 is out no matter how strong the credit is.\n\n> **In practice:** Lending software should validate the primary NAICS code at intake against the eligible prefixes (31, 32, 33, 42, 11), the three add-on codes, and the two exclusions, before an analyst spends time on the credit.",
+      "keyPoints": [
+        "MARC = Manufacturers' Access to Revolving Credit, a revolving 7(a) working capital line",
+        "Eligible industries: manufacturing (NAICS 31-33), wholesale (NAICS 42), and food supply chain (NAICS 11 plus 445110, 493120, 493130)",
+        "Excluded wholesale codes: 423110 (motor vehicle merchant wholesalers) and 425120 (wholesale trade agents and brokers)",
+        "Industry is tested on the first 2 digits of the business's primary 6-digit NAICS code",
+        "Determine the primary NAICS code under 13 CFR 121.107; codes are listed at 13 CFR 121.201",
+        "The Applicant must first meet every Section A core eligibility rule"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 3, Para. A (Eligibility)"
+    },
+    {
+      "id": "b3-uses-of-proceeds",
+      "title": "Eligible and ineligible uses of MARC proceeds",
+      "body": "MARC is narrow on purpose. Proceeds may **only** be used for:\n\n1. **Working capital needs** of the Applicant business; or\n2. **Refinancing debt whose original purpose was working capital.** Appendix 14 (7(a) Debt Refinancing), **Para. B.3** holds the MARC-specific refinancing guidance.\n\nEverything else is off the table. The SOP specifically prohibits using MARC proceeds for:\n\n- **Non-working capital debt refinance** (for example, refinancing an equipment note or a real estate mortgage);\n- **Changes of ownership**;\n- Paying **delinquent withholding taxes or similar funds held in trust** (for example, state or local sales taxes);\n- **Floor plan financing**; and\n- Paying a **creditor in a position to sustain a loss**.\n\n#### MARC alongside a change of ownership\n\nThe ban on funding a change of ownership does not mean a business going through a sale is shut out. A MARC loan **may be made to the business at the same time as the change of ownership** to support its **working capital** needs. The acquisition itself has to be financed some other way, and the change of ownership still has to follow the rules in **Appendix 15** (7(a) Changes of Ownership).\n\n| Request | MARC eligible? |\n|---|---|\n| Line to carry inventory and receivables | Yes |\n| Refinance an existing working capital line | Yes, if it meets Appendix 14, Para. B.3 |\n| Refinance a term loan used to buy a CNC machine | No - non-working capital debt |\n| Buyer's purchase price for the business | No - change of ownership |\n| Working capital line closing alongside a stock purchase | Yes, for the working capital piece only |\n| Paying past-due sales tax | No - trust fund taxes |\n\n> **Watch out:** \"Refinance\" questions turn on the **original purpose** of the debt being refinanced, not on what the borrower calls it today. Document what the old debt originally financed.",
+      "keyPoints": [
+        "Only two eligible uses: working capital, or refinancing debt originally incurred for working capital",
+        "Refinancing must follow Appendix 14, Para. B.3 (MARC-specific guidance)",
+        "No non-working capital debt refinance, no change of ownership, no floor plan financing",
+        "No paying delinquent withholding taxes or similar trust funds (e.g. state or local sales taxes)",
+        "Proceeds may not pay a creditor in a position to sustain a loss",
+        "A MARC loan can be made at the same time as a change of ownership, but only to fund working capital"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 3, Para. A (Eligible and Ineligible Uses of Proceeds)"
+    },
+    {
+      "id": "b3-loan-terms",
+      "title": "Loan size, affiliates, revolving structure and pricing",
+      "body": "#### How big can a MARC loan be?\n\nThe maximum depends on the industry:\n\n| Borrower | Maximum MARC loan |\n|---|---|\n| Manufacturers (NAICS 31-33) | **$5,000,000** |\n| All other eligible industries (wholesale, food supply chain) | **$2,000,000** |\n\nThe maximum is a ceiling, not an entitlement. To set the actual amount, the Lender must make sure the Borrower **meets the debt service coverage requirements** in the Underwriting section.\n\n#### Affiliates count\n\nUnder **13 CFR 120.151**, the Lender must determine whether the Applicant has any **affiliates** and document the result in its credit analysis. If affiliation exists, SBA's loan maximums apply to the Applicant **and all affiliates as if they were a single business**.\n\n#### It must revolve\n\nA MARC loan **must be a revolving loan**. Two consequences follow:\n\n- **Revolving loans may not be sold on the secondary market.**\n- The loan documents must include a provision allowing the Lender to **begin amortizing the loan** if the Borrower does not meet the program requirements in **Para. G, Post-Closing Requirements for Revolving Loans** (the annual review covered later in this chapter).\n\n#### Guaranty, maturity and interest\n\nThe chapter points to the appendices for these:\n\n- **Maximum guaranty amounts and percentages:** Appendix 16, Para. B.3\n- **Loan maturities:** Appendix 17, Para. B.4\n- **Interest rates:** Appendix 18, Para. B.4\n\nThe maximum allowable **fixed** rate is published on SBA's Wiki page. The SOP's quick reference chart gives the maximum **variable** rates:\n\n| Loan amount | Maximum variable rate |\n|---|---|\n| $50,000 or less | Prime or SBA Optional Peg Rate + 6.5% |\n| $50,001 up to and including $250,000 | Prime or SBA Optional Peg Rate + 6.0% |\n| $250,001 up to and including $350,000 | Prime or SBA Optional Peg Rate + 4.5% |\n| $350,001 and greater | Prime or SBA Optional Peg Rate + 3.0% |\n\n> **In practice:** The rate cap steps down as the loan gets bigger. A $300,000 line is capped at Prime + 4.5%, but the same borrower at $400,000 is capped at Prime + 3.0%. Pricing engines need the tier boundaries exactly (\"up to and including\").",
+      "keyPoints": [
+        "Maximum loan: $5,000,000 for manufacturers (NAICS 31-33); $2,000,000 for all other eligible industries",
+        "Maximums apply to the Applicant and all affiliates as a single business (13 CFR 120.151)",
+        "The loan must be revolving, and revolving loans may not be sold on the secondary market",
+        "The note must let the Lender begin amortizing if the Borrower fails the Para. G post-closing requirements",
+        "Guaranty: Appendix 16, Para. B.3; maturity: Appendix 17, Para. B.4; interest: Appendix 18, Para. B.4",
+        "Max variable rate ranges from Prime/Peg + 6.5% (loans of $50,000 or less) down to + 3.0% (over $350,000)"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 3, Para. B (Loan Terms and Conditions)"
+    },
+    {
+      "id": "b3-disbursements",
+      "title": "Structuring disbursements on a MARC line",
+      "body": "MARC gives the Lender flexibility in how money flows out of the line. The Lender **must determine** how to administer disbursements using one of three methods:\n\n| Method | How it works | Good fit when |\n|---|---|---|\n| **Open and revolving line of credit** | Borrower draws and repays freely up to the line amount | Stable, predictable working capital needs and strong reporting |\n| **Tiering availability annually** | Lender caps how much can be drawn in each year | Needs are expected to ramp up over time |\n| **Borrowing base certificate (BBC)** | Availability tied to eligible receivables and inventory | Asset-heavy borrowers where collateral tracking matters |\n\n#### The tiering example\n\nThe SOP gives a concrete illustration: if the Lender expects a **lower capital need in year one**, it may set a **cap** on the total the Borrower can draw for that period. The Lender may layer on **additional controls and conditions** over disbursements, and these must be **documented in the loan agreement**.\n\n#### When the business outgrows the line\n\nIf the Borrower's working capital need increases after an **annual review**, and that review supports a higher loan amount, the Lender has two options:\n\n- **Issue a new loan**, or\n- **Request a loan increase.**\n\nA loan increase may require **additional guaranty fees**, and the request must be made under the Servicing and Liquidation SOP, **SOP 50 57**.\n\n> **In practice:** The disbursement method is a credit decision, not a back-office afterthought. Whatever method is chosen should be visible in the credit memo and mirrored in the loan agreement so that servicing staff know which controls apply.\n\n> **Watch out:** Tiering limits draws, but it does not change the loan amount used for underwriting. Repayment ability is still tested on the **maximum loan amount** (see the underwriting topic).",
+      "keyPoints": [
+        "Lender chooses: open revolving line, annual tiering of availability, or a borrowing base certificate",
+        "Annual tiering lets the Lender cap what can be drawn in a given year",
+        "Additional disbursement controls and conditions go in the loan agreement",
+        "If needs grow after an annual review, the Lender may issue a new loan or request a loan increase",
+        "Loan increases may trigger additional guaranty fees and follow SOP 50 57"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 3, Para. B (Disbursements)"
+    },
+    {
+      "id": "b3-processing",
+      "title": "Credit standards, processing methods and submission",
+      "body": "#### The core credit principle\n\nSBA's credit standards start with **13 CFR 120.101** and **120.150**. The Lender must analyze each application in a **commercially reasonable manner, consistent with prudent lending standards**.\n\nThe key sentence: **cash flow of the Applicant is the primary source of repayment**, not any expected recovery from liquidating collateral. If the Lender's analysis shows the Applicant **lacks reasonable assurance of timely repayment from business cash flow, the loan must be declined** - regardless of collateral or outside sources of repayment.\n\n#### Two processing methods\n\n| | Non-delegated | PLP (delegated) |\n|---|---|---|\n| Who submits | Lender, via the SBA Loan System, with application and supporting documents | Lender, under its PLP authority |\n| Who decides credit and eligibility | **SBA** makes the final determination, including uses of proceeds, collateral adequacy, loan structure and any equity contribution | **Lender** analyzes creditworthiness under SBA Loan Program Requirements and documents its file |\n| Does SBA review credit before a loan number is issued? | Yes | No |\n| When SBA looks at the analysis | Up front | When the Lender asks SBA to **purchase** the guaranty, or during **lender oversight** |\n\n#### Who must use which method\n\nParagraph F (Submission of Application for Guaranty, which also points to Appendix 20) sets a firm rule:\n\n- Lenders **without** PLP authority must submit MARC applications to SBA via the SBA Loan System for approval under **non-delegated** procedures.\n- Lenders **with** PLP delegated authority are **required** to process MARC loans using their **PLP authority**.\n\n> **Watch out:** A PLP lender cannot choose to send a MARC loan in non-delegated just to get SBA's eyes on a tricky credit. For MARC, PLP lenders must use PLP.\n\n#### Flag it as MARC\n\nParagraph E requires Lenders to **indicate that the loan is a 7(a) MARC loan** when entering the application into the SBA Loan System. Miscoding the loan type can throw off guaranty, maturity, pricing and fee rules that are specific to MARC.",
+      "keyPoints": [
+        "Credit standards start with 13 CFR 120.101 and 120.150",
+        "Cash flow is the primary source of repayment; decline if cash flow does not give reasonable assurance, regardless of collateral",
+        "Non-delegated: SBA makes the final eligibility and credit decision",
+        "PLP: SBA does not review the credit before issuing a loan number, but reviews it at purchase or in oversight",
+        "Lenders with PLP authority are required to process MARC loans under PLP",
+        "Lenders must flag the loan as 7(a) MARC when entering it in the SBA Loan System"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 3, Para. C (Credit Standards) and Paras. E-F"
+    },
+    {
+      "id": "b3-credit-memo",
+      "title": "What the MARC credit memorandum must contain",
+      "body": "The credit memo must show the Applicant's **ability and likelihood to repay from business cash flow and past performance**. The SOP lists what it must document.\n\n#### 1. Business description and history\n\n- Nature of the business, **including the NAICS code** (critical for MARC, since the industry drives eligibility and the loan maximum);\n- Length of time in business **under current management**;\n- Depth of management experience in the industry or a related one;\n- A brief description of the management team, including the principals' involvement in **daily onsite management** or how operations are run if they are not there daily;\n- If daily operations run under a **management agreement**, the Lender must **obtain a copy**, **review it** to determine whether it results in an **ineligible passive business**, and **retain it** in the loan file. The only exception is a management agreement that is part of the franchise disclosure documents for a brand on the **Franchise Directory**.\n\n#### 2. Financial analysis of repayment ability\n\nRepayment is analyzed under **13 CFR 120.191**, and the analysis must show cash flow can cover **all debt obligations, including the proposed SBA loan, on a fully amortizing basis using the maximum loan amount and maturity approved**.\n\nFor every Applicant, the cash flow analysis includes:\n\n- **EBITDA**;\n- Justification for adjustments such as unfunded capex, non-recurring income or expenses, expenses and distributions, S-Corp tax distributions, rent, and owner's draw;\n- A **global cash flow** analysis covering cash flow to and from affiliates (anticipated rental income from the Project Property may be included), and the effect affiliates may have on repayment.\n\nFor **projections**, the Lender must calculate DSC and support the assumptions: revenue growth (new products, sales channels, production facilities), expense reductions, and a comparison to industry trends. It also needs a **pro forma balance sheet**, ratio calculations (Current Ratio, Debt/Tangible Net Worth, DSC, and other relevant ratios such as inventory, receivables and payables turnover) compared to industry trends, and an analysis of **working capital adequacy**.\n\n#### 3. Collateral, insurance and rationale\n\n- **Collateral adequacy** under **Appendix 19, Para. B.4**;\n- **Insurance:** life insurance (on whom and how much, or a justification for not requiring it), plus business hazard and liability insurance;\n- **Rationale for approval**, discussing: credit not available elsewhere from non-Federal, non-State, non-local government sources (**Section A, Ch. 1, Para. H**); competition; seller financing; standby agreements; 90+ day delinquencies; trade disputes; government citations that would preclude normal operations; liens, judgments, bankruptcies or pending litigation (including divorce); for an FTC-defined **franchise**, credit information such as failed franchisees and franchisor projections; and other relevant information.",
+      "keyPoints": [
+        "Describe the business: nature (with NAICS code), time under current management, management depth and daily oversight",
+        "Obtain, review and retain any management agreement to rule out an ineligible passive business",
+        "Exception: management agreements in the franchise disclosure documents of a Franchise Directory brand",
+        "Analyze repayment under 13 CFR 120.191 on a fully amortizing basis at the maximum loan amount and maturity",
+        "Cover collateral (Appendix 19, Para. B.4), life and hazard/liability insurance, and the rationale for approval",
+        "Rationale must address credit not available elsewhere (Section A, Ch. 1, Para. H)"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 3, Para. C (Underwriting - Lender's Credit Analysis)"
+    },
+    {
+      "id": "b3-dsc",
+      "title": "Debt service coverage tests for MARC",
+      "body": "MARC sets explicit, numeric coverage tests. Every test uses **all business debt**, a **fully amortizing** structure, and the **maximum loan amount approved** - even though a revolving line is rarely fully drawn.\n\n#### Existing businesses: historical test\n\nThe Lender evaluates repayment using:\n\n- The **three most recent fiscal years** of financial statements (or tax returns), and\n- **Current interim** financial statements.\n\nThe analysis must include all existing and proposed debt, calculate total DSC **after** adding the SBA loan, and amortize the loan over a term that **does not exceed ten (10) years** using the maximum loan amount.\n\n| Test | Minimum |\n|---|---|\n| Historical DSC | **1.15:1** |\n| Global DSC | **1.0:1** |\n\nIf the **most recent full year and interim** statements do not show at least **1.15:1**, the Lender must obtain and analyze **two years of projections**.\n\n#### Start-ups, new businesses, and transactions needing projections\n\nFor start-ups, new businesses, or when history is insufficient, repayment ability rests on **projected** performance. The projections must:\n\n- Cover **at least two years**;\n- Have **detailed, supportable assumptions**;\n- Use an amortizing term **not exceeding ten years** and the **maximum loan amount**;\n- Include the **total debt load**, including the SBA loan;\n- Show a DSC of **at least 1.15:1 within one year from the date of loan disbursement**;\n- Show **global DSC of at least 1:1**, supported by a **quarterly cash flow analysis for 24 months**.\n\nThe Lender must document and support any reliance on projections, including why results should differ from history. A **current debt schedule prepared by the Applicant, including shareholder debt**, is important to a complete analysis.\n\n#### Rules that apply to every DSC calculation\n\n1. Include **all business debt**, existing and proposed;\n2. Use a **fully amortizing** repayment structure;\n3. Use the **maximum loan amount and maturity approved**;\n4. Demonstrate **ongoing** repayment ability and sustainable cash flow.\n\n> **Watch out:** Do not compute DSC on the expected average balance or on interest-only payments. A $2,000,000 line that the borrower expects to use at 50% is still underwritten as $2,000,000 fully amortizing over no more than 10 years.\n\n> **In practice:** Note the different number at the annual review: the post-closing test to keep the line revolving is **1.10:1**, not 1.15:1.",
+      "keyPoints": [
+        "Existing businesses: 3 most recent fiscal years plus current interim statements",
+        "Minimum historical DSC 1.15:1; global DSC at least 1.0:1",
+        "Amortize over a term that does not exceed 10 years, using the maximum loan amount",
+        "If the latest full year and interim do not show 1.15:1, obtain and analyze 2 years of projections",
+        "Projections: at least 2 years, DSC of 1.15:1 within one year of disbursement, global DSC at least 1:1",
+        "Global DSC on projections requires a 24-month quarterly cash flow analysis"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 3, Para. C (Underwriting - DSCR Analysis)"
+    },
+    {
+      "id": "b3-equity-collateral",
+      "title": "Equity, collateral and guaranties",
+      "body": "#### Equity\n\nEquity requirements come from **13 CFR 120.150**. Someone must decide whether there is **sufficient invested equity** in the business:\n\n- On a **PLP** loan, the **Lender** makes that determination;\n- On a **non-delegated** loan, **SBA** makes it.\n\nEither way, the decision is whether the **equity position and pro forma debt-to-worth** are acceptable, judged by:\n\n- The type of business;\n- The experience of management; and\n- The level of competition in the market area.\n\nThe Lender's credit memo must include a **detailed discussion of the equity position (net worth)** and any required equity injection.\n\nThe big MARC-specific point: **unlike Standard 7(a) and 7(a) Small loans, MARC loans do not have a minimum required equity injection based on use of proceeds.** Equity is still analyzed, but there is no formula-driven percentage the borrower must inject.\n\n> **Watch out:** \"No minimum injection\" is not \"no equity analysis.\" A thinly capitalized manufacturer with a high debt-to-worth can still be declined, and the memo still has to discuss equity in detail.\n\n#### Collateral\n\nMARC collateral requirements live in **Appendix 19 (7(a) Collateral Requirements), Para. B.4**. Collateral adequacy is part of the credit memo, and collateral also comes back at every annual review: to keep revolving, the Borrower must **maintain sufficient collateral** as described in Appendix 19, Para. B.4.\n\n#### Guaranties\n\nPersonal guaranty requirements are not repeated in the chapter. They follow **Section A, Ch. 5, Para. A**.\n\n| Item | Where the rule lives |\n|---|---|\n| Equity analysis | 13 CFR 120.150; this chapter |\n| Minimum equity injection | None based on use of proceeds for MARC |\n| Collateral | Appendix 19, Para. B.4 |\n| Guaranties | Section A, Ch. 5, Para. A |",
+      "keyPoints": [
+        "Equity analysis is governed by 13 CFR 120.150",
+        "PLP: the Lender decides if equity and pro forma debt-to-worth are acceptable; non-delegated: SBA decides",
+        "Factors: type of business, management experience, level of competition in the market",
+        "The credit memo must discuss net worth and any required equity injection",
+        "MARC has no minimum required equity injection based on use of proceeds (unlike Standard and Small 7(a))",
+        "Collateral: Appendix 19, Para. B.4; guaranties: Section A, Ch. 5, Para. A"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 3, Para. C (Equity requirements; Collateral)"
+    },
+    {
+      "id": "b3-fees",
+      "title": "Extraordinary servicing fees on MARC loans",
+      "body": "MARC lines take more work to service than term loans, so the SOP allows extra compensation on top of the general fee rules in **Section A, Ch. 4** (ethics, fees and Agents, including the fees in Para. C.2).\n\n#### Two categories of extraordinary servicing fee\n\n| | Annual review fee | Asset-based line fee |\n|---|---|---|\n| When | At the time of the **annual review** | Annually, when the line is administered as an **asset-based line** |\n| Maximum | **50 basis points (0.50%)** | **200 basis points (2%)** |\n| Calculated on | The **maximum loan amount** | The **outstanding balance** |\n| Restriction | Not allowed on loans that are not revolving (e.g. termed out) | May be assessed independent of fees under the Lender's own policies for similar non-SBA asset-based lines |\n\n#### Asset-based MARC lines\n\nLenders may administer a MARC loan as an **asset-based line** - for example, similar to the 7(a) Working Capital CAPLines program, or based on the Lender's own policies for similarly-sized non-SBA guaranteed asset-based lines.\n\nFor an asset-based line, the Lender may charge **only one category** of extraordinary servicing fee: **either** the traditional extraordinary servicing fee capped at **2%**, **or** the **50 basis point** fee on the maximum loan amount. Not both.\n\n#### No prior approval needed\n\nFor **all MARC loans**, SBA has granted a **blanket waiver** of the usual requirement to obtain SBA's prior written approval before charging an extraordinary servicing fee. This applies to **either** category.\n\n> **Watch out:** Once a MARC line has been **termed out** into an amortizing loan, the 50 bp annual review fee is no longer available. Fee logic in servicing systems should key off whether the line is still revolving.\n\n> **In practice:** Worked example - a $3,000,000 manufacturer line, standard (not asset-based) administration, at annual review: the maximum fee is 0.50% x $3,000,000 = $15,000, regardless of how much is drawn.",
+      "keyPoints": [
+        "General fee rules: Section A, Ch. 4 (fees in Para. C.2)",
+        "At the annual review: up to 50 basis points (0.50%) of the maximum loan amount",
+        "The 50 bp fee cannot be charged on loans that are no longer revolving (termed out)",
+        "Asset-based administration: annual fee up to 200 bp (2%) of the outstanding balance",
+        "Only one category of extraordinary servicing fee may be charged on an asset-based line",
+        "Blanket waiver: no prior written SBA approval needed for either MARC fee category"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 3, Para. D (Fees that the Lender may Charge the Borrower)"
+    },
+    {
+      "id": "b3-annual-review",
+      "title": "Annual review: keep revolving or term out",
+      "body": "A MARC line does not revolve forever by default. **Beginning no later than the end of the second year (24 months from approval)**, the Lender must conduct an **annual review** of business financials to decide whether the line may **revolve for another year** or should be **termed out**.\n\n#### What the review covers\n\n- The **previous year-end** financial performance and the **most recent interim** statement;\n- It **may coincide** with the Lender's annual renewal process.\n\nThe Lender uses a combination of factors consistent with its **similarly-sized, non-SBA guaranteed commercial lines** (or, if it makes none, with prudent lending standards). The analysis must **assume full use of the line** and must include at minimum:\n\n1. **Cash flow analysis** of the adequacy, duration and dependability of cash flow;\n2. **Owner/Guarantor analysis**, except Supplemental Guarantors;\n3. **Documentation that the Borrower:**\n   - Supports a **DSC of at least 1.10:1**, based on full business debt service including the MARC loan, **fully amortizing**, at the **maximum loan amount and maturity approved**;\n   - Is **current** at the time of review (all interest due to date has been paid); and\n   - **Maintains sufficient collateral** under Appendix 19, Para. B.4.\n\n#### The decision tree\n\n| Situation | Result |\n|---|---|\n| All requirements met | Line may continue to revolve |\n| Requirements not met at the **first** annual review | Lender **may** justify keeping it revolving, and must keep the justification in the credit file |\n| Requirements not met at the **next** scheduled review | Line **must** convert to a fully amortizing term loan |\n| Lender decides it is prudent at any time | Lender may convert to a fully amortizing term loan |\n\nOnce converted, the Lender **may not make further disbursements** on the line.\n\n#### Proceeds used for fixed assets\n\nIf the Lender discovers revolving proceeds were used to **acquire fixed assets**, it can convert **that portion** into a fully amortizing term loan (which may be a 7(a) term loan) to preserve the revolving line for eligible working capital.\n\n> **Watch out:** The keep-revolving DSC is **1.10:1**, lower than the **1.15:1** origination test. Do not mix them up.",
+      "keyPoints": [
+        "Annual reviews start no later than the end of the second year (24 months from approval)",
+        "Review previous year-end results and the most recent interim; may coincide with annual renewal",
+        "Assume full use of the line; include cash flow and owner/guarantor analysis (except Supplemental Guarantors)",
+        "To keep revolving: DSC of at least 1.10:1 (fully amortizing, max amount and maturity), current on interest, sufficient collateral",
+        "First failed review: Lender may keep it revolving with documented justification; next failed review: must term out",
+        "After conversion to a term loan, no further disbursements"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 3, Para. G (Post-Closing Requirements for Revolving Loans)"
+    },
+    {
+      "id": "b3-servicing",
+      "title": "Servicing MARC loans: extensions and deferrals",
+      "body": "Servicing and liquidation of MARC loans follows the general 7(a) rules: **SOP 50 57** and the **Servicing and Liquidation Actions 7(a) Lender Matrix**. On top of that, the chapter gives Lenders two specific tools for helping a struggling borrower.\n\n#### Maturity extensions\n\nLenders **may extend the loan maturity by up to 10 years**, either:\n\n- To help a Borrower **remain current**, or\n- If the Borrower has become **delinquent**, to help it **regain currency**.\n\nThe catch: when a maturity is extended this way, the loan **must be converted to a fully amortizing loan with a zero balance at loan maturity**. In other words, an extension ends the revolving life of the line - the borrower gets more time but not continued availability.\n\n#### Deferrals\n\nLenders **may also defer payments**. For **revolving loans**, a deferral may run for **up to 6 months**.\n\n| Tool | Limit | Condition |\n|---|---|---|\n| Maturity extension | Up to **10 years** | Must convert to fully amortizing, zero balance at maturity |\n| Payment deferral (revolving loan) | Up to **6 months** | Follow SOP 50 57 and the Lender Matrix |\n\n> **In practice:** Combine this topic with the annual review. A borrower failing the 1.10:1 test at a second review must be termed out anyway; a maturity extension can then make the resulting amortizing payments affordable.\n\n> **Watch out:** These options sit inside SOP 50 57. Check the Lender Matrix to see whether a given action needs SBA's prior approval for your lender's delegation level before acting.",
+      "keyPoints": [
+        "Follow SOP 50 57 and the Servicing and Liquidation Actions 7(a) Lender Matrix",
+        "Lenders may extend maturity by up to 10 years to keep a Borrower current or help it regain currency",
+        "An extended loan must be converted to fully amortizing with a zero balance at maturity",
+        "Revolving loans may be deferred for up to 6 months"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 3, Para. H (Servicing Options)"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "MARC",
+      "definition": "7(a) Manufacturers' Access to Revolving Credit: a revolving 7(a) working capital loan for eligible manufacturing, wholesale and food supply chain businesses."
+    },
+    {
+      "term": "Primary NAICS code",
+      "definition": "The 6-digit North American Industry Classification System code that represents the business's primary activity, determined under 13 CFR 121.107; it drives MARC eligibility and the loan maximum."
+    },
+    {
+      "term": "Food supply chain (MARC)",
+      "definition": "NAICS sector 11 businesses plus National Industry Codes 445110 (supermarkets and grocery retailers), 493120 (refrigerated warehousing) and 493130 (farm warehousing)."
+    },
+    {
+      "term": "Revolving loan",
+      "definition": "A line the Borrower can draw, repay and redraw; MARC loans must be revolving and may not be sold on the secondary market."
+    },
+    {
+      "term": "Termed out",
+      "definition": "A revolving line converted to a fully amortizing term loan, after which no further disbursements may be made."
+    },
+    {
+      "term": "Debt service coverage (DSC)",
+      "definition": "Cash flow available for debt service divided by required debt service; MARC requires 1.15:1 at origination and 1.10:1 at annual reviews to keep revolving."
+    },
+    {
+      "term": "Global DSC",
+      "definition": "Debt service coverage that includes cash flow to and from affiliates and owners; MARC requires at least 1.0:1."
+    },
+    {
+      "term": "Borrowing base certificate (BBC)",
+      "definition": "A periodic report of eligible receivables and inventory used to set how much can be drawn; one of the three MARC disbursement methods."
+    },
+    {
+      "term": "Annual tiering",
+      "definition": "A disbursement method that caps the total the Borrower may draw in each year, for example when year-one need is expected to be lower."
+    },
+    {
+      "term": "Extraordinary servicing fee",
+      "definition": "An extra fee for servicing effort: for MARC, up to 50 bp of the maximum loan amount at annual review, or up to 2% of the outstanding balance on an asset-based line, but only one category."
+    },
+    {
+      "term": "Asset-based line",
+      "definition": "A line administered against collateral such as receivables and inventory, similar to the Working Capital CAPLines program or the Lender's own asset-based policies."
+    },
+    {
+      "term": "PLP",
+      "definition": "Preferred Lender Program: delegated authority under which the Lender makes the credit decision; PLP lenders must process MARC loans under PLP."
+    },
+    {
+      "term": "Affiliates",
+      "definition": "Businesses or persons that control or are controlled by the Applicant; under 13 CFR 120.151 the MARC maximum applies to the Applicant and its affiliates as one business."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "b3-q1",
+      "question": "What is the maximum MARC loan amount for a manufacturer with a primary NAICS code beginning with 32?",
+      "options": [
+        "$5,000,000",
+        "$2,000,000",
+        "$350,000",
+        "$5,500,000"
+      ],
+      "correctIndex": 0,
+      "explanation": "Manufacturers (NAICS 31-33) can borrow up to $5,000,000 under MARC. $2,000,000 is the cap for all other eligible industries (wholesale and food supply chain), so it is the tempting but wrong answer for a manufacturer.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 3, Para. B (Maximum Loan Amount)",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b3-q2",
+      "question": "Which of these businesses is NOT eligible for a MARC loan based on its primary NAICS code?",
+      "options": [
+        "A refrigerated warehouse, NAICS 493120",
+        "An automobile merchant wholesaler, NAICS 423110",
+        "A grain farm, NAICS 111150",
+        "A supermarket, NAICS 445110"
+      ],
+      "correctIndex": 1,
+      "explanation": "423110 (Automobile and Other Motor Vehicle Merchant Wholesalers) is specifically excluded even though wholesale (NAICS 42) is otherwise eligible. 493120 and 445110 are named food supply chain codes, and codes starting with 11 are eligible food supply chain businesses.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 3, Para. A (Eligibility)",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b3-q3",
+      "question": "For an existing business, what minimum historical debt service coverage ratio must a MARC Applicant show?",
+      "options": [
+        "1.10:1",
+        "1.25:1",
+        "1.15:1",
+        "1.0:1"
+      ],
+      "correctIndex": 2,
+      "explanation": "MARC requires historical DSC of at least 1.15:1 with global DSC of at least 1.0:1. 1.10:1 is the post-closing annual review test to keep revolving, and 1.0:1 is the global minimum, not the business DSC minimum.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 3, Para. C (Underwriting - Existing Businesses)",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b3-q4",
+      "question": "A buyer is acquiring a 100% stock interest in a wholesale distributor. The buyer asks the Lender for a MARC loan to cover part of the purchase price and to fund inventory build-up after closing. What can MARC finance?",
+      "options": [
+        "Both the purchase price and the inventory, since the business is eligible",
+        "Nothing, because MARC loans cannot be made when a change of ownership is happening",
+        "Only the purchase price, since working capital must come from a CAPLine",
+        "Only the working capital (inventory) need, made at the same time as the change of ownership"
+      ],
+      "correctIndex": 3,
+      "explanation": "MARC proceeds may not fund a change of ownership, but a MARC loan may be made to the business at the same time as a change of ownership to support working capital, with the change of ownership following Appendix 15. It is not barred entirely, and it can never pay the purchase price.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 3, Para. A (Ineligible Uses of Proceeds)",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b3-q5",
+      "question": "Which statement about the structure of a MARC loan is correct?",
+      "options": [
+        "It must be revolving, may not be sold on the secondary market, and must let the Lender begin amortizing if post-closing requirements are not met",
+        "It may be revolving or term, and the guaranteed portion may be sold on the secondary market once fully disbursed",
+        "It must be revolving, and may be sold on the secondary market after the first annual review",
+        "It must be a term loan with a revolving sub-limit for working capital"
+      ],
+      "correctIndex": 0,
+      "explanation": "The SOP says the MARC loan must be revolving, revolving loans may not be sold on the secondary market, and the loan must contain a provision allowing the Lender to begin amortizing if the Borrower fails the Para. G post-closing requirements. There is no exception allowing a secondary market sale after an annual review.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 3, Para. B (Revolving Structure)",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b3-q6",
+      "question": "At its first annual review, a MARC borrower is current on interest and has sufficient collateral, but its DSC (assuming full use of the line) is 1.05:1. What may the Lender do?",
+      "options": [
+        "It must immediately convert the line to a fully amortizing term loan",
+        "It may justify keeping the line revolving and must retain that justification in the credit file",
+        "Nothing; the line continues to revolve because the borrower is current",
+        "It must request SBA's prior written approval to keep the line revolving"
+      ],
+      "correctIndex": 1,
+      "explanation": "If the 1.10:1 DSC and other requirements are not met at the first annual review, the Lender may justify continuing to revolve and must retain the justification. Conversion becomes mandatory only if the requirements are again not met at the next scheduled review. No SBA approval is required.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 3, Para. G (Post-Closing Requirements for Revolving Loans)",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b3-q7",
+      "question": "At the annual review of a revolving MARC loan, what extraordinary servicing fee may the Lender charge without using the asset-based option?",
+      "options": [
+        "Up to 2% of the outstanding balance",
+        "Up to 50 basis points of the outstanding balance",
+        "Up to 50 basis points of the maximum loan amount",
+        "Up to 25 basis points of the maximum loan amount"
+      ],
+      "correctIndex": 2,
+      "explanation": "The SOP allows up to 50 basis points (0.50%) based on the maximum loan amount at the annual review. The 2% fee is for lines administered as asset-based lines and is calculated on the outstanding balance.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 3, Para. D (Fees that the Lender may Charge the Borrower)",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b3-q8",
+      "question": "A Lender administers a $4,000,000 MARC loan as an asset-based line and wants to charge both a 2% annual servicing fee on the outstanding balance and the 50 bp annual review fee. What does the SOP allow?",
+      "options": [
+        "Both fees, as long as SBA approves in writing first",
+        "Both fees, because the blanket waiver covers both categories",
+        "Neither fee, because asset-based MARC lines must use CAPLines fee rules",
+        "Only one category of extraordinary servicing fee, with no prior SBA approval needed"
+      ],
+      "correctIndex": 3,
+      "explanation": "For asset-based lines the Lender may charge only one category: the up-to-2% fee or the 50 bp fee on the maximum loan amount. The blanket waiver removes the prior written approval requirement for either category, but it does not allow stacking them.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 3, Para. D (Fees that the Lender may Charge the Borrower)",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b3-q9",
+      "question": "A Lender with PLP delegated authority has a MARC request it would like SBA to review before approval. How must it process the loan?",
+      "options": [
+        "Using its PLP authority, because PLP lenders are required to process MARC loans under PLP",
+        "Non-delegated, because MARC loans are always reviewed by SBA",
+        "Either way, at the Lender's choice",
+        "Under SBA Express procedures, since MARC is a revolving product"
+      ],
+      "correctIndex": 0,
+      "explanation": "The SOP states that Lenders with PLP delegated authority are required to process 7(a) MARC loans using their PLP authority. Only lenders without PLP authority submit under non-delegated procedures.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 3, Para. F (Submission of Application for Guaranty)",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b3-q10",
+      "question": "A newer food processing business needs a MARC line, and its history is too short to rely on. Which projection package meets the SOP?",
+      "options": [
+        "One year of projections showing DSC of 1.25:1 at the end of year one",
+        "Two years of projections with supported assumptions, showing DSC of at least 1.15:1 within one year of disbursement and global DSC of at least 1:1, with a 24-month quarterly cash flow",
+        "Three years of annual projections showing DSC of 1.10:1 by year three",
+        "Two years of projections showing global DSC of 1.15:1 based on expected average line usage"
+      ],
+      "correctIndex": 1,
+      "explanation": "Projections must cover at least two years, use the maximum loan amount amortized over no more than ten years, show 1.15:1 within one year from disbursement and global DSC of at least 1:1, and include a quarterly cash flow analysis for 24 months. Using expected average usage instead of the maximum loan amount fails the rules.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 3, Para. C (Underwriting - Start-Ups and Projections)",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b3-q11",
+      "question": "Which statement about equity on a MARC loan is correct?",
+      "options": [
+        "MARC requires a minimum 10% equity injection for all Applicants",
+        "MARC requires no equity analysis because collateral secures the line",
+        "MARC has no minimum equity injection based on use of proceeds, but the Lender (PLP) or SBA (non-delegated) must still find equity and pro forma debt-to-worth acceptable",
+        "MARC equity requirements are the same as for Standard 7(a) loans"
+      ],
+      "correctIndex": 2,
+      "explanation": "The SOP says that, unlike Standard 7(a) and 7(a) Small loans, MARC loans have no minimum required equity injection based on use of proceeds. Equity is still analyzed under 13 CFR 120.150 and discussed in detail in the credit memo.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 3, Para. C (Equity requirements)",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b3-q12",
+      "question": "A MARC borrower has fallen 60 days delinquent. The Lender wants to extend the maturity to make payments affordable. What does the SOP allow?",
+      "options": [
+        "An extension of up to 5 years while keeping the line revolving",
+        "A deferral of up to 12 months on the revolving loan",
+        "An extension of up to 10 years, with the line continuing to revolve until maturity",
+        "An extension of up to 10 years, with the loan converted to fully amortizing and a zero balance at maturity"
+      ],
+      "correctIndex": 3,
+      "explanation": "Lenders may extend maturity by up to 10 years to help a delinquent Borrower regain currency, but the loan must convert to a fully amortizing loan with a zero balance at maturity. Deferrals on revolving loans are limited to 6 months, not 12.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 3, Para. H (Servicing Options)",
+      "difficulty": "scenario"
+    }
+  ]
+}

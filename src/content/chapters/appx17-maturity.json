@@ -1,0 +1,323 @@
+{
+  "id": "appx17-maturity",
+  "order": 440,
+  "part": "APPX",
+  "program": "7a",
+  "title": "Appendix 17: Loan Maturity Requirements",
+  "subtitle": "Maximum terms by use of proceeds and the revolving-line rules for Express, MARC, CAPLines and export loans",
+  "sopRef": "SOP 50 10 8.1, Appendix 17",
+  "estimatedMinutes": 25,
+  "learningObjectives": [
+    "Apply the shortest appropriate term principle and the maximum maturity for each use of proceeds",
+    "Structure mixed purpose and farm loans using the 51% tests, and recognize when Appendix 15 governs",
+    "Design compliant SBA Express and MARC revolving structures with term-out periods",
+    "Explain CAPLine renewals, Builders CAPLine limits, and exit strategy requirements",
+    "Apply Export Express and EWCP maturity rules, including Standby Letter of Credit timing and annual reviews"
+  ],
+  "topics": [
+    {
+      "id": "maturity-basics",
+      "title": "The shortest appropriate term and the maximum maturities",
+      "body": "Every 7(a) loan **must have a stated maturity** (13 CFR 120.212). The guiding principle is that the term must be **the shortest appropriate term** based on two things: the **use of proceeds** and the **Borrower's ability to repay**. The maximums below are ceilings, not targets. A Lender who sets a 10-year term on a loan the Borrower could comfortably repay in 5 years is not following the principle.\n\n#### Maximum maturities by use of proceeds\n\n| Use of proceeds | Maximum maturity | Extra time allowed |\n|---|---|---|\n| Working capital or inventory | 10 years | None |\n| Intangible assets, including goodwill | 10 years | None |\n| Equipment, fixtures, or furniture | Generally 10 years; up to 15 years if the IRS asset class useful life supports it | Up to 12 months to complete installation and/or leasehold improvements |\n| Real estate (acquisition, rehabilitation, renovation, construction, or improvements to leasehold interests in land) | 25 years | A reasonable construction or renovation period added on top of 25 years |\n| Leasehold improvements (except leasehold interests in land) | 10 years | A reasonable completion period, but never more than 12 months |\n| Mixed purpose | Blended maturity, or up to 25 years if 51% or more of proceeds are for real estate | See next topic |\n| Change of ownership | Governed by Appendix 15 | 51% real estate option does not apply |\n| Farm land and structures (51% or more of proceeds) | 20 years | Reasonable construction or renovation period |\n| Farm machinery and equipment (51% or more of proceeds) | Useful life, not to exceed 15 years | Installation period, not to exceed 12 months |\n\n#### Key distinctions\n\n- **Equipment beyond 10 years needs support.** The 15-year term is available only when the **IRS asset class useful life** supports it. Document the asset class.\n- **Leasehold interests in land vs. leasehold improvements.** Improvements to a leasehold interest **in land** are treated like real estate (up to 25 years). Ordinary tenant build-out in a leased space is a leasehold improvement (10 years plus up to 12 months).\n- **Construction add-ons are \"reasonably necessary\" periods.** For real estate, SBA allows an additional period reasonably necessary for construction or renovation on top of 25 years. For equipment installation and leasehold improvements, the add-on is capped at **12 months**.\n\n> **Watch out:** Goodwill and other intangibles are capped at 10 years. A loan that is mostly goodwill cannot be stretched to 25 years just because a small amount of real estate is included.",
+      "keyPoints": [
+        "Every 7(a) loan must have a stated maturity: the shortest appropriate term (13 CFR 120.212)",
+        "Working capital, inventory and intangibles (including goodwill): max 10 years",
+        "Equipment: generally 10 years, up to 15 if IRS asset class useful life supports, plus up to 12 months for installation",
+        "Real estate: 25 years plus a reasonable construction or renovation period",
+        "Leasehold improvements: 10 years plus no more than 12 months to complete"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 17, General Requirements, Paras. 1-4"
+    },
+    {
+      "id": "mixed-coo-farm",
+      "title": "Mixed purpose loans, changes of ownership, and farm enterprises",
+      "body": "#### Mixed purpose loans\n\nMany 7(a) loans finance several things at once: land and building, working capital, machinery and equipment, or the refinancing of any of these. For these **mixed purpose loans**, the Lender has two options:\n\n1. **Blended maturity.** Set one maturity that reflects the mix of uses and the maximum term allowed for each.\n2. **The 51% real estate option.** If **51% or more** of the 7(a) loan proceeds are for real estate, the maximum maturity **may be up to 25 years** for the whole loan.\n\nThe second option is valuable because it lets the non-real-estate pieces amortize over the longer real estate term.\n\n#### Changes of ownership are different\n\nFor **any loan financing a change of ownership**, **Appendix 15 governs** the maturity, and the **51% real estate maturity option does not apply**. This applies to all types of changes of ownership. A business acquisition that includes the building cannot simply claim 25 years because the real estate is more than half the price; the Lender must follow the Appendix 15 rules.\n\n> **Watch out:** This is a common error in loan structuring tools. Before applying the 51% rule, check whether any part of the proceeds finances a change of ownership. If it does, route the maturity logic to Appendix 15.\n\n#### Farm enterprises\n\nLoans to farm enterprises have their own maximums, again driven by the 51% test:\n\n| If 51% or more of proceeds are for... | Maximum maturity |\n|---|---|\n| Land and structures for farming (including poultry houses) | 20 years, plus a reasonably necessary construction or renovation period if the real estate proceeds include construction or renovation |\n| Machinery and equipment | The useful life of the machinery and equipment, not to exceed 15 years, plus up to 12 months for installation |\n\nNote that farm real estate is capped at **20 years**, not the 25 years that applies to other real estate.\n\n> **In practice:** When a loan mixes uses, record the dollar amount of each use of proceeds in your system. The percentage of proceeds going to real estate (or farm land and structures, or farm equipment) determines which maximum applies, and examiners will check the math.",
+      "keyPoints": [
+        "Mixed purpose loans: blended maturity, or up to 25 years if 51% or more of proceeds are real estate",
+        "Any change of ownership: Appendix 15 governs; the 51% real estate option does not apply",
+        "Farm land and structures (51%+ of proceeds, incl. poultry houses): 20 years plus construction period",
+        "Farm machinery and equipment (51%+): useful life, max 15 years, plus up to 12 months installation"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 17, General Requirements, Paras. 5-7"
+    },
+    {
+      "id": "express-lines",
+      "title": "SBA Express lines of credit: draw periods, term-outs and reissues",
+      "body": "Standard 7(a) and 7(a) Small loans follow the General Requirements with no exceptions. SBA Express **lines of credit** have their own structure.\n\n#### The basic limits\n\n- An SBA Express line of credit **may not exceed 10 years, inclusive of a term-out period**.\n- A revolving loan of **more than 12 months** must have a **term-out period that is not less than the draw period**.\n- **Once the loan is amortized, no additional draws are permitted.**\n- **Under no circumstances may there be any advances after the initial 60 month period.**\n\n| Structure | Allowed? | Why |\n|---|---|---|\n| 8-year maturity: 2-year draw, 6-year term-out | Yes | Term-out (6) is not less than draw (2) |\n| 8-year maturity: 6-year draw, 2-year term-out | No | Term-out is shorter than the draw period |\n| 10-year maturity: 5-year draw, 5-year term-out | Yes | Equal periods; no advances after 60 months |\n\n#### Short lines (12 months or less)\n\nRevolving loans with maturities of **12 months or less** may be structured **without a term-out**. If such a loan is renewed or its maturity extended beyond 12 months, the term-out requirement above then applies.\n\n#### Renewals\n\nExpress lines may be established as **renewable each year**, provided they do not exceed the maximum maturity. The Lender **may not charge a renewal fee**. If the original maturity was **12 months or less** and the new maturity **exceeds 12 months**, an **additional guaranty fee** is due (see Section A, Ch. 4, Para. C.1.a.v., Additional Guaranty Fee for Extensions of Short-Term Loans).\n\n#### Reissuing a new Express loan\n\nLenders may **reissue a new SBA Express loan** to restructure a current one **at any point before amortizing payments begin**. There are two options:\n\n- **Option 1 - Line Retention.** The new loan keeps the revolving period. The Lender must address the **overall line utilization** in its credit memo and **justify why the line needs to be retained**.\n- **Option 2 - Extended Amortization.** The new loan terms out the existing line over a term **not exceeding 10 years**. This option expressly allows a longer amortization than the original repayment term. The new Express loan **may not have a revolving period**.\n\n> **Watch out:** Reissue is available only **before** amortizing payments begin. Once the line is in its term-out, it cannot be reissued to restart a draw period.",
+      "keyPoints": [
+        "SBA Express lines: max 10 years including term-out",
+        "Revolvers over 12 months: term-out not less than the draw period; no draws once amortizing",
+        "No advances after the initial 60 month period under any circumstances",
+        "No renewal fee; extending a 12-month-or-less line beyond 12 months triggers an additional guaranty fee",
+        "Reissue before amortization: Option 1 Line Retention (justify in credit memo) or Option 2 Extended Amortization (max 10 years, no revolving)"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 17, Program-Specific Requirements, SBA Express lines of credit"
+    },
+    {
+      "id": "marc-revolvers",
+      "title": "MARC revolving loans",
+      "body": "The Manufacturers' Access to Revolving Credit (MARC) program allows a much longer revolving structure than SBA Express.\n\n#### The MARC maturity rules\n\n- **Maximum maturity: 20 years.**\n- A MARC revolver **may not revolve for more than 10 years**. At the end of the revolving period, the loan must be **converted to a fully amortizing loan** with a maximum additional repayment term of **up to 10 years**.\n- Revolving loans of **more than 12 months** must have a **term-out period at least as long as the draw period**, with **no draws during the term-out period**.\n- Revolving loans may be **renewable each year**, as long as they do not exceed the **maximum revolving period of 10 years**. If the original maturity was **12 months or less** and the new maturity **exceeds 12 months**, an **additional guaranty fee** is due.\n- Revolving loans with maturities of **12 months or less** may be structured initially **without a term-out**; if renewed or extended beyond 12 months, the requirements above apply.\n\n#### Why MARC is not subject to subsidy recoupment\n\nBecause revolving MARC loans have a **maximum amortization of 10 years**, they are **not subject to the subsidy recoupment fee**.\n\n#### Comparing revolving structures\n\n| Feature | SBA Express line | MARC revolver |\n|---|---|---|\n| Maximum maturity | 10 years including term-out | 20 years |\n| Maximum revolving period | No advances after initial 60 months | 10 years |\n| Term-out vs draw period | Term-out not less than draw | Term-out at least as long as draw |\n| Lines of 12 months or less | May skip term-out | May skip term-out |\n| Extension past 12 months | Additional guaranty fee | Additional guaranty fee |\n\n> **In practice:** A MARC line that revolves for the full 10 years then amortizes for 10 years reaches the 20-year maximum. A line with a 4-year draw period needs at least a 4-year term-out.",
+      "keyPoints": [
+        "MARC revolvers: maximum maturity 20 years",
+        "May not revolve more than 10 years; then fully amortize over up to 10 more years",
+        "Term-out at least as long as the draw period; no draws during term-out",
+        "Not subject to the subsidy recoupment fee because maximum amortization is 10 years",
+        "Extending a 12-month-or-less loan beyond 12 months triggers an additional guaranty fee"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 17, Program-Specific Requirements, MARC Loans"
+    },
+    {
+      "id": "caplines-maturity",
+      "title": "CAPLines maturity rules",
+      "body": "CAPLines are revolving or transaction-based working capital lines. Their maturity rules depend on the variant.\n\n#### Working Capital, Contract, and Seasonal CAPLines\n\n- **Maximum maturity: 10 years.**\n- A CAPLine with a maturity of less than 10 years **can be renewed**, as long as the **total revolving repayment period does not exceed 120 months**.\n- **A renewal is an extension of maturity, not a new loan.** The **loan number stays the same**.\n- If the original maturity was **12 months or less** and the new maturity **exceeds 12 months**, an **additional guaranty fee** is due (Section A, Ch. 5, Para. C.1.a.v.).\n\n#### Builders CAPLines\n\nUnder 13 CFR 120.396, a Builders CAPLine **must not exceed 60 months plus the estimated time to complete construction or rehabilitation**.\n\n#### Rules for all CAPLines\n\n- **Every CAPLine must have an exit strategy.** Final disbursement should happen far enough before maturity that the assets bought with the proceeds (inventory, contract work, a finished building) have time to convert back to cash and pay off the loan.\n- **Single-transaction lines tie to the transaction.** Contract, Seasonal, and Builders CAPLines that finance a single transaction should have a maturity tied to the **seasonal cycle, contract completion date, or project completion date**.\n- **Loan maturity must not exceed the period of the guaranty.**\n\n| CAPLine variant | Maximum maturity |\n|---|---|\n| Working Capital | 10 years (renewals within 120 months total) |\n| Contract | 10 years; single-contract lines tie to contract completion |\n| Seasonal | 10 years; single-season lines tie to the seasonal cycle |\n| Builders | 60 months plus estimated construction or rehabilitation time |\n\n> **Watch out:** Because a CAPLine renewal is an extension, do not book it as a new SBA loan with a new number. Your servicing system should treat it as a maturity change on the existing loan.",
+      "keyPoints": [
+        "Working Capital, Contract and Seasonal CAPLines: max 10 years",
+        "Renewals allowed if total revolving repayment period does not exceed 120 months; same loan number",
+        "Builders CAPLines: 60 months plus estimated construction or rehabilitation time (13 CFR 120.396)",
+        "All CAPLines need an exit strategy; final disbursement well before maturity",
+        "Loan maturity must not exceed the period of the guaranty"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 17, Program-Specific Requirements, CAPLines"
+    },
+    {
+      "id": "export-maturity",
+      "title": "Export Express, EWCP and International Trade maturities",
+      "body": "#### Export Express\n\nExport Express loans must have a stated maturity that is the **shortest appropriate term**.\n\n- **Lines of credit must not exceed 7 years.**\n- **Transactional lines:** no disbursement can be made for an export transaction where the foreign buyer's payment will occur **after the loan's maturity date**.\n- **Revolving lines:** the maximum maturity **includes any term-out period**; lines may be **renewable each year** within the maximum maturity; the Lender **may not charge a renewal fee**; and extending a line with an original maturity of 12 months or less beyond 12 months triggers an **additional guaranty fee**.\n- **Export Express term loans** follow the General Requirements.\n\n#### Export Working Capital Program (EWCP)\n\nThe EWCP **loan term** is the period for which the 7(a) commitment is issued. Within it, the Lender may set **independent loan maturities**, typically annual.\n\n- **Maximum maturity: 36 months**, set as a number of months from the Note date. The maturity is the date in the SBA Loan System; if the loan is not reissued or extended, everything is due that day.\n- SBA's guaranty covers disbursements made **through the maturity date**. Disbursements after maturity are **not covered**, except a disbursement to fund a draw on a **Standby Letter of Credit issued under the EWCP before maturity**.\n- **Standby Letters of Credit** must **expire before the loan maturity date** unless SBA gives prior written consent. With that consent, a post-maturity disbursement to fund such a draw is covered.\n- Loan maturity must not exceed the period of the guaranty.\n\n**Types of EWCP loans:**\n\n- **Transaction-Based Loan:** a line supporting one or multiple transactions during the term; revolving or non-revolving.\n- **Asset-Based Loan (ABL):** a revolving line supported by a **monthly Borrowing Base Certificate (BBC)** reporting assets such as accounts receivable and inventory; typically committed for **12 months** and then renewed or reissued annually.\n\n**Annual and renewal credit review:** at least annually, and at any renewal, the Lender must obtain updated year-end and interim financial statements and fully review the credit and collateral. The analysis must document that the Applicant (1) is **creditworthy**, (2) has **reasonable assurance of timely repayment from converting sales into cash**, and (3) is **in compliance with EWCP program requirements**. If all three are not documented, **no further disbursements** may be made and the loan **may not be renewed** until they are.\n\n#### International Trade (IT) loans\n\nIT loans follow the General Requirements with no program-specific exceptions.",
+      "keyPoints": [
+        "Export Express lines of credit: max 7 years including any term-out",
+        "Export Express transactional lines: no disbursement if buyer payment falls after maturity",
+        "EWCP: max maturity 36 months from the Note date; disbursements after maturity generally not guaranteed",
+        "EWCP Standby LCs must expire before maturity unless SBA gives prior written consent",
+        "EWCP annual review must show creditworthiness, repayment from sales conversion, and program compliance",
+        "IT loans: general maturity rules apply"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 17, Program-Specific Requirements, Export Express, EWCP and IT Loans"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Stated maturity",
+      "definition": "The fixed final due date every 7(a) loan must have; it must be the shortest appropriate term for the use of proceeds and repayment ability."
+    },
+    {
+      "term": "Blended maturity",
+      "definition": "A single maturity for a mixed purpose loan that reflects the mix of uses of proceeds."
+    },
+    {
+      "term": "51% real estate option",
+      "definition": "If 51% or more of proceeds are for real estate, a mixed purpose loan may have up to 25 years; not available for changes of ownership."
+    },
+    {
+      "term": "Draw period",
+      "definition": "The period during which a revolving line can be advanced."
+    },
+    {
+      "term": "Term-out period",
+      "definition": "The amortizing period after the draw period, during which no draws are allowed."
+    },
+    {
+      "term": "Line Retention / Extended Amortization",
+      "definition": "The two options for reissuing a new SBA Express loan before amortizing payments begin."
+    },
+    {
+      "term": "Additional guaranty fee",
+      "definition": "Due when a loan with an original maturity of 12 months or less is extended beyond 12 months."
+    },
+    {
+      "term": "Exit strategy",
+      "definition": "Required for every CAPLine; the plan for assets financed to convert to cash before maturity."
+    },
+    {
+      "term": "Borrowing Base Certificate (BBC)",
+      "definition": "Monthly report of assets such as receivables and inventory supporting an asset-based EWCP line."
+    },
+    {
+      "term": "Standby Letter of Credit",
+      "definition": "A letter of credit supported by an EWCP loan; must expire before loan maturity unless SBA gives prior written consent."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "a17-q1",
+      "question": "What is the maximum maturity for a 7(a) loan used for working capital?",
+      "options": [
+        "7 years",
+        "10 years",
+        "15 years",
+        "25 years"
+      ],
+      "correctIndex": 1,
+      "explanation": "Working capital, inventory and intangible assets (including goodwill) loans must not exceed 10 years. 7 years is the Export Express line of credit limit, and 25 years is for real estate.",
+      "sopRef": "SOP 50 10 8.1, Appendix 17, General Requirements, Para. 1",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a17-q2",
+      "question": "When may an equipment loan have a maturity of up to 15 years?",
+      "options": [
+        "Whenever the Borrower requests it",
+        "When the equipment is new",
+        "When the IRS asset class useful life supports the term",
+        "When 51% or more of proceeds are for equipment in any industry"
+      ],
+      "correctIndex": 2,
+      "explanation": "Equipment, fixtures or furniture loans should generally not exceed 10 years, but may go up to 15 years if the IRS asset class useful life supports the term. The 51% equipment test applies only to farm enterprises.",
+      "sopRef": "SOP 50 10 8.1, Appendix 17, General Requirements, Para. 2",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a17-q3",
+      "question": "A loan finances an acquisition of an existing business, and 60% of proceeds pay for the business's building. What governs the maturity?",
+      "options": [
+        "Appendix 15, because the loan finances a change of ownership; the 51% real estate option does not apply",
+        "The 51% real estate option, allowing up to 25 years for the whole loan",
+        "A blended maturity is mandatory, capped at 10 years",
+        "A 20-year maximum because real estate exceeds 51%"
+      ],
+      "correctIndex": 0,
+      "explanation": "For any loan financing a change of ownership, Appendix 15 governs and the 51% real estate maturity option does not apply. Applying the 51% rule here is the main trap.",
+      "sopRef": "SOP 50 10 8.1, Appendix 17, General Requirements, Para. 5",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a17-q4",
+      "question": "A Borrower (not a change of ownership) uses 55% of proceeds to buy real estate and 45% for working capital. What maximum maturity may the Lender use?",
+      "options": [
+        "10 years",
+        "Exactly the blended maturity; no other option",
+        "20 years",
+        "Up to 25 years"
+      ],
+      "correctIndex": 3,
+      "explanation": "For mixed purpose loans, the maturity may be blended or, if 51% or more of proceeds are for real estate, up to 25 years. 20 years is the farm land and structures maximum.",
+      "sopRef": "SOP 50 10 8.1, Appendix 17, General Requirements, Para. 5",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a17-q5",
+      "question": "A farm enterprise uses 70% of proceeds to build new poultry houses. What is the maximum maturity?",
+      "options": [
+        "25 years plus a construction period",
+        "20 years plus a period reasonably necessary for construction",
+        "15 years plus 12 months",
+        "10 years"
+      ],
+      "correctIndex": 1,
+      "explanation": "Where farm land and structures (including poultry houses) are 51% or more of proceeds, the maximum is 20 years, with a reasonable construction or renovation period added. 25 years applies to non-farm real estate.",
+      "sopRef": "SOP 50 10 8.1, Appendix 17, General Requirements, Para. 7",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a17-q6",
+      "question": "Which SBA Express line of credit structure complies with Appendix 17?",
+      "options": [
+        "8-year maturity with a 6-year draw period and 2-year term-out",
+        "12-year maturity with a 6-year draw and 6-year term-out",
+        "8-year maturity with a 2-year draw period and 6-year term-out",
+        "10-year maturity with a 7-year draw period and 3-year term-out"
+      ],
+      "correctIndex": 2,
+      "explanation": "Express lines may not exceed 10 years including term-out, the term-out may not be shorter than the draw period, and there can be no advances after 60 months. Only the 2-year draw / 6-year term-out structure meets all three; the SOP gives the 6/2 split as an explicit example of what is not allowed.",
+      "sopRef": "SOP 50 10 8.1, Appendix 17, Program-Specific Requirements, SBA Express lines of credit",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a17-q7",
+      "question": "A Lender wants to restructure an existing SBA Express line, before amortizing payments begin, into a 10-year term loan with no revolving feature. Which option is this?",
+      "options": [
+        "Option 2 - Extended Amortization",
+        "Option 1 - Line Retention",
+        "A renewal subject to a renewal fee",
+        "Not permitted; Express lines cannot be restructured"
+      ],
+      "correctIndex": 0,
+      "explanation": "Option 2 lets the Lender reissue a new SBA Express loan to term out the existing one over up to 10 years, with no revolving period. Option 1 keeps the revolving period, and Lenders may not charge renewal fees on Express lines.",
+      "sopRef": "SOP 50 10 8.1, Appendix 17, Program-Specific Requirements, SBA Express lines of credit",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a17-q8",
+      "question": "What is the maximum revolving period for a MARC revolving loan?",
+      "options": [
+        "60 months",
+        "36 months",
+        "20 years",
+        "10 years"
+      ],
+      "correctIndex": 3,
+      "explanation": "MARC revolvers may not revolve for more than 10 years and then convert to a fully amortizing loan of up to 10 more years, for a maximum maturity of 20 years. 60 months is the SBA Express advance limit.",
+      "sopRef": "SOP 50 10 8.1, Appendix 17, Program-Specific Requirements, MARC Loans",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a17-q9",
+      "question": "A Working Capital CAPLine with a 3-year maturity is renewed for another 3 years. How is the renewal treated?",
+      "options": [
+        "As a new loan with a new SBA loan number",
+        "As an extension of maturity that keeps the same loan number",
+        "As a reissue requiring a new guaranty fee in all cases",
+        "It is not allowed; CAPLines cannot be renewed"
+      ],
+      "correctIndex": 1,
+      "explanation": "A CAPLine renewal is an extension of maturity, not a new loan, so the loan number remains the same, as long as the total revolving repayment period does not exceed 120 months. An additional guaranty fee applies only when an original maturity of 12 months or less is extended beyond 12 months.",
+      "sopRef": "SOP 50 10 8.1, Appendix 17, Program-Specific Requirements, CAPLines",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a17-q10",
+      "question": "What is the maximum maturity for an EWCP loan?",
+      "options": [
+        "36 months from the Note date",
+        "12 months",
+        "7 years",
+        "10 years"
+      ],
+      "correctIndex": 0,
+      "explanation": "The maximum maturity of an EWCP loan is 36 months, set in months from the date of the Note. ABLs are typically committed for 12 months and renewed, but that is not the maximum; 7 years is the Export Express line limit.",
+      "sopRef": "SOP 50 10 8.1, Appendix 17, Program-Specific Requirements, EWCP Loans",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a17-q11",
+      "question": "An EWCP Lender's annual review cannot document that the Borrower has reasonable assurance of timely repayment from converting sales into cash. What must happen?",
+      "options": [
+        "The Lender may keep disbursing but must note the issue in the file",
+        "The loan converts automatically to a term loan",
+        "SBA's guaranty is terminated immediately",
+        "No further disbursements may be made and the loan may not be renewed until the requirement is met"
+      ],
+      "correctIndex": 3,
+      "explanation": "If the Lender's analysis does not document all three requirements (creditworthiness, repayment from sales conversion, and program compliance), no further disbursements may be made and the loan may not be renewed until the Applicant meets them.",
+      "sopRef": "SOP 50 10 8.1, Appendix 17, Program-Specific Requirements, EWCP Loans",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a17-q12",
+      "question": "A Lender issues a Standby Letter of Credit under an EWCP loan that expires after the loan's maturity date. What is required for a post-maturity disbursement to fund a draw to be covered by the guaranty?",
+      "options": [
+        "Nothing; all SBLC draws are covered",
+        "SBA's prior written consent",
+        "A new SBA Form 1919",
+        "The Borrower's written consent only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Unless SBA provides prior written consent, Standby Letters of Credit must expire before the loan maturity date. With that consent, a disbursement after maturity to fund a draw on an SBLC issued before maturity is covered. Borrower consent alone does not suffice.",
+      "sopRef": "SOP 50 10 8.1, Appendix 17, Program-Specific Requirements, EWCP Loans",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a17-q13",
+      "question": "A tenant is financing build-out of leased retail space (not a leasehold interest in land) that will take 8 months to complete. What is the maximum maturity?",
+      "options": [
+        "10 years plus up to 12 months, so 10 years and 8 months here is permissible",
+        "25 years plus the construction period",
+        "15 years",
+        "10 years with no extension"
+      ],
+      "correctIndex": 0,
+      "explanation": "Leasehold improvements (other than leasehold interests in land) may not exceed 10 years plus a period reasonably necessary to complete them, never more than 12 months. The 25-year term applies to real estate, including improvements to leasehold interests in land.",
+      "sopRef": "SOP 50 10 8.1, Appendix 17, General Requirements, Para. 4",
+      "difficulty": "scenario"
+    }
+  ]
+}

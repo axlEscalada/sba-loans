@@ -1,0 +1,469 @@
+{
+  "id": "c2-504-terms-closing-disbursement",
+  "order": 320,
+  "part": "C",
+  "program": "504",
+  "title": "504 SBA Terms and Conditions through Disbursement",
+  "subtitle": "From the SBA Terms and Conditions through modifications, closing, debenture sale and post-funding rules",
+  "sopRef": "SOP 50 10 8.1, Section C, Ch. 2",
+  "estimatedMinutes": 60,
+  "learningObjectives": [
+    "Explain what the SBA Terms and Conditions are and who drafts and executes them under Regular, ALP and PCLP processing",
+    "Apply the 48-month and 9-month disbursement deadlines and the extension process",
+    "Identify the standard and construction conditions, including NEHRP and CDC interim lender requirements",
+    "Distinguish modifications that need SLPC approval from those a CDC, ALP Express CDC or PCLP CDC may make itself",
+    "Describe the roles of the CDC, CDC Counsel, Designated Attorneys, SBA counsel, the CSA and the Trustee at closing",
+    "Walk through the CDC's monthly closing timeline from adverse change opinion to post-sale document delivery",
+    "Explain post-funding rules on debenture pools, ownership changes and prepayment"
+  ],
+  "topics": [
+    {
+      "id": "c2-terms-and-conditions-basics",
+      "title": "What the SBA Terms and Conditions are and who drafts them",
+      "body": "In a 7(a) loan the core approval document is the Loan Authorization. In a 504 loan the equivalent is the **SBA Terms and Conditions**: the agreement between SBA and the Certified Development Company (CDC) that spells out the conditions under which SBA will issue (guarantee) the debenture that funds the 504 loan. Everything that happens between approval and debenture sale is measured against this document, so it is the first thing a closing attorney, a servicer, or a piece of lender software needs to understand.\n\n### Standard wording\n\nThe governing rule is 13 CFR 120.160 (Loan Conditions).\n\n- **SBA sets the wording** for the standard 504 SBA Terms and Conditions.\n- SBA-authorized Terms and Conditions **must use the pre-approved conditions found in the Boilerplate**. CDCs do not free-write conditions.\n\n### Who drafts and who signs\n\nThe drafting party depends on the processing method the loan was approved under:\n\n| Processing method | Who drafts | Who executes |\n|---|---|---|\n| Regular (non-delegated) and ALP | CDC | SBA finalizes and executes, then sends to the CDC for its execution |\n| PCLP (Premier Certified Lenders Program) | CDC | CDC executes on SBA's behalf |\n\n### Non-standard conditions\n\nSometimes a deal needs a condition that is not in the Boilerplate. The general rule is that **SBA counsel must review and approve** any such SBA Terms and Conditions. There is one exception:\n\n- A **PCLP CDC**, when processing under its PCLP lending authority, may develop a condition and use it **without prior SBA approval**, but **only one time**.\n- Whenever a PCLP CDC develops and uses a non-standard condition, it **must put an explanation of why it was developed in the loan file**.\n\n> **Watch out:** The PCLP exception is a one-time use. If a PCLP CDC finds itself reusing the same home-grown condition on deal after deal, that condition needs SBA counsel review and approval.\n\n> **In practice:** Software that generates Terms and Conditions should tie each condition to its Boilerplate source and flag any custom text, so the CDC can show either SBA counsel approval or the PCLP one-time-use explanation in the file.",
+      "keyPoints": [
+        "The SBA Terms and Conditions is the agreement between SBA and the CDC setting the terms under which SBA will issue a debenture (13 CFR 120.160)",
+        "Standard wording is set by SBA and must use the pre-approved conditions in the Boilerplate",
+        "Regular and ALP: CDC drafts, SBA finalizes and executes, then sends to the CDC to execute",
+        "PCLP: the CDC drafts and executes on SBA's behalf",
+        "SBA counsel must approve any non-standard condition, except a PCLP CDC may use a self-developed condition once without prior approval if the file explains why"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. A.1"
+    },
+    {
+      "id": "c2-disbursement-rate-maturity",
+      "title": "Disbursement deadlines, interest rate and maturity",
+      "body": "A 504 approval does not stay open forever. SBA sets a hard window for getting the debenture funded, and it cancels unused dollars automatically.\n\n### How long the CDC has to disburse\n\n| Loan type | Disbursement deadline | Extension |\n|---|---|---|\n| All other 504 loans | **48 months** from approval | Only with an approved exception to policy, granted by SBA through OFPO/SLPC, with **SBA CFO concurrence** to confirm funding authority |\n| **Debt Refinance without Expansion** | **9 months** from approval | SBA may grant an extension **not to exceed 15 months** |\n\nWhen appropriate, SLPC will also refer extension requests to OFA for concurrence with the Office of General Counsel (OGC) and the CFO.\n\n### Automatic cancellation\n\n**SBA tracks the approved time frame and automatically cancels undisbursed dollars.** The Denver Finance Center (DFC) will make a reasonable effort to:\n\n1. Mail an initial message to the CDC **about 3 months before** acting on undisbursed funds, stating the undisbursed amount and the date the dollars will be cancelled.\n2. Mail a second message **on the day** the automatic cancellation is processed.\n\n> **Watch out:** \"Reasonable effort\" means the notices are a courtesy, not a guarantee. The CDC owns the deadline.\n\n### Requesting an extension\n\nThe CDC submits the request **through SLPC as a 327 action** and must include:\n\n1. The **reason** for the extension, with a **detailed timeline** for project completion and funding.\n2. A determination of **no adverse change**.\n3. **Updated financial statements dated within 120 days** (or **90 days for personal financial statements**) of the request, with analysis.\n4. Documentation showing how the project **sources and uses were adjusted** for any increase in project costs.\n\nFor loans processed under a CDC's **PCLP** authority, these same items are submitted **directly through the SBA Loan System**, with notification to SLPC for review and consideration.\n\n### Interest rate\n\nThe rate on 10, 20 and 25 year 504 debentures is **based on market conditions for long-term government debt at the time of sale** (13 CFR 120.932). The borrower does not know the final rate at approval; it is set when the debenture is sold.\n\n### Maturity\n\nMaturity is **10, 20 or 25 years**, based on the remaining useful life of the property being financed, following the Loan Maturities rules in Section C, Ch. 1.",
+      "keyPoints": [
+        "Standard 504 loans must be disbursed within 48 months of approval",
+        "Debt Refinance without Expansion: disburse within 9 months; SBA may extend, not to exceed 15 months",
+        "Extensions need an exception to policy granted through OFPO/SLPC with SBA CFO concurrence on funding authority",
+        "SBA automatically cancels undisbursed dollars; DFC aims to send a notice about 3 months ahead and another on the cancellation day",
+        "Extension requests go to SLPC as a 327 action with reason and timeline, no-adverse-change determination, current financials and adjusted sources and uses",
+        "Debenture rates follow long-term government debt at time of sale; maturities are 10, 20 or 25 years"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. A.2"
+    },
+    {
+      "id": "c2-standard-conditions",
+      "title": "Lenders, insurance, standby debt, leases, equipment and certifications",
+      "body": "Beyond the headline economics, the SBA Terms and Conditions carry a set of standard conditions that show up on most 504 loans.\n\n### Interim and Third Party Lenders\n\nThe CDC **must insert the names of the Interim Lender and the Third Party Lender and the amounts of their loans** into the Terms and Conditions. The Interim Lender bridges the SBA portion until the debenture sells; the Third Party Lender holds the permanent first-lien loan.\n\n### Insurance\n\nThe lender **must ensure all appropriate insurance requirements** are included in the Terms and Conditions.\n\n### IRS tax transcripts\n\nThe IRS Tax Transcript / Verification of Financial Information process must be completed under **Section A, Ch. 5, Para. B**. 504 does not have its own separate rule here; it borrows the core requirement.\n\n### Standby agreements\n\nWhen a creditor (often a seller or owner) agrees to stand by on its debt:\n\n- The CDC may use **SBA Form 155, \"Standby Agreement,\"** or **its own equivalent** standby form.\n- **A copy of the note must be attached** to the standby agreement.\n- The Standby Creditor must **subordinate any lien rights** in the loan collateral to the CDC's rights, and must **take no action** against the Applicant or any collateral securing the standby debt **without the CDC's consent**.\n\n### Assignment of lease and landlord's waiver\n\nIf applicable, the Terms and Conditions must include conditions for an **assignment of lease** and a **landlord's waiver**.\n\n### Equipment and fixtures as collateral\n\nIf the collateral includes equipment and/or fixtures:\n\n- The CDC must obtain a **list of all equipment and fixtures** that are collateral.\n- For items with a **unit value of $5,000 or more**, the list must include a **description and serial number** (if applicable).\n- The list should be included in the collateral description (**Item 4. COLLATERAL**) on the **UCC-1 Financing Statement**.\n\n### Certifications\n\nEach party certifies on its own SBA form:\n\n| Party | Form |\n|---|---|\n| CDC | **SBA Form 2101**, \"CDC Certification\" |\n| Borrower (and Operating Company) | **SBA Form 2289**, \"Borrower and Operating Company Certification\" |\n| Interim Lender | **SBA Form 2288**, \"Interim Lender Certification\" |\n\n> **In practice:** Keep the three certification forms straight. 2101 is the CDC, 2288 is the Interim Lender, 2289 is the Borrower. Mixing them up in a closing checklist is a common data-entry error.",
+      "keyPoints": [
+        "CDC inserts Interim and Third Party Lender names and loan amounts into the Terms and Conditions",
+        "Lender must ensure all appropriate insurance requirements are included",
+        "IRS tax transcript verification follows Section A, Ch. 5, Para. B",
+        "Standby: SBA Form 155 or CDC's equivalent, with a copy of the note attached; creditor subordinates liens and takes no action without CDC consent",
+        "Equipment/fixture collateral: list everything; items with unit value of $5,000 or more need description and serial number",
+        "Certifications: CDC on Form 2101, Borrower on Form 2289, Interim Lender on Form 2288"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. A.3-A.12"
+    },
+    {
+      "id": "c2-construction-provisions",
+      "title": "Construction loan provisions and seismic (NEHRP) compliance",
+      "body": "Many 504 projects involve building something. The Terms and Conditions carry specific construction conditions.\n\n### Seismic compliance (NEHRP)\n\nFor construction of a **new building or an addition** to an existing building, the CDC must obtain **evidence of compliance with the National Earthquake Hazards Reduction Program (NEHRP) Recommended Provisions** for new buildings, or a building code with substantially equivalent provisions (13 CFR 120.174).\n\n- The NEHRP provisions can be found in **ASCE Standard 7** and the **International Building Code**.\n- Acceptable evidence includes a **certificate from a licensed building architect, construction engineer or similar professional**, or a **letter from a state or local government agency** stating an occupancy permit is required and that the local codes behind the permit include the seismic standards.\n\n### When NEHRP applies\n\nThe Terms and Conditions **must address NEHRP whenever any selected use of proceeds includes construction financing, including leasehold improvements**.\n\n- Leasehold improvements that will be **permanently affixed** to a structure on leased premises **must comply** with NEHRP.\n- **Temporary** leasehold improvements do **not** need to comply.\n- If the Applicant shows the improvements are temporary, the CDC may request a **modification** of the Terms and Conditions to remove the NEHRP provision (see the modifications topic).\n\nThe CDC must also **certify that the project was completed according to the final plans and specifications**, unless a minor portion has been escrowed for a valid reason (13 CFR 120.891).\n\n### Extra conditions when the CDC is the interim lender\n\nIf **interim financing comes from a CDC**, the Terms and Conditions must also require:\n\n1. **Mortgages recorded before construction begins.**\n2. **Inspections** by a qualified engineer, appraiser or other party satisfactory to SBA **before all progress disbursements**.\n3. A **firm construction contract** from an acceptable contractor at a **specified price**, with no material changes without the CDC's **prior written consent**.\n4. The contractor furnishes **builder's risk and workers' compensation insurance**.\n5. **One complete set of plans and specifications** submitted to the CDC.\n6. Any CDC or Applicant funds injected into the project are **used before the interim financing is disbursed**.\n7. The CDC makes and **documents periodic inspections** of construction.\n8. When loan funds improve buildings on **leased land**, an **assignment of the lease** is obtained.\n\n> **Watch out:** Injection goes first. If the borrower's equity is still sitting in a bank account while interim loan draws are being funded, the CDC-as-interim-lender condition is being violated.",
+      "keyPoints": [
+        "New buildings or additions need evidence of NEHRP seismic compliance or an equivalent building code (13 CFR 120.174)",
+        "NEHRP provisions are found in ASCE Standard 7 and the International Building Code",
+        "Permanently affixed leasehold improvements must comply with NEHRP; temporary ones need not",
+        "CDC certifies the project was completed per final plans and specs unless a minor portion is escrowed for a valid reason (13 CFR 120.891)",
+        "If the CDC provides interim financing, eight extra conditions apply, including recording mortgages before construction starts"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. A.8"
+    },
+    {
+      "id": "c2-modifying-terms",
+      "title": "Modifying the Terms and Conditions before funding (327 actions)",
+      "body": "Between approval and debenture funding, deals change: costs move, a lender is swapped, an owner leaves. In SBA vocabulary, a post-approval modification is called a **327 action**.\n\n### What needs SBA's written approval\n\nThe CDC must **request SBA's approval in writing** for modifications made after approval but before funding, including:\n\n- **An increase or decrease in the loan amount.** The 327 action must clearly support the need and address the effect on **repayment ability, collateral, and jobs created or retained**. It must also give the **revised breakdown of the private sector lender, debenture and Applicant injection**, plus a **revised use of funds**.\n- **Any adjustment to or change in Borrower ownership**, including percentage of ownership. **CDCs may not unilaterally approve** these.\n\nAll post-approval modifications are **submitted to SLPC through the 504 SBA Loan System**; the 504 User Guide on SBA's website describes the mechanics.\n\n### What any CDC may do unilaterally\n\nUsing the 504 SBA Loan System, a CDC may on its own submit:\n\n1. **504 loan cancellation** (prior to closing).\n2. **Borrower, EPC or OC mailing address.** CDCs must **not** use unilateral authority to change the address of the **Project Property**.\n3. **Borrower, EPC or OC phone numbers and email addresses.**\n4. **Principal or guarantor mailing address, phone number and email.**\n\n### The hard stop\n\n**Neither the amount nor the maturity of a loan can be modified after the debenture closing has been completed.** Once the debenture is sold, those terms are locked.\n\n> **In practice:** A borrower moving the business's mailing address is a unilateral CDC action. A borrower who wants to move the project to a different parcel is not, under any delegated authority.\n\nThe next topic covers the extra authority given to ALP Express and PCLP CDCs.",
+      "keyPoints": [
+        "Changes after approval but before funding need SBA's written approval via a 327 action submitted to SLPC through the 504 SBA Loan System",
+        "Loan amount changes must support the need and address repayment, collateral and jobs, with a revised TPL/debenture/injection split and use of funds",
+        "CDCs may never unilaterally approve changes in Borrower ownership, including ownership percentages",
+        "Unilateral CDC actions: cancel before closing; contact details for Borrower/EPC/OC and principals; never the Project Property address",
+        "Neither the amount nor the maturity can be modified after debenture closing"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. B"
+    },
+    {
+      "id": "c2-delegated-modifications",
+      "title": "ALP Express and PCLP modification authority",
+      "body": "Delegated CDCs get more room to service their own approvals before funding, but the room is fenced in.\n\n### ALP Express loans\n\nFor loans approved under **ALP Express delegated authority**, the ALP CDC may make these 327 actions itself in the SBA Loan System:\n\n| Authority | Limit |\n|---|---|\n| a. Correct an **error in the street address** of a property pledged as collateral | May **not** change the location of the Project Property |\n| b. Change the **Third Party Lender or Interim Lender** | New lender must be regulated by a Federal Financial Institution Regulator (FDIC, Federal Reserve Board, OCC, NCUA, Farm Credit Administration) or by a state regulator with supervisory and examination authority satisfactory to SBA |\n| c. Add **inadvertently omitted co-Borrowers** and guarantors | No change in ownership |\n| d. **Reduce standby debt** | Before 504 loan closing |\n| e. **De minimis increases** to Use of Proceeds | Total Project Costs may **not** increase; all Use of Proceeds increases combined may not exceed **10% of total project cost** |\n\nALP CDCs may **reduce project size without limit** under ALP Express authority. However, if a change requires **modifying or deleting originally approved collateral**, the **entire action goes to SLPC** for prior review and approval.\n\n### PCLP loans\n\nFor loans approved under **PCLP authority**:\n\n- PCLP CDCs may generally **modify and extend the Terms and Conditions up to 48 months from approval** using unilateral authority.\n- They must **upload the final modified, executed Terms and Conditions to the SBA Loan System within 15 business days after debenture funding**.\n- **Ownership changes** (including percentages) after approval need **SLPC's prior written consent**. SLPC approves and enters the change only after verifying:\n  1. The new ownership complies with limits on the **aggregate SBA portions** of all loans to the Borrower, including affiliates; and\n  2. There has been **no prior loss to the Government** caused by the new owner(s) or any business they own, operate or control.\n- **Loan increases or decreases** are approved **directly in the SBA Loan System**; that approval constitutes SBA's prior written consent.\n\n> **Watch out:** Ownership changes are the common thread across every processing method. Regular, ALP and PCLP CDCs alike cannot approve them alone.",
+      "keyPoints": [
+        "ALP Express: may fix a street address error in collateral, but never relocate the Project Property",
+        "ALP Express: may change TPL or Interim Lender only to a federally or acceptably state-regulated financial institution",
+        "ALP Express: may add omitted co-Borrowers (no ownership change) and guarantors, and reduce standby debt before closing",
+        "ALP Express de minimis: Use of Proceeds increases up to 10% of total project cost with no increase in total project cost",
+        "PCLP: may modify and extend up to 48 months from approval unilaterally; upload final executed T&Cs within 15 business days after debenture funding",
+        "PCLP ownership changes need SLPC prior written consent; loan amount changes are approved in the SBA Loan System"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. B.3 and B.8"
+    },
+    {
+      "id": "c2-interim-financing",
+      "title": "Interim financing and construction escrow",
+      "body": "The 504 structure depends on a simple sequence: the project is built or bought with **interim financing**, and when it is complete the **debenture is sold** and its proceeds take out the interim lender.\n\n### The general rule\n\n**The interim financing must be fully disbursed and the project completed before the debenture is sold**, with one exception: a portion of debenture proceeds may go into an **escrow account to complete a minor portion** of the total project (13 CFR 120.961).\n\n### When a construction escrow is allowed\n\nWith **SBA's prior approval**, the debenture may be sold before every piece is in place if:\n\n- The unfinished piece (for example machinery and equipment, a parking lot or landscaping) is a **relatively minor portion** of the total project;\n- It has been **contracted for delivery at a specified price and date**; and\n- It **cannot be installed or delivered** before acquisition or completion of the plant.\n\nConditions on the escrow:\n\n1. Proceeds for those assets are **held in escrow by the CSA, a title company, the CDC attorney, or a bank**.\n2. **All required lien positions and collateral are obtained before closing.**\n3. Disbursements must be **approved by the CDC and SBA**, **supported by invoices**, and **payable jointly** to the small business and the designated contractor.\n4. **Funds not disbursed after 1 year** are applied to **pay down the Third Party Lender's loan**.\n\n> **Watch out:** The leftover escrow pays down the Third Party Lender, not the debenture, and it is not returned to the borrower.\n\n### Interim Lender certifications\n\nAt debenture closing, the Interim Lender must make the certifications in **SBA Form 2288** and **13 CFR 120.891 and 120.892**. **If the Interim Lender cannot certify as required, the debenture cannot be funded.**\n\n> **In practice:** Interim lenders often discover late that they cannot sign Form 2288 cleanly (for example, the project is not fully complete). Checking those certifications early prevents a missed monthly debenture sale.",
+      "keyPoints": [
+        "Interim financing must be fully disbursed and the project completed before the debenture is sold, with one escrow exception (13 CFR 120.961)",
+        "Escrow is allowed with SBA's prior approval for a relatively minor portion contracted at a set price and date that cannot be delivered or installed yet",
+        "Escrow holder: CSA, title company, CDC attorney or bank; liens and collateral obtained before closing",
+        "Escrow disbursements need CDC and SBA approval, invoices, and joint payees (small business and contractor)",
+        "Escrowed funds not disbursed after 1 year pay down the Third Party Lender's loan",
+        "If the Interim Lender cannot certify per Form 2288 and 13 CFR 120.891-892, the debenture cannot be funded"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. C (Interim Financing)"
+    },
+    {
+      "id": "c2-closing-responsibility-package",
+      "title": "Who closes the loan and what goes in the closing package",
+      "body": "### Two closings, two owners\n\nA 504 deal really has two closings:\n\n- **The 504 loan closing** (CDC to borrower). The **CDC is responsible**, including compliance with all SBA Loan Program Requirements. SBA counsel is available for advice, but the **CDC and its attorney are ultimately responsible** (13 CFR 120.960, 120.10).\n- **The debenture closing** (the bond SBA guarantees). This is a **joint responsibility of the CDC and SBA**. The CDC prepares the documents; **SBA counsel reviews the closing package for legal sufficiency** and opines whether SBA may guarantee the debenture.\n\n### Opinion of CDC Counsel\n\n**All CDC Counsel** submitting closing packages, designated or not, **must use the form Opinion of CDC Counsel**. In it, counsel:\n\n- Acknowledges that **SBA will rely on the opinion** in guaranteeing the debenture; and\n- Certifies being a **licensed, active member in good standing** of the applicable state bar.\n\nIf closing deficiencies cause a loss, **SBA may pursue a claim against CDC Counsel**, and expects the CDC to timely pursue its own claims. CDC Counsel are **Agents** under 13 CFR 103.1(a), so SBA may **suspend or revoke** their privilege to do business with SBA for good cause (13 CFR 103.4).\n\n### In-house counsel\n\n**Priority CDCs may not use in-house counsel as their designated attorney.** A CDC also may not have in-house counsel close the loan while an outside designated attorney gives the opinion. The very limited exception, described in the boilerplate opinion, involves a project in one state and CDC counsel in another.\n\n### Types of closing packages\n\n| Package | Who submits |\n|---|---|\n| **Regular** | Non-Priority CDCs, or Priority CDCs not using a Designated Attorney |\n| **Expedited** | A Priority CDC using a Designated Attorney |\n\n### Contents\n\n- CDCs and SBA **must use SBA Form 2286, \"504 Debenture Closing Checklist,\"** for all debenture closings. It lists what SBA needs to decide whether the debenture can be sold; it is **not** a complete list of what the CDC needs to close the loan.\n- The CDC submits the completed Form 2286 with the required items to SBA counsel. In rare cases an additional document may be sent with an explanation of its significance.\n\n**Mandatory forms:** every Checklist document that has an SBA form number, the **Opinion of CDC Counsel**, and the **SBA-approved environmental indemnification agreement**.\n\nCDCs may use **their own lien instruments** on Project Property and secondary collateral if they are **state bar-approved** or **approved by SBA counsel in advance**. Real estate lien instruments **must contain a due-on-sale clause**.\n\n### ALP Express closings\n\nALP Express closings follow the **PCLP** closing process: only a **Designated Attorney in good standing**, using the **expedited** process. The ALP CDC must also submit to SBA counsel **all 327 actions** on the loan, including those under its ALP Express authority. ALP Express authority **cannot** be used to close or service a loan that was not approved under ALP Express.",
+      "keyPoints": [
+        "The CDC and its attorney are ultimately responsible for the 504 loan closing (13 CFR 120.960, 120.10)",
+        "Debenture closing is joint CDC and SBA responsibility; SBA counsel opines on legal sufficiency",
+        "All CDC Counsel must use the form Opinion of CDC Counsel; SBA may pursue claims against counsel for closing deficiencies",
+        "Priority CDCs may not use in-house counsel as designated attorney",
+        "Regular package: non-Priority CDCs or Priority CDCs without a Designated Attorney; Expedited: Priority CDC with a Designated Attorney",
+        "SBA Form 2286 checklist is mandatory; real estate lien instruments must contain a due-on-sale clause"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. C (Responsibility for Closing; The Closing Package)"
+    },
+    {
+      "id": "c2-designated-attorney",
+      "title": "Designated Attorneys",
+      "body": "A **Designated Attorney** is a CDC closing attorney SBA has approved to close loans under the **expedited closing process for a Priority CDC** (13 CFR 120.802).\n\n### Qualifications\n\nThe attorney must submit evidence of:\n\n1. A degree from a recognized **law school**;\n2. **Bar membership** in the state where the 504 closing practice is or will be primarily located;\n3. **Professional malpractice insurance**;\n4. Attendance at an **SBA-approved 504 closing training course**, taken **up to 1 year before or within 6 months after** designation; and\n5. **Adequate expertise** in 504 closings.\n\n### Insurance minimums\n\n| Firm size | Maximum deductible |\n|---|---|\n| Individuals and firms with **3 or fewer** attorneys | **$20,000** |\n| Firms with **more than 3** attorneys | **$50,000** |\n| Large firms with **more than 25** attorneys | **$100,000** |\n\nPolicy limits must be at least **$1,000,000/$1,000,000**.\n\n**Hardship waivers** are requested from the General Counsel (or designee):\n\n- **Limit reductions to $500,000/$1,000,000** only for **sole practitioners and firms of three or fewer** attorneys.\n- **Deductible waivers** only for **larger firms with a demonstrated, strong financial history**.\n- Factors include supporting documentation, the number and dollar volume of 504 closings in the **prior 12 months**, and package quality.\n- A waiver lasts **1 year** and may be renewed annually while the hardship exists, at the General Counsel's discretion.\n- Sole practitioners must state their current premium and the cost of $1,000,000/$1,000,000 with a $20,000 deductible and of $500,000/$1,000,000 with a $20,000 deductible.\n\n### Applying\n\nThe **CDC nominates** the attorney by applying to the **Lead District Office** where the practice is primarily located, including a letter on the attorney's letterhead addressing each qualification and proof of insurance (policy, certificate or declarations page showing coverage, deductible, premium and named insured). Waiver requests come with the application, supported by current limits or deductible, premium, the quote to meet SBA minimums, firm size, deductible-coverage arrangements (loss reserve or escrow), firm history and financial strength, and for sole practitioners or firms with fewer than three attorneys, personal financial statements.\n\nThe Lead District Office forwards the application to **OGC** with recommendations; **OGC notifies the attorney in writing** of acceptance.\n\n### Independence\n\nA Designated Attorney **cannot** be an employee of the CDC or an Associate of the CDC, serve on the CDC's **board**, participate in its **lending decisions**, or be otherwise too closely associated. An attorney may be a CDC **member, but not an officer**, if SBA counsel finds no undue closeness after weighing control over decisions, benefits received, and any appearance of conflict.\n\nThe Lead District Office must allow a CDC to use a **non-designated attorney for a reasonable time** to develop or replace a Designated Attorney; those packages get a non-priority review.\n\n### Keeping the status\n\n- Deliver annually to the **504 Loan Program Division**, on or before policy renewal, an insurance certificate (plus waiver support if applicable) and evidence of bar good standing.\n- **Notify SBA immediately** of a change in status (new address, firm, or coverage).\n- Complete an **SBA-approved closing update course every 2 years** (any time within the calendar year the status would expire).\n\n### Withdrawal\n\nThe General Counsel or designee may withdraw designation for good cause, such as unprofessional or unethical conduct, lapsed insurance or training, **unsatisfactory closing packages**, poor working relationship with SBA, lapsed bar standing, or material noncompliance with SBA Loan Program Requirements.",
+      "keyPoints": [
+        "A Designated Attorney is a CDC closing attorney approved for expedited closings for a Priority CDC (13 CFR 120.802)",
+        "Malpractice coverage of at least $1,000,000/$1,000,000",
+        "Max deductible: $20,000 (3 or fewer attorneys), $50,000 (more than 3), $100,000 (more than 25)",
+        "Hardship waivers last 1 year; limit reductions to $500,000/$1,000,000 only for firms of 3 or fewer attorneys",
+        "Training within 1 year before or 6 months after designation; closing update course every 2 years",
+        "Cannot be a CDC or Associate employee, board member, or officer; may be a member if not too closely associated"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. C (Designated Attorney)"
+    },
+    {
+      "id": "c2-cdc-use-of-proceeds-evidence",
+      "title": "Proving the project was paid for as approved",
+      "body": "Before the debenture funds, the CDC must **certify** that:\n\n- The **project costs were paid in full**;\n- The proceeds were **used as required by the SBA Terms and Conditions**; and\n- **Each party** (Third Party Lender, Interim Lender, Borrower) **contributed its required amount**.\n\nThe CDC must hold evidence to back that certification.\n\n### What counts as sufficient evidence\n\n| Cost type | Evidence |\n|---|---|\n| Land and/or building purchase | **Signed or certified Settlement Statement** (or equivalent) showing amounts paid and whether paid by the Borrower or from Third Party Lender or Interim Lender proceeds |\n| Construction or renovation | Construction contract and **all change orders**; evidence of each progress and the final payment showing **cumulative costs and source** of payment; if a construction escrow is used, **paid invoices and the cancelled check payable to the Borrower and contractor**; **mechanic's lien releases**, if applicable |\n| Debt refinancing | **Transcript of account** and settlement statement |\n| All other costs | Settlement statement, or paid invoices and cancelled checks or evidence of wire transfers |\n\n**No funds should be paid directly to the Borrower** unless the CDC has evidence of the Borrower's own payments (cancelled checks and paid invoices).\n\n### Debt refinance balances that shrink\n\nBetween approval and funding, the borrower keeps making payments on the debt being refinanced, so the payoff balance drops. SBA requires the CDC to **document the file** to account for these principal changes and **provide that information to District Counsel with the closing package**. OCRM reviews this as part of its CDC reviews.\n\nA **327 to SLPC is not required** to reduce the approved refinance amount (with or without expansion) when it:\n\n1. Accounts for principal reductions from borrower payments between submission and disbursement; and\n2. The principal portion of those payments may be **reimbursed to the borrower** from SBA-approved interim financing, or from the debenture if there is no interim financing.\n\nA **327 is required when approved project costs are reallocated**, except for ALP Express loans, where **de minimis** reallocations are allowed (see B.3.e).\n\n> **Watch out:** \"Paid down by the borrower\" and \"moved between cost categories\" are treated differently. The first needs only good file documentation; the second needs SLPC approval unless it is an ALP Express de minimis change.",
+      "keyPoints": [
+        "CDC certifies project costs were paid in full, proceeds used per the Terms and Conditions, and each party contributed its share",
+        "Land/building: signed or certified settlement statement showing who paid what",
+        "Construction: contract and change orders, progress and final payment evidence, escrow invoices and joint checks, mechanic's lien releases",
+        "Debt refinance: transcript of account and settlement statement",
+        "No funds paid directly to the Borrower without evidence of the Borrower's payments",
+        "Paydown of refinanced debt between approval and closing needs no 327; reallocating project costs does (except ALP Express de minimis)"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. C (Closing and Post-Closing Activities, CDC's Responsibilities)"
+    },
+    {
+      "id": "c2-cdc-closing-timeline",
+      "title": "The CDC's closing checklist: timing, adverse change and document flow",
+      "body": "The CDC drives a monthly rhythm leading up to the debenture sale. In order:\n\n### Before the package\n\n- **Notify SBA counsel in writing** of planned debenture closings **at least 30 days before** the District Office deadline for closing packages. This is for planning only; the CDC can end up submitting more, fewer or different packages.\n- **Request all needed modifications** from SLPC as early as possible, and get SBA approval of them **before** submitting the package.\n- **No adverse change opinion.** The CDC issues a written opinion that, to the best of its knowledge, there has been **no unremedied substantial adverse change** in the Applicant's (or Operating Company's) ability to repay since the application. Rules:\n  - Supported by **financial statements current within 120 calendar days** of the published **CSA Cut-Off Date** for the applicable Debenture Funding Date.\n  - Made **within 14 business days before** the CDC asks SLPC to ship the file.\n  - **Except for ALP and PCLP**, the CDC sends its finding and financials to **SLPC**. If SBA disagrees, the debenture will not close until the adverse change is remedied. **ALP and PCLP CDCs** keep the finding and financials in their files.\n  - If the sale is not consummated in the month after the opinion, the CDC must prepare a new opinion if the supporting financials will be **more than 120 days old** when it requests the file. Example: an opinion approved in April can support a May or June funding if the financials are still within 120 days when the file is requested.\n- **Request SLPC to grant SBA counsel access** to the Terms and Conditions and all modifications in time for the package deadline, but **only if** the debenture is ready for sale the following month. If access is not granted by the deadline, the package may be held over.\n- Ensure there is **no open PIIA Review**; any pending review must be fully resolved before closing.\n\n### Submitting\n\n- **Electronically submit** packages by SBA counsel's deadline. **No late packages are accepted**; they are held for the next month's sale.\n- Use **only the 504 Debenture Closing Checklist**, submit documents in Checklist order, check each included item in the \"CDC\" column or write **\"NA\"**. Submit **copies only** and keep originals until SBA's review is done; afterward keep a copy of the package available to SBA.\n- **Hold all originals** until SBA gives written notice that it approved the sale. SBA counsel notifies the CDC and CSA when a debenture is ready, and must flag needed changes before the CSA cut-off date.\n\n### After SBA approves the sale\n\nSend to the **CSA by overnight mail**: **SBA Form 1506** Servicing Agent Agreement (original), **SBA Form 1504** Development Company 504 Debenture (original), **SBA Form 1505** Note (copy), the **preauthorized debit authorization** with voided check (original), and **IRS Form W-9** (original). **Third-party lender participation fees must be withheld from the CDC Processing Fee**; checks or other paper instruments are not accepted.\n\n### After the sale\n\n- Forward originals of all documents on **Form 2286** (which serves as the original collateral listing) to the **CLSC within 30 days** after the sale. Missing originals are sent later with a collateral listing.\n- Ensure recorded **interim lender documents are canceled of record within 90 days** after funding.\n- If a loan is canceled after closing but before funding, ensure all recorded documents are canceled of record.",
+      "keyPoints": [
+        "Notify SBA counsel of planned closings at least 30 days before the District Office package deadline",
+        "No-adverse-change opinion: financials current within 120 calendar days of the CSA Cut-Off Date, opinion made within 14 business days before asking SLPC to ship the file",
+        "Late closing packages are not accepted; they roll to the next month's sale",
+        "Send originals of Forms 1506 and 1504, plus Note copy, debit authorization, W-9 to the CSA by overnight mail; TPL participation fees are withheld from the CDC Processing Fee",
+        "Originals on Form 2286 go to CLSC within 30 days after the sale",
+        "Cancel recorded interim lender documents within 90 days after funding; no open PIIA Review"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. C (Closing and Post-Closing Activities, CDC's Responsibilities)"
+    },
+    {
+      "id": "c2-sba-counsel-csa-trustee",
+      "title": "SBA counsel, CSA and Trustee roles",
+      "body": "### SBA counsel\n\nSBA counsel (usually District Counsel) is the gatekeeper for each debenture sale. SBA counsel must:\n\n1. **Publish an annual closing schedule** of District Office deadlines for both **regular and expedited** packages for each monthly sale, available to the public and to CDCs that regularly submit there.\n2. **Review packages** using the standard Checklist: **8 documents for an expedited closing, 13 for a regular closing**. If there is a concern that SBA may be at **material risk**, counsel tells the CDC what is reasonably needed; if the CDC cannot resolve it, the debenture is not submitted for sale. Counsel also verifies the CDC's entries on the **Debenture, Note and Servicing Agent Agreement**.\n3. **Notify CDCs of deficiencies.** Late or substandard packages may be rejected. Needed changes on approved packages must be flagged before the deadline for mailing documents to the CSA. A rejected package gets a written list of corrections and may be resubmitted for a future sale.\n4. **Escalate issues.** If an issue affecting closing cannot be resolved with the CDC and CDC Counsel, SBA counsel notifies **Area Counsel**, who recommends to **OGC and OCA** for a final decision.\n5. **Issue a closing opinion** under 13 CFR 120.960(c) that the debenture may be closed, SBA may execute its guarantee, and the debenture may be sold. Opinions are sent to **SLPC**.\n6. **Notify the CDC and CSA in writing** which debentures are approved for that month's sale.\n\n### Complete File Reviews (CFRs)\n\nSBA counsel conducts CFRs on a **random selection** of all closings, from Priority and non-Priority CDCs alike, using **SBA Form 2303**. Frequency is at counsel's discretion but **no less than one package per 10** submitted by each CDC. The CDC must promptly submit the Form 2303 items. The written report goes to the **CDC**, the **closing attorney**, the **SBA counsel** who reviewed the package, and the **CLSC loan file**.\n\nIf a CFR reveals deficiencies that could cause a loss, the CDC and/or its attorney must promptly correct them if possible. SBA may act against the closing attorney and, if a loss occurs, against the CDC under **13 CFR 120.938(b)**.\n\n### Central Servicing Agent (CSA)\n\nThe CSA must:\n\n- **Review** the debenture closing documents, **package and price** the debenture, and **conduct the sale**, telling the CDC about any needed changes.\n- **Complete the Note and Servicing Agent Agreement** blanks, generate conformed pages, and **execute the Servicing Agent Agreement**.\n- **Post online** the first page of the Note, the Note amortization and prepayment schedules, and pages 3 and 4 of the Servicing Agent Agreement.\n\nThe current CSA for closed 504 loans is **Guidehouse Inc.**\n\n### Trustee\n\nThe Trustee provides copies of the **Debenture** and its **amortization and prepayment schedules** to the CDC, CSA or SBA as directed.",
+      "keyPoints": [
+        "SBA counsel publishes an annual schedule of regular and expedited package deadlines for each monthly sale",
+        "Checklist review covers 8 documents for expedited and 13 for regular closings",
+        "Unresolved closing issues go to Area Counsel, who recommends to OGC and OCA for final decision",
+        "SBA counsel's closing opinion under 13 CFR 120.960(c) goes to SLPC",
+        "Complete File Reviews (Form 2303): at least 1 per 10 closing packages from each CDC",
+        "CSA prices and sells the debenture, completes the Note and Servicing Agent Agreement, and posts post-closing documents"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. C (Closing and Post-Closing Activities)"
+    },
+    {
+      "id": "c2-after-funding",
+      "title": "After funding: pools, changes and prepayment",
+      "body": "### Debenture pools\n\nAfter sale, debentures are placed in pools that investors buy into. **Neither a Borrower nor an Associate of the Borrower may purchase an interest in a Debenture Pool** that holds the debenture funding its own 504 loan (13 CFR 120.939).\n\n### Post-disbursement changes\n\nOnce the loan is disbursed, origination rules hand off to servicing:\n\n- A CDC requests changes on disbursed 504 loans by contacting the **SBA Commercial Loan Service Center (CLSC)**.\n- Servicing guidance lives in **SOP 50 55, \"504 Loan Servicing and Liquidation.\"** The regulatory framework is **13 CFR Part 120, subpart E**.\n- **CDCs may not unilaterally approve any change in Borrower ownership**, including a change in ownership percentage, **for 12 months after final disbursement**.\n\n### Prepayment\n\nA Borrower **may prepay** its 504 loan. Because the loan is funded by a bond held by investors, prepaying means **repurchasing the debenture**. The repurchase price is:\n\n- The **outstanding principal balance** of the Debenture, plus\n- **Interest accrued and unpaid** to the repurchase date, plus\n- A **prepayment fee called the repurchase premium (RP)**.\n\nWhere to find the details:\n\n| Source | What it covers |\n|---|---|\n| 13 CFR 120.940 | Prepayment of the 504 loan or debenture |\n| SOP 50 55 | Prepayment or purchase of a development company loan or debenture |\n| SBA Form 1504 | How the prepayment fee is calculated |\n\n> **In practice:** Unlike most 7(a) loans, a 504 borrower who pays off early generally faces a contractual prepayment premium tied to the debenture. Software that quotes payoffs should pull the RP from the debenture terms rather than assume a simple principal-plus-interest payoff.",
+      "keyPoints": [
+        "A Borrower or its Associate may not buy an interest in the Debenture Pool holding its own debenture (13 CFR 120.939)",
+        "Changes on disbursed loans go to the SBA CLSC; servicing guidance is in SOP 50 55",
+        "No unilateral CDC approval of Borrower ownership changes for 12 months after final disbursement",
+        "Prepayment price: outstanding debenture principal plus accrued interest plus a repurchase premium (RP)",
+        "Prepayment rules: 13 CFR 120.940, SOP 50 55, and SBA Form 1504"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. C (Debenture Pools; Post-Disbursement Issues)"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "SBA Terms and Conditions",
+      "definition": "SBA's agreement with the CDC setting the terms and conditions under which SBA will issue the debenture for a 504 loan."
+    },
+    {
+      "term": "327 action",
+      "definition": "A post-approval modification of a 504 loan, submitted to SLPC through the 504 SBA Loan System or made under delegated authority where allowed."
+    },
+    {
+      "term": "Interim Lender",
+      "definition": "The lender that finances the SBA portion of the project until the debenture is sold; it must certify on SBA Form 2288 before funding."
+    },
+    {
+      "term": "Third Party Lender",
+      "definition": "The private lender providing the permanent first-position loan in a 504 project."
+    },
+    {
+      "term": "NEHRP",
+      "definition": "National Earthquake Hazards Reduction Program seismic provisions that new buildings, additions and permanent leasehold improvements must meet."
+    },
+    {
+      "term": "Designated Attorney",
+      "definition": "A CDC closing attorney approved by SBA to close loans under the expedited closing process for a Priority CDC."
+    },
+    {
+      "term": "Opinion of CDC Counsel",
+      "definition": "Mandatory form opinion by CDC Counsel, relied on by SBA in guaranteeing the debenture."
+    },
+    {
+      "term": "SBA Form 2286",
+      "definition": "504 Debenture Closing Checklist; required for all debenture closings and serves as the original collateral listing."
+    },
+    {
+      "term": "Complete File Review (CFR)",
+      "definition": "SBA counsel's detailed review of a randomly selected closing using SBA Form 2303, at least one per 10 packages per CDC."
+    },
+    {
+      "term": "CSA",
+      "definition": "Central Servicing Agent; prices and sells debentures and services closed 504 loans. Currently Guidehouse Inc."
+    },
+    {
+      "term": "CSA Cut-Off Date",
+      "definition": "Published date tied to each Debenture Funding Date; the adverse change opinion's financials must be within 120 days of it."
+    },
+    {
+      "term": "ALP Express",
+      "definition": "Delegated authority for ALP CDCs that includes limited pre-funding modification powers such as de minimis Use of Proceeds increases up to 10% of total project cost."
+    },
+    {
+      "term": "Repurchase premium (RP)",
+      "definition": "The prepayment fee added to principal and accrued interest when a borrower prepays and the debenture is repurchased."
+    },
+    {
+      "term": "CLSC",
+      "definition": "SBA Commercial Loan Service Center; receives original closing documents within 30 days after sale and handles changes on disbursed loans."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c2-q1",
+      "question": "On a loan processed under a CDC's PCLP authority, who drafts and executes the SBA Terms and Conditions?",
+      "options": [
+        "The CDC drafts them; SBA finalizes and executes",
+        "SBA counsel drafts and executes them",
+        "The CDC drafts and executes them on SBA's behalf",
+        "The SLPC drafts them and the CDC executes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Under PCLP the CDC both drafts and executes the Terms and Conditions on SBA's behalf. 'CDC drafts, SBA finalizes and executes' is the Regular and ALP process, not PCLP.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. A.1",
+      "difficulty": "basic"
+    },
+    {
+      "id": "c2-q2",
+      "question": "A borrower's 504 loan is Debt Refinance without Expansion. What is the disbursement deadline and the maximum extension SBA may grant?",
+      "options": [
+        "9 months, extendable to no more than 15 months",
+        "48 months, extendable to no more than 60 months",
+        "9 months, with no extension available",
+        "12 months, extendable to no more than 18 months"
+      ],
+      "correctIndex": 0,
+      "explanation": "Debt Refinance without Expansion loans must be disbursed within 9 months of approval, and SBA may grant an extension not to exceed 15 months. 48 months is the standard disbursement period for other 504 loans.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. A.2",
+      "difficulty": "basic"
+    },
+    {
+      "id": "c2-q3",
+      "question": "A CDC asks for an extension of the disbursement period on a regular (non-PCLP) 504 loan. Which package meets the SOP?",
+      "options": [
+        "An email to the District Office explaining the delay",
+        "A 327 action through SLPC with the reason and timeline, a no-adverse-change determination, financial statements within 120 days (90 days for personal financial statements) with analysis, and adjusted sources and uses",
+        "A 327 action through SLPC with financial statements within 180 days and a new appraisal",
+        "A request uploaded directly to the SBA Loan System with no SLPC notification"
+      ],
+      "correctIndex": 1,
+      "explanation": "Extension requests go through SLPC as a 327 action and must include the reason with a detailed timeline, a no-adverse-change determination, financials within 120 days (90 for personal financial statements) with analysis, and adjusted sources and uses. Direct upload to the SBA Loan System is the PCLP route, and even then SLPC is notified.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. A.2",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c2-q4",
+      "question": "Equipment is part of the collateral for a 504 loan. For which items must the equipment list include a description and serial number?",
+      "options": [
+        "Every item regardless of value",
+        "Items with a unit value of $1,000 or more",
+        "Items with a unit value of $25,000 or more",
+        "Items with a unit value of $5,000 or more"
+      ],
+      "correctIndex": 3,
+      "explanation": "The CDC must list all equipment and fixtures, and items with a unit value of $5,000 or more must include a description and serial number if applicable. The other thresholds do not appear in this rule.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. A.9",
+      "difficulty": "basic"
+    },
+    {
+      "id": "c2-q5",
+      "question": "A 504 project includes tenant leasehold improvements that the applicant can show are temporary and removable. What does the SOP allow regarding the NEHRP seismic condition?",
+      "options": [
+        "The CDC may request a modification of the Terms and Conditions to remove the NEHRP provision",
+        "NEHRP must still be satisfied because any construction proceeds trigger it",
+        "The CDC may simply ignore the NEHRP condition at closing",
+        "NEHRP applies only if the building is in a designated earthquake zone"
+      ],
+      "correctIndex": 0,
+      "explanation": "Only leasehold improvements that become permanently affixed must comply with NEHRP. If the applicant shows they are temporary, the CDC may request a modification to remove the provision under Paragraph B. The CDC cannot just ignore an approved condition without modifying it.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. A.8",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c2-q6",
+      "question": "A CDC is providing the interim construction financing on a 504 project. Which condition must be in the SBA Terms and Conditions?",
+      "options": [
+        "Mortgages must be recorded within 90 days after construction is complete",
+        "The borrower's injection may be used after interim financing is fully drawn",
+        "Mortgages must be recorded prior to beginning construction",
+        "Inspections are required only before the final disbursement"
+      ],
+      "correctIndex": 2,
+      "explanation": "When a CDC provides interim financing, mortgages must be recorded before construction starts, inspections are required before all progress disbursements, and CDC or applicant injections must be used before interim financing is disbursed.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. A.8",
+      "difficulty": "applied"
+    },
+    {
+      "id": "c2-q7",
+      "question": "Which change can any CDC make unilaterally through the 504 SBA Loan System before closing?",
+      "options": [
+        "Changing the address of the Project Property",
+        "Updating the Borrower's mailing address",
+        "Adjusting a minority owner's ownership percentage",
+        "Increasing the loan amount by 5%"
+      ],
+      "correctIndex": 1,
+      "explanation": "CDCs may unilaterally update Borrower, EPC or OC mailing addresses, phone numbers and emails. They must not change the Project Property address, and ownership changes and loan amount changes require SBA approval.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. B.2",
+      "difficulty": "applied"
+    },
+    {
+      "id": "c2-q8",
+      "question": "On an ALP Express loan with total project cost of $2,000,000, the borrower wants to shift costs, increasing Use of Proceeds categories by a combined $150,000 while total project cost stays the same, with no collateral change. What is required?",
+      "options": [
+        "Nothing beyond ALP Express authority; this is a de minimis change the ALP CDC can make",
+        "A 327 action to SLPC because any reallocation needs SLPC approval",
+        "SBA counsel approval because it changes the Terms and Conditions",
+        "A new loan application"
+      ],
+      "correctIndex": 0,
+      "explanation": "A de minimis increase is one where the increases to all Use of Proceeds categories do not exceed 10% of total project cost ($200,000 here) and total project cost does not rise. $150,000 qualifies, so the ALP CDC may make it. Reallocations generally need SLPC approval, but ALP Express de minimis changes are the stated exception.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. B.3",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c2-q9",
+      "question": "A PCLP CDC modified the Terms and Conditions using unilateral authority. When must the final modified executed Terms and Conditions be uploaded?",
+      "options": [
+        "Before submitting the closing package",
+        "Within 30 days after debenture funding",
+        "Within 15 business days after debenture funding",
+        "Within 90 days after final disbursement"
+      ],
+      "correctIndex": 2,
+      "explanation": "PCLP CDCs must upload final modified executed Terms and Conditions to the SBA Loan System within 15 business days after debenture funding. 30 days is the CLSC deadline for original closing documents; 90 days is the interim lender document cancellation deadline.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. B.8",
+      "difficulty": "basic"
+    },
+    {
+      "id": "c2-q10",
+      "question": "Six months after a 504 debenture closed, the borrower asks to extend the loan maturity from 20 to 25 years because the building's useful life supports it. What is the answer under the SOP?",
+      "options": [
+        "A PCLP CDC can approve it unilaterally",
+        "SLPC can approve it as a 327 action",
+        "It can be approved by the CLSC as a servicing action",
+        "It cannot be done; neither amount nor maturity can be modified after debenture closing"
+      ],
+      "correctIndex": 3,
+      "explanation": "The SOP is absolute: neither the amount nor the maturity of a loan can be modified after the debenture closing has been completed. Delegated authority and 327 actions apply only before funding.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. B.10",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c2-q11",
+      "question": "A debenture was sold with $40,000 held in a construction escrow for landscaping. One year later $12,000 remains undisbursed. What happens to it?",
+      "options": [
+        "It is returned to the borrower",
+        "It is applied to pay down the Third Party Lender's loan",
+        "It is used to prepay the debenture",
+        "It stays in escrow until the project is completed"
+      ],
+      "correctIndex": 1,
+      "explanation": "Escrowed funds not disbursed after 1 year are applied to pay down the Third Party Lender's loan. They are not returned to the borrower or applied to the debenture.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. C (Interim Financing)",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c2-q12",
+      "question": "An attorney at a 10-lawyer firm applies for Designated Attorney status. Which malpractice coverage meets the SOP without a waiver?",
+      "options": [
+        "$1,000,000/$1,000,000 with a $50,000 deductible",
+        "$500,000/$1,000,000 with a $20,000 deductible",
+        "$1,000,000/$1,000,000 with a $100,000 deductible",
+        "$1,000,000/$1,000,000 with a $75,000 deductible"
+      ],
+      "correctIndex": 0,
+      "explanation": "Limits must be at least $1,000,000/$1,000,000 and, for firms with more than 3 attorneys, the deductible may not exceed $50,000. The $100,000 deductible is only for firms with more than 25 attorneys, and $500,000/$1,000,000 needs a hardship waiver available only to firms of three or fewer.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. C (Designated Attorney)",
+      "difficulty": "applied"
+    },
+    {
+      "id": "c2-q13",
+      "question": "A CDC's debenture is targeted for a sale whose CSA Cut-Off Date is June 1. Which financial statements can support the no-unremedied-substantial-adverse-change opinion?",
+      "options": [
+        "Statements dated within 180 days of the application",
+        "Statements current within 120 calendar days of the June 1 CSA Cut-Off Date",
+        "Statements current within 90 days of loan approval",
+        "The statements used at loan approval, regardless of age"
+      ],
+      "correctIndex": 1,
+      "explanation": "The CDC opinion must be supported by financial statements current within 120 calendar days of the published CSA Cut-Off Date for the funding date, and the opinion must be made within 14 business days before the CDC asks SLPC to ship the file.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. C (Closing and Post-Closing Activities)",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c2-q14",
+      "question": "What is the minimum frequency of Complete File Reviews SBA counsel must perform?",
+      "options": [
+        "One per 25 closing packages statewide",
+        "Every package from non-Priority CDCs only",
+        "One per 10 closing packages from each CDC",
+        "One per year per CDC"
+      ],
+      "correctIndex": 2,
+      "explanation": "SBA counsel must review no less than one package per 10 submitted by each CDC, randomly selected from both Priority and non-Priority CDCs, using SBA Form 2303.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. C (Closing and Post-Closing Activities)",
+      "difficulty": "basic"
+    },
+    {
+      "id": "c2-q15",
+      "question": "A CDC has received SBA's notice that its debenture is approved for sale. Which of these does the SOP require the CDC to send the CSA by overnight mail?",
+      "options": [
+        "A check for the third-party lender participation fee",
+        "The original Note (SBA Form 1505)",
+        "The original SBA Form 2286 collateral file",
+        "The original Servicing Agent Agreement (SBA Form 1506) and original Debenture (SBA Form 1504)"
+      ],
+      "correctIndex": 3,
+      "explanation": "The CDC sends the CSA the originals of Forms 1506 and 1504, a copy of the Note (Form 1505), the debit authorization with voided check, and the W-9. Third-party lender participation fees are withheld from the CDC Processing Fee; checks are not accepted. The Form 2286 originals go to the CLSC.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 2, Para. C (Closing and Post-Closing Activities)",
+      "difficulty": "applied"
+    }
+  ]
+}

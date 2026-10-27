@@ -1,0 +1,382 @@
+{
+  "id": "b4-caplines-part-2",
+  "order": 245,
+  "part": "B",
+  "program": "7a",
+  "title": "7(a) CAPLines, Part 2: Closing, Disbursement and Line Administration",
+  "subtitle": "How Seasonal, Contract, Builders and Working Capital CAPLines are disbursed, controlled, monitored and repaid",
+  "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. F (CAPLines-Specific Loan Closing and Disbursement)",
+  "estimatedMinutes": 55,
+  "learningObjectives": [
+    "Structure Seasonal CAPLine disbursements and repayment around the seasonal cycle",
+    "Apply the assignment of contract proceeds rule and its two-of-five exception",
+    "Handle subcontracts, bonded contracts and purchase orders under Contract CAPLines",
+    "Disburse and collect Builders CAPLines within the lien, inspection and 36-month rules",
+    "Calculate Working Capital CAPLine availability using the borrowing base formula and advance rates",
+    "Apply the monitoring, field exam, concentration, out-of-margin and funds control requirements"
+  ],
+  "topics": [
+    {
+      "id": "b4-seasonal-closing",
+      "title": "Seasonal CAPLines: disbursing and getting repaid",
+      "body": "Paragraph F of the CAPLines chapter holds the **subprogram-specific closing and disbursement rules**. They sit on top of the general 7(a) closing rules in **Section B, Ch. 6, Para. D (Loan Closing and Disbursement)**.\n\n#### How a seasonal line flows\n\nA Seasonal CAPLine follows the business's calendar. Picture a garden center building inventory in February and March for its spring rush:\n\n1. **Build-up:** Disbursements are made **continually during the seasonal build-up**, whenever the cash needed for **labor, materials, and support of accounts receivable exceeds actual cash receipts**.\n2. **Last draw:** The **final disbursement** should be made early enough that the funds can be used in the business and **converted to cash** in time to pay off the balance **at the start of a 30-day clean-up period** or at maturity.\n3. **Pay-down:** **Principal repayments must occur as soon as cash from seasonal sales is received.** Interest **should be paid monthly**.\n\n| Phase | Cash direction | SOP rule |\n|---|---|---|\n| Build-up | Lender to Borrower | Continual disbursements while needs exceed receipts |\n| Peak / final draw | Lender to Borrower | Timed so funds become cash before clean-up or maturity |\n| Selling season | Borrower to Lender | Principal repaid as soon as seasonal sales cash comes in |\n| Throughout | Borrower to Lender | Interest paid monthly |\n\n#### Borrowing base certificates on a seasonal line\n\nA BBC is optional here. The Lender **may** use BBCs to monitor the Borrower's seasonal activity. **If it does**, the Borrower must submit the BBC **no less frequently than monthly**.\n\n> **Watch out:** A seasonal line that never clears down is a red flag. Proceeds must not fund the slow season (an eligibility rule from Part 1), and the 30-day clean-up concept assumes the balance can be paid off from seasonal sales.\n\n> **In practice:** Track the expected clean-up date at closing. Servicing systems can then alert when principal is not coming back as seasonal sales are collected.",
+      "keyPoints": [
+        "General closing and disbursement rules are in Section B, Ch. 6, Para. D",
+        "Disburse continually during the build-up, when cash needs for labor, materials and A/R exceed receipts",
+        "Time the final disbursement so funds convert to cash to pay off the loan at the start of a 30-day clean-up period or maturity",
+        "Principal must be repaid as soon as cash from seasonal sales comes in; interest should be paid monthly",
+        "If the Lender uses BBCs on a Seasonal line, the Borrower must submit them at least monthly"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. F (CAPLines-Specific Loan Closing and Disbursement) - Seasonal CAPLines"
+    },
+    {
+      "id": "b4-contract-assignment",
+      "title": "Contract CAPLines: assignment of contract proceeds",
+      "body": "The heart of a Contract CAPLine is control over the contract money. The default tool is an **assignment of contract proceeds** to the Lender.\n\n#### The default rule\n\nBefore the **initial disbursement** on any Contract CAPLine:\n\n- The entity the Borrower contracted with must be **advised in writing by both the Lender and the Borrower** that an assignment of the contract proceeds is required;\n- The assignment must be **in place before any disbursement for that particular contract**;\n- It must include the **Lender's right to receive all payments** from the third party; and\n- The Lender must **receive written acknowledgement** from the third party.\n\n#### The exception: two of five\n\nThe assignment **may be foregone** if **at least two** of these conditions are met:\n\n| # | Condition |\n|---|---|\n| 1 | The contract term is **12 months or less** |\n| 2 | A **successful track record** exists between the Borrower and the contracting authority on the same or reasonably similar contracts (any prior arrangement where each party met its responsibilities to everyone's satisfaction) |\n| 3 | Financial analysis of historical income statements and/or tax returns and pro forma statements shows a **DSC ratio that exceeds 1:1** |\n| 4 | **All contract proceeds are paid directly to the Lender** by the contracting authority, or, where a performance bond is in place, a **Funds Control** (or escrow or third-party servicer) procedure is implemented |\n| 5 | Other **available and worthwhile collateral** is pledged by the Borrower or an owner/guarantor (not a Supplemental Guarantor) |\n\n> **Watch out:** One condition is not enough. A 9-month contract alone does not let the Lender skip the assignment; it also needs, for example, a track record with that customer or extra collateral.\n\n> **Watch out:** Collateral from a **Supplemental Guarantor** does not satisfy condition 5.\n\n#### Why it matters\n\nWith the assignment and direct payment in place, the Lender receives **all the payments the Borrower would normally receive** as the job progresses. Because the line funded all performance costs, those payments become the repayment source (see the payment application topic).\n\n> **In practice:** Keep the written notice, the executed assignment, and the third party's acknowledgement together in the file for each contract. A disbursement made before the assignment is in place is a closing defect.",
+      "keyPoints": [
+        "Before the first disbursement, Lender and Borrower must notify the contracting party in writing that an assignment is required",
+        "The assignment must be in place before any disbursement for that contract and give the Lender the right to receive all payments",
+        "The Lender must receive the third party's written acknowledgement",
+        "The assignment may be foregone only if at least two of five listed conditions are met",
+        "Conditions include: contract term 12 months or less; successful track record; DSC exceeding 1:1; direct payment or funds control; other worthwhile collateral"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. F (CAPLines-Specific Loan Closing and Disbursement) - Contract CAPLines - Assignment of Contract Proceeds"
+    },
+    {
+      "id": "b4-contract-structures",
+      "title": "Contract CAPLines: subcontracts, bonded contracts and purchase orders",
+      "body": "Contract work comes in many shapes. The SOP addresses three common variations, each still **subject to the assignment of contract proceeds rules**.\n\n#### Prime and subcontractor contracts\n\nWhen the Borrower is a **subcontractor** to a prime contractor, the contract is eligible for a Contract CAPLine if **at least two** of these are met:\n\n1. Both the Prime and the Subcontractor have **favorable credit ratings** from an acceptable rating agency (e.g. Builders Industry Credit Association, **BICA**);\n2. A **successful track record** between the Prime and the Subcontractor (Borrower);\n3. A **successful track record** between the Prime and the contracting authority;\n4. The Contract CAPLine amount is **less than $300,000**;\n5. The contract term is **12 months or less**;\n6. Historical and pro forma financial analysis shows **DSC exceeding 1:1**; or\n7. Other **available and worthwhile collateral** pledged by the Borrower or an owner/guarantor (**except Supplemental Guarantors**).\n\n| Comparison | Assignment exception | Prime/sub eligibility |\n|---|---|---|\n| How many conditions needed | 2 of 5 | 2 of 7 |\n| 12-month term counts | Yes | Yes |\n| DSC above 1:1 counts | Yes | Yes |\n| Line under $300,000 counts | No | Yes |\n\n#### Contracts with performance bonds\n\nA contract that requires a **Surety's performance bond** may be financed if the Lender **perfects a UCC security interest in the contract proceeds**. SBA recognizes that, to make the deal work:\n\n- The Lender's perfected UCC interest will be **subordinate to the Surety's cost reimbursement claim**; and\n- The Surety **may require a funds control facility**. That facility pays **suppliers and laborers directly**; the contracting authority remits contract proceeds to the facility, which then remits to the Lender.\n\n#### Purchase orders under a Master Agreement\n\nA **purchase order (PO)** may substitute for a formal contract only if:\n\n1. The PO is **issued to the Borrower under a Master Agreement**; and\n2. The PO and Master Agreement **together constitute a binding agreement**.\n\n> **Watch out:** A standalone PO from a customer, with no Master Agreement behind it, is not a substitute for a contract.",
+      "keyPoints": [
+        "Prime-subcontractor contracts are eligible if at least two of seven conditions are met",
+        "Seven conditions include favorable credit ratings, track records, line under $300,000, term 12 months or less, DSC above 1:1, other collateral",
+        "Bonded contracts: eligible if the Lender perfects a UCC security interest in contract proceeds",
+        "The Lender's UCC interest may be subordinate to the Surety's cost reimbursement claim",
+        "The Surety may require a funds control facility that pays suppliers and laborers and remits to the Lender",
+        "A PO can replace a formal contract only if issued under a Master Agreement and together they are binding"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. F (CAPLines-Specific Loan Closing and Disbursement) - Contract CAPLines - Prime and Subcontractor; Performance Bonds; Purchase Orders"
+    },
+    {
+      "id": "b4-contract-disbursements",
+      "title": "Contract CAPLines: disbursements and applying payments",
+      "body": "#### How money goes out\n\nDisbursements are made **when needed** to pay the costs of a **specific contract**. They are generally made **as the contract progresses**, not as one lump sum covering all costs.\n\n- **Only** if the contract performance period is **30 days or less** should a **single disbursement for payroll** be allowed.\n- Exception for smart purchasing: if the contractor wants to **buy all materials up front for volume discounts**, and/or **pay for materials within 10 days for prompt pay discounts**, the program **will accommodate** that disbursement plan.\n\n| Situation | Disbursement approach |\n|---|---|\n| 6-month contract, ongoing labor | Progress disbursements as costs are incurred |\n| 3-week contract | A single disbursement for payroll may be allowed |\n| Bulk materials purchase to capture a volume discount | Up-front materials disbursement is allowed |\n| Paying suppliers within 10 days for a prompt-pay discount | Allowed |\n\n#### How money comes back\n\nWith the **assignment of contract proceeds and direct payment** in place, the Lender receives all payments the Borrower would have received if it were self-financing the contract. Because **all performance costs** (including direct overhead and allocated G&A) were funded by the line, all such payments must be applied:\n\n1. **First to interest due** on the CAPLine; then\n2. **To the CAPLine balance** until paid in full.\n\nRemember from Part 1: payments on one contract or sub-contract **must not** repay another.\n\n#### Tighter controls\n\nIf the Lender believes it necessary from a credit standpoint, it **may add controls over payments**, but only with the **Borrower's prior written consent**. If those controls limit funding to **direct material and labor only** (rather than all contract costs), the Lender must **inform the Borrower in writing of the percentage split** for allocating progress payments received from the contracting authority.\n\n> **In practice:** The percentage split matters because if the line funded only materials and labor, the Borrower is carrying overhead itself, and it is fair for part of each progress payment to flow back to the Borrower. Put the split in writing at the start.",
+      "keyPoints": [
+        "Disburse as needed for costs of a specific contract, generally as the contract progresses, not in one lump sum",
+        "One payroll disbursement only if the performance period is 30 days or less",
+        "Up-front materials purchases for volume discounts, or paying within 10 days for prompt-pay discounts, may be accommodated",
+        "Payments received go first to interest on the CAPLine, then to the balance until paid in full",
+        "Extra payment controls need the Borrower's prior written consent",
+        "If only direct material and labor are funded, tell the Borrower in writing the percentage split of progress payments"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. F (CAPLines-Specific Loan Closing and Disbursement) - Contract CAPLines - Disbursements and Payments"
+    },
+    {
+      "id": "b4-builders-disbursement",
+      "title": "Builders CAPLines: liens, inspections and repayment",
+      "body": "Builders CAPLines work like construction lending, project by project.\n\n#### Before the first dollar on each project\n\n**Prior to disbursement for each individual project, the lien must be recorded and its position verified.**\n\n#### Interim disbursements\n\n- Made **as construction progresses**, at stages **approved by the Lender**;\n- Advanced **only** on a **qualified architect, appraiser or engineer's certification** **and** a **personal inspection** by a proper Lender officer;\n- May **not exceed 100%** of labor, material and other eligible construction costs **certified to be complete**;\n- Supported by **contractor's statements and lien waivers to date**.\n\n#### Final disbursement\n\nBefore final disbursement, the Lender must obtain **final lien waivers** from:\n\n- The Borrower/contractor;\n- All **subcontractors**;\n- **Material men**; and\n- Any **independent workers** involved.\n\n**No disbursement can be made after maturity of the master note.**\n\n#### Repayment\n\n| Item | Rule |\n|---|---|\n| Principal deadline per project | Within **36 months after completion** of that project **or at the time of sale, whichever is less** |\n| Payment form | A **single principal payment** is acceptable |\n| Interest | At least **semi-annually**, from the Applicant's **own resources**, not loan proceeds |\n\n> **Watch out:** Interest reserves funded from the line are not allowed. Builders must pay interest from their own resources.\n\n> **In practice:** \"Whichever is less\" means a house that sells 5 months after completion must be paid down at sale, while an unsold house hits the hard stop 36 months after completion.\n\nRemember the related eligibility rules from Part 1: rental pending sale only if it helps the sale, and the final sale must be arm's length to an unaffiliated third party.",
+      "keyPoints": [
+        "Before disbursing on each project, record the lien and verify its position",
+        "Interim disbursements only on architect, appraiser or engineer certification plus Lender officer inspection",
+        "Disbursement cannot exceed 100% of certified completed eligible costs, supported by statements and lien waivers",
+        "Final lien waivers from Borrower, all subcontractors, material men and independent workers before final disbursement",
+        "No disbursement after maturity of the master note",
+        "Repay each project within 36 months after completion or at sale, whichever is less; interest at least semi-annually from own resources"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. F (CAPLines-Specific Loan Closing and Disbursement) - Builders CAPLines"
+    },
+    {
+      "id": "b4-wc-non-bbc",
+      "title": "Working Capital CAPLines without a borrowing base",
+      "body": "#### BBC or 1:1 collateral?\n\n| Line size | Disbursement basis |\n|---|---|\n| **Less than $2,000,000** | Lender's choice: a **BBC** or a **1:1 collateral ratio** |\n| **$2,000,000 or more** | **Must** be administered through a **BBC** |\n\n#### If the Lender will not use a BBC\n\nThe Lender must:\n\n1. **Underwrite like its own comparable lines**, using at minimum: **cash flow analysis** (adequacy, duration, dependability); **collateral analysis** to estimate value; and **owner/guarantor analysis** (except Supplemental Guarantors).\n2. **Assume full utilization** and secure a **1:1 collateral ratio**:\n   - Take a **first lien on the working/trading assets** (A/R and inventory) financed by the line;\n   - If those are insufficient, take **additional collateral**;\n   - If business assets still do not fully secure the line, take **available equity in the principals' personal real estate**.\n3. **Obtain financial statements** consistent with its comparable lines: **Borrower-prepared** statements and tax returns if the line is **$1,000,000 or less**; **compiled, reviewed or audited** statements and tax returns if **over $1,000,000**.\n4. **Use financial covenants** like those on comparable lines (for example Current Ratio or Debt to Tangible Net Worth), tested **quarterly, semi-annually or annually** per Lender policy.\n5. **Monitor** per its comparable-line policies, and at least **annually** conduct a credit review with cash flow analysis, collateral analysis confirming 1:1, owner/guarantor review (except Supplemental Guarantors), and a **site visit**.\n6. Require that **cash sales and receivable collections pay down the line** as collected, consistent with the operating cash cycle.\n7. If required, **report the initial disbursement** as on comparable non-SBA loans, per **Ch. 6, Para. D.4.c**.\n\n#### Valuing collateral for 1:1\n\nDiscount collateral from **Net Book Value** on the Borrower's financial statements:\n\n| Collateral | Maximum value used |\n|---|---|\n| Accounts receivable | **80%** (after excluding ineligible receivables found in the aging) |\n| Inventory | **50%** |\n| Machinery and equipment | **50% of Net Book Value**, or **80% with an Orderly Liquidation Value**, minus prior liens |\n| Real estate | **85%** of value |\n\nIf fixed assets are valued **above Net Book Value**, the Lender must get an **independent appraisal** by a qualified individual who is **independent of loan production**, not involved in approval, and free of any **appearance of a conflict of interest**.",
+      "keyPoints": [
+        "Under $2,000,000: Lender may disburse on a BBC or a 1:1 collateral ratio; $2,000,000 or more: BBC required",
+        "Non-BBC lines: cash flow, collateral and owner/guarantor analysis (except Supplemental Guarantors)",
+        "Assume full use of the line; first lien on A/R and inventory; add other collateral, then personal real estate equity, to reach 1:1",
+        "Collateral values: A/R up to 80%, inventory up to 50%, M&E 50% of NBV (or 80% with OLV less prior liens), real estate 85%",
+        "Borrower-prepared statements if $1,000,000 or less; compiled, reviewed or audited if over $1,000,000",
+        "Annual credit review including cash flow, 1:1 collateral check, guarantor review and site visit"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. F (CAPLines-Specific Loan Closing and Disbursement) - Working Capital CAPLines - Lines not using a BBC"
+    },
+    {
+      "id": "b4-wc-bbc-mechanics",
+      "title": "Working Capital CAPLines on a borrowing base: the formula and eligible assets",
+      "body": "Most Working Capital CAPLines run on a **Borrowing Base Certificate (BBC)**. Proceeds may go to the Borrower's operating account. Availability is calculated like this:\n\n| Step | Line |\n|---|---|\n| 1 | Eligible A/R x advance rate = **A/R borrowing base** |\n| 2 | Eligible inventory x advance rate = **Inventory borrowing base** |\n| 3 | A/R BB + Inventory BB = **Total borrowing base** |\n| 4 | Borrowing base = **lesser of** the total in step 3 or the **face amount of the Note** |\n| 5 | Subtract the loan balance on the books = **Amount available for disbursement** |\n\n> **In practice:** Eligible A/R $500,000 x 80% = $400,000; eligible inventory $300,000 x 50% = $150,000; total $550,000. With a $500,000 note, the borrowing base is $500,000. With $420,000 outstanding, $80,000 is available.\n\n#### Eligible receivables\n\n**No less than monthly**, the Lender determines eligible assets. For receivables it obtains an **aging of A/R and A/P** and removes ineligible accounts:\n\n- **Invoices more than 90 days past due** (exceptions need SBA's prior written concurrence). Borrowers may set terms so due dates reflect the customer's cash conversion cycle;\n- **All** accounts of a customer that is delinquent on **more than 50%** of its outstanding invoices, until all delinquent accounts are paid (exceptions need SBA's prior written concurrence);\n- **Re-billed accounts** (credit and re-invoice in the current cycle). Same-day re-billing to fix a clerical error need not be excluded;\n- **Foreign receivables** not backed by documentary or standby letters of credit, a factor's guarantee, credit insurance, or Government enhancements (Export-Import Bank, World Bank);\n- **Contra accounts** (offsetting receivables and payables with a creditor);\n- Accounts due from **affiliates**;\n- Accounts requiring **subordination** to others (e.g. Government contracts where the bonding company takes an assignment of receivables).\n\n#### Eligible inventory\n\nObtain a description and value, and limit advances to:\n\n| Type | Eligible? |\n|---|---|\n| Finished goods | Yes, if readily saleable and not obsolete |\n| Work in progress | Only with **SBA's prior written concurrence** |\n| Commodities or raw materials | Yes |\n\nThe dollar amount of ineligibles **stays unchanged for the month**; availability still moves as the balance changes and assets turn over. A BBC is required **at least monthly** (more often if Lender policy says so), and Lenders may use their own BBC forms.\n\n#### Repayment and interest\n\n- Repayments come from **cash sales and receivable collections**, paying down the line as collected, with re-advances available while the Borrower stays within the BBC.\n- If a **cash collateral account** still has a balance after the loan is paid to zero, it may go to the Borrower's operating account.\n- There are **no interest-only payments**. Interest is paid **at least monthly**, from the Borrower's own resources **or** from loan proceeds at the time of an advance. Principal payments should track the cash cycle.\n- Report the **initial disbursement on SBA Form 1050** or a Lender equivalent, per **Ch. 6, Para. D.4.c**.",
+      "keyPoints": [
+        "Availability = lesser of (A/R BB + inventory BB) or note amount, minus loan balance",
+        "Determine eligible assets no less than monthly; ineligible amounts stay fixed for the month",
+        "Ineligible for the base: invoices over 90 days past due, all accounts of a customer more than 50% delinquent, re-billed accounts, contra and affiliate accounts",
+        "Inventory: finished goods if saleable and not obsolete; raw materials eligible; work in progress only with SBA's prior written concurrence",
+        "No interest-only payments; interest at least monthly from own resources or from an advance",
+        "Report the initial disbursement on SBA Form 1050 or Lender equivalent (Ch. 6, Para. D.4.c)"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. F (CAPLines-Specific Loan Closing and Disbursement) - Working Capital CAPLines - Lines using a BBC"
+    },
+    {
+      "id": "b4-wc-advance-rates",
+      "title": "Advance rates and ineligible collateral",
+      "body": "#### Receivables advance rates\n\n| Receivable type | Maximum advance rate |\n|---|---|\n| Eligible **domestic** A/R | **80%** |\n| Eligible **insured foreign** A/R | **90%** |\n| Eligible A/R on **prime Federal contracts** | **90%** |\n\nTo be a **prime Federal contract**, the Lender must have an **assignment of contract proceeds under the Assignment of Claims Act of 1940** (31 U.S.C. 3727), **or** the Borrower is a subcontractor, the prime has an assignment under the Act, and proceeds are disbursed by a **third-party funds control facility**. Insured foreign A/R qualifies for 90% when insured by the **Export-Import Bank or a major private insurer**.\n\nOther exceptions need **SBA's prior written concurrence**. The advance rate **should not include any net profit**. Factors in setting the rate: the Borrower's control and accounting systems; enhancements such as credit insurance; age of receivables; credit quality and credit policy; turnover history; industry orientation and condition; and net profit margin.\n\n#### Receivables that never count\n\n- Due **more than 180 calendar days from invoice** under original terms, unless supported by acceptable **letters of credit or credit insurance**;\n- Subject to any **adjustment, deduction, defense, dispute or counterclaim**, or contingent in any way;\n- The portion due from a **credit-insured buyer above the policy limit**;\n- Due from an **affiliated company**;\n- Due from a foreign buyer in a country SBA is **legally prohibited** from doing business with (Note #7 of the **EXIM Country Limitation Schedule**);\n- Deemed **uncollectible or unacceptable** (returned, rejected or repossessed items);\n- From **bill-and-hold, guarantee sale, sale-and-return, sale on approval, consignment** or any repurchase/return basis, or evidenced by **chattel paper**;\n- **Contra accounts**: reduce eligible A/R by the **entire** amount of the payable.\n\n#### Inventory advance rate\n\nThe maximum is **50% of eligible inventory**, and **no advances on inventory outside the United States**. Exceptions need SBA's prior written concurrence; consider material and labor cost (or invoice cost less discounts), nature of the product, product liability, manufacturer buyback agreements, and physical location (single sites are easier to control).\n\n#### Inventory that never counts\n\n- Not subject to a valid, perfected, enforceable **first priority lien** in favor of the Lender;\n- At an address **not disclosed to the Lender in writing**;\n- **Not located in the United States**;\n- On **consignment** (placed or held);\n- **Demonstration** inventory;\n- **Proprietary software, spare parts** or other inventory **not intended for resale**;\n- **Damaged, obsolete, returned, defective, recalled** or unfit for processing.\n\n#### Adjusting rates after closing\n\nAfter initial disbursement, Lenders have **unilateral authority** to raise or lower the advance rate for **receivables** and for **inventory** by **as much as 5%** above or below the rate in the SBA Loan System. Larger changes need **SBA's prior written concurrence**.",
+      "keyPoints": [
+        "A/R advance rates: 80% domestic; 90% insured foreign; 90% prime Federal contracts with an Assignment of Claims Act assignment",
+        "Advance rates should not include any net profit; other exceptions need SBA's prior written concurrence",
+        "Inventory advance rate: maximum 50%; no advances on inventory outside the United States",
+        "A/R due more than 180 days from invoice by original terms is ineligible unless backed by acceptable L/Cs or credit insurance",
+        "After initial disbursement, Lenders may move A/R or inventory advance rates up or down by as much as 5%; more needs SBA concurrence",
+        "Contra accounts: reduce eligible A/R by the entire amount of the payable"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. F (CAPLines-Specific Loan Closing and Disbursement) - Working Capital CAPLines - Advance Rates and Restrictions"
+    },
+    {
+      "id": "b4-wc-monitoring",
+      "title": "Annual reviews, field exams and BBC reporting",
+      "body": "#### Annual and renewal credit reviews\n\n**At least annually, and at any renewal**, the Lender must get **updated year-end and interim statements** and do a **full review of the credit and collateral**. The analysis must document that the Applicant:\n\n1. **Is creditworthy**;\n2. Has **reasonable assurance of timely repayment from the conversion of sales into cash**; and\n3. **Complies with program requirements.**\n\nIf the Lender cannot document all three, **no further disbursements** may be made and the loan **may not be renewed** until the Applicant meets them.\n\n#### Field examinations\n\nFor lines **over $1,000,000** (the SOP text reads \"over $1,000,000 or greater\"), the Lender must conduct an **annual field examination**, by its own staff or a third party. An exam **physically verifies** the assets in the borrowing base and must **sample receivables and inventory**. Frequency can reflect record quality, risk and seasonality, but at minimum an exam is required **before the initial disbursement and annually after**. The credit memo must describe exam level and frequency.\n\n#### Minimum monitoring\n\n| Frequency | What the Lender obtains |\n|---|---|\n| **Monthly** | BBC; A/R and A/P agings; inventory listing (if advanced against) |\n| **Quarterly** | Borrower-prepared financial statements |\n| **Annually** | Review of management information system, legal elements, loan agreements, NAICS, cash flow and financials; reassess exam, monitoring and control requirements |\n\nThe SOP then sets BBC minimums by size: lines **of $2,000,000 or less** need BBCs **at least quarterly**; lines **greater than $2,000,000** need them **at least monthly**. Lenders may always require BBCs more often under their comparable-line policies.\n\n> **Watch out:** The SOP also says elsewhere that a BBC is required \"at least monthly\" to determine what can be disbursed. Read the size-based rule as the floor for reporting, and confirm your institution's policy before relying on quarterly reporting.\n\n#### BBC collection deadlines\n\n- Lenders may set the due date (most use the **15th of the following month**), but **never more than 30 calendar days after month-end**;\n- **Monthly** BBC not received **within 60 days of month-end**: advances **must stop** until the BBC arrives and the loan is confirmed **In Margin**;\n- **Quarterly** BBC not received **within 30 days of month-end**: advances **must stop** on the same terms;\n- If the line has **no outstanding balance** and supports **no letters of credit**, BBC collection may be **suspended**. Before the next advance, the Lender needs a **new BBC or a full credit memo** on the current collateral position.",
+      "keyPoints": [
+        "At least annually and at renewal: updated statements and full credit and collateral review",
+        "Must document the Applicant is creditworthy, can repay from conversion of sales to cash, and complies with program rules",
+        "If not all three: no more disbursements and no renewal until they are met",
+        "Field exam over $1,000,000: before initial disbursement and annually after",
+        "Minimum monitoring: monthly BBC, A/R and A/P agings, inventory listing; quarterly Borrower-prepared statements",
+        "BBCs: at least quarterly for lines of $2,000,000 or less, at least monthly above $2,000,000; due no more than 30 days after month-end"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. F (CAPLines-Specific Loan Closing and Disbursement) - Working Capital CAPLines - Reviews, Examinations, Monitoring and BBC Collection"
+    },
+    {
+      "id": "b4-wc-margin-funds-control",
+      "title": "Concentrations, out-of-margin lines and funds control",
+      "body": "#### Concentration limits\n\nAt the annual review, the credit review includes a **concentration analysis**. For lines of **$1,000,000 or less**, the review also includes cash flow, collateral, owner/guarantor (except Supplemental Guarantors) analysis and an **annual site visit**; for lines **over $1,000,000**, an **annual field examination** takes the place of the site visit.\n\nThe rule: accounts from **any one customer** that make up **more than 20% of total outstanding receivables** should **not** be in the eligible borrowing base unless one of **five conditions** applies:\n\n1. The account is a **public company with at least an A rating**;\n2. It is a **Federal government** account;\n3. The customer has a **long-standing positive credit history** with the Borrower;\n4. The customer is a **prime or sub-contractor on a Federal government contract**; or\n5. The accounts are **insured through credit insurance** (common for foreign A/R).\n\n| Situation | What the Lender does |\n|---|---|\n| Concentration above 20%, one of the five conditions met | Include it, **no SBA concurrence needed**, but put a **written justification** in the loan file |\n| Concentration above 20%, no condition met | Needs **SBA's prior written consent**; send the request to the **LGPC** |\n\n#### In Margin and out of margin\n\n**Loans that are not In Margin are Past Due.** If a BBC shows the Borrower is **not In Margin**, or a required BBC was **not submitted**, the Lender must **immediately** require the Borrower to:\n\n- **Pay down** the balance to within the borrowing base formula, **or**\n- Provide **additional eligible collateral** (for example, marketable securities).\n\nThe Lender must **document** its efforts in the credit file. **No additional advances** may be made until the line is back in balance, unless SBA gives **prior written consent through 7aLoanMod@sba.gov** - whether the loan is non-delegated or PLP.\n\n#### Level of funds control\n\nFunds control depends on the **banking relationship**, whether or not a BBC is used:\n\n| Lender holds the Borrower's primary operating accounts? | Requirement |\n|---|---|\n| **Yes** | No cash collateral or controlled account required; follow the Lender's procedures for comparable lines to monitor payments |\n| **No** | Must use a **controlled account**: customers send **joint payee checks** (Lender and Borrower) to the Lender, or pay into a **lock box** under Lender control |\n\n> **Watch out:** \"Out of margin\" is a delinquency, not a reporting nuisance. Systems should block advances automatically once a BBC shows the line over the base or a BBC is overdue.",
+      "keyPoints": [
+        "Accounts from one customer above 20% of total receivables are normally excluded from the borrowing base",
+        "Five exceptions: A-rated public company, Federal government account, long-standing positive history, Federal prime or sub-contractor, credit insurance",
+        "With an exception: written justification in the file; without one: SBA's prior written consent via the LGPC",
+        "Loans that are not In Margin are Past Due; Borrower must pay down or add eligible collateral immediately",
+        "No new advances on an out-of-margin line without SBA consent through 7aLoanMod@sba.gov",
+        "If the Lender lacks the primary operating accounts, use a controlled account: joint payee checks or a lock box"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. F (CAPLines-Specific Loan Closing and Disbursement) - Working Capital CAPLines - Concentration, In Margin and Level of Funds Control"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Borrowing Base Certificate (BBC)",
+      "definition": "A periodic Borrower report of eligible receivables and inventory used to calculate how much may be drawn; required for Working Capital CAPLines of $2,000,000 or more."
+    },
+    {
+      "term": "Borrowing base",
+      "definition": "The lesser of (eligible A/R x advance rate + eligible inventory x advance rate) or the note amount; availability is the borrowing base minus the loan balance."
+    },
+    {
+      "term": "Advance rate",
+      "definition": "The percentage of eligible collateral the Lender lends against: 80% domestic A/R, 90% insured foreign or prime Federal contract A/R, 50% inventory."
+    },
+    {
+      "term": "In Margin",
+      "definition": "The line balance is within the borrowing base formula; loans that are not In Margin are Past Due."
+    },
+    {
+      "term": "1:1 collateral ratio",
+      "definition": "For non-BBC Working Capital CAPLines, discounted collateral value must at least equal the full line amount, assuming full use."
+    },
+    {
+      "term": "Assignment of contract proceeds",
+      "definition": "An assignment giving the Lender the right to receive all payments under a financed contract, acknowledged in writing by the contracting party."
+    },
+    {
+      "term": "Assignment of Claims Act",
+      "definition": "The Assignment of Claims Act of 1940, 31 U.S.C. 3727; an assignment under it makes Federal contract receivables eligible for a 90% advance rate."
+    },
+    {
+      "term": "Funds control facility",
+      "definition": "A third party (often required by a Surety) that pays suppliers and laborers directly and remits contract proceeds to the Lender."
+    },
+    {
+      "term": "Contra account",
+      "definition": "Offsetting receivables and payables between the Borrower and one of its creditors; ineligible, and eligible A/R must be reduced by the entire payable."
+    },
+    {
+      "term": "Field examination",
+      "definition": "A physical verification, by sampling, of the receivables and inventory in the borrowing base; required before initial disbursement and annually for lines over $1,000,000."
+    },
+    {
+      "term": "Lock box",
+      "definition": "A bank account under Lender control into which the Borrower's customers pay their receivables."
+    },
+    {
+      "term": "Clean-up period",
+      "definition": "A 30-day period on a Seasonal CAPLine by the start of which the seasonal funds should have converted to cash to pay off the loan balance."
+    },
+    {
+      "term": "Orderly Liquidation Value (OLV)",
+      "definition": "An appraised value of machinery and equipment in an orderly sale; allows M&E to be counted at 80% (less prior liens) instead of 50% of Net Book Value."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "b4b-q1",
+      "question": "At what line size must a Working Capital CAPLine be administered through a Borrowing Base Certificate?",
+      "options": [
+        "$2,000,000 or more",
+        "Over $1,000,000",
+        "$5,000,000",
+        "Over $350,000"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lenders may choose a BBC or a 1:1 collateral ratio when the loan is less than $2,000,000; at $2,000,000 or greater, proceeds must be administered through a BBC. $1,000,000 is the threshold for financial statement quality and field exams, not for the BBC requirement.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. F (CAPLines-Specific Loan Closing and Disbursement) - Working Capital CAPLines",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b4b-q2",
+      "question": "What is the maximum advance rate on eligible domestic accounts receivable under a Working Capital CAPLine without SBA's prior written concurrence?",
+      "options": [
+        "90%",
+        "80%",
+        "75%",
+        "50%"
+      ],
+      "correctIndex": 1,
+      "explanation": "Eligible domestic A/R is advanced at up to 80%. 90% is available only for insured foreign receivables or prime Federal contracts with an Assignment of Claims Act assignment, and 50% is the inventory maximum.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. F (CAPLines-Specific Loan Closing and Disbursement) - Working Capital CAPLines - Advance Rates",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b4b-q3",
+      "question": "A borrower's BBC shows eligible A/R of $600,000 (80% advance rate) and eligible inventory of $400,000 (50% advance rate). The note is $750,000 and the current balance is $640,000. How much is available to disburse?",
+      "options": [
+        "$110,000",
+        "$80,000",
+        "$40,000",
+        "$0, the line is out of margin"
+      ],
+      "correctIndex": 2,
+      "explanation": "A/R BB = $480,000 and inventory BB = $200,000, for a total of $680,000. The borrowing base is the lesser of that total and the $750,000 note, so $680,000; minus the $640,000 balance leaves $40,000. $110,000 wrongly uses the note amount instead of the lesser of the collateral base or the note.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. F (CAPLines-Specific Loan Closing and Disbursement) - Working Capital CAPLines - Lines using a BBC",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b4b-q4",
+      "question": "A borrower wants a Contract CAPLine without assigning the contract proceeds. The contract term is 10 months. Nothing else on the SOP's list applies. Can the Lender skip the assignment?",
+      "options": [
+        "Yes, because a contract term of 12 months or less is enough on its own",
+        "Yes, if the Lender gets SBA's prior written approval",
+        "No, because assignments can never be waived",
+        "No, because at least two of the five listed conditions must be met"
+      ],
+      "correctIndex": 3,
+      "explanation": "The assignment may be foregone only if at least two of the five conditions are met (for example, a 12-month-or-less term plus a successful track record with the contracting authority). One condition alone is not enough. Waivers are possible, so 'never' is wrong.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. F (CAPLines-Specific Loan Closing and Disbursement) - Contract CAPLines - Assignment of Contract Proceeds",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b4b-q5",
+      "question": "On a Builders CAPLine, when must the funds disbursed for an individual project be repaid?",
+      "options": [
+        "Within 36 months after completion of the project or at the time of sale, whichever is less",
+        "Within 12 months after completion or at sale, whichever is greater",
+        "At maturity of the master note only",
+        "Within 36 months of the first disbursement, regardless of sale"
+      ],
+      "correctIndex": 0,
+      "explanation": "Repayment for each project must occur within 36 months after completion or at the time of sale, whichever is less, and a single principal payment is acceptable. Waiting for maturity of the master note ignores the per-project deadline.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. F (CAPLines-Specific Loan Closing and Disbursement) - Builders CAPLines",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b4b-q6",
+      "question": "Which Builders CAPLine practice complies with the SOP?",
+      "options": [
+        "Funding monthly interest payments out of the line",
+        "Advancing on an engineer's certification plus a personal inspection by a Lender officer, up to 100% of certified completed costs",
+        "Making a final draw a week after the master note matures",
+        "Releasing final funds before lien waivers are collected from subcontractors"
+      ],
+      "correctIndex": 1,
+      "explanation": "Interim disbursements require a qualified architect, appraiser or engineer's certification and a Lender officer's personal inspection, and cannot exceed 100% of certified completed eligible costs. Interest must come from the Applicant's own resources, no disbursement is allowed after master note maturity, and final lien waivers come before final disbursement.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. F (CAPLines-Specific Loan Closing and Disbursement) - Builders CAPLines",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b4b-q7",
+      "question": "A $3,000,000 Working Capital CAPLine requires monthly BBCs. The borrower has not submitted the BBC for the month ending March 31, and it is now June 2. What must the Lender do?",
+      "options": [
+        "Nothing yet; advances stop only after 90 days",
+        "Charge an extraordinary servicing fee and continue advancing",
+        "Stop advances until the BBC is obtained and the loan is confirmed In Margin",
+        "Convert the line to a term loan immediately"
+      ],
+      "correctIndex": 2,
+      "explanation": "If a required monthly BBC is not submitted within 60 days of month-end, advances must stop until the BBC is obtained and the loan is confirmed In Margin. More than 60 days have passed since March 31. There is no 90-day grace period, and conversion to a term loan is not the required response.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. F (CAPLines-Specific Loan Closing and Disbursement) - Working Capital CAPLines - BBC Collection",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b4b-q8",
+      "question": "Which receivable is eligible for inclusion in a Working Capital CAPLine borrowing base?",
+      "options": [
+        "An invoice payable 200 days from invoice date with no letter of credit or credit insurance",
+        "A receivable from the borrower's affiliated sister company",
+        "A receivable from a sale on approval",
+        "A current, undisputed invoice to an unaffiliated domestic customer on 30-day terms"
+      ],
+      "correctIndex": 3,
+      "explanation": "A current, undisputed domestic receivable from an unaffiliated customer is eligible. Receivables due more than 180 days from invoice (without L/C or credit insurance support), receivables from affiliates, and sale-on-approval receivables are all on the SOP's ineligible list.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. F (CAPLines-Specific Loan Closing and Disbursement) - Working Capital CAPLines - Advance Rates and Restrictions",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b4b-q9",
+      "question": "One customer of a borrower is an A-rated public company and makes up 35% of total receivables. The Lender wants to include all of it in the eligible borrowing base. What is required?",
+      "options": [
+        "A written justification in the loan file; no SBA concurrence needed",
+        "SBA's prior written consent through the LGPC",
+        "SBA's prior written consent through 7aLoanMod@sba.gov",
+        "Nothing; concentration limits apply only to foreign accounts"
+      ],
+      "correctIndex": 0,
+      "explanation": "Accounts above 20% of receivables are normally excluded, but an A-rated public company is one of the five conditions. When a condition is met, the Lender needs no SBA concurrence but must document a written justification. LGPC consent is needed only when none of the conditions is met.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. F (CAPLines-Specific Loan Closing and Disbursement) - Working Capital CAPLines - Concentration",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b4b-q10",
+      "question": "What is the maximum advance rate on eligible inventory under a Working Capital CAPLine, absent SBA's prior written concurrence?",
+      "options": [
+        "80%",
+        "50%",
+        "85%",
+        "25%"
+      ],
+      "correctIndex": 1,
+      "explanation": "The maximum inventory advance rate is 50% of eligible inventory, and no advances are permitted on inventory outside the United States. 80% is the domestic A/R rate and 85% is the real estate value used in the non-BBC 1:1 collateral test.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. F (CAPLines-Specific Loan Closing and Disbursement) - Working Capital CAPLines - Inventory Advance Rate",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b4b-q11",
+      "question": "A Lender makes a Working Capital CAPLine to a borrower whose primary operating deposit accounts are at another bank. How must customer payments be controlled?",
+      "options": [
+        "No special controls are needed if a BBC is used",
+        "The borrower must move its accounts to the Lender before closing",
+        "Through a controlled account, such as joint payee checks sent to the Lender or a lock box under Lender control",
+        "Customers must pay the borrower, who forwards collections weekly"
+      ],
+      "correctIndex": 2,
+      "explanation": "If the Lender does not hold the primary operating deposit accounts, it must use a controlled account: joint payee checks payable to the Lender and Borrower sent to the Lender, or a lock box. The requirement applies whether or not a BBC is used, and the SOP does not require moving the accounts.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. F (CAPLines-Specific Loan Closing and Disbursement) - Working Capital CAPLines - Level of Funds Control",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b4b-q12",
+      "question": "After initial disbursement, a Lender wants to raise the receivables advance rate on a Working Capital CAPLine from 75% to 85%. What is required?",
+      "options": [
+        "Nothing, since the Lender has unilateral authority over advance rates",
+        "Only a note in the credit file",
+        "Nothing, as long as the new rate does not exceed 90%",
+        "SBA's prior written concurrence, because the change is more than 5%"
+      ],
+      "correctIndex": 3,
+      "explanation": "Lenders have unilateral authority to change advance rates by as much as 5% above or below the rate in the SBA Loan System. A 10-point increase exceeds that and requires SBA's prior written concurrence.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. F (CAPLines-Specific Loan Closing and Disbursement) - Working Capital CAPLines - Advance Rates",
+      "difficulty": "applied"
+    }
+  ]
+}

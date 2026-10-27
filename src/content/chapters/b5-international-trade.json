@@ -1,0 +1,380 @@
+{
+  "id": "b5-international-trade",
+  "order": 253,
+  "part": "B",
+  "program": "7a",
+  "title": "International Trade Loans",
+  "subtitle": "Term loans for exporters and import-impacted businesses: eligibility paths, uses of proceeds, underwriting and equity",
+  "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. C",
+  "estimatedMinutes": 45,
+  "learningObjectives": [
+    "Determine IT eligibility under the export markets or import competition category and document improved competitive position",
+    "Identify industries SBA has pre-determined to be adversely affected by import competition",
+    "Apply IT uses of proceeds, including the $2 million working capital cap and change of ownership limits by category",
+    "Apply IT underwriting requirements, including three-year history and 1.15 / 1:1 debt service coverage",
+    "Determine equity injection requirements and acceptable equity sources for IT loans"
+  ],
+  "topics": [
+    {
+      "id": "b5-it-overview-eligibility",
+      "title": "International Trade loans: the two eligibility paths",
+      "body": "The **International Trade (IT) loan** (13 CFR 120.345-120.349) is the long-term member of the trade family. SBA guarantees **term loans** to small businesses that are engaged in or preparing to engage in international trade, or that are **adversely affected by import competition**, so they can **improve their competitive position**.\n\nAs always, start with the Section A **Core Requirements**. Then the Applicant must fit **one of two categories**:\n\n| Category | Who it is for | Key evidence |\n|---|---|---|\n| **a. Development or Expansion of Export Markets** | Businesses expanding existing export markets or developing new ones | Export business plan with projection and narrative |\n| **b. Adversely Affected by Import Competition** | Businesses injured by competition from foreign imports | Explanation and financial statements, unless in a pre-qualified industry |\n\n**And**, in addition to one of those:\n\n| Requirement | Evidence |\n|---|---|\n| **c. Improve Competitive Position** | Lender's credit memo shows how the loan will have a positive impact on the business |\n\n### Recording the category\n\nWithin **both the credit memorandum and the SBA Loan System**, the Lender **must state which category (a or b) applies**. This matters later: the category determines which change-of-ownership transactions the loan may finance.\n\n### Improving competitive position\n\nThis is a **statutory requirement**. The SBA Lender must document in its credit memorandum **how the loan will have a positive impact on the business**. In practice this is usually covered when the memo summarizes the transaction and the reason for the loan request, so it rarely needs a separate section, but it must be there.\n\n### Ineligible industries\n\n| NAICS subsector | Industry |\n|---|---|\n| 721 | Accommodation |\n| 457 | Gasoline Stations |\n\nThese are **ineligible for IT loans** but **may be financed using other SBA 7(a) financial assistance**. Unlike EWCP, NAICS 722 (food services) is not on the IT exclusion list.\n\n> **In practice:** A good intake form for IT asks two yes/no questions up front (\"Will this loan help you grow export sales?\" and \"Have imports hurt your business?\") and then branches to the right evidence checklist.\n",
+      "keyPoints": [
+        "IT loans are governed by 13 CFR 120.345-120.349.",
+        "Applicant must EITHER be expanding/developing export markets OR be adversely affected by import competition.",
+        "The Lender must state which category applies in the credit memorandum and in the SBA Loan System.",
+        "Every IT loan must also improve the Applicant's competitive position, documented in the credit memo.",
+        "NAICS 721 and 457 are ineligible for IT but may use other 7(a) assistance."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. C (Eligibility for International Trade Loans)"
+    },
+    {
+      "id": "b5-it-export-path",
+      "title": "Category a: developing or expanding export markets",
+      "body": "Under the export category, the loan proceeds will **expand existing export markets or develop new export markets**.\n\n### The export business plan\n\nTo establish this, the Applicant must submit an **export business plan** that includes **both a projection and a narrative rationale**, with enough information to **reasonably support the likelihood of expanded export sales**.\n\n- The plan **should identify the amount of expected export sales**.\n\nA plan does not need to be elaborate, but the numbers and the story must hang together. \"We expect to grow Canadian sales from $400,000 to $700,000 because we are adding a distributor in Ontario and the new line doubles capacity\" is the kind of rationale the SOP is looking for.\n\n### Indirect exporters\n\nMany small businesses export indirectly: they sell to a U.S. customer who then ships the goods abroad. In such cases the Applicant must provide **documentation from its domestic customer** to the Lender, typically a **letter, invoice, order or contract**, showing that the goods or services **are in fact being exported**.\n\n### Country screening\n\nFor **all** of the Applicant's exports, the Lender must determine whether **U.S. companies are authorized to do business** with the destination country, using the **Ex-Im Bank Country Limitation Schedule**.\n\nA loan **may not be made** to a business that **directly or indirectly exports** to a country listed as **prohibited (Note #7)** on the Country Limitation Schedule **without approval from the federal government** to export products to those countries.\n\n| Situation | Outcome |\n|---|---|\n| Exports to Canada and Mexico, plan shows growth | Eligible under category a |\n| Sells parts to a U.S. OEM that exports them; OEM provides a letter confirming export | Eligible as indirect exporter |\n| Sells to a distributor that re-ships to a Note #7 country, no federal approval | Not eligible |\n\n> **Watch out:** The IT country check applies to *all* of the Applicant's exports, not just the ones the loan finances. A borrower with one problematic export channel can fail the screen even if the financed project serves other markets.\n",
+      "keyPoints": [
+        "Loan proceeds must expand existing export markets or develop new ones.",
+        "Applicant must submit an export business plan with a projection and narrative rationale.",
+        "The plan should identify expected export sales.",
+        "For indirect exports, the domestic customer must document (letter, invoice, order or contract) that the goods are exported.",
+        "No loan to a business exporting directly or indirectly to a Note #7 country without federal government approval."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. C (Eligibility for International Trade Loans), Para. 1.a (Development or Expansion of Export Markets)"
+    },
+    {
+      "id": "b5-it-import-path",
+      "title": "Category b: adversely affected by import competition",
+      "body": "### The general test\n\nAn Applicant in this category must **demonstrate injury attributable to increased competition from foreign firms** in the relevant market. It must submit an **explanation and financial statements** showing that **imported products or services directly competitive** with its own **have contributed significantly to a decline in its competitive position**.\n\n### Industries SBA has already found to be injured\n\nBased on U.S. government data and its authority under **15 U.S.C. 636(a)(16)(D)**, SBA has determined that small businesses in the following industries **meet the threshold eligibility criteria** of having been adversely affected and injured by international trade and increased import competition:\n\n| Group | NAICS codes |\n|---|---|\n| **Manufacturing** | Sectors **31, 32, 33** |\n| **Mining, Quarrying, and Oil and Gas Extraction** | Sector **21**, subsectors **211** (oil and gas extraction), **212** (mining except oil and gas), **213** (support activities for mining) |\n| **Food supply chain: farming and ranching** | 1111 Oilseed and Grain; 1112 Vegetable and Melon; 1113 Fruit and Tree Nut; 1121 Cattle; 1122 Hog and Pig; 1123 Poultry and Egg; 1124 Sheep and Goat; 1125 Aquaculture; 1129 Other Animal Production |\n| **Food supply chain: fishing and support** | 1141 Fishing; 1151 Support Activities for Crop Production; 1152 Support Activities for Animal Production |\n| **Food supply chain: wholesale** | 423820 Farm and Garden Machinery and Equipment; 4244 Grocery and Related Products; 4245 Farm Product Raw Materials; 424910 Farm Supplies |\n| **Food supply chain: retail** | 445110 Supermarkets and Other Grocery Retailers |\n| **Food supply chain: logistics** | 484220 Specialized Freight Trucking, Local - Food Only; 484230 Specialized Freight Trucking, Long Distance - Food Only; 493120 Refrigerated Warehousing and Storage; 493130 Farm Warehousing and Storage |\n\n**Note:** NAICS **484220 and 484230** are limited to **refrigerated and frozen trucking, farm products, grain products, and livestock**.\n\nLoans to small businesses in these industries **do not require any additional documentation** demonstrating how the Applicant was adversely affected and injured.\n\n> **In practice:** This list makes the import competition path very broad. Any small manufacturer, for example, is pre-qualified under category b without proving injury. The Lender still must state the category, show improved competitive position and meet all other requirements.\n\n> **Watch out:** A trucking company under 484220 that hauls dry consumer goods does not fit the note's limitation. Only refrigerated and frozen, farm product, grain product and livestock hauling qualify.\n",
+      "keyPoints": [
+        "Applicant must show injury from increased foreign competition: an explanation plus financial statements.",
+        "SBA has determined (15 U.S.C. 636(a)(16)(D)) that certain industries already meet the threshold of injury.",
+        "Pre-qualified: Manufacturing (NAICS 31-33), Mining/Oil and Gas (Sector 21: 211, 212, 213), and listed food supply chain codes.",
+        "NAICS 484220 and 484230 qualify only for refrigerated and frozen trucking, farm products, grain products and livestock.",
+        "Businesses in listed industries need no additional documentation of injury."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. C (Eligibility for International Trade Loans), Para. 1.b (Adversely Affected by Import Competition)"
+    },
+    {
+      "id": "b5-it-uses",
+      "title": "IT loan uses of proceeds, including changes of ownership",
+      "body": "IT proceeds may **only** be used for the purposes below. The SOP is explicit that **proceeds may not be used for any other purpose**.\n\n### 1. Facilities and equipment in the United States\n\nAcquire, construct, renovate, modernize, improve or expand **facilities and equipment to be used in the United States** to produce goods or services.\n\n### 2. Working capital\n\nWorking capital is allowed, but **the maximum amount of working capital in an IT loan is $2 million**.\n\n### 3. Changes of ownership\n\nChanges of ownership are permitted under the rules in **Appendix 15** (7(a) Changes of Ownership), but which types depend on the eligibility category:\n\n| Change of ownership type | Category a (Export markets) | Category b (Import competition) |\n|---|---|---|\n| Business Expansion | Yes | Yes |\n| ESOP & Cooperative | Yes | Yes |\n| Owner Buyout | **No** | Yes |\n| Initial Acquisition | **No** | **No** |\n\n**IT loans cannot be used to support Initial Acquisition transactions** under either category.\n\n### 4. Debt refinancing\n\nDebt refinancing with an IT loan follows **Appendix 14, Para. B.8** (7(a) Debt Refinancing Requirements).\n\n### Comparing with the other trade programs\n\n| | Export Express | EWCP | IT |\n|---|---|---|---|\n| Fixed assets / facilities | Yes (U.S. production for exports) | **No** | Yes (U.S.) |\n| Working capital | Yes | Yes (export only) | Yes, up to **$2 million** |\n| Change of ownership | **No** | Not a listed use | Yes, limited types |\n\n> **Watch out:** This is the opposite of Export Express, where funding any Change of Ownership is prohibited. A software rules engine must branch on program *and* IT category.\n\n> **In practice:** A manufacturer (pre-qualified under category b) wants $4,500,000: $2,500,000 for a new production line in Ohio and $2,000,000 working capital. This fits: the working capital is at, not over, the $2 million cap, and the total is under the $5,000,000 maximum. If the request were $3,000,000 working capital, it would need restructuring.\n",
+      "keyPoints": [
+        "IT proceeds may only finance: U.S. facilities and equipment, working capital, permitted changes of ownership, and debt refinancing.",
+        "Working capital in an IT loan is capped at $2 million.",
+        "Export-path IT loans may fund Business Expansion and ESOP & Cooperative changes of ownership.",
+        "Import-path IT loans may fund Business Expansion, Owner Buyout, and ESOP & Cooperative changes of ownership.",
+        "IT loans cannot support Initial Acquisition transactions."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. C (Eligible Uses of Proceeds for International Trade Loans)"
+    },
+    {
+      "id": "b5-it-terms",
+      "title": "IT loan size, guaranty, maturity and interest rates",
+      "body": "### Loan amount\n\n- The **maximum IT loan amount is $5,000,000**.\n- Affiliation applies (13 CFR 120.151). The Lender must determine whether the Applicant has affiliates and **document the results in its credit analysis**; if affiliation exists, the maximum applies to the Applicant and all affiliates **as if they were a single business**.\n\n### Where the other terms live\n\n| Term | Reference |\n|---|---|\n| Debt refinancing | Appendix 14, Para. B.8 |\n| Maximum guaranty amounts and percentages | Appendix 16, Para. B.6 |\n| Loan maturities | Appendix 17, Para. B.8 |\n| Interest rates | Appendix 18, Para. B.8 |\n| Collateral | Appendix 19, Para. B.8 |\n| Personal guaranties | Section A, Ch. 5, Para. A |\n| Guaranty application submission | Appendix 20 |\n\n### Maximum interest rates\n\nThe **maximum allowable fixed rate is on SBA's Wiki page**. Maximum **variable** rates follow the same grid as Export Express:\n\n| Loan amount | Maximum variable rate |\n|---|---|\n| $50,000 or less | Prime or SBA Optional Peg Rate + **6.5%** |\n| $50,001 up to and including $250,000 | Prime or SBA Optional Peg Rate + **6.0%** |\n| $250,001 up to and including $350,000 | Prime or SBA Optional Peg Rate + **4.5%** |\n| $350,001 and greater | Prime or SBA Optional Peg Rate + **3.0%** |\n\nIn practice, most IT loans are large, so the **base + 3.0%** cap applies to the bulk of them.\n\n> **Watch out:** Both EWCP and IT have a $5,000,000 maximum loan amount, but they are very different products. EWCP is short-term, self-liquidating working capital; IT is a term loan repaid from business cash flow with working capital capped at $2 million.\n\n> **In practice:** When a borrower needs both export receivables financing and a new facility, lenders sometimes pair an EWCP line with an IT term loan. Affiliation and guaranty caps from Appendix 16 must then be checked across both loans.\n",
+      "keyPoints": [
+        "Maximum IT loan: $5,000,000, with affiliates treated as a single business.",
+        "Guaranty amounts and percentages: Appendix 16, Para. B.6. Maturities: Appendix 17, Para. B.8. Rates: Appendix 18, Para. B.8.",
+        "Maximum fixed rates are on SBA's Wiki page.",
+        "Max variable: base + 6.5% ($50,000 or less), + 6.0% ($50,001-$250,000), + 4.5% ($250,001-$350,000), + 3.0% ($350,001 and greater).",
+        "Collateral: Appendix 19, Para. B.8; guaranties: Section A, Ch. 5, Para. A."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. C (Loan Terms and Conditions for International Trade)"
+    },
+    {
+      "id": "b5-it-credit-processing",
+      "title": "IT credit standards and processing methods",
+      "body": "### The credit standard\n\nAs with all 7(a) loans, credit standards begin with **13 CFR 120.101 and 120.150**. A Lender must analyze each application in a **commercially reasonable manner, consistent with prudent lending standards**.\n\nFor IT loans, the **cash flow of the Applicant is the primary source of repayment**, not expected recovery from liquidating collateral. If the analysis shows the Applicant **lacks reasonable assurance of timely repayment from business cash flow, the loan must be declined**, regardless of collateral or outside sources of repayment.\n\nThis puts IT in the same camp as Export Express and standard 7(a), and in contrast to EWCP:\n\n| Program | Primary repayment source |\n|---|---|\n| Export Express | Business cash flow |\n| EWCP | Conversion of export trading assets (inventory, foreign AR) to cash |\n| International Trade | Business cash flow |\n\n### Processing methods\n\n| | Non-delegated | Delegated (PLP) |\n|---|---|---|\n| Who decides | **SBA** makes the final determination on eligibility and creditworthiness | The **Lender**, under its **PLP** authority |\n| SBA up-front review | Uses of proceeds, adequacy of collateral, loan structure, any required equity injection | None on credit or structure before issuing a loan number |\n| Later SBA review | n/a | When the Lender **requests purchase** or during **lender oversight** |\n\nNote the delegated authority for IT is ordinary **PLP**, not a special trade authority. EWCP uses **PLP-EWCP**, and Export Express uses **Export Express** delegated authority.\n\nUnder either method the Lender must analyze creditworthiness under SBA Loan Program Requirements and **properly document its file**.\n\n> **In practice:** Because SBA may not look at a PLP IT file until a purchase request, documentation gaps surface at the worst possible time. The credit memo checklist in the next two topics is effectively the purchase-review checklist too.\n",
+      "keyPoints": [
+        "Cash flow of the Applicant is the primary source of repayment, not collateral liquidation.",
+        "Decline if there is no reasonable assurance of timely repayment from business cash flow, regardless of collateral.",
+        "Non-delegated: SBA makes the final eligibility and credit decision, including uses, collateral, structure and equity.",
+        "Delegated: under PLP authority SBA does not review credit or structure before issuing a loan number.",
+        "PLP analysis is reviewed at guaranty purchase or during lender oversight."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. C (Credit Standards for International Trade)"
+    },
+    {
+      "id": "b5-it-credit-analysis-1",
+      "title": "IT credit analysis, part 1: business and repayment ability",
+      "body": "The IT credit memorandum must address the Applicant's **ability and likelihood to repay from business cash flow and past performance**. The required elements are long, so they are split across two topics.\n\n### 1. Description and history of the business\n\n- **Nature of the business**, including **how the Applicant meets the IT eligibility requirements** (category a or b, and improved competitive position);\n- **Length of time in business under current management**;\n- **Depth of management experience** in the industry or a related industry; and\n- The **management team**, including principals' **involvement in daily onsite management**, or how daily operations will be managed if they are not there daily.\n\n### 2. Financial analysis of repayment ability\n\n| Applicant type | Required basis |\n|---|---|\n| **Existing business** | **Three most recent years** of historical financial information (tax returns, or balance sheet with debt schedule and income statement) **plus an interim statement** (13 CFR 120.191) |\n| **Start-ups, new businesses and projection-based applications** | **Detailed projections with supporting assumptions** showing **debt service coverage of 1.15 or more within 2 years from loan funding** (or, for construction projects, **within 2 years from the end of construction**) |\n\nFor all Applicants, the analysis must address, as applicable:\n\n- **Historical cash flow** demonstrating total debt service coverage **after** the SBA loan. If the most recent full year and interim statements **do not show sufficient coverage**, the Lender must obtain and analyze **2 years of detailed projections** with assumptions justifying reliance on projections instead of history;\n- **Operating cash flow (OCF), defined as EBITDA**;\n- **Justification** for additions and subtractions to cash flow, such as unfunded capex, non-recurring income, expenses and distributions, S-Corp tax distributions, rent, owner's draw, and a **global cash flow analysis** including affiliates; and\n- **The effect of any affiliates** on ultimate repayment ability.\n\n### 3. Debt service coverage\n\n- **Debt service (DS)** means future required principal and interest payments on **all business debt, including the new SBA loan**. A **current debt schedule** from the Applicant, **including shareholder debt**, is important.\n- **DSCR (OCF / DS) must be at least 1.15** on a historical and/or projected basis, **and at least 1:1 on a global basis**.\n\n### 4. Projection assumptions\n\nFor projections, the Lender must calculate DSCR and support it with assumptions, including **justification for revenue growth** (new product lines, sales channels, production facilities), **justification for expense reductions**, and a **comparison to current industry trends**.\n\n> **Watch out:** IT requires **three** years of history; EWCP requires **two**. And IT sets a hard **1.15** business DSCR plus **1:1** global, which EWCP does not state.\n",
+      "keyPoints": [
+        "Describe the business, how it meets IT eligibility, time under current management, management depth and principals' daily involvement.",
+        "Existing businesses: three most recent years of historical financials plus an interim statement (13 CFR 120.191).",
+        "Start-ups and projection-based applications: projections reaching DSCR of at least 1.15 within 2 years of funding (or of end of construction).",
+        "If historical cash flow is insufficient, obtain and analyze 2 years of detailed projections with supporting assumptions.",
+        "DSCR (OCF/DS) must be at least 1.15 on a historical and/or projected basis and 1:1 on a global basis."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. C (Credit Standards for International Trade), Underwriting, Para. 1 (Lender's Credit Analysis)"
+    },
+    {
+      "id": "b5-it-credit-analysis-2",
+      "title": "IT credit analysis, part 2: balance sheet, collateral and approval rationale",
+      "body": "### 5-7. Balance sheet, ratios and liquidity\n\n- **Pro-forma business balance sheet:** the current balance sheet adjusted for all changes from the SBA loan, other debt, any required equity injection and use of proceeds.\n- **Ratios** based on the pro-forma balance sheet and historical and projected income statements: **Current Ratio, Debt/Tangible Net Worth, Debt Service Coverage**, and any others significant for the industry (for example inventory, receivables and payables turnover), with **comparison to industry trends**.\n- **Working capital adequacy**, at a minimum **over the next 12 months**.\n\n### 8-9. Collateral and insurance\n\n- **Collateral adequacy** under **Appendix 19, Para. B.8**.\n- **Insurance**: **life insurance** (on whom and how much) and **business hazard and liability** insurance.\n\n### 10. Refinancing and payment history\n\n- Document any **debt refinancing** in accordance with the written analysis required by **Appendix 14**.\n- Provide a **written explanation for any late payments over the past 12 months**.\n\n### 11. Rationale for recommending approval\n\nThe memo must discuss and analyze, as relevant:\n\n| Item | Notes |\n|---|---|\n| Credit not available elsewhere | On reasonable commercial terms from non-Federal, non-State, non-local government sources |\n| Working capital level | **If 50% or more of proceeds are working capital**, explain why that level is necessary and appropriate |\n| Competition | |\n| Seller financing | |\n| Standby agreements | |\n| **90+ day delinquencies** | |\n| Trade disputes | |\n| Government citations | Federal, State or local citations that would preclude normal operations |\n| Change of ownership valuation | Business valuation supporting purchase price (see Appendix 19, Para. A.1.g) |\n| Liens, judgments, bankruptcies, litigation | Including **divorce proceedings** |\n\n### 12. Franchises and management agreements\n\nFor a **franchise (as defined by the FTC)**, review franchisor credit information such as **failed franchisees and cash flow projections**. Review any **management agreement** to determine whether it creates an **ineligible passive company**, unless it is part of the franchise disclosure documents for a brand on the **Franchise Directory**.\n\n> **In practice:** Recall the working capital math. On a $3,000,000 IT loan with $1,600,000 of working capital (53%), the memo needs a specific justification for that working capital level, and the $2 million working capital cap is still respected.\n",
+      "keyPoints": [
+        "Spread a pro-forma balance sheet reflecting the SBA loan, other debt, equity injection and use of proceeds.",
+        "Ratios: Current Ratio, Debt/Tangible Net Worth, DSCR and others, compared to industry trends.",
+        "Analyze working capital adequacy over at least the next 12 months.",
+        "Document refinanced debts per Appendix 14 and explain any late payments in the past 12 months.",
+        "If 50% or more of proceeds are working capital, explain why that level is necessary and appropriate."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. C (Credit Standards for International Trade), Underwriting, Para. 1 (Lender's Credit Analysis)"
+    },
+    {
+      "id": "b5-it-equity",
+      "title": "Equity requirements for IT loans",
+      "body": "Under **13 CFR 120.150**, there must be **sufficient invested equity**. The **Lender (for PLP loans)** or **SBA (for non-delegated loans)** must determine whether the **equity position, any required equity contribution and the pro forma debt-to-worth** are acceptable, based on the **type of business, management experience and the level of competition** in the market. The Lender must include a **detailed discussion of the equity position (net worth) and any required equity injection**. Documentation and verification of injection follow **Section B, Ch. 6, Para. D** (Loan Closing and Disbursement).\n\n### Start-up businesses\n\n- A business is a **start-up** for equity purposes if it has been **in operation (generating revenue from intended operations) for 1 year or less**.\n- SBA considers an **equity injection of at least 10% of total project costs** necessary for a start-up to operate on a sound financial basis. Total project costs are **all costs required to become operational, regardless of funding source, except lines of credit and 504 loans**.\n- **All 7(a) loans to a start-up require a 10% equity injection** based on project cost. Loans **approved more than 90 days apart** are treated as **separate projects**.\n\n### Changes of ownership\n\nEquity rules for changes of ownership are in **Appendix 15**.\n\n### What counts as equity\n\n| Source | Conditions |\n|---|---|\n| **Standby debt** | Only debt on **full standby** (no principal or interest payments for the term of the 7(a) loan). Use **SBA Form 155** or an equivalent, with the note attached. Interest may accrue and be amortized after the 7(a) loan is paid off. The standby creditor must **subordinate liens** and take no action without the Lender's consent. |\n| **Cash not borrowed** | On the balance sheet or from other sources (e.g. a gift) |\n| **Personal loan proceeds** | Only if repayment comes from a source **other than business cash flow**; owner's salary from the business does **not** qualify |\n| **Grants** | No repayment or clawback provisions during the life of the 7(a) loan |\n| **Non-cash assets** | **Independent appraisal or valuation** required if valued above **Net Book Value**; a valuation within a business valuation does **not** suffice |\n| **Prepaid expenses** | Verified with paid invoices, canceled checks or bank statements, retained in file. **Education, advisory services and Agent fees are not eligible.** |\n| **Equity investment** | Not subject to an agreement to repay or make distributions to recover the investment before guaranty release. Otherwise (e.g. some **redeemable preferred stock**) SBA treats it as **debt** |\n\n> **Watch out:** A seller note that receives interest-only payments is **not** on full standby and cannot count as equity.\n\n> **In practice:** A 10-month-old business with $1,000,000 of project costs (excluding any line of credit) needs at least $100,000 of qualifying equity, regardless of how strong its projections look.\n",
+      "keyPoints": [
+        "Lender (PLP) or SBA (non-delegated) must find equity, any required injection and pro forma debt-to-worth acceptable.",
+        "Start-up: in operation (generating revenue from intended operations) for 1 year or less.",
+        "Start-ups require a 10% equity injection of total project costs (excluding lines of credit and 504 loans).",
+        "Loans approved more than 90 days apart are separate projects.",
+        "Eligible equity includes full-standby debt, unborrowed cash, certain personal loans, non-clawback grants, independently valued non-cash assets, verified prepaid expenses and non-redeemable investments."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. C (Credit Standards for International Trade), Underwriting, Para. 2 (Equity requirements)"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "International Trade (IT) loan",
+      "definition": "A 7(a) term loan up to $5,000,000 for businesses expanding or developing export markets, or adversely affected by import competition, that will improve their competitive position."
+    },
+    {
+      "term": "Export business plan",
+      "definition": "Required for the export category of IT: a projection and narrative rationale reasonably supporting the likelihood of expanded export sales, identifying expected export sales."
+    },
+    {
+      "term": "Adversely affected by import competition",
+      "definition": "IT eligibility category for businesses injured by increased foreign competition; certain NAICS industries are pre-determined by SBA to meet this threshold."
+    },
+    {
+      "term": "Improve competitive position",
+      "definition": "Statutory IT requirement that the loan have a positive impact on the business, documented in the credit memorandum."
+    },
+    {
+      "term": "Indirect export",
+      "definition": "Goods or services sold to a domestic customer that are then exported; IT applicants must provide the customer's documentation of export."
+    },
+    {
+      "term": "Debt service coverage ratio (DSCR)",
+      "definition": "OCF divided by debt service; IT loans require at least 1.15 on a historical and/or projected basis and 1:1 on a global basis."
+    },
+    {
+      "term": "Global cash flow",
+      "definition": "Cash flow analysis that includes the impact of affiliate businesses on repayment ability."
+    },
+    {
+      "term": "Start-up business (equity)",
+      "definition": "A business in operation (generating revenue from intended operations) for 1 year or less; requires at least a 10% equity injection of total project costs."
+    },
+    {
+      "term": "Full standby",
+      "definition": "A debt on which no principal or interest is paid for the term of the 7(a) loan; only such debt may count as equity."
+    },
+    {
+      "term": "SBA Form 155",
+      "definition": "SBA's Standby Agreement form used to document standby debt counted as equity."
+    },
+    {
+      "term": "Initial Acquisition",
+      "definition": "A change of ownership type that IT loans may not finance under either eligibility category."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "b5-it-q1",
+      "question": "What is the maximum amount of working capital that can be included in an International Trade loan?",
+      "options": [
+        "$500,000",
+        "$2 million",
+        "$5 million",
+        "$1 million"
+      ],
+      "correctIndex": 1,
+      "explanation": "IT working capital is capped at $2 million, within an overall IT loan maximum of $5,000,000. $500,000 is the Export Express maximum loan.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. C (Eligible Uses of Proceeds for International Trade Loans), Para. 1.b",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b5-it-q2",
+      "question": "To be eligible for an IT loan, an Applicant must meet which combination of requirements (beyond core requirements)?",
+      "options": [
+        "Either export market expansion or import injury, AND improved competitive position",
+        "Both export market expansion and import injury",
+        "Only improved competitive position",
+        "At least 12 full months as an Exporter"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Applicant must fit either category a (expanding/developing export markets) or category b (adversely affected by import competition), and the loan must also improve its competitive position. It does not need both a and b, and there is no 12-month exporter requirement.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. C (Eligibility for International Trade Loans)",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b5-it-q3",
+      "question": "A small plastics manufacturer (NAICS 326) seeks an IT loan under the import competition category but has no data showing import-driven decline. What documentation of injury is required?",
+      "options": [
+        "Three years of financial statements proving a revenue decline",
+        "A letter from a trade association confirming import injury",
+        "Proof that imports caused at least a 10% sales decline",
+        "No additional documentation; manufacturing (NAICS 31-33) is pre-determined to meet the threshold"
+      ],
+      "correctIndex": 3,
+      "explanation": "SBA has determined that manufacturing (Sectors 31, 32, 33) meets the threshold of import injury, and loans to businesses in listed industries need no additional documentation of injury. The Lender still must state the category and show improved competitive position.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. C (Eligibility for International Trade Loans), Para. 1.b",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b5-it-q4",
+      "question": "An IT loan was approved under the export markets category. Which change of ownership may it finance?",
+      "options": [
+        "Owner Buyout",
+        "Initial Acquisition",
+        "ESOP & Cooperative",
+        "Any change of ownership permitted by Appendix 15"
+      ],
+      "correctIndex": 2,
+      "explanation": "Export-category IT loans may support Business Expansion and ESOP & Cooperative transactions. Owner Buyout is available only under the import competition category, and Initial Acquisition is not allowed under either.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. C (Eligible Uses of Proceeds for International Trade Loans), Para. 1.c",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b5-it-q5",
+      "question": "A buyer wants an IT loan (import competition category, food manufacturer) to purchase 100% of a business they do not currently own. Can the IT loan finance it?",
+      "options": [
+        "Yes, import-category IT loans may finance any change of ownership",
+        "No, IT loans cannot support Initial Acquisition transactions",
+        "Yes, if working capital stays under $2 million",
+        "No, IT loans can never fund changes of ownership"
+      ],
+      "correctIndex": 1,
+      "explanation": "IT loans cannot be used for Initial Acquisition transactions under either category. Import-category loans may support Business Expansion, Owner Buyout and ESOP & Cooperative transactions, so changes of ownership are not banned entirely.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. C (Eligible Uses of Proceeds for International Trade Loans), Para. 1.c",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b5-it-q6",
+      "question": "What debt service coverage must an IT Applicant show?",
+      "options": [
+        "At least 1.15 on a historical and/or projected basis and 1:1 on a global basis",
+        "At least 1.25 historical and 1.15 global",
+        "At least 1.0 on all bases",
+        "At least 1.35 on a projected basis only"
+      ],
+      "correctIndex": 0,
+      "explanation": "IT requires OCF/DS of at least 1.15 on a historical and/or projected basis and 1:1 on a global basis. The other ratios are not in the IT section.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. C (Credit Standards for International Trade), Underwriting, Para. 1, item 3",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b5-it-q7",
+      "question": "How much historical financial information must a Lender analyze for an existing business applying for an IT loan?",
+      "options": [
+        "The two most recent years plus an interim statement",
+        "The most recent year only",
+        "The five most recent years",
+        "The three most recent years plus an interim statement"
+      ],
+      "correctIndex": 3,
+      "explanation": "For existing businesses, IT analysis is based on the three most recent years of historical financial information plus an interim statement (13 CFR 120.191). Two years plus interim is the EWCP requirement.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. C (Credit Standards for International Trade), Underwriting, Para. 1, item 2",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b5-it-q8",
+      "question": "A business that started generating revenue 8 months ago has total project costs of $800,000 to be financed with an IT loan. It also has a separate $100,000 line of credit. What minimum equity injection applies?",
+      "options": [
+        "$90,000",
+        "$0, equity is left to Lender judgment",
+        "$80,000",
+        "$200,000"
+      ],
+      "correctIndex": 2,
+      "explanation": "A business operating 1 year or less is a start-up and needs at least 10% of total project costs, excluding lines of credit and 504 loans. 10% x $800,000 = $80,000. Including the line of credit ($90,000) is wrong.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. C (Credit Standards for International Trade), Underwriting, Para. 2 (Equity requirements)",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b5-it-q9",
+      "question": "Which of the following may count as equity injection for an IT loan?",
+      "options": [
+        "A seller note paying interest only during the 7(a) term",
+        "Cash gifted to the owner by a relative, not borrowed",
+        "Fees the Applicant paid to a loan Agent",
+        "Redeemable preferred stock the company must repurchase before guaranty release"
+      ],
+      "correctIndex": 1,
+      "explanation": "Unborrowed cash, including gifts, qualifies. Only debt on full standby (no principal or interest) counts, Agent fees are not eligible prepaid expenses, and equity subject to repayment before guaranty release is treated as debt.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. C (Credit Standards for International Trade), Underwriting, Para. 2 (Equity requirements)",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b5-it-q10",
+      "question": "A $3,000,000 IT request includes $1,700,000 of working capital. What must the credit memo include regarding working capital?",
+      "options": [
+        "Nothing extra, because working capital is under $2 million",
+        "SBA's prior approval of the working capital amount",
+        "A requirement to convert the working capital into an EWCP line",
+        "An explanation of why this level of working capital is necessary and appropriate"
+      ],
+      "correctIndex": 3,
+      "explanation": "When 50% or more of proceeds will be working capital (here about 57%), the Lender must explain in the credit memo why that level is necessary and appropriate. Being under the $2 million cap is required but does not remove the explanation.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. C (Credit Standards for International Trade), Underwriting, Para. 1, item 11",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b5-it-q11",
+      "question": "Where must the Lender state which IT eligibility category (export markets or import competition) applies?",
+      "options": [
+        "In the credit memorandum and in the SBA Loan System",
+        "Only in the loan authorization",
+        "Only on SBA Form 1919",
+        "Nowhere; SBA infers it from the NAICS code"
+      ],
+      "correctIndex": 0,
+      "explanation": "The SOP requires the Lender to state the applicable category within both the credit memorandum and the SBA Loan System. The category also controls which change-of-ownership types are permitted.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. C (Eligibility for International Trade Loans)",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b5-it-q12",
+      "question": "A precision parts maker sells all its output to a U.S. aerospace company that installs the parts in aircraft shipped to Brazil. The maker applies for an IT loan under the export category. What must it provide?",
+      "options": [
+        "Nothing, since only direct exports count",
+        "Documentation from the domestic customer (letter, invoice, order or contract) that the goods are exported, plus an export business plan",
+        "An export license for each aircraft shipment",
+        "Export credit insurance on the aerospace company's receivables"
+      ],
+      "correctIndex": 1,
+      "explanation": "For indirect exports, the Applicant must provide documentation from its domestic customer showing the goods are in fact exported, along with an export business plan with projection and narrative. Export licenses and credit insurance are EWCP-related concepts, not IT eligibility requirements.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. C (Eligibility for International Trade Loans), Para. 1.a",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b5-it-q13",
+      "question": "What is the maximum variable interest rate on a $1,200,000 IT loan?",
+      "options": [
+        "Prime or SBA Optional Peg Rate + 6.5%",
+        "Prime or SBA Optional Peg Rate + 4.5%",
+        "Prime or SBA Optional Peg Rate + 3.0%",
+        "Prime or SBA Optional Peg Rate + 6.0%"
+      ],
+      "correctIndex": 2,
+      "explanation": "IT loans of $350,001 and greater are capped at base + 3.0%. Base + 4.5% applies to $250,001-$350,000, + 6.0% to $50,001-$250,000 and + 6.5% to $50,000 or less.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. C (Loan Terms and Conditions for International Trade), Interest Rates (Quick Reference Chart)",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b5-it-q14",
+      "question": "Which business type is ineligible for an IT loan?",
+      "options": [
+        "A restaurant (NAICS 722)",
+        "A supermarket (NAICS 445110)",
+        "A gas station (NAICS 457)",
+        "A grain farm (NAICS 1111)"
+      ],
+      "correctIndex": 2,
+      "explanation": "NAICS 721 (Accommodation) and 457 (Gasoline Stations) are ineligible for IT loans. NAICS 722 is excluded from EWCP, not IT, and supermarkets and grain farms are on the import-competition pre-qualified list.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. C (Eligibility for International Trade Loans), Para. 2 (Ineligible Industries)",
+      "difficulty": "applied"
+    }
+  ]
+}

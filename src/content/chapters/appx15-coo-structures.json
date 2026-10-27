@@ -1,0 +1,416 @@
+{
+  "id": "appx15-coo-structures",
+  "order": 420,
+  "part": "APPX",
+  "program": "7a",
+  "title": "Appendix 15 (Part 1): Change of Ownership Structures",
+  "subtitle": "What counts as a change of ownership, the four transaction types, guaranties and permitted uses of proceeds",
+  "sopRef": "SOP 50 10 8.1, Appendix 15",
+  "estimatedMinutes": 45,
+  "learningObjectives": [
+    "Decide whether a stock or asset purchase is a change of ownership or should be treated as a start-up",
+    "Calculate the Business Purchase Price and apply the valuation cap on total transaction debt",
+    "Classify a deal as Initial Acquisition, Business Expansion, Owner Buyout or ESOP and Cooperative and set up the correct Borrower and Co-Borrower structure",
+    "Apply the rules on earnouts, buyer rebates, working capital true-ups and the seller's post-closing role",
+    "Determine guaranty requirements, including the 2-year guaranty for selling owners under 20% and the statutory ESOP guaranty",
+    "Apply uses of proceeds rules for seller note refinancing, debt payoffs, Associates and EPCs"
+  ],
+  "topics": [
+    {
+      "id": "coo-scope",
+      "title": "What counts as a change of ownership",
+      "body": "Business acquisitions have become one of the **largest categories of 7(a) lending**, and they carry risks that ordinary expansion loans do not: new owners, new debt that has nothing to do with operations, and large amounts of goodwill. Appendix 15 is SBA's single rulebook for these deals.\n\n#### The baseline eligibility test\n\nTo finance a change of ownership, the lender must:\n\n1. Demonstrate the Applicant's **ability to operate the business** and **repay the loan from cash flow**; and\n2. Satisfy **all the financial due diligence** requirements in the appendix (business valuation, and for larger deals a Quality of Earnings report).\n\n#### Stock purchase vs. asset purchase\n\nUnder 13 CFR 120.202, proceeds may fund a change of ownership through either:\n\n- a **stock purchase** (including a **stock redemption**); or\n- an **asset purchase**.\n\nAn asset purchase is a change of ownership - and must follow every rule in the appendix - when the Applicant buys **all or substantially all** of the seller's assets **and** continues the seller's business operations.\n\nIf there is **no clearly defined continuity of operations**, the lender may evaluate the deal as a **start-up**. In that case, the start-up rules for the delivery method apply, including equity injection, eligibility, maturity, underwriting and uses of proceeds.\n\n| Facts | Treatment |\n|---|---|\n| Buy 100% of the stock | Change of ownership |\n| Buy substantially all assets and keep running the same business | Change of ownership |\n| Buy some equipment and a lease, start a different concept | May be evaluated as a start-up |\n\n#### How Appendix 15 relates to the rest of the SOP\n\n- 7(a) Small and SBA Express **may** be used for changes of ownership, but are subject to this appendix.\n- Anything not addressed in the appendix stays governed by the normal 7(a) program rules.\n- If any part of SOP 50 10 **conflicts** with Appendix 15, **Appendix 15 governs** the change of ownership.\n\n> **In practice:** Decide early whether a deal is a true change of ownership or a start-up. The classification drives equity, maturity and underwriting, and getting it wrong late means rebuilding the whole credit memo.",
+      "keyPoints": [
+        "Lender must show ability to operate and repay from cash flow, and meet all financial due diligence requirements.",
+        "Stock purchase (including redemption) or asset purchase are both permitted (13 CFR 120.202).",
+        "Asset purchase = change of ownership when buying all or substantially all assets AND continuing operations.",
+        "No clear continuity of operations: lender may evaluate as a start-up and apply start-up rules.",
+        "7(a) Small and Express may finance changes of ownership; Appendix 15 governs over conflicting SOP text."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, introduction and Change of Ownership Requirements (13 CFR 120.202)"
+    },
+    {
+      "id": "coo-general-requirements",
+      "title": "Core requirements: borrower, Business Purchase Price and debt limits",
+      "body": "Every change of ownership, whatever its type, starts with the same set of ground rules.\n\n#### 1. The small business must be on the loan\n\nThe deal must **promote the sound development and/or preserve the existence** of the small business. A 7(a) loan **cannot be made solely to an individual** - the small business must be the **Borrower or a Co-Borrower**.\n\n#### 2. Business Purchase Price\n\nThe **Business Purchase Price** is the purchase price **excluding all owner-occupied commercial real estate** being acquired. When real estate is part of the deal, the lender removes the **appraised value of the real estate** from the contract price. The lender must **enter the Business Purchase Price into the SBA Loan System**.\n\n#### 3. Financial due diligence is always required\n\n- The level of due diligence is set by the **Business Purchase Price**.\n- That threshold is **independent** of total project costs, borrower equity, seller debt structure, or anything else that shrinks the 7(a) loan. A $4 million business funded with a $2 million 7(a) loan is still a $4 million business for due diligence purposes.\n- When a **Quality of Earnings (QoE)** report is required, the lender must use its findings to calculate DSC. If that DSC does not support the valuation and debt structure, the **loan amount must be reduced**; additional equity (unlimited or limited sources) may fill the gap.\n\n#### 4. Total debt is capped at the business valuation\n\nAll debt supporting the transaction - **including seller debt not on full standby** - is limited to the **business valuation amount** and must be supported by the Applicant's DSC.\n\n#### 5-7. Valuations, intangibles and transcripts\n\n- Business valuations and QoE reports must meet the financial due diligence rules (Para. C.1).\n- **Intangible assets** - goodwill, customer lists, patents, copyrights, trademarks, IP, non-compete agreements - may be financed as long as the C.1 due diligence is met.\n- **Tax transcripts** are treated as an extension of due diligence: the lender must follow Section A, Ch. 5, Para. B to validate the **seller's** reported information.\n\n> **Watch out:** Seller notes on partial standby or regular payments count against the valuation cap. A buyer cannot pay above valuation by layering a paying seller note on top of a 7(a) loan.",
+      "keyPoints": [
+        "A 7(a) cannot be made solely to an individual; the small business must be Borrower or Co-Borrower.",
+        "Business Purchase Price excludes owner-occupied CRE; subtract the RE appraised value. Enter it in the SBA Loan System.",
+        "Due diligence thresholds use the Business Purchase Price, not the loan amount or project cost.",
+        "If QoE-based DSC does not support the structure, the loan amount must be reduced.",
+        "Total debt, including seller debt not on full standby, is limited to the business valuation.",
+        "Intangibles are financeable when due diligence is met; seller data is validated with tax transcripts."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Change of Ownership Requirements, Paras. 1-7"
+    },
+    {
+      "id": "earnouts-and-seller-role",
+      "title": "Earnouts, rebates and the seller's role after closing",
+      "body": "Two features of acquisition deals get special treatment: contingent price adjustments and what the seller does after closing.\n\n#### Earnouts vs. buyer rebates\n\n| Feature | Allowed? | Why |\n|---|---|---|\n| **Seller earnout** (buyer pays more later if the business performs) | **Prohibited** | Adds contingent claims on cash flow |\n| **Buyer rebate** (seller refunds part of the price if performance falls short) | **Allowed** | Benefits the Borrower |\n| **Working capital true-up** in the purchase agreement | Not a rebate | Remedies a working capital shortfall at closing |\n\nRules on rebate money:\n\n- Any funds the Borrower receives as a rebate **must be applied to principal** on the 7(a) loan that funded the change of ownership.\n- Under 13 CFR 120.223, applying rebates to principal **does not trigger a subsidy recoupment fee**.\n- Working capital adjustment cash **may be kept** by the business for ongoing working capital and does **not** have to pay down the loan.\n\n#### Can the seller stay?\n\nIn **Business Expansion** and **Initial Acquisition** deals, the seller **may not remain** as an officer, director, stockholder or employee. If a transition is needed, the business may hire the seller as a **consultant for up to 24 months in aggregate, including any extensions**.\n\nExceptions where the seller may stay as owner, officer, director, stockholder or employee (of the business or the ESOP):\n\n1. **Owner Buyout - Partial Change**: one or more owners sell less than their entire ownership; or\n2. The purchaser is an **ESOP (or equivalent trust) or a cooperative** acquiring a **controlling interest (51% or more)**, including 100%.\n\nWhen the buyer purchases a business **owned by an ESOP**, the employees who are ESOP Trust members may remain as employees after the sale.\n\n> **Watch out:** A \"consulting agreement\" that renews year after year is still capped at 24 months total. Draft the transition agreement with a hard end date and no salary-like open-ended terms.\n\n> **In practice:** When reviewing a purchase agreement, search for \"earnout,\" \"contingent consideration,\" and \"additional purchase price.\" Any of these signals a prohibited earnout that must be removed before approval.",
+      "keyPoints": [
+        "Seller earnouts are prohibited; buyer rebates based on performance are allowed.",
+        "Rebate funds must pay down 7(a) principal; this does not trigger subsidy recoupment (13 CFR 120.223).",
+        "Working capital true-up cash may be retained by the business.",
+        "In Initial Acquisition and Business Expansion, seller may not stay; consultant up to 24 months in aggregate.",
+        "Seller may stay in a Partial Change or when an ESOP/cooperative acquires 51% or more."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Change of Ownership Requirements, Paras. 8-9"
+    },
+    {
+      "id": "coo-loan-documentation",
+      "title": "Required loan documentation and site visits",
+      "body": "Appendix 15 lists what the lender's file must contain on every change of ownership.\n\n#### The documentation checklist\n\n1. **All purchase agreements** - business, stock and asset purchase agreements, including **all schedules and amendments**.\n2. **External capital** - the lender must **underwrite and review the terms** of all other debt and equity investments. Any transaction where an owner receives shares in exchange for cash or other contributions counts as an **equity investment**.\n3. **Site visit** of both the Applicant and the business being acquired, with the **date and comments** documented.\n4. **Commercial real estate appraisal** meeting Appendix 19, Para. A.1.g, when real estate is part of the acquisition.\n5. **Real estate structure** - when CRE is acquired, it must be structured as a **separate loan** or on a **blended amortization**, unless the Special Purpose Property exemption applies.\n6. **Collateral evidence** that all assets conveyed, including **transferable licenses** (for example, a liquor license), are properly secured - except vehicles, which follow the separate vehicle rule.\n\n#### Site visits for non-physical businesses\n\n| Business type | Requirement |\n|---|---|\n| Physical location | Site visit of Applicant and target, documented with date and comments |\n| No physical location | Document the steps taken to verify the Seller's operations |\n| Virtual / non-customer facing (e.g., e-commerce) | Lender **may skip** a physical visit if it documents why a visit would not materially enhance verification; may use virtual meetings or business records instead |\n\n> **Watch out:** Skipping a site visit is a documented decision, not a default. The file must explain why a visit would not materially help verify operations.\n\n> **In practice:** Ask for the full purchase agreement package up front, including disclosure schedules. Earnouts, assumed liabilities and non-compete terms often live in the schedules rather than the main agreement.",
+      "keyPoints": [
+        "File must hold all purchase agreements with schedules and amendments.",
+        "Lender must underwrite the terms of all other debt and equity investments.",
+        "Site visit of Applicant and target, documented with date and comments.",
+        "Virtual businesses may skip a physical visit if the lender documents why and uses alternative verification.",
+        "CRE in the deal needs an Appendix 19 appraisal and separate or blended structure.",
+        "All conveyed assets, including transferable licenses, must be secured (vehicles follow a separate rule)."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Change of Ownership Requirements, Para. 10"
+    },
+    {
+      "id": "initial-acquisition",
+      "title": "The four types and the default: Initial Acquisition",
+      "body": "Every change of ownership falls into one of **four categories**, and the category drives equity, DSC and due diligence requirements:\n\n1. **Initial Acquisition**\n2. **Business Expansion**\n3. **Owner Buyout** (Existing and Partial Change)\n4. **ESOP and Cooperative**\n\n**Initial Acquisition is the default.** To use any other category, the lender must document in the credit memorandum how the Applicant satisfies that category's requirements. The lender must also **enter the change of ownership type into the SBA Loan System**.\n\n#### Definition\n\nAn Initial Acquisition results in a **new majority or largest individual owner** who either:\n\n- was **not previously a direct or indirect owner**; or\n- has been **employed by the business for fewer than 24 months**.\n\n#### Permitted structures\n\n| Buyer | What is bought | Borrower structure |\n|---|---|---|\n| A small business that is not an existing owner and does **not operate another business in the same four-digit NAICS Industry Group** | 100% of the ownership interest | Acquiring entity is Borrower; if the target continues as a separate entity, **both are Co-Borrowers** |\n| A **Person** who is not an existing owner | 100% of the ownership interest | Target business and the Person are **Co-Borrowers**; both sign the Note **jointly and severally** |\n| A small business | Another small business's **assets** | Acquiring entity is Borrower; if the target continues as a separate entity, both are Co-Borrowers |\n\n> **Watch out:** An individual buyer of stock always ends up as a Co-Borrower with the target company. Lenders sometimes try to make only the business the Borrower; that does not comply.\n\n> **In practice:** If a buyer already runs a business in the same four-digit NAICS Industry Group, look at whether the deal qualifies as a Business Expansion instead, which has a lower DSC requirement.",
+      "keyPoints": [
+        "Four types: Initial Acquisition, Business Expansion, Owner Buyout, ESOP and Cooperative.",
+        "Initial Acquisition is the default; other types must be documented in the credit memo.",
+        "Lender must enter the change of ownership type in the SBA Loan System.",
+        "Initial Acquisition: new majority/largest owner not previously an owner, or employed fewer than 24 months.",
+        "Individual buyer of 100% stock: Person and target are Co-Borrowers and sign the Note jointly and severally."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Types of Changes of Ownership, Initial Acquisition"
+    },
+    {
+      "id": "business-expansion",
+      "title": "Business Expansion",
+      "body": "A **Business Expansion** is a change of ownership in which an **existing operating business buys another**. It is treated more favorably than an Initial Acquisition (for example, a lower DSC requirement), so SBA sets clear conditions.\n\n#### Conditions\n\n1. **Track record**: the acquiring small business has been operating for **at least two full fiscal years with its current ownership**, and is buying **100% of the ownership interest** in another business.\n2. **Same industry**: the acquired business is in the **same NAICS Industry Group (four-digit)** as the Applicant.\n3. **Guarantor count**: the deal must result in the **same or a greater number of full personal guarantors** than would have been required for the acquiring business's ownership structure **before** the transaction. This lets the Applicant set up a separate ownership structure for the acquired company, as long as guarantor support does not shrink.\n4. **Borrower**: the Applicant operating business must be the **Borrower**. If the acquired business will operate as a separate entity, the Applicant and the acquired business must be **Co-Borrowers**.\n\n#### Quick comparison\n\n| Feature | Initial Acquisition | Business Expansion |\n|---|---|---|\n| Who buys | New owner (Person or business) | Existing business with 2 full fiscal years under current ownership |\n| Industry | Buyer business not in same 4-digit NAICS group | Must be same 4-digit NAICS group |\n| Share acquired | 100% (or asset purchase) | 100% |\n| Seller may stay? | No (consultant up to 24 months) | No (consultant up to 24 months) |\n\n> **Watch out:** \"Two full fiscal years with the current ownership\" is measured on the buyer. A business that has existed for ten years but changed owners 18 months ago does not qualify.\n\n> **In practice:** Confirm the four-digit NAICS codes of both companies from tax returns or registrations, not just from the borrower's description, and record the comparison in the credit memo.",
+      "keyPoints": [
+        "Acquirer must have operated at least two full fiscal years with current ownership and buy 100%.",
+        "Target must be in the same four-digit NAICS Industry Group.",
+        "Same or greater number of full personal guarantors as required before the transaction.",
+        "Applicant is Borrower; if the target operates separately, both are Co-Borrowers."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Types of Changes of Ownership, Business Expansion"
+    },
+    {
+      "id": "owner-buyout-existing",
+      "title": "Owner Buyout: the 24-month rule and Existing Owner Buyouts",
+      "body": "An **Owner Buyout** changes the ownership structure of the Applicant business **without acquiring another entity or asset**. At least **one member of the original ownership must remain** after the transaction and **guarantee the loan**, regardless of their post-sale percentage (unless the specific rules below say otherwise).\n\n#### The 24-month insider limit\n\nFor **all** Owner Buyouts, individuals **not employed by the business for at least 24 months** may:\n\n- acquire **less than 50%** of total equity, **and**\n- **not become the largest** direct or indirect shareholder.\n\nIndirect interests held through holding companies, trusts or limited partnerships are **aggregated** with direct interests.\n\nIf a deal fails this test, it must follow the **Initial Acquisition credit standards** - minimum DSC, minimum equity injection and QoE requirements. Even then, the sellers keep the Owner Buyout ability to **remain as owners and employees**.\n\n#### Existing Owner Buyout - three structures\n\n| Structure | Conditions | Borrower setup |\n|---|---|---|\n| Current owners and/or employees buy **all** of another owner's interest, leaving 100% with the remaining owners | Buyers actively participating in operations for the last **24 consecutive months** | Business and acquiring owner(s) are **Co-Borrowers**; Note signed jointly and severally |\n| Business **redeems** an owner's interest, leaving 100% with remaining owners | - | Business is the **Borrower**; remaining owners follow Section A, Ch. 5, Para. A guaranty rules |\n| A **single owner sells 100%** to an employee | Employee employed at least **24 months** before application; otherwise treat under Initial Acquisition credit standards | Business and the buyer are **Co-Borrowers** |\n\n> **Watch out:** A key manager with 20 months of tenure buying 60% of the company does not fit Owner Buyout credit standards. The deal must meet Initial Acquisition DSC, equity and QoE rules.\n\n> **In practice:** Get payroll records or W-2s to evidence the 24 months of employment or active participation. The narrative alone will not hold up at purchase review.",
+      "keyPoints": [
+        "Owner Buyout changes ownership of the Applicant without acquiring another entity or asset.",
+        "At least one original owner must remain and guarantee the loan.",
+        "Individuals employed less than 24 months may acquire less than 50% and may not become the largest shareholder.",
+        "Failing that limit: apply Initial Acquisition DSC, equity and QoE standards, but sellers may still stay.",
+        "Existing Owner Buyout buyers need 24 consecutive months of active participation.",
+        "Redemption: business is the Borrower; remaining owners follow standard guaranty rules."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Types of Changes of Ownership, Owner Buyout"
+    },
+    {
+      "id": "partial-change",
+      "title": "Owner Buyout: Partial Change of Ownership",
+      "body": "In a **Partial Change**, proceeds buy **all or part of one or more owners' interests** (or the business itself, e.g., treasury stock or membership units), and **at least one original owner remains** and personally guarantees the loan.\n\n#### Who must be a Co-Borrower\n\n- The **Operating Company** and **every new direct and/or indirect owner** (individuals and entities) acquiring any interest must be **Co-Borrowers**, **regardless of percentage**. A new owner getting **1%** is a Co-Borrower.\n- **Indirect** new owners must also **personally guarantee**.\n- This applies only to owners who had **no equity before** the transaction.\n- Because Standard 7(a) processing applies to all changes of ownership, if the loan is not fully secured, the Appendix 19 **collateral shortfall rules** apply to all Borrowers and Co-Borrowers.\n\n#### Guaranties\n\n- Remaining owners follow Section A, Ch. 5, Para. A.\n- A **selling owner** who receives proceeds and **stays with less than 20%** must give a **full guaranty for the full loan amount** (13 CFR 120.160(a)):\n  - term of **at least two years after final disbursement**;\n  - release only if the loan has been **current for the 12 consecutive months** before release;\n  - SBA Form **148L** or lender equivalent (\"default\" means default as defined in the Note);\n  - these 2-year guarantors **need not pledge personal assets** (such as residences) in a collateral shortfall.\n- **ESOP deals**: if the seller remains as a partial owner, the seller must give a **full, unlimited guarantee regardless of ownership**. This is statutory (15 U.S.C. 636(a)(15)(B)(iv)(II)) and **cannot be waived**.\n\n#### Structures that are not eligible\n\n- **Multi-step partial changes**: existing owners and a new owner form a **new entity** that becomes the 100% owner of the Operating Company. Not eligible.\n- **EPC partial changes**: no partial change of ownership in an **EPC** of an EPC/OC structure (13 CFR 120.111). A partial change in the **Operating Company** is allowed.\n\nIn a Partial Change, the seller **may stay** as owner, officer, director, stockholder, Key Employee or employee.\n\n> **Watch out:** The 2-year limited guaranty is only for selling owners staying **under 20%**. A seller keeping 25% falls under the regular guaranty rules based on post-sale ownership.",
+      "keyPoints": [
+        "Operating Company and every new owner, even at 1%, must be Co-Borrowers; indirect new owners also guarantee.",
+        "Selling owner remaining under 20% gives a full guaranty for at least 2 years after final disbursement.",
+        "That guarantor can be released only after 12 consecutive current months; no personal asset pledge required.",
+        "ESOP seller remaining as partial owner must give a full unlimited guaranty; statutory, cannot be waived.",
+        "Multi-step partial changes via a new holding entity are not eligible.",
+        "No partial change in an EPC of an EPC/OC; partial change in the OC is allowed."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Types of Changes of Ownership, Owner Buyout, Partial Change of Owner"
+    },
+    {
+      "id": "esop-coop-and-guaranties",
+      "title": "ESOPs, cooperatives and personal guaranty rules",
+      "body": "#### ESOP and Cooperative transactions\n\n| Structure | Key rule |\n|---|---|\n| **ESOP or equivalent trust** buys a **controlling interest (51% or more)** of the employer small business (13 CFR 120.352(b)) | Transaction costs of the purchase may be in use of proceeds; **costs of setting up the trust may not** |\n| Small business borrows **solely to re-lend** to an ESOP or equivalent trust to buy 51% or more | Transaction costs of the loan to the ESOP may be included; trust setup costs may not |\n| SBA loan buys a business **owned by an ESOP that is being dissolved** | ESOP member employees (except illegal aliens) may remain as employees, despite contrary SOP provisions |\n| **Cooperative** buys 51% or more of the employer small business | Purchase transaction costs may be included, not cooperative setup costs; **may be processed under PLP** |\n\nSection A, Ch. 2, Para. B has more on loans to ESOPs. Remember also that ESOP purchases of a controlling interest are **not subject to the SBA equity injection requirement**.\n\n#### Personal guaranties in changes of ownership\n\n- **All owners** of the Applicant, and of the business being acquired if it is a Co-Borrower, follow the standard guaranty rules in Section A, Ch. 5, Para. A.\n- Who must guarantee is based on **post-sale** direct and/or indirect ownership percentages.\n- The exception is a **selling owner retaining less than 20%**, who must give the 2-year full guaranty covered in the Partial Change topic.\n- Any **additional guaranty requirements** in Appendix 15 apply to all changes of ownership.\n\n**Example:** A buyer acquires 85% and the seller keeps 15% in a Partial Change. The buyer's guaranty is determined on the 85% post-sale stake, and the seller (under 20%) must give a full guaranty for at least two years after final disbursement.\n\n> **In practice:** Build a post-closing cap table, including indirect holdings through entities, before running the guaranty analysis. Pre-sale percentages are irrelevant except for identifying who is a selling owner.",
+      "keyPoints": [
+        "ESOP or equivalent trust, or cooperative, must acquire a controlling interest of 51% or more.",
+        "Transaction costs may be financed; costs of setting up the trust or cooperative may not.",
+        "Cooperative change of ownership loans may be processed under PLP.",
+        "Employees of a dissolving ESOP-owned business may remain as employees (except illegal aliens).",
+        "Guaranty requirements are based on post-sale direct and indirect ownership."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Types of Changes of Ownership, ESOP & Cooperatives; SOP 50 10 8.1, Appendix 15, Personal Guaranties"
+    },
+    {
+      "id": "coo-uses-of-proceeds",
+      "title": "Uses of proceeds, debt payoffs and EPC structures",
+      "body": "#### Debt refinancing in a change of ownership\n\n| Situation | Rule |\n|---|---|\n| Refinancing a **seller-financed note** from a prior change of ownership | Note must have been in place and **current (not on standby) for at least 36 months**; must meet the **10 percent payment improvement** test; must **not reduce the lender's exposure** |\n| Change between **existing owners** that also refinances existing business debt | Refinancing must meet **Appendix 14** |\n| Paying off existing business debt in an **Initial Acquisition** | **Not** Appendix 14 refinancing; it is part of the purchase and must meet Appendix 15 |\n\n#### Restrictions under 13 CFR 120.130\n\nProceeds may not be used for payments, distributions or loans to an **Associate** of the Applicant (13 CFR 120.10), including replacing funds used for that purpose, **except**:\n\n- compensation for services actually rendered at a fair and reasonable rate; or\n- to facilitate a 7(a) change of ownership under 13 CFR 120.202 and the **Owner Buyout - Partial Change** guidance.\n\nThat second exception is what lets proceeds flow to a selling owner who is an Associate.\n\n#### What a change of ownership loan may include\n\n1. **Working capital**;\n2. **Borrower out-of-pocket expenses**, including business valuations and QoE; and\n3. **Owner-occupied commercial real estate** when structured on a **blended** basis.\n\n#### Eligible Passive Companies (EPCs)\n\n- An EPC may finance a change of ownership **between existing owners** of the EPC only when the real estate or personal property has been held by the selling owner(s) for **at least 36 months**.\n- No partial change of ownership in an EPC of an EPC/OC (13 CFR 120.111); a Partial Change in the **Operating Company** is allowed.\n\n> **Watch out:** In an Initial Acquisition, the seller's bank loans being paid off at closing are part of the purchase price analysis, not an Appendix 14 refinance - so the 12-month currency and 10 percent tests do not drive that payoff. But the payoff still has to fit within the business valuation and DSC.",
+      "keyPoints": [
+        "Seller notes may be refinanced after 36 months in place and current (not on standby), with 10 percent improvement and no reduced lender exposure.",
+        "Refinancing existing debt in a change between existing owners must meet Appendix 14.",
+        "Paying off business debt in an Initial Acquisition is not Appendix 14 refinancing.",
+        "Associate payments are barred except fair compensation or facilitating a change of ownership (13 CFR 120.130).",
+        "Proceeds may include working capital, out-of-pocket costs (valuation, QoE) and blended owner-occupied CRE.",
+        "EPC change between existing owners requires assets held by sellers at least 36 months."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Uses of Proceeds; Specialty Transaction Structures"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Change of ownership",
+      "definition": "A stock purchase (including redemption) or an asset purchase of all or substantially all assets with continued operations, financed under 13 CFR 120.202 and Appendix 15."
+    },
+    {
+      "term": "Business Purchase Price",
+      "definition": "The purchase price excluding all owner-occupied commercial real estate (the RE appraised value is removed). It sets financial due diligence thresholds and is entered into the SBA Loan System."
+    },
+    {
+      "term": "Initial Acquisition",
+      "definition": "The default change of ownership type: a new majority or largest individual owner who was not previously an owner or has been employed by the business fewer than 24 months."
+    },
+    {
+      "term": "Business Expansion",
+      "definition": "A change of ownership in which an existing business operating at least two full fiscal years under current ownership buys 100% of another business in the same four-digit NAICS Industry Group."
+    },
+    {
+      "term": "Owner Buyout",
+      "definition": "A change of ownership that modifies the Applicant's ownership without acquiring another entity or asset; at least one original owner remains and guarantees. Includes Existing Owner Buyout and Partial Change."
+    },
+    {
+      "term": "Partial Change of Owner",
+      "definition": "An Owner Buyout in which all or part of one or more owners' interests are bought and at least one original owner remains as owner and personally guarantees."
+    },
+    {
+      "term": "Multi-step partial change of ownership",
+      "definition": "An ineligible structure where existing owners and a new owner form a new entity that becomes the 100% owner of the Operating Company."
+    },
+    {
+      "term": "ESOP",
+      "definition": "Employee Stock Ownership Plan. An ESOP or equivalent trust may use 7(a) financing to acquire a controlling interest (51% or more) in the employer small business."
+    },
+    {
+      "term": "Seller earnout",
+      "definition": "Contingent additional purchase price paid to the seller based on future performance. Prohibited in 7(a) changes of ownership."
+    },
+    {
+      "term": "Buyer rebate",
+      "definition": "A refund from the seller to the buyer based on business performance. Allowed; rebate funds must be applied to the 7(a) loan principal without triggering subsidy recoupment."
+    },
+    {
+      "term": "Working capital true-up",
+      "definition": "A purchase agreement adjustment that remedies a working capital shortfall at closing. Not a rebate; the cash may be retained by the business."
+    },
+    {
+      "term": "Associate",
+      "definition": "A person related to the Applicant as defined in 13 CFR 120.10. Proceeds may not go to Associates except for fair compensation or to facilitate a change of ownership."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "a15a-q1",
+      "question": "Which change of ownership category is the default under Appendix 15?",
+      "options": [
+        "Business Expansion",
+        "Initial Acquisition",
+        "Owner Buyout",
+        "ESOP and Cooperative"
+      ],
+      "correctIndex": 1,
+      "explanation": "Initial Acquisition is the default category. To treat a deal as a Business Expansion, Owner Buyout, or ESOP and Cooperative, the lender must document in its credit memorandum how the Applicant satisfies that category's requirements.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Types of Changes of Ownership",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a15a-q2",
+      "question": "A buyer purchases a business for $2,500,000, which includes owner-occupied real estate appraised at $900,000. What is the Business Purchase Price for financial due diligence purposes?",
+      "options": [
+        "$2,500,000",
+        "$900,000",
+        "$1,600,000",
+        "$1,350,000"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Business Purchase Price excludes owner-occupied commercial real estate; the lender removes the appraised value of the real estate from the contract price: $2,500,000 - $900,000 = $1,600,000. Using the full contract price ignores the required real estate carve-out.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Change of Ownership Requirements, Para. 2",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a15a-q3",
+      "question": "A purchase agreement provides that the buyer will pay the seller an additional $200,000 if the business's revenue grows 15 percent in the first year after closing. How should the lender treat this?",
+      "options": [
+        "It is a prohibited seller earnout and cannot be part of the transaction",
+        "It is allowed if the $200,000 is placed on full standby",
+        "It is allowed because it benefits the Borrower",
+        "It is treated as a working capital true-up"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seller earnouts are prohibited under Appendix 15. Only buyer rebates (money flowing from seller to buyer based on performance) are allowed, because they benefit the Borrower. A working capital true-up remedies a closing-date working capital shortfall and is a different mechanism.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Change of Ownership Requirements, Para. 8",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a15a-q4",
+      "question": "After closing an Initial Acquisition, the Borrower receives a $50,000 performance-based rebate from the seller. What must happen to the funds?",
+      "options": [
+        "They may be kept as working capital",
+        "They must be applied to the principal of the 7(a) loan, and this does not trigger a subsidy recoupment fee",
+        "They must be applied to principal and a subsidy recoupment fee applies",
+        "They must be returned to the seller"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rebate proceeds must pay down the principal of the 7(a) loan that funded the change of ownership, and per 13 CFR 120.223 this required application to principal does not trigger subsidy recoupment. Retaining the cash is allowed only for working capital true-ups, not rebates.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Change of Ownership Requirements, Para. 8",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a15a-q5",
+      "question": "In an Initial Acquisition, the buyer wants the seller to stay on to help with the transition for 18 months and then possibly extend for another 12 months. What does Appendix 15 allow?",
+      "options": [
+        "The seller may stay as an employee indefinitely",
+        "The seller may be a consultant for 18 months plus one 12-month extension",
+        "The seller may not be involved in any capacity after closing",
+        "The seller may be a consultant for up to 24 months in aggregate, including any extensions"
+      ],
+      "correctIndex": 3,
+      "explanation": "In Initial Acquisition and Business Expansion deals, the seller may not remain as officer, director, stockholder or employee, but may be retained as a consultant for no more than 24 months in aggregate including extensions. 18 plus 12 months would be 30 months, over the cap.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Change of Ownership Requirements, Para. 9",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a15a-q6",
+      "question": "Which business qualifies to use the Business Expansion category?",
+      "options": [
+        "A company operating 5 years whose current owners bought it 18 months ago, acquiring 100% of a competitor",
+        "A company operating 3 full fiscal years under current ownership, acquiring 100% of a business in the same four-digit NAICS Industry Group",
+        "A company operating 3 full fiscal years under current ownership, acquiring 60% of a business in the same NAICS Industry Group",
+        "A company operating 3 full fiscal years under current ownership, acquiring 100% of a business in a different NAICS Industry Group"
+      ],
+      "correctIndex": 1,
+      "explanation": "Business Expansion requires the acquirer to have operated at least two full fiscal years with current ownership, to purchase 100% of another business, and for the target to be in the same four-digit NAICS Industry Group. The other options each fail one condition (ownership tenure, percentage, or industry).",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Types of Changes of Ownership, Business Expansion",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a15a-q7",
+      "question": "A general manager employed by the business for 14 months wants to buy 60% of the company from its two owners in an Owner Buyout. How must the transaction be processed?",
+      "options": [
+        "As a normal Owner Buyout, since the manager is a current employee",
+        "It is ineligible for 7(a) financing",
+        "Using the Initial Acquisition credit standards (minimum DSC, minimum equity and QoE), while sellers may still remain as owners and employees",
+        "As a Business Expansion"
+      ],
+      "correctIndex": 2,
+      "explanation": "In Owner Buyouts, individuals employed less than 24 months may acquire less than 50% and may not become the largest shareholder. A deal that fails this must follow Initial Acquisition credit standards for DSC, equity and QoE, though sellers keep the Owner Buyout ability to remain. The deal is not ineligible.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Types of Changes of Ownership, Owner Buyout",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a15a-q8",
+      "question": "In a Partial Change of Owner, a new investor acquires a 1% indirect ownership interest through a holding company. What is required of this investor?",
+      "options": [
+        "Nothing, because the interest is under 20%",
+        "The investor must be a Co-Borrower and, as an indirect owner, must also personally guarantee",
+        "The investor must provide a 2-year limited guaranty",
+        "The investor must only sign a standby agreement"
+      ],
+      "correctIndex": 1,
+      "explanation": "In a Partial Change, every new direct and/or indirect owner acquiring any interest in the Operating Company must be a Co-Borrower regardless of percentage, and indirect owners must also personally guarantee. The 2-year guaranty applies to selling owners staying under 20%, not new owners.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Types of Changes of Ownership, Owner Buyout, Partial Change of Owner",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a15a-q9",
+      "question": "In a Partial Change of Owner, a selling owner receives loan proceeds and keeps a 12% ownership interest. What guaranty does the SOP require from this seller?",
+      "options": [
+        "No guaranty, because ownership is below 20%",
+        "A limited guaranty for 12% of the loan amount",
+        "A full unlimited guaranty for the life of the loan, with personal residence pledged",
+        "A full guaranty for the full loan amount lasting at least two years after final disbursement, releasable only after 12 consecutive current months"
+      ],
+      "correctIndex": 3,
+      "explanation": "A selling owner remaining under 20% must provide a full guaranty for the full loan amount (13 CFR 120.160(a)) for at least two years after final disbursement, releasable only if the loan was current for 12 consecutive months before release. These guarantors need not pledge personal assets in a shortfall.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Types of Changes of Ownership, Owner Buyout, Partial Change of Owner",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a15a-q10",
+      "question": "Existing owners A and B and new investor C propose to form NewCo, owned by all three, which will buy 100% of the Operating Company with a 7(a) loan. How is this treated?",
+      "options": [
+        "It is an ineligible multi-step partial change of ownership",
+        "It is an eligible Partial Change of Owner",
+        "It is an eligible Initial Acquisition",
+        "It is eligible if C owns less than 20%"
+      ],
+      "correctIndex": 0,
+      "explanation": "A multi-step partial change of ownership, where existing owners bring on a new owner by forming a new entity that will own 100% of the Operating Company, is not eligible. The percentage held by the new owner does not cure the structure.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Types of Changes of Ownership, Owner Buyout, Partial Change of Owner",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a15a-q11",
+      "question": "An ESOP is buying 60% of its employer company, and the founder will keep the other 40%. What guaranty must the founder provide?",
+      "options": [
+        "A guaranty only if the founder owns 20% or more after closing, which can be waived by the lender",
+        "A 2-year limited guaranty",
+        "A full, unlimited guarantee regardless of ownership; the statutory requirement cannot be waived",
+        "No guaranty, because ESOP loans are exempt"
+      ],
+      "correctIndex": 2,
+      "explanation": "For ESOP transactions, if the seller of the employer small business remains as a partial owner, the seller must provide a full, unlimited guarantee regardless of ownership. This is a statutory requirement under 15 U.S.C. 636(a)(15)(B)(iv)(II) and cannot be waived.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Types of Changes of Ownership, Owner Buyout, Partial Change of Owner",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a15a-q12",
+      "question": "Which cost may be included in the use of proceeds for a loan that lets an ESOP acquire a controlling interest in the employer business?",
+      "options": [
+        "The legal costs of setting up the ESOP trust",
+        "Transaction costs associated with the purchase of the controlling interest",
+        "Ongoing ESOP administration fees for the first two years",
+        "Distributions to ESOP participants"
+      ],
+      "correctIndex": 1,
+      "explanation": "Transaction costs associated with the ESOP's purchase of a controlling interest may be included in use of proceeds, but costs associated with setting up the trust may not. The same split applies to cooperatives.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Types of Changes of Ownership, ESOP & Cooperatives",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a15a-q13",
+      "question": "A seller-financed note from a change of ownership 30 months ago has been paid on time with regular payments. The borrower wants to refinance it with a 7(a) loan now. What is the correct answer?",
+      "options": [
+        "Eligible, because it has been current for more than 12 months",
+        "Eligible, if the new payment is 10 percent lower",
+        "Eligible under the Initial Acquisition payoff rule",
+        "Not yet eligible; the seller note must be in place and current for at least 36 months"
+      ],
+      "correctIndex": 3,
+      "explanation": "Seller-financed notes from a change of ownership must have been in place and current (not on standby) for at least 36 months before refinancing, and must also meet the 10 percent improvement test and not reduce the lender's exposure. The 12-month currency test applies to general debt, not seller notes.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Uses of Proceeds, Debt Refinancing",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a15a-q14",
+      "question": "In an Initial Acquisition, the seller's business has an existing bank term loan that will be paid off at closing with 7(a) proceeds. How is this payoff treated?",
+      "options": [
+        "It is not refinancing under Appendix 14; it is part of the change of ownership and must meet Appendix 15",
+        "It must satisfy the Appendix 14 12-month currency test",
+        "It must meet the 10 percent payment improvement test",
+        "It is not allowed; the seller must pay off its own debt"
+      ],
+      "correctIndex": 0,
+      "explanation": "Paying off existing business debt as part of an Initial Acquisition is not refinancing under Appendix 14. The payoff is part of the change of ownership transaction and must meet Appendix 15. Appendix 14 applies when existing owners change and existing business debt is refinanced.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Uses of Proceeds, Debt Refinancing",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a15a-q15",
+      "question": "An asset purchase is treated as a change of ownership under Appendix 15 when the Applicant:",
+      "options": [
+        "Buys any equipment from an existing business",
+        "Buys at least 51% of the seller's assets",
+        "Buys all or substantially all of the seller's assets and continues the seller's business operations",
+        "Buys assets worth more than $350,000"
+      ],
+      "correctIndex": 2,
+      "explanation": "An asset purchase is a change of ownership when the Applicant purchases all or substantially all of the seller's assets and continues the seller's operations. Without clear continuity of operations, the lender may evaluate the deal as a start-up instead.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Change of Ownership Requirements",
+      "difficulty": "basic"
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "id": "b4-caplines-part-1",
+  "order": 240,
+  "part": "B",
+  "program": "7a",
+  "title": "7(a) CAPLines, Part 1: Programs, Eligibility and Underwriting",
+  "subtitle": "The four CAPLines subprograms, who qualifies for each, how lines are sized, and the credit, equity and fee rules they share",
+  "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Paras. A-E",
+  "estimatedMinutes": 50,
+  "learningObjectives": [
+    "Match a borrower's short-term financing need to the right CAPLines subprogram",
+    "Apply the eligibility and use of proceeds rules for Working Capital, Contract, Seasonal and Builders CAPLines",
+    "Size a CAPLine using the subprogram-specific methods within the $5,000,000 maximum",
+    "Underwrite a CAPLine using the required credit memo elements and 1.15 / 1:1 DSC tests",
+    "Determine what qualifies as equity injection, including the 10% start-up minimum",
+    "Identify when extraordinary servicing fees above 2% are permitted"
+  ],
+  "topics": [
+    {
+      "id": "b4-overview",
+      "title": "CAPLines at a glance: four lines for short-term needs",
+      "body": "**CAPLines** (13 CFR 120.390) are 7(a) lines of credit that finance the **short-term operating capital needs** of eligible small businesses. They can be **revolving or non-revolving**. Proceeds may be used for **cyclical, recurring, or other identifiable short-term** needs, either to **create current assets** (buy inventory, pay labor on a contract) or to **provide financing against current assets that already exist** (borrow against receivables already on the books).\n\nAs always, the chapter opens with a reminder: **start with Section A, Core Requirements for all 7(a) and 504 Loans**. To qualify for any CAPLines subprogram, an Applicant must be eligible under Section A **AND** meet that subprogram's own requirements.\n\n#### The four subprograms\n\n| Subprogram | What it finances | Who it is for | Typical repayment source |\n|---|---|---|---|\n| **Working Capital** | Short-term working capital/operating needs | Businesses that generate accounts receivable and/or have inventory | Cash sales and receivable collections |\n| **Contract** | Costs of one or more specific contracts | Contractors with a track record of profitable, similar contracts | Contract payments, often assigned to the Lender |\n| **Seasonal** | Seasonal build-up of receivables and inventory (and sometimes labor) | Businesses in operation 12+ months with a definite seasonal pattern | Cash from seasonal sales |\n| **Builders** | Direct costs of constructing or substantially renovating property for resale | General contractors and homebuilders | Sale of the finished property |\n\n#### What all CAPLines share\n\n- **Maximum loan amount: $5,000,000**, with affiliates counted as one business;\n- The same credit standards, processing methods, equity rules and fee framework (covered in this chapter);\n- Guaranty percentages in **Appendix 16, Para. B.4**, maturities in **Appendix 17, Para. B.5**, and interest rates in **Appendix 18, Para. B.5**;\n- Collateral in **Appendix 19, Para. B.5**.\n\n> **In practice:** The first question on any CAPLines request is \"which line fits the need?\" A borrower asking for a \"line of credit\" may really need a Contract CAPLine (a specific job), a Seasonal CAPLine (a holiday build-up), or a Working Capital CAPLine (ongoing asset-based revolver). The subprogram drives eligibility, sizing, and how disbursements are controlled.\n\n> **Watch out:** CAPLines proceeds are for **short-term** needs. Fixed assets, permanent working capital (for Contract lines) and long-term uses belong in a term loan.",
+      "keyPoints": [
+        "CAPLines finance short-term operating capital needs, revolving and non-revolving (13 CFR 120.390)",
+        "Four subprograms: Working Capital, Contract, Seasonal and Builders",
+        "Proceeds can create current assets or finance against current assets that already exist",
+        "The Applicant must meet Section A eligibility AND the subprogram's own requirements",
+        "Maximum loan amount for all CAPLines: $5,000,000"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4 (introduction); 13 CFR 120.390"
+    },
+    {
+      "id": "b4-working-capital-eligibility",
+      "title": "Working Capital CAPLines: eligibility and uses",
+      "body": "The **Working Capital CAPLine** is the classic asset-based revolver: the business borrows against its receivables and inventory and repays as those assets turn into cash.\n\n#### Eligibility\n\nTo be eligible, the Applicant must **generate accounts receivable (not notes receivable), and/or have inventory**. A business with no receivables and no inventory - for example, a cash-only service business - has nothing to lend against and does not fit this subprogram.\n\n#### Eligible uses\n\n- Borrowers may use proceeds **only for short-term working capital/operating needs**.\n- Borrowers may be **Exporters** engaged in **Export Transactions**. Proceeds may be used for **Domestic-to-Foreign Exports** and **Foreign-to-Foreign Exports**.\n- **Debt refinancing** under a Working Capital CAPLine is governed by **Appendix 14, Para. B.4**.\n\n#### Prohibited uses\n\n- Paying **delinquent withholding taxes or similar funds held in trust** (for example, state or local sales taxes);\n- **Floor plan financing**.\n\n#### When proceeds end up in fixed assets\n\nBorrowers sometimes use a working capital line to buy a truck or a machine. If that happens, the Lender **must refinance the portion of the line used for the fixed asset into an appropriate term facility no later than 90 days after the Lender discovers** it.\n\n> **Watch out:** The 90-day clock starts when the **Lender discovers** the fixed asset use, not when the asset was bought. Document the discovery date.\n\n#### CAPLines for Exporters versus EWCP\n\nAn exporter can use a Working Capital CAPLine, but the guaranty rules differ from the Export Working Capital Program (EWCP). The SOP flags that the **maximum guaranty amounts and percentages for CAPLines to Exporters are in Appendix 16, Para. B.4, and are different than those for EWCP**.\n\n| Question | Working Capital CAPLine |\n|---|---|\n| Who qualifies | Businesses with A/R (not notes receivable) and/or inventory |\n| Allowed | Short-term working capital; export transactions; refinancing per Appendix 14, Para. B.4 |\n| Not allowed | Trust fund taxes, floor plan financing |\n| Fixed asset leakage | Refinance into a term facility within 90 days of discovery |",
+      "keyPoints": [
+        "Applicant must generate accounts receivable (not notes receivable) and/or have inventory",
+        "Proceeds only for short-term working capital/operating needs",
+        "No delinquent withholding taxes or similar trust funds, and no floor plan financing",
+        "If proceeds buy fixed assets, refinance that portion into a term facility within 90 days of discovery",
+        "Exporters may use the line for domestic-to-foreign and foreign-to-foreign exports",
+        "CAPLines to Exporters have different guaranty rules than EWCP (Appendix 16, Para. B.4)"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. A (Working Capital CAPLines)"
+    },
+    {
+      "id": "b4-contract-eligibility",
+      "title": "Contract CAPLines: eligibility and uses",
+      "body": "A **Contract CAPLine** finances the cost of performing **specific contracts**. It is built around the contract, not the general business.\n\n#### Eligibility\n\nThe Applicant must:\n\n1. Demonstrate the ability to **operate profitably based on prior completion of similar contracts**;\n2. Have the overall ability to **bid, accurately project costs, and perform** the specific type of work; and\n3. Have the **financial capacity and technical expertise** to complete the contract **on time and at a profit**.\n\n#### Eligible uses\n\nProceeds may finance **only the costs of one or more specific contracts**, including **overhead or general and administrative expenses allocable to those contracts**.\n\n#### Prohibited uses\n\nContract CAPLine proceeds may **not** be used:\n\n| # | Prohibited use |\n|---|---|\n| 1 | Permanent working capital |\n| 2 | Acquiring fixed assets |\n| 3 | Paying delinquent taxes or similar trust funds (directly or indirectly) |\n| 4 | Refinancing existing debt |\n| 5 | Financing a contract in which **significant performance has already begun** |\n| 6 | Financing a change of ownership |\n| 7 | Floor plan financing |\n| 8 | Covering any **mark-up or profit** |\n\n#### Keep each contract's money separate\n\n- Advances that finance one contract or sub-contract under a master agreement **may not** finance another.\n- Progress payments received on one contract **must not** repay a different contract. Funding and payments must be accounted for by the specific contract they relate to.\n\n#### One line, many contracts\n\nA single Contract CAPLine can fund **one or several contracts**. **Once SBA approves the overall line amount**, the Lender may **advance against additional contracts without SBA approval**, as long as the Borrower and Lender comply with all terms.\n\n#### Change orders\n\n- **Price increase:** If a properly executed change order raises the contract price and the overall line needs to grow, the Lender must follow **Ch. 6, Para. B.2** (SBA loans that have been fully disbursed) to get SBA's approval of the increase.\n- **Price decrease:** The Lender must make sure the Borrower knows that the **next future advance(s)** will be at the **decreased amount**.\n\n> **Watch out:** Contract CAPLines fund costs, never profit. Budgets that include the contractor's mark-up must be stripped back to cost.",
+      "keyPoints": [
+        "Applicant must show profitable completion of similar contracts, ability to bid and cost jobs, and capacity to finish on time at a profit",
+        "Proceeds finance only the costs of specific contracts, including allocable overhead and G&A",
+        "Eight prohibited uses, including permanent working capital, fixed assets, refinancing and mark-up or profit",
+        "No financing a contract where significant performance has already begun",
+        "Advances and progress payments must stay with their own contract or sub-contract",
+        "After SBA approves the overall line, the Lender may advance against new contracts without SBA approval if all terms are met"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. A (Contract CAPLines)"
+    },
+    {
+      "id": "b4-seasonal-builders-eligibility",
+      "title": "Seasonal and Builders CAPLines: eligibility and uses",
+      "body": "#### Seasonal CAPLines\n\n**Eligibility.** The Applicant must:\n\n1. Have been **in operation for at least 12 calendar months**; and\n2. Demonstrate a **definite pattern of seasonal activity**.\n\n**Uses.** Proceeds may be used **solely** to finance **seasonal increases of accounts receivable and inventory** (or, in some cases, associated increased labor costs). Funds must **not** be used to maintain activity during the **slow periods** of the cycle, or to **refinance existing debt**.\n\n#### Builders CAPLines\n\nBuilders CAPLines (**13 CFR 120.391-120.397**) finance **small general contractors** to construct or rehabilitate **residential or commercial property for resale**. This is an **exception** to the general rule against financing investment property. \"Construct\" and \"rehabilitate\" mean **only on-site work** to the structure, utility connections, and landscaping.\n\n**Eligibility.** The Applicant must:\n\n1. Be a **construction contractor or homebuilder** with demonstrated managerial and technical ability in profitable construction or renovation;\n2. Either **perform the work** or manage the job with **at least one supervisory employee on the job site during the entire construction phase**;\n3. Make renovations **\"prompt and significant\"**: construction must begin within a reasonable time after approval, and renovation cost must be **at least one-third (1/3) of the purchase price**. For buildings the Applicant already owns, renovation cost must be **at least 1/3 of fair market value at the time of application**;\n4. Show a successful record of bidding and completing **comparable** projects at a profit within the estimated period (single-family experience is **not** comparable to high-rise apartments); and\n5. Show **prompt payment** to suppliers and subcontractors.\n\n**Uses (13 CFR 120.394 and 120.397).** Proceeds pay only **direct expenses** of construction and/or **substantial** renovation of a specific eligible project: labor, supplies, materials, equipment rental, direct fees (building permits, interim inspection fees), utility connections, septic tanks and landscaping.\n\n| Cost | Rule |\n|---|---|\n| Subcontractor payments | May include the subcontractor's profit |\n| Land | Eligible if it does **not exceed 33%** of project cost |\n| Subdivision-wide improvements (streets, curbs, sidewalks, open space) | Up to **5%** of project cost |\n| Vacant land for possible future construction | Not eligible |\n| Operating or holding rental property for future rehab | Not eligible |\n| Refinancing existing debt | Not eligible |\n\n**Other rules.** One line may fund **multiple projects**; after SBA approves the overall line, the Lender may advance against additional projects without SBA approval if all terms are met. SBA may allow the finished property to be **rented pending sale only if rental will enhance the ability to sell**. The **final sale must be arm's length**, with legal transfer to an **unaffiliated third party**.",
+      "keyPoints": [
+        "Seasonal: in operation at least 12 calendar months with a definite seasonal pattern",
+        "Seasonal proceeds finance only seasonal increases in A/R and inventory (or related labor), not slow periods or refinancing",
+        "Builders (13 CFR 120.391-120.397): small general contractors building or rehabbing property for resale",
+        "Renovation must be prompt and significant: cost at least 1/3 of purchase price (or 1/3 of FMV if already owned)",
+        "Land is eligible if it does not exceed 33% of project cost; up to 5% for subdivision-wide improvements",
+        "Final sale must be arm's length to an unaffiliated third party; rental pending sale only if it helps the sale"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. A (Seasonal CAPLines; Builders CAPLines)"
+    },
+    {
+      "id": "b4-loan-sizing",
+      "title": "Sizing each CAPLine and pricing",
+      "body": "The **maximum loan amount for all CAPLines is $5,000,000**. Under **13 CFR 120.151**, the Lender must determine and document any **affiliates**; if affiliation exists, the maximum applies to the Applicant and all affiliates **as if they were one business**.\n\nWithin that cap, each subprogram has its own sizing method.\n\n#### Working Capital CAPLines\n\nFor lines **not** administered with a Borrowing Base Certificate (BBC), the Lender must either:\n\n1. Follow its established policies for **similarly-sized, non-SBA guaranteed commercial lines**; or\n2. Use the SOP formula:\n   - **Prior Year Net Sales / 365** = daily sales;\n   - **Daily sales x number of days to finance** (the business's sales cycle) = estimated working capital need.\n\nFor lines administered **with a BBC**, the Lender may size the line based on the **availability of collateral** and the Borrower's **expected working capital need**.\n\n> **In practice:** A distributor with $3,650,000 of prior-year net sales has daily sales of $10,000. With a 60-day sales cycle, the estimated need is $600,000.\n\n#### Contract CAPLines\n\n| Structure | Loan amount |\n|---|---|\n| Single contract, single payment | Sum of the contract's costs, per the project cost schedule |\n| Single contract, multiple payments | Amount needed to cover **20% over the greatest projected cash deficit** (lets the line revolve within the contract term) |\n| Multiple contracts | Master note = sum of costs of all contracts to be financed; each sub-note = total costs of that contract. For future contracts, identify all costs by line item when the contract is obtained |\n\n#### Seasonal CAPLines\n\nBased on **cash flow projections**, correlating to the costs of the **seasonal build-up** of inventory and/or receivables.\n\n#### Builders CAPLines\n\n- **Non-revolving:** based on the Applicant's **written proposal of costs** (not anticipated selling price) for a single project.\n- **Revolving:** master note based on cash flow projections for **all** work the business will perform; each sub-note based on the written cost proposal for that project.\n\n#### Guaranty, maturity and pricing\n\nGuaranty: **Appendix 16, Para. B.4**. Maturity: **Appendix 17, Para. B.5**. Interest: **Appendix 18, Para. B.5**. The maximum fixed rate is on SBA's Wiki page; maximum variable rates are:\n\n| Loan amount | Maximum variable rate |\n|---|---|\n| $50,000 or less | Prime or SBA Optional Peg Rate + 6.5% |\n| $50,001 up to and including $250,000 | Prime or SBA Optional Peg Rate + 6.0% |\n| $250,001 up to and including $350,000 | Prime or SBA Optional Peg Rate + 4.5% |\n| $350,001 and greater | Prime or SBA Optional Peg Rate + 3.0% |",
+      "keyPoints": [
+        "Maximum CAPLines loan: $5,000,000, applied to the Applicant and all affiliates as one business",
+        "Working Capital without a BBC: use the Lender's own policies or (Prior Year Net Sales / 365) x days in the sales cycle",
+        "Working Capital with a BBC: size based on available collateral and expected need",
+        "Contract, single contract with multiple payments: 20% over the greatest projected cash deficit",
+        "Seasonal: based on cash flow projections of the seasonal build-up",
+        "Builders: based on the written cost proposal, not the anticipated selling price"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. B (Loan Terms and Conditions for all CAPLines)"
+    },
+    {
+      "id": "b4-credit-standards",
+      "title": "Credit standards and processing for CAPLines",
+      "body": "#### The CAPLines twist on cash flow\n\nCAPLines follow the same credit foundation as all 7(a) loans: **13 CFR 120.101 and 120.150**, and analysis in a **commercially reasonable manner consistent with prudent lending standards**. Cash flow is the **primary source of repayment**.\n\nWhat is different for CAPLines: **the cash flow of the Applicant may include the conversion of assets to cash.** That matches how these lines work - a seasonal retailer repays when holiday inventory sells, a contractor repays when the contract pays, a builder repays when the house sells.\n\nThe rule still bites: if the analysis shows the Applicant **lacks reasonable assurance of timely repayment from business cash flow**, the request **must be declined, regardless of collateral or outside sources of repayment**.\n\n#### Processing methods\n\n| | Non-delegated | Delegated (PLP) |\n|---|---|---|\n| Submission | Lender submits the application and supporting documents to SBA | Lender processes under its PLP authority |\n| Final credit and eligibility decision | **SBA**, including uses of proceeds, collateral adequacy, structure, and any equity contribution | **Lender**, following SBA Loan Program Requirements and documenting its file |\n| SBA credit review before loan number | Yes | No |\n| Later SBA review | - | At **guaranty purchase** or during **lender oversight** |\n\nSubmission of the application follows **Appendix 20, Submission of Application for Guaranty**.\n\n> **Watch out:** \"Conversion of assets to cash\" is not the same as \"liquidating collateral.\" The SOP allows normal-course conversion (collecting receivables, selling inventory or finished homes) to count as cash flow. It does not let a Lender approve a weak credit because of a large collateral cushion.\n\n> **In practice:** Unlike the MARC chapter, the CAPLines chapter contains no rule requiring PLP lenders to process under PLP. Check Appendix 20 for the submission rules that apply to each delivery method.",
+      "keyPoints": [
+        "Credit standards start with 13 CFR 120.101 and 120.150",
+        "Cash flow is the primary repayment source, and for CAPLines it may include conversion of assets to cash",
+        "Decline if cash flow does not give reasonable assurance of timely repayment, regardless of collateral",
+        "Non-delegated: SBA makes the final eligibility and credit determination",
+        "Delegated (PLP): no SBA credit review before a loan number; review at purchase or in oversight",
+        "Submission follows Appendix 20"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. C (Credit Standards for all CAPLines)"
+    },
+    {
+      "id": "b4-credit-memo",
+      "title": "The CAPLines credit memo and DSC test",
+      "body": "The credit memo must show the Applicant's **ability and likelihood to repay from business cash flow and past performance**.\n\n#### 1. Business description\n\n- Nature of the business; time in business **under current management**; management's industry experience;\n- The management team and principals' **daily onsite involvement** (or how operations are managed if they are not there daily);\n- For an FTC-defined **franchise**, review credit information such as **failed franchisees** and franchisor cash flow projections. Review any **management agreement** (unless it is part of the franchise disclosure documents for a Franchise Directory brand) to determine whether it creates an **ineligible passive company**.\n\n#### 2. Financial analysis\n\n| Applicant | Basis |\n|---|---|\n| Existing business | **Three most recent years** of historical financials (tax returns or balance sheet with debt schedule and income statement) **plus an interim** statement (13 CFR 120.191) |\n| New business | **Detailed projections** with supporting assumptions reflecting **positive cash flow within 2 years** |\n\nAs applicable, the analysis addresses:\n\n- Historical cash flow showing total DSC **after** the SBA loan. If the **most recent full year and interim** do not show sufficient coverage, the Lender must obtain and analyze **2 years of detailed projections** with assumptions justifying reliance on them;\n- **Operating cash flow (OCF)**, defined as **EBITDA**;\n- Justified adjustments: unfunded capex, non-recurring income, expenses and distributions, S-Corp tax distributions, rent, owner's draw, and **global cash flow** including affiliates; and the effect of affiliates on repayment.\n\n#### 3. The DSC rule\n\n**Debt Service (DS)** is the future required principal and interest on **all business debt, including the new SBA loan**. The DSC ratio **(OCF/DS) must be at least 1.15** on a historical and/or projected basis, and **1:1 on a global basis**. A current **debt schedule prepared by the Applicant, including shareholder debt**, is important.\n\n#### 4. Everything else in the memo\n\n- Projection assumptions: revenue growth, expense reductions, comparison to industry trends;\n- **Pro forma balance sheet** and ratios (Current Ratio, Debt/Tangible Net Worth, DSC, turnover ratios) compared with industry trends;\n- **Working capital adequacy, at a minimum over the next 12 months**;\n- Insurance: life insurance (on whom, how much, or justification for none), hazard and liability;\n- **Refinancing** explanation and documentation under **Appendix 14**, plus a **written explanation of any late payments over the past 12 months**;\n- Rationale for approval: credit not available elsewhere (**Section A, Ch. 1, Para. H**), competition, seller financing, standby agreements, 90+ day delinquencies, trade disputes, government citations, liens, judgments, bankruptcies, pending litigation (including divorce), and other relevant information.",
+      "keyPoints": [
+        "Existing businesses: 3 most recent years of historical financials plus an interim (13 CFR 120.191)",
+        "New businesses: detailed projections reflecting positive cash flow within 2 years",
+        "DSC (OCF/DS) must be at least 1.15 historical and/or projected, and 1:1 global",
+        "If the latest full year and interim do not show sufficient DSC, obtain and analyze 2 years of projections",
+        "Working capital adequacy analysis covers at least the next 12 months",
+        "Explain any refinancing (Appendix 14) and any late payments in the past 12 months"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. C (Underwriting)"
+    },
+    {
+      "id": "b4-equity",
+      "title": "Equity requirements and what counts as equity",
+      "body": "#### Who decides\n\nUnder **13 CFR 120.150**, the **Lender (PLP loans)** or **SBA (non-delegated loans)** decides whether the **equity position, any required equity contribution, and pro forma debt-to-worth** are acceptable, based on the type of business, management experience and competition. The credit memo must discuss **net worth** and any required injection in detail. Ch. 6, Para. D (Loan Closing and Disbursement) covers documenting and verifying the injection.\n\n#### Minimum for start-ups\n\nSBA considers an equity injection of **at least 10 percent of total project costs** necessary for a **Start-Up Business**. Total project costs mean all costs required to become operational, regardless of the source of funds, **except lines of credit and 504 loans**. A business is a \"start-up\" if it has been **in operation (generating revenue from intended operations) for 1 year or less**.\n\n#### What can count as equity\n\n| Source | Conditions |\n|---|---|\n| **Standby debt** | Only debt on **full standby** - no principal or interest payments for the term of the 7(a) loan. Use **SBA Form 155** or an equivalent, with a copy of the note attached. Interest may accrue and be amortized after the 7(a) loan is paid off. The standby creditor must subordinate its liens and take no action without the Lender's consent |\n| **Cash** | Not borrowed, whether on the balance sheet or from another source (e.g. a gift) |\n| **Personal loan cash** | Only if repayment comes from a source **other than business cash flow** - salary paid to the owner by the business does **not** qualify |\n| **Grants** | No repayment or clawback provisions during the life of the 7(a) loan |\n| **Non-cash assets** | Independent third-party appraisal or valuation required if valued above **Net Book Value**; a valuation inside a business valuation does **not** meet this |\n| **Prepaid expenses** | Verified with paid invoices, canceled checks or bank statements, retained in the file. **Education, advisory services and fees paid to an Agent do not count** |\n| **Equity investment** | Not subject to an agreement to repay or make distributions to recover the investment before the guaranty is released. Otherwise (e.g. some redeemable preferred stock) SBA treats it as **debt** |\n\n> **Watch out:** A seller note that pays \"interest only\" is **not** on full standby and cannot count as equity.\n\n> **In practice:** A start-up's CAPLine itself is excluded from total project costs when computing the 10% injection.",
+      "keyPoints": [
+        "Lender (PLP) or SBA (non-delegated) decides if equity, any required contribution and pro forma debt-to-worth are acceptable",
+        "Start-up businesses (operating 1 year or less): at least 10% of total project costs",
+        "Project costs for the 10% test exclude lines of credit and 504 loans",
+        "Standby debt counts only if on full standby (no principal or interest) for the term of the 7(a) loan; use SBA Form 155 or equivalent",
+        "Personal loans count only if repaid from a source other than business cash flow (owner salary does not qualify)",
+        "Education, advisory and Agent fees are not eligible prepaid expenses"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. C (Equity requirements)"
+    },
+    {
+      "id": "b4-collateral-fees",
+      "title": "Collateral, guaranties and fees",
+      "body": "#### Collateral and guaranties\n\nThe CAPLines chapter does not restate collateral rules. They are in **Appendix 19 (7(a) Collateral Requirements), Para. B.5**. Personal guaranty requirements follow **Section A, Ch. 5, Para. A**.\n\nFor a Working Capital CAPLine that is **not** run on a borrowing base, the chapter adds its own 1:1 collateral discipline in the closing and disbursement section (covered in the next chapter), including advance rates for receivables, inventory, equipment and real estate.\n\n#### Fees\n\nThe baseline is **Section A, Ch. 4** (ethics, fees and Agents), including the fees in **Para. C.2**.\n\nOn top of that, at the time of the **annual review**, the Lender may charge **extraordinary servicing fees in excess of 2%** - but **only for Working Capital CAPLine loans disbursed based on a Borrowing Base Certificate**. Those fees must be:\n\n- **Reasonable and prudent** based on the level of extraordinary effort required; and\n- **No higher** than the fees the Lender charges on its **similarly-sized, non-SBA guaranteed commercial loans**.\n\n| Line | Extraordinary servicing fee above 2% at annual review? |\n|---|---|\n| Working Capital CAPLine on a BBC | Yes, if reasonable and not above the Lender's comparable non-SBA fees |\n| Working Capital CAPLine not on a BBC | Not under this provision |\n| Contract, Seasonal, Builders | Not under this provision |\n\n#### Compare with MARC\n\n| | MARC | Working Capital CAPLine (BBC) |\n|---|---|---|\n| Fee basis | 50 bp of max loan amount, or up to 2% of outstanding balance if asset-based (one category only) | In excess of 2%, reasonable, capped by Lender's own comparable fees |\n| Prior SBA approval | Blanket waiver | Not addressed in this chapter; follow Section A, Ch. 4 |\n\n> **Watch out:** The \"in excess of 2%\" permission is tied to **BBC-disbursed Working Capital CAPLines**. Do not extend it to Contract or Seasonal lines just because they are also CAPLines.",
+      "keyPoints": [
+        "Collateral: Appendix 19, Para. B.5; guaranties: Section A, Ch. 5, Para. A",
+        "General fee rules: Section A, Ch. 4 (including Para. C.2)",
+        "At annual review, extraordinary servicing fees above 2% allowed only for Working Capital CAPLines disbursed on a BBC",
+        "Those fees must be reasonable, prudent for the effort, and no higher than on similar non-SBA loans"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. C (Collateral) and Para. D (Fees)"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "CAPLines",
+      "definition": "7(a) lines of credit under 13 CFR 120.390 that finance short-term operating capital needs, revolving or non-revolving, through four subprograms."
+    },
+    {
+      "term": "Working Capital CAPLine",
+      "definition": "An asset-based revolving line for businesses that generate accounts receivable and/or have inventory, repaid from cash sales and collections."
+    },
+    {
+      "term": "Contract CAPLine",
+      "definition": "A line that finances the costs (never profit) of one or more specific contracts, including allocable overhead and G&A."
+    },
+    {
+      "term": "Seasonal CAPLine",
+      "definition": "A line for businesses in operation at least 12 months with a definite seasonal pattern, financing the seasonal build-up of receivables and inventory."
+    },
+    {
+      "term": "Builders CAPLine",
+      "definition": "A line under 13 CFR 120.391-120.397 for small general contractors to construct or substantially rehabilitate residential or commercial property for resale."
+    },
+    {
+      "term": "Prompt and significant",
+      "definition": "Builders CAPLine standard: construction begins within a reasonable time after approval and renovation cost is at least 1/3 of purchase price (or of FMV if already owned)."
+    },
+    {
+      "term": "Operating cash flow (OCF)",
+      "definition": "For CAPLines underwriting, defined as EBITDA; DSC is OCF divided by debt service."
+    },
+    {
+      "term": "Debt Service (DS)",
+      "definition": "Future required principal and interest payments on all business debt, including the new SBA loan proceeds."
+    },
+    {
+      "term": "Start-up business (equity)",
+      "definition": "A business in operation, meaning generating revenue from intended operations, for 1 year or less; needs at least 10% equity injection of total project costs."
+    },
+    {
+      "term": "Full standby",
+      "definition": "Debt on which no principal or interest is paid for the term of the 7(a) loan; only such debt can count as equity, documented on SBA Form 155 or an equivalent."
+    },
+    {
+      "term": "Master note and sub-note",
+      "definition": "A structure for multiple contracts or projects: the master note covers the total line, and each sub-note covers one specific contract or project."
+    },
+    {
+      "term": "Change order",
+      "definition": "A properly executed agreement between contracting parties that raises or lowers the contract price after the Contract CAPLine is approved."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "b4a-q1",
+      "question": "What is the maximum loan amount for a CAPLines loan?",
+      "options": [
+        "$5,000,000",
+        "$2,000,000",
+        "$500,000",
+        "$1,000,000"
+      ],
+      "correctIndex": 0,
+      "explanation": "The SOP sets the maximum for all CAPLines at $5,000,000, applied to the Applicant and its affiliates as one business. $2,000,000 is a threshold used within Working Capital CAPLines administration (BBC requirement) and the MARC cap for non-manufacturers, not the CAPLines maximum.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. B (Maximum Loan Amount)",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b4a-q2",
+      "question": "Which Applicant meets the specific eligibility requirement for a Working Capital CAPLine?",
+      "options": [
+        "A business whose only receivables are long-term notes receivable from customers",
+        "A wholesaler that generates trade accounts receivable and holds inventory",
+        "A cash-only consulting firm with no inventory",
+        "A real estate investor that holds rental properties"
+      ],
+      "correctIndex": 1,
+      "explanation": "A Working Capital CAPLine Applicant must generate accounts receivable (not notes receivable) and/or have inventory. Notes receivable specifically do not qualify, and a business with neither receivables nor inventory has nothing to lend against.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. A (Working Capital CAPLines)",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b4a-q3",
+      "question": "During a site visit, a Lender discovers that a Working Capital CAPLine borrower used $80,000 of line proceeds to buy a delivery truck four months ago. What must the Lender do?",
+      "options": [
+        "Nothing, since the truck supports operations",
+        "Demand immediate repayment of the full line",
+        "Refinance that portion into an appropriate term facility no later than 90 days after discovering it",
+        "Refinance that portion within 90 days of the truck purchase date, which has already passed"
+      ],
+      "correctIndex": 2,
+      "explanation": "If Working Capital CAPLine proceeds are used to acquire fixed assets, the Lender must refinance that portion into an appropriate term facility no later than 90 days after the Lender discovers it. The clock runs from discovery, not from the purchase date.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. A (Working Capital CAPLines)",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b4a-q4",
+      "question": "Which cost may be financed with a Contract CAPLine?",
+      "options": [
+        "The contractor's mark-up on the contract",
+        "A new excavator to be used on the job",
+        "Costs of a contract in which significant performance has already begun",
+        "General and administrative expenses allocable to the specific contract"
+      ],
+      "correctIndex": 3,
+      "explanation": "Contract CAPLine proceeds may finance the costs of specific contracts, including overhead or G&A allocable to them. Mark-up or profit, fixed assets, and contracts where significant performance has already begun are all on the prohibited list.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. A (Contract CAPLines)",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b4a-q5",
+      "question": "What must an Applicant show to be eligible for a Seasonal CAPLine?",
+      "options": [
+        "At least 12 calendar months in operation and a definite pattern of seasonal activity",
+        "At least 24 months in operation and two years of profitable seasons",
+        "Any time in operation, as long as projections show a seasonal peak",
+        "At least 12 months in operation and a 1:1 collateral ratio"
+      ],
+      "correctIndex": 0,
+      "explanation": "A Seasonal CAPLine Applicant must have been in operation for at least 12 calendar months and be able to demonstrate a definite pattern of seasonal activity. There is no 24-month requirement and projections alone do not satisfy it.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. A (Seasonal CAPLines)",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b4a-q6",
+      "question": "A homebuilder buys a house for $300,000 to renovate and resell under a Builders CAPLine. What is the minimum renovation cost for the work to be considered prompt and significant?",
+      "options": [
+        "$75,000 (25% of purchase price)",
+        "$100,000 (one-third of purchase price)",
+        "$150,000 (50% of purchase price)",
+        "$99,000 (33% of project cost)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Renovation cost must equal or exceed one-third (1/3) of the purchase price of the property, here $100,000. The 33% figure is the separate cap on land as a share of project cost, not the renovation threshold.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. A (Builders CAPLines)",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b4a-q7",
+      "question": "Which Builders CAPLine use of proceeds complies with the SOP?",
+      "options": [
+        "Buying a vacant lot for possible future construction",
+        "Holding a rental property until a future rehabilitation",
+        "Paying a subcontractor's invoice that includes the subcontractor's profit",
+        "Refinancing the builder's existing construction loan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Proceeds paid to a subcontractor can include the subcontractor's profit. Buying vacant land for possible future construction, operating or holding rental property for future rehab, and refinancing existing debt are all prohibited.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. A (Builders CAPLines - Eligible Uses of Proceeds)",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b4a-q8",
+      "question": "A distributor had prior-year net sales of $7,300,000 and a 45-day sales cycle. The Lender will not use a BBC and chooses the SOP formula. What is the estimated working capital need?",
+      "options": [
+        "$600,000",
+        "$730,000",
+        "$1,460,000",
+        "$900,000"
+      ],
+      "correctIndex": 3,
+      "explanation": "Prior Year Net Sales / 365 = $20,000 daily sales; $20,000 x 45 days = $900,000. The other figures come from using the wrong number of days or dividing by the wrong period.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. B (Working Capital CAPLines)",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b4a-q9",
+      "question": "A contractor will finance a single contract that pays in several progress payments. Its projected cash flow shows the greatest cash deficit during the contract is $400,000. How is the Contract CAPLine amount set?",
+      "options": [
+        "$480,000 - enough to cover 20% over the greatest projected cash deficit",
+        "$400,000 - equal to the greatest projected cash deficit",
+        "The full contract price, including profit",
+        "The sum of all contract costs, regardless of payment timing"
+      ],
+      "correctIndex": 0,
+      "explanation": "For a single contract with multiple payments, the loan amount covers 20% over the greatest projected cash deficit, which lets the line revolve within the contract term: $400,000 x 1.2 = $480,000. The sum of all costs is the method for a single contract with a single payment.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. B (Contract CAPLines)",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b4a-q10",
+      "question": "What debt service coverage does the CAPLines chapter require?",
+      "options": [
+        "1.25 historical and 1.10 global",
+        "OCF/DS of at least 1.15 on a historical and/or projected basis and 1:1 on a global basis",
+        "1.10 historical and 1:1 global",
+        "1.15 on a global basis only"
+      ],
+      "correctIndex": 1,
+      "explanation": "The SOP requires the Applicant's DSC (OCF/DS) to be at least 1.15 on a historical and/or projected cash flow basis and 1:1 on a global basis. 1.10 is the MARC annual review test, not a CAPLines origination requirement.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. C (Underwriting)",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b4a-q11",
+      "question": "A CAPLines Applicant has been generating revenue from its intended operations for 10 months. A family member lends the owner money, to be repaid from the salary the business pays the owner. Can the borrowed cash count as equity injection?",
+      "options": [
+        "Yes, because any cash injected into the business counts",
+        "Yes, if the family member signs SBA Form 155",
+        "No, because cash from a personal loan counts only if repaid from a source other than the business's cash flow, and owner salary paid by the business does not qualify",
+        "No, because start-up businesses cannot use any borrowed funds for equity"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cash from a personal loan counts as equity only if repayment can be shown to come from a source other than business cash flow, and salary paid to the owner by the business does not qualify. Form 155 is for standby debt owed by the business, and borrowed funds are not banned outright.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. C (Equity requirements)",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b4a-q12",
+      "question": "Under the CAPLines chapter, when may a Lender charge extraordinary servicing fees in excess of 2% at the annual review?",
+      "options": [
+        "On any CAPLine, if the Lender obtains SBA's prior written approval",
+        "On Contract CAPLines with an assignment of contract proceeds",
+        "On Seasonal CAPLines monitored with monthly BBCs",
+        "On Working Capital CAPLines disbursed based on a BBC, if reasonable and not higher than the Lender's comparable non-SBA fees"
+      ],
+      "correctIndex": 3,
+      "explanation": "The fee above 2% is limited to Working Capital CAPLine loans disbursed based on a Borrowing Base Certificate, and must be reasonable, prudent for the effort, and no higher than the Lender's fees on similarly-sized non-SBA guaranteed commercial loans. It does not extend to other CAPLines.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 4, Para. D (Fees that the Lender may Charge the Borrower)",
+      "difficulty": "applied"
+    }
+  ]
+}

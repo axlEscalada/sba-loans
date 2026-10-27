@@ -1,0 +1,395 @@
+{
+  "id": "a1-eligibility-part-3",
+  "order": 112,
+  "part": "A",
+  "program": "core",
+  "title": "Eligibility Part 3: Ownership, franchises and credit elsewhere",
+  "subtitle": "Citizenship and residency, the SBA Franchise Directory, the credit elsewhere test, and CIP/OFAC screening",
+  "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Paras. F-J",
+  "estimatedMinutes": 50,
+  "learningObjectives": [
+    "Apply the citizenship and residency requirements, including the six-month lookback and guarantor exceptions",
+    "Identify eligible persons and document the full ownership chain in the SBA Loan System",
+    "Determine when an agreement is a franchise and use the SBA Franchise Directory for delegated and non-delegated loans",
+    "Handle multi-brand, non-critical, development and management agreement scenarios",
+    "Write a compliant credit elsewhere analysis and avoid prohibited justifications",
+    "Explain CIP and OFAC obligations and when a CDC may rely on a Third Party Lender"
+  ],
+  "topics": [
+    {
+      "id": "citizenship-ownership",
+      "title": "Citizenship and residency: who may own and guarantee",
+      "body": "SBA financing is limited to businesses whose **100% direct and/or indirect owners** and **SBA-required guarantors** are all **U.S. Citizens or U.S. Nationals** with their **Principal Residence** in the United States, its territories, or possessions. Every **entity owner** (direct or indirect) must be created, organized, or incorporated in the U.S., its territories, or possessions.\n\n### The lender's certification\n\nFor every loan, the SBA Lender must **certify in the SBA Loan System** that, to the best of its knowledge, no direct or indirect owner or SBA-required guarantor is an **\"Ineligible Person\"** as defined in **Appendix 3** of the SOP. No loan may be made if any of them is.\n\n### Owners\n\n- If a direct or indirect owner is an Ineligible Person, the business is ineligible **unless** that person **completely divests** their ownership **before the SBA loan number is issued**.\n- **Six-month lookback:** the business is ineligible if **anyone who was a direct or indirect owner at any point starting 6 months before** the loan number is issued is an Ineligible Person, unless they completely divested before issuance.\n- **Undocumented aliens** in the U.S. illegally may not be an **officer, director, or employee** of the Applicant.\n\n### Guarantors\n\nIf any **SBA-required guarantor** (including an Operating Company in an EPC/OC structure, and including direct and indirect owners) is an Ineligible Person, the Applicant is ineligible, **with one exception**: when a **limited or supplemental guaranty** is required by the lender for its approval, or by SBA to support a pledge of **jointly held required collateral**, an Ineligible Person may provide a **limited guaranty**. Undocumented aliens in the U.S. illegally cannot use this exception.\n\n### Which businesses are covered\n\nWhen other businesses **report their taxes on the Applicant's tax return**, all businesses on that return are subject to these requirements. Affiliates and partially owned subsidiaries that file separately are **not**.\n\nFor **servicing requests** (e.g., substituting an owner or SBA-required guarantor), the new individual may not be an Ineligible Person.\n\n> **Watch out:** Divesting the week before the loan number is pulled works only if the divestiture is complete. Any retained interest, direct or indirect, keeps the business ineligible.",
+      "keyPoints": [
+        "100% of direct and indirect owners and SBA-required guarantors must be U.S. Citizens or U.S. Nationals with a Principal Residence in the U.S., its territories or possessions",
+        "All entity owners must be organized in the U.S., its territories or possessions",
+        "Lender certifies in the SBA Loan System that no owner or required guarantor is an Ineligible Person (Appendix 3)",
+        "Ineligible owner must completely divest before the SBA loan number is issued",
+        "Six-month lookback: anyone who was an owner in the 6 months before loan number issuance counts",
+        "Undocumented aliens may not be officers, directors or employees of the Applicant"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. F"
+    },
+    {
+      "id": "citizenship-eligible-documenting",
+      "title": "Eligible persons and documenting ownership",
+      "body": "### Who counts as eligible\n\n| Category | Who | Extra lender steps |\n|---|---|---|\n| **U.S. Citizens** | Generally, people born in an American territory, including the 50 states, the District of Columbia, Guam, Puerto Rico, the Commonwealth of the Northern Mariana Islands, and the U.S. Virgin Islands. **Not** the outlying possessions (American Samoa and Swains Island). | None beyond normal |\n| **U.S. Nationals** | People born in **American Samoa and Swains Island** are U.S. Nationals at birth but not automatically citizens (8 U.S.C. 1408 and 1101(a)(29)). | Document in the loan file that the lender reviewed evidence of U.S. National status (e.g., birth certificate or passport), and enter the person's **Social Security Number** on the application and in the SBA Loan System |\n| **Naturalized Citizens** | Citizens by naturalization | **None.** No special restrictions; no further verification if the individual is reflected as a U.S. Citizen on the SBA application |\n\nEveryone else - anyone who is not a U.S. Citizen or U.S. National with a U.S. Principal Residence - should be checked against the **Ineligible Person** definition in Appendix 3.\n\n### Documenting the ownership chain\n\nThe SBA Lender must **enter into the SBA Loan System 100% of the Applicant's direct and indirect owners**, both entity and individual owners. The same process applies to **guarantors** and to **servicing actions** (e.g., substituting an owner or required guarantor).\n\nTwo family rules:\n\n- The ownership percentages of **married spouses and minor children must be combined**.\n- SBA **prohibits** businesses where a **minor child owns 20% or more**, because minors are legally prohibited from providing a guaranty.\n\n### Example\n\nAn Applicant LLC is owned 70% by HoldCo, Inc. and 30% by Ana. HoldCo is owned 100% by Ben. The lender enters HoldCo (entity, direct), Ben (individual, indirect), and Ana (individual, direct) - every link up to the individuals - and confirms HoldCo is organized in the U.S. and that Ana and Ben are eligible persons.\n\n> **In practice:** An origination system should model the full ownership tree, not just direct owners, because both the citizenship certification and affiliation analysis need indirect owners.",
+      "keyPoints": [
+        "U.S. Citizens include those born in U.S. states, DC, Guam, Puerto Rico, CNMI and USVI",
+        "People born in American Samoa and Swains Island are U.S. Nationals, not automatically citizens",
+        "Non-citizen U.S. National: lender documents review of status evidence and enters the SSN on the application and in the SBA Loan System",
+        "Naturalized citizens: no special restrictions or further verification",
+        "Lender enters 100% of direct and indirect owners (entities and individuals) into the SBA Loan System, also for guarantors and servicing actions",
+        "Combine spouses' and minor children's ownership; minors may not own 20% or more"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. F"
+    },
+    {
+      "id": "franchise-scope-directory",
+      "title": "Franchises: what counts and the SBA Franchise Directory",
+      "body": "### What SBA treats as a franchise\n\nThe franchise procedures apply to every agreement or relationship SBA determines meets the **Federal Trade Commission (FTC) definition of \"franchise\"** in **16 CFR 436**. Relationships under a license, jobber, dealer or similar agreement are not usually called franchises, but if they meet the FTC definition SBA treats them as franchises.\n\nSpecifically included:\n\n- All agreements covered by the **Petroleum Marketing Practices Act (PMPA)**, 15 U.S.C. 2801 et al. - e.g., **gas stations** with distributor, fuel supply, dealer and/or jobber agreements - even though they are exempt from FTC disclosure requirements.\n- **Dealer agreements with a new car manufacturer** that meet the FTC definition.\n\nSBA considers only the **Applicant's own** franchise, license, or similar agreements, not those of other franchisees the Applicant owns or controls.\n\n### The SBA Franchise Directory\n\nSBA maintains the **SBA Franchise Directory** on its website: the list of franchise and other brands SBA has reviewed and found **eligible**. Placement on the Directory is **not an endorsement** or guaranty of the brand's success.\n\nThe core rule: **if the Applicant's brand meets the FTC definition of a franchise, it must be on the Directory** to obtain SBA financing.\n\nSBA also lists brands that look like franchises but do **not** meet the FTC definition, if they ask and are otherwise eligible. This reduces confusion.\n\nEach listing shows:\n\n1. whether SBA determined the brand meets the **FTC definition** of a franchise;\n2. the **SBA Franchise Identifier Code**, if applicable - issued **only** for brands that meet the FTC definition; and\n3. any **additional issues** the lender must consider (e.g., documentation that the business will be open to all, or review of a third-party management agreement).\n\n### Why the Directory matters to lenders\n\nSBA Lenders can **rely on the Directory** and **no longer need to review** franchise or brand documentation for eligibility, **except management agreements that are not part of the FDD**.\n\n> **In practice:** \"Is there a franchise?\" is a legal test, not a label. A gas station with a branded fuel supply agreement is a franchise for SBA purposes even if the owner calls it independent.",
+      "keyPoints": [
+        "Franchise = any relationship meeting the FTC definition in 16 CFR 436, including license, jobber, dealer agreements",
+        "PMPA relationships (e.g., gas station fuel supply/dealer/jobber agreements) and new car dealer agreements meeting the FTC definition are covered",
+        "Only the Applicant's own agreements are considered, not those of other franchisees it owns",
+        "If the brand meets the FTC definition, it MUST be on the Directory to get SBA financing",
+        "Directory lists: whether FTC franchise, SBA Franchise Identifier Code (FTC franchises only), and additional issues to consider",
+        "Lenders may rely on the Directory and need not review brand documents, except management agreements outside the FDD"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. G"
+    },
+    {
+      "id": "franchise-using-directory",
+      "title": "Using the Directory: lookups, multiple brands and non-critical agreements",
+      "body": "### When to check\n\nFor any application involving a relationship that meets the FTC franchise definition, the lender must check the Directory for the Applicant's brand **before**:\n\n1. **submitting** the application to SBA for **non-delegated** processing; or\n2. **approving** the loan under **delegated** authority.\n\n| Directory result | What happens |\n|---|---|\n| Brand **is** on the Directory | Proceed with submission or delegated approval |\n| Brand **is not** on the Directory | Non-delegated: lender **cannot submit**. Delegated: lender **cannot approve**. Lender should tell the Applicant and/or franchisor how to get the brand added |\n\n### Applicants with multiple agreements\n\nWhen the Applicant operates under **multiple agreements** (multiple product lines):\n\n- The lender must check that **all** agreements meeting the FTC franchise definition are on the Directory. **If any one is missing, the application cannot proceed.**\n- If **any** of the Applicant's brands or agreements has been determined **ineligible** by SBA, the loan cannot be processed, **whether or not** that agreement meets the FTC definition.\n\n### Single, non-critical agreement\n\nIf the Applicant operates under a **single** agreement that is **not critical** to its business - meaning it represents **50% or less** of the Applicant's revenues:\n\n- If the agreement meets the FTC definition, it must be on the Directory; if it is not, the application cannot proceed.\n- If it is not on the Directory and the lender determines it **does not** meet the FTC definition, the lender must determine that the **brand is eligible** (e.g., no discriminatory hiring practices, not an ineligible passive business) before proceeding.\n- SBA makes the final determination for **non-delegated** applications. For **delegated** applications, SBA reviews the lender's determination at **guaranty purchase or oversight** (7(a)) or **before closing** (504). **The delegated lender bears the risk** of an incorrect determination.\n\n**SOP example:** an auto body shop that also rents trucks and trailers under an agreement that produces 10% of its revenue. The lender checks the Directory; if the agreement is not listed and is not an FTC franchise, the lender confirms the brand is eligible before proceeding.\n\n> **Watch out:** \"Non-critical\" does not exempt an FTC franchise from the Directory requirement. It only matters when the agreement is not an FTC franchise.",
+      "keyPoints": [
+        "Check the Directory before submitting a non-delegated application or approving under delegated authority",
+        "Brand not on Directory: non-delegated cannot submit; delegated cannot approve",
+        "Multiple agreements: every FTC-franchise agreement must be listed; any ineligible brand stops the loan",
+        "Single non-critical agreement (50% or less of revenue): still must be on Directory if it is an FTC franchise; if not an FTC franchise, lender determines brand eligibility",
+        "Delegated lender bears the risk of an incorrect determination"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. G"
+    },
+    {
+      "id": "franchise-adding-submitting",
+      "title": "Adding brands and submitting franchise loan applications",
+      "body": "### Adding a brand to the Directory\n\n1. The **franchisor** submits the agreement, the **FDD** (if applicable), and **all other documents** the franchisee must sign to **franchise@sba.gov**. If someone else submits, they must include the franchisor's name and email address only. Brands are reviewed **in the order received**; SBA may request the operations manual and other documents.\n2. The SBA Franchise Team refers brands that may involve **promoting religion**, **prurient** activities, **catering to one gender**, **litigation involving the federal government**, or other issues it deems appropriate to the **Associate General Counsel for Litigation** for a **final Agency decision**.\n3. If eligible, SBA sends the **Franchisor Certification** or **Distributor Certification** for signature. Once the signed certification is returned to franchise@sba.gov, SBA lists the brand and assigns an **SBA Franchise Identifier Code**. A brand that does **not** meet the FTC definition is listed, marked as such, and gets **no** code.\n4. SBA may **remove** a brand (non-compliance with the certification, illegal activity, false or withheld material information, a State order barring operation, loss of eligibility, or other cause) after **30 days' notice** and an opportunity to respond.\n\n### Submitting the loan application\n\n| Step | Non-delegated (no PLP authority) | Delegated |\n|---|---|---|\n| FTC franchise | Enter franchise name and **SBA Franchise Identifier Code** in the SBA Loan System; brand name and agreement type must **match** the Directory | Same, plus **document in the file** that the brand is on the Directory |\n| Other franchise documents | **None** submitted with the application; SBA confirms the listing | Proof of listing goes with the **guaranty purchase request** (7(a)) or to **CDC closing counsel** for the Opinion of Counsel (504) |\n| Brand not listed and lender says not an FTC franchise | Explain in the **credit memorandum**, provide the agreement, other required documents and franchisor contact (name and email); SBA Franchise Team decides | **7(a):** may approve; SBA reviews at purchase or oversight; lender bears the risk. **504:** must send documents to franchise@sba.gov and wait for SBA's final determination |\n\n**Multiple brands:** enter the name and code of the brand generating the **largest** share of revenue; identify all other brands and codes in the credit memo. SBA confirms all brands are eligible on non-delegated loans; delegated lenders document it.\n\n### Getting the executed documents\n\nThe lender must obtain the **executed franchise agreement** and any other documents the franchisor requires the franchisee to sign. Reviewing the FDD is prudent but it need not be retained.\n\n- **7(a):** obtain **before any disbursement**. They must be provided with any guaranty purchase request.\n- **504:** the CDC obtains them **before closing** and sends them to **CDC closing counsel**, who certifies legal sufficiency in the **Opinion of CDC Counsel** submitted to District Counsel (required by SBA Form 2268, the 504 Debenture Closing Checklist).\n\nSBA may review these documents during lender oversight.",
+      "keyPoints": [
+        "Franchisor submits agreement, FDD and all required franchisee documents to franchise@sba.gov; reviewed in order received",
+        "Sensitive brands (religion, prurient, one-gender, federal litigation) go to the Associate General Counsel for Litigation for a final Agency decision",
+        "Brand listed after signed Franchisor or Distributor Certification; removal requires 30-day notice and opportunity to respond",
+        "Enter franchise name and SBA Franchise Identifier Code in the SBA Loan System; brand name and agreement type must match the Directory",
+        "Delegated: proof of Directory listing goes with the 7(a) purchase request, or to CDC closing counsel for 504",
+        "Multiple brands: enter the brand with the largest revenue; list the rest in the credit memo"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. G"
+    },
+    {
+      "id": "franchise-special-cases",
+      "title": "Franchisor applicants, development agreements, management agreements and appeals",
+      "body": "### When the franchisor is the Applicant\n\nThe franchisor's brand **must be listed on the Directory** as approved, even if no franchise agreement is signed in the transaction. The franchisor must meet SBA size standards **on its own** - it is **not combined with its franchisees** for size.\n\n### Development rights\n\n| Agreement | What it is | Eligible? |\n|---|---|---|\n| **Franchise Development Agreement** (\"Master Franchise Agreement\") | Developer gets a territory; units are owned and run by **other** franchisees; developer earns royalties from them | **No** - passive |\n| **Area development rights** (\"Multi-Unit Franchise Agreement\") | Franchisee may develop more units **that it or its affiliates own and operate** | **May be**, if the Applicant and affiliate units are small |\n\nIf an Applicant franchisee has an **affiliate** operating under an ineligible Franchise Development Agreement, the Applicant may still be eligible if the Applicant and affiliates are small and **no proceeds benefit** the ineligible affiliate developer.\n\n### Management agreements in franchise deals\n\n- If the Applicant will use a management agreement **not part of the FDD**, the **SBA Lender, not SBA**, must review it for passive-business problems.\n- The same **meaningful oversight** test applies: the Applicant must approve the annual operating budget, approve capital expenditures or operating expenses over a significant threshold, control the bank accounts, and oversee employees who are its own.\n- If the **management company is, or is affiliated with, the franchisor**, the Applicant is **not eligible** - the franchisee would not be operating as an independent small business.\n\n### Questions, reconsideration and appeals\n\n- Policy questions: **franchise@sba.gov**.\n- **Appeals** of a decision not to list a brand: send the decision and an explanation of why it is inconsistent with Loan Program Requirements to franchise@sba.gov; the **SBA Franchise Committee** reviews.\n- **No right of appeal** from final Agency decisions of the **Associate General Counsel for Litigation**.\n- **Reconsideration** of a finding that the brand meets the FTC definition or creates an ineligible passive business: send the decision, explanation and supporting documents to franchise@sba.gov.\n\n> **Watch out:** A hotel franchisee managed by the brand's own management arm fails even if the agreement contains every meaningful-oversight clause.",
+      "keyPoints": [
+        "Applicant franchisor: brand must be on the Directory; franchisor sized on its own (not combined with franchisees)",
+        "Franchise Development (Master Franchise) Agreements are passive - Applicant operating under one is ineligible",
+        "Area development / Multi-Unit Franchise Agreements (units the franchisee or affiliates own and operate) may be eligible if all are small",
+        "Lender, not SBA, reviews management agreements not in the FDD",
+        "Management company that is (or is affiliated with) the franchisor = Applicant ineligible",
+        "No appeal from final decisions of the Associate General Counsel for Litigation; other appeals go to the SBA Franchise Committee"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. G"
+    },
+    {
+      "id": "credit-elsewhere",
+      "title": "Credit not available elsewhere",
+      "body": "The **credit elsewhere test** (15 U.S.C. 636(a)(1)(A) and 13 CFR 120.101) is what makes SBA a lender of last resort. The SBA Lender must **certify** that the Applicant cannot obtain some or all of the requested funds **on reasonable terms** from non-Federal, non-State, or non-local government sources - including the SBA Lender itself or, in 504, the **Third Party Lender** - without SBA assistance.\n\nIf the Applicant's cash flow and collateral (including any third-party guaranty) would meet the lender's **conventional credit standards**, the project is **not eligible**.\n\n**Consequences of a weak analysis:** SBA may decline a non-delegated application, **deny liability on the guaranty** for a delegated 7(a) loan, or, in 504, pursue a **CDC Recovery Claim** (13 CFR 120.938) for fraud, negligence or misrepresentation.\n\n### What the credit memo must show\n\n1. Some or all of the loan is not available from:\n   - the **liquidity** of owners of **20% or more**, their spouses and minor children, and the Applicant. Owners may keep reasonable funds for future medical, educational (including children's) and retirement needs; the Applicant may keep reasonable funds for **capital expenses for the next 24 months** and for working capital; or\n   - **conventional lenders** or other private sources, including the SBA Lender and (504) the Third Party Lender. This includes any **third-party commitment** to help on a delinquency or default, e.g., a franchisor's commitment to support the franchisee.\n2. **Specific reasons** the Applicant does not meet conventional loan policy, with **supporting documentation**. The lender may **not** cite failure of its conventional **credit score** policy as the **sole** reason.\n\n### Acceptable factors\n\n- The business needs a **longer maturity** than policy permits (e.g., needs a loan not on a demand basis);\n- The loan **exceeds the lender's policy limit** for one customer;\n- **Collateral** does not meet policy;\n- Policy normally does not lend to **new businesses** (e.g., operating **not more than 2 years**) or the Applicant's **industry**;\n- **Other factors** that, under prudent lending standards, cannot be overcome except with the guaranty - specifically explained and documented. Examples: business and personal credit history, management experience, leverage, global cash flow, loan size relative to the business's age.\n\n### Factors that do not work\n\n| Factor | Rule |\n|---|---|\n| Lender's liquidity depends on selling the guaranteed portion (7(a)) | Not the **sole** basis |\n| SBA participation lets the lender exceed its **legal lending limit** | Not the **sole** basis |\n| Maintaining or improving the lender's **CRA** rating | **Never** a basis |\n| Improving the lender's **collateral lien position** | **Never** a basis |\n\n> **Watch out:** A boilerplate line like \"Applicant does not meet bank credit policy\" fails. Name the specific weakness and attach the evidence.",
+      "keyPoints": [
+        "Lender must certify the Applicant cannot get some or all of the funds on reasonable terms from non-government sources without SBA help",
+        "If cash flow and collateral meet the lender's conventional standards, the project is not eligible",
+        "Consider liquidity of 20%+ owners (with spouses and minor children) and the Applicant; reasonable reserves allowed, including 24 months of capital expenses",
+        "Credit memo must cite specific identifiable weaknesses with supporting documentation; credit score alone is never enough",
+        "Not sole basis: secondary-market liquidity (7(a)) or exceeding the legal lending limit",
+        "Never a basis: CRA rating or improving the lender's collateral lien position"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. H"
+    },
+    {
+      "id": "cip-ofac",
+      "title": "Customer Identification Program and OFAC screening",
+      "body": "Two Treasury compliance checks apply to every SBA loan, including loans made by SBA Lenders that are not banks.\n\n### Customer Identification Program (CIP)\n\nSBA requires **all participating SBA Lenders, including SBLCs**, to comply with the Treasury CIP regulations for banks, savings associations, credit unions and certain non-federally-regulated banks at **31 CFR 1020.220**. In short, the lender must verify the identity of the Applicant.\n\n### OFAC sanctions lists\n\nSBA requires all SBA Lenders, including SBLCs, to comply with Treasury's **Office of Foreign Assets Control (OFAC)** sanctions regulations. Lenders must determine that the **applicant business and its owners** are **not listed** on the OFAC sanctions lists **at the time of application**.\n\n### The 504 reliance option\n\nIn a 504 project, a Third Party Lender is often a bank that already runs CIP and OFAC checks. SBA does not expect the CDC to duplicate that work if:\n\n- the Third Party Lender is regulated by a **Federal functional regulator** (as defined in 31 CFR 1010.100(r)); and\n- it submits **annual certifications** to the CDC that it (or its agent) will comply with the CIP requirements of 31 CFR 1020.220 and the OFAC requirements for all third party financings of 504 loans.\n\nThen it is acceptable for the CDC's CIP (and, for OFAC, its loan policy) to state that the CDC will **rely on the Third Party Lender**.\n\n| Situation | CDC must |\n|---|---|\n| Regulated Third Party Lender with current annual certification | May rely on it, or do its own check |\n| No annual certification from the Third Party Lender | **Perform its own** CIP verification and OFAC search |\n\n> **In practice:** A CDC's system should track each Third Party Lender's annual CIP/OFAC certification and flag files where it is missing or expired, because reliance is only allowed while it is in place.\n\n> **Watch out:** OFAC screening covers the owners as well as the business, and the trade-restriction rule (no loans to businesses whose transactions would be prohibited under OFAC sanctions programs) applies separately.",
+      "keyPoints": [
+        "All SBA Lenders, including SBLCs, must comply with Treasury CIP rules at 31 CFR 1020.220",
+        "All SBA Lenders must confirm the business and owners are not on OFAC sanctions lists at the time of application",
+        "504: a CDC may rely on a federally regulated Third Party Lender that gives annual CIP/OFAC certifications",
+        "CDC may always do its own verification; without the annual certification it must"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. I-J"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Ineligible Person",
+      "definition": "A person defined in Appendix 3 of the SOP who may not be a direct or indirect owner or SBA-required guarantor (limited guaranty exception aside)."
+    },
+    {
+      "term": "U.S. National",
+      "definition": "A person, such as one born in American Samoa or Swains Island, who owes allegiance to the U.S. but is not automatically a citizen; eligible with documented status."
+    },
+    {
+      "term": "Principal Residence",
+      "definition": "The primary home of an owner or guarantor; must be in the U.S., its territories or possessions."
+    },
+    {
+      "term": "Six-month lookback",
+      "definition": "Anyone who was a direct or indirect owner during the 6 months before loan number issuance is tested, unless fully divested before issuance."
+    },
+    {
+      "term": "FTC franchise definition",
+      "definition": "The definition in 16 CFR 436 that SBA uses to decide whether a relationship (including license, dealer, jobber or PMPA agreements) is a franchise."
+    },
+    {
+      "term": "SBA Franchise Directory",
+      "definition": "SBA's list of reviewed, eligible brands; FTC-defined franchises must be listed to receive SBA financing."
+    },
+    {
+      "term": "SBA Franchise Identifier Code",
+      "definition": "Code assigned to Directory brands that meet the FTC franchise definition; entered in the SBA Loan System."
+    },
+    {
+      "term": "FDD",
+      "definition": "Franchise Disclosure Document; management agreements within the FDD of a Directory brand need no separate lender review."
+    },
+    {
+      "term": "Franchise Development Agreement",
+      "definition": "Also called a Master Franchise Agreement; gives a developer royalties from other franchisees in a territory; passive and ineligible."
+    },
+    {
+      "term": "Multi-Unit Franchise Agreement",
+      "definition": "Area development rights for units the franchisee or its affiliates own and operate; may be eligible if all are small."
+    },
+    {
+      "term": "Credit elsewhere",
+      "definition": "The statutory requirement that the Applicant cannot get some or all of the funds on reasonable terms from non-government sources without SBA assistance."
+    },
+    {
+      "term": "CIP",
+      "definition": "Customer Identification Program under 31 CFR 1020.220; identity verification all SBA Lenders, including SBLCs, must perform."
+    },
+    {
+      "term": "Federal functional regulator",
+      "definition": "A federal banking or financial regulator as defined in 31 CFR 1010.100(r); a 504 Third Party Lender so regulated may be relied on for CIP/OFAC with annual certification."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "a1p3-q1",
+      "question": "Who must be U.S. Citizens or U.S. Nationals with a Principal Residence in the U.S., its territories or possessions?",
+      "options": [
+        "Only owners of 20% or more",
+        "100% of direct and indirect owners and all SBA-required guarantors",
+        "Only owners of more than 50%",
+        "Only the individuals signing the note"
+      ],
+      "correctIndex": 1,
+      "explanation": "SBA financing is limited to Applicants whose 100% direct and indirect owners and SBA-required guarantors meet this requirement. The 20% figure applies to guaranty and liquidity rules, not citizenship.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. F",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a1p3-q2",
+      "question": "An Applicant's 15% owner is an Ineligible Person who sold all of his shares 4 months before the SBA loan number is issued. Is the Applicant eligible on this point?",
+      "options": [
+        "No, because of the six-month lookback, regardless of the divestiture",
+        "Yes, because he completely divested before the loan number was issued",
+        "No, because 4 months is less than 6 months",
+        "Yes, but only if he signs a limited guaranty"
+      ],
+      "correctIndex": 1,
+      "explanation": "The six-month lookback catches owners during the prior 6 months, but it is satisfied if the Ineligible Person completely divests before the loan number is issued. The limited guaranty exception relates to required guarantors, not divested owners.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. F",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a1p3-q3",
+      "question": "A lender requires a limited guaranty from the co-owner of jointly held collateral. The co-owner is an Ineligible Person (not an undocumented alien). What is the result?",
+      "options": [
+        "The co-owner may provide a limited guaranty",
+        "The Applicant is automatically ineligible",
+        "The co-owner must divest the collateral first",
+        "SBA must approve an exception to policy"
+      ],
+      "correctIndex": 0,
+      "explanation": "When a limited or supplemental guaranty is required by the lender or by SBA to support a pledge of jointly held collateral, an Ineligible Person (except an undocumented alien in the U.S. illegally) may provide a limited guaranty.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. F",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a1p3-q4",
+      "question": "An owner was born in American Samoa and is not a U.S. citizen. What must the lender do?",
+      "options": [
+        "Treat the owner as an Ineligible Person",
+        "Nothing beyond what is required for a citizen",
+        "Document review of evidence of U.S. National status and enter the owner's SSN on the application and in the SBA Loan System",
+        "Obtain a waiver from the D/FA"
+      ],
+      "correctIndex": 2,
+      "explanation": "People born in American Samoa are U.S. Nationals and eligible. The lender must document its review of status evidence and enter the SSN. Naturalized citizens, not nationals, need no further verification.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. F",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a1p3-q5",
+      "question": "A married couple owns a business 50/50 and wants to give their 16-year-old 25% of the shares before applying. What should the lender advise?",
+      "options": [
+        "That is allowed if a parent guarantees on the child's behalf",
+        "That is allowed because family interests are combined",
+        "Only 504 loans prohibit minor owners",
+        "SBA prohibits businesses in which a minor child owns 20% or more"
+      ],
+      "correctIndex": 3,
+      "explanation": "SBA prohibits businesses where a minor child owns 20% or more, because minors cannot legally provide a guaranty. Combining family interests is a separate counting rule and does not permit it.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. F",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a1p3-q6",
+      "question": "A gas station operates under a branded fuel supply agreement covered by the Petroleum Marketing Practices Act. How does SBA treat it?",
+      "options": [
+        "As outside the franchise rules because PMPA agreements are exempt from FTC disclosure",
+        "As within the FTC definition of franchise and subject to the Directory procedures",
+        "As a franchise only if it pays royalties over 5%",
+        "As a passive business"
+      ],
+      "correctIndex": 1,
+      "explanation": "Although exempt from FTC disclosure requirements, PMPA agreements are included in the FTC definition of franchise and subject to SBA's franchise procedures.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. G",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a1p3-q7",
+      "question": "A PLP lender finds that a franchise brand meeting the FTC definition is not on the SBA Franchise Directory. What may the lender do?",
+      "options": [
+        "Approve under delegated authority if it reviews the franchise agreement itself",
+        "Approve and submit the FDD with the guaranty purchase request",
+        "Not approve under delegated authority; advise the Applicant or franchisor how to add the brand",
+        "Submit the loan non-delegated so SBA can approve it"
+      ],
+      "correctIndex": 2,
+      "explanation": "If an FTC-franchise brand is not on the Directory, a delegated lender cannot approve and a non-delegated lender cannot submit. The lender should explain how to get the brand added.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. G",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a1p3-q8",
+      "question": "An auto body shop earns 10% of revenue renting trucks under an agreement that is not on the Directory. The PLP lender concludes the agreement is not an FTC franchise. What must it do before approving the 7(a) loan?",
+      "options": [
+        "Determine that the brand is eligible (e.g., no discriminatory hiring, not passive); the lender bears the risk if wrong",
+        "Nothing - non-critical agreements are exempt",
+        "Get the brand added to the Directory first",
+        "Submit the agreement to franchise@sba.gov and wait for a decision"
+      ],
+      "correctIndex": 0,
+      "explanation": "For a single non-critical agreement that is not an FTC franchise, the lender must determine the brand is eligible before proceeding; for delegated 7(a), SBA reviews at purchase or oversight and the lender bears the risk. Submitting to franchise@sba.gov is required for delegated 504 loans.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. G",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a1p3-q9",
+      "question": "For a 7(a) franchise loan, when must the lender obtain the executed franchise agreement and other documents the franchisor requires?",
+      "options": [
+        "Before submitting the application",
+        "Before any disbursement of loan proceeds",
+        "Within 30 days after final disbursement",
+        "Only if the loan defaults"
+      ],
+      "correctIndex": 1,
+      "explanation": "For 7(a) loans, the executed franchise documents must be obtained prior to any disbursement. For 504, the CDC must obtain them before closing and send them to closing counsel.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. G",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a1p3-q10",
+      "question": "An Applicant will hold a Master Franchise Agreement giving it a territory where other franchisees own units and pay it royalties. Is it eligible?",
+      "options": [
+        "Yes, if it and its affiliates are small",
+        "Yes, if the brand is on the Directory",
+        "Yes, if no proceeds benefit the other franchisees",
+        "No, because Franchise Development Agreements are passive"
+      ],
+      "correctIndex": 3,
+      "explanation": "Franchise Development (Master Franchise) Agreements are passive, so an Applicant operating under one is ineligible. Area development rights for units the franchisee or affiliates own and operate are the eligible alternative.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. G",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a1p3-q11",
+      "question": "A hotel franchisee's management agreement is with a subsidiary of the franchisor and includes all four meaningful-oversight provisions. Is the Applicant eligible?",
+      "options": [
+        "Yes, because the meaningful-oversight test is met",
+        "Yes, because the agreement is reviewed by SBA",
+        "No, because a management company that is or is affiliated with the franchisor makes the Applicant ineligible",
+        "No, unless the employees are on the franchisor's payroll"
+      ],
+      "correctIndex": 2,
+      "explanation": "If the management company is, or is affiliated with, the franchisor, the Applicant is not eligible regardless of oversight provisions, because it is not operating as an independent small business.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. G",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a1p3-q12",
+      "question": "Which reason, standing alone, is acceptable to show credit is not available elsewhere?",
+      "options": [
+        "The Applicant does not meet the lender's conventional credit score policy",
+        "The SBA guaranty lets the lender exceed its legal lending limit",
+        "The loan will improve the lender's CRA rating",
+        "The business needs a longer maturity than the lender's policy permits"
+      ],
+      "correctIndex": 3,
+      "explanation": "Needing a longer maturity than policy permits is an acceptable identifiable weakness. Credit score alone and the legal lending limit cannot be the sole basis, and CRA may never be used.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. H",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a1p3-q13",
+      "question": "A 40% owner of an Applicant has $2 million in personal liquid assets beyond reasonable retirement, medical and education reserves. The loan request is $800,000. What does this mean for the credit elsewhere test?",
+      "options": [
+        "The owner's excess liquidity must be considered and may make some or all of the loan unavailable for SBA financing",
+        "Personal liquidity is irrelevant; only the business's finances count",
+        "Liquidity is only considered for owners of more than 50%",
+        "Liquidity matters only for 504 loans"
+      ],
+      "correctIndex": 0,
+      "explanation": "The credit memo must address the liquidity of owners of 20% or more, their spouses and minor children, and the Applicant, allowing reasonable reserves. The 50% threshold relates to affiliation, not credit elsewhere.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. H",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a1p3-q14",
+      "question": "A CDC's Third Party Lender is a federally regulated bank but has not provided its annual CIP certification this year. What must the CDC do?",
+      "options": [
+        "Rely on the bank anyway since it is federally regulated",
+        "Perform its own verification of the Applicant's identity",
+        "Ask SBA to perform the CIP check",
+        "Skip CIP because 504 loans are exempt"
+      ],
+      "correctIndex": 1,
+      "explanation": "A CDC may rely on a federally regulated Third Party Lender only if it receives the annual certification; without it, the CDC must perform its own verification.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. I",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a1p3-q15",
+      "question": "At what point must SBA Lenders determine that the applicant business and owners are not on the OFAC sanctions lists?",
+      "options": [
+        "At the time of application",
+        "Only at loan closing",
+        "Annually after disbursement",
+        "Only for loans over $350,000"
+      ],
+      "correctIndex": 0,
+      "explanation": "The SOP requires the OFAC determination at the time of application, for all SBA Lenders including SBLCs. There is no loan-size threshold.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. J",
+      "difficulty": "basic"
+    }
+  ]
+}

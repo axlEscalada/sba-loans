@@ -1,0 +1,392 @@
+{
+  "id": "c1-504-uses-of-proceeds-refinancing",
+  "order": 311,
+  "part": "C",
+  "program": "504",
+  "title": "504 Uses of Proceeds and Debt Refinancing",
+  "subtitle": "Section C, Ch. 1 Part 2 - eligible Project costs, contingency and DIY rules, refinancing with and without expansion, change of ownership and ineligible Projects",
+  "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. C",
+  "estimatedMinutes": 60,
+  "learningObjectives": [
+    "Classify costs as eligible Project costs, administrative costs or ineligible costs",
+    "Apply the land valuation, contingency and do-it-yourself construction rules",
+    "Test whether existing debt is Qualified Debt and size a refinancing without expansion, including the 90% LTV and employee-based caps",
+    "Apply the conditions for refinancing debt as part of an expansion, including substantial benefit and Same Institution Debt limits",
+    "Structure a change of ownership so only eligible fixed assets are financed by the 504 Project",
+    "Recognize ineligible 504 Projects and prohibited creditors"
+  ],
+  "topics": [
+    {
+      "id": "c1-eligible-project-costs",
+      "title": "Eligible Project costs: land, buildings, equipment and soft costs",
+      "body": "504 proceeds may only pay for costs **directly attributable to or necessary for the Project** (13 CFR 120.882-120.884). As always, the CDC starts with the Section A core rules on use of proceeds and then applies these 504-specific categories.\n\n### Land and necessary land improvements\n\nIncludes grading, new streets with curbs and gutters, parking lots, utilities and landscaping. How the land is **valued** depends on how long the Applicant has held it - no matter how long it has been owned:\n\n| Land held | Value used |\n|---|---|\n| Purchased **less than 2 years** before the application date | **Cost** |\n| Held **2 years or more** | **Fair market value** from an independent real estate appraisal meeting the Para. E.2.b appraisal rules |\n\nThis category may also include building and building improvement costs such as facade, heating, electrical, plumbing and roofing. It may include **solar panels** and their equipment and installation, **unless**:\n- Their primary purpose is to **produce electricity for sale** (solar farms) - then they are treated as **machinery and equipment**; or\n- They are part of a system **leased** to the Borrower and owned by a third party, with no ownership transfer at lease end.\n\n### Machinery and equipment\n\n- All costs of purchase, transportation, dismantling or installation;\n- Must have a **useful life of at least 10 years**;\n- If the Borrower already owns heavy or highly calibrated equipment (such as a large printing press) that must be moved as an essential part of the Project, the **special moving costs** (including dismantling and installation) may be included.\n\n### Furniture and fixtures\n\nAllowed only if **essential to and a minor part of** the Project and they will **not affect the weighted average maturity**.\n\n### Professional fees\n\nAllowed if directly attributable and essential to the Project - for example title insurance, title searches and abstracts, surveys and zoning matters. **Exception: attorney's fees incurred in closing the Interim and Third Party Loans are not eligible.**\n\n### Other Applicant expenditures, short-term debt and interim financing\n\n- **Other Applicant expenditures**: any of the costs above that the Applicant paid before the application date (from its own funds or a Short-Term Debt) that are directly attributable to the Project, provided they are (net of the Applicant's contribution) **reimbursed by the Interim Lender**.\n- **Short-Term Debt (\"Bridge Financing\")**: debt used to finance those Project costs until longer-term financing could be obtained, provided it had a term of **3 years or less**.\n- **Interim financing**: repayment of interim financing, including **points, fees and interest**.\n\n> **In practice:** \"Other Applicant expenditures\" is how a Borrower that already paid an architect or a deposit gets credit. Those amounts can count, but they flow through the Interim Lender reimbursement, net of the Borrower's contribution.",
+      "keyPoints": [
+        "Proceeds may only fund costs directly attributable to or necessary for the Project",
+        "Land held less than 2 years is valued at cost; 2 years or more at appraised fair market value",
+        "Solar panels count with the real estate unless built for selling electricity (then M&E) or leased from a third-party owner",
+        "Machinery and equipment must have a useful life of at least 10 years",
+        "Attorney's fees for closing the Interim and Third Party Loans are not eligible",
+        "Short-Term (bridge) Debt is eligible only if its term was 3 years or less"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. C.1-C.7"
+    },
+    {
+      "id": "c1-contingency-diy",
+      "title": "Contingency funds and do-it-yourself construction",
+      "body": "Two construction-related rules are worth memorizing because they come up on almost every building Project.\n\n### Contingency fund\n\nA contingency line may be part of Project costs, but it **may not exceed 15% of the Project construction costs**. What happens to the unused part depends on its size **just prior to closing**:\n\n| Residual contingency just before closing | Treatment |\n|---|---|\n| **Does not exceed 2%** of the debenture | May be **refunded to the small business as working capital** when the debenture is funded |\n| **Exceeds 2%** of the debenture | May **not** go to the business as working capital; **the debenture must be reduced** by the unused amount |\n\nExample: a $1,000,000 debenture with $15,000 of contingency left over (1.5%) - the $15,000 may go to the Borrower as working capital. If $35,000 were left over (3.5%), the debenture would be reduced by the $35,000.\n\n### \"Do-it-yourself\" construction\n\nThe SOP is candid: DIY construction, renovation or equipment installation - or an Applicant acting as its own contractor - has **proven generally unsatisfactory**. It causes problems with lien waivers and mechanics liens and can cause losses to lenders and SBA.\n\nIt **may be permitted** (for example, installing carpet or painting, or installing machinery) only if the CDC can **justify and document in the loan file** that:\n\n1. The Borrower/contractor is **experienced** in that type of construction and has **all appropriate licenses**;\n2. The cost is the **same as or less than** either:\n   - What an **unaffiliated contractor** would charge, evidenced by **two bids**; or\n   - A **single estimate** from a third-party construction management firm, or from the **Third Party Lender's existing internal construction management department** - but only if that department routinely manages construction for the TPL's similarly sized non-SBA-guaranteed commercial loans;\n3. The Borrower/contractor will **not earn a profit** on the construction.\n\n> **Watch out:** A single bid from an unaffiliated contractor is not enough. It is either **two** unaffiliated contractor bids, or **one** estimate from a qualifying construction management firm or TPL department.",
+      "keyPoints": [
+        "Contingency may not exceed 15% of Project construction costs",
+        "Residual contingency of 2% of the debenture or less may be refunded to the business as working capital",
+        "Residual over 2% must reduce the debenture",
+        "DIY construction requires documented experience and licenses, cost at or below market, and no profit",
+        "Cost evidence: two unaffiliated contractor bids, or one estimate from a third-party construction manager or qualifying TPL department"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. C.8 and C.9"
+    },
+    {
+      "id": "c1-refi-no-expansion-definitions",
+      "title": "Debt refinancing without expansion: the key definitions",
+      "body": "504 can refinance existing fixed-asset debt even when the business is **not expanding** (13 CFR 120.882(g)). This product has its own vocabulary, and each term is a test.\n\n### Qualified Debt\n\nA commercial loan that:\n\n1. **75% test**: substantially all (**75% or more**) of the proceeds were used to acquire an **Eligible Fixed Asset**, and the rest (**25% or less**) was incurred for the benefit of the small business. If the asset was originally financed by an \"original loan\" that has since been refinanced one or more times, the 75/25 test applies to the **original loan**, and the existing debt must be its **most recent refinancing**.\n2. Was **fully disbursed at least 6 months** before the application date.\n3. Was incurred for the benefit of the small business seeking the refinancing.\n4. Has been **secured by Eligible Fixed Assets for at least 6 months**.\n5. **May include federally guaranteed debt** if:\n   - An existing **504 loan** is refinanced only if **both** the Third Party Loan and the 504 loan are refinanced, or the Third Party Loan has been paid in full;\n   - The CDC notified the existing CDC or 7(a) Lender in writing (letter or email) **at least 10 business days** in advance, and the notice is in the loan submission;\n   - The refinancing gives a **substantial benefit**: the portion of the new installment attributable to the refinanced debt must be **less than** the existing installment(s). Prepayment penalties, financing fees and other financing costs are added to the amount refinanced for this calculation, but EBE are not. The D/FA or designee may approve an exception for good cause; **PCLP CDCs may not approve a loan needing this exception** under delegated authority;\n   - If guaranteed by another Federal agency, the CDC documents that the refinance is permissible under, or approved by, that agency.\n6. Liens on machinery and equipment bought with the original loan may be **waived** if the CDC shows the commercial real estate gives SBA adequate collateral protection (a TPL may still require more collateral).\n7. Is **not** a Third Party Loan that is part of an existing 504 Project (except as above).\n8. May combine **two or more loans**, if each one qualifies.\n\n### Eligible Fixed Assets\n\nLong-term fixed assets - land, buildings, machinery and equipment - acquired, constructed or improved by a small business for use in its operations.\n\n### Refinancing Project\n\nThe **fair market value** of the Eligible Fixed Assets securing the Qualified Debt, plus other fixed assets acceptable to SBA. Additional fixed assets may be added **only** when needed to meet the 90% loan-to-value limit. A Refinancing Project may include **Eligible Business Expenses**.\n\n### Eligible Business Expenses (EBE)\n\nPayments for either:\n- **Operating Expenses** incurred but unpaid before the application, or coming due **within 18 months after** the application date - salaries, rent, utilities, inventory and other non-capital expenses. Business lines of credit and credit cards may be included only if they are in the business's name, personal purchases are identified and deducted, and the Applicant and CDC certify the debt was incurred exclusively for EBE; or\n- **Other Secured Debt**: pre-application, non-capital-expenditure debt secured for **at least 6 months** by the same Eligible Fixed Assets as the Qualified Debt, on which the Borrower has been **current for at least 12 months** (\"current\" means no payment more than 30 days past due). Existing liens must be released or subordinated.\n\nEBE must be **itemized** (a gross figure is not acceptable). The CDC's credit memorandum must document the nature of the EBE, itemize them and certify they are eligible.",
+      "keyPoints": [
+        "Qualified Debt: 75% or more of proceeds bought Eligible Fixed Assets; disbursed at least 6 months; secured by those assets at least 6 months",
+        "Refinancing an existing 504 requires refinancing the TPL loan too, or the TPL loan already paid off",
+        "Give the existing CDC or 7(a) Lender at least 10 business days' written notice",
+        "Federally guaranteed debt must show substantial benefit (lower installment); PCLP cannot approve the exception",
+        "EBE: operating expenses unpaid or due within 18 months, or Other Secured Debt current for 12 months",
+        "EBE must be itemized; a gross figure is not acceptable"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. C.10.a"
+    },
+    {
+      "id": "c1-refi-no-expansion-rules",
+      "title": "Debt refinancing without expansion: structure, sizing and limits",
+      "body": "Once the debt and the Project are defined, the refinancing program applies several structural rules.\n\n### Who can use it\n\nThe Applicant must have been **in operation for the full 2-year period** ending on the application date, shown by the financial statements. If the business is older than 2 years but has had a **change of ownership**, the CDC must decide under the Appendix 3 New Business definition whether the Applicant is a New Business - and if so, the application is **declined**. The CDC documents its reasoning in the credit memorandum.\n\n### Funding sources\n\nBased on the current fair market value of the collateral (13 CFR 120.882(g)(5)):\n- **Third Party Lender**: at least as much as the 504 loan (Net Debenture);\n- **504 loan**: not more than **40%**;\n- **Borrower**: not less than **10% or 15%**, as determined under the regulation. If the Refinancing Project involves a Limited or Special Purpose Property, the Borrower contribution rules in Para. E.1 apply.\n\n### If the Qualified Debt is not fully paid off\n\nThe lender of the Qualified Debt must cover the deficiency by forgiving some or all of it, accepting a payment from the Borrower, or accepting a Borrower **Note** for the balance. That Note must be **subordinate** to the 504 loan if they share collateral, and may be subject to standby or other SBA protections.\n\n### Loan-to-value limits\n\n| Situation | Rule |\n|---|---|\n| Refinancing only Qualified Debt | Maximum **90% LTV** of the Refinancing Project |\n| Qualified Debt exceeds 90% of the value of the securing assets | Borrower must add **cash or other fixed-asset collateral** to stay within 90% |\n| Project includes EBE | Maximum **90% LTV**, and value **may not be increased by adding collateral** |\n\n### When no job or policy objective is met\n\nA refinance may proceed even if it meets none of the 13 CFR 120.861 or 120.862 objectives. In that case the 504 loan may not exceed **number of employees x $95,000**, where employees = full-time employees + (part-time employees x average weekly hours / 40).\n\nExample from the SOP: 30 full-time and 35 part-time employees at 20 hours: 30 + (35 x 20/40) = **47.5**; 47.5 x $95,000 = **$4,512,500** maximum.\n\n### Other rules\n\n- **Leasing**: if the Qualified Debt (or original loan) financed a building and would not have met the leasing rules in 13 CFR 120.131 and 120.870(b), the Borrower must show compliance with 120.131(b) for existing buildings as of the application date. The Borrower must also meet current 504 occupancy requirements.\n- **Fees**: on top of the regular annual guarantee fee, the Borrower pays a **supplemental annual guarantee fee** set by SBA each fiscal year; follow the SBA Terms and Conditions.\n- **Same Institution Debt**: PCLP CDCs may **not** approve refinancing of their own or their affiliates' debt under delegated authority; it goes to SBA.\n- **Disbursement**: must be disbursed within **9 months** after approval; the D/FA or designee may extend **6 months** for good cause.",
+      "keyPoints": [
+        "Applicant must have operated for the full 2 years before application; a post-change-of-ownership New Business is declined",
+        "Sources: TPL at least the 504 amount, 504 not more than 40%, Borrower not less than 10% or 15%",
+        "Maximum 90% LTV; EBE Projects cannot add collateral to increase value",
+        "No job/policy objective: 504 loan capped at employees x $95,000 (part-timers prorated by hours / 40)",
+        "Supplemental annual guarantee fee applies to refinancing",
+        "Disburse within 9 months of approval; one 6-month extension for good cause"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. C.10.b-C.10.k"
+    },
+    {
+      "id": "c1-refi-no-expansion-docs",
+      "title": "Refinancing without expansion: documentation, Same Institution Debt and prohibited creditors",
+      "body": "The refinancing program is document-heavy. SBA wants proof that the old debt really financed fixed assets, that it is seasoned, and that SBA is not being used to bail out a lender.\n\n### Required documentation\n\n- **Credit memorandum**: an analysis showing the refinance meets **each** program requirement (the Qualified Debt tests, the EBE tests, the 2-year operation rule, funding sources, deficiency handling, leasing and LTV limits).\n- **TPL certification** in its commitment letter (Exhibit 14 of SBA Form 1244) that it has no reason to believe the following are untrue: the 75%/25% test (on the debt or the original loan), and that all proceeds were used for the benefit of the small business. If the debt is the TPL's own or an affiliate's (**Same Institution Debt**), the TPL must also certify it is **not in a position to sustain a loss** that would shift to SBA.\n- **Transcripts**: the CDC obtains the current transcript of account (or equivalent) for the Qualified Debt (Exhibit 19 of SBA Form 1244) and determines and documents whether the creditor is in a position to shift a loss to SBA. Using a 504 loan to pay such a creditor is **prohibited** (13 CFR 120.884(b)).\n- **Appraisal**: **not required at application**. An appraisal dated **within 12 months of the approval date** is required **before closing** and must meet the Para. E.2.b rules.\n- **Lien verification**: the CDC obtains evidence (preliminary title report, mortgage/deed of trust, UCC-1) that liens on Eligible Fixed Assets secure the Qualified Debt, and states in the credit memo that they have been in place **at least 6 months** before application.\n- **Interim lender**: executes **SBA Form 2288R**, Interim Lender Certification for Refinancing Program.\n\n### Same Institution Debt mechanics\n\nWhen the debt being refinanced is Same Institution Debt (13 CFR 120.882(g)(16)), is not part of an existing 504 Project, and is held **100%** by the lender that will be the TPL:\n- The TPL may **modify** its existing loan documents (note, deed of trust/mortgage) instead of new ones, as long as they meet 13 CFR 120.920 and 120.921;\n- Either an interim loan or an **escrow account** may be used. The TPL executes **SBA Form 2416**, \"Lender Certification for Refinanced Loan.\"\n- If escrow is used: the Escrow Agreement is signed by the Borrower, TPL, Escrow Agent and CDC; the account may be held by the CDC attorney, a title company or another SBA-approved party; the Borrower's cash contribution (if any) is deposited at 504 closing; SBA gets a copy of the agreement and evidence of the deposit; net debenture proceeds are wired in; funds are released only on written approval of the CDC and SBA once the required lien positions are in place; and the escrowed funds pay off the TPL's old debt.\n\n### Debts that can never be refinanced with 504\n\n- Debt owed to an **Associate** (13 CFR 120.130(a));\n- Debt owed to an **SBIC** or a **New Markets Venture Capital Company** (13 CFR 120.130(b));\n- Debt owed to any creditor **in a position to sustain a loss causing a shift to SBA** of all or part of a potential loss (13 CFR 120.884(b)).\n\nThese three prohibitions apply to refinancing both **with and without** expansion.",
+      "keyPoints": [
+        "Credit memo must analyze each refinancing requirement",
+        "TPL certifies the 75/25 use test and benefit to the small business in its commitment letter (Exhibit 14 of Form 1244)",
+        "Appraisal not needed at application; required before closing and dated within 12 months of approval",
+        "CDC verifies liens have secured the Qualified Debt for at least 6 months",
+        "Interim lender signs Form 2288R; for Same Institution Debt the TPL signs Form 2416",
+        "Never refinance debt owed to an Associate, an SBIC/NMVCC, or a creditor that could shift a loss to SBA"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. C.10.l-C.10.n"
+    },
+    {
+      "id": "c1-refi-with-expansion",
+      "title": "Debt refinancing with expansion",
+      "body": "A 504 Project that **expands** the business may also fold in some existing debt (13 CFR 120.882(e)). A \"Project involves Expansion\" if it involves acquiring, constructing or improving land, building or equipment for the Applicant's use.\n\n### How much can be refinanced\n\nExisting debt **not exceeding 100% of the cost of the expansion** may be refinanced. The refinanced debt is **added to the expansion cost** to set total Project costs. Example: a $1,200,000 expansion could carry up to $1,200,000 of eligible refinanced debt, for a $2,400,000 total Project.\n\n### The conditions (all must be analyzed in the credit memo)\n\n1. **75% test**: 75% or more of the existing debt (or original loan, with the existing debt being its most recent refinancing) was used to acquire **504-eligible fixed assets**, the rest for the benefit of the small business.\n2. The existing debt is **collateralized by fixed assets**.\n3. Those fixed assets must **also secure the 504 loan**, unless SLPC grants a waiver for extraordinary circumstances (**PCLP CDCs may not approve a loan needing this waiver**). The old lender must release, subordinate or assign its lien so the TPL and/or SBA keep the same lien position.\n4. The debt was incurred **for the benefit of the small business** - the same business incurring the new Project costs (it may be owed by the OC, the EPC or both).\n   - An **existing 504 loan** can be refinanced if both it and its Third Party Loan are refinanced, or the TPL loan is paid off and the 504 loan must be refinanced as part of a larger expansion or renovation. Document the justification; 504 prepayment penalties apply. **A Third Party Loan may not be refinanced with an SBA-guaranteed loan** (13 CFR 120.920(b)).\n   - A **7(a) loan** may be refinanced in whole or in part; a **504 loan only in whole**. Give the existing lender **at least 10 business days'** written notice.\n5. Proceeds are used only for refinancing or Project costs. The refinanced debt can be at another location or a different property type, as long as that operation has the **same NAICS code**. Prepayment penalties, financing fees and other required refinancing costs may be included. The debt may be one or more loans.\n6. **Substantial benefit**: the new installments attributable to the refinanced debt (using the most recent debenture rate and the TPL's committed rate) must be **less than** the existing installments, with prepayment penalties and financing costs added to the amount refinanced. Seasonal loans are compared on an average of the last 12 months' payments. **Balloon loans meet the test** regardless of the reduction.\n7. **Current for 1 year**: the Borrower has been current (not more than 30 days in arrears) for at least 1 year before the date SBA approves the loan, or since origination if less. Submit a transcript or payment history. An unremedied delinquency after approval must be reported as an adverse change.\n8. **Better terms or rate**: longer maturity (commensurate with useful life), a lower rate, improved collateral conditions or less restrictive covenants.\n\n### Additional rules\n\n- **PCLP authority may not be used to refinance Same Institution Debt** (debt of the CDC or the TPL, or their affiliates).\n- **Area of operations** is judged by the **newly acquired** assets. If refinanced assets or collateral are outside it, the CDC must show it can close, service and monitor; SBA approves that evidence (PCLP CDCs document it in the file).\n- Land sales contracts, contracts for deed and capital leases that transfer ownership may be refinanced; property bought out of an **operating lease** is eligible, but the operating lease itself is not refinanceable.\n- Copies of the debt and lien instruments must be submitted with the application.\n- Equity in refinanced land and/or building may count as Borrower equity.\n- The TPL gives the same commitment-letter certifications as in refinancing without expansion, and the same three prohibited creditors apply.",
+      "keyPoints": [
+        "Refinanced debt may not exceed 100% of the expansion cost and is added to total Project costs",
+        "75% of the old debt must have bought 504-eligible fixed assets",
+        "Borrower current (not more than 30 days late) for at least 1 year before SBA approval",
+        "Substantial benefit: new installments on refinanced debt must be lower; balloon loans pass automatically",
+        "7(a) loans may be refinanced in whole or part; 504 loans only in whole; a TPL loan never with an SBA-guaranteed loan",
+        "PCLP authority cannot refinance Same Institution Debt"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. C.11"
+    },
+    {
+      "id": "c1-change-of-ownership",
+      "title": "Change of ownership, ESOPs and pre-existing debt",
+      "body": "### Change of ownership\n\n504 can finance a business acquisition, but only the **fixed-asset** side of it. A change of ownership Project is eligible when:\n\n- The 504 Project finances **only eligible long-term fixed assets**. Receivables, goodwill and other assets are **not** eligible uses of 504 or Third Party Loan proceeds; they must be financed another way, which may include a **7(a) loan**.\n- The application documents that **jobs will be created or retained because of** the change of ownership, with a reasonable basis to conclude retained jobs would be lost without it - for example, a seller statement with supporting facts or another certification acceptable to SLPC.\n- The change of ownership results in the Applicant owning **100%** of the business.\n- The **seller may not remain** as an officer, director, stockholder or Key Employee.\n- All other 504 requirements are met.\n\n**Stock purchases**: 504 proceeds may not buy stock or other ownership interests **unless** that purchase is how the Applicant acquires the real estate where it is located and/or other eligible long-term fixed assets. Any **excess value** of the stock over those assets cannot be financed in the Project, must be financed separately, and must be **de minimis**.\n\n**EPC partner buyouts**: proceeds may finance a change of ownership **between existing owners** of an existing EPC whose assets are limited to real estate and/or eligible fixed assets leased to one or more OCs, if the buyer(s) end up owning **100% of the EPC**. Minor related assets on the EPC's books (capital replacement reserves, tax and insurance escrows) are ineligible but tolerated if they are directly related to the property, **de minimis**, and excluded from the Project financing.\n\nChange of ownership also triggers appraisal rules (see the Credit chapter): an appraisal is required even under $500,000, and the property must appraise at **100%** of estimated value.\n\n### ESOPs\n\n- CDCs may lend to an eligible business owned or controlled by an **ESOP** or equivalent trust.\n- The ESOP must comply with IRS, Treasury and Department of Labor requirements; the CDC must obtain documentation of that **before first disbursement**.\n- The IRS prohibits ESOPs from guaranteeing loans, so **SBA does not require the ESOP to guarantee**. Owners holding interests **outside** the ESOP are subject to SBA's guaranty rules.\n- The loan **cannot be structured as EPC/OC**.\n- PCLP CDCs may not approve Qualified Employee Trust (ESOP) loans under delegated authority.\n\n### Pre-existing debt on the Project Property\n\nIn addition to its share of Project cost, the Third Party Loan may **consolidate existing debt** on the Project Property, so long as doing so does **not improve the TPL's lien position** on that existing debt - unless the debt is a previous Third Party Loan (13 CFR 120.922).",
+      "keyPoints": [
+        "Change of ownership: 504 finances only eligible long-term fixed assets; goodwill and receivables must be financed elsewhere (possibly 7(a))",
+        "Must document jobs created or retained because of the change of ownership",
+        "Buyer must own 100%; seller may not stay as officer, director, stockholder or Key Employee",
+        "Stock purchases allowed only to acquire real estate/fixed assets; excess value must be de minimis and financed separately",
+        "ESOPs need not guarantee; outside owners are subject to guaranty rules; no EPC/OC structure",
+        "TPL may consolidate pre-existing debt only if it does not improve its lien position (unless a prior TPL loan)"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. C.13-C.15"
+    },
+    {
+      "id": "c1-admin-costs-ineligible",
+      "title": "Administrative costs, ineligible costs and ineligible Projects",
+      "body": "### Eligible administrative costs\n\nAdministrative costs under 13 CFR 120.883 are **not Project costs**. Instead they are **added to the Net Debenture to arrive at the Gross Debenture**. That is why the Borrower contribution and the 40/35/30% shares are computed excluding them. (Fee details are in Section A, Ch. 4, Para. E.)\n\nExamples of the Borrower's out-of-pocket costs that can be covered:\n1. Settlement agent's fees;\n2. Overnight delivery, postage and messenger services;\n3. Certifications SBA requires (earthquake, flood, IRS, Certificate of Occupancy, certificate of completion);\n4. Copying costs attributable to the above.\n\n### Ineligible costs\n\n**Any cost not directly attributable to or necessary for the Project** may not be paid with 504 proceeds (13 CFR 120.884). Examples from elsewhere in this chapter:\n- Goodwill and receivables in a business acquisition;\n- Attorney's fees for closing the Interim and Third Party Loans;\n- Excess value of stock above the fixed assets it represents;\n- Payments, distributions or loans to Associates of the Applicant (the credit memo must confirm none of the proceeds provide or refinance these).\n\n### Ineligible 504 Projects (13 CFR 120.881)\n\n1. **Relocation out of a community** - a Project cannot be approved if it relocates a business out of a community **and** will either cause a **net reduction of one-third of its jobs** or a **substantial increase in unemployment** in any area of the country. An exception may be allowed if the CDC justifies the relocation under 13 CFR 120.881(a)(1) and (a)(2).\n2. **Projects in foreign countries.**\n\n> **Watch out:** Relocation by itself is not disqualifying. The trigger is relocation out of a community combined with losing one-third of the jobs or causing substantial unemployment.\n\n> **In practice:** Keep administrative costs on a separate line in any 504 sources-and-uses model. Mixing them into Project costs inflates the base used for the percentages and the job ratio.",
+      "keyPoints": [
+        "Administrative costs are not Project costs; they are added to Net Debenture to get Gross Debenture",
+        "Examples: settlement agent fees, delivery and postage, SBA-required certifications, related copying",
+        "Costs not directly attributable to or necessary for the Project are ineligible",
+        "Relocation out of a community is ineligible if it cuts one-third of jobs or substantially increases unemployment, absent a justified exception",
+        "Projects in foreign countries are ineligible"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. C.12, C.16 and C.17"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Qualified Debt",
+      "definition": "Commercial debt eligible for 504 refinancing without expansion: 75% or more used for Eligible Fixed Assets, fully disbursed and secured by those assets for at least 6 months, and incurred for the benefit of the small business."
+    },
+    {
+      "term": "Eligible Fixed Assets",
+      "definition": "Long-term fixed assets such as land, buildings, machinery and equipment acquired, constructed or improved by a small business for use in its operations."
+    },
+    {
+      "term": "Refinancing Project",
+      "definition": "The fair market value of the Eligible Fixed Assets securing the Qualified Debt plus other acceptable fixed assets, which may include Eligible Business Expenses; limited to 90% LTV."
+    },
+    {
+      "term": "Eligible Business Expenses (EBE)",
+      "definition": "Operating Expenses unpaid at application or due within 18 months, or Other Secured Debt, that may be included in a refinancing without expansion; must be itemized."
+    },
+    {
+      "term": "Other Secured Debt",
+      "definition": "Pre-application, non-capital-expenditure debt secured for at least 6 months by the same Eligible Fixed Assets as the Qualified Debt, with payments current for at least 12 months."
+    },
+    {
+      "term": "Same Institution Debt",
+      "definition": "Debt of the CDC or the Third Party Lender financing the new Project, or of their affiliates; PCLP authority may not be used to refinance it."
+    },
+    {
+      "term": "Substantial Benefit",
+      "definition": "The test that the new installment amount attributable to the refinanced debt is less than the existing installment, after adding prepayment penalties and financing costs."
+    },
+    {
+      "term": "Contingency fund",
+      "definition": "A Project cost line capped at 15% of construction costs; a residual up to 2% of the debenture may go to the Borrower as working capital, otherwise the debenture is reduced."
+    },
+    {
+      "term": "Short-Term Debt (Bridge Financing)",
+      "definition": "Interim debt used to pay eligible Project costs until long-term financing is in place; eligible for repayment only if its term was 3 years or less."
+    },
+    {
+      "term": "Eligible administrative costs",
+      "definition": "Borrower out-of-pocket closing costs under 13 CFR 120.883 that are not Project costs but are added to Net Debenture Proceeds to form the Gross Debenture."
+    },
+    {
+      "term": "Project involves Expansion",
+      "definition": "A Project that acquires, constructs or improves land, building or equipment for the Applicant's use, allowing refinancing of debt up to 100% of the expansion cost."
+    },
+    {
+      "term": "ESOP",
+      "definition": "Employee Stock Ownership Plan or equivalent trust; may own a 504 Borrower but is not required to guarantee the loan, and the loan may not be structured as EPC/OC."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-p2-q1",
+      "question": "An Applicant bought land 3 years ago for $400,000 and contributes it to a 504 building Project. How is the land valued?",
+      "options": [
+        "At its $400,000 cost",
+        "At fair market value from an independent real estate appraisal",
+        "At the lower of cost or assessed tax value",
+        "At the value stated in the TPL's commitment letter"
+      ],
+      "correctIndex": 1,
+      "explanation": "Land held 2 years or more is valued at fair market value determined by an independent appraisal meeting the Para. E.2.b requirements. Cost is used only when the land was purchased less than 2 years before the application date.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. C.1",
+      "difficulty": "applied"
+    },
+    {
+      "id": "c1-p2-q2",
+      "question": "Which solar panel installation would be treated as machinery and equipment rather than part of the land and building cost?",
+      "options": [
+        "Rooftop panels powering the Borrower's own factory",
+        "Panels on the Borrower's warehouse that it will own outright",
+        "A solar farm whose primary purpose is producing electricity for sale",
+        "Panels installed as part of the building's original construction contract"
+      ],
+      "correctIndex": 2,
+      "explanation": "Solar panels may be included in land and building value unless their primary purpose is to produce electricity for sale (solar farms), in which case they are treated as machinery and equipment. Panels leased from and owned by a third party are excluded from the real estate value as well.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. C.1.d",
+      "difficulty": "basic"
+    },
+    {
+      "id": "c1-p2-q3",
+      "question": "A Project has $2,000,000 of construction costs. What is the maximum contingency line allowed?",
+      "options": [
+        "$40,000",
+        "$200,000",
+        "$300,000",
+        "$400,000"
+      ],
+      "correctIndex": 2,
+      "explanation": "A contingency fund may not exceed 15% of Project construction costs: 15% x $2,000,000 = $300,000. The 2% figure applies to how a leftover contingency is handled relative to the debenture, not to the cap.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. C.8",
+      "difficulty": "applied"
+    },
+    {
+      "id": "c1-p2-q4",
+      "question": "Just before closing, a Project with an $800,000 debenture has $24,000 of unused contingency. What happens?",
+      "options": [
+        "The debenture must be reduced by the $24,000",
+        "The $24,000 is refunded to the business as working capital",
+        "The $24,000 is applied to the Third Party Loan",
+        "The contingency is carried forward for 12 months"
+      ],
+      "correctIndex": 0,
+      "explanation": "$24,000 is 3% of the $800,000 debenture. Because the residual exceeds 2% of the debenture, it may not go to the business as working capital and the debenture must be reduced by the unused amount. Only a residual of 2% or less ($16,000 here) may be refunded.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. C.8",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c1-p2-q5",
+      "question": "A Borrower who is a licensed, experienced contractor wants to build out its own space. Which evidence on cost satisfies the do-it-yourself rule?",
+      "options": [
+        "The Borrower's own written estimate",
+        "One bid from an unaffiliated contractor",
+        "Two bids from unaffiliated contractors showing the Borrower's cost is the same or higher",
+        "A single estimate from a third-party construction management firm showing the Borrower's cost is the same or lower"
+      ],
+      "correctIndex": 3,
+      "explanation": "The cost must be the same as or less than either two unaffiliated contractor bids or a single estimate from a third-party construction management firm (or a qualifying TPL internal department). One contractor bid is not enough, and the Borrower's cost must be at or below, not above, the benchmark. The Borrower also may not earn a profit.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. C.9",
+      "difficulty": "applied"
+    },
+    {
+      "id": "c1-p2-q6",
+      "question": "For debt refinancing without expansion, which loan meets the Qualified Debt seasoning tests?",
+      "options": [
+        "Fully disbursed 4 months ago, secured by the building for 4 months",
+        "Fully disbursed 8 months ago, secured by the building for 7 months",
+        "Fully disbursed 12 months ago, secured by inventory only",
+        "Fully disbursed 2 months ago but approved 9 months ago"
+      ],
+      "correctIndex": 1,
+      "explanation": "Qualified Debt must have been fully disbursed not less than 6 months before the application and secured by Eligible Fixed Assets for at least 6 months. Approval date does not count, and inventory is not an Eligible Fixed Asset.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. C.10.a.i",
+      "difficulty": "applied"
+    },
+    {
+      "id": "c1-p2-q7",
+      "question": "A refinancing without expansion meets no job or public policy objective. The Borrower has 20 full-time and 10 part-time employees who average 30 hours per week. What is the maximum 504 loan?",
+      "options": [
+        "$1,900,000",
+        "$2,612,500",
+        "$2,850,000",
+        "$4,125,000"
+      ],
+      "correctIndex": 1,
+      "explanation": "Employees = 20 + (10 x 30/40) = 27.5. The cap is 27.5 x $95,000 = $2,612,500. Counting part-timers as full-time (30 x $95,000 = $2,850,000) ignores the required hours / 40 proration.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. C.10.h",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c1-p2-q8",
+      "question": "A refinancing without expansion includes Eligible Business Expenses. The Qualified Debt plus EBE would exceed 90% of the Refinancing Project's value. Which fix is allowed?",
+      "options": [
+        "Reduce the amount refinanced so the Refinancing Project stays within 90% LTV",
+        "Add a second property as additional collateral to raise the Project value",
+        "Increase the LTV limit to 95% with D/FA approval",
+        "Shift the EBE into the Third Party Loan above 90%"
+      ],
+      "correctIndex": 0,
+      "explanation": "For Projects that include EBE, the maximum is 90% LTV and the value of the Refinancing Project may not be increased by adding additional collateral. Adding collateral is only allowed for Qualified-Debt-only refinancings that exceed 90%.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. C.10.i",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c1-p2-q9",
+      "question": "How long after approval must a Debt Refinance without Expansion loan be disbursed?",
+      "options": [
+        "Within 6 months, with one 3-month extension",
+        "Within 9 months, with a possible 6-month extension for good cause",
+        "Within 12 months, no extensions",
+        "Within 18 months, matching the EBE window"
+      ],
+      "correctIndex": 1,
+      "explanation": "Loans for Debt Refinance without Expansion must be disbursed within 9 months after approval, and the D/FA or designee may extend that by 6 months for good cause. The 18-month figure relates to when operating expenses come due for EBE.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. C.10.k",
+      "difficulty": "basic"
+    },
+    {
+      "id": "c1-p2-q10",
+      "question": "A Project includes a $900,000 building expansion. What is the maximum existing eligible debt that can be refinanced as part of it?",
+      "options": [
+        "$450,000",
+        "$810,000",
+        "$900,000",
+        "$1,800,000"
+      ],
+      "correctIndex": 2,
+      "explanation": "With expansion, existing indebtedness not exceeding 100% of the cost of the expansion may be refinanced, so up to $900,000. The refinanced amount is then added to the expansion cost to set total Project costs ($1,800,000 total).",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. C.11.a",
+      "difficulty": "applied"
+    },
+    {
+      "id": "c1-p2-q11",
+      "question": "Which statement about refinancing federally guaranteed loans as part of a 504 expansion is correct?",
+      "options": [
+        "A 504 loan may be refinanced in part",
+        "A Third Party Loan may be refinanced with an SBA-guaranteed loan",
+        "No notice to the existing lender is needed",
+        "A 7(a) loan may be refinanced in whole or in part, but a 504 loan only in whole"
+      ],
+      "correctIndex": 3,
+      "explanation": "An existing 7(a) loan may be refinanced in whole or in part; a 504 loan only in whole, and the CDC must give the existing lender at least 10 business days' written notice. A Third Party Loan may never be refinanced with an SBA-guaranteed loan.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. C.11.b.iv",
+      "difficulty": "basic"
+    },
+    {
+      "id": "c1-p2-q12",
+      "question": "A PCLP CDC wants to use its delegated authority to approve a 504 expansion that refinances an existing loan held by the Third Party Lender's affiliate bank. What is required?",
+      "options": [
+        "Nothing extra; PCLP covers all refinancing",
+        "Only a Form 2288R from the interim lender",
+        "The TPL must waive its prepayment penalty",
+        "The loan must be submitted to SBA, because PCLP authority may not be used to refinance Same Institution Debt"
+      ],
+      "correctIndex": 3,
+      "explanation": "Same Institution Debt includes debt of the CDC or the TPL financing the Project, or their affiliates, and PCLP authority must not be used to refinance it. The TPL must also certify it is not in a position to shift a loss to SBA.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. C.11.c",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c1-p2-q13",
+      "question": "A buyer is acquiring a company for $3,000,000: $2,200,000 for the building and equipment and $800,000 for goodwill. How should the goodwill be handled?",
+      "options": [
+        "Include it in the 504 Project costs",
+        "Finance it through the Third Party Loan within the 504 Project",
+        "Finance it separately outside the 504 Project, for example with a 7(a) loan",
+        "Add it to administrative costs in the Gross Debenture"
+      ],
+      "correctIndex": 2,
+      "explanation": "In a change of ownership, the 504 Project finances only eligible long-term fixed assets. Goodwill and receivables are not eligible uses of either 504 or Third Party Loan proceeds and must be financed by other means, which may include a 7(a) loan.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. C.13.a",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c1-p2-q14",
+      "question": "In a 504 change of ownership, the seller wants to stay on for two years as a paid Key Employee. Is that allowed?",
+      "options": [
+        "No; the seller may not remain as an officer, director, stockholder or Key Employee",
+        "Yes, if the seller owns less than 20%",
+        "Yes, if the seller signs a full guaranty",
+        "Yes, if SLPC approves the employment agreement"
+      ],
+      "correctIndex": 0,
+      "explanation": "The SOP states the seller may not remain as an officer, director, stockholder or Key Employee, and the change of ownership must result in the Applicant owning 100% of the business.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. C.13.d",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c1-p2-q15",
+      "question": "A manufacturer plans to move its plant 300 miles away, which will eliminate 40% of its jobs at the current site with no offsetting justification. Is the Project eligible?",
+      "options": [
+        "Yes; relocation is always allowed in 504",
+        "Yes, if the new site is in an Opportunity Zone",
+        "No; 504 never finances relocations",
+        "No; relocation out of a community with a net reduction of one-third of jobs is ineligible unless the CDC justifies an exception"
+      ],
+      "correctIndex": 3,
+      "explanation": "A Project is ineligible if it relocates a business out of a community and causes a net reduction of one-third of its jobs or a substantial increase in unemployment, unless the CDC justifies an exception under 13 CFR 120.881(a)(1) and (a)(2). Relocation alone is not prohibited.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. C.17",
+      "difficulty": "scenario"
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "id": "b5-ewcp-collateral-advances",
+  "order": 252,
+  "part": "B",
+  "program": "7a",
+  "title": "Export Working Capital Program: Closing, Advances and Borrowing Base",
+  "subtitle": "Advance rates, eligible receivables and inventory, control accounts, BBCs, field exams and out-of-margin rules for EWCP",
+  "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (EWCP-Specific Loan Closing and Disbursement Requirements)",
+  "estimatedMinutes": 45,
+  "learningObjectives": [
+    "Describe EWCP repayment options and Master Note / sub-note structures",
+    "Calculate maximum advances for transaction-based and asset-based EWCP loans",
+    "Apply terms-of-sale tenors, uninsured buyer tests and foreign currency rules",
+    "Determine which foreign receivables and export inventory are eligible for a borrowing base",
+    "Apply BBC frequency, field examination and out-of-margin requirements"
+  ],
+  "topics": [
+    {
+      "id": "b5-ewcp-repayment-notes",
+      "title": "EWCP repayment options and Master Note structures",
+      "body": "The closing and disbursement rules are where EWCP looks most like commercial asset-based lending. General 7(a) closing requirements live in **Section B, Ch. 6, Para. D** (with note terms in **Ch. 6, Para. D.2**). This chapter covers the EWCP-specific layer.\n\n### Two repayment options\n\n| Option | How payments work |\n|---|---|\n| **Option 1** | **All cash and accounts receivable received are applied against the principal balance**, plus interest payments on outstanding balances |\n| **Option 2** | **Interest-only payments** on outstanding balances |\n\nUnder Option 2 the principal is repaid as the underlying transactions liquidate and at maturity, consistent with EWCP's self-liquidating nature.\n\n### The In Margin rule\n\n**Advances on the line of credit must not occur unless the loan is In Margin.** \"In Margin\" means the outstanding balance is within what the borrowing base formula (or transaction advance rate) supports. This single rule ties together everything else in this chapter: advance rates, eligible collateral, BBC reporting and the out-of-margin remedies.\n\n### Master Notes, sub-notes and sublimits\n\nEWCP loans may be structured with:\n\n- A **Master Note** covering the **total loan amount and general repayment period**; and\n- A system of **sub-notes** setting **specific repayment periods for specific purchase orders, contracts or transactions**.\n\nThe conditions of the sub-notes **must not conflict with the Master Note, except for variances in repayment schedules**. An **EWCP Asset-Based Loan may be structured as a sublimit of a Master Note**, provided the sublimit conforms to the EWCP requirements.\n\n> **In practice:** A manufacturer with a $2,000,000 EWCP facility might sign one Master Note, then sign a $400,000 sub-note for a German order repaid 90 days after shipment and a $250,000 sub-note for a Brazilian order on 120-day terms. Each sub-note tracks its own transaction; the Master Note sets the overall limit and maturity.\n\n> **Watch out:** A sub-note cannot introduce a different interest rate basis, collateral requirement or default trigger. Only the repayment schedule may vary from the Master Note.\n",
+      "keyPoints": [
+        "Two repayment options: apply all cash and receivables to principal plus interest, or interest-only on outstanding balances.",
+        "No advance on the line unless the loan is In Margin.",
+        "A Master Note can cover the total loan amount; sub-notes can set repayment for specific orders or contracts.",
+        "Sub-note conditions may not conflict with the Master Note except for repayment schedule variances.",
+        "Asset-Based EWCP may be structured as a sublimit of a Master Note if it meets the EWCP requirements."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (EWCP-Specific Loan Closing and Disbursement Requirements), Para. 1"
+    },
+    {
+      "id": "b5-ewcp-advance-rates",
+      "title": "EWCP advance rates",
+      "body": "How much can the lender advance? It depends on the structure and on how well the foreign risk is mitigated.\n\n### Transaction-specific and transaction-based lines\n\nOn **single transaction-specific loans** and **transaction-based revolving lines** where draws are made against **foreign purchase orders or contracts**:\n\n- Maximum advance: **90% of the purchase order/contract value or the Borrower's costs (including overhead), whichever is less**.\n- Foreign receivables are captured through a **control account** and applied against the loan balance.\n\n*Example:* A $500,000 purchase order costs the borrower $380,000 to fill, including overhead. 90% of the order is $450,000; the borrower's cost is $380,000. The maximum advance is the lesser: **$380,000**.\n\n### Asset-based revolving lines\n\nOn an **asset-based** line, advances are made against a borrowing base of foreign receivables and/or export-related inventory:\n\n| Collateral | Maximum advance rate |\n|---|---|\n| Eligible foreign accounts receivable | **90%** |\n| Eligible export-related inventory located within the United States | **75%** |\n| Foreign POs/contracts or receivables sold on **open account** with no credit insurance or letter of credit | **80%** (general cap) |\n| Uninsured foreign receivables, **PLP-EWCP Lender**, creditworthy corporate or government buyer | Up to **90%**, with documented justification |\n\nFor asset-based lines:\n\n- Control accounts may be required at the discretion of the **LGPC** (non-delegated) or the **PLP-EWCP Lender** (delegated).\n- The Borrower must submit a **Borrowing Base Certificate at least monthly** (or more often if the Lender customarily requires it on similar non-SBA loans), with an **aging of foreign receivables** and a **listing of export-related inventory**, as appropriate.\n- If the borrowing base shows the Borrower is **over-advanced**, the Lender must **immediately require a payment** to bring the balance within the formula.\n\n### When the 80% cap moves to 90%\n\nA **PLP-EWCP Lender** may advance **up to 90%** against uninsured foreign receivables when they are from:\n\n- **Creditworthy buyers** (for example, financially sound corporations, multinational or publicly traded companies) located in countries with acceptable commercial risk; or\n- **Creditworthy government entities** in countries with acceptable commercial or political risk.\n\nWhen advancing **above 80%**, the PLP-EWCP Lender **must document its loan file with the analysis and justification** supporting the higher rate.\n\n> **Watch out:** The \"whichever is less\" test for transaction loans catches high-margin orders. If the order is worth far more than it costs to fill, the advance is limited by cost, not order value.\n",
+      "keyPoints": [
+        "Transaction loans: up to 90% of the purchase order/contract or the Borrower's costs (including overhead), whichever is less.",
+        "Asset-based lines: up to 90% of eligible foreign receivables and 75% of eligible export inventory located in the U.S.",
+        "Open account sales without credit insurance or a letter of credit: maximum 80%.",
+        "PLP-EWCP Lenders may advance up to 90% on uninsured AR from creditworthy buyers or government entities, with documented justification.",
+        "If the borrowing base shows an over-advance, the Lender must immediately require a paydown."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (EWCP-Specific Loan Closing and Disbursement Requirements), Para. 2 (Advances and Receivables)"
+    },
+    {
+      "id": "b5-ewcp-uninsured-buyers",
+      "title": "Approving uninsured foreign buyers",
+      "body": "Foreign receivables backed by a letter of credit or export credit insurance carry much less risk than **open account** sales, where the exporter simply ships and trusts the buyer to pay. EWCP allows lending against uninsured open account receivables, but only for buyers that pass one of three tests.\n\n### Three ways to approve an uninsured buyer\n\n1. **Ledger experience.** The exporter provides **favorable ledger experience with the specific buyer over a significant period, at a minimum 24 months**, in countries with acceptable commercial or political risk. **Limits extended to the uninsured buyer must be commensurate with sales levels during the ledger history period.**\n2. **Creditworthy buyer.** The receivables are from **creditworthy buyers**, such as financially sound corporations or multinational or publicly-traded companies, located in countries with acceptable commercial risk.\n3. **Creditworthy government entity.** The receivables are from **creditworthy government entities** in countries with acceptable commercial or political risk.\n\n### Documentation\n\nWhen setting advance rates on uninsured foreign receivables, the Lender **must document its loan file with the analysis and justification supporting the uninsured sale**.\n\n### Advance rate recap\n\n| Lender / buyer | Max advance on uninsured AR |\n|---|---|\n| Any EWCP lender, buyer approved under any of the three tests | **80%** |\n| PLP-EWCP lender, creditworthy corporate buyer or government entity | Up to **90%**, with documented justification for exceeding 80% |\n\nNote that the 90% path for PLP-EWCP lenders is available only for the **creditworthy buyer** and **creditworthy government** tests, not the ledger-history test.\n\n> **Watch out:** Ledger history must be with the *specific buyer*. Two years of good experience selling to buyers in a country does not qualify a brand-new buyer in that country.\n\n> **In practice:** Consider a Texas exporter that has sold to the same Canadian distributor for 30 months with no late payments, averaging $50,000 a month. Approving that distributor as an uninsured buyer with a $60,000 limit is commensurate with the history. A $400,000 limit would not be.\n\n### Related terms-of-sale rule\n\nUninsured open account receivables must also **not exceed 180 days from the invoice date** and require either **SBA's prior written consent** or **documentation by the PLP-EWCP Lender**. The next topic covers all the acceptable terms of sale.\n",
+      "keyPoints": [
+        "Uninsured buyers can be approved based on at least 24 months of favorable ledger experience in acceptable-risk countries.",
+        "Or based on creditworthy buyers (financially sound, multinational or publicly-traded companies) in acceptable countries.",
+        "Or based on creditworthy government entities in countries with acceptable commercial or political risk.",
+        "Limits on uninsured buyers must be commensurate with sales during the ledger history period.",
+        "The Lender must document the analysis and justification supporting any uninsured sale."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (EWCP-Specific Loan Closing and Disbursement Requirements), Para. 2 (Advances and Receivables - approving uninsured buyers)"
+    },
+    {
+      "id": "b5-ewcp-terms-of-sale",
+      "title": "Terms of sale, country screening and foreign currency",
+      "body": "### Screening countries and parties\n\nPayment terms must comply with the **terms and conditions in the SBA Loan System**. The Lender must review:\n\n- The **Ex-Im Bank Country Limitation Schedule** for prohibited countries (**Note #7**); and\n- The **OFAC sanctions lists**.\n\nAs with Export Express, a **federally regulated Lender** complies with OFAC by following its federal regulator's procedures, while an **SBA Supervised Lender** must check OFAC **prior to first disbursement on each specific export transaction**.\n\n### Acceptable terms of sale\n\nPayment terms must be in line with prudent lending practice. Typical terms include:\n\n| Term of sale | Conditions | Max tenor from invoice date |\n|---|---|---|\n| Confirmed irrevocable letter of credit | SBA or PLP-EWCP Lender may require for some or all foreign accounts | **364 days** |\n| Irrevocable letter of credit | Same | **364 days** |\n| Open account, insured (Ex-Im Bank or private export credit insurance, comprehensive commercial and political risk) | SBA or PLP-EWCP Lender may require insurance; **Lender must be named Loss Payee** | **180 days** |\n| Cash received prior to shipment | | n/a |\n| Open account, uninsured | **SBA's prior written consent** or **documented by the PLP-EWCP Lender** | **180 days** |\n| Sight draft, documents against payment | **SBA's prior written consent** | (not specified) |\n\n> **Watch out:** A policy covering the exporter's receivables does not protect the lender unless the **Lender is the named Loss Payee**. Closing checklists should verify the loss payee endorsement.\n\n### Jurisdiction and currency\n\nForeign receivables held as collateral **should be payable to the Borrower in the United States and in U.S. dollars**.\n\n- Receivables payable in **non-U.S. currency** may be allowed **case by case** with **SBA's prior written consent** or as **authorized by the PLP-EWCP Lender**.\n- Depending on currency stability, SBA may require the Borrower to **hedge** (for example, a forward currency contract, forward option or similar mechanism) as a condition of approval.\n- When advancing against a foreign-currency transaction, the Lender must use an **established foreign exchange rate** and **retain documentation of the rate used and its calculation of the advance**.\n\n> **In practice:** For a euro-denominated invoice of EUR 200,000, the file should show the date and source of the EUR/USD rate, the USD equivalent, and the advance rate applied. Without this, an SBA reviewer cannot recompute the borrowing base.\n",
+      "keyPoints": [
+        "Payment terms must match the SBA Loan System and be reviewed against the Ex-Im Country Limitation Schedule (Note #7) and OFAC lists.",
+        "Letter of credit receivables: no more than 364 days from invoice date.",
+        "Credit-insured and uninsured open account receivables: no more than 180 days from invoice date.",
+        "If export credit insurance is obtained, the Lender must be named Loss Payee.",
+        "Foreign currency receivables need SBA consent or PLP-EWCP authorization; the Lender must document the exchange rate and advance calculation."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (EWCP-Specific Loan Closing and Disbursement Requirements), Para. 2 (Advances and Receivables - Foreign Accounts Receivable, Terms of Sale and Currency)"
+    },
+    {
+      "id": "b5-ewcp-control-accounts",
+      "title": "Control accounts and when a borrower may keep collections",
+      "body": "A **control account** is a lender-controlled deposit account where foreign buyers' payments land, so the lender can sweep them against the loan before the borrower can spend them.\n\n### Transaction loans: always required\n\nFor **single transaction-specific** and **transaction-based revolving line** EWCP loans, Lenders **must set up a control account** to capture foreign receivable proceeds as foreign buyers pay. The proceeds must be **applied against the loan balance**, either:\n\n- **in their entirety**, or\n- as a **percentage of the proceeds sufficient to pay off the initial advance** for that specific transaction.\n\n### Asset-based loans: a credit decision\n\nFor **asset-based** loans, the **LGPC** (for non-delegated loans) or the **PLP-EWCP Lender** (for delegated loans) decides whether a control account is required, **based on the credit analysis**. Two approaches are described:\n\n| Approach | How it works |\n|---|---|\n| **Normal approach** | **100% of foreign receivable proceeds are applied** to the loan balance; the Borrower requests new advances as needed based on a BBC |\n| **Retained proceeds** | Borrower maintains a balance within borrowing base limits and **retains** collections rather than applying them on receipt |\n\nEither way, the Borrower must submit a **BBC at least monthly** (or more often if the Lender customarily requires it), with a foreign receivables aging and export inventory listing, and the Lender reviews the BBC for over-advance. If over-advanced, the Lender requires an **immediate payment** to bring the loan into compliance.\n\n### Who can keep their collections?\n\nTo be allowed to retain foreign receivable proceeds on an asset-based loan, the small business must:\n\n1. **Be in business for at least 2 years** (no start-ups); and\n2. Have **financial records satisfactory** to SBA (non-delegated) or the PLP-EWCP Lender (delegated), and the **ability to provide a current aging** of foreign receivables.\n\nIn deciding whether to allow this, the **PLP-EWCP Lender must follow its policies and procedures for similarly-sized, non-SBA guaranteed credit facilities**.\n\n> **Watch out:** Two thresholds can be confused here. The general EWCP eligibility test is **12 full months** of operations; retaining collections on an asset-based line requires **2 years** in business.\n",
+      "keyPoints": [
+        "Transaction-specific and transaction-based lines require a control account capturing foreign buyer payments.",
+        "Proceeds must be applied to the loan, fully or in an amount sufficient to pay off that transaction's advance.",
+        "For asset-based lines, the LGPC (non-delegated) or PLP-EWCP Lender (delegated) decides whether a control account is required.",
+        "Normally 100% of AR proceeds are applied to the loan, with new advances requested via BBC.",
+        "To retain AR proceeds, the borrower must be in business at least 2 years and have satisfactory records and current AR agings."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (EWCP-Specific Loan Closing and Disbursement Requirements), Para. 2 (Advances and Receivables - Control Accounts)"
+    },
+    {
+      "id": "b5-ewcp-ineligible-receivables",
+      "title": "Which foreign receivables count in the borrowing base",
+      "body": "Only **eligible** foreign receivables count toward an asset-based EWCP borrowing base. Unless the Lender receives **SBA's prior written consent**, the following are **not eligible**:\n\n| # | Ineligible receivable |\n|---|---|\n| 1 | Not arising from sale of items in the **ordinary course** of the Borrower's business |\n| 2 | From a **domestic (U.S.) company**, unless SBA approved the transaction as an **indirect export** |\n| 3 | **No invoice** has been sent |\n| 4 | Due from a buyer in a **Note #7 prohibited country** on the Ex-Im Country Limitation Schedule, or where the Borrower **knows the goods will be re-exported** to such a country |\n| 5 | Due by original terms **more than 180 calendar days from invoice**, unless supported by an acceptable **letter of credit or credit insurance** |\n| 6 | Still outstanding **more than 60 calendar days past its original due date** |\n| 7 | Deemed **uncollectible or unacceptable** by the Lender, including **finance or late charges** imposed on a past-due buyer |\n| 8 | Does **not comply with the terms of sale** |\n| 9 | Arises from **bill-and-hold, guarantee sale, sale-and-return, sale on approval, consignment**, any repurchase or return basis, or evidenced by **chattel paper** |\n| 10 | Subject to any **offset, deduction, defense, dispute or counterclaim**; the buyer is also a **creditor or supplier** of the Borrower; or the receivable is **contingent** in any way |\n| 11 | Goods have been **returned, rejected or repossessed** |\n| 12 | Due from an **affiliated company** |\n| 13 | **Cross-aging:** when **50% or more** of a buyer's total foreign receivables are **over 60 calendar days past due**, **all** of that buyer's receivables are excluded |\n\n### Lender policies still apply\n\nThe Lender must also apply **the same eligibility policies it uses on its own similar asset-based loans** that are not guaranteed by SBA or any other government entity. The SBA list is a floor, not a ceiling.\n\n### Verifying eligibility\n\nThe Lender **may** verify that no ineligible receivables are in the borrowing base by obtaining a **Borrower certification** at the bottom of the BBC or on a separate form.\n\n> **In practice:** Cross-aging example. A buyer owes $100,000: $55,000 is 75 days past due and $45,000 is current. Because 55% is over 60 days past due, the full $100,000, including the current $45,000, drops out of the borrowing base.\n\n> **Watch out:** Rule 5 and rule 6 measure different things. Rule 5 looks at the **original terms** (more than 180 days from invoice). Rule 6 looks at **delinquency** (more than 60 days past the original due date).\n",
+      "keyPoints": [
+        "Ineligible without SBA consent: domestic AR (unless an approved indirect export), uninvoiced AR, AR from Note #7 countries or known re-exports there.",
+        "AR due more than 180 days from invoice by original terms is ineligible unless backed by an acceptable LC or credit insurance.",
+        "AR more than 60 days past its original due date is ineligible.",
+        "If 50% or more of a buyer's AR is over 60 days past due, all of that buyer's AR is excluded.",
+        "Affiliate AR, disputed or contra AR, returned goods and consignment-type sales are ineligible."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (EWCP-Specific Loan Closing and Disbursement Requirements), Para. 2 (Advances and Receivables - Foreign Accounts Receivable Restrictions)"
+    },
+    {
+      "id": "b5-ewcp-inventory",
+      "title": "Export-related inventory as collateral",
+      "body": "### General guidelines\n\n- Export-related inventory taken as collateral **must be located within the United States until shipped** to the foreign buyer.\n- It must be valued at the **lower of actual cost or market value** (including the cost of work-in-process) under **GAAP**.\n- It may include **raw materials, work-in-process and finished goods**.\n- **Advance rates may vary with inventory quality.** The asset-based maximum is 75% on eligible export-related inventory located in the U.S.\n\n### Ineligible inventory\n\nUnless the Lender receives **SBA's prior written consent**, the following cannot be included in the export-related borrowing base:\n\n1. Inventory **not subject to a valid, perfected, enforceable first priority lien** in favor of the Lender;\n2. Inventory at an **address not disclosed to the Lender in writing**;\n3. Inventory **not located in the United States**;\n4. Inventory placed **on consignment** by the Borrower or **held on consignment** by the Borrower;\n5. **Demonstration** inventory;\n6. **Proprietary software** (software designed solely for the Borrower's internal use and not for resale);\n7. Inventory that is **damaged, obsolete, returned, defective, recalled or unfit** for further processing; and\n8. Inventory to be incorporated into items destined for a **Note #7 prohibited country**, or that the Borrower knows will be **re-exported** by a foreign buyer to such a country.\n\n### Lender policies and certifications\n\n- The Lender must apply **the same inventory eligibility policies** it uses on its own similarly-sized asset-based loans not guaranteed by SBA or another government entity.\n- The Lender **may** verify that no ineligible inventory is included by obtaining a **Borrower certification** on the BBC or a separate form.\n\n> **Watch out:** \"Undisclosed location\" catches a common real-world problem: a borrower moves goods to a third-party warehouse or a contract manufacturer without telling the lender. Until the address is disclosed in writing, that inventory is out of the base.\n\n> **In practice:** A borrower reports $400,000 of inventory: $250,000 of finished export goods in its Illinois plant, $50,000 of demo units, $60,000 at a newly rented warehouse not yet disclosed, and $40,000 of returned goods. Only the $250,000 is eligible, supporting up to $187,500 at 75%.\n",
+      "keyPoints": [
+        "Export inventory must be located in the U.S. until shipped to the foreign buyer.",
+        "Valued at the lower of actual cost or market value under GAAP, including work-in-process.",
+        "May include raw materials, work-in-process and finished goods; advance rates may vary with quality (maximum 75%).",
+        "Ineligible without SBA consent: no perfected first lien, undisclosed or foreign locations, consignment, demo, proprietary software, damaged or obsolete goods, Note #7 destinations.",
+        "Lender's own ABL inventory policies also apply; a Borrower certification may verify eligibility."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (EWCP-Specific Loan Closing and Disbursement Requirements), Para. 2 (Advances and Receivables - Export-Related Inventory)"
+    },
+    {
+      "id": "b5-ewcp-bbc-field-exams",
+      "title": "Borrowing Base Certificates and field examinations",
+      "body": "### Field examinations\n\nA **field examination** verifies the assets that make up the borrowing base, and must include a **sampling of the receivables and inventory**. It is an **out-of-pocket expense** and may be done by the **Lender's internal audit staff or a third-party examiner**.\n\n| Loan | Field exam requirement |\n|---|---|\n| Transaction-Based EWCP (any size) | **Not required**; each transaction is reviewed individually |\n| Asset-Based EWCP **under $1,000,000** | No pre-disbursement exam required; frequency at Lender's discretion |\n| Asset-Based EWCP **$1,000,000 or greater** | Exam **before first disbursement** |\n| Asset-Based EWCP **$2,000,000 or greater** | Exam **before first disbursement and at least annually** |\n\nFor asset-based loans **under $2,000,000**, after the initial exam (if applicable) the Lender may set exam frequency based on **quality of records, borrower risk profile and seasonality**. If it decides an annual exam is unnecessary, it must **document the specific circumstances**. Acceptable criteria include **overall line utilization, level of inventory reliance, suppressed availability**, and similar factors.\n\n### BBC frequency\n\nAll asset-based EWCP loans must be administered using a **BBC**. The Lender may require BBCs more often if its policies for similar non-SBA lines do.\n\n| Loan size | Minimum BBC frequency |\n|---|---|\n| **$1,000,000 or less** | At least **quarterly** |\n| **Greater than $1,000,000** | At least **monthly** |\n| Any size, draw-based structure | A new BBC **with each draw**, identifying new billings and collections since the last certificate |\n\n> **Watch out:** The advances and control account paragraphs describe a BBC \"at least monthly,\" while the BBC paragraph allows **quarterly** for loans of $1,000,000 or less. Lender policy and the loan agreement should state the frequency explicitly.\n\n### BBC collection deadlines\n\n- The Lender must obtain the **AR, AP and inventory reports** needed to determine its collateral position. Lenders **may use their own BBC forms**.\n- Most Lenders require the BBC by the **15th of the following month**. The Lender may choose, but the due date may be **no more than 30 calendar days after month end**.\n- If a required **monthly** BBC is not received **within 60 days of month end**, **advances must stop** until the BBC is obtained and the loan is confirmed **In Margin**.\n- If a required **quarterly** BBC is not received **within 30 days of month end**, **advances must stop** on the same terms.\n- When the line is **unused, has no outstanding principal and supports no letters of credit**, the Lender **may suspend BBC collection**. Before the next advance, it must obtain a **new BBC** or complete a **full credit memo documenting the current collateral position**.\n",
+      "keyPoints": [
+        "Field exam required before first disbursement on Asset-Based EWCP loans of $1,000,000 or greater; at least annually at $2,000,000 or greater.",
+        "Under $2,000,000, the Lender sets exam frequency after the initial exam and must document any decision to skip an annual exam.",
+        "Transaction-Based EWCP loans do not require field exams.",
+        "Asset-based BBCs: at least quarterly for loans of $1,000,000 or less; at least monthly above $1,000,000.",
+        "BBC due date no more than 30 days after month end; advances stop if a monthly BBC is 60 days late or a quarterly BBC is 30 days late."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (EWCP-Specific Loan Closing and Disbursement Requirements), Para. 2 (Advances and Receivables - Field Examinations, Borrowing Base Certificates, BBC Collection)"
+    },
+    {
+      "id": "b5-ewcp-out-of-margin-certs",
+      "title": "Out-of-margin loans and borrower certifications",
+      "body": "### When the loan falls out of margin\n\nIf the **BBC shows the Borrower is not In Margin**, or the Borrower **has not submitted a required BBC**, the Lender must **immediately** require the Borrower to:\n\n- **make a payment** that brings the balance within the borrowing base formula; or\n- **obtain additional eligible collateral** (for example, marketable securities).\n\nThe Lender must **document its attempts** to address the out-of-margin situation in the credit file.\n\n**No additional advances** may be made against a line that is not In Margin **until it is brought back in balance**, unless the Lender receives **SBA's prior written consent through 7aLoanMod@sba.gov**. This applies **regardless of whether the loan was processed non-delegated or under PLP-EWCP delegated authority**.\n\n> **Watch out:** Delegated authority does not extend to advancing on an out-of-margin line. Even a PLP-EWCP lender must get SBA's written consent first.\n\n> **In practice:** Suppose an April BBC shows eligible foreign receivables of $1,000,000 and eligible inventory of $400,000. Availability is 90% x $1,000,000 + 75% x $400,000 = $1,200,000. If the outstanding balance is $1,350,000, the line is $150,000 out of margin. The lender must demand a $150,000 paydown (or added eligible collateral), log its outreach, and refuse further draws until the line is back in margin.\n\n### Borrower certifications\n\nTwo certifications are required:\n\n1. **Payroll taxes.** The Borrower must certify that **appropriate withholding tax deposits on advances for payroll have been made** and that **no loan proceeds will pay delinquent withholding taxes or other similar trust funds** (state sales tax, etc.). The Lender may include this in its BBC reporting package.\n2. **Export licenses.** The Borrower must provide a **copy of valid export license(s) for each different product and each different country**, or a **letter stating that no license is required, citing the authority** for that statement. This may also come with the BBC package.\n\n### Pulling it together\n\n| Event | Lender action |\n|---|---|\n| BBC shows over-advance | Immediate paydown or added eligible collateral; document efforts; no advances until In Margin |\n| Monthly BBC 60 days late | Stop advances until BBC received and loan In Margin |\n| Quarterly BBC 30 days late | Stop advances until BBC received and loan In Margin |\n| Advance needed while out of margin | Only with SBA prior written consent via 7aLoanMod@sba.gov |\n| New product or new country | Export license copy or no-license-required letter with authority |\n",
+      "keyPoints": [
+        "If a BBC shows the loan is not In Margin, or a required BBC is missing, the Lender must immediately require a paydown or additional eligible collateral.",
+        "The Lender must document its attempts to cure the out-of-margin situation.",
+        "No additional advances until back in balance, unless SBA gives prior written consent through 7aLoanMod@sba.gov.",
+        "That consent requirement applies to both non-delegated and PLP-EWCP loans.",
+        "Borrower certifies payroll withholding deposits and provides export licenses or a statement citing why none is required."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (EWCP-Specific Loan Closing and Disbursement Requirements), Para. 2 (Advances and Receivables - Loans that are not In Margin; Certifications)"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "In Margin",
+      "definition": "The condition where the outstanding EWCP balance is within the borrowing base formula or applicable advance rate; advances may occur only when the loan is In Margin."
+    },
+    {
+      "term": "Master Note / sub-note",
+      "definition": "EWCP structure where a Master Note covers the total loan amount and general repayment period and sub-notes set repayment periods for specific orders or transactions."
+    },
+    {
+      "term": "Control account",
+      "definition": "A lender-controlled account that captures foreign buyer payments so they can be applied against the EWCP loan balance."
+    },
+    {
+      "term": "Advance rate",
+      "definition": "The maximum percentage of collateral value that may be lent: e.g. 90% of eligible foreign AR, 75% of eligible U.S. export inventory, 80% on uninsured open account."
+    },
+    {
+      "term": "Open account",
+      "definition": "A sale where goods are shipped before payment without a letter of credit; may be insured (export credit insurance) or uninsured."
+    },
+    {
+      "term": "Export credit insurance",
+      "definition": "Ex-Im Bank or private insurance covering comprehensive commercial and political risk on foreign receivables; the Lender must be named Loss Payee."
+    },
+    {
+      "term": "Irrevocable letter of credit",
+      "definition": "A bank undertaking to pay the exporter against compliant documents; LC-backed EWCP receivables may run up to 364 days from invoice."
+    },
+    {
+      "term": "Cross-aging",
+      "definition": "The rule excluding all of a buyer's foreign receivables when 50% or more of that buyer's receivables are over 60 days past the original due date."
+    },
+    {
+      "term": "Field examination",
+      "definition": "A lender or third-party verification, by sampling, of the receivables and inventory in an EWCP borrowing base."
+    },
+    {
+      "term": "LGPC",
+      "definition": "SBA's Loan Guaranty Processing Center, which decides control account requirements on non-delegated asset-based EWCP loans."
+    },
+    {
+      "term": "Indirect export",
+      "definition": "A sale to a U.S. company of goods that are then exported; domestic AR counts in an EWCP base only if SBA approved the transaction as an indirect export."
+    },
+    {
+      "term": "Note #7 country",
+      "definition": "A country listed as prohibited (Note #7) on Ex-Im Bank's Country Limitation Schedule; SBA cannot support exports to it."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "b5-ewcp2-q1",
+      "question": "On an asset-based EWCP line, what are the maximum advance rates on eligible foreign accounts receivable and eligible U.S. export inventory?",
+      "options": [
+        "80% on AR and 50% on inventory",
+        "90% on AR and 75% on inventory",
+        "75% on AR and 90% on inventory",
+        "90% on AR and 90% on inventory"
+      ],
+      "correctIndex": 1,
+      "explanation": "Asset-based EWCP lines allow up to 90% on eligible foreign receivables and 75% on eligible export-related inventory located within the U.S. 80% is the cap for uninsured open account sales.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (EWCP-Specific Loan Closing and Disbursement Requirements), Para. 2 (Advances and Receivables)",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b5-ewcp2-q2",
+      "question": "A borrower has a $500,000 foreign purchase order that will cost $380,000 to fill, including overhead. On a transaction-specific EWCP loan, what is the maximum advance?",
+      "options": [
+        "$380,000",
+        "$450,000",
+        "$342,000",
+        "$400,000"
+      ],
+      "correctIndex": 0,
+      "explanation": "The maximum advance is 90% of the purchase order or the Borrower's costs (including overhead), whichever is less. 90% of $500,000 is $450,000; cost is $380,000; the lesser is $380,000. $342,000 wrongly applies 90% to cost.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (EWCP-Specific Loan Closing and Disbursement Requirements), Para. 2 (Advances and Receivables)",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b5-ewcp2-q3",
+      "question": "What is the maximum advance rate an EWCP lender may generally use on foreign receivables sold on open account with no credit insurance or letter of credit?",
+      "options": [
+        "75%",
+        "90%",
+        "80%",
+        "60%"
+      ],
+      "correctIndex": 2,
+      "explanation": "Advance rates on foreign POs/contracts or receivables sold on uninsured open account may not exceed 80%. Only a PLP-EWCP Lender may go up to 90%, and only for creditworthy corporate buyers or government entities with documented justification.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (EWCP-Specific Loan Closing and Disbursement Requirements), Para. 2 (Advances and Receivables - uninsured open account)",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b5-ewcp2-q4",
+      "question": "A PLP-EWCP lender wants to advance 88% against uninsured receivables owed by a large publicly traded Japanese company. What must it do?",
+      "options": [
+        "Obtain SBA prior written consent through 7aLoanMod@sba.gov",
+        "Nothing; PLP-EWCP lenders may always advance 90%",
+        "Reduce the advance to 80%, since uninsured AR can never exceed 80%",
+        "Document its loan file with the analysis and justification for the rate above 80%"
+      ],
+      "correctIndex": 3,
+      "explanation": "A PLP-EWCP lender may advance up to 90% on uninsured AR from creditworthy buyers in acceptable countries, but when exceeding 80% it must document the analysis and justification in its file. SBA consent via 7aLoanMod is the rule for advancing on out-of-margin lines.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (EWCP-Specific Loan Closing and Disbursement Requirements), Para. 2 (Advances and Receivables - uninsured open account)",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b5-ewcp2-q5",
+      "question": "What is the maximum tenor from invoice date for foreign receivables supported by export credit insurance?",
+      "options": [
+        "180 days",
+        "364 days",
+        "90 days",
+        "60 days"
+      ],
+      "correctIndex": 0,
+      "explanation": "Insured open account receivables may not exceed 180 days from invoice date, as do uninsured open account receivables. Letter of credit receivables may run up to 364 days. 60 days is the past-due ineligibility threshold.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (EWCP-Specific Loan Closing and Disbursement Requirements), Para. 2 (Advances and Receivables - Foreign Accounts Receivable, Terms of Sale)",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b5-ewcp2-q6",
+      "question": "A buyer owes an EWCP borrower $200,000: $110,000 is 70 days past the original due date and $90,000 is current. How much of this buyer's receivables is eligible for the borrowing base?",
+      "options": [
+        "$90,000",
+        "$200,000",
+        "$0",
+        "$110,000"
+      ],
+      "correctIndex": 2,
+      "explanation": "When 50% or more of a buyer's foreign receivables are over 60 days past the original due date, all of that buyer's receivables are excluded. 55% is past 60 days, so the full $200,000 is ineligible, including the current $90,000.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (EWCP-Specific Loan Closing and Disbursement Requirements), Para. 2 (Advances and Receivables - Foreign Accounts Receivable Restrictions)",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b5-ewcp2-q7",
+      "question": "Which of the following receivables may be included in an asset-based EWCP borrowing base without SBA's prior written consent?",
+      "options": [
+        "An invoice to the borrower's foreign subsidiary (an affiliate)",
+        "An LC-backed invoice to a German buyer due 200 days from invoice",
+        "A sale-on-approval invoice to a Mexican distributor",
+        "An invoice to a U.S. company not approved as an indirect export"
+      ],
+      "correctIndex": 1,
+      "explanation": "Receivables due more than 180 days from invoice are ineligible unless supported by an acceptable letter of credit or credit insurance, and LC receivables may run up to 364 days. Affiliate receivables, sale-on-approval receivables and unapproved domestic receivables are ineligible.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (EWCP-Specific Loan Closing and Disbursement Requirements), Para. 2 (Advances and Receivables - Foreign Accounts Receivable Restrictions)",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b5-ewcp2-q8",
+      "question": "For an asset-based EWCP loan of $1,500,000, what are the field examination requirements?",
+      "options": [
+        "None; field exams are only for loans over $5,000,000",
+        "Before first disbursement and at least annually",
+        "Annual exams only, no initial exam",
+        "Before first disbursement; later frequency at Lender discretion with documentation"
+      ],
+      "correctIndex": 3,
+      "explanation": "Asset-based EWCP loans of $1,000,000 or more need a field exam before first disbursement. Mandatory annual exams start at $2,000,000; under that, the Lender sets frequency and must document a decision to skip an annual exam.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (EWCP-Specific Loan Closing and Disbursement Requirements), Para. 2 (Advances and Receivables - Field Examinations)",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b5-ewcp2-q9",
+      "question": "What is the minimum BBC frequency for an asset-based EWCP loan of $800,000, and the latest permissible BBC due date?",
+      "options": [
+        "Quarterly; no more than 30 calendar days after month end",
+        "Monthly; by the 15th of the following month",
+        "Weekly; within 5 days of week end",
+        "Quarterly; within 60 days of quarter end"
+      ],
+      "correctIndex": 0,
+      "explanation": "Asset-based EWCP loans of $1,000,000 or less need BBCs at least quarterly; above $1,000,000, at least monthly. Lenders choose the due date, but it may be no more than 30 calendar days after month end. The 15th is common practice, not the limit.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (EWCP-Specific Loan Closing and Disbursement Requirements), Para. 2 (Advances and Receivables - Borrowing Base Certificates and BBC Collection)",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b5-ewcp2-q10",
+      "question": "A PLP-EWCP lender's asset-based line is $150,000 out of margin. The borrower needs a $100,000 advance to fill a new order. What may the lender do?",
+      "options": [
+        "Advance under its delegated authority if the new order is LC-backed",
+        "Advance only after SBA gives prior written consent through 7aLoanMod@sba.gov",
+        "Advance if the borrower signs a certification of ineligible AR",
+        "Advance up to 50% of the requested amount while the borrower cures"
+      ],
+      "correctIndex": 1,
+      "explanation": "No additional advances may be made on a line that is not In Margin until it is back in balance unless SBA gives prior written consent via 7aLoanMod@sba.gov, regardless of delegated or non-delegated processing. The lender must also require an immediate paydown or added collateral and document its efforts.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (EWCP-Specific Loan Closing and Disbursement Requirements), Para. 2 (Advances and Receivables - Loans that are not In Margin or are Past Due)",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b5-ewcp2-q11",
+      "question": "Which export-related inventory is eligible for an EWCP borrowing base without SBA consent?",
+      "options": [
+        "Finished goods held at a disclosed Canadian warehouse",
+        "Demonstration units used at trade shows",
+        "Raw materials in the borrower's disclosed U.S. plant, subject to the Lender's perfected first lien",
+        "Goods the borrower holds on consignment for a supplier"
+      ],
+      "correctIndex": 2,
+      "explanation": "Raw materials may be included if located in the U.S. at a disclosed address and subject to a perfected first priority lien. Inventory outside the U.S., demonstration inventory and consignment inventory are all ineligible.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (EWCP-Specific Loan Closing and Disbursement Requirements), Para. 2 (Advances and Receivables - Export-Related Inventory)",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b5-ewcp2-q12",
+      "question": "A 15-month-old exporter with an asset-based EWCP line asks to keep its foreign collections in its operating account instead of applying them to the loan. Its records are excellent. What is the answer?",
+      "options": [
+        "Approve; 12 full months of operations is sufficient",
+        "Approve, if the lender sets up a control account",
+        "Approve only with SBA's prior written consent",
+        "Decline; retaining proceeds requires at least 2 years in business"
+      ],
+      "correctIndex": 3,
+      "explanation": "To retain foreign AR proceeds on an asset-based EWCP loan, the business must be in business at least 2 years (no start-ups) and have satisfactory financial records and current AR agings. The 12-month test is general EWCP eligibility, not the retention test.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (EWCP-Specific Loan Closing and Disbursement Requirements), Para. 2 (Advances and Receivables - Control Accounts)",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b5-ewcp2-q13",
+      "question": "An EWCP borrower starts exporting a new product to a new country. What must it provide regarding export licenses?",
+      "options": [
+        "Nothing; export licenses are verified by SBA",
+        "A copy of a valid export license for each product and country, or a letter stating none is required citing the authority",
+        "An export license only if the country is on the Note #7 list",
+        "A Lender certification that the borrower has reviewed export control rules"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Borrower must provide a copy of valid export license(s) for each different product and each different country, or a letter stating no license is required, citing the authority. Note #7 countries are prohibited outright, not licensed.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (EWCP-Specific Loan Closing and Disbursement Requirements), Para. 2 (Advances and Receivables - Certifications)",
+      "difficulty": "basic"
+    }
+  ]
+}

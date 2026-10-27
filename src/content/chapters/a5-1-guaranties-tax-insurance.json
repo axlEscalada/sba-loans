@@ -1,0 +1,376 @@
+{
+  "id": "a5-1-guaranties-tax-insurance",
+  "order": 150,
+  "part": "A",
+  "program": "core",
+  "title": "Other Core Requirements, Part 1: Guaranties, Tax Verification, and Insurance",
+  "subtitle": "Who must guarantee, how to verify tax returns, and the hazard, marine, flood, and life insurance rules",
+  "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Paras. A-C",
+  "estimatedMinutes": 45,
+  "learningObjectives": [
+    "Determine who must guarantee, including spouses, entities, trusts, and the six-month lookback",
+    "Choose between full and limited guaranties and know when a PFS is required",
+    "Explain which tax transcripts are required, how to obtain them, and the deadlines by program",
+    "Resolve missing or delayed IRS transcripts under delegated, non-delegated, and Express processing",
+    "Apply hazard, marine, and flood insurance requirements and their exceptions",
+    "Calculate 504 life insurance coverage using discounted collateral"
+  ],
+  "topics": [
+    {
+      "id": "guaranty-basics",
+      "title": "Who must guarantee: the 20% rule",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. A, A.1",
+      "body": "Guaranties put the owners' personal (or corporate) balance sheets behind the loan. They are one of the most frequently tested rules in lender reviews. 13 CFR § 120.160(a) sets the foundation.\n\n#### The floor: at least one guarantor\n\n**Every loan must be guaranteed by at least one individual or entity.** If **no one** owns 20% or more (directly and/or indirectly), **at least one of the owners** must still give a **full unconditional guaranty**. If the guarantor is a trust, the trust rules (Para. A.3) also apply.\n\n#### Personal guaranties\n\n- Any **individual** with **direct and/or indirect ownership of 20% or more** must give an **unlimited full guaranty**, on **SBA Form 148** (or, for 7(a), the lender's equivalent form).\n- A person who signs the **Note as a Borrower in an individual capacity** does not also sign a personal guaranty.\n- When ownership is held through a corporation, partnership, or other entity, the **ownership interests of all individuals must be disclosed**. This is how indirect ownership is traced.\n- **Guarantors must meet the citizenship and residency requirements** in Ch. 1, Para. F.\n\n#### Discretionary guaranties\n\nWhen needed for credit or other reasons, SBA (or the lender, for delegated loans) may require **other individuals or entities** to give **full or limited** guaranties **regardless of ownership**. Example: a minority or non-owner who is **critical to operations** may be asked for a guaranty as a **Supplemental Guarantor**.\n\n#### Limited guaranties\n\nIf a limited guaranty is used, the lender must **choose one of the payment limitation options** in **SBA Form 148L** (Unconditional Limited Guaranty), or for 7(a) the lender's equivalent, and **specify the option in the SBA Terms and Conditions**.\n\n#### Personal financial statements\n\nThe lender must obtain a **personal financial statement from every individual guarantor, except Supplemental Guarantors**, **dated within 90 days of loan approval**.\n\n| Who | Guaranty | PFS within 90 days of approval? |\n|---|---|---|\n| Individual owning 20%+ (direct/indirect) | Unlimited full (Form 148 or 7(a) lender equivalent) | Yes |\n| No 20% owner exists | At least one owner, full unconditional | Yes |\n| Supplemental Guarantor (required for credit reasons) | Full or limited (Form 148L option specified) | No |\n| Individual who signed the Note as Borrower | None needed | n/a |\n\n> **Watch out:** \"Direct and/or indirect\" means you add up ownership held personally and through entities. Someone with 12% personally and 10% through a holding company is a 22% owner and must guarantee.",
+      "keyPoints": [
+        "Every loan needs at least one guarantor; if nobody owns 20%+, at least one owner gives a full unconditional guaranty",
+        "Individuals owning 20%+ directly and/or indirectly give an unlimited full guaranty (SBA Form 148 or 7(a) lender equivalent)",
+        "Ownership held through entities must be disclosed down to individuals",
+        "Limited guaranties use a Form 148L payment option specified in the SBA Terms and Conditions",
+        "PFS from all individual guarantors except Supplemental Guarantors, dated within 90 days of approval",
+        "Guarantors must meet Ch. 1, Para. F citizenship and residency requirements"
+      ]
+    },
+    {
+      "id": "spouse-entity-trust-guaranties",
+      "title": "Spouses, entities, and trusts as guarantors",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. A.2-A.3",
+      "body": "#### Spouses\n\n- **Owner spouses under 20%:** each spouse owning less than 20% must **personally guarantee in full** when the **combined ownership of both spouses and minor children is 20% or more**.\n- **Non-owner spouses:** the lender must require the spouse's **signature on the appropriate collateral documents**. Non-owner spouses **do not sign the personal financial statement**. Their guaranty secured by jointly held collateral is **limited to the spouse's interest in that collateral**.\n- Guarantors must meet the Ch. 1, Para. F citizenship and residency requirements.\n\n| Ownership | Guaranty required? |\n|---|---|\n| Husband 12%, wife 6%, minor child 4% (total 22%) | Yes, both spouses guarantee in full |\n| Husband 12%, wife 6% (total 18%), no minor children with ownership | No guaranty triggered by this rule |\n| Wife 30%, husband 0% | Wife guarantees; husband signs collateral documents as needed |\n\n#### Entities\n\n- **All entities** with **direct and/or indirect ownership of 20% or more** must give an **unlimited full guaranty**.\n- The lender must obtain **appropriate financial statements** from every entity guarantor to see what assets support the guaranty.\n- SBA, or the lender for delegated loans, may require **other entities** to give full or limited guaranties regardless of ownership. This **may include entities that manage the day-to-day operations** of the Applicant or OC through a **Management Agreement**, even without any ownership interest.\n\n#### Trusts\n\nWhen **one or more trusts** (revocable or irrevocable) own **20% or more in the aggregate**:\n\n- **Each trust** must give an **unlimited full guaranty**.\n- The **trustee executes** the guaranty for the trust and provides the **certifications** required in Ch. 2, Para. A.2 (authority to act, authority to borrow/pledge/lease, accurate trust language, and a complete list of trustors and donors).\n- The **Trustor must also personally guarantee** the loan.\n- **All donors** to the trust are deemed to have **Trustor status** for eligibility.\n\n> **Watch out:** The trust test is **aggregate**. Two family trusts holding 11% each together hold 22%, so **both** trusts guarantee, and their Trustors guarantee personally too.\n\n> **In practice:** Management companies are a common blind spot, for example in hotel deals run under a management agreement. The SOP explicitly allows requiring their guaranty even though they own nothing.",
+      "keyPoints": [
+        "Spouses each under 20% guarantee in full when spouses plus minor children own 20%+",
+        "Non-owner spouses sign collateral documents but not the PFS; their guaranty is limited to their interest in joint collateral",
+        "Entities owning 20%+ directly and/or indirectly give an unlimited full guaranty and provide financial statements",
+        "Entities managing operations under a Management Agreement may be required to guarantee",
+        "Trusts owning 20%+ in the aggregate: each trust guarantees, the trustee certifies, and the Trustor also guarantees",
+        "All trust donors are deemed Trustors for eligibility"
+      ]
+    },
+    {
+      "id": "six-month-lookback",
+      "title": "The six-month lookback rule",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. A.4",
+      "body": "A predictable way to dodge a guaranty is for an owner to sell or gift part of their stake just before applying, dropping below 20%. The **six-month lookback rule** closes that gap.\n\n#### The rule\n\nAny **Person** (as defined in 13 CFR § 120.10) who was subject to the guaranty requirements **6 months before the date of the loan application** remains subject to them, **even if they have since reduced their ownership below 20%**.\n\nThis applies **except for Ineligible Persons** covered under Ch. 1, Para. F (Citizenship and Residency Requirements). Those persons are handled under the citizenship rules rather than kept in as guarantors.\n\n#### Exceptions\n\n| Exception | What it requires |\n|---|---|\n| **Complete divestiture** before the application date | The Person divests **all ownership interest** **and** severs **any relationship** with the Applicant (and any associated EPC) **in any capacity**, including as an employee, paid or unpaid, **for the life of the 7(a) or 504 loan** |\n| **7(a) partial changes of ownership** | Who must guarantee is based on **post-sale** direct and/or indirect ownership percentages (see Section B's partial change of ownership guidance) |\n\n#### How to apply it\n\n1. Get the **ownership history** covering at least the 6 months before the application date.\n2. Flag anyone who held **20% or more** (alone, or via spouse and minor children aggregation) at any point in that window.\n3. For each flagged Person, check whether they **fully divested and cut all ties** before the application date. If not, they guarantee, unless the deal is a 7(a) partial change of ownership.\n\n> **Watch out:** \"Complete divestiture\" is strict. A former owner who sells all shares but stays on as an unpaid consultant or part-time employee has **not** completely divested and still must guarantee. The severance must also last for the **life of the loan**, not just until closing.\n\n> **In practice:** Build the lookback into intake. Ask for the ownership table as of 6 months ago alongside the current one, and record the comparison in the credit memo.",
+      "keyPoints": [
+        "Anyone subject to guaranty requirements 6 months before the application date stays subject even if now under 20%",
+        "Ineligible Persons under Ch. 1, Para. F citizenship rules are excepted",
+        "Exception: complete divestiture of all ownership and severance of any relationship, including unpaid employment",
+        "Severance must last for the life of the 7(a) or 504 loan and cover any associated EPC",
+        "7(a) partial changes of ownership use post-sale ownership percentages"
+      ]
+    },
+    {
+      "id": "tax-verification-requirements",
+      "title": "IRS tax verification: what must be verified and when",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. B.1-B.4.a",
+      "body": "SBA relies heavily on the financial statements an Applicant provides. Tax verification checks those numbers against what the business actually reported to the IRS.\n\n#### Purpose\n\nTax verification determines whether:\n\n1. The Applicant **filed business tax returns**; and\n2. The Applicant's **financial statements agree with the returns** submitted to the IRS.\n\n**If the Applicant has not filed required Federal tax returns, it is not eligible** for SBA financial assistance.\n\n#### Special cases\n\n- **Sole proprietorship:** verify the **Schedule C**.\n- **Change of ownership:** verify the **seller's** financial data, including a selling sole proprietor's Schedule C.\n- **Purchase of a division or segment:** if tax transcripts or financial statements do not identify that segment, use **alternative third-party verification**, such as third-party CPA-prepared or reviewed statements, sales tax payment records, transient occupancy tax, or credit reporting services.\n\n#### Timing\n\nExcept for **SBA Express and Export Express**, lenders must obtain tax transcripts and **reconcile any discrepancies**:\n\n| Program | Deadline |\n|---|---|\n| 7(a) | **Prior to first disbursement** |\n| 504 | **Prior to submitting the request to fund the debenture** |\n\n#### Which years\n\n| Size test used | Years of transcripts |\n|---|---|\n| **NAICS size standard** | Last **3 years** for the Applicant (or the OC if the Applicant is an EPC), unless a Start-Up Business. If operating less than 3 years, all years in operation |\n| **Alternative size standard** | Last **2 years** for the Applicant (or OC). If operating less than 2 years, all years in operation |\n\n**Recent fiscal year carve-out:** these requirements do **not** include the most recent fiscal year if its **year-end is within 6 months** of the date SBA received the application. If the Applicant **filed an extension** for the most recent year, the lender obtains a **copy of the extension and evidence of payment of estimated taxes**.\n\n#### U.S. Territories exception\n\nFor Applicants in U.S. Territories that are not required to file Federal income tax returns, lenders instead verify **receipt-stamped copies of the returns filed with the territory's taxing authority**. This exception applies anywhere the SOP mentions tax transcripts.\n\n> **Watch out:** The verification deadline is about **disbursement** (7(a)) or **debenture funding** (504), not approval. A loan can be approved before transcripts arrive, but money cannot go out first, except under the specific delegated and Express rules covered next.",
+      "keyPoints": [
+        "Purpose: confirm returns were filed and financial statements match them",
+        "No filed Federal tax returns = not eligible for SBA financial assistance",
+        "Sole props: verify Schedule C; changes of ownership: verify the seller's data",
+        "7(a): reconcile before first disbursement; 504: before requesting debenture funding (Express/Export Express excepted)",
+        "NAICS size standard: 3 years of transcripts; alternative size standard: 2 years",
+        "Most recent year excluded if year-end is within 6 months of SBA receiving the application; extensions need proof of estimated tax payments",
+        "U.S. Territories: verify receipt-stamped territorial returns instead"
+      ]
+    },
+    {
+      "id": "tax-transcripts-problems",
+      "title": "Getting transcripts and resolving problems",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. B.4.b-B.4.h",
+      "body": "#### How to obtain transcripts\n\n| Method | Key rules |\n|---|---|\n| **IRS IVES** (Income Verification Express Service) | Lender enrolls in IVES or contracts with an IVES participant |\n| **IRS Form 8821** | Must be fully completed. Request a transcript type that **includes any changes to the original return**. The **SBA Lender must be listed as designee on line 2**; if an **LSP** is used, **both** the lender and the LSP are listed. SBA does **not** permit the **borrower or its own tax preparer or enrolled agent** to file Form 8821 for an SBA loan |\n\n#### When things go wrong\n\n**No IRS record at all.** If the IRS has no record of the Applicant or of any required year, **no disbursement** may be made. The loan must be **canceled or closing postponed** until resolved, unless the \"no records found\" alternative below is met.\n\n**Middle year missing.** Where 3 years are required and the transcript shows **\"Record Not Found\" for the middle year**, the lender may reasonably assume a return was filed if it **verified the other 2 years** **and** the Applicant has some record of **a refund or tax payment** for the missing year. Documenting those steps shows a **good faith effort**.\n\n**Amended returns.** Follow the normal steps to get transcripts. If the amended return transcript is not available, obtain a **signed copy of the amended return** plus **evidence of filing**: e-file acknowledgment (IRS Acceptance Report), Certified Mail receipt (USPS Form 3800) or return receipt, USPS delivery confirmation, IRS-stamped return, or a letter from the accountant or CPA.\n\n**No response in 10 business days.** Follow up by resubmitting **Form 4506-C or Form 8821** marked **\"Second Request\"** in the top right-hand corner. Significant differences must be resolved to the lender's satisfaction (and the SBA loan processing center's, for non-delegated loans).\n\n| Who | May proceed while waiting? | Risk |\n|---|---|---|\n| 7(a) lender, delegated | May close and disburse | Guaranty may be **repaired or denied** if transcripts are never obtained/reconciled |\n| CDC under PCLP or ALP Express | May close and disburse the **interim loan** | Cannot submit the **debenture closing package** until reconciled |\n\n**No records found alternative.** The lender may proceed to closing if it obtains **both**:\n\n1. **Proof of filing**: IRS E-file submission evidence or a paper return **stamped received** by the IRS; **and**\n2. **Proof of payment or refund** that reconciles with the return's stated liability. For pass-through entities, the lender may use **individual guarantors' transcripts** to verify payment.\n\n#### SBA Express and Export Express\n\n- If the lender **uses business financial information** to judge creditworthiness, it follows the full process above.\n- If it **does not** (e.g., some credit scoring models), it must still get transcripts to confirm **filing** and determine **size**, but **reconciliation is not required**.\n- These lenders may **close and disburse immediately** if the Borrower requests, but must follow up, verify, and document. If transcripts are never obtained and reconciled when applicable, the guaranty may be **repaired or denied**.\n\n> **Watch out:** A borrower's CPA filing Form 8821 is a common mistake. SBA does not allow it.",
+      "keyPoints": [
+        "Transcripts via IVES or a fully completed Form 8821 with the lender (and any LSP) as line 2 designee",
+        "Borrower or its own tax preparer/enrolled agent may not file Form 8821",
+        "No IRS record: no disbursement; cancel or postpone unless both proof of filing and proof of payment/refund are obtained",
+        "Middle year 'Record Not Found' acceptable if other 2 years verified and refund/payment evidence exists",
+        "No IRS response in 10 business days: resubmit 4506-C or 8821 marked 'Second Request'",
+        "Delegated 7(a) may disburse while waiting, at risk of repair or denial; 504 PCLP/ALP Express cannot submit the debenture closing package",
+        "Express/Export Express without business financials: transcripts for filing and size, no reconciliation"
+      ]
+    },
+    {
+      "id": "hazard-insurance",
+      "title": "Hazard insurance",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. C.1",
+      "body": "All insurance requirements must appear in the **SBA Terms and Conditions** and the lender's **credit memorandum**. Hazard insurance protects the collateral against fire, storms, and similar physical loss (13 CFR § 120.160(c)).\n\n#### When it is required\n\nFor **7(a) loans greater than $50,000** and **504 projects greater than $50,000**, SBA requires hazard insurance on **all assets pledged as collateral**. If hazard insurance **is not available, the loan cannot be approved**. If the state requires additional coverage (wind, hail, earthquake, or other), the Borrower must also keep a **separate policy**.\n\n**Exceptions**, both limited to loans of **$500,000 or less**:\n\n1. **Residential real estate** pledged in a **non-first lien position**, where hazard insurance **cannot be obtained**: not required on that residence.\n2. The **full replacement value of the business's assets is $50,000 or less**.\n\n#### Coverage standards\n\n| Item | Real estate | Personal property |\n|---|---|---|\n| Amount | **Full replacement cost**; if unavailable, **maximum insurable value** | Same |\n| Required clause | **MORTGAGEE CLAUSE** (or substantial equivalent) | **LENDER'S LOSS PAYABLE CLAUSE** (or substantial equivalent) |\n| In favor of | 7(a) Lender (7(a)) or CDC/SBA (504) | Same |\n| Protection | Acts or failures to act by the mortgagor/owner (or debtor/owner) do not invalidate the lender's interest | Same |\n| Cancellation notice | At least **10 days** prior written notice | Same |\n\n#### SBA Express and Export Express\n\nThese lenders may decide **not** to require hazard insurance, for example if it would be an **undue burden given the small loan size**. If so, the lender must **document the reason** in the loan file.\n\n> **Watch out:** The two exceptions apply only to loans of $500,000 or less. A $750,000 loan with a junior lien on a residence still needs hazard coverage on that residence.\n\n> **In practice:** Check that the clause type matches the collateral: mortgagee clause for real estate, lender's loss payable clause for equipment and inventory. A policy that merely lists the lender as \"additional insured\" does not provide the same protection.",
+      "keyPoints": [
+        "Hazard insurance required on all collateral for 7(a) loans and 504 projects over $50,000",
+        "If hazard insurance is unavailable, the loan cannot be approved",
+        "Exceptions (loans of $500,000 or less): uninsurable junior-lien residence; business assets' replacement value $50,000 or less",
+        "Coverage at full replacement cost, or maximum insurable value if unavailable",
+        "Real estate needs a mortgagee clause; personal property a lender's loss payable clause; 10 days cancellation notice",
+        "SBA Express/Export Express may waive hazard insurance but must document why"
+      ]
+    },
+    {
+      "id": "marine-flood-insurance",
+      "title": "Marine and flood insurance",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. C.2-C.3",
+      "body": "#### Marine insurance\n\nWhen **vessels** are collateral:\n\n- Coverage for the **full insurable value**, with the 7(a) Lender or CDC/SBA designated as **\"Mortgagee\"**.\n- A **Mortgagee clause** stating the lender's interest is not invalidated by: any **act, omission, or negligence** of the mortgagor, owner, master, agent, or crew; **failure to comply with a warranty or condition** outside the mortgagee's control; or a **change in title, ownership, or management** of the vessel.\n- **Protection and Indemnity, Breach of Warranty, and Pollution** coverage.\n- At least **10 days** prior written notice of cancellation.\n\n#### Flood insurance\n\nRequirements start from the **Standard Flood Hazard Determination** (**FEMA Form 086-0-32** or successor). Mandatory purchase follows the **National Flood Insurance Program (NFIP)** and the Interagency Questions and Answers (12 CFR Parts 22, 208, 339, 614, and 760). For 504, the CDC obtains the form or a copy from the Interim or Third Party Lender. Condominium and cooperative units need a policy obtained by the **individual unit owner**.\n\n**When it is required**\n\n- If **any portion of a building** that is collateral is in a **special flood hazard area**, the Applicant must insure the **building** under the NFIP or comparable private flood insurance.\n- If **equipment, fixtures, or inventory** that is collateral sits in such a building **and that building is also collateral**, the **Personal Property Collateral** must be flood-insured too.\n\n**How much:** at least the **lesser** of the **outstanding principal balance** or the **maximum limit of coverage available** under the National Flood Insurance Act of 1968 (the lesser of the NFIP maximum for that structure type or the structure's insurable value).\n\n**Clauses:** a **mortgagee clause/lender's loss payable clause** protecting the lender's interest, and cancellation notice of at least **10 days**, or **45 days** for private flood insurance.\n\n#### Private flood insurance\n\nAccepted, but it must be **at least as good as the NFIP policy**:\n\n| Requirement | Detail |\n|---|---|\n| Coverage breadth | At least as broad as the standard NFIP policy, considering deductibles, exclusions, and conditions |\n| Non-renewal notice | Endorsement giving **45 days' notice** of cancellation for non-renewal to the insured and the lender (7(a) Lender or CDC/SBA) |\n| Disclosure | Information about NFIP coverage availability |\n| Mortgage interest clause | Similar to the standard NFIP policy |\n| Suit limitation | Insured must file suit **no later than 1 year** after written denial of a claim |\n| Cancellation | Provisions as restrictive as the standard NFIP policy |\n\n> **Watch out:** Inventory in a flood-zone building is covered by the flood requirement only when the **building itself is also collateral**. If the borrower leases the building, the personal property flood requirement in this paragraph is not triggered by that building.",
+      "keyPoints": [
+        "Vessels: full insurable value, lender as Mortgagee, P&I, Breach of Warranty, and Pollution coverage, 10 days cancellation notice",
+        "Flood requirements start with FEMA Form 086-0-32 and follow NFIP rules",
+        "Any part of a collateral building in a special flood hazard area triggers flood insurance on the building",
+        "Personal property collateral in that building is also flood-insured when the building is collateral",
+        "Flood coverage: lesser of outstanding principal or maximum available NFIP coverage",
+        "Private flood: as broad as NFIP, 45 days notice, suit within 1 year of claim denial"
+      ]
+    },
+    {
+      "id": "life-insurance",
+      "title": "Life insurance",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. C.4",
+      "body": "Life insurance protects the loan when the business depends on one person. The rules differ by program.\n\n#### Rules for both programs\n\n- If the principal is **uninsurable**, obtain **written documentation from a licensed insurer**.\n- For each required policy, obtain a **collateral assignment** naming the 7(a) Lender (7(a)) or CDC/SBA (504) as assignee, **acknowledged by the insurer's Home Office**.\n- The **Applicant/Borrower must pay the premiums** (13 CFR § 120.970(c)).\n- An **existing policy may be pledged**. **Credit life or whole life insurance should not be required.**\n\n#### 7(a)\n\n| Delivery method | Rule |\n|---|---|\n| Standard 7(a), EWCP, CAPLines, International Trade, pilots (unless the pilot guide says otherwise) | Lender may follow its internal policy for similarly sized non-SBA commercial loans. **But if the loan is not fully secured**, life insurance is **required in the amount of the collateral shortfall** for principals of **sole proprietorships, single member LLCs, or businesses otherwise dependent on one owner's active participation** |\n| 7(a) Small Loans, SBA Express, Export Express | Lender may follow its **internal written policy** for similarly sized non-SBA commercial loans |\n\n#### 504\n\nCDCs must assess whether the business's viability is tied to one or more individuals. Life insurance is **required** for principals of **sole proprietorships, single member LLCs, or businesses dependent on one owner's active participation** when the loan is **not fully collateralized**.\n\n**Minimum term**\n\n| Debenture term | Minimum policy term |\n|---|---|\n| 10 years | 10 years |\n| 20 or 25 years | 20 years |\n\n**How much:** The loan is fully collateralized when **discounted collateral** is equal to or greater than the **net debenture amount**. Otherwise, required coverage = **net debenture amount minus discounted collateral**.\n\n**Discounting (life insurance calculation only)**\n\n| Collateral | Discounted value |\n|---|---|\n| Improved real estate | **85% of fair market value** (appraised per Section C, Ch. 1, Para. E.2.b) |\n| New machinery and equipment (excluding furniture and fixtures) | **75% of price**, minus prior liens |\n| Used/existing machinery and equipment (excluding furniture and fixtures) | Up to **50% of Net Book Value**, or **80% with an Orderly Liquidation Appraisal**, minus prior liens |\n\n**Example:** net debenture $800,000; real estate FMV $900,000 (85% = $765,000). Shortfall = $35,000, so the sole owner needs at least $35,000 of life insurance assigned to the CDC/SBA, with a 20-year term on a 25-year debenture.\n\n> **Watch out:** These discount percentages are only for the 504 life insurance calculation. Do not reuse them for general collateral adequacy analysis.",
+      "keyPoints": [
+        "Uninsurable principal: obtain written documentation from a licensed insurer",
+        "Collateral assignment acknowledged by the insurer's Home Office; borrower pays premiums",
+        "Existing policies may be pledged; credit life or whole life should not be required",
+        "Standard 7(a) etc.: if not fully secured, insure the collateral shortfall for one-owner-dependent businesses",
+        "7(a) Small Loans, SBA Express, Export Express: follow internal written policy",
+        "504: coverage = net debenture minus discounted collateral; term 10 years (10-year debenture) or 20 years (20/25-year)",
+        "504 discounts: real estate 85% of FMV; new M&E 75%; used M&E 50% of NBV or 80% with OLA"
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Unlimited full guaranty",
+      "definition": "A guaranty of the entire loan without a cap, required from individuals and entities owning 20% or more, on SBA Form 148 or a 7(a) lender equivalent."
+    },
+    {
+      "term": "SBA Form 148L",
+      "definition": "Unconditional Limited Guaranty. When used, the lender selects one of its payment limitation options and states it in the SBA Terms and Conditions."
+    },
+    {
+      "term": "Supplemental Guarantor",
+      "definition": "An individual with minority or no ownership, such as a key manager, required to guarantee for credit reasons; exempt from the PFS requirement."
+    },
+    {
+      "term": "Six-month lookback rule",
+      "definition": "Anyone subject to the guaranty requirements 6 months before the application date remains subject even after reducing ownership below 20%, unless they completely divested."
+    },
+    {
+      "term": "Complete divestiture",
+      "definition": "Selling all ownership and severing every relationship with the Applicant and any associated EPC, including unpaid employment, for the life of the loan."
+    },
+    {
+      "term": "Tax Verification",
+      "definition": "SBA's process to confirm the Applicant filed business returns and that its financial statements agree with them."
+    },
+    {
+      "term": "IVES",
+      "definition": "IRS Income Verification Express Service, one of two methods for obtaining tax transcripts; lenders enroll or use an IVES participant."
+    },
+    {
+      "term": "IRS Form 8821",
+      "definition": "Tax Information Authorization used to request transcripts; the SBA Lender (and any LSP) must be listed as designee on line 2."
+    },
+    {
+      "term": "Mortgagee clause",
+      "definition": "Policy language protecting the lender's interest in real estate (or a vessel) from acts or failures of the owner, with advance cancellation notice."
+    },
+    {
+      "term": "Lender's loss payable clause",
+      "definition": "The personal property equivalent of a mortgagee clause, protecting the lender's interest in insured equipment or inventory."
+    },
+    {
+      "term": "Special flood hazard area",
+      "definition": "A FEMA-designated area of high flood risk; any portion of a collateral building in one triggers mandatory flood insurance."
+    },
+    {
+      "term": "FEMA Form 086-0-32",
+      "definition": "Standard Flood Hazard Determination form that is the starting point for SBA flood insurance requirements."
+    },
+    {
+      "term": "Net debenture amount",
+      "definition": "The 504 debenture amount used to measure whether discounted collateral fully covers the loan for life insurance purposes."
+    },
+    {
+      "term": "Orderly Liquidation Appraisal",
+      "definition": "An equipment appraisal that allows used machinery and equipment to be discounted at 80% instead of 50% of Net Book Value for 504 life insurance."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "a5p1-q1",
+      "difficulty": "basic",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. A",
+      "question": "An LLC has six members, each owning about 16.7%. What guaranty is required?",
+      "options": [
+        "None, because no one owns 20% or more",
+        "All six members must guarantee",
+        "At least one of the owners must provide a full unconditional guaranty",
+        "The LLC's manager must provide a limited guaranty"
+      ],
+      "correctIndex": 2,
+      "explanation": "Every loan must be guaranteed by at least one individual or entity. If no one owns 20% or more, at least one owner must give a full unconditional guaranty. The 20% threshold alone does not eliminate the guaranty requirement."
+    },
+    {
+      "id": "a5p1-q2",
+      "difficulty": "applied",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. A.1",
+      "question": "Which guarantor does NOT need to provide a personal financial statement dated within 90 days of approval?",
+      "options": [
+        "A 25% owner giving an unlimited guaranty",
+        "A spouse owning 10% whose family owns 30% combined",
+        "A 20% owner who also holds indirect interests",
+        "A Supplemental Guarantor required for credit reasons"
+      ],
+      "correctIndex": 3,
+      "explanation": "PFSs dated within 90 days of approval are required from all individual guarantors except Supplemental Guarantors. Owner guarantors, including spouses guaranteeing under the aggregation rule, must provide one."
+    },
+    {
+      "id": "a5p1-q3",
+      "difficulty": "scenario",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. A.2",
+      "question": "Ownership: Dan 60%, his wife Lisa 12%, their 15-year-old son 9%, outside investor 19%. Who must guarantee?",
+      "options": [
+        "Dan and Lisa",
+        "Dan only",
+        "Dan, Lisa, and the investor",
+        "Dan, Lisa, and the son"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dan owns 20%+ and guarantees. Lisa owns under 20%, but the spouses and minor children combined exceed 20%, so she guarantees in full. The rule targets spouses, not minor children, and the 19% investor is under the threshold."
+    },
+    {
+      "id": "a5p1-q4",
+      "difficulty": "applied",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. A.3",
+      "question": "Two irrevocable trusts each own 12% of the Applicant. What is required?",
+      "options": [
+        "Nothing, since each trust owns under 20%",
+        "Each trust gives an unlimited full guaranty executed by the trustee, and the Trustor(s) personally guarantee",
+        "Only the larger trust guarantees",
+        "Only the trust beneficiaries guarantee"
+      ],
+      "correctIndex": 1,
+      "explanation": "When one or more trusts own 20% or more in the aggregate, each trust must give an unlimited full guaranty, executed by the trustee with the Ch. 2 certifications, and the Trustor must also personally guarantee. 24% combined triggers the rule."
+    },
+    {
+      "id": "a5p1-q5",
+      "difficulty": "scenario",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. A.4",
+      "question": "Four months before applying, a 30% owner sold half her stake and now owns 15%. She still works part-time for the company. Must she guarantee?",
+      "options": [
+        "No, she owns less than 20% at application",
+        "No, because her sale was more than 90 days before application",
+        "Yes, the six-month lookback applies and she has not completely divested",
+        "Only a limited guaranty for her remaining 15%"
+      ],
+      "correctIndex": 2,
+      "explanation": "Anyone subject to the guaranty requirements 6 months before the application stays subject even after dropping under 20%. The only exception is complete divestiture, meaning all ownership sold and every relationship, including employment, severed for the life of the loan."
+    },
+    {
+      "id": "a5p1-q6",
+      "difficulty": "basic",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. B.4",
+      "question": "An Applicant uses the NAICS size standard and has operated for 8 years. How many years of tax transcripts are required?",
+      "options": [
+        "2 years",
+        "3 years",
+        "5 years",
+        "All 8 years"
+      ],
+      "correctIndex": 1,
+      "explanation": "Under the NAICS size standard, lenders obtain transcripts for the last 3 years (or all years if operating less than 3). Two years applies when the alternative size standard is used."
+    },
+    {
+      "id": "a5p1-q7",
+      "difficulty": "applied",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. B.4.b",
+      "question": "Which Form 8821 setup is acceptable for an SBA loan where the lender uses an LSP?",
+      "options": [
+        "Borrower's CPA files the 8821 and forwards the transcripts",
+        "Only the LSP is listed on line 2",
+        "The borrower's enrolled agent is listed as designee",
+        "Both the SBA Lender and the LSP are listed as designees on line 2"
+      ],
+      "correctIndex": 3,
+      "explanation": "The SBA Lender must be the designee on line 2 of Form 8821, and when an LSP is used both must be listed. SBA does not permit the borrower or its own tax preparer or enrolled agent to file Form 8821."
+    },
+    {
+      "id": "a5p1-q8",
+      "difficulty": "scenario",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. B.4.f",
+      "question": "A PLP 7(a) lender requested transcripts 12 business days ago with no IRS response. The borrower wants to close tomorrow. What is correct?",
+      "options": [
+        "The lender must resubmit marked 'Second Request' and may close and disburse, but the guaranty may be repaired or denied if transcripts are never obtained and reconciled",
+        "The lender may not close until transcripts arrive",
+        "The lender may close and is permanently relieved of verification",
+        "The lender must convert the loan to non-delegated processing"
+      ],
+      "correctIndex": 0,
+      "explanation": "After 10 business days without response, the lender resubmits Form 4506-C or 8821 marked 'Second Request'. A delegated 7(a) lender may close and disburse, but if it cannot later obtain and reconcile the transcripts, the guaranty may be subject to repair or denial."
+    },
+    {
+      "id": "a5p1-q9",
+      "difficulty": "applied",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. B.4.h",
+      "question": "The IRS reports no record of the Applicant's return for a required year. What lets the lender proceed to closing?",
+      "options": [
+        "A borrower certification that the return was filed",
+        "Either proof of filing or proof of payment",
+        "Both proof of filing (e-file evidence or IRS-stamped return) and proof of payment or refund that reconciles with the return",
+        "A CPA-prepared financial statement for that year"
+      ],
+      "correctIndex": 2,
+      "explanation": "The SOP requires both proof of filing and proof of payment or refund reconciling with the return's stated liability. One without the other is insufficient. For pass-through entities, individual guarantor transcripts may show payment."
+    },
+    {
+      "id": "a5p1-q10",
+      "difficulty": "basic",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. C.1",
+      "question": "Above what loan or project size does SBA require hazard insurance on all collateral?",
+      "options": [
+        "$25,000",
+        "$350,000",
+        "$500,000",
+        "$50,000"
+      ],
+      "correctIndex": 3,
+      "explanation": "Hazard insurance is required for 7(a) loans and 504 projects greater than $50,000. $500,000 is the ceiling for the two exceptions, not the trigger."
+    },
+    {
+      "id": "a5p1-q11",
+      "difficulty": "scenario",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. C.3",
+      "question": "A borrower leases its building, which is in a special flood hazard area. Its equipment and inventory are the only collateral. Under the flood paragraph, is flood insurance on the equipment required?",
+      "options": [
+        "Yes, all collateral in a flood zone must be insured",
+        "No, because the personal property requirement applies only when the building is also collateral",
+        "Yes, but only for the inventory",
+        "Yes, at the full outstanding principal regardless of NFIP limits"
+      ],
+      "correctIndex": 1,
+      "explanation": "Personal Property Collateral must be flood-insured when it is in a building partly in a special flood hazard area and that building is collateral for the loan. Here the building is not collateral, so that trigger is not met."
+    },
+    {
+      "id": "a5p1-q12",
+      "difficulty": "applied",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. C.3",
+      "question": "Which private flood policy feature is required?",
+      "options": [
+        "10 days' notice of non-renewal to the lender",
+        "Coverage narrower than NFIP if the premium is lower",
+        "An endorsement giving 45 days' notice of cancellation for non-renewal",
+        "A 3-year deadline for the insured to file suit after a claim denial"
+      ],
+      "correctIndex": 2,
+      "explanation": "Private flood insurance must include an endorsement giving 45 days' notice of cancellation for non-renewal, be at least as broad as NFIP, and require suit within 1 year of a claim denial. 10 days is the standard notice for NFIP and other policies."
+    },
+    {
+      "id": "a5p1-q13",
+      "difficulty": "scenario",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. C.4",
+      "question": "A sole-owner 504 borrower has a $600,000 net debenture on a 25-year term. The only collateral is real estate with a $650,000 fair market value. How much life insurance is required, and for what minimum term?",
+      "options": [
+        "$47,500 for 20 years",
+        "None, because the collateral value exceeds the debenture",
+        "$47,500 for 25 years",
+        "$600,000 for 10 years"
+      ],
+      "correctIndex": 0,
+      "explanation": "For 504 life insurance, real estate is discounted to 85% of FMV: $552,500. The shortfall versus the $600,000 net debenture is $47,500. A 20- or 25-year debenture requires a minimum 20-year term. Using undiscounted value wrongly shows no shortfall."
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "id": "a5-2-historic-environmental",
+  "order": 151,
+  "part": "A",
+  "program": "core",
+  "title": "Other Core Requirements, Part 2: Historic Properties and Environmental Review",
+  "subtitle": "Section 106 historic reviews and SBA's environmental investigation, contamination, and appeals process",
+  "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Paras. D-E",
+  "estimatedMinutes": 45,
+  "learningObjectives": [
+    "Decide when historic due diligence, Form 2481, or a Section 106 review is required",
+    "Describe local SBA counsel's Section 106 and 110(k) review steps and possible outcomes",
+    "Choose the correct starting environmental investigation by NAICS code and loan size",
+    "Escalate through Questionnaire, Records Search, Transaction Screen, Phase I, and Phase II results",
+    "Apply the nine mitigating factors for contaminated property and know when SBA concurrence is needed",
+    "Apply the special rules for child-occupied facilities, dry cleaners, and gas stations"
+  ],
+  "topics": [
+    {
+      "id": "historic-due-diligence",
+      "title": "Historic properties: Section 106 and lender due diligence",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. D",
+      "body": "Because SBA loans are federally assisted, **Section 106 of the National Historic Preservation Act** applies. Federal agencies must consider whether their projects directly or indirectly **adversely impact** properties **listed or eligible for listing** on the **National Register of Historic Places (NRHP)** (54 U.S.C. § 300101 et seq.; 36 CFR §§ 60.1 et seq. and 800.1 et seq.).\n\n#### When an SBA loan \"impacts\" a property\n\nAn SBA Loan is considered to impact a property or site if the transaction involves the **purchase or renovation** of a property or site, **including installation of equipment**. SBA conducts the Section 106 review to decide whether the impact is adverse.\n\n#### The lender's job: due diligence\n\nFor **every** SBA Loan involving purchase or renovation of a property or site (including equipment installation), the lender must perform due diligence to determine whether the property:\n\n- is **listed on the NRHP**, or\n- has **historic significance** making it **potentially eligible** for listing, individually or as part of a **historic district**.\n\nRequirements for that due diligence:\n\n- It must follow **prudent lending practices** and be **documented in the loan file**.\n- **Each application is reviewed individually.** If a 7(a) loan is made shortly after a 504 loan on the same property, the 7(a) loan still needs its **own** review.\n\n#### Three possible paths\n\n| Due diligence result | What the lender does |\n|---|---|\n| **No indication** of listing or historic significance | Document the file. No request to local SBA counsel is needed. The lender **may** still request a Section 106 review if it later receives a **screen out notice** from the SBA loan processing center |\n| Historic indicators, **no planned modifications** | Obtain **SBA Form 2481** (Historic Property Borrower Certification) and send it to local SBA counsel for clearance |\n| Historic indicators, **planned modifications** | Request a full **Section 106 review** from local SBA counsel |\n\nThe next topic walks through the second and third paths.\n\n> **In practice:** Good due diligence sources include the NRHP database, state historic preservation office listings, local historic district maps, and the building's age. Write down what you checked and what you found, even when the answer is \"nothing.\"\n\n> **Watch out:** Equipment installation counts. A loan that only buys and installs equipment in an old downtown building still requires historic due diligence.",
+      "keyPoints": [
+        "Section 106 of the National Historic Preservation Act applies to federally assisted SBA loans",
+        "A loan impacts a property if it involves purchase or renovation of a property or site, including equipment installation",
+        "Lender must do and document due diligence on NRHP listing or eligibility (individually or as part of a historic district)",
+        "Each application is reviewed individually, even a 7(a) made shortly after a 504 on the same property",
+        "No historic indicators: document the file; no request to local SBA counsel needed",
+        "Historic indicators: Form 2481 (no modifications) or a Section 106 review (modifications planned)"
+      ]
+    },
+    {
+      "id": "historic-form-2481-section-106",
+      "title": "Form 2481 clearance and the Section 106 review process",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. D.2",
+      "body": "#### Path A: buying a historic property with no changes planned\n\nWhen the Borrower, Co-Borrower, and/or OC has **no intention of altering, renovating, rehabilitating, restoring, or demolishing** any part of the property:\n\n1. **Before** submitting the application (non-delegated) or **requesting an SBA Loan Number** (delegated), obtain **SBA Form 2481, Historic Property Borrower Certification**: a self-certification that **no modifications** will be made **during the loan term**.\n2. Send the executed Form 2481 to **local SBA counsel** for review and clearance.\n3. The clearance becomes **null and void**, and a Section 106 review is required, if between execution and **disbursement** the borrower changes its plans or the property turns out to need alteration, addition, renovation, rehabilitation, restoration, or demolition.\n4. **Delegated:** keep Form 2481 and the clearance in the file and provide them with any **guaranty purchase request**; SBA may review them in lender oversight. **Non-delegated:** include both with the application.\n\n#### Path B: modifications are planned\n\nIf the borrower intends to modify the property, **regardless of who pays for the modifications**, the lender requests a **Section 106 review** from local SBA counsel, providing:\n\n- Names of the Borrower, Co-Borrower, and/or OC, and the SBA Loan Name;\n- Due diligence results and a full description of planned modifications;\n- Whether work has **commenced**. If so, the lender must tell the borrower to **stop work**, or the loan may not be approved and/or disbursed.\n- Optionally, hardship facts (for example, a seller who will not extend the closing deadline). SBA **may** then issue the Terms and Conditions with a **Section 106 review condition** requiring historic clearance **before closing and before any renovations**.\n\n#### What local SBA counsel does\n\n| Finding | Next step |\n|---|---|\n| Not listed and not eligible (no historic significance) | Counsel says no Section 106 review is required; lender keeps the response in the file |\n| Listed/eligible and work **already commenced** | Counsel performs a **Section 110(k)** review (54 U.S.C. § 306113; 36 CFR § 800.9(c)) first, then Section 106 |\n| Listed/eligible and work **not commenced** | Straight to **Section 106** review under 36 CFR § 800.4 et seq. |\n\nThe Section 106 review evaluates the property under the **NRHP criteria (36 CFR § 60.4)** and consults the **State Historic Preservation Office (SHPO)**, and sometimes Native American Tribes, Native Hawaiian Organizations, or local governments. The **SHPO has 30 days** to respond (no objection/concurrence, objection, or request for information). Counsel then consults the **Associate General Counsel for Litigation** or designee.\n\n**Outcomes:**\n\n- **Not NRHP-eligible, or no adverse effect:** clearance issued. Delegated lenders keep it in the file (and provide it with any purchase request); non-delegated lenders include it with the application.\n- **Adverse effect:** SBA consults further with the SHPO and others to resolve it, possibly through a **Memorandum of Agreement**.\n\n> **Watch out:** Modifications paid for entirely with the borrower's own cash still trigger a Section 106 review. The source of funds does not matter.",
+      "keyPoints": [
+        "No modifications planned: Form 2481 self-certification before application or loan number request, cleared by local SBA counsel",
+        "Form 2481 clearance becomes void if plans change before disbursement",
+        "Planned modifications, regardless of funding source, require a Section 106 review request",
+        "If work has started, the borrower must stop work or the loan may not be approved/disbursed",
+        "Work already commenced on an eligible property triggers a Section 110(k) review first",
+        "SHPO has 30 days to respond; adverse effects may be resolved by a Memorandum of Agreement"
+      ]
+    },
+    {
+      "id": "environmental-overview",
+      "title": "Environmental policy: risks, scope, and submission rules",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. E.1-E.3",
+      "body": "SBA's environmental policies apply to **all SBA Lenders on all 7(a) and 504 programs**, unless stated otherwise. For **7(a)**, non-compliance **may result in denial of the guaranty**. Prudent lending may require more than the SOP minimums. Capitalized terms (Contamination, Remediation, Environmental Professional, etc.) are defined in **Appendix 4**.\n\n#### Why contamination matters\n\n1. **Remediation costs** can impair repayment or the business's survival.\n2. The Property's **value and marketability** can drop. On default, the lender or SBA might have to **abandon** it or accept a reduced price.\n3. The lender or SBA can become **liable** for clean-up costs and third-party claims if it **takes title through foreclosure** and/or exercises **operational control**.\n4. A **Governmental Entity** that cleans a site may file a cost recovery **lien that could be superior to SBA's**.\n\n#### Scope\n\nAn **Environmental Investigation is required for all commercial Property** on which a security interest (mortgage, deed of trust, or leasehold deed of trust) is offered for a loan or debenture. Depth varies with risk; the SOP sets minimums.\n\n#### Report rules for everyone\n\n- Reports must be **dated within one year of the date the SBA loan number is issued**.\n- **Transaction Screens, Phase I and Phase II ESAs must be performed by an Environmental Professional** and come with the **Reliance Letter in Appendix 5**, even if the report is addressed to the lender.\n- **Delegated, 7(a) Small Loans, SBA Express, and Export Express** lenders do not submit reports through the SBA Loan System but **keep them in the loan file**.\n- **Any exception** to environmental policy goes to the **Environmental Committee**, regardless of processing method.\n\n#### Non-delegated submissions\n\n| Result | What the lender does |\n|---|---|\n| **No Contamination** | Certify in the SBA Loan System that the Property meets SBA environmental requirements; keep reports in the file |\n| **Contamination**, lender still wants the loan | Upload all environmental documentation through the SBA Loan System, then email **EnvironmentalReviews@sba.gov** **without** the reports, subject line: DISTRICT OFFICE - APPLICATION NUMBER - LOAN NUMBER - LOAN NAME (no spaces in the loan number). OGC attorneys respond; keep the approval email in the file |\n\n**Appeals:** a lender that believes an SBA environmental decision is inconsistent with the SOP forwards the decision and an explanation to **EnvironmentalAppeals@sba.gov**. A lender relying **solely on \"Other Factor(s)\"** (delegated or not) must send the reports and a memorandum to that address.\n\n> **Watch out:** The one-year clock runs from **loan number issuance**, not closing. A Phase I that was fresh at application can go stale if the loan number is issued later than expected.",
+      "keyPoints": [
+        "Applies to all 7(a) and 504 lenders; 7(a) non-compliance may lead to guaranty denial",
+        "Environmental Investigation required for all commercial Property taken as real estate security",
+        "Reports must be dated within one year of SBA loan number issuance",
+        "Transaction Screens and Phase I/II ESAs by an Environmental Professional, with the Appendix 5 Reliance Letter",
+        "Delegated, Small Loans, Express, and Export Express lenders keep reports in the file rather than submitting them",
+        "Non-delegated with Contamination: upload docs, then email EnvironmentalReviews@sba.gov without the reports",
+        "Exceptions go to the Environmental Committee; appeals to EnvironmentalAppeals@sba.gov"
+      ]
+    },
+    {
+      "id": "environmental-investigation-steps",
+      "title": "Environmental investigation steps",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. E.4",
+      "body": "The SOP sets a decision tree. You start at a level based on **industry risk and loan size**, then escalate as results require.\n\n#### Step 1: pick the starting point\n\nFor all Property **except a unit in a Multi-Unit Building**, make a **Good Faith effort** to identify the NAICS code(s) of the Property's **current and known prior uses** and compare them to the environmentally sensitive industries in **Appendix 6**.\n\n| Situation | Minimum starting point |\n|---|---|\n| NAICS match to Appendix 6 | **Phase I ESA, regardless of loan amount** |\n| NAICS code begins with **457** (gas stations, with or without convenience stores) | **Phase I**, plus the gas station requirements in **Appendix 7** |\n| No match, or a unit in a Multi-Unit Building, loan **up to and including $250,000** | **Environmental Questionnaire** |\n| No match, or Multi-Unit unit, loan **more than $250,000** | **Environmental Questionnaire and Records Search with Risk Assessment** |\n\n#### Step 2: escalate based on results\n\n| Investigation | Result | Next step |\n|---|---|---|\n| Environmental Questionnaire | Contamination unlikely, no further investigation warranted | Keep results in file |\n| Environmental Questionnaire | Further investigation warranted | At minimum, a **Records Search with Risk Assessment** |\n| Questionnaire + Records Search | Questionnaire clean and Records Search says **\"low risk\"** | Keep both in file |\n| Records Search | Anything other than **\"low risk\"** | **Phase I ESA** |\n| Transaction Screen | No further investigation warranted | Keep screen and review in file |\n| Transaction Screen | Further investigation warranted | **Phase I ESA**. Skipping straight to a Phase II requires an **advance exception** from the Environmental Committee |\n| Phase I ESA | No further investigation warranted | Keep Phase I and review in file |\n| Phase I ESA | Further investigation warranted (typically Phase II) | Follow the Environmental Professional's recommendation, or request an exception at EnvironmentalAppeals@sba.gov with justification |\n| Phase II ESA | No further investigation warranted | Keep documents and review in file |\n| Phase II ESA | Contamination found, lender still wants the loan | Environmental Professional must document the items below |\n\n**SBA requires compliance with all of an Environmental Professional's recommendations**, including \"housekeeping measures\" such as secondary containment, decommissioning monitoring wells, and sealing floor drains. Exceptions are rare and need Environmental Committee approval.\n\n#### When a Phase II finds Contamination\n\nThe Environmental Professional must document:\n\n1. Whether quantities **exceed reportable or actionable levels**;\n2. Whether **Remediation is necessary**;\n3. An **estimate of Remediation costs** (ASTM E2137-22 may be used); and\n4. The **projected completion date**.\n\nThe lender then evaluates whether disbursement is appropriate under the mitigating factors (next topics).\n\n> **Watch out:** \"Current **and known prior** uses.\" A clean office building that was once a print shop or machine shop may hit Appendix 6 and require a Phase I.",
+      "keyPoints": [
+        "Check NAICS codes of current and known prior uses against Appendix 6 (skip for a Multi-Unit Building unit)",
+        "Appendix 6 match: start with a Phase I regardless of loan amount; NAICS 457 gas stations also follow Appendix 7",
+        "No match: up to $250,000 may start with an Environmental Questionnaire; above $250,000 add a Records Search with Risk Assessment",
+        "Records Search other than 'low risk' requires a Phase I",
+        "Skipping from Transaction Screen to Phase II needs an advance Environmental Committee exception",
+        "SBA requires compliance with all Environmental Professional recommendations, including housekeeping measures",
+        "Phase II with Contamination: document levels, need for Remediation, cost estimate, and completion date"
+      ]
+    },
+    {
+      "id": "contamination-recommendation-mitigating-1",
+      "title": "Contaminated property: the recommendation and first mitigating factors",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. E.5.a-E.5.d",
+      "body": "**Loans may not be approved or disbursed** if there is **known Contamination or ongoing Remediation** at the Property **unless the risks have been minimized to SBA's satisfaction**.\n\n#### The lender's recommendation to SBA\n\nA lender seeking approval or disbursement despite Contamination must submit a recommendation covering at least:\n\n| Area | Contents |\n|---|---|\n| **Nature and extent** | All relevant Environmental Investigation Reports; all publicly available Governmental Entity correspondence |\n| **Remediation** | Recommended method; status of ongoing work; Environmental Professional's cost estimate and completion date; Governmental Entity's designation of responsible Person(s); who is paying |\n| **Collateral value** | Proposed loan amount and use of proceeds; appraised or estimated value; Institutional and Engineering Controls and their impact on repayment, value, and marketability |\n| **Mitigating factors** | One or more of the nine factors SBA relies on |\n\n#### Mitigating factors 1-4\n\n**1. Indemnification.** A **Person with sufficient financial resources** to finish Remediation signs the **SBA Environmental Indemnification Agreement (Appendix 8)**. The lender must analyze the indemnitor's assets. The **Third Party Indemnitor cannot be the Applicant or the operating company**. The agreement:\n\n- **cannot be modified**;\n- must be **executed by the Applicant** and (if applicable) the **Operating Company**;\n- must have the **Environmental Investigation Report attached**; and\n- must be **recorded** in the memorandum format in **Exhibit C to Appendix 8**.\n\n| Program | Submission |\n|---|---|\n| 7(a) | All lenders **except PLP, 7(a) Small Loans, SBA Express, and Export Express** submit the finalized agreement to SBA for approval before requesting that SBA fund the loan |\n| 504 | **All CDCs, including PCLP**, submit it to the **SLPC at least 2 weeks before** submitting the closing package, if they want that closing cycle |\n\n**2. Completed Remediation.** The Governmental Entity affirms in writing that active Remediation is done but monitoring continues. Approval or disbursement may be considered after: **first-year monitoring results** are in; an Environmental Professional finds **no unacceptable increase** in Contamination; and an Environmental Professional finds the owner/operator **complies with continuing obligations** (activity and use limitations, Engineering and Institutional Controls, post-Remedial monitoring).\n\n**3. No Further Action.** A **\"no further action letter\" or \"closure letter\"** (or state equivalent) says no further Remediation or monitoring is required. A state equivalent includes a written determination from a **licensed professional** where the jurisdiction delegates site closure authority to such professionals.\n\n**4. Minimal Contamination with Minimal Remediation.** Contamination and Remediation cost are **de minimis** relative to Property value and/or the responsible Person's resources, and Remediation is projected to finish **within 1 year**. The lender identifies the supervising Environmental Professional and discusses the Contamination, reliability of estimates, completion date, and monitoring duration.\n\n> **Watch out:** The Appendix 8 agreement cannot be modified. If a proposed indemnitor's counsel insists on changes, this mitigating factor is not available on those terms; look to another factor or decline.",
+      "keyPoints": [
+        "No approval or disbursement with known Contamination or ongoing Remediation unless risks are minimized to SBA's satisfaction",
+        "Recommendation covers nature/extent, Remediation, collateral value, and mitigating factors",
+        "Indemnitor must have sufficient resources and cannot be the Applicant or operating company",
+        "Appendix 8 Indemnification Agreement cannot be modified, attaches the report, and is recorded per Exhibit C",
+        "504 CDCs (including PCLP) submit the indemnification to the SLPC at least 2 weeks before the closing package",
+        "Completed Remediation: need first-year monitoring results and Environmental Professional findings",
+        "Minimal Contamination factor requires de minimis costs and Remediation finishing within 1 year"
+      ]
+    },
+    {
+      "id": "mitigating-factors-5-9",
+      "title": "Mitigating factors 5-9 and delegated processing",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. E.5.d-E.5.e",
+      "body": "#### Mitigating factors 5-9\n\n**5. Clean-up Funds.** Evidence from a Governmental Entity that the Applicant or Property was **approved by a fund** to pay for or reimburse Remediation, in an amount **sufficient** to cover the costs. The lender must also address any Remediation conditions that could preclude payment and the **fund's financial capability**.\n\n**6. Escrow Account.** An escrow equal to **at least 150% of the total estimated Remediation cost**, controlled as trustee by the **7(a) Lender** or, for 504, the **first mortgage holder**.\n\n- The **Governmental Entity must concur** with the Remediation scope.\n- The escrow agreement must limit funds to **Remediation costs only**.\n- The funds **may not come from SBA Loan proceeds**.\n- More than 150% may be appropriate depending on circumstances.\n- Leftover funds may not be released until a **closure or no further action letter** is received or, for monitoring, until **all monitoring wells are decommissioned**.\n- The trustee's role is **solely to release funds** on satisfactory completion. The lender (or 504 Third Party Lender) **must not control or manage the Property**, since that could create operator liability.\n\n**7. Contamination Originating from another Site.** Contamination came from a different property, and **one** of these applies:\n\n- Another **Person with sufficient resources** is remediating under a Governmental Entity-approved plan; or\n- **State law** says an owner or operator is not responsible for Contamination from another site; or\n- The **Governmental Entity gives written assurance** it will not hold the owner liable. The lender should try to have itself and SBA named in the letter along with the owner and future purchasers.\n\n**8. Additional or Substitute Collateral.** Extra collateral, or an **additional equity contribution**, sufficient to **overcome the potential loss** from Contamination.\n\n**9. Other Factor(s).** Lender and SBA may rely on other factors, such as adequate **environmental insurance already in place and paying**, bonds, **agreements not to sue** from the Governmental Entity, **brownfields agreements**, and Engineering and Institutional Controls. But **relying solely on Other Factor(s) requires Environmental Committee clearance**, for **delegated and non-delegated** loans alike. The lender sends the reports and a memorandum to **EnvironmentalAppeals@sba.gov** (limit **15MB** per email; split larger submissions).\n\n#### Delegated 7(a) loans\n\nFor 7(a) loans processed under **delegated authority, including 7(a) Small Loans, SBA Express, and Export Express**, lenders **follow these guidelines** but do **not** submit documentation or get SBA concurrence before approval or disbursement, **unless they rely solely on Other Factor(s)**.\n\n| Factor | Key number or condition |\n|---|---|\n| Escrow | At least **150%** of estimated cost; not from SBA proceeds |\n| Minimal Contamination | Remediation done within **1 year** |\n| Completed Remediation | **First year** of monitoring results |\n| Other Factor(s) only | Environmental Committee clearance, even if delegated |\n\n> **Watch out:** Factor 9 is the one delegated authority does not cover. If the only justification is something like an environmental insurance policy, it must go to the Environmental Committee first.",
+      "keyPoints": [
+        "Clean-up Funds: Governmental Entity evidence of sufficient fund approval, plus the fund's financial capability",
+        "Escrow: at least 150% of estimated Remediation cost, not funded by SBA proceeds, controlled by the 7(a) Lender or 504 first mortgage holder",
+        "Escrow trustee only releases funds and must not control or manage the Property",
+        "Off-site Contamination: another party remediating, state law protection, or written Governmental assurance",
+        "Additional collateral or equity sufficient to overcome the potential loss is a mitigating factor",
+        "Relying solely on Other Factor(s) needs Environmental Committee clearance, delegated or not (15MB email limit)",
+        "Delegated 7(a), Small Loans, Express, and Export Express need no SBA concurrence unless relying solely on Other Factor(s)"
+      ]
+    },
+    {
+      "id": "special-use-facilities",
+      "title": "Special use facilities: child-occupied, dry cleaners, gas stations",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. E.6",
+      "body": "Some property types carry well-known, expensive risks. The SOP adds specific requirements for three of them.\n\n#### Child-Occupied Facilities (defined in Appendix 4)\n\nFor facilities **constructed prior to 1978**:\n\n- A **lead risk assessment**; and\n- **Testing for lead in drinking water** at all taps and fountains potentially used as a drinking water source for children (all indoor and outdoor taps and fountains **accessible to children**).\n\nAdditional rules:\n\n- **New** assessment and testing are required **for each new loan**.\n- They must be conducted **within one year of the date the SBA loan number is issued**.\n- Lead assessments must follow **EPA regulations at 40 CFR Part 745** and **HUD Guidelines for the Evaluation and Control of Lead-Based Paint Hazards in Housing, Second Edition, July 2012**.\n- Results must be **retained in the loan file**.\n- The lender **may not disburse** unless the risk of lead exposure to infants and small children has been **sufficiently minimized**.\n\n#### Dry cleaners\n\nOn-site dry cleaning operations may have used chlorinated solvents such as **tetrachloroethene (PCE)** and **trichloroethene (TCE)** and/or petroleum-based solvents, which can cause major clean-up costs if they reach soil, soil vapor, or groundwater.\n\nFor **any Property with on-site dry cleaning facilities**, **currently operating or historical**, that uses, used, or likely used such solvents:\n\n- A **Phase I followed by a Phase II** is **required**.\n- The investigation must address **soil, groundwater, and soil vapor**.\n- The Phase II must be done by an **independent Environmental Professional** who holds a current **Professional Engineer's or Professional Geologist's license** and has the equivalent of **3 years of full-time relevant experience**.\n- Any deviation goes to **EnvironmentalAppeals@sba.gov** as an exception request.\n\n#### Gasoline stations\n\nGas stations also present significant clean-up costs. Follow **Appendix 7** (gas station loan requirements). Recall that NAICS codes beginning with **457** must start with a **Phase I**.\n\n| Facility | Mandatory minimum |\n|---|---|\n| Child-occupied, built before 1978 | Lead risk assessment and drinking water lead testing for each new loan, within 1 year of loan number |\n| On-site dry cleaner (current or historical) | Phase I **and** Phase II covering soil, groundwater, soil vapor; licensed PE/PG with 3 years' experience |\n| Gas station (NAICS 457) | Phase I plus Appendix 7 |\n\n> **In practice:** A strip center with a former dry cleaner tenant still triggers the Phase I plus Phase II requirement, even if the cleaner closed years ago. \"Historically\" is part of the rule.",
+      "keyPoints": [
+        "Child-occupied facilities built before 1978: lead risk assessment plus drinking water lead testing at taps accessible to children",
+        "Child-occupied tests are required for each new loan and within one year of loan number issuance",
+        "No disbursement until lead exposure risk to children is sufficiently minimized",
+        "On-site dry cleaners (current or historical): Phase I followed by Phase II covering soil, groundwater, and soil vapor",
+        "Dry cleaner Phase II needs an independent PE or PG with the equivalent of 3 years of full-time relevant experience",
+        "Gas stations follow Appendix 7"
+      ]
+    },
+    {
+      "id": "indemnification-release-brownfields-appeals",
+      "title": "Indemnity waivers, brownfields, and environmental appeals",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. E.7-E.9",
+      "body": "#### Release of rights to indemnification\n\nSometimes a prior owner or other Person has a **contractual or legal right to be indemnified** by later owners of the Property. If SBA or the lender later acquired the Property through foreclosure, it could inherit that obligation.\n\nSo if **any Person** has a right to indemnification from subsequent owners, that Person must sign **either**:\n\n- the **SBA Indemnification Agreement**, or\n- another document **waiving all known and unknown rights** and **releasing all claims** against SBA and the lender related to Contamination at the Property, **including the right to indemnification**.\n\nThe waiver and release document **must be recorded**.\n\n**For 504 loans:** submit all waiver and release documents through the **SBA Loan System** for review and approval by **local SBA counsel**, together with a **copy of the title report**, the **document providing for indemnification**, and the **purchase and sale documents**, if any. **PCLP CDCs** must also submit the waiver and release for review and approval **before requesting that SBA fund the loan**.\n\n#### Brownfields\n\nSBA **encourages redevelopment of brownfields**, and SBA guarantees are available to small businesses locating on revitalized brownfields. This usually works through one or more of the **nine Mitigating Factors**, such as a no further action letter, an escrow, or a brownfields agreement under Other Factor(s).\n\n#### Questions and appeals\n\n| Need | Where it goes |\n|---|---|\n| Questions on environmental policy | **Local SBA counsel** for the area where the Property is located |\n| Appeal of an environmental decision believed inconsistent with the SOP | **EnvironmentalAppeals@sba.gov**, with a copy of the decision and an explanation |\n| Exception to environmental policy | Same address; reviewed by the Environmental Committee |\n\nThe email address **cannot receive submissions larger than 15MB**; larger appeals must be split across multiple emails.\n\n**Who decides:** the **SBA Environmental Committee**, made up of **OGC attorneys appointed by the Associate General Counsel for Litigation**, who may consult an environmental engineer. The **Associate General Counsel for Litigation** can **overrule** the Committee's decisions.\n\n> **In practice:** Indemnity rights often hide in purchase agreements for previously contaminated sites. Ask counsel to review the chain of purchase documents for indemnification clauses before closing, so the waiver can be recorded at closing rather than chased afterward.",
+      "keyPoints": [
+        "Any Person with a right to indemnification from later owners must sign the SBA Indemnification Agreement or a recorded waiver and release",
+        "The waiver must cover all known and unknown rights and claims against SBA and the lender related to Contamination",
+        "504: submit waivers with the title report, indemnification document, and purchase documents for local SBA counsel approval",
+        "Brownfield redevelopment is encouraged, typically through the nine Mitigating Factors",
+        "Policy questions go to local SBA counsel; appeals and exceptions to EnvironmentalAppeals@sba.gov (15MB limit)",
+        "Environmental Committee = OGC attorneys; the Associate General Counsel for Litigation may overrule it"
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Section 106",
+      "definition": "Section 106 of the National Historic Preservation Act, requiring federal agencies to consider whether their projects adversely affect properties listed or eligible for the NRHP."
+    },
+    {
+      "term": "NRHP",
+      "definition": "National Register of Historic Places. Properties listed or eligible for listing, individually or in a historic district, trigger historic review."
+    },
+    {
+      "term": "SBA Form 2481",
+      "definition": "Historic Property Borrower Certification: the borrower's self-certification that no modifications will be made to a historic property during the loan term."
+    },
+    {
+      "term": "SHPO",
+      "definition": "State Historic Preservation Office, consulted during a Section 106 review; it has 30 days to respond to local SBA counsel."
+    },
+    {
+      "term": "Section 110(k) review",
+      "definition": "A review local SBA counsel must perform before Section 106 when modifications to an eligible historic property have already begun."
+    },
+    {
+      "term": "Environmental Professional",
+      "definition": "A qualified professional (defined in Appendix 4) who must perform Transaction Screens and Phase I and Phase II ESAs."
+    },
+    {
+      "term": "Reliance Letter",
+      "definition": "The Appendix 5 letter that must accompany every Transaction Screen, Phase I, and Phase II, even when the report is addressed to the lender."
+    },
+    {
+      "term": "Environmental Questionnaire",
+      "definition": "The lightest-level investigation, a permissible starting point for loans up to $250,000 with no Appendix 6 NAICS match."
+    },
+    {
+      "term": "Records Search with Risk Assessment",
+      "definition": "A database records review with a risk conclusion; required with a Questionnaire for loans over $250,000 without an Appendix 6 match. Anything other than 'low risk' requires a Phase I."
+    },
+    {
+      "term": "Phase I / Phase II ESA",
+      "definition": "Environmental Site Assessments. Phase I reviews history and conditions; Phase II samples soil, groundwater, or vapor to confirm Contamination."
+    },
+    {
+      "term": "Environmental Committee",
+      "definition": "SBA committee of OGC attorneys that decides environmental appeals and exceptions to policy, including sole reliance on Other Factor(s)."
+    },
+    {
+      "term": "SBA Environmental Indemnification Agreement",
+      "definition": "Appendix 8 form signed by a financially capable third-party indemnitor; cannot be modified and must be recorded per Exhibit C."
+    },
+    {
+      "term": "No further action letter",
+      "definition": "A Governmental Entity closure letter (or state equivalent) stating no further Remediation or monitoring is required; a mitigating factor."
+    },
+    {
+      "term": "Child-Occupied Facility",
+      "definition": "A facility type defined in Appendix 4; if built before 1978, requires lead risk assessment and drinking water lead testing."
+    },
+    {
+      "term": "Brownfield",
+      "definition": "Previously contaminated property being redeveloped; SBA encourages lending on revitalized brownfields through the Mitigating Factors."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "a5p2-q1",
+      "difficulty": "basic",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. D",
+      "question": "When does an SBA Loan transaction trigger historic property due diligence?",
+      "options": [
+        "Only when the building is more than 50 years old",
+        "Only for 504 loans over $1 million",
+        "When it involves the purchase or renovation of a property or site, including installation of equipment",
+        "Only when the property is already listed on the NRHP"
+      ],
+      "correctIndex": 2,
+      "explanation": "An SBA Loan impacts a property if it involves purchase or renovation of a property or site, including equipment installation, and lenders must then do due diligence on NRHP listing or eligibility. Due diligence covers eligible properties too, not just listed ones."
+    },
+    {
+      "id": "a5p2-q2",
+      "difficulty": "scenario",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. D.2.a",
+      "question": "A delegated lender's due diligence shows a building is in a historic district. The buyer plans no changes. What must the lender do before requesting an SBA Loan Number?",
+      "options": [
+        "Obtain an executed SBA Form 2481 and send it to local SBA counsel for clearance",
+        "Nothing; no review is needed when no changes are planned",
+        "Request a full Section 106 review and wait for the SHPO",
+        "Obtain a Phase I ESA"
+      ],
+      "correctIndex": 0,
+      "explanation": "With historic indicators and no planned modifications, the lender obtains Form 2481 before submitting the application or requesting a loan number under delegated authority, and provides it to local SBA counsel for clearance. A full Section 106 review is for planned modifications."
+    },
+    {
+      "id": "a5p2-q3",
+      "difficulty": "applied",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. D.2.b",
+      "question": "A borrower buying an NRHP-listed building will renovate the facade using only personal cash, not SBA proceeds. What applies?",
+      "options": [
+        "No review, because SBA proceeds are not funding the renovation",
+        "Form 2481 self-certification is sufficient",
+        "Only the SHPO must be notified by the borrower",
+        "The lender must request a Section 106 review from local SBA counsel"
+      ],
+      "correctIndex": 3,
+      "explanation": "When the borrower intends to alter or renovate the property, regardless of the source of funds for the modifications, the lender must request a Section 106 review. Form 2481 is only for transactions with no planned modifications."
+    },
+    {
+      "id": "a5p2-q4",
+      "difficulty": "basic",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. D.2.b",
+      "question": "How long does the SHPO have to respond to local SBA counsel during a Section 106 review?",
+      "options": [
+        "10 days",
+        "30 days",
+        "45 days",
+        "90 days"
+      ],
+      "correctIndex": 1,
+      "explanation": "Under 36 CFR § 800.4(d), the SHPO has thirty (30) days to respond. 10 and 45 days are insurance cancellation notice periods in the same chapter."
+    },
+    {
+      "id": "a5p2-q5",
+      "difficulty": "basic",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. E.3",
+      "question": "Environmental Investigation Reports must be dated within what period?",
+      "options": [
+        "180 days of application",
+        "90 days of loan closing",
+        "One year of the date the SBA loan number is issued",
+        "Two years of loan approval"
+      ],
+      "correctIndex": 2,
+      "explanation": "Environmental Investigation Reports must be dated within one year of the date of issuance of the SBA loan number. The same one-year window applies to child-occupied facility lead testing."
+    },
+    {
+      "id": "a5p2-q6",
+      "difficulty": "scenario",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. E.4",
+      "question": "A $400,000 loan finances a warehouse whose current and known prior uses do not match any Appendix 6 NAICS code. What is the minimum starting investigation?",
+      "options": [
+        "Environmental Questionnaire only",
+        "Environmental Questionnaire and Records Search with Risk Assessment",
+        "Phase I ESA",
+        "Phase II ESA"
+      ],
+      "correctIndex": 1,
+      "explanation": "Without an Appendix 6 match, loans up to and including $250,000 may start with an Environmental Questionnaire; loans over $250,000 must at minimum start with a Questionnaire and Records Search with Risk Assessment. A Phase I is the starting point only for an Appendix 6 match."
+    },
+    {
+      "id": "a5p2-q7",
+      "difficulty": "scenario",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. E.4",
+      "question": "A $150,000 loan finances a convenience store with gas pumps (NAICS 457). Where must the investigation begin?",
+      "options": [
+        "Phase I ESA, plus compliance with Appendix 7 gas station requirements",
+        "Environmental Questionnaire, because the loan is under $250,000",
+        "Transaction Screen",
+        "Records Search with Risk Assessment"
+      ],
+      "correctIndex": 0,
+      "explanation": "If the NAICS code begins with 457, the investigation must begin with a Phase I regardless of loan amount, and the lender must follow Appendix 7. The $250,000 Questionnaire option applies only when there is no sensitive-industry match."
+    },
+    {
+      "id": "a5p2-q8",
+      "difficulty": "applied",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. E.4",
+      "question": "An Environmental Professional recommends going straight from a Transaction Screen to a Phase II, and the lender agrees. What must happen?",
+      "options": [
+        "Nothing extra; the lender may follow the recommendation",
+        "The lender must still get a Phase I first, with no exceptions",
+        "The borrower signs an indemnification agreement",
+        "The lender must seek an exception from the SBA Environmental Committee in advance"
+      ],
+      "correctIndex": 3,
+      "explanation": "Bypassing the Phase I by going from a Transaction Screen to a Phase II requires an advance exception to policy from the Environmental Committee, granted case by case. It is possible, so 'no exceptions' is wrong."
+    },
+    {
+      "id": "a5p2-q9",
+      "difficulty": "applied",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. E.5.d",
+      "question": "Which escrow arrangement can serve as a mitigating factor for ongoing Remediation estimated at $200,000?",
+      "options": [
+        "$200,000 escrow funded from SBA loan proceeds",
+        "$250,000 escrow controlled by the borrower",
+        "$300,000 escrow from the seller, controlled by the 7(a) Lender as trustee, with Governmental Entity concurrence on scope",
+        "$300,000 escrow where the lender as trustee also manages the Property"
+      ],
+      "correctIndex": 2,
+      "explanation": "The escrow must be at least 150% of the estimated cost ($300,000), controlled by the 7(a) Lender (or 504 first mortgage holder) as trustee, not funded by SBA proceeds, with Governmental Entity concurrence on scope. The trustee must not control or manage the Property."
+    },
+    {
+      "id": "a5p2-q10",
+      "difficulty": "scenario",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. E.5.d-E.5.e",
+      "question": "A PLP lender wants to approve a loan on a contaminated site relying only on an environmental insurance policy already paying Remediation costs. What is required?",
+      "options": [
+        "Clearance from the Environmental Committee by sending the reports and a memorandum to EnvironmentalAppeals@sba.gov",
+        "Nothing, because delegated lenders need no SBA concurrence",
+        "A no further action letter",
+        "Only a note to file"
+      ],
+      "correctIndex": 0,
+      "explanation": "Environmental insurance falls under Other Factor(s). Relying solely on Other Factor(s) requires Environmental Committee clearance for both delegated and non-delegated loans. The delegated exemption from SBA concurrence does not cover sole reliance on Other Factor(s)."
+    },
+    {
+      "id": "a5p2-q11",
+      "difficulty": "applied",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. E.5.d",
+      "question": "Which party may serve as the Third Party Indemnitor under the SBA Environmental Indemnification Agreement?",
+      "options": [
+        "The Applicant",
+        "The Operating Company",
+        "The lender",
+        "A prior owner with sufficient financial resources to complete Remediation"
+      ],
+      "correctIndex": 3,
+      "explanation": "Indemnification works when a Person with sufficient financial resources to cover Remediation signs the Appendix 8 agreement, and the lender analyzes that indemnitor's assets. The Third Party Indemnitor cannot be the Applicant or the operating company."
+    },
+    {
+      "id": "a5p2-q12",
+      "difficulty": "scenario",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. E.6",
+      "question": "A strip center being financed had an on-site dry cleaner that closed 8 years ago. What environmental work is required?",
+      "options": [
+        "A Records Search, since the cleaner is no longer operating",
+        "A Phase I only",
+        "A Phase I followed by a Phase II addressing soil, groundwater, and soil vapor, with the Phase II by a licensed PE or PG",
+        "Nothing if the loan is under $250,000"
+      ],
+      "correctIndex": 2,
+      "explanation": "For any Property with on-site dry cleaning, current or historical, that used or likely used chlorinated or petroleum solvents, a Phase I followed by a Phase II is required, covering soil, groundwater, and soil vapor. The Phase II needs an independent licensed PE or PG with 3 years' experience."
+    },
+    {
+      "id": "a5p2-q13",
+      "difficulty": "basic",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 5, Para. E.6",
+      "question": "A child care center to be financed was built in 1972. What is required?",
+      "options": [
+        "No lead testing if a prior SBA loan tested within 5 years",
+        "A lead risk assessment and testing for lead in drinking water at taps and fountains accessible to children, for each new loan",
+        "Lead paint testing only if children are under 2",
+        "A Phase II ESA"
+      ],
+      "correctIndex": 1,
+      "explanation": "Child-Occupied Facilities built before 1978 need a lead risk assessment and drinking water lead testing at taps accessible to children. New assessment and testing are required for each new loan, within one year of loan number issuance, so prior tests cannot be reused."
+    }
+  ]
+}

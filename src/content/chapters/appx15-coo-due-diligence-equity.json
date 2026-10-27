@@ -1,0 +1,383 @@
+{
+  "id": "appx15-coo-due-diligence-equity",
+  "order": 421,
+  "part": "APPX",
+  "program": "7a",
+  "title": "Appendix 15 (Part 2): Change of Ownership Terms, Due Diligence and Equity",
+  "subtitle": "Maturity limits, business valuations, Quality of Earnings reports and equity injection rules for business acquisitions",
+  "sopRef": "SOP 50 10 8.1, Appendix 15",
+  "estimatedMinutes": 45,
+  "learningObjectives": [
+    "Set compliant maturities for change of ownership loans, including blended and Special Purpose Property structures",
+    "Determine who may perform a business valuation and when a lender may value the business itself",
+    "Identify when a Quality of Earnings report is required and what it must contain",
+    "Calculate minimum equity injections by transaction type and apply the rules for reducing or waiving equity",
+    "Distinguish unlimited from limited equity sources and apply the half-of-injection cap and full standby rules"
+  ],
+  "topics": [
+    {
+      "id": "coo-maturities",
+      "title": "Maturities and blended amortization",
+      "body": "Change of ownership loans finance mostly goodwill and working assets, so SBA keeps their terms short.\n\n#### Baseline rules (13 CFR 120.212)\n\n- Every 7(a) loan must have a **stated amortization and maturity** and **may not have a balloon**.\n- A loan that facilitates a change of ownership may **not amortize over more than 10 years**, except for the Special Purpose Property exemption.\n- **Real estate loans** (acquisition, rehab, renovation, construction or leasehold improvements) may not exceed **25 years**, following Standard 7(a) and 7(a) Small rules as applicable.\n\n#### When the deal includes real estate\n\nChange of ownership deals that also buy real estate (formerly \"mixed purpose\" loans) are structured one of two ways:\n\n| Option | How it works |\n|---|---|\n| **Separate loans** | One loan for the change of ownership, one for the real estate (the RE loan can be a **504**). Must meet the adequacy of collateral rules in Para. C.3.c. |\n| **Blended** | One loan with a maturity based on the **weighted average** of the uses of proceeds, **rounded to the nearest full year** |\n\nBlended calculation rules:\n\n- **Only the real estate portion** may exceed 10 years, up to **25 years**.\n- **All other uses** - including soft costs and working capital - get **10 years**.\n- The calculation is made **before applying any equity** and must be clearly stated in the credit memo.\n- **504 cannot be used on a blended basis.**\n\n**Example:** $3,000,000 total uses: $1,200,000 real estate at 25 years and $1,800,000 business and working capital at 10 years.\n(1.2 x 25 + 1.8 x 10) / 3.0 = (30 + 18) / 3 = **16 years**.\n\n#### Line of credit for working assets\n\nLenders may fund part of the purchase related to the firm's **working assets onto a line of credit**, following the line of credit conditions in the collateral section (the 20%-50% day-one availability rule).\n\n> **Watch out:** Run the weighted average on gross uses before equity. Netting the buyer's equity against the business portion first inflates the real estate weight and produces a longer, non-compliant term.",
+      "keyPoints": [
+        "No balloons; stated amortization and maturity required.",
+        "Change of ownership loans: maximum 10-year amortization, except Special Purpose Properties.",
+        "Real estate loans: maximum 25 years.",
+        "With real estate: separate loans (504 allowed) or blended weighted average rounded to nearest full year.",
+        "In a blend, only the RE portion may exceed 10 years (up to 25); compute before equity; 504 cannot be blended."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Loan Terms and Conditions, Loan Maturities (13 CFR 120.212)"
+    },
+    {
+      "id": "special-purpose-maturity",
+      "title": "The Special Purpose Property maturity exemption",
+      "body": "Some businesses are inseparable from their buildings - think hotels or self-storage facilities. For these, SBA allows a longer maturity on the whole loan.\n\n#### The exemption\n\nWhen the deal acquires an **owner-occupied Special Purpose Property** together with the business operating from it, the lender may set a maturity of **up to 25 years** if **85% or more** of the total project costs are for **real estate**.\n\nIt applies **only** when the acquisition of the property **cannot be separated from, and is integral to**, the acquisition and continued operation of the business.\n\n#### What is a Special Purpose Property?\n\nA **limited-market** property with a **unique physical design, special construction materials, or a layout** that restricts its utility to the specific use for which it was built.\n\n| Deal | 25-year maturity on whole loan? |\n|---|---|\n| Hotel purchase, 88% of project cost is real estate | Yes |\n| Hotel purchase, 80% of project cost is real estate | No - use separate or blended structure |\n| Dental practice plus generic office condo, 90% real estate | No - an office condo is not a Special Purpose Property, and the business can be separated from it |\n\nThe same Special Purpose Property concept unlocks other flexibilities later in this appendix: projection-based DSC, no QoE regardless of price, and specific appraisal rules for the business valuation.\n\n> **Watch out:** The 85% test is measured against **total project costs**, not the loan amount. Include working capital, closing costs and franchise fees in the denominator.\n\n> **In practice:** Document in the credit memo why the property is special purpose and why it is integral to the business. The same justification is required again if you rely on projections for DSC.",
+      "keyPoints": [
+        "Up to 25-year maturity when 85% or more of total project costs are real estate in an owner-occupied Special Purpose Property deal.",
+        "Applies only when the property cannot be separated from, and is integral to, the business.",
+        "Special Purpose Property: limited-market, unique design, materials or layout restricting its use.",
+        "Examples given by the SOP include hotels and storage units."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Loan Terms and Conditions, Loan Maturities (13 CFR 120.212), Special Purpose Properties Exemption"
+    },
+    {
+      "id": "business-valuation-who",
+      "title": "Business valuation: the Qualified Source and the engagement",
+      "body": "The business valuation is **the key component** of any change of ownership analysis. A purchase creates new debt unrelated to operations and creates intangible assets, so an independent opinion of value protects the buyer, the lender and SBA. The valuation **excludes real estate**, which is valued separately by an appraisal.\n\nFinancial due diligence is part of **primary underwriting and the eligibility determination**, not an afterthought.\n\n#### Who can do it: a Qualified Source\n\nAn individual who **regularly receives compensation for business valuations**, is **independent of loan production**, is **not involved in approving** the transaction, has **no appearance of a conflict of interest**, and holds one of these credentials:\n\n| Credential | Accrediting organization |\n|---|---|\n| ASA - Accredited Senior Appraiser | American Society of Appraisers |\n| CBA - Certified Business Appraiser | Institute of Business Appraisers |\n| ABV - Accredited in Business Valuation | American Institute of Certified Public Accountants |\n| CVA - Certified Valuation Analyst | National Association of Certified Valuation Analysts |\n| BCA - Business Certified Appraiser | International Society of Business Appraisers |\n\n#### Engagement and scope\n\n- The valuation must be **requested by and prepared for the Lender**. A valuation prepared for the Applicant or the seller **cannot be used**.\n- The scope of work must say whether the deal is an **asset or stock purchase** and be specific about what is included in the sale, **including any assumed debt**.\n- The report must include the **conclusion of value**, the **appraiser's qualifications**, and their **signature certifying** the contents.\n\n#### Cost\n\nOut-of-pocket costs of all financial due diligence reports **may be passed to the borrower**, and anything the Applicant spends on them **counts toward the equity injection**.\n\n> **Watch out:** A seller who hands over a \"recent valuation\" from their own advisor has not satisfied the requirement, no matter how qualified the author. The lender must commission its own.",
+      "keyPoints": [
+        "Business valuation is the key component of change of ownership analysis; it excludes real estate.",
+        "Qualified Source credentials: ASA, CBA, ABV, CVA or BCA, plus independence and no conflict.",
+        "Valuation must be requested by and prepared for the Lender, never for the Applicant or seller.",
+        "Scope states asset vs stock purchase and what is included, including assumed debt.",
+        "Report must include conclusion of value, qualifications and signed certification.",
+        "Due diligence costs may be passed to the borrower and count toward equity injection."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.1 Financial Due Diligence, Business Valuation Requirements"
+    },
+    {
+      "id": "business-valuation-rules",
+      "title": "Valuation thresholds, special purpose rules and verification",
+      "body": "#### When the lender may value the business itself\n\nIf the **Business Purchase Price is $350,000 or less**, the lender **may perform its own valuation**, **unless there is a close relationship** between buyer and seller. This applies to both non-special purpose and Special Purpose Property deals.\n\n#### Extra rules for Special Purpose Properties\n\n1. The valuation must **allocate separate values** to land, building, equipment and intangible assets.\n2. The **Certified General Real Property Appraiser** must have completed **at least four going concern appraisals** of equivalent special use property **within the last 36 months**, shown in the qualifications section of the Appraisal Report.\n3. Each assignment must specifically instruct the appraiser to comply with current **USPAP**.\n\n#### The valuation must support the price\n\n- The valuation must support the **Business Purchase Price regardless of how the debt is structured**.\n- If the buyer pays **more than the valuation**, the **difference must be made up with equity**.\n- Remember the companion rule: **total debt**, including seller debt not on full standby, is capped at the valuation.\n\n**Example:** Business Purchase Price $1,500,000; valuation $1,300,000. The $200,000 gap must be equity. A seller note for that $200,000 would only count if it fits the equity rules (and limited sources used to cover an above-valuation gap must be on full standby).\n\n#### Lender verification of valuation data\n\nThe lender must obtain the **financial information the appraiser relied on** and **verify it against the seller's IRS transcripts**.\n\n| Purchase Price | Valuation by |\n|---|---|\n| $350,000 or less, arm's length | Lender may do its own |\n| $350,000 or less, close buyer-seller relationship | Qualified Source |\n| Over $350,000 | Qualified Source |\n\n> **In practice:** Reconcile the revenue and earnings in the valuation report to the transcripts in a one-page schedule. Discrepancies here usually show up again in the QoE.",
+      "keyPoints": [
+        "Business Purchase Price $350,000 or less: lender may value the business itself unless buyer and seller have a close relationship.",
+        "Special purpose valuations allocate values to land, building, equipment and intangibles.",
+        "Special purpose appraiser: at least four going concern appraisals of equivalent property in the last 36 months; USPAP instruction.",
+        "If the price exceeds the valuation, the difference must be equity.",
+        "Lender verifies the appraiser's financial data against the seller's IRS transcripts."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.1 Financial Due Diligence, Business Valuation Requirements"
+    },
+    {
+      "id": "qoe-when",
+      "title": "Quality of Earnings: when it is required and who prepares it",
+      "body": "A **Quality of Earnings (QoE)** report is a financial due diligence report that tests how **reliable, sustainable and accurate** a business's historical and projected earnings are.\n\n#### When a QoE is required\n\n| Transaction type | Business Purchase Price | QoE required? |\n|---|---|---|\n| Initial Acquisition | **$3 million or more** | Yes, in addition to the valuation |\n| Business Expansion | **$3 million or more** | Yes, in addition to the valuation |\n| Owner Buyout | Any | No |\n| ESOP and Cooperative | Any | No |\n| Owner-occupied Special Purpose Property acquisition | Any | No |\n| Owner Buyout failing the 24-month insider limit | $3 million or more | Yes - Initial Acquisition credit standards apply |\n\nThe **$3 million** test is measured **before** buyer equity, seller debt or other financing. Owner Buyouts and ESOP/Cooperative deals are exempt because existing owners keep operational knowledge and management does not change.\n\n#### Who prepares it\n\n- An **independent, experienced financial professional**, conducted **for the benefit of the Lender**.\n- It must **not be prepared by or for the seller**.\n\n#### Buyer-commissioned QoE reports\n\nBuyers sometimes commission a QoE before approaching a lender. To save cost, the lender may have that report **reviewed by one of its approved vendors**. The **vendor's findings and the original QoE** must both be in the loan file.\n\nThe lender **may not rely** on a QoE prepared by another party **without a vendor review**.\n\n> **Watch out:** A deal with a $2.8 million loan, $400,000 of equity and a $300,000 seller note has a $3.5 million price. The QoE is required - the threshold ignores how the deal is financed.",
+      "keyPoints": [
+        "QoE required for Initial Acquisitions and Business Expansions with a Business Purchase Price of $3 million or more.",
+        "The $3 million threshold is measured before equity, seller debt or other financing.",
+        "Owner Buyout, ESOP and Cooperative deals, and Special Purpose Property acquisitions, do not need a QoE.",
+        "QoE must be independent, for the Lender, and not by or for the seller.",
+        "A buyer-commissioned QoE may be used only after review by a lender-approved vendor; keep both in the file."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.1 Financial Due Diligence, Quality of Earnings"
+    },
+    {
+      "id": "qoe-content",
+      "title": "Quality of Earnings: required content and use in DSC",
+      "body": "A compliant QoE is more than a review of the financial statements. Appendix 15 sets out four required elements.\n\n#### 1. Reconciliation to normalized earnings\n\nThe QoE must reconcile the business's **accountant-prepared financial statements, tax returns, internal financial statements and IRS transcript data** to produce a **normalized, adjusted earnings** figure reflecting **recurring, arm's-length** operations.\n\n#### 2. Cash Proof\n\nA **Cash Proof** reconstructs cash receipts and disbursements by reconciling **bank statement data** to the **income statement and tax return** for each period. Its purpose is to find **income discrepancies and undisclosed expenses**.\n\n- Must cover a **trailing 12-month** period **and** the **last two fiscal years**.\n- If the business has operated **less than two years**, the scope can be reduced accordingly.\n\n#### 3. Add-backs and revenue quality\n\nThe report must identify and document **all add-backs and adjustments**, including:\n\n- non-recurring revenue or expenses;\n- above- or below-market owner compensation;\n- related-party transactions;\n- deferred maintenance; and\n- cash-basis vs. accrual-basis differences.\n\nIt must also assess the **quality and sustainability of revenue**: **customer concentration**, **contract continuity**, and the likelihood revenue and margins hold up **after the sale**.\n\n#### 4. Use in underwriting\n\n- The lender **must use the QoE earnings** in the DSC calculation and **retain the QoE** in the credit file.\n- If QoE-based DSC does not support the valuation and structure, the **loan amount must be reduced**; extra unlimited or limited equity may make up the difference.\n\n> **In practice:** When the QoE normalizes EBITDA down from the seller's figure, rerun DSC immediately. If it drops below the required ratio for the transaction type, re-size the loan before the deal team gets attached to the original structure.",
+      "keyPoints": [
+        "QoE reconciles accountant statements, tax returns, internal statements and IRS transcripts into normalized earnings.",
+        "Cash Proof ties bank statements to income statement and tax return for trailing 12 months and last two fiscal years.",
+        "Must document all add-backs and assess customer concentration, contract continuity and post-sale sustainability.",
+        "Lender must use QoE earnings in DSC and retain the report.",
+        "If QoE-based DSC does not support the structure, reduce the loan amount."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.1 Financial Due Diligence, Quality of Earnings"
+    },
+    {
+      "id": "equity-minimums",
+      "title": "Equity injection minimums",
+      "body": "Equity requirements for changes of ownership depend on the transaction type.\n\n#### What the percentage is applied to\n\n- Generally, **total project cost**: all costs required to become operational, regardless of the source of funds, **except lines of credit and 504 loans**.\n- For **Owner Buyouts**, the **purchase price of the business** in the purchase and sale agreement.\n- **Real estate** bought with the business is subject to the same equity requirement. If split into two loans, allocate equity **pro rata**. If the real estate goes into a **504**, the 504 piece follows **504 equity rules**.\n\n#### Minimums by type\n\n| Type | Minimum equity | Can lender reduce or waive? |\n|---|---|---|\n| Initial Acquisition | **10%** | **No** - cannot be reduced or eliminated |\n| Business Expansion | 10% | Yes, if conditions are met |\n| Owner Buyout | 10% | Yes, if conditions are met |\n| ESOP and Cooperative | 10% | Not listed as reducible |\n| ESOP buying a controlling interest (at least 51%) | **None** - not subject to the SBA equity requirement | - |\n\n#### Reducing or eliminating equity (Business Expansion and Owner Buyout)\n\nThe lender may reduce or eliminate the 10% if it determines the Borrower has **sufficient liquidity and working capital** to sustain operations after the deal. Conditions:\n\n1. The Applicant's balance sheet must **not show negative net worth** at the **last fiscal year-end**.\n2. When equity is **eliminated**, the lender **may not include dedicated permanent working capital** in this or any other 7(a) term loan **within 90 days**. Waiving equity presumes the business is already adequately capitalized.\n3. Working capital needed for the deal must come from **existing cash or a line of credit**.\n4. A **de minimis** amount of excess proceeds may still go to the Borrower for incidental post-approval adjustments: no more than **$10,000 or one half of one percent of the loan amount, whichever is greater**.\n\n**Example:** On a $4,000,000 loan with equity waived, de minimis excess proceeds can be up to $20,000 (0.5% of $4,000,000 is greater than $10,000).\n\n> **Watch out:** Initial Acquisition equity is a hard floor. No liquidity analysis can reduce it.",
+      "keyPoints": [
+        "Equity is based on total project cost (excluding lines of credit and 504); Owner Buyouts use the purchase price.",
+        "Minimum 10% for every type; ESOP purchases of 51% or more are exempt.",
+        "Initial Acquisition equity cannot be reduced or eliminated.",
+        "Business Expansion and Owner Buyout equity may be reduced or waived with sufficient liquidity and no negative net worth at last FYE.",
+        "If eliminated: no dedicated permanent working capital in any 7(a) term loan within 90 days.",
+        "De minimis excess proceeds: up to the greater of $10,000 or 0.5% of the loan amount."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Underwriting, Equity Requirements"
+    },
+    {
+      "id": "equity-sources",
+      "title": "Sources of equity: unlimited and limited",
+      "body": "Not all money counts the same. Appendix 15 sorts equity sources into **unlimited** (can cover all of the requirement) and **limited** (together, **no more than half** of the required injection).\n\n#### Unlimited sources\n\n1. **Cash that is not borrowed** - on the business balance sheet or from elsewhere (e.g., a gift).\n2. **Cash from a personal loan to a guarantor**, if repayment comes from a source **other than the business's cash flow**. The owner's salary from the business **does not qualify**.\n3. **Grants** with **no conditional repayment, clawback** or other provision that could require repayment during the 7(a) term.\n4. **Eligible prepaid expenses** verified with paid invoices, canceled checks or bank statements, with copies retained. Education, advisory services and **fees paid to an Agent** are **not** eligible and are not equity.\n\n#### Limited sources (combined cap: half of the required injection)\n\n| Source | Conditions |\n|---|---|\n| **Standby debt** | **Full standby**: no principal or interest payments for the 7(a) term. SBA Form **155** or equivalent, with the Note attached. Interest may accrue and amortize after the 7(a) is paid. Creditor subordinates liens and takes no action without the lender's consent. Standby creditor **may not take equity**. |\n| **Seller debt** | Subordinated to the lender and on **full standby** for the 7(a) term. Refinanceable after **36 months** in place and current. |\n| **Non-controlling minority equity investment** | Investor holds **less than 20%** and exerts **no control**. No agreement to repay or distribute to recover the investment before the guaranty is released. |\n\n**Example:** Required injection $500,000. At most $250,000 may come from standby debt, seller debt and minority investors combined; at least $250,000 must come from unlimited sources.\n\n#### Beyond the minimum\n\nWhen the price exceeds the value supported by the valuation and QoE, **additional limited sources** may supplement the purchase, but those additional funds **must be on full standby**.\n\n#### Minority investor distributions\n\n- The lender documents all equity investment terms, including provisions triggered on sale of the business.\n- If the investment counts toward the injection, distributions are **prohibited until the 7(a) is paid off**, except distributions **solely for the investor's tax obligations** from the business's income.\n- Extra investments **not** used for the injection may receive standard distributions, subject to lender agreements; the lender may impose **DSC covenants**.",
+      "keyPoints": [
+        "Unlimited: unborrowed cash, gifts, personal loans repaid from non-business sources, non-clawback grants, verified prepaid expenses.",
+        "Agent fees, education and advisory costs are not equity.",
+        "Limited sources combined may provide no more than half of the required injection.",
+        "Standby and seller debt count only on full standby for the 7(a) term (SBA Form 155 or equivalent).",
+        "Minority investors must hold under 20% with no control; only tax distributions until the 7(a) is repaid.",
+        "Additional limited funds covering a price above supported value must be on full standby."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Underwriting, Equity Requirements, Source of Equity Injections"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Blended amortization",
+      "definition": "A single-loan maturity for a change of ownership with real estate, set by the weighted average of uses (RE up to 25 years, all else 10 years), rounded to the nearest full year and calculated before equity."
+    },
+    {
+      "term": "Special Purpose Property",
+      "definition": "A limited-market property with a unique physical design, special construction materials or layout that restricts its utility to the use it was built for (e.g., hotels, storage units)."
+    },
+    {
+      "term": "Qualified Source",
+      "definition": "An independent business valuator, regularly compensated for valuations, holding an ASA, CBA, ABV, CVA or BCA credential, not involved in loan production or approval and free of conflicts."
+    },
+    {
+      "term": "Business valuation",
+      "definition": "An independent opinion of the value of the business excluding real estate, requested by and prepared for the Lender; it must support the Business Purchase Price."
+    },
+    {
+      "term": "Quality of Earnings (QoE)",
+      "definition": "A financial due diligence report testing the reliability and sustainability of earnings, required for Initial Acquisitions and Business Expansions with a Business Purchase Price of $3 million or more."
+    },
+    {
+      "term": "Cash Proof",
+      "definition": "A QoE analysis reconciling bank statement data to the income statement and tax return for the trailing 12 months and last two fiscal years to find income discrepancies and undisclosed expenses."
+    },
+    {
+      "term": "Total project cost",
+      "definition": "All costs required to become operational regardless of source of funds, except lines of credit and 504 loans; the base for most change of ownership equity calculations."
+    },
+    {
+      "term": "Full standby",
+      "definition": "No payments of principal or interest for the term of the 7(a) loan. Required for standby and seller debt to count as equity."
+    },
+    {
+      "term": "Non-controlling minority equity investor",
+      "definition": "An investor with less than 20% equity and no control over the operating business, whose investment can count as a limited equity source."
+    },
+    {
+      "term": "De minimis excess proceeds",
+      "definition": "Incidental working capital remitted after equity is waived, capped at the greater of $10,000 or one half of one percent of the loan amount."
+    },
+    {
+      "term": "USPAP",
+      "definition": "Uniform Standards of Professional Appraisal Practice; special purpose valuation assignments must instruct the appraiser to comply with current USPAP."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "a15b-q1",
+      "question": "What is the maximum amortization for a 7(a) loan that facilitates a change of ownership, outside the Special Purpose Property exemption?",
+      "options": [
+        "7 years",
+        "10 years",
+        "15 years",
+        "25 years"
+      ],
+      "correctIndex": 1,
+      "explanation": "Change of ownership loans may not amortize over more than 10 years, except for Special Purpose Property transactions. 25 years is the maximum for real estate, which applies only to the real estate portion in a blended structure.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Loan Terms and Conditions, Loan Maturities (13 CFR 120.212)",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a15b-q2",
+      "question": "A loan funds a change of ownership with $1,000,000 for real estate (25 years) and $1,500,000 for the business and working capital. Using a blended structure, what maturity applies?",
+      "options": [
+        "16 years",
+        "10 years",
+        "25 years",
+        "13 years"
+      ],
+      "correctIndex": 0,
+      "explanation": "Blended maturity is the weighted average of uses, calculated before equity and rounded to the nearest full year: (1.0 x 25 + 1.5 x 10) / 2.5 = 40 / 2.5 = 16 years. 25 years would apply only under the Special Purpose Property exemption.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Loan Terms and Conditions, Loan Maturities (13 CFR 120.212)",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a15b-q3",
+      "question": "Which statement about structuring a change of ownership that includes real estate is correct?",
+      "options": [
+        "The 504 program may be used on a blended basis",
+        "The blended calculation should be made after applying equity",
+        "Soft costs may receive the real estate term in a blended calculation",
+        "The real estate may be financed with a separate 504 loan, but 504 may not be used on a blended basis"
+      ],
+      "correctIndex": 3,
+      "explanation": "Deals with real estate may use separate loans (including 504) or a blended weighted average. The SBA 504 program is not eligible for use on a blended basis, the calculation is made before equity, and soft costs and working capital get a 10-year term.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Loan Terms and Conditions, Loan Maturities (13 CFR 120.212)",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a15b-q4",
+      "question": "A buyer is acquiring a hotel and the business operating in it. Real estate is 87% of total project costs, and the hotel cannot be separated from the business. What maturity may the lender use?",
+      "options": [
+        "Up to 10 years",
+        "Up to 15 years",
+        "Up to 25 years",
+        "Up to 30 years"
+      ],
+      "correctIndex": 2,
+      "explanation": "Under the Special Purpose Property exemption, when 85% or more of total project costs are for real estate and the property is integral to the business, the lender may use a maturity of up to 25 years. 87% exceeds the 85% threshold.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Loan Terms and Conditions, Loan Maturities (13 CFR 120.212), Special Purpose Properties Exemption",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a15b-q5",
+      "question": "Which credential does NOT qualify an individual as a Qualified Source for a 7(a) business valuation?",
+      "options": [
+        "ASA from the American Society of Appraisers",
+        "CVA from the National Association of Certified Valuation Analysts",
+        "ABV from the American Institute of Certified Public Accountants",
+        "CFA from the CFA Institute"
+      ],
+      "correctIndex": 3,
+      "explanation": "The accepted credentials are ASA, CBA, ABV, CVA and BCA. A CFA charter, though a respected finance credential, is not on the list.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.1 Financial Due Diligence, Business Valuation Requirements",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a15b-q6",
+      "question": "The seller provides a business valuation that a certified CVA prepared for the seller six months ago. Can the lender use it?",
+      "options": [
+        "Yes, because the CVA is a Qualified Source",
+        "No, the valuation must be requested by and prepared for the Lender",
+        "Yes, if the lender's vendor reviews it",
+        "Yes, if it is less than 12 months old"
+      ],
+      "correctIndex": 1,
+      "explanation": "The business valuation must be requested by and prepared for the Lender; a valuation prepared for the Applicant or the seller may not be used. Vendor review of a third-party report is a QoE rule, not a valuation rule.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.1 Financial Due Diligence, Business Valuation Requirements",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a15b-q7",
+      "question": "A buyer is purchasing her uncle's landscaping company for a Business Purchase Price of $300,000. May the lender perform its own valuation?",
+      "options": [
+        "Yes, because the price is $350,000 or less",
+        "No, because there is a close relationship between buyer and seller",
+        "Yes, if the lender's valuation is reviewed by a Qualified Source",
+        "No, because the lender may never value a business itself"
+      ],
+      "correctIndex": 1,
+      "explanation": "If the Business Purchase Price is $350,000 or less the lender may perform its own valuation, unless there is a close relationship between the buyer and seller. A family relationship removes that option, so a Qualified Source is required.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.1 Financial Due Diligence, Business Valuation Requirements",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a15b-q8",
+      "question": "The Business Purchase Price is $2,000,000 but the independent valuation concludes $1,750,000. What must happen?",
+      "options": [
+        "The deal is ineligible",
+        "The seller must reduce the price to $1,750,000",
+        "The $250,000 difference must be made up by equity",
+        "The lender may finance the full $2,000,000 if DSC exceeds 1.25:1"
+      ],
+      "correctIndex": 2,
+      "explanation": "The business valuation must support the Business Purchase Price regardless of how the debt is structured; if the price exceeds the valuation, the difference must be made up by equity. Strong DSC does not let debt exceed the valuation, since total debt is capped at the valuation amount.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.1 Financial Due Diligence, Business Valuation Requirements",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a15b-q9",
+      "question": "Which transaction requires a Quality of Earnings report?",
+      "options": [
+        "An Owner Buyout with a $5 million purchase price",
+        "An ESOP purchase of 100% of a $4 million business",
+        "An Initial Acquisition with a $2.5 million Business Purchase Price",
+        "A Business Expansion with a $3 million Business Purchase Price"
+      ],
+      "correctIndex": 3,
+      "explanation": "A QoE is required for Business Expansion and Initial Acquisition transactions where the Business Purchase Price is equal to or greater than $3 million. Owner Buyout and ESOP & Cooperative transactions are exempt, and $2.5 million is below the threshold.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.1 Financial Due Diligence, Quality of Earnings",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a15b-q10",
+      "question": "An Initial Acquisition has a $3,200,000 Business Purchase Price, funded with a $2,600,000 7(a) loan, $320,000 buyer equity and a $280,000 standby seller note. Is a QoE required?",
+      "options": [
+        "No, because the 7(a) loan is under $3 million",
+        "Yes, because the $3 million threshold is measured before equity, seller debt or other financing",
+        "No, because seller debt on standby reduces the price",
+        "Only if the lender processes it non-delegated"
+      ],
+      "correctIndex": 1,
+      "explanation": "The $3 million QoE threshold is based on the Business Purchase Price and is determined before the application of buyer equity, seller debt or other financing sources. A $3,200,000 price triggers the QoE regardless of the loan size.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.1 Financial Due Diligence, Quality of Earnings",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a15b-q11",
+      "question": "The buyer commissioned a QoE before applying for financing. How may the lender use it?",
+      "options": [
+        "The lender may rely on it directly if it was prepared by a CPA firm",
+        "The lender may not use it under any circumstances",
+        "The lender may have it reviewed by one of its approved vendors and keep both the vendor findings and the original QoE in the file",
+        "The lender may use it if the seller certifies its accuracy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lenders may elect to have a buyer-commissioned QoE reviewed by one of their approved vendors to mitigate costs; the vendor's findings and the original report go in the file. The lender may not rely on another party's QoE without that vendor review.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.1 Financial Due Diligence, Quality of Earnings",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a15b-q12",
+      "question": "What periods must the QoE Cash Proof cover for a business that has operated for many years?",
+      "options": [
+        "Trailing 12 months and the last two fiscal years",
+        "The last three fiscal years only",
+        "Trailing 6 months only",
+        "The last fiscal year only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Cash Proof must be performed on both a trailing 12-month basis and the last two fiscal years, with reduced scope only if the business has operated for less than two years. Three years is the historical financial analysis requirement, not the Cash Proof scope.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.1 Financial Due Diligence, Quality of Earnings",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a15b-q13",
+      "question": "A Business Expansion borrower has strong liquidity, and the lender wants to waive the 10% equity injection. The Applicant's last fiscal year-end balance sheet shows negative net worth. What is the result?",
+      "options": [
+        "The waiver is allowed because liquidity is strong",
+        "The equity may be reduced to 5% but not eliminated",
+        "The waiver is allowed if the loan includes dedicated working capital",
+        "The equity cannot be reduced or eliminated, because the balance sheet must not show negative net worth at the last fiscal year-end"
+      ],
+      "correctIndex": 3,
+      "explanation": "To qualify for reduction or elimination of the equity injection, the Applicant's balance sheet must not have a negative net worth as of the last fiscal year-end. Including dedicated working capital is actually prohibited within 90 days when equity is eliminated.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Underwriting, Equity Requirements",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a15b-q14",
+      "question": "A lender eliminates the equity injection on a $3,000,000 Owner Buyout loan. What is the most it may remit to the Borrower as de minimis excess proceeds for incidental adjustments?",
+      "options": [
+        "$10,000",
+        "$30,000",
+        "$15,000",
+        "$0, because no working capital is allowed"
+      ],
+      "correctIndex": 2,
+      "explanation": "De minimis proceeds may not exceed $10,000 or one half of one percent of the loan amount, whichever is greater. 0.5% of $3,000,000 is $15,000, which is greater than $10,000. Dedicated permanent working capital is barred, but de minimis amounts are allowed.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Underwriting, Equity Requirements",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a15b-q15",
+      "question": "Required equity on an Initial Acquisition is $400,000. The buyer offers $150,000 cash savings, a $150,000 seller note on full standby, and $100,000 from a 10% non-controlling minority investor. Does this satisfy the equity rules?",
+      "options": [
+        "No, because limited sources ($250,000) exceed half of the required injection ($200,000)",
+        "Yes, because the total is $400,000",
+        "No, because seller notes can never count as equity",
+        "Yes, because the seller note is on full standby"
+      ],
+      "correctIndex": 0,
+      "explanation": "Limited sources (standby debt, seller debt and minority equity) may provide no more than half of the required injection. Here they total $250,000 against a $200,000 cap, so at least $50,000 more must come from unlimited sources. Seller debt on full standby can count, but only within that cap.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Underwriting, Equity Requirements, Source of Equity Injections",
+      "difficulty": "scenario"
+    }
+  ]
+}

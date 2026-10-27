@@ -1,0 +1,415 @@
+{
+  "id": "appx15-coo-underwriting-collateral",
+  "order": 422,
+  "part": "APPX",
+  "program": "7a",
+  "title": "Appendix 15 (Part 3): Change of Ownership Underwriting, Collateral and Submission",
+  "subtitle": "DSC by transaction type, Special Purpose Property projections, collateral valuation and shortfall rules, and PLP vs LGPC timing",
+  "sopRef": "SOP 50 10 8.1, Appendix 15",
+  "estimatedMinutes": 45,
+  "learningObjectives": [
+    "Build the financial analysis for an acquisition using the correct historical periods and reporting hierarchy",
+    "Apply the minimum DSC for each transaction type and the rules for historical and adjusted DSC",
+    "Underwrite an owner-occupied Special Purpose Property acquisition on projections when allowed",
+    "Value collateral for the fully secured test and apply collateral shortfall and piggyback rules",
+    "Structure a working capital line alongside a change of ownership loan within the 20%-50% day-one rule",
+    "Sequence the business valuation and QoE correctly for LGPC and PLP submissions"
+  ],
+  "topics": [
+    {
+      "id": "coo-credit-memo-foundation",
+      "title": "The credit memo foundation: business, management and financial data",
+      "body": "The credit memorandum must show the Applicant's **ability and likelihood to repay from the business's cash flow and past performance**. It starts with the business and the people running it, then the financial record.\n\n#### Business and management\n\nThe memo must describe the **business, its history, industry and management structure**, including:\n\n- the Applicant's **industry experience and management team**;\n- the principals' **involvement in daily onsite management**, or how daily operations will be run if they are not there daily.\n\nIf daily operations run under a **management agreement**, the lender must **obtain a copy**, review it to determine whether it makes the business an **ineligible passive business**, and keep it in the file. The exception: a management agreement that is part of the **franchise disclosure documents** for a brand on the **Franchise Directory** need not be obtained.\n\n#### Historical financial data\n\nFor the **acquired business** and for any Applicant that is an **existing operating entity**, the analysis must use the **three most recent year-end** financials at the **highest level of financial reporting available**:\n\n| Rank | Reporting level |\n|---|---|\n| 1 | Audited financial statements |\n| 2 | Reviewed financial statements (including AICPA SSARS AR-C 90) |\n| 3 | CPA compiled financial statements |\n| 4 | Corporate tax returns |\n\nThe lender must also analyze the **most current interim** statement **and the comparable interim from the prior year**, for both the operating Applicant and the acquired business.\n\n#### Tax return verification\n\nThe lender must obtain, review and **verify the Applicant's corporate tax returns against tax transcripts** under Section A, Ch. 5, Para. B.\n\n> **In practice:** If the seller has CPA-reviewed statements for two years and only tax returns for the third, use the reviewed statements where they exist. \"Highest level available\" applies year by year.\n\n> **Watch out:** A buyer who plans to be an absentee owner needs a concrete management plan in the memo, and a management agreement can quietly turn the deal into an ineligible passive business.",
+      "keyPoints": [
+        "Memo must cover business history, industry, management team and principals' daily involvement.",
+        "Management agreements must be obtained and reviewed for passive-business ineligibility, unless part of Franchise Directory brand FDD.",
+        "Use three most recent year-ends at the highest reporting level: audited, reviewed, CPA compiled, tax returns.",
+        "Analyze the current interim and the prior-year comparable interim for Applicant and target.",
+        "Verify the Applicant's corporate tax returns against transcripts."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.2.b Lender's Credit Analysis, items 1 and 2"
+    },
+    {
+      "id": "coo-dsc-requirements",
+      "title": "Debt Service Coverage requirements by transaction type",
+      "body": "DSC is the core cash flow test for every change of ownership. Appendix 15 sets the minimum by transaction type.\n\n#### Minimum DSC\n\n| Transaction type | Minimum DSC |\n|---|---|\n| Initial Acquisition | **1.25:1** |\n| Business Expansion | **1.15:1** |\n| Owner Buyout | **1.25:1** |\n| ESOP and Cooperative | **1.25:1** |\n\nThe ratio is satisfied using **either the last fiscal year-end** or an **average of the last two fiscal year-ends**, on a **historical or adjusted** basis.\n\n#### Projections cannot carry the deal\n\n- The lender must **evaluate** the Applicant's post-closing projections but **may not rely on them** to meet DSC.\n- The one exception is an **owner-occupied Special Purpose Property** acquisition (next topics).\n- If DSC falls short, the Applicant may contribute **additional unlimited or limited equity** to shrink the loan and its debt service.\n\n#### Interest-only acquisition debt\n\nWhen the deal includes additional debt that is **not on full standby** and is **interest-only**, the lender must **apply an amortization of no more than 10 years** when computing debt service. This does **not** apply to lines of credit. The goal is to make sure the business can service **all** acquisition debt regardless of source or structure.\n\n#### Global and affiliate analysis\n\nFor all Applicants, as applicable:\n\n- a **global cash flow analysis**, including cash flow to and from affiliates, that meets **1:1 DSC**; and\n- the effect any **affiliates** may have on repayment ability.\n\n**Example:** EBITDA $600,000. Post-transaction debt service: 7(a) $380,000 plus an interest-only $500,000 seller note at 6% on partial standby. Amortizing that note over 10 years adds roughly $66,600 a year instead of $30,000 of interest, so total debt service is about $446,600 and DSC is about 1.34:1 - enough for an Initial Acquisition, but tighter than the interest-only math suggests.\n\n> **Watch out:** Business Expansion is the only type with a 1.15:1 minimum. If a deal fails the Business Expansion conditions and defaults to Initial Acquisition, the DSC hurdle rises to 1.25:1.",
+      "keyPoints": [
+        "DSC minimums: Initial Acquisition 1.25, Business Expansion 1.15, Owner Buyout 1.25, ESOP and Cooperative 1.25.",
+        "Use the last FYE or the average of the last two FYEs, historical or adjusted.",
+        "Projections may not be relied on for DSC, except Special Purpose Property acquisitions.",
+        "Interest-only acquisition debt not on full standby must be amortized over no more than 10 years in DSC (not lines of credit).",
+        "Global cash flow must meet 1:1 DSC, including affiliates."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.2.b Lender's Credit Analysis, item 2"
+    },
+    {
+      "id": "historical-vs-adjusted-dsc",
+      "title": "Historical vs. adjusted DSC",
+      "body": "Appendix 15 recognizes two ways to measure DSC, and both may need to be entered into the SBA Loan System.\n\n#### Historical DSC\n\n- Defined as **EBITDA divided by combined debt service post-transaction**.\n- Lenders may **add back rent** when the owner-occupied commercial real estate is part of the transaction (the buyer will no longer pay that rent).\n- The lender **must input historical DSC** into the SBA Loan System.\n\n#### Adjusted DSC\n\nWhen used, the lender must input the **adjusted DSC** in the SBA Loan System too.\n\nThe lender may make **prudent adjustments** to the acquired entity's cash flow based on **savings realized through the transaction**. For **Business Expansions**, adjustments may be based on the **combined entities** when the acquired business will operate independently after the purchase.\n\nTypical additions and subtractions that need justification:\n\n1. Unfunded capital expenditures;\n2. Non-recurring income;\n3. Distributions;\n4. Distributions for S-Corp taxes;\n5. Seller discretionary expenses; and/or\n6. Ownership compensation.\n\n#### Rules for adjustments\n\n- For each adjustment the lender must explain **why it is prudent, necessary, and supportable** by ongoing operations, and put that justification in the credit memo.\n- **Owner compensation** adjustments must be backed by a **global cash flow** showing the principals can meet their obligations on the adjusted pay, at **1:1 DSC on a global basis**. The Applicant's compensation must cover current obligations and living expenses.\n- Adjustments **without the lender's supporting analysis are ineligible** for meeting the DSC requirement.\n\n**Example:** The seller paid himself $250,000; the buyer will take $120,000. Adding back $130,000 is reasonable only if the buyer's global cash flow, including mortgage and personal debts, still covers obligations at 1:1 on $120,000.\n\n> **Watch out:** Where a QoE is required, its normalized earnings are the starting point. Lender add-backs should not reverse adjustments the QoE already rejected.",
+      "keyPoints": [
+        "Historical DSC = EBITDA / combined post-transaction debt service; rent add-back allowed when owner-occupied CRE is acquired.",
+        "Historical DSC, and adjusted DSC when used, must be entered in the SBA Loan System.",
+        "Adjustments may reflect transaction savings; Business Expansions may use combined entities if the target operates independently.",
+        "Owner compensation adjustments require a global cash flow at 1:1 DSC.",
+        "Unsupported adjustments are ineligible for meeting DSC."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.2.b Lender's Credit Analysis, items 2.e and 2.f"
+    },
+    {
+      "id": "special-purpose-projections",
+      "title": "Special Purpose Property: underwriting on projections",
+      "body": "For owner-occupied Special Purpose Properties (hotels and storage units are the SOP's examples), SBA lets lenders treat the deal more like a start-up, because the property could otherwise be built new.\n\n#### When projections may be used\n\n- The lender must still obtain historical information **to the extent available**.\n- If the **purchase price is fully supported by the appraised value** of the Special Purpose Property (the appraised value **fully collateralizes** the loan), the lender may rely on **projections** to meet DSC.\n- Applies only when the property **cannot be separated from, and is integral to**, the business.\n\n#### What the lender must do\n\n1. Calculate and analyze **both historical DSC** of the business being acquired **and projected DSC**.\n2. Obtain and analyze **two years of detailed projections**, with assumptions and the justification for using projections.\n3. Projections must show DSC at or above the **required ratio for the transaction type** within **two years from loan funding** (or **two years from the end of construction** for construction projects).\n4. Include historical DSC in the memo with a **variance analysis** between historical and projected results. The **historical DSC does not have to meet the ratio** when projections are relied on.\n5. Projected DSC **may not include anticipated rental income** from the property. Support assumptions with, as applicable: justification for **revenue growth** (new product lines, channels, facilities), justification for **expense reductions**, and comparison to **industry trends**.\n6. A **business valuation is required**, but a **QoE is not required** regardless of Business Purchase Price. All other C.1 due diligence still applies.\n7. Document why the property is **special purpose**, why it is **integral** to the business, and why projections are appropriate.\n8. Input **both historical and projected DSC** into the SBA Loan System.\n\n| Item | Special Purpose Property path | Ordinary change of ownership |\n|---|---|---|\n| DSC basis | Projections allowed (within 2 years) | Historical or adjusted only |\n| Historical DSC must meet minimum? | No | Yes |\n| QoE at $3 million or more | Not required | Required for Initial Acquisition / Business Expansion |\n| Maturity | Up to 25 years if 85%+ real estate | 10 years (blend for RE) |\n\n> **Watch out:** Rental income from the property cannot prop up projected DSC. A hotel buyer cannot count income from leasing the restaurant space to a third party.",
+      "keyPoints": [
+        "Projections may be used when the Special Purpose Property's appraised value fully supports the price and collateralizes the loan.",
+        "Projected DSC must meet the transaction-type minimum within two years of funding (or end of construction).",
+        "Two years of detailed projections plus historical DSC and a variance analysis are required.",
+        "Projected DSC may not include rental income from the property.",
+        "Business valuation required; QoE not required regardless of price.",
+        "Input both historical and projected DSC in the SBA Loan System."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.2.b Lender's Credit Analysis, item 2.d"
+    },
+    {
+      "id": "coo-credit-memo-other",
+      "title": "Other required credit memo elements",
+      "body": "Beyond DSC, the credit memo for a change of ownership must address a long list of items. Think of it as a checklist the reviewer (and later, SBA at purchase) will run.\n\n#### Financial structure\n\n- A **pro-forma business balance sheet**: the current balance sheet adjusted for the SBA loan, other debt, equity injection and use of proceeds.\n- **Ratios** based on the pro-forma balance sheet and historical and projected income statements: **Current Ratio, Debt/Tangible Net Worth, Debt Service Coverage**, plus any industry-relevant ratios (inventory, receivables or payables turnover), compared to **industry trends**.\n- **Working capital adequacy** over at least the **next 12 months**.\n- **Collateral adequacy** under Para. C.3.c.\n\n#### Insurance\n\n- **Life insurance**: on whom and how much, or justification if not required.\n- **Business hazard and liability** insurance.\n\n#### Refinancing\n\nIf debts are refinanced as part of the request: explanation, justification and supporting documentation per the debt refinancing requirements, **including a written explanation of any late payments over the past 12 months**.\n\n#### Rationale for approval\n\nThe lender's recommendation must discuss:\n\n1. **Credit not available elsewhere** on reasonable commercial terms (Section A, Ch. 1, Para. H);\n2. When **50% or more** of proceeds are **working capital**, why that level is necessary and appropriate;\n3. **Competition**;\n4. **90+ day delinquencies**;\n5. **Trade disputes**;\n6. Federal, State or local **citations** that would preclude normal operations;\n7. **Liens, judgments, bankruptcy filings, pending litigation**, including **divorce** proceedings;\n8. For an FTC-defined **franchise**, review of credit information such as the **number of failed franchisees** and franchisor cash flow projections; and\n9. Any other relevant information.\n\n> **In practice:** Build your memo template with a heading for every item on this list, even when the answer is \"none.\" An empty heading is easier to catch than a missing one.",
+      "keyPoints": [
+        "Pro-forma balance sheet and ratios (Current, Debt/TNW, DSC, industry ratios) with industry comparison.",
+        "Working capital adequacy analysis covering at least 12 months.",
+        "Life insurance (or justification) plus hazard and liability insurance.",
+        "Refinanced debts need justification and a written explanation of late payments over the past 12 months.",
+        "If 50% or more of proceeds are working capital, the memo must justify it.",
+        "Rationale covers credit elsewhere, competition, 90+ day delinquencies, disputes, citations, litigation and franchise data."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.2.b Lender's Credit Analysis, items 3-9"
+    },
+    {
+      "id": "coo-collateral-principles",
+      "title": "Collateral principles and the piggyback ban",
+      "body": "#### Identifying collateral\n\nLenders must use **commercially reasonable and prudent practices** at least as thorough as for their similarly sized non-SBA commercial loans, and meet the minimums in Appendix 15.\n\n#### Refinancing existing change of ownership debt\n\nWhen proceeds refinance existing change of ownership debt, the new loan must have **at least the same collateral and lien priority**. If the old debt was **over-collateralized** by SBA standards and the SBA loan stays fully secured, the lender **may release the excess**. **Substitute collateral** of comparable value and useful life is acceptable if approved by SBA or a PLP lender under its authority.\n\n#### No preferences, no piggybacks\n\n- A lender may not take any action that establishes a **preference** in its favor (13 CFR 120.411).\n- The 7(a) loan may **not be in a piggyback structure**.\n\n**Piggyback financing**: one or more lenders make **more than one loan** to a Borrower **at or about the same time** (approved **within 90 days** of each other) for the same or similar purpose, where the SBA loan has a **junior or no lien** on the collateral securing the non-guaranteed loan.\n\nNot piggybacks:\n\n| Structure | Why it is allowed |\n|---|---|\n| Both loans are working capital, and the non-SBA loan is secured **only by working/trading assets** | Expressly excluded |\n| Shared **pari passu** lien, and the non-SBA loan's maturity is **not shorter** than the SBA loan's | Expressly excluded |\n\n#### Collateral quality\n\n- SBA's guaranty is **not a substitute for available collateral**.\n- The lender must analyze and document how **restrictions** affect value and marketability, such as deed restrictions, covenants, easements, reversionary interests, subordinations, leases and options benefiting third parties. Some health-and-safety deed restrictions (for example, environmental restrictions on residential, day care, school or hospital use) may be acceptable.\n- **Engineering controls** requiring costly devices (extraction wells, subsurface barrier walls) before building or improving must be considered.\n- **Environmental indemnification provisions that run with the land** are **not eligible** and must be removed or waived as to the Federal Government.\n\n> **Watch out:** A conventional first-lien term loan approved 60 days before a 7(a) loan for the same acquisition, with the 7(a) in second position, is a piggyback - prohibited.",
+      "keyPoints": [
+        "Collateral practices must be at least as thorough as for similar non-SBA loans.",
+        "Refinanced change of ownership debt: same collateral and lien priority; excess may be released if still fully secured.",
+        "No lender preferences (13 CFR 120.411) and no piggyback structures (loans within 90 days, SBA junior).",
+        "Not piggyback: working capital pairs secured only by trading assets; pari passu with non-SBA maturity not shorter.",
+        "SBA's guaranty is not a substitute for available collateral.",
+        "Environmental indemnifications running with the land must be removed or waived as to the Federal Government."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.3 Collateral, Paras. 1-3"
+    },
+    {
+      "id": "coo-fully-secured",
+      "title": "Fully secured: valuing collateral in a change of ownership",
+      "body": "A loan is **fully secured** when the lender has liens on **all available fixed assets** of the Applicant with a combined adjusted value up to the loan amount. For 7(a), **fixed assets** means real estate (land and structures) and machinery and equipment owned by the business or an EPC.\n\n#### Collateral haircuts for the fully secured calculation\n\n| Asset | Maximum value counted |\n|---|---|\n| Used or existing machinery and equipment (excluding furniture and fixtures) | **50% of Net Book Value**, or **80% of an Orderly Liquidation Appraisal**, minus prior liens |\n| Improved real estate | **85%** of market value (appraised per Appendix 19, Para. A.1.g) |\n| Unimproved real estate | **50%** of market value |\n| Furniture and fixtures | **10%** of Net Book Value or appraised value |\n| Accounts receivable and inventory | **10%** of current book value |\n\n**Lenders must take a security interest in the accounts receivable and inventory** of the operating entity, even though only 10% counts toward fully secured.\n\n#### Vehicles\n\nA lien on a vehicle is **not required** if it **already has a lien**, or unless its value exceeds **$20,000** when the SBA loan number is assigned. Value may come from an independent third party (OLV from an appraisal, a valuation company or website) or the purchase price allocated to the vehicle if the 7(a) is buying it. The memo must document whether a lien existed or the **source and amount** of the valuation.\n\n**Example:** Equipment with $400,000 NBV and no OLV appraisal counts as $200,000. With an OLV appraisal of $350,000 and a $50,000 prior lien, it counts as $350,000 x 80% - $50,000 = $230,000.\n\n> **In practice:** An OLV appraisal often adds collateral value over the 50% of NBV default. On equipment-heavy acquisitions, order it early - it can be the difference between fully secured and a personal real estate lien.",
+      "keyPoints": [
+        "Fully secured = liens on all available fixed assets (real estate, M&E) with adjusted value up to the loan amount.",
+        "Used M&E: 50% of NBV or 80% of OLV appraisal, minus prior liens.",
+        "Improved real estate 85%, unimproved 50% of market value.",
+        "Furniture and fixtures 10%; A/R and inventory 10% of book value (lien on A/R and inventory required).",
+        "Vehicles: lien needed only if unencumbered and valued over $20,000 when the loan number is assigned."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.3 Collateral, Para. 4 Collateral Requirements for 7(a) Change of Ownership Loans"
+    },
+    {
+      "id": "coo-line-of-credit",
+      "title": "Pairing a working capital line of credit with an acquisition loan",
+      "body": "Acquired businesses usually need a revolver. Appendix 15 lets the borrower get one **alongside** the change of ownership loan, conventional or government guaranteed.\n\nThe complication: a line lender often wants a **first lien on accounts receivable and inventory** (the trading assets) acquired in the deal, which the 7(a) term loan would otherwise hold. SBA allows those assets to be released from the term loan only under specific conditions.\n\n#### Conditions when the line takes a first lien on trading assets\n\n1. Apply **no less than 20% and no more than 50%** of the **day-one line of credit availability** to the initial line balance.\n2. That drawn portion must **fund part of the change of ownership** (reducing the 7(a) term loan).\n3. Retain all documentation evidencing compliance in the loan file.\n\n**Day-one availability** = funds available to the Borrower on the first day loan proceeds are available:\n\n| Line type | Day-one availability |\n|---|---|\n| Open revolving line | The **committed limit** |\n| Asset-based line | The amount available on the **initial Borrowing Base Certificate** |\n\nIf day-one availability would be **less than 20%** based on the line size or advance rates, the lender **may not use this option**.\n\nThese conditions **do not apply** to lines in **second lien position** (for example, SBA Express).\n\n#### Why this structure\n\nFunding part of the purchase on the line reduces the 7(a) term loan by more than the trading assets would have counted toward fully secured, while still leaving the Borrower usable availability after closing.\n\n**Example:** A $1,000,000 committed revolver takes a first lien on A/R and inventory. At closing, between $200,000 and $500,000 must be drawn to fund part of the purchase price, reducing the term loan by the same amount.\n\n> **Watch out:** Drawing 70% of the line at closing to minimize the term loan breaks the 50% cap and leaves the business without working capital headroom.",
+      "keyPoints": [
+        "A conventional or guaranteed line of credit may be paired with a change of ownership loan.",
+        "If the line takes a first lien on acquired A/R and inventory, 20%-50% of day-one availability must fund part of the purchase.",
+        "Day-one availability: committed limit (revolver) or initial borrowing base (asset-based line).",
+        "Option unavailable if day-one availability would be under 20%.",
+        "Conditions do not apply to second-lien lines such as SBA Express."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.3 Collateral, Para. 4, Working capital lines of credit"
+    },
+    {
+      "id": "coo-collateral-shortfall",
+      "title": "Collateral shortfall and personal real estate",
+      "body": "If the loan is **not fully secured** after all business assets, the lender must look to personal real estate.\n\n#### The shortfall rule\n\nThe lender **must take available equity in personal real estate** - residential and investment property, **including other commercial real estate** whether or not the owner runs a business there - that is **solely owned** by:\n\n- any **Co-Borrowers**;\n- **direct and/or indirect owners of 20% or more** of the Applicant; and\n- **guarantors**, except **Supplemental Guarantors**.\n\n\"Solely owned\" includes property held in an entity solely owned, directly or indirectly, by those persons.\n\nLiens may be **limited to the amount of the shortfall**, and may also be **limited to 150% of the equity** in the collateral.\n\n#### Exceptions\n\n- **7(a) Small and SBA Express** changes of ownership: fully secured rules apply, but the lender need **not** take equity in **other commercial real estate** solely owned by Co-Borrowers, 20%+ owners, guarantors or Supplemental Guarantors (other than the Applicant's project property).\n- **Lack of equity**: no lien is required on real estate where equity is **less than 25% of fair market value** after existing liens. A prior lien that **restricts or prohibits junior liens** does **not by itself** mean lack of equity. The lender must document a source **other than the personal financial statement** for the equity determination.\n- **Selling owners under 20%** giving the 2-year guaranty in a Partial Change need **not** pledge personal assets.\n\n#### Spouses and minor children\n\n- When an individual, alone or with a spouse or minor children, owns **20% or more**, the lender must **consider** a lien on personal real estate owned individually or jointly with the spouse or minor children (including commercial and investment property not occupied by the Applicant).\n- Real estate **transferred to a non-owning spouse or minor children within 6 months** of the application is **still** considered available collateral.\n\n**Example:** House worth $600,000 with a $480,000 mortgage has $120,000 equity, which is 20% of value - under 25%, so no lien is required (document the valuation source).\n\n> **Watch out:** Remember the Partial Change rule: new owners are Co-Borrowers even at 1%, so their solely owned real estate is in scope for shortfall liens regardless of percentage.",
+      "keyPoints": [
+        "Shortfall: take equity in solely owned personal real estate of Co-Borrowers, 20%+ owners and guarantors (not Supplemental Guarantors).",
+        "Liens may be limited to the shortfall amount and to 150% of equity.",
+        "No lien required if equity is under 25% of FMV; a prior lien restricting junior liens alone is not lack of equity.",
+        "7(a) Small and Express: other commercial real estate need not be taken.",
+        "Real estate moved to a non-owning spouse or minor children within 6 months of application still counts."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.3 Collateral, Para. 4, Collateral shortfall"
+    },
+    {
+      "id": "coo-submission",
+      "title": "Submitting the application: LGPC vs. PLP timing",
+      "body": "All information required by Appendix 15 must be included with the application package for every change of ownership. The main difference between delivery methods is **when** the valuation and QoE must be complete.\n\n| Item | Non-delegated (LGPC) | Delegated (PLP) |\n|---|---|---|\n| Business valuation and QoE | **Submitted with the application** | May be obtained and reviewed **after the SBA Loan Number and before closing**, as long as they are **in process** |\n| Engagement status at loan number | - | Valuation and applicable QoE must be **formally engaged** (vendor retained and **engagement letter in place**) when the loan number is issued |\n| Credit memo before due diligence is done | - | Must include an **estimate of the value** of the business |\n\n#### Updating the memo after due diligence (PLP)\n\nOnce financial due diligence is complete, the PLP lender must **update the credit memorandum** with:\n\n1. Updated analysis reflecting the **QoE findings**, with any impact on **DSC** calculations; and\n2. **Business valuation results**, with any impact on the **Purchase Price or equity structure**.\n\n#### Putting it together\n\nRemember what the findings can trigger:\n\n- QoE-based DSC below the required ratio means the **loan amount must be reduced** (more equity may fill the gap).\n- A valuation below the price means the **difference must be equity**, and total debt is capped at the valuation.\n\n> **Watch out:** \"In process\" is not the same as \"planned.\" Pulling a PLP loan number before the valuation engagement letter is signed violates the appendix.\n\n> **In practice:** Track valuation and QoE engagement letters as a pre-loan-number checklist item in your loan origination system, and set a closing condition that the memo update is complete.",
+      "keyPoints": [
+        "All Appendix 15 information must be included with the package.",
+        "LGPC: business valuation and QoE are submitted with the application.",
+        "PLP: valuation and QoE may be completed after the loan number but before closing.",
+        "PLP: they must be formally engaged (vendor retained, engagement letter) when the loan number is issued.",
+        "PLP memo must estimate business value, then be updated with QoE DSC impact and valuation results."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Submission of Application for Guaranty"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Debt Service Coverage (DSC)",
+      "definition": "Cash flow available for debt service divided by debt service. Minimums: 1.25:1 for Initial Acquisition, Owner Buyout and ESOP/Cooperative; 1.15:1 for Business Expansion."
+    },
+    {
+      "term": "Historical DSC",
+      "definition": "EBITDA divided by combined post-transaction debt service, with a permitted rent add-back when owner-occupied CRE is acquired; must be entered in the SBA Loan System."
+    },
+    {
+      "term": "Adjusted DSC",
+      "definition": "DSC using prudent, documented adjustments to cash flow (e.g., owner compensation, non-recurring items, transaction savings); entered in the SBA Loan System when used."
+    },
+    {
+      "term": "Global cash flow analysis",
+      "definition": "Analysis combining the business, its affiliates and the principals' personal obligations; must meet 1:1 DSC."
+    },
+    {
+      "term": "Fully secured",
+      "definition": "Liens on all available fixed assets of the Applicant with combined adjusted value (per SBA haircuts) up to the loan amount."
+    },
+    {
+      "term": "Orderly Liquidation Appraisal",
+      "definition": "An equipment appraisal of orderly liquidation value; used M&E may be counted at 80% of it (minus prior liens) instead of 50% of NBV."
+    },
+    {
+      "term": "Piggyback financing",
+      "definition": "Multiple loans to one Borrower approved within 90 days for the same or similar purpose where the SBA loan has a junior or no lien on the non-guaranteed loan's collateral. Prohibited."
+    },
+    {
+      "term": "Pari passu",
+      "definition": "A shared, equal-priority lien. Not a piggyback if the non-SBA loan's maturity is not shorter than the SBA loan's."
+    },
+    {
+      "term": "Day-one line of credit availability",
+      "definition": "Funds available to the Borrower on the first day loan proceeds are available: the committed limit for a revolver, or the initial borrowing base for an asset-based line."
+    },
+    {
+      "term": "Collateral shortfall",
+      "definition": "When a loan is not fully secured; the lender must then take available equity in solely owned personal real estate of Co-Borrowers, 20%+ owners and guarantors."
+    },
+    {
+      "term": "Supplemental Guarantor",
+      "definition": "A guarantor excluded from the requirement to pledge personal real estate in a collateral shortfall."
+    },
+    {
+      "term": "Management agreement",
+      "definition": "A contract under which a third party runs daily operations; the lender must review it for passive-business ineligibility unless it is part of a Franchise Directory brand's FDD."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "a15c-q1",
+      "question": "What is the minimum DSC for a Business Expansion change of ownership?",
+      "options": [
+        "1.25:1",
+        "1.15:1",
+        "1.10:1",
+        "1.35:1"
+      ],
+      "correctIndex": 1,
+      "explanation": "Business Expansion has a 1.15:1 minimum DSC. Initial Acquisition, Owner Buyout and ESOP and Cooperative transactions all require 1.25:1.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.2.b Lender's Credit Analysis",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a15c-q2",
+      "question": "Which approach to meeting the DSC requirement on an ordinary Initial Acquisition (not a Special Purpose Property) is acceptable?",
+      "options": [
+        "Using year-one projections that show 1.40:1",
+        "Using the average of the last three fiscal years",
+        "Using the average of the last two fiscal year-ends on an adjusted basis with documented adjustments",
+        "Using the trailing six months annualized"
+      ],
+      "correctIndex": 2,
+      "explanation": "DSC must be satisfied with either the last fiscal year-end or an average of the last two fiscal year-ends, on a historical or adjusted basis. Projections must be evaluated but may not be relied on to meet DSC, except for Special Purpose Property acquisitions.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.2.b Lender's Credit Analysis",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a15c-q3",
+      "question": "An acquisition includes a $600,000 seller note that is not on full standby and is structured as interest-only for 5 years. How must the lender treat it in the DSC calculation?",
+      "options": [
+        "Include only the interest payments",
+        "Exclude it because it is seller debt",
+        "Apply an amortization not exceeding 25 years",
+        "Apply an amortization that does not exceed 10 years"
+      ],
+      "correctIndex": 3,
+      "explanation": "When a change of ownership includes additional debt not on full standby that is structured with interest-only payments, the lender must apply an amortization that does not exceed 10 years. This ensures the business can service all acquisition debt. The rule does not apply to lines of credit.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.2.b Lender's Credit Analysis",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a15c-q4",
+      "question": "A lender adjusts DSC by adding back $90,000 of the seller's above-market salary because the buyer will take less pay. What additional support is required?",
+      "options": [
+        "A global cash flow analysis showing the principals can meet obligations on the adjusted compensation at 1:1 DSC",
+        "Nothing, since owner compensation is always an allowed add-back",
+        "A QoE report regardless of purchase price",
+        "SBA prior approval of the adjustment"
+      ],
+      "correctIndex": 0,
+      "explanation": "Adjustments to ownership compensation must be substantiated by a global cash flow analysis demonstrating the principals can meet their obligations on the adjusted compensation, meeting 1:1 DSC on a global basis. Adjustments without supporting analysis are ineligible for meeting DSC.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.2.b Lender's Credit Analysis",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a15c-q5",
+      "question": "Historical DSC for a change of ownership is defined as:",
+      "options": [
+        "Net income divided by principal payments",
+        "EBITDA divided by combined post-transaction debt service",
+        "EBITDA divided by the seller's historical debt service",
+        "Gross profit divided by total debt"
+      ],
+      "correctIndex": 1,
+      "explanation": "The historical DSC ratio is EBITDA divided by the combined debt service post-transaction. Using the seller's pre-sale debt service would ignore the new acquisition debt.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.2.b Lender's Credit Analysis, Historical DSC",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a15c-q6",
+      "question": "A buyer is acquiring a self-storage business with its owner-occupied facility. The appraised value fully supports the price and collateralizes the loan, but historical DSC is 1.05:1. Projections show 1.30:1 in year two. What is correct?",
+      "options": [
+        "The loan is ineligible because historical DSC is below 1.25:1",
+        "The lender may rely on projections if DSC is met within two years from loan funding, and the historical DSC need not meet the ratio",
+        "The lender may rely on projections only if a QoE is obtained",
+        "The lender may count rental income from leasing extra units to third parties to boost projections"
+      ],
+      "correctIndex": 1,
+      "explanation": "For owner-occupied Special Purpose Property acquisitions fully collateralized by appraised value, the lender may rely on projections meeting the required DSC within two years from funding; historical DSC need not meet the ratio but must be calculated with a variance analysis. QoE is not required, and projected DSC may not include rental income from the property.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.2.b Lender's Credit Analysis, Special Purpose Properties",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a15c-q7",
+      "question": "For the fully secured calculation on a change of ownership loan, used machinery and equipment without an appraisal may be valued at no more than:",
+      "options": [
+        "50% of Net Book Value",
+        "80% of Net Book Value",
+        "85% of Net Book Value",
+        "10% of Net Book Value"
+      ],
+      "correctIndex": 0,
+      "explanation": "Used or existing M&E may be valued at no more than 50% of Net Book Value, or 80% with an Orderly Liquidation Appraisal, minus prior liens. 85% applies to improved real estate and 10% to furniture and fixtures and to A/R and inventory.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.3 Collateral, Para. 4",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a15c-q8",
+      "question": "The buyer will acquire an unencumbered delivery van that an independent valuation website values at $17,000 when the SBA loan number is assigned. Must the lender take a lien on it?",
+      "options": [
+        "Yes, all vehicles must be liened",
+        "Yes, because the value exceeds $10,000",
+        "No, because a lien is required only if the value is greater than $20,000; the lender documents the valuation source and amount",
+        "No, vehicles are never collateral for change of ownership loans"
+      ],
+      "correctIndex": 2,
+      "explanation": "SBA does not require a lien on vehicles that already have a lien, or unless the value exceeds $20,000 when the loan number is assigned. The lender must document the valuation source and dollar amount (or the existing lien) in the credit memo.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.3 Collateral, Para. 4",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a15c-q9",
+      "question": "A conventional $800,000 revolving line will take a first lien on the acquired A/R and inventory, releasing those assets from the 7(a) term loan. How much of the line must be drawn at closing to fund part of the purchase?",
+      "options": [
+        "Between $80,000 and $400,000",
+        "Between $160,000 and $400,000",
+        "At least $400,000",
+        "Nothing; the line must remain fully available"
+      ],
+      "correctIndex": 1,
+      "explanation": "When a line takes a first lien on the acquired trading assets, the lender must apply no less than 20% and no more than 50% of day-one availability (the committed limit for a revolver) to the initial balance to fund part of the purchase: 20% to 50% of $800,000 is $160,000 to $400,000.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.3 Collateral, Para. 4, Working capital lines of credit",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a15c-q10",
+      "question": "Which structure is considered a prohibited piggyback?",
+      "options": [
+        "A conventional first-lien acquisition loan approved 45 days before the 7(a) loan, with the 7(a) in second position on the same collateral",
+        "A conventional working capital line secured only by trading assets alongside a 7(a) working capital loan",
+        "A pari passu lien where the conventional loan's maturity is longer than the 7(a) loan's",
+        "A conventional loan approved 8 months after the 7(a) for an unrelated purpose"
+      ],
+      "correctIndex": 0,
+      "explanation": "Piggyback financing is more than one loan approved within 90 days of each other for the same or similar purpose where the SBA loan has a junior or no lien. Working capital pairs secured only by trading assets, and pari passu liens where the non-SBA maturity is not shorter, are expressly not piggybacks.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.3 Collateral, Para. 3",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a15c-q11",
+      "question": "A loan has a collateral shortfall. A 25% owner's solely owned home is worth $500,000 with a $410,000 mortgage. Must the lender take a lien on it?",
+      "options": [
+        "Yes, all personal residences of 20% owners must be liened",
+        "Yes, limited to 150% of the equity",
+        "No, because the owner holds less than 51%",
+        "No, because equity is less than 25% of fair market value, provided the lender documents a valuation source other than the personal financial statement"
+      ],
+      "correctIndex": 3,
+      "explanation": "Equity is $90,000, or 18% of fair market value. SBA does not require a lien on real estate when equity is less than 25% of its fair market value, and the lender must document a source other than the personal financial statement for that determination.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.3 Collateral, Para. 4, Collateral shortfall",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a15c-q12",
+      "question": "Three months before applying, a 40% owner transferred an investment property into the name of his non-owning spouse. How is the property treated in a collateral shortfall?",
+      "options": [
+        "It is excluded because the spouse is not an owner",
+        "It is not exempt from consideration as available collateral because it was transferred within 6 months of the application",
+        "It is excluded unless the spouse signs as a Supplemental Guarantor",
+        "It is excluded because investment property is never required"
+      ],
+      "correctIndex": 1,
+      "explanation": "Real estate transferred by the owner of the Applicant to a non-owning spouse or minor children within 6 months of the application date is not exempt from consideration as available collateral.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.3 Collateral, Para. 4, Assets owned by an owner of the Applicant and Spouse",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a15c-q13",
+      "question": "A PLP lender wants an SBA loan number for a $4 million Initial Acquisition. The Qualified Source has been identified but no engagement letter is signed, and the QoE provider has not been retained. What is correct?",
+      "options": [
+        "The lender may obtain the loan number and engage vendors before closing",
+        "The lender must submit to the LGPC instead",
+        "The valuation and QoE must be formally engaged, with a vendor retained and an engagement letter in place, before the loan number is issued",
+        "Only the valuation must be engaged; the QoE can be ordered after closing"
+      ],
+      "correctIndex": 2,
+      "explanation": "Under PLP authority, the business valuation and applicable QoE may be completed after the loan number and before closing, but they must be formally engaged (vendor retained and engagement letter in place) when the SBA Loan Number is issued. The credit memo must include an estimated business value until due diligence is complete.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Submission of Application for Guaranty",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a15c-q14",
+      "question": "Under the credit memo requirements, when must the lender specifically explain why the level of working capital in the loan is necessary and appropriate?",
+      "options": [
+        "When working capital exceeds $350,000",
+        "When working capital is 25% or more of proceeds",
+        "Only for Business Expansion loans",
+        "When 50% or more of the loan proceeds will be used for working capital"
+      ],
+      "correctIndex": 3,
+      "explanation": "When 50 percent or more of the loan proceeds will be used for working capital, the lender must explain in its credit memorandum why that level is necessary and appropriate for the business. The other thresholds are not in the SOP.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.2.b Lender's Credit Analysis, item 9",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a15c-q15",
+      "question": "Which accounts receivable and inventory rule applies to 7(a) change of ownership collateral?",
+      "options": [
+        "The lender must take a security interest in A/R and inventory, but may count no more than 10% of their current book value toward fully secured",
+        "A/R and inventory are optional collateral and count at 50%",
+        "A/R and inventory must be excluded from collateral",
+        "A/R and inventory count at 80% of book value"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lenders must take a security interest in the operating entity's accounts receivable and inventory, and no more than 10% of their current book value may be used for the fully secured calculation.",
+      "sopRef": "SOP 50 10 8.1, Appendix 15, Para. C.3 Collateral, Para. 4",
+      "difficulty": "basic"
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "id": "c1-504-credit-collateral-submission",
+  "order": 312,
+  "part": "C",
+  "program": "504",
+  "title": "504 Credit, Collateral, Appraisals and Application Submission",
+  "subtitle": "Section C, Ch. 1 Part 3 - the CDC credit memorandum, 1.15 DSC test, collateral and appraisal rules, processing methods, application contents and reconsideration",
+  "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Paras. E and F",
+  "estimatedMinutes": 60,
+  "learningObjectives": [
+    "Apply SBA's 504 credit standard that cash flow, not collateral, is the primary repayment source",
+    "Calculate and evaluate the 1.15:1 DSC test and know which income may and may not be counted",
+    "List the required sections and confirmations of a CDC credit memorandum",
+    "Apply 504 collateral policy, title review and lien position rules",
+    "Determine when an appraisal or evaluation is required and the standards it must meet",
+    "Compare non-delegated, ASM, ALP, ALP Express and PCLP processing and their submission requirements",
+    "Explain the reconsideration process for declined non-delegated loans"
+  ],
+  "topics": [
+    {
+      "id": "c1-credit-standards-financials",
+      "title": "Credit standards, financial reporting and the pro-forma balance sheet",
+      "body": "SBA's credit standards start with 13 CFR 120.101 and 120.150. Section C, Ch. 1, Para. E adds the procedural detail CDCs follow when underwriting a 504 loan.\n\n### The core principle\n\nCDCs must analyze each application in a **commercially reasonable manner, consistent with prudent lending standards**, and the analysis must be acceptable to SLPC. On a 504 loan, **cash flow is the primary source of repayment** - not collateral liquidation. If the analysis shows the Applicant lacks reasonable assurance of timely repayment from business cash flow, **the loan must be declined regardless of the collateral available**. The CDC must identify and discuss credit strengths, weaknesses and mitigating factors.\n\n### Financial reporting hierarchy\n\nThe analysis must focus on the **highest level of financial statements available**, in this order of thoroughness:\n\n1. Audited financial statements\n2. Reviewed financial statements (prepared to AICPA SSARS AR-C 90 standards)\n3. CPA-compiled financial statements\n4. Corporate tax returns\n\nIf a higher-level statement is available, the credit memo must **also review the corporate tax return for eligibility**.\n\n### TPL underwriting\n\nFor projects with total project costs of **at least $5,000,000**, the TPL's credit memorandum or underwriting analysis must get to SLPC. The CDC's credit memo must **state which of the two delivery options** is used: the CDC includes it in its own credit memo, or the TPL submits it directly to SLPC (via the TPL.504 mailbox, electronic upload, or any successor mechanism SBA adopts).\n\n### Pro-forma balance sheet\n\nA pro-forma balance sheet starts from a current balance sheet and adjusts for **every change the Project causes**: the Third Party Loan, the 504 loan, other new debt, any required equity injection, the use of proceeds and the costs of getting the loans (fees and closing costs). The analysis must:\n- Include a **complete debt schedule** and discuss the types and terms of existing loans and credit facilities, including those that will be in place after the 504 closing;\n- Identify and discuss any **anomalies or variances** on the balance sheet.\n\n### Size standard and the number of years of statements\n\n| How the Applicant meets size | Statements needed (balance sheets, income statements, Federal tax returns) |\n|---|---|\n| Alternative Size Standard | Previous **2 years**, or the years with revenue if fewer |\n| Industry Size Standard | Previous **3 years**, or the years with revenue if fewer |\n\nPlus a **balance sheet and income statement dated within 120 days** before submission to SBA, with DSC analysis and **agings of accounts receivable and payable**.\n\n> **Watch out:** Strong collateral cannot save a deal with inadequate cash flow. In 504, a decline for repayment ability is mandatory \"regardless of the collateral available.\"",
+      "keyPoints": [
+        "Cash flow, not collateral, is the primary repayment source; inadequate cash flow means decline",
+        "Use the highest-level statements: audited, then reviewed (SSARS AR-C 90), then CPA-compiled, then tax returns",
+        "If higher-level statements exist, still review the tax return for eligibility",
+        "Credit memo must state which TPL underwriting delivery option is used for projects of $5,000,000 or more",
+        "Pro-forma balance sheet reflects all new debt, equity, uses and loan costs, plus a complete debt schedule",
+        "Interim statements must be dated within 120 days of submission"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. E (Credit Standards) and E.1.a-E.1.c"
+    },
+    {
+      "id": "c1-repayment-dsc",
+      "title": "Repayment ability: the 1.15 DSC test, adjustments and projections",
+      "body": "### The historical DSC test\n\nFor **all** 504 transactions, the repayment analysis must address debt service coverage:\n\n- **Calculated historically**, using either the **last fiscal year-end** or an **average of the last two** fiscal year-ends.\n- **Minimum ratio: 1.15:1**.\n- **Definition**: operating cash flow (OCF), defined as **EBITDA**, divided by the **combined debt service post transaction**.\n- CDCs must assume **interest-only payments on fully drawn lines of credit**.\n\nExample: EBITDA of $460,000 and post-transaction annual debt service (TPL + 504 + other debt + interest-only on a fully drawn line) of $400,000 gives a DSC of 1.15 - exactly the minimum.\n\n### Adjustments and the Global Cash Flow\n\nThe CDC must make **prudent adjustments** to cash flow. When it does, it must prepare a **Global Cash Flow** and justify each addition or subtraction, such as:\n- Rent payments (e.g., rent that goes away once the Borrower owns the building);\n- Unfunded capital expenditures;\n- Non-recurring income;\n- Distributions, including distributions for S-Corp taxes;\n- Ownership compensation.\n\n**Repayment ability is determined on the operating company's cash flow.** The global analysis can also include:\n- **Personal discretionary income with outside income** - spousal income, affiliate income or interest income. Outside income can offset personal obligations and living expenses but **may not be added to business cash flow**.\n- **Rental income from the Project Property** - may be included in the global cash flow but **must not be included in the repayment ability analysis**.\n\n### When history is not enough: projections\n\nIf historical cash flow does not show sufficient DSC after the SBA loan, the CDC must analyze projections:\n1. At least **2 years** of projections;\n2. Projected DSC with supporting assumptions;\n3. Justification that the assumptions are reasonable and attainable - anticipated sales or revenue growth from new product lines, channels or facilities; any expense reductions; and comparison to industry trends;\n4. If projections show repayment in **Year 2 but not Year 1**, the Applicant must show **sufficient liquidity to cover the Year 1 shortfall**;\n5. If applicable, how the Applicant will make **interest payments and fund operations during construction**.\n\n### Related application items\n\n- Projected annualized income statements for the first 2 years after closing (where appropriate), with assumptions.\n- For a **new business**: a pro-forma balance sheet with assumptions and a **monthly cash flow** for the first **12 months** of operations or **3 months beyond breakeven**, whichever is longer.\n\n> **In practice:** Model the 1.15 test exactly as the SOP defines it - EBITDA over all post-closing debt service. Adding a spouse's salary or the tenant rent from the new building to business cash flow is a common error that SBA will reject.",
+      "keyPoints": [
+        "DSC must be at least 1.15:1 on a historical basis (last FYE or average of last two)",
+        "DSC = EBITDA / combined post-transaction debt service; assume interest-only on fully drawn lines",
+        "Cash flow adjustments require a Global Cash Flow with justification",
+        "Outside income and Project Property rental income cannot be counted in repayment ability",
+        "Projections: at least 2 years; Year 1 shortfall must be covered by liquidity",
+        "New business: monthly cash flow for 12 months or 3 months past breakeven, whichever is longer"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. E.1.d and E.1.g"
+    },
+    {
+      "id": "c1-credit-memo-other",
+      "title": "Other credit memorandum requirements",
+      "body": "Beyond financials and cash flow, the CDC credit memorandum has a long checklist. Think of it as SBA's way of making sure nothing material is left undiscussed.\n\n### Risk mitigants\n\n- **Additional contribution or collateral**: the required contribution and collateral are policy **minimums**. More may be appropriate for weaknesses such as marginal historical or projected cash flow, limited working capital, a recent significant increase in debt, a restricted customer base, or limited or no net worth (not an exhaustive list).\n- **Independent studies** that may mitigate weaknesses: feasibility studies, hospitality facility assessment reports, energy audits and franchise (as defined by FTC) assessment reports.\n- **Feasibility studies** may be **requested by the SLPC Director**, for example for market saturation, a unique market concept, highly specialized Project property, a Project disproportionate to the community it will serve, or rapid growth with a corresponding increase in undisbursed or unseasoned debt.\n\n### Analysis sections\n\n- **Ratio analysis** of tax returns and interim statements with trends and industry comparison: **current ratio, debt/tangible net worth, DSC**, and other relevant ratios (inventory, receivables and payables turnover).\n- **Owners' and managers' experience** and personal credit history; nature and history of the business, time under current management, depth of industry experience, and who runs daily operations.\n- **Collateral and lien position**, including any **deed restrictions**.\n- **Life insurance**: whether it is required under Section A, Ch. 5, Para. C.5; if so, the calculation; if not, why the business is not tied to an individual.\n- **Credit reports**: personal reports for all guarantors (including individual affiliates who are guarantors) and individual co-borrowers. Business credit reports and reports on non-guarantor affiliates are not required for this analysis. Reports must be **current within 90 days** of issuance of an SBA loan number, or of submission for non-delegated processing. Discuss credit history, delinquencies, judgments, liens, bankruptcies, pending litigation and tax filings.\n- **Taxes**: verify the Applicant is current on all Federal, State and local taxes (income, payroll, real estate, sales).\n- **No Prior Loss to the government or Delinquent Federal Debt** - SBA may not approve a 504 loan if either exists.\n- **Affiliate statements**: last 2 fiscal year-ends (3 if the Industry Size Standard is used), with analysis and a complete debt schedule.\n\n### Miscellaneous confirmations\n\nThe memo must also confirm:\n- The Applicant meets SBA Loan Program Requirements;\n- The **interim loan** does not cover the Applicant's contribution, comes from a qualified source that is not an SBA program or the Applicant/Associate, and has acceptable terms;\n- The **Third Party Loan** is at least the net debenture, has a term of at least 7 years (10-year debenture) or 10 years (20/25-year debenture), and a reasonable rate;\n- Any **seller financing** is subordinate to the 504 loan and may not be prepaid without SBA consent;\n- No proceeds provide or refinance payments, distributions or loans to **Associates**;\n- The **debenture pricing**; the Gross Debenture is within limits; use of proceeds complies;\n- For an **EPC**: both EPC and OC are eligible, the EPC leases **100%** to the OC, and the lease is written, has a remaining term at least equal to the loan term (including OC-only renewal options), is subordinate to SBA's lien, and has rents assigned as collateral;\n- Whether the loan is a **DAL, Energy Conservation, Qualified Employee Trust (ESOP) or Pollution Control** loan - if so, **PCLP CDCs may not approve it** under delegated authority.",
+      "keyPoints": [
+        "Required contribution and collateral are minimums; add more for credit weaknesses",
+        "SLPC Director may request a feasibility study (e.g., saturation, unique concept, specialized property)",
+        "Ratio analysis must cover current ratio, debt/tangible net worth and DSC",
+        "Personal credit reports for guarantors and individual co-borrowers, current within 90 days",
+        "No 504 approval with a Prior Loss to the government or Delinquent Federal Debt",
+        "EPC lease: written, term at least the loan term, subordinate to SBA, rents assigned",
+        "PCLP cannot approve DAL, Energy Conservation, ESOP or Pollution Control loans"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. E.1.f-E.1.s"
+    },
+    {
+      "id": "c1-collateral",
+      "title": "504 collateral policy and lien positions",
+      "body": "### What the CDC must check on the title (13 CFR 120.934)\n\nWhen assessing collateral, the CDC must consider how recorded covenants and restrictions affect **value and marketability**, and document that analysis. Review:\n\n1. **Deed restrictions, covenants, easements, reversionary interests, subordinations, leases and options** that restrict use for a third party's benefit. Some health-and-safety restrictions may be acceptable, such as environmental restrictions on residential use, day care, schools or hospitals.\n2. **Engineering controls** requiring costly devices (extraction wells, subsurface barrier walls) before building or remodeling.\n3. **Environmental indemnification provisions that run with the land** - not eligible; they must be removed or waived as to the Federal Government.\n4. **Non-environmental open-ended indemnification provisions** (someone can seek indemnity from later owners, including SBA after foreclosure). The CDC must try to get a **recorded** waiver and release as to the Federal Government/SBA, or an agreement capping the government's liability, **before closing**. If it cannot, it must submit a **327 action** with the benefiting party's identity, the title provision and evidence of its good-faith attempt before the loan can close.\n\n### Adequacy of collateral\n\n- SBA usually takes a **second lien** on the Project Property, sometimes a **shared (pari passu)** lien with the TPL. The second lien is **generally considered adequate**. SBA may also weigh strong cash flow, proven management, more than 2 years in operation, and the Project being a logical extension of current operations.\n- **Leasehold improvements** have minimal collateral value; the CDC must consider requiring additional collateral.\n- Do **not** encumber assets or demand contributions the Borrower needs for ongoing operations; low-value extra collateral only blocks short-term financing.\n- If business assets do not fully collateralize the loan, **available personal assets must be pledged** to secure the guaranty.\n- Title insurance policies with an arbitration clause that either party can invoke need an **endorsement deleting it**; if arbitration requires both parties' agreement, no endorsement is needed.\n\n### The Third Party Loan's lien\n\n- The TPL usually has the **1st lien**; SBA cannot guarantee the Third Party Loan (13 CFR 120.920).\n- If the **TPL is the property seller**, its loan must be **subordinate to the 504 loan** (13 CFR 120.923), except when: the Borrower assumes an existing note; the **FDIC** has carry-back financing; or the property is **OREO** of a national, State-chartered or other federally regulated lender and is of sufficient value to support the 504 loan.\n- SBA's lien may not be subordinate to loans made from tax-exempt obligation proceeds.\n\n### Mixed-use collateral\n\nWhen one debenture finances real estate **and** significant shorter-term assets (M&E, furniture and fixtures), the CDC should consider: proportional lien positions with the TPL; a 1st lien on the shorter-term assets (SBA requires **at least a 2nd lien** unless an existing 504 lien is on them); more equity or collateral; or financing the shorter-term assets elsewhere.",
+      "keyPoints": [
+        "SBA usually takes a 2nd lien on Project Property, generally considered adequate",
+        "Environmental indemnifications running with the land must be removed or waived as to the Federal Government",
+        "Open-ended non-environmental indemnities: get a recorded waiver/cap before closing or submit a 327 action",
+        "Leasehold improvements have minimal value; consider extra collateral",
+        "TPL as property seller must be subordinate to the 504 loan, except assumed notes, FDIC carry-back or qualifying OREO",
+        "Mixed-use: SBA needs at least a 2nd lien on shorter-term assets"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. E.2.a"
+    },
+    {
+      "id": "c1-appraisals",
+      "title": "Appraisals and evaluations",
+      "body": "### When an appraisal is required (13 CFR 120.160(b))\n\n**Above $500,000** estimated Project Property value: a real estate **appraisal is required**.\n\n**$500,000 or less**: an appraisal is still required if:\n1. Equity in land owned **2 years or more** is part of the Borrower's contribution;\n2. The real estate is the TPL's **OREO**;\n3. The transaction involves parties with a **close relationship** (existing owners, family members);\n4. The **seller is carrying back a loan** that is part of the Borrower's contribution;\n5. The Project includes a **change of ownership**; or\n6. SBA or the CDC concludes one is necessary.\n\nOtherwise the CDC obtains an **evaluation** consistent with safe and sound banking practices. Evaluations need not follow USPAP or be done by a licensed appraiser but should follow the Interagency Appraisal and Evaluation Guidelines and the Interagency Advisory on evaluations.\n\n### Appraiser and report standards\n\n| Requirement | Rule |\n|---|---|\n| Independence | No conflict of interest; independent of loan production; not involved in approval |\n| License | State-licensed or State-certified; **State-certified if value is over $1,000,000** |\n| Standard and age | **USPAP**; dated no more than **12 months** before the application date |\n| Client | SBA must be client or intended user (CDC may also be). TPL as client with SBA as intended user is acceptable. **Not an appraisal prepared for the Applicant**; cost may be passed to the Borrower |\n| Special purpose | Appraiser must be experienced in that industry |\n\n### Valuation basis\n\n- **New construction or substantial renovation** (rehab over **one-third** of purchase price or FMV): appraise **as completed**. After construction, get a statement from the appraiser, general contractor, architect or construction manager that the building was built with only minor deviations. Without it, the CDC cannot close without **SLPC's prior written permission**.\n- **Existing building, no construction**: **as-is**; any other basis must be explained.\n- **Going concern** engagements: allocate separate values to land, building, equipment and business (including intangibles).\n\n### Approval and the 90% rule\n\nThe appraisal must be submitted and approved by SLPC (except on Delegated loans) **before closing**. If it comes in **below 90% of estimated value**, the debenture must be reduced, or the CDC must get additional collateral or Borrower/guarantor investment (added to the required contribution) to cover the gap. If neither is available but cash flow is strong and consistent, SLPC can approve the appraisal and the loan may close.\n\n### Submitted with the application\n\nSubmit the appraisal **with the application** when: land equity held 2+ years is contributed; the property is TPL OREO; parties have a close relationship; or the seller carries back part of the contribution. For **non-arm's length and change of ownership** Projects, the property must appraise at **100%** of estimated value, and the price is limited to the **lesser of as-is appraised value or the purchase price** of 504-eligible fixed assets.\n\n### Other appraisals\n\n- **Equipment**: required when **used equipment** is bought from someone other than a dealer or refinanced; written, by a qualified independent person after an **on-site inspection**, dated within **12 months** of application.\n- **Non-commercial real estate** (e.g., a residence) or real estate securing a personal guaranty: no specific SBA appraisal requirements.",
+      "keyPoints": [
+        "Appraisal required above $500,000, and at or below $500,000 in six listed situations",
+        "Appraiser must be State-certified when value exceeds $1,000,000",
+        "USPAP appraisal dated within 12 months of application; SBA must be client or intended user",
+        "An appraisal prepared for the Applicant cannot be used",
+        "Appraisal below 90% of estimated value: reduce debenture or add collateral/investment, or SLPC approval on strong cash flow",
+        "Non-arm's length and change of ownership: must appraise at 100%; price capped at lesser of as-is value or purchase price",
+        "Used equipment from a non-dealer or refinanced requires an equipment appraisal"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. E.2.b"
+    },
+    {
+      "id": "c1-processing-methods",
+      "title": "504 processing methods: non-delegated, ASM, ALP, ALP Express and PCLP",
+      "body": "**All 504 loans are processed in the SLPC.** What changes between methods is how much the CDC decides itself.\n\n| Method | Who decides credit | Key points |\n|---|---|---|\n| **Non-delegated** (without ASM) | SBA | CDC submits the application and supporting documents through the SBA Loan System. SBA makes the final call on eligibility, use of proceeds, credit, collateral, structure and Borrower contribution |\n| **Abridged Submission Method (ASM)** | SBA | A streamlined submission. It does **not** involve any delegated authority. Not available for change of ownership or transactions between close family members |\n| **Accredited Lenders Program (ALP)** | SBA (ALP CDC has increased authority to process, close and service) | 13 CFR 120.840. ALP CDCs use non-delegated, ASM, or ALP Express for qualifying loans |\n| **ALP Express** | ALP CDC | Loans of **not more than $500,000**, designated as ALP Express at submission. SBA does **not** review the credit decision; SLPC gives final approval on **eligibility**. **No loan loss reserve** requirement |\n| **Premier Certified Lenders Program (PCLP)** | PCLP CDC | 13 CFR 120.845. Authority to process, close, service and liquidate (and possibly litigate). SBA delegates all approval decisions **except certain eligibility issues**. Same loan terms as other 504 loans |\n\n### PCLP vs. ALP Express\n\nA PCLP CDC may choose to process a loan as an **ALP Express Loan** under its ALP status. That avoids the **Loan Loss Reserve Fund** requirement for that loan - but then it may use **only ALP Express authorities**, not PCLP authority, for that loan.\n\n### Things PCLP CDCs cannot approve under delegated authority (from this chapter)\n\n- Refinancing **Same Institution Debt** (with or without expansion);\n- A federally guaranteed refinance needing an **exception to the substantial benefit reduction** requirement;\n- A refinance with expansion needing a **waiver of the collateral requirement**;\n- **DAL, Energy Conservation, Qualified Employee Trust (ESOP) or Pollution Control** loans.\n\n> **In practice:** The method drives the document package. ASM and ALP Express upload a subset; PCLP uploads after funding; non-delegated uploads everything. The next topics cover what goes where.",
+      "keyPoints": [
+        "All 504 loans are processed at the SLPC",
+        "ASM is streamlined but involves no delegated authority; not for change of ownership or close-family transactions",
+        "ALP Express: up to $500,000; SBA does not review credit, SLPC reviews eligibility; no loan loss reserve",
+        "PCLP: delegated approval except certain eligibility issues; subject to Loan Loss Reserve Fund",
+        "A PCLP CDC using ALP Express for a loan may use only ALP Express authority for it"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. F.1"
+    },
+    {
+      "id": "c1-application-contents",
+      "title": "Contents of a 504 loan application",
+      "body": "The CDC must keep in its files every document below, plus anything else supporting its credit decision, and the files must be **available to SBA at any time**.\n\n### Core forms and analysis\n\n1. **SBA Form 1244**, Application for Section 504 Loan. The CDC lists in the SBA Loan System **100% of total direct and indirect ownership**; spouses' and minor children's ownership is **combined**. If any **Associate answers \"Yes\" to the criminal history question**, the Applicant is **not eligible**.\n2. **CDC credit memorandum** per Para. E.1.\n3. For projects of **at least $5,000,000**, the TPL's underwriting analysis (in the CDC memo or sent directly by the TPL).\n4. **Key cost documents** - contractor costs, estimates, M&E vendor quotes, an itemized list of professional fees - and full or partially executed **purchase/sale agreements**.\n5. Independent **appraisal** as required.\n6. **Environmental** analysis (Section A, Ch. 5, Para. E), if applicable.\n7. **SBA Form 2481**, Historic Property Borrower Certification, if applicable.\n8. **TPL letter of intent/term sheet** with terms and the reason it will not finance the whole Project.\n9. **SBA Form 159**, Fee Disclosure Form and Compensation Agreement, if applicable.\n10. **Refinance with expansion**: current debt and lien instruments, transcripts of account, refinancing certifications.\n11. **Refinance without expansion**: transcripts of account and refinancing certifications.\n\n### People and credit\n\n12. **SBA Form 413** Personal Financial Statement (or CDC equivalent), signed and dated **within 90 days**, plus **1 year** of Federal tax returns, for each owner of **20% or more** of the Applicant (or of the OC and EPC, for EPC deals) and any proposed guarantor except Supplemental Guarantors.\n13. **Credit reports dated within 90 days** for the Applicant, each 20%+ owner (and Key Employees if SLPC asks), affiliates and guarantors.\n\n### Financial statements\n\n14. Balance sheets, income statements and tax returns: **2 years** (Alternative Size Standard) or **3 years** (Industry Size Standard), or fewer if the Applicant has had revenue for less time.\n15. Interim balance sheet and income statement within **120 days** of submission with A/R and A/P agings; for a new business, a pro-forma balance sheet with assumptions.\n16. Projected annualized income statements for the first 2 years after closing, where appropriate.\n17. New business: monthly cash flow for the first 12 months or 3 months beyond breakeven, whichever is longer.\n18. **Schedule of debts** (original date and amount, payment, status, rate, balance, maturity, payee, collateral) for all current or planned (next 12 months) loans other than the 504.\n19. **Schedule of previous government financing** for the Applicant, affiliates, Associates and principals.\n20. **Affiliates**: names plus 2 years of statements/returns (3 under the Industry Size Standard).\n21. **IRS Form 4506-C or 8821** - the same type the CDC used to verify borrower financial information.\n22. **U.S. National documentation** (birth certificate and/or passport) reviewed and documented, with the SSN entered in the SBA Loan System.\n23. **IRS transcripts** and full verification of financials - **not required until closing**.\n\n### Signatures\n\nBecause of the Form 1244 certification, **original Applicant signatures are not required** on financial statements and tax returns, A/R and A/P agings, affiliate statements, or the Form 413 (dated within 90 days of approval).",
+      "keyPoints": [
+        "Form 1244 must show 100% of direct and indirect ownership; spouse and minor children combined",
+        "An Associate answering Yes on criminal history makes the Applicant ineligible",
+        "Form 413 and credit reports within 90 days; 20%+ owners and guarantors (not Supplemental Guarantors) give PFS and 1 year of returns",
+        "Financials: 2 years (Alternative Size Standard) or 3 years (Industry Size Standard); interims within 120 days",
+        "IRS transcripts and full financial verification are not required until closing",
+        "Original Applicant signatures are not required on financial statements due to the Form 1244 certification"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. F.2"
+    },
+    {
+      "id": "c1-submission-reconsideration",
+      "title": "Submitting the application and reconsideration after a decline",
+      "body": "### Mechanics\n\nThe 504 SBA Loan System User Guide on SBA's website has the detailed steps. CDCs either use a **vendor solution integrated with the CAFS loan platform** or the SBA Loan System web screens. The system does **not accept uploads over 250MB**; larger documents must be split.\n\nRegardless of method:\n- The CDC must **retain the full application** in its file.\n- **100% of the Applicant's ownership** and percentages must be disclosed in the SBA Loan System.\n\n### What each method uploads\n\n| Method | Upload to SBA Loan System |\n|---|---|\n| Non-delegated, not ASM | **All** application items (1 through 23) |\n| ASM | Items **1 through 14** only. No change of ownership or close-family transactions |\n| ALP Express | The ALP Express application with the Form 1244 exhibits required for ALP Express; keep all other exhibits in file |\n| PCLP | Within **15 business days after debenture funding**: final executed SBA Terms and Conditions and SBA Form 1244 with 100% ownership disclosed |\n\n### ALP Express details\n\n- The ALP CDC must mark **SBA Form 1244 (page 10)** as an ALP Express submission; otherwise SBA processes it as a **standard 504 loan**.\n- SLPC reviews **eligibility** and sends issues to the CDC. SBA approval is still needed for certain eligibility items - historic properties, all environmental documents and businesses involving prurient sexual activities.\n- SLPC does **not** review the credit decision; it reviews the appraisal only as needed for eligibility and does **not** review life insurance.\n- Any pre-closing servicing action that may affect eligibility goes to SLPC for approval.\n- Once eligibility and funds availability are confirmed, SLPC issues an **SBA Loan Number** and loads the Terms and Conditions.\n\n**ALP Express may not be used for:**\n- Loans **previously submitted** to SBA and withdrawn, declined or not approved (check the borrower certification on Form 1244 and confirm with SLPC);\n- Loans needing an **exception to policy**;\n- **Increases over $500,000** - the loan must be cancelled and resubmitted as non-delegated.\n\n### Reconsideration of declined non-delegated loans (13 CFR 120.193)\n\n1. If the CDC believes the decline reasons have been overcome, it may request reconsideration with a **detailed written explanation**. The request goes to SLPC **within 6 months** of the decline date. A request made **more than 120 days** after the decline must include **current financial statements**.\n2. If SLPC declines reconsideration **twice**, a **third** reconsideration may go to the **D/FA or designee**, whose decision is **final**. It is submitted through SLPC with a copy of the decline letter and new information addressing each decline reason; SLPC forwards it.",
+      "keyPoints": [
+        "Uploads over 250MB are not supported; split large documents",
+        "ASM uploads items 1-14; non-delegated uploads everything",
+        "PCLP uploads final Terms and Conditions and Form 1244 within 15 business days after debenture funding",
+        "ALP Express must be designated on Form 1244 page 10 or it is processed as standard 504",
+        "ALP Express is barred for previously declined/withdrawn loans, exceptions to policy, and increases above $500,000",
+        "Reconsideration within 6 months; current financials if after 120 days; third request to D/FA is final"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. F.3 and F.4"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Debt Service Coverage (DSC)",
+      "definition": "EBITDA divided by combined post-transaction debt service, calculated historically; must be at least 1.15:1 for all 504 loans."
+    },
+    {
+      "term": "Global Cash Flow",
+      "definition": "A combined cash flow analysis the CDC must prepare when adjusting cash flow; outside income and Project Property rent may appear in it but not in repayment ability."
+    },
+    {
+      "term": "Pro-forma balance sheet",
+      "definition": "A current balance sheet adjusted for all Project effects: new loans, equity injection, use of proceeds and loan costs."
+    },
+    {
+      "term": "Abridged Submission Method (ASM)",
+      "definition": "A streamlined, non-delegated 504 submission that uploads application items 1 through 14; not available for change of ownership or close-family transactions."
+    },
+    {
+      "term": "Accredited Lenders Program (ALP)",
+      "definition": "SBA designation giving a CDC increased authority to process, close and service 504 loans (13 CFR 120.840)."
+    },
+    {
+      "term": "ALP Express Loan",
+      "definition": "A 504 loan of not more than $500,000 approved by an ALP CDC under delegated authority; SLPC reviews eligibility only and no loan loss reserve is required."
+    },
+    {
+      "term": "Premier Certified Lenders Program (PCLP)",
+      "definition": "SBA delegation allowing a CDC to process, close, service and liquidate 504 loans and make approval decisions except certain eligibility issues (13 CFR 120.845)."
+    },
+    {
+      "term": "OREO",
+      "definition": "Other Real Estate Owned by a regulated lender; an appraisal is required if the Project Property is the TPL's OREO, and a seller-TPL loan on OREO need not be subordinate."
+    },
+    {
+      "term": "327 action",
+      "definition": "The SBA action a CDC submits when it cannot get a recorded waiver of a non-environmental open-ended indemnification provision before closing."
+    },
+    {
+      "term": "Pari passu lien",
+      "definition": "A shared, equal-priority lien; SBA may share a lien position with the TPL instead of taking its usual second lien."
+    },
+    {
+      "term": "SBA Form 1244",
+      "definition": "The Application for Section 504 Loan; discloses 100% of ownership, includes the criminal history question and certifications, and designates ALP Express submissions."
+    },
+    {
+      "term": "SBA Form 413",
+      "definition": "Personal Financial Statement required, dated within 90 days, from 20%+ owners and proposed guarantors other than Supplemental Guarantors."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-p3-q1",
+      "question": "What is the minimum historical debt service coverage ratio for a 504 loan?",
+      "options": [
+        "1.00:1",
+        "1.10:1",
+        "1.15:1",
+        "1.25:1"
+      ],
+      "correctIndex": 2,
+      "explanation": "For all 504 transactions the DSC ratio, calculated historically, must be equal to or greater than 1.15:1. 1.25 is a common bank covenant but not the SOP's 504 standard.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. E.1.d",
+      "difficulty": "basic"
+    },
+    {
+      "id": "c1-p3-q2",
+      "question": "In the 504 DSC calculation, how must a fully drawn line of credit be treated?",
+      "options": [
+        "As interest-only payments",
+        "Excluded from debt service",
+        "As amortizing over 10 years",
+        "As amortizing over the 504 loan term"
+      ],
+      "correctIndex": 0,
+      "explanation": "The SOP requires CDCs to assume interest-only payments on fully drawn lines of credit when calculating DSC. Excluding them would overstate coverage.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. E.1.d",
+      "difficulty": "basic"
+    },
+    {
+      "id": "c1-p3-q3",
+      "question": "A Borrower's business EBITDA covers debt service at only 1.05x, but the owner's spouse earns a large salary and the new building will produce tenant rent. How should these be used?",
+      "options": [
+        "Add both to business cash flow to reach 1.15x",
+        "Add the rent but not the spousal income",
+        "Show both in the Global Cash Flow only; neither counts toward repayment ability, so the CDC must look to projections or decline",
+        "Add the spousal income but not the rent"
+      ],
+      "correctIndex": 2,
+      "explanation": "Outside income (such as spousal income) can only offset personal obligations, and Project Property rental income may be in the global cash flow but must not be included in repayment ability. If historical cash flow is insufficient the CDC must analyze projections; without reasonable assurance of repayment from business cash flow the loan must be declined.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. E.1.g",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c1-p3-q4",
+      "question": "A projection-based 504 loan shows DSC above the minimum in Year 2 but a shortfall in Year 1. What is required?",
+      "options": [
+        "Nothing; Year 2 coverage is sufficient",
+        "The Applicant must show sufficient liquidity to cover the Year 1 shortfall",
+        "The loan must be declined",
+        "The CDC must extend the projection to 5 years"
+      ],
+      "correctIndex": 1,
+      "explanation": "If projections show repayment in Year 2 but not Year 1, sufficient liquidity must be shown to cover the Year 1 shortfall. Projections must cover at least 2 years, not 5.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. E.1.d.v",
+      "difficulty": "applied"
+    },
+    {
+      "id": "c1-p3-q5",
+      "question": "The estimated value of the Project Property is $450,000 and the deal is a purchase from the Borrower's father. What is required?",
+      "options": [
+        "An evaluation only, since the value is under $500,000",
+        "No valuation at all",
+        "An appraisal by a State-certified appraiser because value exceeds $250,000",
+        "An appraisal submitted with the application, and the property must appraise at 100% of estimated value"
+      ],
+      "correctIndex": 3,
+      "explanation": "Even at $500,000 or less, a close-relationship transaction (e.g., family members) requires an appraisal, and it must be submitted with the application. For non-arm's length transactions the property must appraise at 100% of estimated value. State certification is required only when value exceeds $1,000,000.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. E.2.b",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c1-p3-q6",
+      "question": "A Project Property is estimated at $1,400,000. Which appraiser qualification is required?",
+      "options": [
+        "State-licensed or State-certified",
+        "State-certified",
+        "Any MAI designee, licensed or not",
+        "Any appraiser chosen by the Applicant"
+      ],
+      "correctIndex": 1,
+      "explanation": "Appraisers must be State-licensed or State-certified, except that when the estimated value is over $1,000,000 the appraiser must be State-certified. An appraisal prepared for the Applicant cannot be used.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. E.2.b",
+      "difficulty": "applied"
+    },
+    {
+      "id": "c1-p3-q7",
+      "question": "An appraisal comes in at 85% of the estimated value. The Borrower has no extra cash or collateral, but cash flow is strong and consistent. What can happen?",
+      "options": [
+        "SLPC can approve the appraisal and the CDC may close the loan",
+        "The loan must be declined",
+        "The CDC may close without SBA involvement",
+        "The TPL must increase its loan to cover the gap"
+      ],
+      "correctIndex": 0,
+      "explanation": "Below 90% of estimated value, the debenture must be reduced or additional collateral or investment added. If neither is available but the Applicant shows strong, consistent cash flow sufficient to support the debt, SLPC can approve the appraisal and the CDC may close.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. E.2.b.i",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c1-p3-q8",
+      "question": "A Third Party Lender is also selling the Project Property to the Borrower. When may its loan stay senior to the 504 loan?",
+      "options": [
+        "Always, since the TPL usually holds the 1st lien",
+        "When the property is the TPL's OREO and is of sufficient value to support the 504 loan",
+        "When the TPL's loan is at least 50% of Project costs",
+        "When the TPL signs SBA Form 2287"
+      ],
+      "correctIndex": 1,
+      "explanation": "When the TPL is the property seller, its loan must be subordinate to the 504 loan unless the Borrower assumes an existing note, the FDIC has carry-back financing, or the property is OREO of a regulated lender with sufficient value to support the 504 loan (13 CFR 120.923).",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. E.2.a.iii",
+      "difficulty": "applied"
+    },
+    {
+      "id": "c1-p3-q9",
+      "question": "A title search reveals a non-environmental open-ended indemnification provision benefiting a prior owner, who refuses to sign a waiver. What must the CDC do before closing?",
+      "options": [
+        "Close anyway; title insurance covers it",
+        "Decline the loan automatically",
+        "Ask the TPL to indemnify SBA",
+        "Submit a 327 action identifying the benefiting party, the title provision and evidence of its good-faith attempt to get a waiver"
+      ],
+      "correctIndex": 3,
+      "explanation": "If the CDC cannot get a recorded waiver or liability-capping agreement, it must submit a 327 action with the benefiting party, a copy of the provision and documentation of its good-faith attempt before the loan can close.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. E.2.a.i",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c1-p3-q10",
+      "question": "Which loan may be processed as an ALP Express Loan?",
+      "options": [
+        "A $480,000 loan from an ALP CDC with no policy exceptions and no prior SBA submission",
+        "A $620,000 loan from an ALP CDC",
+        "A $400,000 loan SBA previously declined",
+        "A $350,000 loan that needs an exception to policy"
+      ],
+      "correctIndex": 0,
+      "explanation": "ALP Express covers 504 loans of not more than $500,000 made by an ALP CDC. It may not be used for previously declined or withdrawn loans or for loans needing an exception to policy.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. F.1.d and F.3",
+      "difficulty": "applied"
+    },
+    {
+      "id": "c1-p3-q11",
+      "question": "A CDC wants to use ASM for a 504 loan financing a son's purchase of his mother's building. What is the correct answer?",
+      "options": [
+        "ASM is fine; it is just a streamlined submission",
+        "ASM is allowed if the appraisal is at 100%",
+        "ASM cannot be used for transactions between close family members or change of ownership",
+        "ASM is allowed only for PCLP CDCs"
+      ],
+      "correctIndex": 2,
+      "explanation": "Applications for projects that result in change of ownership or transactions between close family members cannot be processed under ASM; they must use another method.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. F.3",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c1-p3-q12",
+      "question": "After closing a loan under PCLP authority, what must the PCLP CDC upload and when?",
+      "options": [
+        "The full application within 30 days of approval",
+        "The final executed SBA Terms and Conditions and SBA Form 1244 within 15 business days after debenture funding",
+        "Only the credit memorandum within 10 business days of closing",
+        "Nothing; PCLP files are retained by the CDC only"
+      ],
+      "correctIndex": 1,
+      "explanation": "The PCLP CDC must upload the final executed Terms and Conditions (updated to final terms) and SBA Form 1244 with 100% ownership disclosed within 15 business days after debenture funding.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. F.3",
+      "difficulty": "basic"
+    },
+    {
+      "id": "c1-p3-q13",
+      "question": "SLPC declined a non-delegated 504 loan 5 months ago. The CDC now believes the problems are fixed. What applies to a reconsideration request?",
+      "options": [
+        "Too late; requests must be within 90 days",
+        "It must go directly to the D/FA",
+        "It may be submitted to SLPC with a detailed explanation, and because more than 120 days have passed it must include current financial statements",
+        "It may be submitted with no new financial information"
+      ],
+      "correctIndex": 2,
+      "explanation": "Reconsideration requests go to SLPC within 6 months of decline with a detailed written explanation; requests made more than 120 days after decline must include current financial statements. The D/FA is the third-level reviewer after two SLPC declines.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. F.4",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "c1-p3-q14",
+      "question": "Which 504 loan can a PCLP CDC approve under its delegated authority?",
+      "options": [
+        "An ESOP-owned (Qualified Employee Trust) business",
+        "A Pollution Control loan",
+        "A refinance with expansion of the TPL's own existing loan",
+        "A standard building purchase by an existing manufacturer"
+      ],
+      "correctIndex": 3,
+      "explanation": "PCLP CDCs may not approve DAL, Energy Conservation, Qualified Employee Trust (ESOP) or Pollution Control loans, or refinancing of Same Institution Debt, under delegated authority. A standard purchase raises none of those restrictions.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. E.1.s and C.11.c",
+      "difficulty": "applied"
+    },
+    {
+      "id": "c1-p3-q15",
+      "question": "When must IRS transcripts and complete verification of borrower financial information be obtained for a 504 loan?",
+      "options": [
+        "Not until loan closing",
+        "Before submitting the application",
+        "Within 90 days after debenture funding",
+        "Only if SLPC requests them"
+      ],
+      "correctIndex": 0,
+      "explanation": "The application contents list states that IRS transcripts and complete verification of borrower financial information are not required until loan closing. The IRS Form 4506-C or 8821 is part of the application.",
+      "sopRef": "SOP 50 10 8.1, Section C, Ch. 1, Para. F.2",
+      "difficulty": "basic"
+    }
+  ]
+}

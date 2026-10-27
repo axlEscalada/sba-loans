@@ -1,0 +1,412 @@
+{
+  "id": "a4-agents-and-504-fees",
+  "order": 141,
+  "part": "A",
+  "program": "core",
+  "title": "Agents, LSPs, and 504 Fees",
+  "subtitle": "Chapter 4, Part 2: Agent types and fee limits, LSP agreements, SBA Form 159, 504 fees, and professional services contractors",
+  "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Paras. D-E",
+  "estimatedMinutes": 50,
+  "learningObjectives": [
+    "Distinguish Agents, Referral Agents, Packagers, LSPs, and professional services contractors.",
+    "Apply the rules on who may pay an Agent and when costs may or may not reach the Applicant.",
+    "Identify the required terms of an LSP Agreement and when a vendor becomes an LSP.",
+    "Apply the Agent fee caps and prohibited fee types.",
+    "Complete and submit SBA Form 159 correctly in 7(a) and 504.",
+    "Identify allowable 504 fees and the approval process for CDC professional services contracts."
+  ],
+  "topics": [
+    {
+      "id": "a4-agent-types",
+      "title": "Who Counts as an Agent: Referral Agents, Packagers, and LSPs",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. D.2-D.5",
+      "body": "Many SBA loans involve third parties: brokers who bring in deals, consultants who build the application, and vendors who do back-office work for the lender. SBA groups all of them under the word **Agent** and regulates them under **13 CFR Part 103**, which governs Agent activities, fee disclosure, and when SBA can suspend or revoke an Agent's privileges.\n\n### The definitions\n\n| Term | Definition | Who pays |\n|---|---|---|\n| **Agent** (13 CFR 103.1(a)) | An authorized representative - attorney, accountant, consultant, packager, lender service provider, or any other individual or entity - representing an Applicant or participant by **conducting business with SBA** | Applicant or Lender |\n| **Referral Agent** (13 CFR 103.1(f)) | Identifies and refers an Applicant to a Lender, or a Lender to an Applicant | Applicant **or** Lender, **but not both** |\n| **Packager** (13 CFR 103.1(e)) | Employed and compensated by an Applicant or Lender to **prepare the Applicant's application**. The Packager **may be the Lender**. | Applicant or Lender |\n| **Lender Service Provider (LSP)** (13 CFR 103.1(d)) | Carries out **Lender functions** in originating, disbursing, servicing, or liquidating a specific SBA loan or portfolio, **for compensation from the Lender** | Lender only |\n\nEvery Referral Agent, including loan packagers, must disclose the name of its customer and all fees charged in connection with the loan on **SBA Form 159**.\n\n### Location rule\n\nLenders may **not** use LSPs or any type of Agent that is **not located in the United States, its territories, or possessions**.\n\n### CDC employees as 7(a) Agents\n\nFor a 7(a) loan, if a **CDC employee** packages or refers the loan **within the scope of their CDC employment**, **both the CDC and the employee** are Agents. If the employee acts **outside** the scope of employment, the CDC is **not** an Agent.\n\n### Lender stays in charge\n\nA lender must have a **continuing ability** to evaluate, process, close, service, liquidate and litigate small business loans (13 CFR 120.410). It may hire an LSP to help, but the **lender itself**, not the LSP, must be able to show it exercises **day-to-day responsibility** for its SBA portfolio. SBA decides **loan by loan** whether an Agent is an LSP. If it is, a **formal agreement** between Agent and lender is required and **must be reviewed by SBA** (submitted to the LGPC at LSPagreements@sba.gov, and resubmitted after any change).\n\nSBA will **investigate any complaint** about an LSP's activities, services, or fees, and reserves the right to **audit compliance** with any SBA-reviewed LSP agreement.\n\n> **In practice:** For a software company, this definition matters directly. A technology vendor that only provides document or workflow tools is not an LSP, but one whose services **include underwriting** is an LSP and needs an SBA-reviewed LSP Agreement.\n",
+      "keyPoints": [
+        "Agents are governed by 13 CFR Part 103 and include attorneys, accountants, consultants, packagers, and LSPs.",
+        "A Referral Agent may be paid by the Applicant or the Lender, but not both.",
+        "A Packager prepares the application and may be the Lender itself.",
+        "An LSP performs lender functions for compensation from the Lender only.",
+        "Lenders may not use any Agent or LSP located outside the U.S., its territories, or possessions.",
+        "SBA decides loan by loan whether an Agent is an LSP; LSP agreements must be reviewed by SBA."
+      ]
+    },
+    {
+      "id": "a4-agent-relationships",
+      "title": "Using Agents in 7(a): Oversight, Who Pays, and Privacy",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. D.1-D.2",
+      "body": "SBA allows third parties to charge Applicants for packaging and other services. But before any service is provided, the 7(a) lender must tell the Applicant **in writing** that it is **not required to obtain or pay for unwanted services**, and lenders and Agents must clearly inform the Applicant that **SBA does not require an Agent** to package or refer a loan.\n\n### Lender oversight of third parties\n\n- SBA expects **due diligence and prudent oversight** of third-party vendors, including LSPs and other loan agents.\n- Prudent oversight should include **written policies** for these relationships and **monitoring performance** of loans referred or assisted by an Agent.\n- SBA reviews this evidence during lender oversight. Federally regulated lenders must also follow their **primary Federal Financial Institution Regulator's** third-party vendor rules.\n\n### Suspension and revocation\n\nThe **Director of the Office of Credit Risk Management (D/OCRM)** may, for **good cause** (defined at 13 CFR 103.4), suspend or revoke an Agent's privilege to conduct business with the government. It stays in effect during any administrative proceedings under 13 CFR Part 134.\n\n### Privacy\n\nLoan information is protected by the **Right to Financial Privacy Act** and the **Privacy Act**. Private loan information **cannot be discussed** with someone who claims to be an Agent without **evidence of representation**, and SBA may require **written evidence of authority** before revealing anything about an Applicant's or lender's dealings with SBA.\n\n### Who hires the Agent\n\n| Scenario | Rules |\n|---|---|\n| **Applicant hires the Agent** | Agent may bill the Applicant for packaging if compensation is reasonable and customary, complies with SBA rules, and is **not contingent** on approval or closing. The same Agent may also act as the Applicant's Referral Agent, but the **total** of all fees must stay within the Agent fee caps. |\n| **Agent works for both sides** | An Agent may be a **Referral Agent for the lender** and a **Packager for the Applicant**, if both know of both relationships and the Agent takes **no referral fee from the Applicant** and **no packaging fee from the lender**. This is the **only** case where an Agent is paid by both (13 CFR 103.4(g)). |\n| **Lender hires the Agent (not an LSP)** | After the lender has **decided to approve** a loan, it may use an Agent to prepare SBA paperwork, close, or prepare the loan for Secondary Market sale. Pay must be reasonable and customary and, through closing, **not contingent** on approval or closing. The lender must pay all of it and may **never pass it to the Applicant or pay it from loan proceeds**, including working capital proceeds. |\n\n### Other bright lines\n\n- **No contingency fees** (paid only if the loan is approved or closed) and no charges for services not reasonably necessary.\n- An SBA loan **may not refinance a debt owed to an Agent** involved in the loan (for example, a Referral Agent).\n- For non-LSP Agents, paid by Applicant or lender, **SBA Form 159** must be signed by the Applicant, Agent, and lender. If the lender pays the Agent, the lender identifies the Agent and lender and Applicant sign. A lender acting as **both lender and Agent signs twice**.\n",
+      "keyPoints": [
+        "Applicants must be told in writing they need not buy unwanted services and that SBA does not require an Agent.",
+        "Lenders must oversee Agents with written policies and performance monitoring.",
+        "D/OCRM may suspend or revoke an Agent's privileges for good cause (13 CFR 103.4).",
+        "Only dual-pay case: packaging fee from the Applicant plus referral fee from the lender, with both parties aware.",
+        "Lender-hired Agent costs may never be passed to the Applicant or paid from loan proceeds.",
+        "No contingency fees; no refinancing of debt owed to an Agent involved in the loan."
+      ]
+    },
+    {
+      "id": "a4-lsp-agreements",
+      "title": "Lender Service Provider Agreements",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. D.6",
+      "body": "A 7(a) lender may contract with an LSP for one or more lender functions, but only under a **written LSP Agreement submitted to SBA for review**. SBA provides **no form** agreement; lender and LSP negotiate it, but certain terms are mandatory.\n\n### When is an Agent an LSP?\n\nExamples SBA gives:\n\n- Someone the lender engages to **interact with the Applicant** (in person or through technology) to request or obtain financial information for the lender or SBA, including Agents who **pre-qualify** applicants under SBA rules or the lender's policies, or who deliver an **underwritten application**.\n- **Technology providers whose services include underwriting.**\n\n### Core rules\n\n- The **lender bears full responsibility** for all aspects of its SBA loan operation and must show day-to-day control.\n- LSPs are paid **only by the lender**; charges may **not** be passed to the Applicant or paid from loan proceeds.\n- LSP services under the agreement are **not reported on SBA Form 159** (13 CFR 103.5(c)).\n- An LSP Agreement **may not grant the LSP a power of attorney** for the lender.\n- Submit every agreement (and any revision after SBA review) to the **LGPC at LSPagreements@sba.gov**. On termination, send the termination notice there with the **termination date** and the lender's **SBA Location ID**.\n\n### If the LSP handles borrower payments\n\n- Funds must sit in an account **in the lender's name**, not the LSP's (the LSP may have limited access per the agreement).\n- For loans with guaranteed portions sold on the Secondary Market, the account must be titled per **SBA Form 1086**.\n- **No commingling** across lenders - a separate account for each lender client.\n- The LSP may **not net its fee** out of borrower payments.\n\n### Required contents\n\n1. **Identification** of both parties: legal and trade names, address, contact details, and the lender's **Location ID**.\n2. **Services** specifically identified.\n3. **Lender responsibility statement**: the lender bears full responsibility for approvals, closings, disbursements, servicing and due diligence; if the LSP accesses **CAFS** (including the SBA Loan System), the lender is responsible for all its entries and certifications.\n4. Parameters for access to funds, if the LSP handles payments.\n5. **Compensation** by service type, for services actually performed: packaging/processing/underwriting fees **not contingent** on approval or closing; all compensation paid by the lender and no charging the Applicant for the same services; **no sharing of Secondary Market premium**; billing identifies the **Applicant's name**.\n6. **Term** including renewals, and reasonable termination rights for either party (**usually 60 days, or sooner for cause**).\n7. Statements that the LSP will **not assume risk on the unguaranteed portion**; disclosure of **affiliations** with financial institutions, lenders, CDCs, CUSOs, other LSPs, or brokers; disclosure of other **prior or existing relationships** (or a statement there are none); that the agreement is subject to all SBA Loan Program Requirements; and that the LSP Agreement **controls** over any conflicting agreement as to the SBA portfolio.\n\nLenders are responsible for their LSPs' compliance with **confidentiality** laws, and the contract must not show any actual or apparent **conflict of interest or self-dealing** by lender officers, management or staff.\n",
+      "keyPoints": [
+        "An LSP may only work under a written LSP Agreement reviewed by SBA (LSPagreements@sba.gov).",
+        "Agents who pre-qualify applicants, deliver underwritten applications, or provide technology that includes underwriting are LSPs.",
+        "LSPs are paid only by the lender; no pass-through, no Form 159, no power of attorney.",
+        "Borrower payment accounts must be in the lender's name, not commingled, with no netting of fees.",
+        "Agreements must cover services, compensation, term and termination (usually 60 days), and required disclosures.",
+        "Terminations must be reported with the termination date and the lender's Location ID."
+      ]
+    },
+    {
+      "id": "a4-agent-fee-limits",
+      "title": "Fees an Agent May Charge an Applicant",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. D.7 and E.5",
+      "body": "Independent Agents (packagers, consultants, brokers) are the one place an Applicant can legitimately be charged referral or broker fees. The rules are the same in 7(a) and 504, with small differences noted below.\n\n### What an Agent may charge for\n\n- **Packaging**: helping complete applications, preparing a business plan, cash flow projections, and other application documents.\n- **Other services**: consulting on the amount and type of financing needed, and **broker or referral fees**. (In 7(a), the lender and its Associates are **prohibited** from charging for these.)\n\n### Reasonableness\n\nFees must be **reasonable and customary for the services actually performed**. In 7(a), for lenders with non-SBA portfolios, fees must also be consistent with those on the lender's similarly-sized non-SBA commercial loans, and a fee the lender does not charge on non-SBA loans may not be charged on SBA loans.\n\n### How fees may be structured\n\nHourly or percentage of the loan. Either way, **all fees over $2,500 must be supported by documenting the service performed**.\n\n| Basis | Limit |\n|---|---|\n| **Hourly** | **No maximum**, but reasonable and customary; the **hourly rate and time spent** on each service must be documented |\n| **Percentage**, loans of **$50,000 or less** | **3%** |\n| **Percentage**, loans over $50,000 | **2%** up to the first $1,000,000, plus **0.25%** on the portion over $1,000,000 |\n| **Aggregate cap** on percentage basis | **$30,000** |\n\nIf the Agent provides **multiple services**, the **combined** fee must stay within these maximums.\n\n### What an Agent may never charge\n\n- A **standard or flat fee charged to all Applicants**;\n- **Contingency fees** (paid only if the loan is approved or closed); or\n- Fees for services **not reasonably necessary** for the application.\n\n> **Watch out:** A lender may charge a flat packaging fee of up to $2,500 without documenting services. An **Agent** may not charge a standard flat fee to all Applicants. Same number, different rule.\n\n### When fees look excessive\n\n- SBA may review Agent fees at any time; Agents must **refund** any fee SBA finds unreasonable or impermissible.\n- Lenders (7(a)) and CDCs (504) **must review** an Agent's services and fees when a **third party indicates** fees might be excessive or the **Applicant complains**, and should report unreasonable fees to the **D/OCRM**.\n- If SBA finds a fee excessive, the Agent must reduce it, **refund the excess to the Applicant**, and stop collecting more.\n\nIn 504, CDCs and Agents must inform Applicants **in writing** that SBA does not require an Agent, and any Agent charging fees must disclose them on **SBA Form 159**.\n",
+      "keyPoints": [
+        "Agents may charge for packaging and for consulting, broker, or referral services.",
+        "Fees over $2,500 must be supported by documentation of services performed.",
+        "Hourly: no cap, but rate and hours must be documented.",
+        "Percentage: 3% for loans of $50,000 or less; 2% up to $1,000,000 plus 0.25% over; $30,000 aggregate cap.",
+        "No flat fees charged to all Applicants, no contingency fees, no unnecessary services.",
+        "Lenders/CDCs must review fees after a complaint or third-party indication and report to D/OCRM."
+      ]
+    },
+    {
+      "id": "a4-form-159-7a",
+      "title": "SBA Form 159 in 7(a): Fee Disclosure and Compensation Agreement",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. D.8",
+      "body": "Section 13 of the Small Business Act (15 U.S.C. 642) requires an Applicant to identify anyone engaged to expedite its application and the fees paid. 13 CFR 103.5 requires the Applicant, lender, and any Agent to sign a **compensation agreement**. In practice, that is **SBA Form 159, \"Fee Disclosure Form and Compensation Agreement.\"**\n\n### What the lender reports in the SBA Loan System\n\n- Whether the **lender charged any fees** and the amounts.\n- Whether an **Agent was involved** in any way, and if so, the Agent's **name, street address, city, state, and zip code**. Missing this may lead to an **OCRM finding**. Form 159 can be generated from the SBA Loan System.\n\n### When Form 159 is required\n\nFor **any Agent other than an LSP** working under an SBA-reviewed LSP Agreement, whether paid by the Applicant or the lender, Form 159 must be completed per its instructions and signed by the **Applicant, the Agent, and the lender**. A **separate Form 159** is required for **each Agent**. An Agent's failure to fully complete and sign it may lead to **suspension or revocation** under 13 CFR Part 103.\n\n### Filling it out\n\n- Complete **all appropriate fields**; for example, the **seven-digit FIRS number** must appear exactly as assigned, with no extra characters.\n- If **aggregate compensation** from the same Agent exceeds **$2,500**, attach an **itemization and supporting documentation**.\n- **Multiple applications** (for example, a term loan and a revolver): separate Form 159 for **each application**, but fees are **aggregated** to test the $2,500 itemization threshold.\n- **Multiple services on one application** (for example, packaging plus referral): report each on the **same** Form 159 - check both \"Independent Loan Packager\" and \"Referral Agent/Broker\" and itemize each amount in the \"Type of Service\" table.\n- **In-kind compensation** (non-monetary goods or services) paid by the lender must be itemized.\n\n### Not Agents for Form 159\n\n- The Applicant's **accountant** preparing ordinary-course financial statements unrelated to the application;\n- A **state-certified or state-licensed appraiser** employed by the lender;\n- An **LSP** under an SBA-reviewed LSP Agreement;\n- A **Qualified Source** employed by the lender for an independent business valuation;\n- An **environmental professional** employed by the lender;\n- **Any attorney** in connection with the loan closing; and\n- A **real estate agent** earning a commission on a real estate sale connected to the loan.\n\n### Submission and retention\n\nUpload the signed form and supporting documents to **CAFS** (E-Tran Servicing or successor SBA Loan System) **after initial disbursement**, together with the monthly **1502** report, and **within two SBA Form 1502 reporting cycles** from initial disbursement. Keep the **original-signature** version and all support in the lender's files.\n",
+      "keyPoints": [
+        "Lenders report fees charged and any Agent involvement (with full address) in the SBA Loan System.",
+        "Form 159 is required for every non-LSP Agent, signed by Applicant, Agent, and lender; one form per Agent.",
+        "Itemize and attach support when one Agent's aggregate compensation exceeds $2,500.",
+        "Separate forms per application, but fees aggregate for the $2,500 test.",
+        "Closing attorneys, lender-hired appraisers, environmental professionals, Qualified Sources, real estate agents and LSPs do not file Form 159.",
+        "Upload after initial disbursement, within two 1502 reporting cycles; keep originals."
+      ]
+    },
+    {
+      "id": "a4-504-deposit-and-fees",
+      "title": "504 Borrower Deposit and Allowable Fees",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. E.1-E.2",
+      "body": "504 fees work differently from 7(a) because more parties are involved: the CDC, the Central Servicing Agent (CSA), the debenture underwriter, SBA, and the Third Party Lender.\n\n### Borrower's deposit (13 CFR 120.935)\n\nAt application, the CDC may require a deposit of **$2,500 or 1% of the Net Debenture Proceeds, whichever is less**. A written agreement between the CDC and Applicant should provide that:\n\n- If the CDC or SBA **declines**, the deposit is **refunded in full within 10 business days** after decline (including any reconsideration period).\n- If SBA **approves**, the deposit may be applied to the CDC **processing fee** (13 CFR 120.883).\n- If the Applicant **withdraws** before SBA issues the Terms and Conditions, the CDC may deduct **documented** reasonable and necessary packaging and processing costs - **not a percentage of the loan** - and must remit the balance **within 10 business days**.\n\nA copy of the agreement goes in the CDC's file.\n\n### Allowable fees (13 CFR 120.971, 120.972, 120.883(e), 120.882(g)(4))\n\n| Fee | Amount | Notes |\n|---|---|---|\n| **CDC processing (packaging) fee** | Up to **1.5% of the Net Debenture** | Paid by Borrower to CDC |\n| **CDC closing fee** | Reasonable, to cover legal counsel and closing costs; **max $10,000 may be financed** from debenture proceeds | Paid by Borrower |\n| **CDC servicing fee** (monthly) | **Minimum 0.625%/year, maximum 2%/year**; above **1.5% for rural areas** or **1% elsewhere** needs **prior SBA approval** | On unpaid principal balance, paid to CDC |\n| **Late fee** | Payments received **after the 15th** of the month: **5% of the late payment or $100, whichever is greater** | Collected by the **CSA** for the CDC |\n| **Assumption fee** | Up to **1% of the outstanding principal** being assumed | Upon SBA's written approval; paid to CDC |\n| **CSA initiation and on-going fees** | Per the CSA's contract with SBA | |\n| **Underwriter's fee** | **0.4%** upfront for 20- and 25-year debentures; **0.375%** for 10-year | Paid by Borrower to underwriter |\n| **SBA Guaranty Fee** (upfront) | Set by fiscal-year notices on sba.gov | One-time |\n| **SBA Annual Fee** | Set by fiscal-year notices on sba.gov | Adjusted annually by **cohort year** (approval date); on unpaid principal balance |\n| **Participation fee** (senior lienholder) | **0.50%** of the senior mortgage loan, one-time | Owed by the Third Party Lender in senior position; may be paid by TPL, CDC or Borrower |\n| **CDC Fee** to SBA | **0.125%** per year of outstanding Debenture principal | Must come from the CDC's servicing fees, not added fees on Borrowers (loans approved after 9/30/1996) |\n| **Debt Refinancing Without Expansion supplemental fee** | Set by fiscal-year notices | Paid by Borrower |\n| **Funding fee** | **0.25%** of net Debenture Proceeds | Covers trustee, fiscal agent, and transfer agent costs |\n\n> **Watch out:** 504 late fees (after the 15th; greater of 5% or $100) differ from 7(a) late fees (more than 10 days delinquent; up to 5% of the payment).\n",
+      "keyPoints": [
+        "CDC deposit: lesser of $2,500 or 1% of Net Debenture Proceeds; refunded within 10 business days of decline.",
+        "On withdrawal, CDC may keep only documented costs, never a percentage of the loan.",
+        "CDC processing fee up to 1.5% of the Net Debenture; up to $10,000 of the closing fee may be financed.",
+        "CDC servicing fee 0.625%-2%/year; above 1.5% rural or 1% elsewhere needs SBA approval.",
+        "504 late fee: after the 15th, greater of 5% or $100, collected by the CSA.",
+        "Third Party Lender participation fee 0.50%; CDC Fee 0.125%/year paid from servicing fees; funding fee 0.25%."
+      ]
+    },
+    {
+      "id": "a4-504-other-services-agents",
+      "title": "504: Other CDC Services, Technology Fees, and Use of Agents",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. E.3-E.4",
+      "body": "### CDC fees for other services\n\nA CDC may be paid for **other services**, such as packaging and servicing a **7(a)** loan or helping a small business with matters unrelated to 504. These must be under a **written agreement** with the party served, setting out roles, terms and conditions, and complying with SBA rules. The CDC may **not** make such assistance a **condition of accepting a 504 application**.\n\n**Referral fees for locating third-party financing** (13 CFR 120.926) are allowed only if:\n\n1. based on a **contract with the Third Party Lender** paying the fee, and\n2. **not paid by the Borrower** or funded from **debenture proceeds**.\n\n### Technology fees may not be passed to 504 Borrowers\n\nUnlike 7(a), where technology costs can be part of the lender's packaging fee, in 504 **technology service fees may not be passed on to the Borrower**. Examples:\n\n- software or technology for preparing SBA loan documents, CDC underwriting, or closing;\n- licensing software platforms solely for administrative functions (such as generating SBA forms); and\n- fees for systems that **automate the CDC's internal loan decisions**, including basic credit algorithms or data-based scoring models.\n\nTechnology providers that do **not** include underwriting are **not Agents**. Those whose services **include underwriting** are **professional services contractors** and need an **SBA-approved professional services contract**.\n\n### Agents in 504\n\nThe same Part 103 framework applies. CDCs are expected to oversee third-party vendors (including professional services contractors) with **written policies** and **performance monitoring**, which SBA reviews during CDC oversight. Key points:\n\n- LSPs exist **only in 7(a)**; 504 uses **Professional Services Contractors** instead. Their contracts are **approved by SBA**, so **no Form 159** is needed for them (13 CFR 103.5(c) and 120.824), and fees the CDC pays them **cannot be passed to the Applicant**.\n- **All other Agents**, paid by the Applicant or CDC, need a Form 159 signed by the Applicant, CDC, and Agent.\n- An Agent may be paid by both sides **only** when it packages for the Applicant and receives a **referral fee from the CDC**.\n- **No contingency fees** and no charges for unnecessary services.\n- The **D/OCRM** may suspend or revoke an Agent for good cause, effective during any 13 CFR Part 134 proceedings.\n- **Privacy**: no discussing private loan information with a claimed Agent without evidence of representation. Without proper authorization, SBA and CDCs may not discuss it **even with a spouse or close relative** of the Applicant.\n\n> **In practice:** If you sell lending software to CDCs, your fees are the CDC's cost, never the Borrower's. And if your product underwrites, the CDC needs an SBA-approved professional services contract with you.\n",
+      "keyPoints": [
+        "CDCs may earn fees for non-504 services under written agreements, but cannot condition a 504 application on them.",
+        "Third-party lender referral fees must be contractual with the TPL and never paid by the Borrower or from debenture proceeds.",
+        "504 technology fees may never be passed on to the Borrower.",
+        "Technology including underwriting = professional services contractor needing an SBA-approved contract.",
+        "Professional services contractors replace LSPs in 504 and do not file Form 159.",
+        "Without authorization, CDCs may not discuss loan information even with an Applicant's spouse."
+      ]
+    },
+    {
+      "id": "a4-professional-services-contractors",
+      "title": "504 Professional Services Contractors",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. E.6",
+      "body": "Under 13 CFR 120.824, a CDC can outsource some functions, but most core ones need **pre-approval from the D/FA** (Director, Office of Financial Assistance).\n\n### Approval required vs. not\n\n| Pre-approval by D/FA required | No SBA approval needed |\n|---|---|\n| Managing (a waiver of the rule that the manager be a direct CDC employee must be requested) | Accounting |\n| Marketing, Packaging, Processing, Closing, Servicing, Liquidating | Legal services **not** related to liquidation or litigation |\n| Legal services for loan **liquidation or litigation** | Information technology |\n| **Independent Loan Reviews by another CDC** (CDCs may not review each other's portfolios, swap services, or make any arrangement that could bias the review) | Independent loan reviews by a **non-CDC** |\n| **Co-employment** contracts (e.g., payroll, taxes, benefits) | |\n\n### CDC-to-CDC contracts\n\nA CDC providing services to another CDC must (except for **liquidation** services or **independent loan reviews**, where the geographic limits do not apply): be in the **same SBA Region** or a **contiguous State**; serve **only one CDC per State**; and not serve a CDC in its own **State of Incorporation** or any State where it has **multi-state authority**. In all cases the CDCs need **separate, independent Boards**, no cross stock ownership if either is for-profit, and **no commingling of funds**. With SBA's prior written approval, a contract may create an affiliation based on **identity of interest** (13 CFR 121.103(f)), but affiliation through ownership or common management remains prohibited.\n\n### Review and decision\n\n- The **504 Loan Program Division** reviews and recommends; the **D/FA** decides (in consultation with **D/OCRM** for management or CDC-performed loan reviews). **OFA** notifies the CDC in writing and copies the Lead District Office.\n- Liquidation/litigation legal contracts are reviewed by the **Commercial Loan Servicing Center**.\n- Using a contractor **without approval** is reported to **OCRM**, and applications sent to the **SLPC** by the contractor's staff may be **held** until the contract is approved.\n\n### Submission\n\n**At least 60 days** before engaging the contractor, send to OFA at **504Requests@sba.gov**: a request from a responsible CDC official, an **unsigned draft** contract, and a **Board justification**. Do **not** submit it with the **Annual Report** (which separately lists all contracts by status). After approval, send the fully executed contract. To **renew**, resubmit **at least 60 days before** the approved term ends.\n\n### Contract contents\n\n**Must state:** the CDC Board retains ultimate responsibility for loan approvals and servicing, independent of the contractor (13 CFR 120.823); no contractor officer, director, **20%+ owner**, or Key Employee may sit on the CDC Board; the CDC pays all compensation and the contractor cannot charge the Borrower for the same services; the contractor may not require Applicants to buy its other services; **each individual** gets a **character determination**; and the CDC is responsible for contractor confidentiality compliance.\n\n**Must include:** services; a resume or work history for each individual; compensation by individual; **hourly rates** for everything except servicing (which may be a percentage within 13 CFR 120.971(a)(3)); the basis for finding fees customary; a statement that **no multipliers or bonuses** from CDC fee income are allowed; and a right for the CDC to terminate on written notice (**usually 30 to 60 days**) without penalty, with or without cause.\n\n**Must not:** include services by the CDC's **Executive Director**; show any conflict of interest or self-dealing by CDC officers, staff, Board or Loan Committee; or diminish the Board's responsibility.\n\nIt must come with a **Board Resolution** stating compliance with 13 CFR 120.823-120.825, that each new term needs D/FA pre-approval, and that approved contracts are subject to **yearly SBA review**.\n",
+      "keyPoints": [
+        "D/FA pre-approval needed for managing, marketing, packaging, processing, closing, servicing, liquidating, liquidation legal work, CDC-performed loan reviews, and co-employment.",
+        "Accounting, general legal, IT, and non-CDC loan reviews need no approval.",
+        "Submit to 504Requests@sba.gov at least 60 days before engagement and 60 days before term end for renewal.",
+        "CDC-to-CDC contracts: same Region or contiguous State, one CDC per State, separate Boards, no commingling.",
+        "Contracts need hourly rates (except servicing), no bonuses or multipliers, and a 30-60 day no-penalty termination right.",
+        "Board Resolution required; approved contracts are reviewed yearly."
+      ]
+    },
+    {
+      "id": "a4-form-159-504",
+      "title": "SBA Form 159 in 504",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. E.7",
+      "body": "The 504 version of the Form 159 rules mirrors 7(a), with the CDC in the lender's role. The legal basis is the same: Section 13 of the Small Business Act (15 U.S.C. 642) and 13 CFR 103.5, which require the Applicant, CDC, and any Agent to sign a compensation agreement.\n\n### What the CDC reports\n\n- In the **SBA Loan System**, whether an **Agent** was involved in any way, with the Agent's **name, street address, city, state, and zip code**. Form 159 can be generated there.\n\n### When it is required\n\n- For any Agent **other than a professional services contractor** working under an SBA-approved contract, paid by the Applicant or CDC, a Form 159 must be completed and signed by the **Applicant, the Agent, and the CDC**.\n- **Do not report fees paid for the Third Party Lender's loan** on Form 159.\n- **Separate forms for each Agent.** An Agent's failure to complete and sign may lead to **suspension or revocation** under 13 CFR Part 103.\n\n### Filling it out\n\n- Complete every appropriate field; the **seven-digit FIRS number** must be exact.\n- If one Agent's **aggregate compensation exceeds $2,500**, it must be **itemized**.\n- **Multiple applications** (for example, a **504 loan and a 7(a) loan**): separate forms for **each application and each Agent**, with fees **aggregated** for the $2,500 test.\n- **Multiple services**: report each on the **same** form, checking both \"Independent Loan Packager\" and \"Referral Agent/Broker\" and itemizing each amount.\n- **In-kind compensation** paid by the CDC must be itemized.\n\n### Not Agents for Form 159 in 504\n\n- Applicant's accountant for ordinary-course financial statements unrelated to the application;\n- State-certified or state-licensed **appraiser** employed by the CDC;\n- **Professional services contractor** under an SBA-approved contract;\n- **Environmental professional** employed by the CDC;\n- **Any attorney** in connection with the loan closing; and\n- **Real estate agent** earning a commission on a related sale.\n\n(The 7(a) list also exempts a lender-employed **Qualified Source** for business valuations; the 504 list does not mention one.)\n\n### Submission and retention\n\n| | 7(a) | 504 |\n|---|---|---|\n| Where | CAFS / E-Tran Servicing with the 1502 report | **Corporate Governance Repository** |\n| When | Within **two 1502 reporting cycles** after initial disbursement | Within **30 calendar days after the debenture funds** |\n| Extra reporting | - | List all Form 159 submissions in the **Annual Report (SBA Form 1253)** |\n\nBoth programs require keeping the **original-signature** form and all supporting documentation for compliance review.\n",
+      "keyPoints": [
+        "CDCs report Agent involvement with full address in the SBA Loan System.",
+        "Form 159 required for all Agents except SBA-approved professional services contractors; one per Agent.",
+        "Do not report Third Party Lender loan fees on Form 159.",
+        "Itemize when one Agent's aggregate compensation exceeds $2,500; aggregate across applications for this test.",
+        "Upload to the Corporate Governance Repository within 30 calendar days after the debenture funds.",
+        "List all Form 159 submissions in the Annual Report (SBA Form 1253)."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Agent",
+      "definition": "An authorized representative (attorney, accountant, consultant, packager, LSP, or other) representing an Applicant or participant by conducting business with SBA (13 CFR 103.1(a))."
+    },
+    {
+      "term": "Referral Agent",
+      "definition": "A person or entity that refers an Applicant to a Lender or a Lender to an Applicant; may be paid by either, but not both (13 CFR 103.1(f))."
+    },
+    {
+      "term": "Packager",
+      "definition": "An Agent employed and paid by an Applicant or Lender to prepare the Applicant's application; the Lender may itself be the Packager (13 CFR 103.1(e))."
+    },
+    {
+      "term": "Lender Service Provider (LSP)",
+      "definition": "A 7(a)-only Agent that carries out lender functions in originating, disbursing, servicing, or liquidating SBA loans for compensation from the Lender, under an SBA-reviewed agreement (13 CFR 103.1(d))."
+    },
+    {
+      "term": "LSP Agreement",
+      "definition": "The written contract between a 7(a) Lender and its LSP, submitted to SBA (LSPagreements@sba.gov) for review, with mandatory terms on services, compensation, term, and disclosures."
+    },
+    {
+      "term": "Professional Services Contractor",
+      "definition": "A party performing CDC functions under a contract pre-approved by the D/FA under 13 CFR 120.824; the 504 counterpart to an LSP."
+    },
+    {
+      "term": "SBA Form 159",
+      "definition": "Fee Disclosure Form and Compensation Agreement, signed by the Applicant, the Agent, and the Lender or CDC, disclosing Agent compensation."
+    },
+    {
+      "term": "Contingency Fee",
+      "definition": "A fee paid only if the loan is approved or closed; SBA prohibits Agents from charging them."
+    },
+    {
+      "term": "D/OCRM",
+      "definition": "Director of SBA's Office of Credit Risk Management, who may suspend or revoke an Agent's privilege to do business with SBA for good cause and receives reports of unreasonable Agent fees."
+    },
+    {
+      "term": "D/FA",
+      "definition": "Director of the Office of Financial Assistance, who pre-approves CDC professional services contracts."
+    },
+    {
+      "term": "Central Servicing Agent (CSA)",
+      "definition": "The 504 servicing agent that collects late fees on the CDC's behalf and charges initiation and on-going fees under its contract with SBA."
+    },
+    {
+      "term": "Net Debenture Proceeds",
+      "definition": "The 504 debenture figure used as the base for the CDC deposit cap, processing fee (up to 1.5%), and funding fee (0.25%)."
+    },
+    {
+      "term": "FIRS Number",
+      "definition": "Seven-digit identifier assigned by SBA that must be entered on SBA Form 159 exactly as assigned, with no extra characters."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "a4p2-q1",
+      "question": "An independent consultant charges an Applicant for packaging and also receives a referral fee from the 7(a) lender. Both the Applicant and the lender know about both relationships. Is this permitted?",
+      "options": [
+        "No, an Agent may never be paid by both the Applicant and the lender",
+        "Yes, this is the only situation where an Agent may be paid by both, provided it takes no referral fee from the Applicant and no packaging fee from the lender",
+        "Yes, as long as the combined fee is under $2,500",
+        "Only if the consultant is an LSP"
+      ],
+      "correctIndex": 1,
+      "explanation": "13 CFR 103.4(g) allows dual compensation only when the Agent provides different services: packaging for the Applicant and referral for the lender, with both parties aware and no referral fee from the Applicant or packaging fee from the lender. LSPs are paid only by the lender.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. D.1 and D.2",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a4p2-q2",
+      "question": "A 7(a) lender has decided to approve a loan and hires an outside Agent (not an LSP) to prepare the SBA paperwork and close the loan. How may the Agent's fee be paid?",
+      "options": [
+        "The lender pays it and may not pass it to the Applicant or pay it from loan proceeds, including working capital",
+        "The Applicant pays it at closing",
+        "From the working capital portion of the loan proceeds",
+        "Split equally between the lender and the Applicant"
+      ],
+      "correctIndex": 0,
+      "explanation": "When a lender employs an Agent for application paperwork, closing, or Secondary Market preparation, the Agent must bill and be paid by the lender, and the lender may not pass the charges to the Applicant or use SBA loan proceeds under any circumstances, including working capital.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. D.1",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a4p2-q3",
+      "question": "A fintech vendor provides a 7(a) lender with a platform that collects applicant financials and produces an underwritten application. How does SBA classify this vendor?",
+      "options": [
+        "Not an Agent, because it only provides technology",
+        "A Referral Agent who must file SBA Form 159",
+        "A Lender Service Provider requiring an SBA-reviewed LSP Agreement",
+        "A Packager who may charge the Applicant directly"
+      ],
+      "correctIndex": 2,
+      "explanation": "Agents who provide an underwritten application, whether through technology or otherwise, and technology providers whose services include underwriting, are LSPs. They must work under an LSP Agreement submitted to SBA for review, are paid only by the lender, and do not file Form 159.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. D.6",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a4p2-q4",
+      "question": "Which provision is prohibited in an LSP Agreement?",
+      "options": [
+        "A 60-day termination right for either party",
+        "Disclosure of the LSP's affiliations with other lenders",
+        "A statement that the LSP Agreement controls over conflicting agreements as to the SBA portfolio",
+        "A grant of power of attorney to the LSP to act on behalf of the lender"
+      ],
+      "correctIndex": 3,
+      "explanation": "An LSP Agreement may not grant the LSP power of attorney to act on behalf of the 7(a) lender. The other three items are expected or required contents: reasonable termination (usually 60 days or sooner for cause), affiliation disclosures, and a statement that the LSP Agreement controls.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. D.6",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a4p2-q5",
+      "question": "An LSP collects borrower payments for a 7(a) lender. Which arrangement complies with the SOP?",
+      "options": [
+        "Payments go to an account in the lender's name, separate from the LSP's other lender clients, and the LSP is paid separately without netting its fee",
+        "Payments go to the LSP's operating account and the LSP remits net of its fee",
+        "The LSP pools all client lenders' payments in one trust account",
+        "Payments go to an account in the LSP's name titled per SBA Form 1086"
+      ],
+      "correctIndex": 0,
+      "explanation": "Funds must be held in an account in the lender's name (titled per SBA Form 1086 if the guaranteed portion was sold), the LSP may not commingle funds of multiple lenders, and it may not net its fee out of borrower payments.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. D.6",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a4p2-q6",
+      "question": "A packager charges an Applicant on a percentage basis for a $10,000,000 loan. What is the maximum percentage-based fee?",
+      "options": [
+        "$42,500",
+        "$200,000",
+        "$30,000",
+        "$2,500"
+      ],
+      "correctIndex": 2,
+      "explanation": "Percentage-based Agent fees are 2% up to the first $1,000,000 plus 0.25% above, but the aggregate maximum on a percentage basis is $30,000. Applying the tiers to $10 million would exceed that cap, so $30,000 is the limit.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. D.7",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a4p2-q7",
+      "question": "Which of the following may an Agent charge an Applicant?",
+      "options": [
+        "A standard $1,500 flat fee it charges every Applicant",
+        "A fee payable only if the loan closes",
+        "A fee for services not reasonably necessary to the application",
+        "An hourly fee with no maximum, with the rate and time spent documented"
+      ],
+      "correctIndex": 3,
+      "explanation": "For hourly fees there is no maximum, but they must be reasonable and customary and the hourly rate and time must be documented. Agents may not charge standard flat fees to all Applicants, contingency fees, or fees for unnecessary services.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. D.7",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a4p2-q8",
+      "question": "An Applicant complains to its 7(a) lender that the packager charged excessive fees. What must the lender do?",
+      "options": [
+        "Nothing, since the packager was hired by the Applicant",
+        "Review the Agent's services and fees for necessity and reasonableness, and contact the D/OCRM if they appear unreasonable or impermissible",
+        "Refund the fee to the Applicant from its own funds",
+        "Cancel the loan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lenders must review Agent services and fees when an Applicant complains or a third party indicates fees may be excessive, and should report unreasonable or impermissible fees to the D/OCRM. If SBA finds the fee excessive, the Agent, not the lender, must refund the excess.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. D.7",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a4p2-q9",
+      "question": "Which party does NOT need to complete an SBA Form 159 on a 7(a) loan?",
+      "options": [
+        "An independent loan packager paid by the Applicant",
+        "A referral broker paid by the lender",
+        "The attorney handling the loan closing",
+        "A consultant advising the Applicant on the amount and type of financing"
+      ],
+      "correctIndex": 2,
+      "explanation": "Any attorney in connection with the SBA loan closing is not considered an Agent for Form 159 purposes. Packagers, referral brokers, and financing consultants are Agents and require a Form 159 signed by the Applicant, Agent, and lender.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. D.8",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a4p2-q10",
+      "question": "An Agent provides packaging services to an Applicant for both a 7(a) term loan and a 7(a) revolver, charging $1,500 on each. What is required?",
+      "options": [
+        "One Form 159 covering both loans, no itemization",
+        "Separate Forms 159 for each application, with fees aggregated ($3,000) so itemization and supporting documentation are required",
+        "Separate Forms 159 with no itemization, since each fee is under $2,500",
+        "No Form 159, since each fee is under $2,500"
+      ],
+      "correctIndex": 1,
+      "explanation": "When an Agent charges an Applicant in connection with multiple applications, separate Forms 159 are completed for each application, but the fees are aggregated to test the $2,500 itemization threshold. $3,000 exceeds it, so itemization and supporting documentation are required.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. D.8",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a4p2-q11",
+      "question": "By when must a 7(a) lender upload a completed SBA Form 159?",
+      "options": [
+        "Before submitting the application to SBA",
+        "Within 30 calendar days after loan approval",
+        "At the time of guaranty purchase",
+        "After initial disbursement, with the 1502 report, within two SBA Form 1502 reporting cycles from initial disbursement"
+      ],
+      "correctIndex": 3,
+      "explanation": "7(a) lenders upload Form 159 to E-Tran Servicing (or successor) after initial disbursement with the monthly 1502 report, within two reporting cycles. The 30-day deadline belongs to the 504 program and runs from debenture funding.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. D.8",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a4p2-q12",
+      "question": "A 504 project has Net Debenture Proceeds of $400,000. What is the maximum deposit the CDC may require at application?",
+      "options": [
+        "$2,500",
+        "$4,000",
+        "$6,000",
+        "No deposit is allowed"
+      ],
+      "correctIndex": 0,
+      "explanation": "The CDC may require a deposit of $2,500 or 1% of the Net Debenture Proceeds, whichever is less. 1% of $400,000 is $4,000, so the lesser amount, $2,500, is the maximum.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. E.1",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a4p2-q13",
+      "question": "A 504 Borrower's payment arrives on the 20th of the month. The regular payment is $1,500. What late fee may be charged?",
+      "options": [
+        "$75 (5% of the payment)",
+        "None, since the payment is less than 10 days late",
+        "$150 (10% of the payment)",
+        "$100 (the greater of 5% or $100)"
+      ],
+      "correctIndex": 3,
+      "explanation": "In 504, payments received after the 15th may be charged a late fee of 5% of the late payment or $100, whichever is greater. 5% of $1,500 is $75, so the $100 floor applies. The 10-day rule belongs to 7(a).",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. E.2",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a4p2-q14",
+      "question": "A CDC licenses a loan-document software platform. May it pass the license cost on to 504 Borrowers?",
+      "options": [
+        "Yes, as part of the processing fee up to 1.5%",
+        "No, technology service fees may not be passed on to the 504 Borrower",
+        "Yes, up to $2,500 without documentation",
+        "Yes, if financed from debenture proceeds within the $10,000 closing fee"
+      ],
+      "correctIndex": 1,
+      "explanation": "In 504, fees for technology services, including software for preparing SBA loan documents, CDC underwriting, or closing, may not be passed on to the Borrower. This differs from 7(a), where technology costs can be part of a lender's packaging fee.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. E.3",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a4p2-q15",
+      "question": "A CDC wants to engage another CDC to process its loans starting March 1. What is the submission requirement for SBA pre-approval of the contract?",
+      "options": [
+        "At least 60 days before March 1, sent to 504Requests@sba.gov with a Board justification",
+        "With its next Annual Report",
+        "Within 30 days after the contractor starts work",
+        "At least 30 days before March 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "At least 60 days before engaging the contractor, the CDC must submit to OFA at 504Requests@sba.gov a request from a responsible official, an unsigned draft contract, and a Board justification. The request may not be submitted with the Annual Report.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. E.6",
+      "difficulty": "scenario"
+    }
+  ]
+}

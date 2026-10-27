@@ -1,0 +1,252 @@
+{
+  "id": "a0-program-overview",
+  "order": 100,
+  "part": "A",
+  "program": "core",
+  "title": "How SOP 50 10 is organized",
+  "subtitle": "The map of SOP 50 10 8.1: Sections A, B and C, who SBA Lenders are, where origination ends, and how exceptions to policy work",
+  "sopRef": "SOP 50 10 8.1, Introduction and Section A introduction",
+  "estimatedMinutes": 15,
+  "learningObjectives": [
+    "Explain how Sections A, B and C fit together and why Section A always comes first",
+    "Name the Section B chapters and the 7(a) delivery methods they cover",
+    "Define SBA Lender, SBA Loan and Loan Program Requirements",
+    "Identify where SOP 50 10 stops and the servicing SOPs (50 57 and 50 55) take over",
+    "Describe how 7(a) delegated, 7(a) non-delegated, and 504 lenders request exceptions to policy and who decides"
+  ],
+  "topics": [
+    {
+      "id": "sop-map",
+      "title": "The map: Sections A, B and C",
+      "body": "SOP 50 10 8.1 is SBA's rulebook for **originating** 7(a) and 504 business loans: everything from deciding whether a business is eligible, through underwriting, approval, closing and disbursement. It is effective October 1, 2026. When you build software for SBA lenders, almost every rule your product enforces traces back to a paragraph in this document.\n\nThe SOP is organized in three sections, and the order matters:\n\n| Section | Who it applies to | What it covers |\n|---|---|---|\n| **A - Core Requirements** | Both 7(a) Lenders and CDCs | Rules common to every 7(a) and 504 loan (eligibility, and the other core requirements) |\n| **B - 7(a) Loan Program Specific Requirements** | 7(a) Lenders | Detailed guidance for each 7(a) delivery method, plus requirements from the SBA Terms and Conditions through closing and disbursement |\n| **C - 504 Loan Program Specific Requirements** | CDCs | Detailed guidance for delivering 504 loans |\n\n### Section A always comes first\n\nThe SOP is emphatic: 7(a) Lenders and CDCs \"must always start by reviewing the contents\" of Section A. A 7(a) Lender must comply with Section A **and** the applicable chapter of Section B. A CDC must comply with Section A **and** Section C. Section A is never optional, and the program sections add to it rather than replace it.\n\n### Section B chapter by chapter\n\nSection B is organized around 7(a) **delivery methods**, the different \"flavors\" of 7(a) loan:\n\n- **Chapter 1** - Standard 7(a) Loans (loans greater than $350,000)\n- **Chapter 2** - 7(a) Small and SBA Express\n- **Chapter 3** - 7(a) Manufacturers' Access to Revolving Credit (MARC)\n- **Chapter 4** - 7(a) CAPLines\n- **Chapter 5** - 7(a) Export Trade Finance: Export Express, Export Working Capital Program (EWCP), and International Trade\n- **Chapter 6** - SBA Terms and Conditions through Disbursement for all 7(a) loans\n\nChapter 6 is the one that applies to every 7(a) loan regardless of delivery method: requirements \"from the SBA Terms and Conditions through loan closing and disbursement\" live there.\n\n> **In practice:** When you are checking a rule for a specific loan, read in this order: Section A (does the core rule apply?), then the program section (7(a) delivery-method chapter or Section C), then Section B Chapter 6 for any 7(a) closing or disbursement question.",
+      "keyPoints": [
+        "Section A = core requirements for BOTH 7(a) and 504 - always start here",
+        "Section B = 7(a)-specific requirements, one chapter per delivery method plus Chapter 6 for all 7(a) loans",
+        "Section C = 504-specific requirements for CDCs",
+        "Every 7(a) or 504 loan must satisfy Section A PLUS its program section"
+      ],
+      "sopRef": "SOP 50 10 8.1, Introduction"
+    },
+    {
+      "id": "lenders-and-programs",
+      "title": "7(a) vs 504 and who the SBA Lenders are",
+      "body": "The SOP covers two different SBA business loan programs that share one set of core rules.\n\n### Two programs, two kinds of lender\n\n- **7(a) Loan Program** - a 7(a) Lender makes the loan and SBA guarantees a portion of it. The SOP sorts 7(a) loans by delivery method (Standard, 7(a) Small, SBA Express, MARC, CAPLines, and the export products).\n- **504 Loan Program** - delivered by a **Certified Development Company (CDC)**. SBA's part of a 504 project is funded through a **Debenture**, and the SOP refers repeatedly to the **Third Party Lender**, the lender providing its own financing alongside the 504 loan in the project. Several Section A rules therefore have 504 variants that mention the Third Party Lender (for example, the credit elsewhere test and CIP/OFAC reliance).\n\n### The vocabulary you will see everywhere\n\n| Term | Meaning in the SOP |\n|---|---|\n| **SBA Lender** | Defined in 13 CFR 120.10 as a 7(a) Lender **or** a CDC. It also includes SBA Supervised Lenders. When the SOP says \"SBA Lender\", the rule applies to both programs. |\n| **SBA Loan** | The full amount of the 7(a) loan, or the **Gross Debenture** amount of the 504 loan. |\n| **Applicant** | The business applying for the loan. |\n| **Loan Program Requirements** | Everything an SBA Lender is bound by - see below. |\n\n### Loan Program Requirements\n\n13 CFR 120.10 defines **Loan Program Requirements** as requirements imposed on Lenders or CDCs by:\n\n- statute;\n- SBA and other applicable government-wide regulations;\n- any agreement the Lender or CDC has executed with SBA or is subject to;\n- SBA Standard Operating Procedures (SOPs);\n- Federal Register notices;\n- official SBA notices and forms applicable to the 7(a) or 504 Loan Program; and\n- the SBA Terms and Conditions, as issued and revised by SBA from time to time.\n\nFor CDCs, the term also includes requirements imposed by **Debentures** (as defined in 13 CFR 120.802). For every 7(a) and 504 loan, both the Applicant and the project must meet all Loan Program Requirements.\n\n> **In practice:** In software, a rule labeled \"SBA Lender must...\" usually needs to be enforced for both 7(a) and 504 workflows. A rule labeled \"7(a) Lender\" or \"CDC\" is program-specific.",
+      "keyPoints": [
+        "\"SBA Lender\" (13 CFR 120.10) = a 7(a) Lender or a CDC, including SBA Supervised Lenders",
+        "\"SBA Loan\" = the full amount of the 7(a) loan, or the Gross Debenture amount of the 504 loan",
+        "7(a) loans are made by 7(a) Lenders; 504 loans are delivered by CDCs, with a Third Party Lender providing separate financing",
+        "Loan Program Requirements include statutes, regulations, SBA agreements, SOPs, Federal Register notices, official notices and forms, and the SBA Terms and Conditions"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section A, Introduction"
+    },
+    {
+      "id": "origination-vs-servicing",
+      "title": "Where this SOP ends: the handoff to servicing",
+      "body": "SOP 50 10 8.1 is an **origination** document. Its rules carry a loan from the first eligibility check through approval, closing and disbursement. Once the SBA Loan is disbursed, a different set of SOPs takes over.\n\n| Program | After disbursement, comply with |\n|---|---|\n| 7(a) loans | **SOP 50 57** - 7(a) Loan Servicing and Liquidation |\n| 504 loans | **SOP 50 55** - 504 Loan Servicing and Liquidation |\n\nRecall that \"SBA Loan\" here means the full amount of the 7(a) loan, or the Gross Debenture amount of the 504 loan.\n\n### Why the boundary matters\n\n- **Product scope.** Origination features (eligibility screens, credit memos, authorizations, closing checklists) map to SOP 50 10. Post-disbursement features (servicing actions, defaults, liquidation) map to SOP 50 57 or 50 55.\n- **Overlap is limited but real.** Some origination rules reach into later events. For example, Chapter 1 says that for servicing requests such as substituting an owner or SBA-required guarantor, the new individual may not be an Ineligible Person, and the same ownership-entry process applies. Expect occasional cross-references like this.\n\n> **Watch out:** Do not assume a servicing question is answered by SOP 50 10. If the loan has already been disbursed, check the servicing SOP for the program first.",
+      "keyPoints": [
+        "SOP 50 10 governs the loan up to and through disbursement",
+        "After disbursement, 7(a) loans follow SOP 50 57 (servicing and liquidation)",
+        "After disbursement, 504 loans follow SOP 50 55 (servicing and liquidation)"
+      ],
+      "sopRef": "SOP 50 10 8.1, Introduction"
+    },
+    {
+      "id": "exceptions-to-policy",
+      "title": "Exceptions to policy: how to ask and who decides",
+      "body": "Sometimes policy does not fit the unique facts of a loan. In that case the SBA Lender may request an **exception to policy**. The route depends on the program and on whether the lender has delegated authority.\n\n### 7(a) Loan Program\n\n| Lender type | Where to send it | What happens |\n|---|---|---|\n| **No delegated authority** | 7aLoanProgram@sba.gov | The loan is processed under **non-delegated** procedures. |\n| **Delegated authority** | 7aDelegatedLoanApps@sba.gov | If approved, the lender gets a confirmation email and **must** proceed under delegated authority, retaining the approval email in the loan file. |\n\nA delegated request must include: the Applicant's name, the principals' names, the project address, loan amount, delivery method, the policy at issue, and why the exception should be granted. The lender provides a **summary of the facts** - SBA will not review the whole case file or multiple attachments.\n\nThe delegated mailbox is only for delegated lenders with questions about a **specific** application. General policy questions go to **7aQuestions@sba.gov**. Every email must state the loan amount and delivery method.\n\n### 504 Loan Program\n\n- **At application:** the CDC requests the exception in the **credit memorandum**.\n- **After approval, or due to changes to an approved project:** the CDC submits a **\"327 action\"** for review.\n\n### Who decides\n\nThe loan processing center or Headquarters team analyzes the request and recommends a decision to:\n\n- the **D/FA or designee** - for 504 loans and for 7(a) loans other than EWCP, Export Express and International Trade; or\n- the **Director, International Trade Finance (D/ITF)** - for EWCP, Export Express and IT loans.\n\nThe D/FA or designee, or D/ITF (or someone acting in that capacity), makes the final decision. For Export Express loans, the D/OCRM must concur.\n\n### Limits on exceptions\n\n- No exception may be approved if it would be **inconsistent with a statute or regulation**.\n- The process is only for situations needing a **minor deviation** from standard policy.\n- Decisions are **case-by-case** and apply only to that specific request.\n- The decision must be documented in the appropriate Agency loan file.\n\n> **Watch out:** An exception granted on one loan is not precedent. Software should never treat a past exception as a reusable rule override.",
+      "keyPoints": [
+        "Non-delegated 7(a): request to 7aLoanProgram@sba.gov; loan processed under non-delegated procedures",
+        "Delegated 7(a): request to 7aDelegatedLoanApps@sba.gov with a facts summary; approval email must be retained in the loan file",
+        "General 7(a) policy questions go to 7aQuestions@sba.gov, not the delegated mailbox",
+        "504: request in the credit memorandum at application, or via a \"327 action\" after approval",
+        "D/FA or designee decides (D/ITF for EWCP, Export Express and IT; D/OCRM concurs for Export Express)",
+        "No exception may be inconsistent with a statute or regulation; minor deviations only; case-by-case"
+      ],
+      "sopRef": "SOP 50 10 8.1, Introduction, Exceptions to Policy"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "SBA Lender",
+      "definition": "Defined in 13 CFR 120.10 as a 7(a) Lender or a CDC; includes SBA Supervised Lenders."
+    },
+    {
+      "term": "SBA Loan",
+      "definition": "The full amount of the 7(a) loan, or the Gross Debenture amount of the 504 loan."
+    },
+    {
+      "term": "CDC",
+      "definition": "Certified Development Company - the entity that delivers 504 loans."
+    },
+    {
+      "term": "Third Party Lender",
+      "definition": "In a 504 project, the lender providing its own financing alongside the 504 loan; several Section A rules reference it."
+    },
+    {
+      "term": "Loan Program Requirements",
+      "definition": "Requirements imposed by statute, regulations, SBA agreements, SOPs, Federal Register notices, official SBA notices and forms, and the SBA Terms and Conditions; for CDCs also Debenture requirements (13 CFR 120.10)."
+    },
+    {
+      "term": "Delivery method",
+      "definition": "A variant of 7(a) loan (Standard, 7(a) Small, SBA Express, MARC, CAPLines, Export Express, EWCP, International Trade), each with a Section B chapter."
+    },
+    {
+      "term": "Exception to policy",
+      "definition": "A case-by-case approval of a minor deviation from standard policy; may never be inconsistent with a statute or regulation."
+    },
+    {
+      "term": "327 action",
+      "definition": "The 504 submission used to request a policy exception after approval or because of changes to an approved project."
+    },
+    {
+      "term": "D/FA",
+      "definition": "The SBA official (or designee) who decides exceptions to policy for 504 loans and for 7(a) loans other than EWCP, Export Express and IT."
+    },
+    {
+      "term": "D/ITF",
+      "definition": "Director, International Trade Finance - decides exceptions for EWCP, Export Express and International Trade loans."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "a0-q1",
+      "question": "Which section of SOP 50 10 8.1 must both 7(a) Lenders and CDCs always start by reviewing?",
+      "options": [
+        "Section A - Core Requirements for all 7(a) and 504 loans",
+        "Section B, Chapter 6 - Terms and Conditions through Disbursement",
+        "Section C - 504 Loan Program Specific Requirements",
+        "Appendix 3 - Ineligible Persons"
+      ],
+      "correctIndex": 0,
+      "explanation": "The SOP says 7(a) Lenders and CDCs must always start with Section A, which applies to both programs. Section B Chapter 6 applies only to 7(a) loans, and Section C only to 504.",
+      "sopRef": "SOP 50 10 8.1, Section A, Introduction",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a0-q2",
+      "question": "Under 13 CFR 120.10, what does the term \"SBA Lender\" mean?",
+      "options": [
+        "Only banks that hold PLP authority",
+        "Only 7(a) Lenders; CDCs are called Development Lenders",
+        "A 7(a) Lender or a CDC, including SBA Supervised Lenders",
+        "Any lender, including Third Party Lenders in a 504 project"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"SBA Lender\" is defined as a 7(a) Lender or a CDC and includes SBA Supervised Lenders. It is not limited to delegated lenders, and a 504 Third Party Lender is a separate role.",
+      "sopRef": "SOP 50 10 8.1, Section A, Introduction",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a0-q3",
+      "question": "After a 504 loan is disbursed, which SOP governs its servicing and liquidation?",
+      "options": [
+        "SOP 50 57",
+        "SOP 50 55",
+        "SOP 50 10 8.1, Section C",
+        "SOP 50 53"
+      ],
+      "correctIndex": 1,
+      "explanation": "The SOP directs 504 loans to SOP 50 55 after disbursement. SOP 50 57 is the 7(a) servicing and liquidation SOP.",
+      "sopRef": "SOP 50 10 8.1, Introduction",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a0-q4",
+      "question": "For purposes of SOP 50 10 8.1, the \"SBA Loan\" in a 504 transaction is measured as:",
+      "options": [
+        "The Third Party Lender loan amount",
+        "The total project cost",
+        "The net debenture proceeds after fees",
+        "The Gross Debenture amount"
+      ],
+      "correctIndex": 3,
+      "explanation": "The SOP defines SBA Loan as the full amount of the 7(a) loan or the Gross Debenture amount of the 504 loan. The Third Party Lender loan and total project cost are different figures.",
+      "sopRef": "SOP 50 10 8.1, Introduction",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a0-q5",
+      "question": "A 7(a) Lender has questions about requirements for SBA Terms and Conditions through disbursement for an SBA Express loan. Which part of the SOP covers those requirements for all 7(a) loans?",
+      "options": [
+        "Section B, Chapter 2",
+        "Section A, Chapter 1",
+        "Section B, Chapter 6",
+        "Section C"
+      ],
+      "correctIndex": 2,
+      "explanation": "Section B Chapter 6 covers SBA Terms and Conditions through closing and disbursement for all 7(a) loans. Chapter 2 covers the 7(a) Small and SBA Express delivery methods themselves, not the closing requirements common to all 7(a) loans.",
+      "sopRef": "SOP 50 10 8.1, Introduction",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a0-q6",
+      "question": "A PLP lender wants an exception to policy on a specific Standard 7(a) application and wants to keep processing it under delegated authority. What should it do?",
+      "options": [
+        "Email 7aDelegatedLoanApps@sba.gov with a facts summary including Applicant, principals, project address, loan amount, delivery method and the policy at issue",
+        "Email 7aQuestions@sba.gov with the full credit file attached",
+        "Submit a 327 action through the loan processing center",
+        "Approve the loan and document its own exception in the credit memo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Delegated lenders send exception requests to 7aDelegatedLoanApps@sba.gov with a summary of facts (SBA will not review the full file). 7aQuestions@sba.gov is for general policy questions, and a 327 action is the 504 route after approval.",
+      "sopRef": "SOP 50 10 8.1, Introduction, Exceptions to Policy",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a0-q7",
+      "question": "SBA approves a delegated 7(a) lender's exception request by email. Which statement is correct?",
+      "options": [
+        "The lender must now submit the loan under non-delegated procedures",
+        "The lender must proceed under delegated authority and retain the approval email in the loan file",
+        "The exception now applies to all similar loans the lender makes",
+        "The lender may discard the email once the loan number is issued"
+      ],
+      "correctIndex": 1,
+      "explanation": "On approval the lender must proceed under delegated authority and keep the email in the loan file. Exceptions are case-by-case and apply only to the specific request, so they do not carry over to similar loans.",
+      "sopRef": "SOP 50 10 8.1, Introduction, Exceptions to Policy",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a0-q8",
+      "question": "A CDC learns after 504 approval that the project changed in a way that requires a policy exception. How is the exception requested?",
+      "options": [
+        "Through the credit memorandum at application",
+        "By email to 7aLoanProgram@sba.gov",
+        "By submitting a \"327 action\" for review",
+        "By the Third Party Lender requesting it from its regulator"
+      ],
+      "correctIndex": 2,
+      "explanation": "After approval, or because of changes to an approved 504 project, the CDC submits a 327 action. The credit memorandum route applies only at the time of application.",
+      "sopRef": "SOP 50 10 8.1, Introduction, Exceptions to Policy",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a0-q9",
+      "question": "Who makes the final decision on an exception to policy for an Export Working Capital Program (EWCP) loan?",
+      "options": [
+        "The D/FA or designee",
+        "The Director, International Trade Finance (D/ITF)",
+        "The SBA District Director",
+        "The D/OCRM alone"
+      ],
+      "correctIndex": 1,
+      "explanation": "EWCP, Export Express and International Trade exceptions go to the D/ITF. The D/FA or designee decides 504 loans and other 7(a) loans; the D/OCRM only concurs on Export Express.",
+      "sopRef": "SOP 50 10 8.1, Introduction, Exceptions to Policy",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a0-q10",
+      "question": "Which exception request could the D/FA NOT approve?",
+      "options": [
+        "A minor deviation from an SOP paragraph to fit unusual facts",
+        "An exception for a delegated lender whose request came with a facts summary",
+        "An exception requested in a 504 credit memorandum",
+        "An exception that would be inconsistent with a regulation"
+      ],
+      "correctIndex": 3,
+      "explanation": "The D/FA or designee may not approve an exception inconsistent with a statute or regulation. Minor deviations from standard policy, properly requested, are exactly what the process is for.",
+      "sopRef": "SOP 50 10 8.1, Introduction, Exceptions to Policy",
+      "difficulty": "applied"
+    }
+  ]
+}

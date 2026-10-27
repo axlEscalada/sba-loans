@@ -1,0 +1,421 @@
+{
+  "id": "a4-ethics-and-7a-fees",
+  "order": 140,
+  "part": "A",
+  "program": "core",
+  "title": "Ethics, Exclusions, and 7(a) Fees",
+  "subtitle": "Chapter 4, Part 1: conflicts of interest, Standards of Conduct reviews, SAM and SAFER checks, and every fee in a 7(a) loan",
+  "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Paras. A-C",
+  "estimatedMinutes": 50,
+  "learningObjectives": [
+    "Identify lender conflicts of interest, including the 6-month look-back, and their consequences for the guaranty.",
+    "Determine when a Standards of Conduct Counselor, Committee, or no-objection clearance is required.",
+    "List who must be searched in SAM Exclusions and when a SAFER check is needed.",
+    "Calculate the 7(a) Upfront Fee, apply the 90-day aggregation rule, and meet payment deadlines.",
+    "Distinguish fees a lender may charge a Borrower from prohibited fees, including their caps.",
+    "Explain when the Subsidy Recoupment Fee applies and how much it is."
+  ],
+  "topics": [
+    {
+      "id": "a4-conflicts-of-interest",
+      "title": "Conflicts of Interest and the 6-Month Look-Back",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. A.1",
+      "body": "Chapter 4 opens with a reminder that sets the tone for everything about fees and third parties: **nobody needs an Agent to conduct business with SBA**. An applicant can walk into a lender and apply on its own. (\"Conduct business with SBA\" is defined at 13 CFR 103.1(b).) The rest of the chapter is about keeping the people around a loan honest - lenders, their Associates, government employees, packagers, and service providers.\n\n### The core rule\n\nUnder 13 CFR 120.140 and 13 CFR Part 105, neither an SBA Lender nor its **Associates** may have a **real or apparent** conflict of interest with:\n\n- the small business it is dealing with, or\n- SBA itself.\n\nNote the word *apparent*. A relationship that merely looks bad can be a problem even if no one actually benefited.\n\n### When SBA will not guarantee the loan\n\nSBA will not guarantee a loan if the SBA Lender, its Associates, its partner(s), or a **close relative** of any of them:\n\n- **has** a direct or indirect financial or other interest in the Applicant, or\n- **had** such an interest within **6 months prior to the date of application**.\n\nSo a loan officer who sold her stake in the applicant three months before the application still triggers the rule. The look-back is measured from the application date, not from approval or closing.\n\n### After the loan is made\n\nThe rule keeps running for the life of the loan. If the lender, its Associates, partner(s) or a close relative **acquires** such an interest at any time during the term of the loan, SBA may, in its discretion, be **released from liability on its guaranty**. That is about the most serious consequence a lender can face: the guaranty it paid for may be gone.\n\n### What the lender must do\n\n- **Exercise care and judgment** in deciding whether a conflict exists. There is no checklist that substitutes for thinking it through.\n- **Document the file in detail.** If an examiner or the purchase reviewer later asks why a relationship was not a conflict, the answer must already be in the file.\n\n> **In practice:** Build a conflict question into intake: ask whether any lender director, officer, employee, or their close relatives holds or held (in the last 6 months) any interest in the applicant. Capture the answer and the analysis in the credit memo, not just a yes/no checkbox.\n\n> **Watch out:** \"Indirect\" and \"other\" interests count. An Associate who is a creditor of the applicant, or who holds an interest through another entity, is still a potential conflict.\n",
+      "keyPoints": [
+        "No applicant is required to use an Agent to conduct business with SBA.",
+        "Lenders and Associates may not have a real or apparent conflict of interest with the small business or SBA.",
+        "No guaranty if the lender, Associates, partners or close relatives have, or had within 6 months before application, an interest in the Applicant.",
+        "Acquiring such an interest during the loan term can release SBA from its guaranty, at SBA's discretion.",
+        "Lenders must document their conflict analysis in detail in the file."
+      ]
+    },
+    {
+      "id": "a4-standards-of-conduct",
+      "title": "Standards of Conduct Reviews: SBA Employees, Officials, and Federal Employees",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. A.2-A.3",
+      "body": "Some applicants have ties to people inside SBA or elsewhere in the Federal Government. These loans are not forbidden, but they need an extra ethics clearance before they can move forward. Knowing which clearance applies (and who gives it) is the key skill.\n\n### Who decides\n\n- The **Standards of Conduct Counselor** for SBA is the **Designated Agency Ethics Official** (13 CFR 105.402(a)).\n- Some cases go higher, to the **Standards of Conduct Committee** at SBA Headquarters.\n\n### The triggers\n\n| Who is connected to the Applicant | Relationship to the Applicant | Approval needed |\n|---|---|---|\n| A **former** SBA Employee who was an SBA Employee **within 1 year** before the application | Employee, owner, general partner, managing member, attorney, agent, owner of stock, officer, director, creditor or debtor | **Standards of Conduct Counselor** (13 CFR 105.203(a)) |\n| A **current** SBA Employee, or a **Household Member** of an SBA Employee | Sole proprietor, general partner, managing member, officer, director, or stockholder with **10% or more** | **Standards of Conduct Committee** at HQ (13 CFR 105.204) |\n| A Member of Congress; an appointed official or employee of the legislative or judicial branch; a member or employee of a Small Business Advisory Council; or a SCORE volunteer (or a Household Member of such individual) | Sole proprietor, general partner, managing member, officer, director, or 10%+ stockholder | **Standards of Conduct Committee** (13 CFR 105.301(c) and 105.302(a)) |\n\nA **Household Member** of an SBA Employee includes the spouse, the minor children, and blood relatives of the Employee or of the Employee's spouse who live in the same place of abode (13 CFR 105.201(d)).\n\n### How the approval flows\n\nThe application is processed by the appropriate **processing center**, conditionally approved if appropriate, and forwarded to the Counselor (or to the Committee *through* the Counselor). The Counselor notifies the processing center of the final decision, and the processing center notifies the lender.\n\n### Other Federal employees (GS-13 and above)\n\nIf the Applicant's sole proprietor, general partner, managing member, officer, director, or 10%+ stockholder - or a Household Member of such individual - is an **Executive Branch** employee of another department or agency at **GS-13 or higher** (or equivalent):\n\n1. The Applicant must give the lender a **statement of no objection** signed by the **ethics official** of that department or military service. A **new statement is required for each loan**.\n2. The lender emails the statement as a PDF to **SNOMemos@sba.gov** and must get **written clearance from SBA** before submitting to the processing center (non-delegated) or before processing under delegated authority.\n3. Non-delegated: submit a copy of SBA's clearance with the application. Delegated: keep the clearance in the loan file.\n4. SBA reviews these during lender oversight, and for 7(a) loans the statement must be included in any **guaranty purchase request** after default.\n\n> **Watch out:** The SBA-employee look-back (1 year) is different from the conflict-of-interest look-back for lenders (6 months). Don't mix them up.\n",
+      "keyPoints": [
+        "Standards of Conduct Counselor = SBA's Designated Agency Ethics Official.",
+        "Former SBA Employee within 1 year before application, in almost any role: Counselor approval.",
+        "Current SBA Employee or Household Member as owner/officer/10%+ stockholder: Committee approval at HQ.",
+        "Members of Congress, legislative/judicial staff, SBAC members/employees, SCORE volunteers: Committee approval.",
+        "Executive Branch employees at GS-13 or above: statement of no objection for every loan, emailed to SNOMemos@sba.gov, cleared before submission or delegated processing.",
+        "For 7(a), the no-objection statement must be included in any guaranty purchase request."
+      ]
+    },
+    {
+      "id": "a4-sam-safer",
+      "title": "Debarment and Exclusion Checks: SAM.gov and SAFER",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. B",
+      "body": "Anyone suspended, debarred, revoked, or otherwise excluded under SBA or Government-wide debarment rules (2 CFR Part 180, adopted by SBA at 2 CFR Part 2700) **may not conduct business with SBA**. The lender is the gatekeeper: it must search the **System for Award Management Exclusions (SAM Exclusions)**, or any successor system, and keep evidence of the search (for example, a screenshot of the results).\n\n### Who must be searched - in the loan file\n\nFor every loan, document a SAM Exclusions search for the **small business Applicant and** each of the following:\n\n| Applicant structure | Who to search |\n|---|---|\n| Sole proprietorship | The sole proprietor |\n| Partnership | All general partners; limited partners owning **20% or more**; any partner involved in management |\n| Corporation | All owners of **20% or more**, and each officer and director |\n| LLC | All members owning **20% or more**; each officer, director, and managing member |\n\nPlus, regardless of structure:\n\n- **Key Employees**;\n- the **Living Trustor**, if the Applicant is owned by a trust;\n- any **legal entity** holding 20% or more of the Applicant; and\n- for **EPC/OC** structures, **both** the EPC and the OC, whether the OC is a borrower or a guarantor.\n\n### Who must be searched - in the lender's own files\n\nThe lender must also screen its own side of the house. Evidence goes in the **lender's files** (not each loan file), and the search is required **only once, before the person's or entity's first day of work on SBA-related business**:\n\n- lender employees involved in any stage of processing, closing, servicing, or liquidating SBA loans, or who have access to that data;\n- **Agents**;\n- for 7(a), **Lender Service Providers** and LSP employees; and\n- for 504, **contractors** under an SBA-approved professional services contract (13 CFR 120.824).\n\n### Trucking and bus companies: SAFER\n\nThe Federal Motor Carrier Safety Administration requires companies operating commercial motor vehicles that carry passengers or haul cargo in interstate commerce to have a **USDOT number**. If the Applicant needs one, the lender must, *in addition to* the SAM search, verify it in **SAFER Web (Company Snapshot)** and keep evidence showing:\n\n- an **active USDOT number in good standing**; and\n- a **physical address that matches** the company's physical address (**no P.O. boxes**).\n\n> **In practice:** Lending software can automate this well: generate the list of required search subjects from the ownership table (anyone at 20%+, officers, directors, Key Employees, trustors, entity owners, EPC/OC), then attach dated screenshots to the file.\n",
+      "keyPoints": [
+        "Excluded parties may not conduct business with SBA; lenders must search SAM Exclusions and keep evidence.",
+        "Search the Applicant plus 20%+ owners, officers, directors, general partners, managing members, Key Employees, trustors, 20%+ entity owners, and both EPC and OC.",
+        "Lender staff, Agents, LSPs (7(a)) and professional services contractors (504) are searched once, before their first day on SBA work.",
+        "If FMCSA requires a USDOT number, verify it in SAFER: active and in good standing, physical address matches, no P.O. boxes."
+      ]
+    },
+    {
+      "id": "a4-upfront-fee-calculation",
+      "title": "The 7(a) Upfront (Guaranty) Fee: How It Is Calculated",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. C.1.a",
+      "body": "The lender pays SBA two fees to obtain and keep a 7(a) guaranty (13 CFR 120.220): the **SBA Guaranty Fee** (also called the **Upfront Fee**) and the **Lender's Annual Service Fee** (also called the on-going guaranty fee). The lender owes these fees to SBA no matter what the borrower does.\n\n### Who bears the Upfront Fee\n\n- The lender **may pass** the Upfront Fee on to the Borrower.\n- The Borrower may use **loan proceeds** to pay it, but the **first disbursement may not be made primarily to pay the fee**, and the SBA Terms and Conditions must include a Use of Proceeds line for it.\n- With an **escrow closing**, the lender may charge the Borrower the fee only once **all loan funds have been disbursed** from escrow.\n\nSBA calculates the fee automatically for each loan and adjusts it in its systems for other loans approved within the past 90 days (short-term loans excluded from that adjustment).\n\n### The fee chart\n\nThe **gross loan amount** picks the bracket, but the percentage is applied to the **guaranteed portion**.\n\n| Gross loan size | Maximum Upfront Fee |\n|---|---|\n| $150,000 or less (maturity over 12 months) | **2%** of guaranteed portion; lender may **retain 25%** of the fee |\n| $150,001 to $700,000 (maturity over 12 months) | **3%** of guaranteed portion |\n| $700,001 to $5,000,000 (maturity over 12 months) | **3.5%** of guaranteed portion up to $1,000,000 **plus 3.75%** of guaranteed portion over $1,000,000 |\n| Short-term loans up to $5 million (maturity 12 months or less) | **0.25%** of guaranteed portion |\n\nThese are the **maximums** authorized by 13 CFR 120.220. SBA may announce temporary changes for a fiscal year through an **Information Notice**, so always check the current notice.\n\n### Worked examples from the SOP\n\n- **$100,000 loan, 85% guaranty:** 2% of $85,000 = **$1,700**, of which the lender may keep **$425**.\n- **$5,000,000 loan, 75% guaranty** ($3.75 million guaranteed): 3.5% of $1,000,000 ($35,000) plus 3.75% of $2,750,000 ($103,125) = **$138,125**.\n\n### SBA Express veteran waiver\n\nFor **SBA Express only**, the Upfront Fee is waived for businesses owned and controlled by: a veteran (other than one with a Dishonorable or Bad Conduct Discharge); Service-Disabled Veterans; Active Duty members in the Transition Assistance Program (TAP); or the spouse of a Veteran or Active Duty member, or the widowed spouse of a service member who died in service or of a service-connected disability.\n\n> **Watch out:** A common error is applying the percentage to the whole loan. It is always a percentage of the **guaranteed portion**.\n",
+      "keyPoints": [
+        "Gross loan size picks the bracket; the fee is a percentage of the guaranteed portion.",
+        "$150,000 or less: 2%, lender keeps 25%. $150,001-$700,000: 3%. $700,001-$5,000,000: 3.5% up to $1M of guaranty plus 3.75% above.",
+        "Short-term (12 months or less) up to $5 million: 0.25% of the guaranteed portion.",
+        "The lender may pass the fee to the Borrower, but the first disbursement may not be made primarily to pay it.",
+        "Chart values are maximums; SBA may change them for a fiscal year by Information Notice.",
+        "SBA Express: Upfront Fee waived for eligible veteran-owned businesses."
+      ]
+    },
+    {
+      "id": "a4-multiple-loans-90-days",
+      "title": "Multiple 7(a) Loans Within 90 Days",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. C.1.a.2",
+      "body": "Borrowers sometimes get two or more 7(a) loans close together - a term loan and a line of credit, or loans from two different lenders. Without a rule, splitting one need into smaller loans could lower the fee bracket. SBA closes that door with the **90-day rule**.\n\n### The basic rule\n\nExcept for scenarios involving the **Working Capital Pilot (WCP)** and the **Export Working Capital Program (EWCP)**:\n\n- When two or more 7(a) loans with maturities **over 12 months** are approved for an applicant, **including its affiliates**, within **90 days** of each other, they are treated as **one loan** for both the **guaranty percentage** and the **Upfront Fee** calculation.\n- This applies whether the loans came from the **same or different lenders**.\n- The fee on the later loan(s) equals the fee that would have been charged on the combined amount, **less the fee already charged on the first loan**.\n\n### Special cases\n\n| Situation | How it works |\n|---|---|\n| One or more of the loans is **WCP or EWCP** | Loan amounts are combined to set the **guaranty percentage** and Upfront Fee relief for manufacturers, but for the **Upfront Fee calculation** WCP and EWCP loans are **not combined** with other 7(a) loans, since their fees are based on maturity. |\n| One **short-term** and one **long-term** loan | Guaranty percentage is calculated as if combined; the **Upfront Fee is based solely on each loan's own maturity**. |\n| Short-term loan made within 90 days of a long-term loan is **renewed beyond 12 months** | Fee at renewal = what would have been charged if both loans had originally been long term, **less** what was paid at original approval. |\n| **Increases** to either loan within the 90-day window | The rule still applies, **even if one loan is later paid in full**. |\n\n### What is *not* aggregated\n\nThe **Lender's Annual Service Fee** is set for each loan on a **standalone** basis. Loans made within 90 days are **not** aggregated for that fee.\n\n> **In practice:** Always ask about other SBA loans - from any lender - to the applicant or its affiliates in the last 90 days. SBA's systems will recalculate the fee anyway, and a surprise fee difference at closing is a bad customer experience.\n",
+      "keyPoints": [
+        "Two or more 7(a) loans (maturity over 12 months) approved within 90 days to an applicant and its affiliates are one loan for guaranty % and Upfront Fee.",
+        "Applies whether the loans are from the same or different lenders.",
+        "Fee on later loans = fee on combined amount minus fee charged on the first loan.",
+        "WCP/EWCP loans are combined for guaranty % but not for the Upfront Fee calculation.",
+        "Short-term plus long-term: combined for guaranty %, but each fee follows its own maturity.",
+        "The Lender's Annual Service Fee is never aggregated."
+      ]
+    },
+    {
+      "id": "a4-upfront-fee-timing",
+      "title": "When and How the Upfront Fee Is Paid",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. C.1.a.3 and C.1.a.6",
+      "body": "Missing an Upfront Fee deadline cancels the guaranty, so the dates matter. They depend on loan maturity (13 CFR 120.220(b)).\n\n### Deadlines\n\n| Loan type | Deadline | Consequence if missed |\n|---|---|---|\n| Short-term (maturity **12 months or less**) | Pay through **www.pay.gov** within **10 business days** from the date the **SBA Loan Number is assigned** | SBA **cancels the guaranty** |\n| Maturity **over 12 months** | Pay within **90 days of the date of loan approval** | Guaranty **cancelled** |\n\n### Short-term loan details\n\n- The lender may charge the Borrower **only after** the lender has paid SBA.\n- **EWCP loans re-issued after 12 months** are a new loan each time, and another Upfront Fee is due.\n- SBA **earns** the short-term fee when the loan number is issued.\n\n### Long-term loan details\n\n- The lender may charge the Borrower **after initial disbursement**, but the **first disbursement may not be made solely or primarily** to pay the fee.\n- **Issuance of the SBA loan number is the lender's notice** that the fee is due within 90 days. SBA *may* remind the lender, but is not required to, and neither sending nor receiving a reminder waives the 90-day obligation.\n- The obligation is **not contingent on the Borrower having paid** the lender.\n\n> **Watch out:** The Upfront Fee due date **may not be waived or extended**, even if the disbursement period is extended.\n\n### Payment method\n\nThe lender must pay **electronically**, either through its existing SBA-approved **bulk ACH** method or through **www.pay.gov** (select **\"form type 1544\"** and **\"guaranty\"**). The loan must already be approved with an SBA Loan Number to use pay.gov. Questions go to paymentservices@sba.gov.\n\n> **In practice:** Track the 90-day clock from the approval date in your pipeline system and alert well before day 90. Do not wait for the borrower to close or pay you - the lender owes SBA regardless.\n",
+      "keyPoints": [
+        "Short-term loans: pay via pay.gov within 10 business days of the SBA Loan Number, or the guaranty is cancelled.",
+        "Loans over 12 months: pay within 90 days of approval, or the guaranty is cancelled.",
+        "The loan number itself is the notice that the fee is due; SBA reminders are optional.",
+        "The deadline cannot be waived or extended, even if the disbursement period is extended.",
+        "Lender owes the fee whether or not the Borrower has paid it.",
+        "Payment is electronic: bulk ACH or pay.gov form type 1544, 'guaranty'."
+      ]
+    },
+    {
+      "id": "a4-upfront-fee-changes",
+      "title": "Increases, Extensions, Reinstatement, and Refunds",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. C.1.a.4, C.1.a.5, C.1.a.7 and C.1.a.8",
+      "body": "After approval, loans change. Each change has its own Upfront Fee consequence.\n\n### Loan increases\n\n- An increase commits more appropriations, so an **additional Upfront Fee** is due.\n- It is calculated under the **rules in effect when the loan was originally approved**: the fee as if the increase had been in the original amount, **less** the fee already remitted.\n- Pay electronically within **30 days of the date the increase was approved**, or the **total loan guaranty** is cancelled.\n- If the loan has already been initially disbursed, the fee on an SBA-approved increase must be paid **even if the increase is later cancelled**.\n\n### Extending a short-term loan past 12 months\n\n- An **additional Upfront Fee** is due (the lender may email FSC.Servicing@sba.gov for help).\n- Pay electronically within **30 days from the date the lender agrees to the extension**, or the total guaranty is cancelled.\n- The lender may charge the Borrower only after notifying SBA of the extension and paying the fee.\n- **Exception:** no additional fee when SBA determines the extension is **to effect collection** and **no new funds** are disbursed, regardless of original maturity.\n\n### Reinstating a cancelled guaranty\n\nIf the guaranty was cancelled for non-payment, the lender may ask SBA to reinstate it by email:\n\n- to the **7(a) Loan Guaranty Processing Center** (7aLoanMod@sba.gov) if the loan is **not fully disbursed**, or\n- to the **Commercial Loan Servicing Center** (FSC.Servicing@sba.gov) if **fully disbursed**.\n\nThe request must include: the SBA Loan Number and Loan Name; a certification of **no unremedied adverse change** in the Borrower's or Operating Company's financial condition, organization, operations or fixed assets since application; if disbursed, a certification that the loan is **current**, reported on every **SBA Form 1502** since disbursement, and that the Annual Service Fee has been paid timely; and a **complete written explanation** of why the fee was missed and how procedures were fixed. If reinstated, the fee must be paid within **30 days of reinstatement**.\n\n### Refunds (13 CFR 120.220(c))\n\nThe fee is based on the amount approved before the loan is **closed and initially disbursed**. A decrease must be approved by SBA **before** that point to reduce the fee; requests go to the CLSC via the SBA Loan System.\n\n- **Full refund:** only for loans with maturity **over 12 months**, not yet closed and initially disbursed, when the lender requests cancellation via the SBA Loan System. **No refund once initially disbursed.** Short-term loans: **no refund once the loan number is issued.**\n- **Partial refund:** if SBA approves cancelling part of the loan before closing and initial disbursement, the fee is adjusted and any excess refunded.\n",
+      "keyPoints": [
+        "Increase: extra fee under original-approval rules, paid within 30 days of the increase approval.",
+        "Short-term extended beyond 12 months: extra fee within 30 days of the lender agreeing to the extension.",
+        "No extra fee for extensions SBA determines are to effect collection with no new funds.",
+        "Reinstatement requests need certifications and a written explanation; fee due within 30 days of reinstatement.",
+        "No refund after initial disbursement; no refund on short-term loans once the loan number is issued."
+      ]
+    },
+    {
+      "id": "a4-annual-service-fee",
+      "title": "The Lender's Annual Service Fee",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. C.1.b",
+      "body": "The second fee a 7(a) lender pays SBA is the **Lender's Annual Service Fee**, also called the **SBA On-Going Guaranty Fee** (13 CFR 120.220(f)). Where the Upfront Fee is one-time, this fee runs for the life of the guaranty.\n\n### How it works\n\n- **Basis:** the **outstanding principal balance of the guaranteed portion** of the loan.\n- **Rate:** SBA sets the rate each **fiscal year** for all loans approved in that year, through an **Information Notice**. The rate in effect **at the time of SBA loan approval** applies to the loan.\n- **Who pays:** the lender. This fee **cannot be charged to the Borrower** - unlike the Upfront Fee, which can be passed through.\n- **When:** monthly, with submission of **SBA Form 1502**, \"Guaranty Loan Status and Remittance Form.\"\n- **Late payment:** SBA may charge the lender a late fee if the fee is not paid timely.\n- **Multiple loans:** loans made within 90 days of each other are **not aggregated** - each loan's fee is set on a standalone basis.\n- **EWCP:** special payment options are covered in Section B, Ch. 5, Para. B.4.e.\n\nThe fee is also listed in the **SBA Terms and Conditions**, and it is the **lender's responsibility** to make sure the Terms and Conditions show the correct fee.\n\n### Comparing the two lender-paid fees\n\n| | Upfront (Guaranty) Fee | Lender's Annual Service Fee |\n|---|---|---|\n| Frequency | One-time (plus increases/extensions) | Monthly, ongoing |\n| Base | Guaranteed portion of approved amount | Outstanding guaranteed balance |\n| Rate set by | Chart in 13 CFR 120.220 (maximums) / Information Notice | Information Notice for the fiscal year of approval |\n| Can be passed to Borrower? | **Yes** | **No** |\n| 90-day aggregation? | **Yes** | **No** |\n| Paid via | pay.gov or bulk ACH | SBA Form 1502 remittance |\n\n> **Watch out:** Charging the Annual Service Fee to the Borrower, even disguised in another line item, is prohibited.\n",
+      "keyPoints": [
+        "Based on the outstanding guaranteed portion; rate set by Information Notice for the fiscal year of approval.",
+        "Cannot be charged to the Borrower.",
+        "Paid monthly with SBA Form 1502; SBA may charge a late fee.",
+        "Not aggregated for loans made within 90 days of each other.",
+        "Lender must ensure the SBA Terms and Conditions show the correct fee."
+      ]
+    },
+    {
+      "id": "a4-lender-packaging-fees",
+      "title": "Packaging Fees a 7(a) Lender May Charge",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. C.2.a",
+      "body": "13 CFR 120.221 lists the fees a 7(a) lender or its Associates may collect from an Applicant or Borrower. **Anything not expressly permitted there is prohibited.** The first category is packaging.\n\n### What counts as packaging\n\n\"Packaging services\" include helping the Applicant complete one or more applications, preparing a business plan, cash flow projections, and other application documents. Fees must be **reasonable** - customary for similar lenders in the geographic area.\n\n- The Applicant **may not be charged twice** for the same service by two different entities.\n- If the lender uses a **Lender Service Provider (LSP)**, it may **not pass through** any fees for the LSP's work.\n- The lender may include **technology fees** (internal or third-party software for preparing SBA loan documents, underwriting, or closing). But a technology provider whose services **include underwriting** is an **LSP** and needs an SBA-reviewed LSP Agreement.\n\n### Disclosure duties\n\n- Tell the Applicant **in writing** that it is **not required to obtain or pay for unwanted services**.\n- **Itemize in writing** every fee charged in connection with the loan, by the categories in 13 CFR 120.221.\n- Disclose amounts charged in the **SBA Loan System**.\n- SBA may review fees at any time; the lender must **refund** any fee SBA considers unreasonable.\n\n### How much\n\n| Fee approach | Rule |\n|---|---|\n| **Flat fee up to $2,500** per loan | Allowed **without documenting** the service performed |\n| Fees **over $2,500** | Complete **SBA Form 159** |\n| Hourly | Reasonable and customary for services actually performed, consistent with the lender's hourly fees on similarly-sized non-SBA commercial loans |\n| Percentage of loan amount | The **lesser** of what the lender charges on similarly-sized non-SBA loans, or: **5%** for loans of **$150,000 or less**; **3%** for loans **over $150,000**; with an absolute maximum of **$30,000** |\n\n### No fee splitting\n\nThe lender may not split a loan in two to charge a second fee. Even when two loans are legitimately needed (say, a term loan and a line of credit), only **one fee** is allowed, based on the **combined** amount and within the caps above. A new fee is fine when the Applicant returns later for a different project; loans approved **more than 90 days apart** are considered different projects.\n\n> **Watch out:** These lender caps (5% / 3% / $30,000) differ from the caps on **Agent** fees (3% / 2% / 0.25% / $30,000) covered in Part 2. Know which party is charging.\n",
+      "keyPoints": [
+        "Any fee not expressly permitted by 13 CFR 120.221 is prohibited.",
+        "Flat fee up to $2,500 per loan allowed without documenting services; above $2,500 requires SBA Form 159.",
+        "Percentage-based lender fee cap: lesser of non-SBA practice or 5% (loans $150,000 or less) / 3% (over $150,000), max $30,000.",
+        "Applicant must be told in writing it need not buy unwanted services; all fees itemized in writing.",
+        "LSP fees may not be passed through to the Applicant.",
+        "No splitting loans to charge extra fees; loans more than 90 days apart are separate projects."
+      ]
+    },
+    {
+      "id": "a4-servicing-closing-fees",
+      "title": "Extraordinary Servicing, Out-of-Pocket, Legal, Late, and Assumption Fees",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. C.2.b-C.2.e",
+      "body": "Beyond packaging, 13 CFR 120.221 allows a short list of other charges. Each comes with limits.\n\n### Extraordinary servicing fee (13 CFR 120.221(b))\n\nA lender may **not** charge an ordinary servicing fee. It may charge only for **extraordinary** servicing, such as servicing **construction loans** or monitoring **accounts receivable and inventory** in asset-based lending.\n\n- Cap: **2% per year** on the outstanding balance of the **part of the loan requiring special servicing** (unless Section B says otherwise).\n- It may not exceed what the lender charges on similarly-sized non-SBA commercial loans; if the lender charges **no** such fee on non-SBA loans, it may not charge one on SBA loans.\n- Requires SBA's **prior written approval** and must be described in the **credit memorandum**. Delegated lenders enter the fee in the SBA Loan System and certify in the credit memo that it is reasonable and prudent. **Issuance of the loan number is SBA's prior written approval**, subject to later review.\n- If SBA finds the fee excessive: reduce it, **refund the excess**, and stop collecting it.\n- SBA's guaranty **does not cover** this fee; SBA pays none of it at purchase.\n\n**Not** extraordinary (no fee allowed): changing the installment amount so the loan pays off by maturity; changing the installment after a deferment; releasing or exchanging collateral (standard out-of-pocket costs like recording fees are fine); or any modification to the note's repayment terms.\n\n### Out-of-pocket expenses (13 CFR 120.221(c))\n\nThe lender may collect necessary out-of-pocket costs: filing and recording fees, photocopying, delivery, collateral appraisals and environmental reports obtained in compliance with SBA policy, and other direct closing charges. They must be **itemized and kept in the loan file**. They are **not** reported on SBA Form 159.\n\n**Legal fees:**\n\n- Must be for work by a **licensed attorney** (or someone under the attorney's direct supervision), in-house or outside.\n- In-house counsel costs (including reasonable overhead) may be reimbursed but **never more than outside counsel** would cost.\n- Must be charged on an **hourly basis** (13 CFR 120.221(e)). No flat-fee legal charges may be passed to the Applicant.\n\n### Late payment fee (13 CFR 120.221(d))\n\nUp to **5% of the regular loan payment** when the Borrower is **more than 10 days delinquent**. The fee belongs to the lender and is **not shared** with a Secondary Market investor. SBA's guaranty does not cover it.\n\n### Assumption fee\n\nWhen another entity assumes the loan (see SOP 50 57 for procedures), SBA requires no new guaranty fee. The lender may charge an assumption fee consistent with its non-SBA practice, reasonable for the services, and **not more than 1% of the principal balance outstanding** at assumption. It may be paid by the **seller or the assumptor**. SBA's guaranty does not cover it.\n",
+      "keyPoints": [
+        "Extraordinary servicing fee: max 2% per year on the specially serviced balance, needs SBA prior written approval (the loan number counts).",
+        "No fees for re-amortizing, post-deferment payment changes, collateral releases, or note modifications.",
+        "Out-of-pocket costs must be itemized and kept in the file; not reported on Form 159.",
+        "Legal fees: licensed attorney, hourly only, in-house never more than outside counsel.",
+        "Late fee: up to 5% of the regular payment when more than 10 days delinquent; not shared with investors.",
+        "Assumption fee: up to 1% of outstanding principal; payable by seller or assumptor."
+      ]
+    },
+    {
+      "id": "a4-recoupment-prohibited-fees",
+      "title": "Subsidy Recoupment Fee and Prohibited Fees",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. C.3-C.4",
+      "body": "### The one fee a 7(a) Borrower pays directly to SBA\n\nThe **Subsidy Recoupment Fee** (13 CFR 120.223) is effectively a prepayment penalty owed to **SBA**, not to the lender.\n\n**When it applies:**\n\n- The loan has a maturity of **15 years or longer**, and\n- the Borrower **voluntarily prepays more than 25%** of the loan **in any 1 year** during the **first 3 years after first disbursement**.\n\n| Year after first disbursement | Fee (of the prepayment amount) |\n|---|---|\n| Year 1 | **5%** |\n| Year 2 | **3%** |\n| Year 3 | **1%** |\n\nIt also applies to a loan originally made with a maturity under 15 years if the maturity is **extended to 15 years or more during the first 36 months**. Prepayments made **before** the extension are also subject to the fee.\n\n**Voluntary vs. involuntary:**\n\n- **Death** resulting in prepayment is **not voluntary**. No SBA determination is needed; the lender confirms and documents the file.\n- If the lender believes any other prepayment is involuntary, it may email a request with supporting analysis to the **CLSC** (FSC.Servicing@sba.gov). The CLSC sends it with a recommendation to the **D/OFPO** and the **D/FA** (or designee) for a **joint determination**.\n\n### Prohibited fees\n\nAny fee **not expressly permitted** in 13 CFR 120.221 is prohibited. Examples - lenders and their Associates may **not**:\n\n1. Require the Applicant or Borrower to pay the lender, an Associate, or anyone they designate for goods or services, **including insurance**, as a **condition** of getting the SBA loan;\n2. Charge **commitment, bonus, origination, broker, commission, referral**, or similar fees;\n3. Charge **points** or **add-on interest**;\n4. Charge **prepayment fees**;\n5. Charge **renewal fees**; or\n6. **Share any Secondary Market premium** with a Service Provider, Packager, or other non-employee loan referral source.\n\n> **Watch out:** The lender cannot charge a prepayment fee, but SBA's Subsidy Recoupment Fee can still apply. They are different: one is prohibited, the other is a statutory fee paid to SBA.\n\n> **In practice:** Referral and broker fees are not banned outright - an independent **Agent** may charge them to an Applicant (see Part 2). What is banned is the **lender or its Associates** charging them.\n",
+      "keyPoints": [
+        "Subsidy Recoupment Fee: maturity 15+ years, voluntary prepayment over 25% in any year during first 3 years.",
+        "Fee is 5% (year 1), 3% (year 2), 1% (year 3) of the prepayment amount, paid to SBA.",
+        "Also applies when maturity is extended to 15+ years within the first 36 months.",
+        "Prepayment due to death is not voluntary; other involuntary claims go to CLSC for a joint D/OFPO and D/FA determination.",
+        "Lenders may not charge origination, commitment, broker, referral, prepayment or renewal fees, points, or add-on interest.",
+        "Lenders may not share Secondary Market premium with non-employee referral sources."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Associate (of a Lender)",
+      "definition": "A party associated with an SBA Lender, as defined in the SOP glossary and 13 CFR 120.10, who is held to the same conflict-of-interest and fee restrictions as the Lender itself."
+    },
+    {
+      "term": "Close Relative",
+      "definition": "A relative, as defined in the SOP glossary, whose current or recent (within 6 months) interest in an Applicant bars the SBA guaranty just as the Lender's or an Associate's own interest would."
+    },
+    {
+      "term": "Standards of Conduct Counselor",
+      "definition": "SBA's Designated Agency Ethics Official, who approves applications involving former SBA Employees and routes cases to the Standards of Conduct Committee."
+    },
+    {
+      "term": "Household Member",
+      "definition": "For an SBA Employee: the spouse, minor children, and blood relatives of the Employee or the Employee's spouse who live in the same place of abode (13 CFR 105.201(d))."
+    },
+    {
+      "term": "Statement of No Objection",
+      "definition": "A statement signed by the ethics official of a Federal department or military service, required for each loan when an owner, officer or 10%+ stockholder (or Household Member) is an Executive Branch employee at GS-13 or above."
+    },
+    {
+      "term": "SAM Exclusions",
+      "definition": "The System for Award Management's list of parties suspended, debarred, revoked, or otherwise excluded from doing business with the Federal Government; lenders must search it and keep evidence."
+    },
+    {
+      "term": "SAFER Web",
+      "definition": "FMCSA's Company Snapshot system used to verify an Applicant's USDOT number is active, in good standing, and tied to a matching physical address."
+    },
+    {
+      "term": "Upfront Fee (SBA Guaranty Fee)",
+      "definition": "One-time fee the 7(a) Lender pays SBA for the guaranty, calculated as a percentage of the guaranteed portion; may be passed to the Borrower."
+    },
+    {
+      "term": "Lender's Annual Service Fee",
+      "definition": "Ongoing fee on the outstanding guaranteed balance, paid monthly by the 7(a) Lender with SBA Form 1502; may not be charged to the Borrower."
+    },
+    {
+      "term": "SBA Form 1502",
+      "definition": "Guaranty Loan Status and Remittance Form; the monthly report through which 7(a) lenders report loans and remit the Annual Service Fee."
+    },
+    {
+      "term": "Extraordinary Servicing Fee",
+      "definition": "Fee of up to 2% per year on the specially serviced balance, allowed only for unusual servicing such as construction or asset-based monitoring, with SBA prior approval."
+    },
+    {
+      "term": "Subsidy Recoupment Fee",
+      "definition": "Fee the Borrower pays SBA when voluntarily prepaying more than 25% of a 15-year-plus loan in any year of the first 3 years: 5%, 3%, then 1%."
+    },
+    {
+      "term": "pay.gov",
+      "definition": "Government payment site lenders use (form type 1544, 'guaranty') to pay the Upfront Fee electronically, along with SBA-approved bulk ACH."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "a4p1-q1",
+      "question": "A loan officer at the lender owned 15% of an applicant business but sold the stake 4 months before the date of application. What is the consequence?",
+      "options": [
+        "SBA will not guarantee the loan, because the interest existed within 6 months before the application",
+        "No issue, because the interest was sold before the application date",
+        "The loan only needs approval from the Standards of Conduct Counselor",
+        "No issue, because the look-back period is only 90 days"
+      ],
+      "correctIndex": 0,
+      "explanation": "SBA will not guarantee a loan if the lender or its Associates had a financial interest in the Applicant within 6 months prior to the date of application. Selling the stake 4 months earlier is inside that window. Standards of Conduct Counselor approval relates to SBA employees, not lender conflicts.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. A.1",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a4p1-q2",
+      "question": "Which approval is required when an applicant's officer left employment at SBA 8 months before the loan application?",
+      "options": [
+        "Standards of Conduct Committee at SBA Headquarters",
+        "No approval, since the person is no longer an SBA Employee",
+        "Standards of Conduct Counselor",
+        "A statement of no objection from the person's former supervisor"
+      ],
+      "correctIndex": 2,
+      "explanation": "If an Applicant has as an officer (or many other roles) an individual who was an SBA Employee within 1 year prior to the application, the Standards of Conduct Counselor must approve. The Committee is for current SBA Employees, their Household Members, and certain officials such as Members of Congress.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. A.2",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a4p1-q3",
+      "question": "The 30% owner of an applicant is a GS-14 employee of the Department of Agriculture. What must happen before a delegated lender may process the loan?",
+      "options": [
+        "Nothing, because only SBA employees trigger ethics review",
+        "The Standards of Conduct Committee must approve the loan",
+        "The owner must resign from Federal service or reduce ownership below 10%",
+        "The Applicant provides a statement of no objection from the agency ethics official, and the lender emails it to SNOMemos@sba.gov and receives SBA's written clearance"
+      ],
+      "correctIndex": 3,
+      "explanation": "For Executive Branch employees at GS-13 or above, the Applicant must provide a statement of no objection signed by the agency's ethics official, and the lender must send it to SNOMemos@sba.gov and receive written clearance before submitting or processing under delegated authority. The Committee route applies to SBA employees and officials like Members of Congress.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. A.3",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a4p1-q4",
+      "question": "For a corporation applicant, whose SAM Exclusions search must be documented in the loan file?",
+      "options": [
+        "Only the corporation itself",
+        "The corporation, all owners of 20% or more, and each officer and director",
+        "The corporation and all owners of 10% or more",
+        "The corporation and the CEO only"
+      ],
+      "correctIndex": 1,
+      "explanation": "For a corporation, the lender must document a SAM Exclusions search for the Applicant, all owners of 20% or more, and each officer and director (plus Key Employees and other listed parties). The 10% threshold is the Standards of Conduct trigger, not the SAM search threshold.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. B.1",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a4p1-q5",
+      "question": "An applicant trucking company hauls cargo interstate and needs a USDOT number. SAFER shows an active number in good standing, but the address listed is a P.O. box. What should the lender conclude?",
+      "options": [
+        "The SAFER verification is not satisfied, because the physical address must match the company's physical address and P.O. boxes are not acceptable",
+        "The SAFER check is complete, because the number is active",
+        "SAFER replaces the SAM search, so only the USDOT number matters",
+        "The lender only needs a SAFER check if the loan exceeds $500,000"
+      ],
+      "correctIndex": 0,
+      "explanation": "The lender must evidence both an active USDOT number in good standing and a physical address matching the company's physical address, with no P.O. boxes. SAFER is in addition to, not instead of, the SAM Exclusions search.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. B.3",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a4p1-q6",
+      "question": "What is the Upfront Fee on a $500,000 7(a) loan (maturity 10 years) with a 75% guaranty, using the maximum fee chart?",
+      "options": [
+        "$15,000",
+        "$7,500",
+        "$11,250",
+        "$13,125"
+      ],
+      "correctIndex": 2,
+      "explanation": "A $500,000 loan falls in the $150,001-$700,000 bracket, which carries 3% of the guaranteed portion. 3% of $375,000 = $11,250. $15,000 is 3% of the whole loan, a common error: the fee is always based on the guaranteed portion.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. C.1.a",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a4p1-q7",
+      "question": "On a $120,000 7(a) loan with an 85% guaranty and 7-year maturity, how much of the Upfront Fee may the lender retain?",
+      "options": [
+        "None; the lender must remit the full fee",
+        "$510",
+        "$2,040",
+        "$1,530"
+      ],
+      "correctIndex": 1,
+      "explanation": "Loans of $150,000 or less carry a fee of 2% of the guaranteed portion, and the lender may retain 25% of it. Guaranteed portion = $102,000; fee = $2,040; 25% retained = $510. $2,040 is the full fee, not the retained part.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. C.1.a",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a4p1-q8",
+      "question": "A lender approved a 5-year 7(a) term loan for a company. Sixty days later, a different lender approves a 10-year 7(a) loan for the company's affiliate. How is the second loan's Upfront Fee determined?",
+      "options": [
+        "Separately, because different lenders made the loans",
+        "Separately, because the second borrower is an affiliate, not the same applicant",
+        "The loans are combined; the second fee equals the fee on the combined amount less the fee charged on the first loan",
+        "The loans are combined, and the second lender pays the full combined fee again"
+      ],
+      "correctIndex": 2,
+      "explanation": "When two or more 7(a) loans with maturities over 12 months are approved for an applicant, including its affiliates, within 90 days, they are treated as one loan regardless of whether the same or different lenders approved them. The subsequent fee equals the combined fee less the fee from the first loan.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. C.1.a.2",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a4p1-q9",
+      "question": "A 7(a) loan with a 10-year maturity was approved, and the borrower's closing is delayed. The lender extended the disbursement period. When is the Upfront Fee due?",
+      "options": [
+        "Within 90 days of loan approval; the deadline cannot be extended",
+        "Within 90 days of the extended disbursement deadline",
+        "Within 10 business days of initial disbursement",
+        "When the Borrower pays the fee to the lender"
+      ],
+      "correctIndex": 0,
+      "explanation": "For loans over 12 months, the fee is due within 90 days of approval. The due date may not be waived or extended even if the disbursement period is extended, and the obligation is not contingent on the Borrower paying the lender. Ten business days applies to short-term loans, counted from issuance of the loan number.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. C.1.a.3",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a4p1-q10",
+      "question": "Which statement about the Lender's Annual Service Fee is correct?",
+      "options": [
+        "It may be passed on to the Borrower like the Upfront Fee",
+        "It is aggregated with other loans made within 90 days",
+        "It is paid once a year by pay.gov",
+        "It cannot be charged to the Borrower and is paid monthly with SBA Form 1502"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Lender's Annual Service Fee is paid monthly with SBA Form 1502 and cannot be charged to the Borrower. Unlike the Upfront Fee, it is not aggregated for loans made within 90 days of each other.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. C.1.b",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a4p1-q11",
+      "question": "A lender charges packaging fees as a percentage of the loan on a $400,000 7(a) loan. It normally charges 2% on similar non-SBA commercial loans. What is the maximum percentage-based packaging fee it may charge?",
+      "options": [
+        "3% ($12,000)",
+        "5% ($20,000)",
+        "2% ($8,000)",
+        "$2,500 flat with no other option"
+      ],
+      "correctIndex": 2,
+      "explanation": "A percentage-based lender fee may not exceed the lesser of what the lender charges on similarly-sized non-SBA loans or the SBA cap (3% for loans over $150,000, maximum $30,000). The lender's own 2% practice is lower, so 2% ($8,000) is the limit. 5% applies only to loans of $150,000 or less.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. C.2.a",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a4p1-q12",
+      "question": "Which of these may a 7(a) lender charge the Borrower?",
+      "options": [
+        "A loan origination fee of 1%",
+        "A late fee of 5% of the regular payment when the Borrower is more than 10 days delinquent",
+        "A fee for modifying the repayment terms of the note",
+        "A renewal fee on a revolving line of credit"
+      ],
+      "correctIndex": 1,
+      "explanation": "13 CFR 120.221(d) allows a late fee of up to 5% of the regular payment when the Borrower is more than 10 days delinquent. Origination and renewal fees are expressly prohibited, and modifying repayment terms is not extraordinary servicing, so no fee may be charged for it.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. C.2.d and C.4",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a4p1-q13",
+      "question": "A borrower with a 25-year 7(a) loan voluntarily prepays 40% of the balance in the second year after first disbursement. What fee applies?",
+      "options": [
+        "A Subsidy Recoupment Fee of 3% of the prepayment amount, paid to SBA",
+        "A prepayment fee charged by the lender of up to 5%",
+        "A Subsidy Recoupment Fee of 5% of the prepayment amount",
+        "No fee, because the loan is past its first year"
+      ],
+      "correctIndex": 0,
+      "explanation": "For loans of 15 years or longer, voluntary prepayment of more than 25% in any year during the first 3 years triggers the Subsidy Recoupment Fee: 5% in year 1, 3% in year 2, 1% in year 3. It is paid to SBA. Lenders themselves are prohibited from charging prepayment fees.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. C.3",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a4p1-q14",
+      "question": "The lender's in-house counsel prepares closing documents for a 7(a) loan. How may the lender recover the legal cost from the Applicant?",
+      "options": [
+        "As a flat fee of up to $2,500 without documentation",
+        "As a percentage of the loan amount up to 1%",
+        "It may not recover in-house legal costs at all",
+        "On an hourly basis for direct costs including reasonable overhead, not exceeding the cost of outside counsel"
+      ],
+      "correctIndex": 3,
+      "explanation": "Lenders may be reimbursed for in-house counsel's direct costs (including reasonable overhead), never more than outside counsel would cost, and legal services must be charged on an hourly basis. The $2,500 flat amount relates to packaging fees, not legal services.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 4, Para. C.2.c",
+      "difficulty": "applied"
+    }
+  ]
+}

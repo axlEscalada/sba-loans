@@ -1,0 +1,373 @@
+{
+  "id": "b5-ewcp-underwriting",
+  "order": 251,
+  "part": "B",
+  "program": "7a",
+  "title": "Export Working Capital Program: Eligibility and Underwriting",
+  "subtitle": "Who qualifies for EWCP, what it can finance, the Ongoing Fee, and how lenders underwrite a self-liquidating export loan",
+  "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B",
+  "estimatedMinutes": 40,
+  "learningObjectives": [
+    "Apply EWCP eligibility rules, including operating history, reporting capability, EMC/ETC limits and NAICS exclusions",
+    "Distinguish eligible from prohibited EWCP uses of proceeds",
+    "Explain the EWCP Ongoing Fee payment options, invoicing schedule and consequences of non-payment",
+    "Compare transaction-specific, transaction-based and asset-based EWCP structures and the annual review gate",
+    "List the required elements of an EWCP credit analysis and how they differ from other 7(a) loans"
+  ],
+  "topics": [
+    {
+      "id": "b5-ewcp-eligibility",
+      "title": "EWCP eligibility: who can borrow",
+      "body": "The **Export Working Capital Program (EWCP)** (13 CFR 120.340-120.344) is SBA's short-term working capital guaranty for small business **Exporters engaged in Export Transactions**. Think of it as a trade-focused line of credit: it funds the gap between buying materials or making a product and getting paid by a foreign buyer.\n\nAs always, the lender starts with the Section A **Core Requirements**. EWCP then adds the following.\n\n### Operating history\n\n- The business must have **at least 12 full months of operations prior to filing an application**.\n- If it does not, the Lender **may perform an analysis that demonstrates sufficient management experience** to move forward with the loan.\n\nCompare this to Export Express, where the short-history exception needs both demonstrated export expertise and conventional underwriting. EWCP's exception is framed around a documented management experience analysis.\n\n### Reporting capability\n\nThe Applicant must be able to produce **timely and accurate**:\n\n- financial statements,\n- accounts receivable and accounts payable agings, and\n- inventory reports.\n\nThis is not a formality. EWCP is monitored through borrowing base reporting, so a borrower that cannot produce clean agings cannot be safely administered.\n\n### Export management and trading companies\n\n**Export management companies (EMCs)** and **export trading companies (ETCs)** may use EWCP **only if they take title** to the goods or services in the Export Transaction. An agent that just arranges sales on commission is not eligible. EMCs or ETCs with **any bank ownership are ineligible**.\n\n### Excluded industries\n\n| NAICS subsector | Industry | Export Express? | EWCP? |\n|---|---|---|---|\n| 721 | Accommodation | No | No |\n| 457 | Gasoline Stations | No | No |\n| 722 | Food Services and Drinking Places | (not listed) | **No** |\n\nAll three may be financed with **other SBA 7(a) assistance**.\n\n> **Watch out:** EWCP adds NAICS 722 (restaurants and bars) to the exclusion list. A system that reuses the Export Express NAICS screen for EWCP will miss it.\n",
+      "keyPoints": [
+        "EWCP is governed by 13 CFR 120.340-120.344.",
+        "Applicant needs at least 12 full months of operations before applying, or a Lender analysis showing sufficient management experience.",
+        "Applicant must produce timely, accurate financial statements, AR and AP agings and inventory reports.",
+        "EMCs and ETCs qualify only if they take title to the goods or services; any bank ownership makes them ineligible.",
+        "NAICS 721, 457 and 722 cannot use EWCP but may use other 7(a) assistance."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (Eligibility for EWCP)"
+    },
+    {
+      "id": "b5-ewcp-uses",
+      "title": "EWCP: what proceeds can and cannot finance",
+      "body": "EWCP proceeds can be used **only to finance Export Transactions**. A loan can support a **single** transaction or **multiple** transactions.\n\n### Eligible uses\n\n1. **Acquiring inventory** for export, or to manufacture goods for export, including eligible direct labor and materials;\n2. Paying the **manufacturing costs** of goods for export;\n3. **Purchasing goods or services** for export;\n4. Supporting **Performance or Financial standby letters of credit** related to export transactions;\n5. **Working capital directly related to export orders**;\n6. **Foreign accounts receivable and inventory financing**;\n7. **Pre-shipment working capital** supporting Export Transactions;\n8. **Post-shipment foreign accounts receivable financing**;\n9. **Lender fees and charges and packaging fees** as permitted in the chapter; and\n10. **Refinancing existing short-term export lines of credit** with the transfer of collateral, under **Appendix 14, Para. A.7**.\n\nBroader debt refinancing rules for EWCP sit in **Appendix 14, Para. B.7**.\n\n### Prohibited uses (13 CFR 120.342)\n\nEWCP proceeds may **not** be used to:\n\n1. Support the borrower's **domestic sales**;\n2. Acquire **fixed assets or capital goods** for use in the borrower's business;\n3. Provide **floor plan financing** on titled vehicles or equipment;\n4. Finance **pre-shipment or purchase order financing** under a transaction-specific or transaction-based revolving EWCP facility for **Foreign-to-Foreign Export Transactions**;\n5. **Acquire, equip or rent commercial space overseas**; or\n6. Finance professional **export marketing advice or services, foreign business travel, trade shows, or overseas support staff**, except to the extent it relates **directly to the transaction being financed**.\n\n### Matching the request to the right program\n\n| Need | Program to consider |\n|---|---|\n| Materials and labor to fill a $600,000 order from a Japanese buyer | EWCP |\n| New production machinery for export goods | Export Express or IT (EWCP cannot buy fixed assets) |\n| Trade show booth and travel to build a new market | Export Express (EWCP only if tied to the financed transaction) |\n| Line that also funds domestic sales | Export Express (up to 30% domestic); EWCP cannot support domestic sales |\n\n> **Watch out:** The EWCP prohibition on Foreign-to-Foreign deals is narrow. It bars *pre-shipment or purchase order* financing under *transaction-specific or transaction-based revolving* facilities. Read the exact structure before declining.\n",
+      "keyPoints": [
+        "Proceeds can finance only Export Transactions, single or multiple.",
+        "Eligible: export inventory, manufacturing costs, export goods/services, standby LCs, pre-shipment working capital, foreign AR financing, permitted fees.",
+        "Existing short-term export lines may be refinanced with collateral transfer per Appendix 14, Para. A.7.",
+        "Prohibited: domestic sales, fixed assets, floor plan on titled vehicles/equipment, overseas space.",
+        "No pre-shipment or purchase order financing under transaction-specific or transaction-based revolving facilities for Foreign-to-Foreign Export Transactions."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (Eligible Uses of Proceeds for EWCP)"
+    },
+    {
+      "id": "b5-ewcp-terms",
+      "title": "EWCP loan size, guaranty, maturity and rate",
+      "body": "### Loan amount\n\n- The **maximum EWCP loan amount is $5,000,000**.\n- Affiliation applies (13 CFR 120.151): the Lender must determine whether the Applicant has affiliates and **document the results in its credit analysis**. If affiliation exists, the maximum applies to the Applicant and all affiliates **as if they were a single business**.\n\n### Where the other terms live\n\nUnlike Export Express, the EWCP section of Chapter 5 does not restate the guaranty percentages or rate grid. It points to the appendices:\n\n| Term | Reference |\n|---|---|\n| Debt refinancing | Appendix 14, Para. B.7 (and Para. A.7 for refinancing short-term export lines with collateral transfer) |\n| Maximum guaranty amounts and percentages | Appendix 16, Para. B.6 |\n| Loan maturities | Appendix 17, Para. B.7 |\n| Interest rates | Appendix 18, Para. B.7.a |\n| Collateral | Appendix 19, Para. B.7 |\n| Personal guaranties | Section A, Ch. 5, Para. A |\n| Fees lenders may charge | Section A, Ch. 4 |\n| Guaranty application submission | Appendix 20 |\n| Closing and disbursement (general) | Section B, Ch. 6, Para. D |\n\n### Maturity in practice\n\nThe fee section of the chapter gives a useful fact about maturity: **the vast majority of EWCP loans have a maturity of 12 months or less, but EWCP loans may have a maturity of up to 36 months**. Asset-based EWCP lines are typically committed for 12 months and then renewed or re-issued annually.\n\n> **In practice:** Because EWCP is short-term, the same borrower may come back every year. Each renewal triggers the annual credit review described later in this chapter, so build the renewal workflow around it.\n\n> **Watch out:** Do not apply the Export Express interest rate chart to EWCP. EWCP rates are governed by Appendix 18, Para. B.7.a.\n",
+      "keyPoints": [
+        "Maximum EWCP loan: $5,000,000, with affiliates counted as one business.",
+        "Guaranty amounts and percentages: Appendix 16, Para. B.6.",
+        "Maturities: Appendix 17, Para. B.7. Most EWCP loans mature in 12 months or less; maturity may be up to 36 months.",
+        "Interest rates: Appendix 18, Para. B.7.a.",
+        "Collateral: Appendix 19, Para. B.7; guaranties: Section A, Ch. 5, Para. A."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (Loan Terms and Conditions for EWCP)"
+    },
+    {
+      "id": "b5-ewcp-ongoing-fee",
+      "title": "The EWCP Ongoing Fee: monthly or annual payment",
+      "body": "Every 7(a) loan carries an ongoing guaranty fee. EWCP has its own version, the **EWCP Ongoing Fee**, and lenders have a choice about how to pay it.\n\n### The two options\n\nFor **EWCP loans approved after September 27, 2010**, the Lender may choose:\n\n| | Option 1: Monthly | Option 2: Annual |\n|---|---|---|\n| How paid | With other 7(a) ongoing servicing fees to the **Fiscal Transfer Agent (FTA)**, along with the SBA Form 1502 | Per-loan annual invoice from SBA's **Denver Finance Center (DFC)** |\n| Why choose it | EWCP may be a small part of the 7(a) portfolio; paying it with everything else is simple | Lender prefers to be billed |\n| Total fee | Same | Same |\n\nEither way, **the Lender must still submit SBA Form 1502 monthly on every 7(a) loan in its portfolio, including all EWCP loans**. Under Option 2, DFC uses the EWCP balances reported on the 1502s to compute the annual bill.\n\n### Invoice timing under Option 2\n\n| EWCP maturity | Invoices received |\n|---|---|\n| 12 months or less | One invoice, after maturity |\n| More than 12, not more than 24 months | 12 months after closing, and after maturity |\n| More than 24 months (up to 36) | 12 months after closing, 24 months after closing, and after maturity |\n\n- DFC **mails the invoice within 60 days of each 12-month interval**.\n- **Payment is due within 30 days of the invoice date**.\n- The invoice covers the previous 12 months (or a shorter period if the loan matured early).\n- Payment is made through **Pay.gov**.\n\n### Monitoring\n\n- The **FTA sends monthly EWCP reports** to DFC and SBA's **Office of International Trade (OIT)** tracking, by Lender: whether 1502s are being filed on EWCP loans, when annual invoices are due, and the accrued fee to be billed per loan.\n- **DFC sends a monthly report** to OIT and the **Office of Credit Risk Management** listing lenders delinquent on invoiced EWCP fees.\n- **OIT**, through delegation to the **Export Finance Manager**, monitors lenders' 1502 submissions and fee payments.\n\n> **Watch out:** A Lender's failure to pay any fees (plus any resulting interest and penalties) may lead SBA to **suspend or revoke the Lender's eligibility to participate in the 7(a) program or to limit its delegated authority**. A missed EWCP invoice is a program-level risk, not just a billing issue.\n",
+      "keyPoints": [
+        "For EWCP loans approved after September 27, 2010, Lenders choose monthly (Option 1) or annual (Option 2) payment of the EWCP Ongoing Fee.",
+        "Both options produce the same total fee.",
+        "SBA Form 1502 must be submitted monthly on all 7(a) loans, including EWCP, regardless of option.",
+        "Under Option 2, DFC mails an invoice within 60 days of each 12-month interval; payment is due within 30 days via Pay.gov.",
+        "Unpaid fees can lead SBA to suspend or revoke 7(a) eligibility or limit delegated authority."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (Payment Options for EWCP Ongoing Guaranty Fee)"
+    },
+    {
+      "id": "b5-ewcp-credit-standard-types",
+      "title": "EWCP credit standard and the three loan structures",
+      "body": "### A different primary source of repayment\n\nMost 7(a) loans are repaid from business cash flow. EWCP is different. SBA's credit standards still start with **13 CFR 120.101 and 120.150** and require a commercially reasonable, prudent analysis, but:\n\n- EWCP loans are **self-liquidating**. The **conversion of export-related trading assets to cash** (inventory becomes a shipment, the shipment becomes a foreign receivable, the receivable is collected) is the **primary source of repayment**.\n- If the analysis shows the Applicant **lacks reasonable assurance of timely repayment from the conversion of foreign sales into cash, the loan must be declined**, regardless of collateral or outside repayment sources.\n\n### Three structures\n\nWhen submitting, the Lender must specify which of these it is requesting:\n\n| Structure | How it works | Field exam? |\n|---|---|---|\n| **Single transaction-specific loan** | Finances one identified export order or contract | Not required (transaction reviewed individually) |\n| **Transaction-Based line of credit** | Supports single or multiple transactions during the loan term; may be **revolving or non-revolving** | Not required |\n| **Asset-Based Loan (ABL)** | **Revolving** line supported by a **monthly Borrowing Base Certificate (BBC)** reporting levels of assets, typically receivables and inventory; **typically committed for 12 months** then renewed or re-issued annually | Required pre-disbursement at $1,000,000 or more |\n\n### Annual and renewal credit reviews\n\nFor both Transaction-Based and Asset-Based EWCP loans, **on no less than an annual basis, and as part of any renewal**, the Lender must:\n\n1. Obtain **updated year-end and interim financial statements**; and\n2. Perform a **full review of the credit and collateral**.\n\nThe analysis must document that the Applicant:\n\n- **Is creditworthy**;\n- Has **reasonable assurance of timely repayment from the conversion of sales into cash**; and\n- **Is in compliance with EWCP program requirements**.\n\nIf the analysis does not document **all three**, **no further disbursements may be made, and the loan may not be renewed** until the Applicant can demonstrate it meets them.\n\n> **In practice:** Treat the annual review as a gate, not paperwork. A system should block draws on an EWCP line once the annual review date passes without a completed, passing review.\n",
+      "keyPoints": [
+        "EWCP loans are self-liquidating: conversion of export trading assets to cash is the primary repayment source.",
+        "Decline if there is no reasonable assurance of timely repayment from converting foreign sales into cash, regardless of collateral.",
+        "Transaction-Based: a line supporting single or multiple transactions, revolving or non-revolving.",
+        "Asset-Based (ABL): revolving line supported by a monthly Borrowing Base Certificate, typically committed for 12 months.",
+        "At least annually, a full credit and collateral review must show creditworthiness, repayment from sales conversion, and program compliance; otherwise no further disbursements or renewal."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (Credit Standards for EWCP), Specific Types of EWCP loans"
+    },
+    {
+      "id": "b5-ewcp-processing-underwriting",
+      "title": "EWCP processing methods and the underwriting memo",
+      "body": "### Two ways to process\n\n| | Non-delegated | Delegated (PLP-EWCP) |\n|---|---|---|\n| Who decides | **SBA** makes the final determination on eligibility and creditworthiness | The **Lender**, under its PLP-EWCP authority |\n| What SBA reviews up front | Uses of proceeds, adequacy of collateral, loan structure, any required equity injection | Nothing on credit or structure before issuing a loan number |\n| When SBA reviews the analysis | During processing | When the Lender **requests purchase** of the guaranty or during **lender oversight** |\n\nNote that EWCP has its own delegated authority, **PLP-EWCP**. Export Express, by contrast, is only processed under delegated Export Express authority, with no non-delegated path.\n\nUnder delegated processing, the Lender must still analyze creditworthiness under SBA Loan Program Requirements and **properly document its file**. The PLP-EWCP Lender's analysis is subject to SBA's **review and determination of adequacy** later.\n\n### What the underwriting must do\n\n- The Lender **must submit a credit memorandum with the application**.\n- The analysis must be commercially reasonable and consistent with prudent lending standards, recognizing that EWCP loans are self-liquidating.\n- The financial analysis should pay **particular attention to the Applicant's foreign payment terms and their impact on the Applicant's cash cycle**. Sixty-day terms to a buyer in one country and 180-day insured open account terms in another produce very different funding needs.\n- The Lender must **specify whether the request is** for a single transaction-specific loan, a transaction-based revolving line of credit (single or multiple transactions), or an asset-based loan.\n\n> **In practice:** The cash cycle drives line sizing. Map how many days pass from paying the supplier to collecting from the foreign buyer, multiply by daily export cost, and compare that to the requested line. The credit memo should show this math.\n\nThe detailed content of the credit analysis follows in the next two topics.\n",
+      "keyPoints": [
+        "Non-delegated: SBA makes the final eligibility and credit decision, including uses, collateral, structure and equity.",
+        "Delegated: under PLP-EWCP authority SBA does not review credit or structure before issuing a loan number.",
+        "PLP-EWCP analysis is reviewed at guaranty purchase or during lender oversight.",
+        "A credit memorandum must accompany the application.",
+        "Pay particular attention to foreign payment terms and their impact on the cash cycle."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (Credit Standards for EWCP), Processing Methods and Underwriting"
+    },
+    {
+      "id": "b5-ewcp-credit-analysis-business",
+      "title": "EWCP credit analysis, part 1: business, exports and financing",
+      "body": "The EWCP credit analysis has a long required list. The first group of items explains **who the borrower is and why it needs this loan**.\n\n### 1. Use of proceeds and benefit of the guaranty\n\nAn explanation of the use of proceeds and the benefits of the loan guaranty, including **details of the underlying transaction(s)** and **the countries where the buyers are located**.\n\n### 2. Credit not available elsewhere\n\nThe factors showing the Applicant does **not have credit available elsewhere on reasonable commercial terms** from non-Federal, non-State, non-local government sources, per **Section A, Ch. 1, Para. H**.\n\n### 3. The business and its management\n\nThe nature of the business, **length of time in business under current management**, and if applicable, **depth of management experience** in the industry or a related industry, with a brief description of the management team.\n\n### 4. Export experience and export business plan\n\nThis may include:\n\n- **Dollar amount of export revenue** (current or expected) and its **percentage of total revenue**;\n- **Principal or proposed export markets**;\n- **Proposed or established export customer relationships**;\n- **Largest export sales contract to date**;\n- **Export contract backlog**; and\n- Documentation of the Applicant's **performance history on standby letters of credit**, which serve as bid, advance payment, performance, supplier and warranty guarantees or bonds.\n\n### 5. Financing relationships\n\nA summary of all short- and long-term debt relationships, such as:\n\n- **Domestic revolving lines** or other term facilities, with purpose, payment structure and collateral;\n- **Standby debt**: whether it permits interest payments, how much and how often, and under what conditions payments can be halted; and\n- Any **SBA or other government-guaranteed financing**.\n\n> **In practice:** The domestic line is a frequent friction point. The EWCP lender needs a clear picture of who holds liens on which receivables and inventory, because the EWCP borrowing base must be cleanly separated from the domestic lender's collateral.\n\n### Credit history and franchise checks\n\nThe analysis must also include:\n\n- A discussion of the **Lender's credit experience with the Applicant** and a review of **business and personal credit reports**; and\n- For a **franchise (as defined by the FTC)**, review of franchisor credit information such as **failed franchisees and cash flow projections**, and review of any **management agreement** to determine whether it creates an **ineligible passive company** (unless it is part of the franchise disclosure documents for a brand on the Franchise Directory).\n",
+      "keyPoints": [
+        "Explain use of proceeds and benefits of the guaranty, including the underlying transactions and buyer countries.",
+        "Show credit is not available elsewhere on reasonable commercial terms (Section A, Ch. 1, Para. H).",
+        "Describe the business, time under current management and management depth.",
+        "Discuss export experience and plan: export revenue, markets, customers, largest contract, backlog, standby LC performance.",
+        "Summarize all short- and long-term debt, standby debt terms, and any SBA or government-guaranteed financing."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (Credit Standards for EWCP - Credit Analysis), Items 1-5 and 14-15"
+    },
+    {
+      "id": "b5-ewcp-credit-analysis-financial",
+      "title": "EWCP credit analysis, part 2: financials, ratios and collateral",
+      "body": "### 6. Historical and projected financial analysis\n\nA financial analysis of the **two most recent years** of historical financial information (tax returns, or balance sheet with debt schedule and income statement) **plus an interim statement**. The Lender should also analyze **projections for at least 12 months after the first disbursement**. It must include:\n\n- Historical cash flow and total debt service for the existing business;\n- **Operating cash flow (OCF), defined as EBITDA**; and\n- Documented additions and subtractions to cash flow, such as unfunded capital expenditures, non-recurring income, expenses and distributions, S-Corp tax distributions, rent payments, owner's draw, and a **global cash flow analysis** of significant affiliates.\n\n### 7-8. Debt service and projections\n\n- **Debt service (DS)** means future required principal and/or interest payments on **all business debt, including the new SBA loan**.\n- For projections, the Lender should calculate debt service coverage and analyze the assumptions, such as reasons for a reduced expense structure, reasons for revenue growth (new product lines, sales channels, production facilities) and industry analysis.\n\n### 9. Cash cycle repayment analysis\n\nA financial analysis of **EWCP repayment ability based on the Applicant's cash cycle**. This is the heart of a self-liquidating loan.\n\n### 10-11. Field examinations and ABL collateral\n\n- Field examination rules apply to Asset-Based EWCP loans (covered in detail in the next chapter): a field exam is required **before first disbursement on Asset-Based EWCP loans of $1,000,000 or greater**, and **at least annually at $2,000,000 or greater**.\n- For Asset-Based loans, a financial analysis of the collateral that **addresses any findings from the field examination**.\n\n### 12. Ratios\n\n| Required ratio benchmarks |\n|---|\n| Current Ratio |\n| Debt / Tangible Net Worth |\n| Debt Service Coverage |\n| Inventory turnover |\n| Receivables turnover |\n| Payables turnover |\n\nPlus any others the Lender considers significant for the industry.\n\n### 13. Collateral analysis\n\nThis may discuss:\n\n- **Buyer and export destination market risk**: economic, political, compliance, currency or logistics;\n- **Anticipated terms of sale**: cash before or at shipment, irrevocable letters of credit, export credit insurance (comprehensive commercial and political risk), collections (cash against documents), open account, and for insured sales the credit coverage, allowed sales terms and the borrower's experience administering the policy; and\n- **Composition and quality of the borrowing base**: quality of the customer base, **concentration risk**, delinquency volumes and trends, and **dilution**.\n\n> **Watch out:** EWCP asks for **two** years of historical financials. The International Trade loan asks for **three**. Do not mix them up in a shared underwriting template.\n",
+      "keyPoints": [
+        "Analyze two most recent years of historical financials plus an interim statement, and projections for at least 12 months after first disbursement.",
+        "Operating cash flow (OCF) is defined as EBITDA; debt service includes the new SBA loan.",
+        "Analyze repayment ability based on the Applicant's cash cycle.",
+        "Ratios: Current Ratio, Debt/Tangible Net Worth, Debt Service Coverage, inventory, receivables and payables turnover.",
+        "Collateral analysis covers buyer and country risk, terms of sale and borrowing base quality."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (Credit Standards for EWCP - Credit Analysis), Items 6-13"
+    },
+    {
+      "id": "b5-ewcp-fees",
+      "title": "Fees on EWCP loans",
+      "body": "Lender fees on SBA loans are tightly controlled. The baseline rules for **ethics, fees and Agents** are in **Section A, Ch. 4**, including the list of fees and expenses a Lender may collect from an Applicant or Borrower (Section A, Ch. 4, Para. C.2).\n\nEWCP adds one important allowance.\n\n### Extraordinary servicing fees on borrowing base loans\n\nAt the **time of the annual review**, a Lender **may charge extraordinary servicing fees in excess of 2%** for EWCP loans **that are disbursed based on a Borrowing Base Certificate**.\n\nWhy the allowance? Asset-based EWCP lines take real work to administer: monthly or quarterly BBCs, agings, inventory listings, control accounts, and field examinations. The allowance lets lenders recover the cost of that monitoring.\n\nThe guardrails:\n\n- The fees must be **reasonable and prudent based on the level of extraordinary effort required**; and\n- They **must not be higher than the fees charged on the Lender's similarly-sized, non-SBA guaranteed commercial loans**.\n\n| Situation | Can the lender charge an extraordinary servicing fee above 2%? |\n|---|---|\n| Asset-based EWCP line disbursed against monthly BBCs, at annual review | Yes, if reasonable and no higher than on comparable conventional loans |\n| Single transaction-specific EWCP loan not disbursed against a BBC | No, the allowance applies to BBC-disbursed loans |\n| Fee higher than what the lender charges on its own similar conventional ABL lines | No |\n\n> **Watch out:** The allowance applies \"at the time of the annual review.\" It is not a license to charge monthly monitoring fees above the Section A limits throughout the year.\n\n### Packaging fees and lender charges as eligible uses\n\nRecall from the uses of proceeds list that EWCP proceeds may pay **lender fees and charges and any packaging fees** as permitted in the chapter. Fees not permitted by Section A, Ch. 4 or this allowance cannot be financed with EWCP proceeds.\n\n### Submission\n\nThe guaranty application is submitted under **Appendix 20, Submission of Application for Guaranty**.\n",
+      "keyPoints": [
+        "General fee, ethics and Agent rules are in Section A, Ch. 4.",
+        "At annual review, Lenders may charge extraordinary servicing fees in excess of 2% on EWCP loans disbursed against a Borrowing Base Certificate.",
+        "Such fees must be reasonable and prudent for the extra effort required.",
+        "They may not exceed fees charged on the Lender's similarly-sized non-SBA commercial loans."
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (Fees that the Lender May Charge the Borrower)"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Export Working Capital Program (EWCP)",
+      "definition": "SBA 7(a) program (13 CFR 120.340-120.344) guaranteeing short-term, self-liquidating working capital loans to small business Exporters, up to $5,000,000."
+    },
+    {
+      "term": "Self-liquidating loan",
+      "definition": "A loan repaid primarily by converting the financed export-related trading assets (inventory and foreign receivables) into cash."
+    },
+    {
+      "term": "Transaction-Based EWCP",
+      "definition": "An EWCP line of credit supporting single or multiple export transactions during its term, on a revolving or non-revolving basis."
+    },
+    {
+      "term": "Asset-Based EWCP (ABL)",
+      "definition": "A revolving EWCP line supported by a Borrowing Base Certificate reporting receivables and inventory, typically committed for 12 months and renewed annually."
+    },
+    {
+      "term": "Borrowing Base Certificate (BBC)",
+      "definition": "A periodic borrower report of eligible collateral (typically foreign receivables and export inventory) used to determine how much may be advanced."
+    },
+    {
+      "term": "PLP-EWCP",
+      "definition": "Delegated authority allowing a Lender to approve EWCP loans without SBA reviewing the credit or structure before a loan number is issued."
+    },
+    {
+      "term": "EWCP Ongoing Fee",
+      "definition": "The ongoing guaranty fee on EWCP loans, payable monthly with Form 1502 (Option 1) or annually on DFC invoice (Option 2)."
+    },
+    {
+      "term": "SBA Form 1502",
+      "definition": "The monthly lender report on all 7(a) loans, including EWCP, submitted to the Fiscal Transfer Agent."
+    },
+    {
+      "term": "Denver Finance Center (DFC)",
+      "definition": "SBA office that invoices annual EWCP Ongoing Fees and reports delinquent lenders."
+    },
+    {
+      "term": "Office of International Trade (OIT)",
+      "definition": "SBA office that, through Export Finance Managers, monitors EWCP fee payments and Form 1502 reporting."
+    },
+    {
+      "term": "EMC / ETC",
+      "definition": "Export management company / export trading company; eligible for EWCP only if it takes title to the goods or services and has no bank ownership."
+    },
+    {
+      "term": "Operating cash flow (OCF)",
+      "definition": "For EWCP and IT credit analysis, earnings before interest, taxes, depreciation and amortization (EBITDA)."
+    },
+    {
+      "term": "Foreign-to-Foreign Export Transaction",
+      "definition": "A defined export transaction type for which EWCP may not provide pre-shipment or purchase order financing under transaction-specific or transaction-based revolving facilities."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "b5-ewcp1-q1",
+      "question": "What is the maximum EWCP loan amount?",
+      "options": [
+        "$500,000",
+        "$2,000,000",
+        "$5,000,000",
+        "$3,750,000"
+      ],
+      "correctIndex": 2,
+      "explanation": "The maximum EWCP loan is $5,000,000, with affiliates counted as one business. $500,000 is the Export Express maximum and $2,000,000 is the IT working capital cap and a field exam threshold.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (Loan Terms and Conditions for EWCP), Maximum Loan Amount",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b5-ewcp1-q2",
+      "question": "Which of these businesses is excluded from EWCP but could use Export Express?",
+      "options": [
+        "A restaurant group (NAICS 722) that exports sauces",
+        "A hotel (NAICS 721)",
+        "A gas station (NAICS 457)",
+        "A machine shop (NAICS 332)"
+      ],
+      "correctIndex": 0,
+      "explanation": "EWCP excludes NAICS 721, 457 and 722. Export Express excludes only 721 and 457. So a NAICS 722 business is barred from EWCP but not listed as excluded from Export Express. Hotels and gas stations are excluded from both; the machine shop is excluded from neither.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (Eligibility for EWCP), Ineligible NAICS Codes",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b5-ewcp1-q3",
+      "question": "An export management company wants an EWCP line. Under which condition is it eligible?",
+      "options": [
+        "It earns commissions on sales it arranges and has a minority bank shareholder",
+        "It takes title to the goods in the Export Transaction and has no bank ownership",
+        "It takes title to the goods and a bank owns 10% of it",
+        "It acts as agent only, without taking title, for multiple manufacturers"
+      ],
+      "correctIndex": 1,
+      "explanation": "EMCs and ETCs may use EWCP only if they take title to the goods or services, and any bank ownership makes them ineligible. Commission-only agents and companies with bank ownership both fail.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (Eligibility for EWCP), Para. 3",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b5-ewcp1-q4",
+      "question": "Which of the following is a prohibited use of EWCP proceeds?",
+      "options": [
+        "Paying direct labor to manufacture goods for export",
+        "Supporting a performance standby letter of credit for an export contract",
+        "Post-shipment foreign accounts receivable financing",
+        "Buying a forklift for the borrower's warehouse"
+      ],
+      "correctIndex": 3,
+      "explanation": "EWCP proceeds may not acquire fixed assets or capital goods for the borrower's business (13 CFR 120.342). Direct labor for export goods, export-related standby LCs and post-shipment foreign AR financing are all listed eligible uses.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (Eligible Uses of Proceeds for EWCP)",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b5-ewcp1-q5",
+      "question": "What is the primary source of repayment for an EWCP loan?",
+      "options": [
+        "Liquidation of the borrower's real estate collateral",
+        "Personal guaranties of the owners",
+        "Conversion of export-related trading assets to cash",
+        "Long-term business cash flow over a 10-year amortization"
+      ],
+      "correctIndex": 2,
+      "explanation": "EWCP loans are self-liquidating; the conversion of export-related trading assets to cash is the primary source of repayment. If the analysis lacks reasonable assurance of repayment from converting foreign sales to cash, the loan must be declined regardless of collateral.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (Credit Standards for EWCP)",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b5-ewcp1-q6",
+      "question": "At the annual review of an asset-based EWCP line, the lender documents that the borrower is creditworthy and compliant with program requirements, but cannot show reasonable assurance of repayment from converting sales into cash. What follows?",
+      "options": [
+        "The line may be renewed if collateral coverage is strong",
+        "No further disbursements may be made and the loan may not be renewed until all three requirements are met",
+        "The lender may continue advances for 90 days while the borrower cures",
+        "The lender must immediately request SBA purchase"
+      ],
+      "correctIndex": 1,
+      "explanation": "All three findings (creditworthy, reasonable assurance of repayment from conversion of sales into cash, program compliance) must be documented. If any is missing, no further disbursements and no renewal until the borrower can demonstrate all three. Strong collateral does not substitute, and there is no 90-day grace period.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (Credit Standards for EWCP), Specific Types of EWCP loans, Annual and Renewal Credit Reviews",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b5-ewcp1-q7",
+      "question": "Under EWCP Ongoing Fee Option 2, when is payment due after DFC sends an invoice?",
+      "options": [
+        "Within 30 days of the invoice date",
+        "Within 60 days of the invoice date",
+        "With the next monthly SBA Form 1502",
+        "At loan maturity"
+      ],
+      "correctIndex": 0,
+      "explanation": "DFC mails the invoice within 60 days of each 12-month interval, and payment is due within 30 days of the invoice date via Pay.gov. The 60 days is the mailing window, not the payment window.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (Payment Options for EWCP Ongoing Guaranty Fee)",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b5-ewcp1-q8",
+      "question": "A lender elects annual payment (Option 2) of the EWCP Ongoing Fee on an EWCP loan with a 30-month maturity. How many invoices will it receive and when?",
+      "options": [
+        "One, after maturity",
+        "Two: 12 months after closing and after maturity",
+        "Three: 12 months after closing, 24 months after closing, and after maturity",
+        "Thirty monthly invoices"
+      ],
+      "correctIndex": 2,
+      "explanation": "For maturities greater than 24 months, invoices come 12 months after closing, 24 months after closing, and after maturity. One invoice applies to 12 months or less; two invoices apply to more than 12 and not more than 24 months.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (Payment Options for EWCP Ongoing Guaranty Fee)",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b5-ewcp1-q9",
+      "question": "A lender chose Option 2 (annual invoicing) for its EWCP fees. Which reporting obligation still applies?",
+      "options": [
+        "None for EWCP loans; DFC tracks balances directly",
+        "Quarterly Form 1502 for EWCP loans only",
+        "Annual Form 1502 for EWCP loans with the fee payment",
+        "Monthly SBA Form 1502 reporting on all 7(a) loans, including EWCP"
+      ],
+      "correctIndex": 3,
+      "explanation": "Regardless of payment option, the Lender must submit SBA Form 1502 monthly on all 7(a) loans, including EWCP. DFC computes the annual fee from those monthly-reported balances.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (Payment Options for EWCP Ongoing Guaranty Fee)",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b5-ewcp1-q10",
+      "question": "A PLP-EWCP lender approves an EWCP line under its delegated authority. When does SBA review the adequacy of the lender's credit analysis?",
+      "options": [
+        "Before issuing the loan number",
+        "When the Lender requests guaranty purchase or during lender oversight",
+        "Only if the loan exceeds $1,000,000",
+        "At each borrowing base certificate submission"
+      ],
+      "correctIndex": 1,
+      "explanation": "Under PLP-EWCP authority SBA does not review credit or structure before issuing a loan number; the analysis is subject to SBA review at purchase or during oversight. Pre-approval review is the non-delegated method.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (Credit Standards for EWCP), Processing Methods",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b5-ewcp1-q11",
+      "question": "How many years of historical financial information must an EWCP credit analysis cover?",
+      "options": [
+        "The two most recent years plus an interim statement",
+        "The three most recent years plus an interim statement",
+        "One year plus 24 months of projections",
+        "Five years of tax returns"
+      ],
+      "correctIndex": 0,
+      "explanation": "EWCP requires analysis of the two most recent years of historical financial information plus an interim statement, along with projections for at least 12 months after first disbursement. Three years is the International Trade requirement.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (Credit Standards for EWCP - Credit Analysis), Item 6",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b5-ewcp1-q12",
+      "question": "At the annual review of an EWCP line disbursed against monthly BBCs, the lender wants to charge a 2.5% extraordinary servicing fee. Its fee on similar conventional ABL lines is 2.0%. Is the fee permitted?",
+      "options": [
+        "Yes, any fee above 2% is allowed at annual review",
+        "Yes, because EWCP loans are not subject to Section A fee limits",
+        "No, extraordinary servicing fees are never allowed on EWCP",
+        "No, the fee may not exceed what the lender charges on similarly-sized non-SBA loans"
+      ],
+      "correctIndex": 3,
+      "explanation": "Extraordinary servicing fees above 2% are allowed at annual review on BBC-disbursed EWCP loans, but they must be reasonable and no higher than on the lender's similarly-sized non-SBA commercial loans. 2.5% exceeds the 2.0% conventional fee.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (Fees that the Lender May Charge the Borrower)",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b5-ewcp1-q13",
+      "question": "An applicant has been operating for 9 months. What does the SOP allow for EWCP?",
+      "options": [
+        "Nothing; the business must wait until 12 full months",
+        "The Lender may perform an analysis demonstrating sufficient management experience to proceed",
+        "Eligibility only if export sales exceed 70% of revenue",
+        "Eligibility only under non-delegated processing"
+      ],
+      "correctIndex": 1,
+      "explanation": "EWCP requires 12 full months of operations, but if the applicant lacks that history the Lender may perform an analysis demonstrating sufficient management experience to move forward. There is no export-percentage or processing-method condition.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 5, Para. B (Eligibility for EWCP), Para. 1",
+      "difficulty": "applied"
+    }
+  ]
+}

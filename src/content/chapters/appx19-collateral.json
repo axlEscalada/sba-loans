@@ -1,0 +1,374 @@
+{
+  "id": "appx19-collateral",
+  "order": 460,
+  "part": "APPX",
+  "program": "7a",
+  "title": "Appendix 19: Collateral Requirements",
+  "subtitle": "What collateral 7(a) Lenders must take, how to value it, appraisal rules, and program-specific exceptions",
+  "sopRef": "SOP 50 10 8.1, Appendix 19",
+  "estimatedMinutes": 35,
+  "learningObjectives": [
+    "Apply the general collateral standard, refinancing rules, and the piggyback prohibition",
+    "Decide when liens on vehicles and personal real estate are required and how to document the decision",
+    "Apply commercial real estate appraisal standards, including low-appraisal and completion rules",
+    "Calculate whether a Standard 7(a) loan is fully secured using SBA valuation limits",
+    "Identify collateral thresholds and exceptions for 7(a) Small, SBA Express, MARC, CAPLines and export programs"
+  ],
+  "topics": [
+    {
+      "id": "collateral-principles",
+      "title": "Collateral principles: prudence, refinancing, and piggyback",
+      "body": "Appendix 19 consolidates the collateral rules for every 7(a) program. (Guaranty requirements, meaning who must personally guarantee, live in Section A, Chapter 5, Paragraph A.)\n\n#### The general standard\n\nLenders must identify collateral using **commercially reasonable and prudent practices** that are **at least as thorough** as those used for their similarly sized, **non-SBA guaranteed** commercial loans. What collateral to take depends on the **circumstances of the individual loan, including loan size**, and must meet the minimums in this Appendix.\n\n#### Collateral is not the reason to decline\n\n- **A loan request must not be declined solely because collateral is inadequate.** Applicants can show repayment ability even without collateral sufficient to repay in full on default.\n- **But the SBA guaranty is not a substitute for available collateral.** If collateral is available, it must be taken as the rules require.\n\n#### Refinancing existing debt\n\nWhen proceeds refinance existing debt (**except trading assets**), the new loan must be secured with **at least the same collateral and lien priority** as the debt being refinanced, unless a program rule says otherwise.\n\n- If the old debt was **over-collateralized** under SBA requirements and the SBA loan **remains fully secured**, the Lender may **release excess collateral**.\n- **Substitute collateral** is acceptable if it is of **comparable value and useful life** and is acceptable to SBA or to a PLP Lender acting under its PLP authority.\n\n#### No preferences, no piggybacks\n\nA Lender may not take any action that establishes a **preference** in its favor (13 CFR 120.411), and must not have a 7(a) loan in a **piggyback** structure.\n\n**Piggyback financing** exists when one or more lenders make more than one loan to a Borrower **at or about the same time** (loans approved **within 90 days** of one another), **for the same or similar purpose**, and the SBA loan has a **junior lien or no lien** on the collateral securing the non-SBA loan.\n\nIt is **not** piggyback financing when:\n\n- Both the SBA loan and the non-SBA loan are for **working capital** and the non-SBA loan is secured **only by working or trading assets**; or\n- The liens are **pari passu** and the non-SBA loan's maturity is **not shorter** than the SBA loan's maturity.\n\n#### Restrictions on collateral\n\nWhen assessing collateral adequacy, the Lender must evaluate and **document in the loan file** the effect of covenants and recorded restrictions on value and marketability, including **deed restrictions, easements, reversionary interests, subordinations, leases, options, engineering controls**, and similar items.\n\n> **Watch out:** **Environmental indemnification provisions that run with the land are not eligible** and must be removed or waived as to the Federal Government.",
+      "keyPoints": [
+        "Collateral practices must be at least as thorough as for similar non-SBA loans",
+        "Never decline solely for inadequate collateral, but the guaranty is not a substitute for available collateral",
+        "Refinancing (except trading assets): same collateral and lien priority as the debt refinanced",
+        "No piggyback: loans within 90 days, same/similar purpose, SBA loan junior or unsecured on the other loan's collateral",
+        "Environmental indemnifications running with the land must be removed or waived as to the Federal Government"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 19, General Requirements, Para. A.1.a-c"
+    },
+    {
+      "id": "vehicles-personal-re-valuation",
+      "title": "Vehicles, personal real estate, and fixed asset valuation",
+      "body": "#### Vehicles\n\nUnless a program rule says otherwise, a Lender is **not required** to take a lien on a vehicle that:\n\n- **Already has a lien**, or\n- Has a value that **does not exceed $20,000** when the SBA loan number is assigned.\n\nValue may come from an independent third-party source: an **orderly liquidation value** from an appraisal, an **independent vehicle valuation company or website**, or the **purchase price allocated to the vehicle** when proceeds buy it. The credit memo must document whether the vehicle was already encumbered and, if no lien is taken because of value, the **valuation source and amount**.\n\n#### Personal real estate\n\nWhere a rule requires taking available equity in personal real estate:\n\n- **No lien is required when equity is less than 25%** of the property's fair market value.\n- \"Lack of equity\" means fair market value, after existing liens, does not leave **at least 25% equity**. A prior lien that **restricts or prohibits a junior lien** does **not**, by itself, mean lack of equity.\n- The Lender must support the determination with a source **other than the personal financial statement or the tax assessment value**.\n- When a lien is required or elected, it may be **limited to the collateral shortfall or to 150% of the equity** in the property, as applicable.\n- SBA has **no specific appraisal requirements** for non-commercial real estate taken to secure a personal guaranty.\n\n| Personal residence example | Value |\n|---|---|\n| Fair market value | $500,000 |\n| Existing mortgage | $400,000 |\n| Equity | $100,000 (20%) |\n| Lien required? | No, equity is less than 25% |\n\n#### Valuation of fixed assets\n\n- If the value assigned to fixed assets **exceeds Net Book Value**, the Lender needs an **independent appraisal** from a qualified individual. The appraiser must be independent of loan production, not participate in approval, and have no actual or apparent conflict of interest.\n- A fixed asset valuation inside a **business valuation** does **not** satisfy this requirement, **unless it is part of a going concern appraisal**.\n\n> **In practice:** The 25% equity test must be supported by an independent source. Neither the Borrower's own personal financial statement nor the tax assessment value is enough.",
+      "keyPoints": [
+        "No vehicle lien required if already liened or worth $20,000 or less at loan number assignment",
+        "No personal real estate lien required when equity is less than 25% of fair market value",
+        "A prior lien restricting junior liens is not, by itself, lack of equity",
+        "Equity must be supported by a source other than the PFS or tax assessment",
+        "Personal real estate lien may be limited to the shortfall or 150% of equity",
+        "Values above Net Book Value require an independent appraisal"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 19, General Requirements, Para. A.1.d-f"
+    },
+    {
+      "id": "cre-appraisals",
+      "title": "Commercial real estate appraisal standards",
+      "body": "Whenever Appendix 19 requires an appraisal of commercial real estate, these standards apply (governing regulation: 13 CFR 120.160(b)). Some programs may allow an **evaluation** instead under stated conditions.\n\n#### Required appraisal standards\n\n| Requirement | Rule |\n|---|---|\n| Appraiser | Independent **State-licensed or State-certified** appraiser |\n| Standard | **USPAP compliant**; an **Appraisal Report** prepared under USPAP |\n| Age | Dated **within 12 months of the application for guaranty** |\n| Value over $1,000,000 | Appraiser must be **State-certified** |\n| Independence | Independent of loan production, not involved in approval, no appearance of conflict of interest |\n| Client | Must identify the **Lender** as the client and/or intended user (federally regulated Lenders may follow their regulator's FIRREA rules to the extent they permit otherwise) |\n| Source | **May not use an appraisal prepared for the seller or Applicant**; cost may be passed on to the Applicant |\n\nFor federally regulated Lenders, **no exemption** is granted under the Interagency Appraisal and Evaluation Guidelines (December 2, 2010) for transactions insured or guaranteed by a U.S. Government agency.\n\n#### Construction, renovation, and existing buildings\n\n- **New construction or substantial renovation:** the appraisal must estimate **market value upon completion**. \"**Substantial**\" means rehabilitation costs **exceeding one third** of the property's purchase price or fair market value at application.\n- **At completion:** the Lender must get a statement from the **appraiser, general contractor, project architect, or construction management firm** confirming construction **materially conforms** to the plans and specs behind the original appraisal. If it cannot, a **new appraisal** is required.\n- If the new appraisal meets or exceeds the original estimated value, no further action is needed.\n- If the Lender cannot get the statement **and** cannot get a new appraisal at or above the original estimate:\n  - **Before closing** (e.g., refinancing a bridge note): the Lender **may not close without SBA's prior written approval**.\n  - **After closing**, if the loan financed construction: the Lender must **notify the CLSC** and work with it on a remedy (e.g., additional equity or collateral), explaining the difference and recommending a remedy; for additional collateral, identify its **fair market value and liquidation value**.\n- **Existing building with no construction:** value **as-is**. If the appraiser uses another basis, the narrative must explain why.\n\n#### Content\n\nThe appraisal **may not include the contributory value of rental income or intangible assets** in valuing the collateral.\n\n> **Watch out:** An appraisal ordered by the seller, even if recent and USPAP compliant, cannot be used. Order it yourself, naming the Lender as client.",
+      "keyPoints": [
+        "State-licensed or certified, USPAP Appraisal Report, dated within 12 months of application",
+        "State-certified appraiser required if value exceeds $1,000,000",
+        "No appraisals prepared for the seller or Applicant; Lender must be client/intended user",
+        "Substantial renovation = costs exceeding one third of purchase price or FMV; appraise value upon completion",
+        "Completion conformity statement required, otherwise a new appraisal",
+        "No contributory value of rental income or intangibles"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 19, General Requirements, Para. A.1, Commercial real estate appraisal requirements"
+    },
+    {
+      "id": "appraisal-timing-shortfall",
+      "title": "Appraisal timing, low appraisals, and special valuation situations",
+      "body": "#### When the appraisal can come in\n\nAn appraisal may be submitted **with the application** (to help underwriting) or **at loan closing**. In no case may the Lender rely on an appraisal prepared **more than 12 months before the application date**.\n\nIf the appraisal will be obtained at closing, the application must include an **estimate of the real estate's value**, and the credit memorandum must identify that estimate along with the **requirement for an appraisal supporting the estimated value at closing**.\n\n#### When the appraisal comes in low\n\n| Appraised value vs. estimate | Non-PLP Lender | PLP Lender |\n|---|---|---|\n| **90% or more** of estimate | May close; put a **written explanation** of why it is lower in the loan file | Same |\n| **Less than 90%** of estimate | **May not close without SBA's prior written permission**; justification must explain the difference and recommend a remedy (e.g., more equity or collateral); for added collateral, give fair market and liquidation values | **May close**, but must keep a **written justification** in the file with a thorough analysis of the low value and steps taken to offset the risk; SBA may review it at guaranty purchase or in oversight |\n\n**Example:** estimated value $1,000,000; appraisal $880,000 (88%). A non-PLP Lender needs SBA's prior written permission to close. A PLP Lender may close with a documented justification.\n\n#### Changes of ownership\n\nWhen proceeds finance a change of ownership, the Lender must follow **Appendix 15's** business valuation and appraisal requirements, including independent valuation thresholds, special purpose property rules, and verification of the financial information used in the valuation.\n\n#### Recent transfers (36 months)\n\nFor a **business transferred within 36 months before the application date**, SBA requires:\n\n1. An **appraisal of the business real estate** meeting the requirements above; and\n2. Either a **review of that appraisal by another appraiser selected directly by the Lender**, or a **site visit by a senior member of the Lender's staff**. For a site visit, the Lender must document the **date** and a **description of the items reviewed**.\n\n> **Watch out:** The 90% test compares the appraisal to the **estimate in the credit memo**, so a careful, realistic estimate at application avoids closing delays later.",
+      "keyPoints": [
+        "Appraisal may come with the application or at closing, never more than 12 months before application",
+        "Appraisal at closing: application must include an estimated value identified in the credit memo",
+        "Appraisal at 90%+ of estimate: close with written explanation in file",
+        "Below 90%: non-PLP needs SBA prior written permission; PLP may close with written justification",
+        "Business transferred within 36 months: RE appraisal plus second appraiser review or senior staff site visit"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 19, General Requirements, Para. A.1, Appraisal content and timing; recent transfers"
+    },
+    {
+      "id": "standard-fully-secured",
+      "title": "Standard 7(a): the fully secured requirement",
+      "body": "Standard 7(a) loans have the most detailed collateral rule: **the loan must be fully secured**, or, if it cannot be, the Lender must reach for personal real estate.\n\n#### What \"fully secured\" means\n\nA loan is fully secured if the Lender has taken security interests in **all available fixed assets** of the Applicant, with a combined adjusted **Net Book Value** up to the loan amount. **Fixed assets** means **real estate (land and structures), and machinery and equipment** owned by the business or an EPC. (Vehicle liens follow the General Requirements.)\n\n| Asset | Maximum value counted toward \"fully secured\" |\n|---|---|\n| **New** machinery and equipment (excluding furniture and fixtures) | 75% of price, minus prior liens |\n| **Used or existing** machinery and equipment (excluding furniture and fixtures) | 50% of Net Book Value, or 80% with an Orderly Liquidation Appraisal, minus prior liens |\n| **Improved** real estate | 85% of market value (valued per General Requirements) |\n| **Unimproved** real estate | 50% of market value |\n| Furniture and fixtures | 10% of Net Book Value or appraised value |\n| Trading assets (accounts receivable, inventory), if Lender takes them | 10% of current book value |\n\n**Trading assets are optional.** The Lender decides whether to take them or leave them free to secure a line of credit.\n\n#### Collateral shortfall\n\nIf the loan is not fully secured, the Lender **must take available equity in personal real estate**, subject to the personal real estate rules (no lien under 25% equity; lien may be limited to the shortfall or 150% of equity).\n\n#### Assets financed\n\nWhen proceeds **acquire, refinance, or improve** assets, the Lender must get a **first lien** on them. Exception for **improvements**: a subordinate position is acceptable if the existing debt is **ineligible to be refinanced** with a 7(a) loan, or if there is **existing debt on reasonable terms** (e.g., an existing building loan plus a new 7(a) for improvements). Document this in the credit memo.\n\n#### Owners and spouses\n\nWhen an individual, alone or with a spouse or minor children, owns **20% or more** of the Applicant, the Lender must **consider** liens on personal real estate (including commercial and investment property not occupied by the Applicant) owned individually or jointly with that spouse or minor children. Real estate an owner **transferred to a non-owning spouse or minor children within 6 months** of application is **not exempt**.\n\n> **In practice:** Used equipment with a $400,000 Net Book Value and no prior liens counts as only $200,000 (50%). Ordering an Orderly Liquidation Appraisal lets the Lender count up to 80%, which can close a collateral gap without reaching for personal real estate.",
+      "keyPoints": [
+        "Standard 7(a) loans must be fully secured by all available fixed assets up to the loan amount",
+        "New M&E 75% of price; used M&E 50% NBV or 80% with OLA; improved RE 85%; unimproved RE 50%; F&F 10%",
+        "Trading assets optional; if taken, 10% of current book value",
+        "Shortfall: Lender must take available equity in personal real estate",
+        "First lien on assets acquired, refinanced or improved (limited subordinate exception for improvements)",
+        "20%+ owners' personal real estate, including transfers to spouse/minor children within 6 months, must be considered"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 19, Program-Specific Requirements, Standard 7(a) Loans"
+    },
+    {
+      "id": "small-express-marc",
+      "title": "7(a) Small, SBA Express, and MARC collateral",
+      "body": "Smaller and delegated programs relax the detailed collateral rules, especially at the low end.\n\n#### The $50,000 threshold\n\n| Program | $50,000 or less | Greater than $50,000 |\n|---|---|---|\n| 7(a) Small | **Collateral not required** (Lender may take more per its own policies) | General Requirements plus the rules below |\n| SBA Express | **Collateral not required** | General Requirements, but Lender may use **its own collateral policies** for similar non-SBA loans in place of SBA's detailed procedures |\n| CAPLines | Collateral not required | See CAPLines topic |\n| Export Express | Collateral not required | Lender's own written policies (see export topic) |\n\n#### 7(a) Small loans over $50,000\n\n- **First lien on assets financed** with proceeds, except where this Appendix does not require a vehicle lien or permits a subordinate lien for improvements to existing assets.\n- **Working capital:** when **50% or more** of proceeds are for working capital, the Lender must take a lien on **all fixed assets** of the business, **including real estate**, up to the point the loan is **fully secured**, using the Standard 7(a) valuation limits.\n- SBA requires only that collateral, but a Lender may take **more** under its own policies, for example: available equity in personal real estate (residential and investment) of owners and guarantors; trading assets of the business; and commercial, residential or investment real estate of the Applicant or of owners or guarantors personally.\n\n> **Watch out:** A 7(a) Small loan that is 60% working capital and 40% equipment triggers the \"all fixed assets up to fully secured\" rule. One that is 40% working capital does not, though the equipment purchased still needs a first lien.\n\n#### MARC\n\nMARC loans follow the General Requirements, plus:\n\n- The Lender must place a **lien on all assets of the business** through a **UCC-1 filing**.\n- The Lender must obtain a **first lien on the trading assets**, including **accounts receivable and inventory**.",
+      "keyPoints": [
+        "7(a) Small, SBA Express, CAPLines and Export Express: no collateral required at $50,000 or less",
+        "7(a) Small over $50,000: first lien on assets financed",
+        "7(a) Small with 50%+ working capital: lien on all fixed assets incl. real estate up to fully secured",
+        "SBA Express over $50,000: Lender may use its own non-SBA collateral policies",
+        "MARC: blanket UCC-1 lien on all business assets plus first lien on A/R and inventory"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 19, Program-Specific Requirements, 7(a) Small Loans, SBA Express Loans, MARC Loans"
+    },
+    {
+      "id": "caplines-collateral",
+      "title": "CAPLines collateral",
+      "body": "All General Requirements apply to CAPLines unless a variant rule says otherwise.\n\n#### All CAPLines\n\n- **$50,000 or less:** collateral is not required.\n- **Commercial real estate securing a CAPLine:**\n  - Loan **greater than $500,000**: a full appraisal under the commercial real estate appraisal requirements.\n  - Loan **$500,000 or less**: a full appraisal only if the transaction involves **related parties**, or SBA or the Lender concludes one is needed to evaluate creditworthiness.\n  - If no appraisal is required, the Lender must obtain an **appropriate evaluation** consistent with safe and sound banking practices. Evaluations need not follow USPAP or be done by licensed or certified appraisers, but should be consistent with the Interagency Appraisal and Evaluation Guidelines and the Interagency Advisory on the Use of Evaluations in Real Estate-Related Financial Transactions.\n\n#### Working Capital CAPLines\n\n| Disbursement method | Collateral rule |\n|---|---|\n| **Borrowing base certificate (BBC)** | First lien on working or trading assets, including A/R and inventory |\n| **No BBC** | Assume **full use of the line**; secure at a **1:1 collateral ratio**; first lien on working or trading assets plus additional collateral as needed |\n\nIf business assets do not fully secure a non-BBC line, the Lender must take **available equity in personal real estate** of **owners of 20% or more** and **guarantors (except Supplemental Guarantors)**, subject to the Appendix limits, including that real estate with **less than 25% equity** need not be pledged.\n\n#### Contract CAPLines\n\n- **First lien** on the contract(s) financed **and their proceeds**, by **assignment and UCC filing**, unless an assignment exception applies.\n- Additional collateral per the Lender's policies for similar non-SBA lines.\n- All liens must be **perfected and lien position verified before the initial disbursement**, and for revolving structures covering more than one season, contract or project, **before each disbursement cycle**.\n\n#### Builders CAPLines\n\n- SBA accepts **no less than a second lien** on the property being built or renovated, if the first lien's purpose was to **acquire** the property.\n- For a subdivision or multiple parcels, the first lienholder must provide a **release clause** allowing clear title to transfer to a buyer upon a pre-established payment.\n- The Lender must **not** take second position if the first lienholder requires **full payoff of the entire first loan** before releasing any parcel.\n- If the Lender and SBA are second, the total needed to release the first and second liens may not exceed **80% of the fair market value of the completed project**.",
+      "keyPoints": [
+        "CAPLines $50,000 or less: no collateral required",
+        "CRE securing CAPLines: appraisal if loan over $500,000; otherwise only for related parties or if needed; else an evaluation",
+        "Working Capital CAPLine without BBC: 1:1 collateral ratio assuming full use",
+        "Contract CAPLine: first lien on contracts and proceeds; liens perfected before initial disbursement",
+        "Builders CAPLine: at least second lien; release clause; first plus second release amounts at most 80% of completed FMV"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 19, Program-Specific Requirements, CAPLines"
+    },
+    {
+      "id": "export-collateral",
+      "title": "Export Express, EWCP, and International Trade collateral",
+      "body": "#### Export Express\n\n- **$50,000 or less:** collateral not required.\n- **Over $50,000:** follow the Lender's own **written** collateral policies for similar non-SBA loans, except as otherwise required for standby letters of credit or other Export Express structures.\n- **Commercial real estate:** same tiers as CAPLines: appraisal if the loan is **over $500,000**; at **$500,000 or less**, only for related parties or if needed to evaluate creditworthiness; otherwise an appropriate **evaluation**.\n\n#### Export Working Capital Program (EWCP)\n\n- **First security interest** in all collateral tied to the financed export transactions: export-related inventory, receivables, credit insurance assignments, letter of credit proceeds, and contract proceeds. Collateral must be located in the **United States, its territories or possessions**.\n- Receivables from sales to foreign purchasers are **not a foreign asset** and may be taken as collateral.\n- Export inventory and foreign receivables are generally adequate coverage, but the loan must remain **In Margin** at all times: availability under the EWCP formula must be **equal to or greater than the principal balance**. SBA (non-delegated) or the PLP-EWCP Lender (delegated) may require liens on other business assets.\n- **Refinancing:** collateral securing the refinanced debt must be **transferred** to the EWCP loan.\n- **Alongside a term loan:** the EWCP loan must have **lien priority on the trading assets** it uses, and the credit memo must clearly identify those assets.\n- **Guaranties:** personal guaranties of **all 20% or more owners** are generally required, but may be waived by the **Director, International Trade Finance (D/ITF)**.\n\n**Standby Letters of Credit (SBLCs) under EWCP**\n\n| Requirement | Rule |\n|---|---|\n| Transaction-Based loan collateral | Cash deposit with the Lender of **at least 25%** of the SBLC, held for the SBLC's term |\n| Asset-Based loan (ABL) collateral | Export inventory, foreign A/R, or other acceptable collateral may replace cash (SBA or PLP-EWCP Lender approval); borrowing base must support **at least 25%** of all SBLCs |\n| Financial SBLC under ABL | Fully secure at **100%** against borrowing base availability |\n| Reserve against gross EWCP loan | **100%** of SBLC amount, so the facility can fund a draw |\n| Performance SBLC with cash deposit | Lender may elect to reserve **75%** instead |\n| On a draw | Liquidate the cash deposit or release the BBC collateral hold |\n\nSBLCs may support either **performance or financial** needs. Lenders must document how additional collateral was secured.\n\n#### International Trade (IT) loans\n\nThe Small Business Act, Section 7(a)(16)(B), requires a **first lien** on assets financed with IT proceeds or other assets of the Applicant. A Lender may request a **policy exception from the Director of Financial Assistance (D/FA)** to be in **second position**, if the second lien gives adequate assurance of repayment; requests go by email to 7adelegatedloanapps@sba.gov. For working capital (or refinancing working capital debt), the **trading assets** (A/R and inventory) require the first lien.",
+      "keyPoints": [
+        "Export Express over $50,000: Lender's own written collateral policies",
+        "EWCP: first security interest in export collateral located in the U.S.; loan must stay In Margin",
+        "EWCP SBLCs: 25% cash deposit (Transaction-Based); 100% reserve, or 75% for performance SBLCs with cash",
+        "EWCP: guaranties from all 20%+ owners, waivable by D/ITF",
+        "IT loans: first lien required by statute; second position only by D/FA policy exception"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 19, Program-Specific Requirements, Export Express, EWCP and IT Loans"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Fully secured",
+      "definition": "A Standard 7(a) loan secured by all available fixed assets, valued with SBA's limits, up to the loan amount."
+    },
+    {
+      "term": "Fixed assets",
+      "definition": "For 7(a), real estate (land and structures) and machinery and equipment owned by the business or an EPC."
+    },
+    {
+      "term": "Net Book Value",
+      "definition": "An asset's book value net of depreciation; the basis for several fully secured valuation limits."
+    },
+    {
+      "term": "Collateral shortfall",
+      "definition": "When a loan is not fully secured; for Standard 7(a), the Lender must then take available equity in personal real estate."
+    },
+    {
+      "term": "Piggyback financing",
+      "definition": "Multiple loans within 90 days for the same or similar purpose where the SBA loan is junior or unsecured on the other loan's collateral; prohibited."
+    },
+    {
+      "term": "Pari passu",
+      "definition": "Equal-rank liens; not piggyback if the non-SBA loan's maturity is not shorter than the SBA loan's."
+    },
+    {
+      "term": "Lack of equity",
+      "definition": "Personal real estate with less than 25% equity after existing liens; no lien required."
+    },
+    {
+      "term": "Substantial renovation",
+      "definition": "Rehabilitation costs exceeding one third of the purchase price or FMV; requires an as-completed appraisal."
+    },
+    {
+      "term": "Orderly Liquidation Appraisal",
+      "definition": "An appraisal that lets used M&E count at up to 80% toward fully secured."
+    },
+    {
+      "term": "Evaluation",
+      "definition": "A non-USPAP real estate valuation allowed for some CAPLines and Export Express loans of $500,000 or less."
+    },
+    {
+      "term": "In Margin",
+      "definition": "EWCP condition where formula availability is equal to or greater than the principal balance."
+    },
+    {
+      "term": "Trading assets",
+      "definition": "Working assets such as accounts receivable and inventory."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "a19-q1",
+      "question": "Under the General Requirements, when is a Lender not required to take a lien on a business vehicle?",
+      "options": [
+        "When the vehicle is less than 5 years old",
+        "When the vehicle already has a lien or is worth $20,000 or less when the loan number is assigned",
+        "When the vehicle is worth $50,000 or less",
+        "Never; all vehicles must be liened"
+      ],
+      "correctIndex": 1,
+      "explanation": "A Lender is not required to lien a vehicle that already has a lien or whose value does not exceed $20,000 when the SBA loan number is assigned. $50,000 is the no-collateral threshold for small loans, not the vehicle rule.",
+      "sopRef": "SOP 50 10 8.1, Appendix 19, General Requirements, Para. A.1.d",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a19-q2",
+      "question": "A 30% owner's home is worth $600,000 (supported by an independent valuation) with a $480,000 mortgage. The Standard 7(a) loan has a collateral shortfall. Must the Lender take a lien on the home?",
+      "options": [
+        "Yes, because there is a collateral shortfall",
+        "Yes, limited to 150% of equity",
+        "No, because equity is $120,000, which is 20% of fair market value, below the 25% threshold",
+        "No, because personal residences are never required"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Lender is not required to take a lien when equity is less than 25% of fair market value. $120,000 is 20% of $600,000. The 150% limit applies only when a lien is required or elected.",
+      "sopRef": "SOP 50 10 8.1, Appendix 19, General Requirements, Para. A.1.e",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a19-q3",
+      "question": "Which value may be counted for used machinery and equipment toward \"fully secured\" on a Standard 7(a) loan, assuming no Orderly Liquidation Appraisal?",
+      "options": [
+        "50% of Net Book Value minus prior liens",
+        "75% of price minus prior liens",
+        "85% of market value",
+        "10% of Net Book Value"
+      ],
+      "correctIndex": 0,
+      "explanation": "Used or existing M&E may be valued at no more than 50% of Net Book Value (or 80% with an Orderly Liquidation Appraisal), minus prior liens. 75% of price applies to new M&E, 85% to improved real estate, and 10% to furniture and fixtures.",
+      "sopRef": "SOP 50 10 8.1, Appendix 19, Program-Specific Requirements, Standard 7(a) Loans",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a19-q4",
+      "question": "A Lender's commercial real estate appraisal comes in at 85% of the estimated value in the credit memo. The Lender is not a PLP Lender. What must it do?",
+      "options": [
+        "Close with a written explanation in the file",
+        "Close, since the appraisal is within 20% of the estimate",
+        "Order a second appraisal and use the higher value",
+        "Obtain SBA's prior written permission before closing, with a justification and recommended remedy"
+      ],
+      "correctIndex": 3,
+      "explanation": "If appraised value is less than 90% of the estimate, a non-PLP Lender may not close without SBA's prior written permission, with a justification and a remedy such as more equity or collateral. A written explanation alone suffices only at 90% or more, or for PLP Lenders below 90% with a full justification.",
+      "sopRef": "SOP 50 10 8.1, Appendix 19, General Requirements, Para. A.1, Closing when appraisal value is below the estimate",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a19-q5",
+      "question": "A commercial property securing a 7(a) loan has an estimated value of $1,400,000. What kind of appraiser is required?",
+      "options": [
+        "State-licensed or State-certified",
+        "State-certified",
+        "Any USPAP-trained appraiser",
+        "The seller's appraiser, if dated within 12 months"
+      ],
+      "correctIndex": 1,
+      "explanation": "If the estimated value of the commercial property exceeds $1,000,000, the appraiser must be State-certified. A Lender may never use an appraisal prepared for the seller or Applicant.",
+      "sopRef": "SOP 50 10 8.1, Appendix 19, General Requirements, Para. A.1, Commercial real estate appraisal requirements",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a19-q6",
+      "question": "Bank A makes a conventional loan and a 7(a) loan to the same Borrower 45 days apart to buy equipment. The 7(a) loan takes a second lien behind the conventional loan on the equipment. What is this?",
+      "options": [
+        "A prohibited piggyback structure",
+        "Acceptable, because the loans were not closed on the same day",
+        "Acceptable, because the 7(a) loan has some lien",
+        "Acceptable if the conventional loan has a shorter maturity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Piggyback financing exists when loans are made at or about the same time (within 90 days), for the same or similar purpose, and the SBA loan has a junior or no lien on the non-SBA loan's collateral. The pari passu exception does not apply to a junior lien.",
+      "sopRef": "SOP 50 10 8.1, Appendix 19, General Requirements, Para. A.1.c",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a19-q7",
+      "question": "A loan finances renovation of a building purchased for $900,000; renovation costs are $350,000. How must the appraisal value the property?",
+      "options": [
+        "As-is value only",
+        "Value excluding the renovation",
+        "Market value upon completion, because renovation is substantial",
+        "Contributory value of rental income after renovation"
+      ],
+      "correctIndex": 2,
+      "explanation": "Substantial renovation means costs exceeding one third of the purchase price or FMV; $350,000 exceeds $300,000 (one third of $900,000), so the appraisal must estimate market value upon completion. Rental income contributory value may never be included.",
+      "sopRef": "SOP 50 10 8.1, Appendix 19, General Requirements, Para. A.1, Construction, renovation and existing buildings",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a19-q8",
+      "question": "A $45,000 SBA Express loan is approved. What collateral is required?",
+      "options": [
+        "A lien on all fixed assets up to fully secured",
+        "Personal real estate equity of all 20% owners",
+        "A first lien on all trading assets",
+        "None; collateral is not required for SBA Express loans of $50,000 or less"
+      ],
+      "correctIndex": 3,
+      "explanation": "For SBA Express loans of $50,000 or less, collateral is not required. Above $50,000, the Lender may use its own collateral policies for similar non-SBA loans.",
+      "sopRef": "SOP 50 10 8.1, Appendix 19, Program-Specific Requirements, SBA Express Loans",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a19-q9",
+      "question": "A $250,000 7(a) Small loan will use 60% of proceeds for working capital and 40% for new equipment. What collateral must the Lender take?",
+      "options": [
+        "A first lien on the equipment and a lien on all fixed assets of the business, including real estate, up to fully secured",
+        "Only a first lien on the equipment",
+        "No collateral, because the loan is a 7(a) Small loan",
+        "Only trading assets"
+      ],
+      "correctIndex": 0,
+      "explanation": "For 7(a) Small loans over $50,000, the Lender must take a first lien on assets financed and, when 50% or more of proceeds are working capital, a lien on all fixed assets including real estate up to fully secured. Collateral is waived only at $50,000 or less.",
+      "sopRef": "SOP 50 10 8.1, Appendix 19, Program-Specific Requirements, 7(a) Small Loans",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a19-q10",
+      "question": "An EWCP Transaction-Based loan supports issuance of a $200,000 Standby Letter of Credit. What cash deposit must the Applicant place with the Lender?",
+      "options": [
+        "$20,000",
+        "At least $50,000, held for the term of the SBLC",
+        "$150,000",
+        "$200,000"
+      ],
+      "correctIndex": 1,
+      "explanation": "Under a Transaction-Based EWCP loan, the Applicant must deposit cash equal to at least 25% of the SBLC, held for its term: 25% of $200,000 is $50,000. The 75% figure is a permitted reserve level, not the deposit.",
+      "sopRef": "SOP 50 10 8.1, Appendix 19, Program-Specific Requirements, EWCP Loans",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a19-q11",
+      "question": "A Lender is making a $400,000 Builders CAPLine. The first lienholder financed the lot purchase. When may the Lender take a second lien?",
+      "options": [
+        "Never; Builders CAPLines require a first lien",
+        "Always, regardless of release terms",
+        "When the first lienholder provides a release clause and the combined release amounts do not exceed 80% of the completed project's FMV",
+        "Only if SBA's D/FA grants an exception"
+      ],
+      "correctIndex": 2,
+      "explanation": "SBA accepts no less than a second lien if the first lien's purpose was to acquire the property, with a release clause for subdivided property, and total release amounts no more than 80% of the completed project's FMV. The second lien is not allowed if the first lienholder requires full payoff before releasing any parcel.",
+      "sopRef": "SOP 50 10 8.1, Appendix 19, Program-Specific Requirements, CAPLines, Builders CAPLines",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a19-q12",
+      "question": "A Working Capital CAPLine will not use a borrowing base certificate. What collateral rule applies?",
+      "options": [
+        "No collateral is needed if the Borrower has strong cash flow",
+        "Lender may use its own policies",
+        "Lender must take a second lien on trading assets",
+        "Lender must assume full use of the line and secure it at a 1:1 collateral ratio"
+      ],
+      "correctIndex": 3,
+      "explanation": "Without a BBC, the Lender must assume full use of the line and secure it with sufficient collateral for a 1:1 ratio, with a first lien on working or trading assets plus more collateral if needed.",
+      "sopRef": "SOP 50 10 8.1, Appendix 19, Program-Specific Requirements, CAPLines, Working Capital CAPLines",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a19-q13",
+      "question": "A business was purchased by its current owner 20 months ago and now applies for a 7(a) loan secured by its real estate. Beyond a compliant appraisal, what does SBA require?",
+      "options": [
+        "Nothing more",
+        "Either a review of the appraisal by another appraiser selected by the Lender, or a site visit by a senior Lender staff member",
+        "A business valuation from the D/FA",
+        "A second appraisal paid by the seller"
+      ],
+      "correctIndex": 1,
+      "explanation": "For a business transferred within 36 months before application, SBA requires an appraisal of the business real estate plus either a review by another Lender-selected appraiser or a documented senior staff site visit.",
+      "sopRef": "SOP 50 10 8.1, Appendix 19, General Requirements, Para. A.1, Additional appraisal review for recent transfers",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a19-q14",
+      "question": "An IT loan Lender wants a second lien position on the assets financed. What is required?",
+      "options": [
+        "A policy exception from the Director of Financial Assistance (D/FA), with the second lien giving adequate assurance of repayment",
+        "Nothing; IT loans follow the Lender's own policies",
+        "Approval from the D/ITF",
+        "Written consent of the first lienholder only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Small Business Act, Section 7(a)(16)(B), requires a first lien on IT loan assets; a Lender may request a policy exception from the D/FA for a second position if it provides adequate assurance of repayment. The D/ITF handles EWCP guaranty waivers, not IT lien exceptions.",
+      "sopRef": "SOP 50 10 8.1, Appendix 19, Program-Specific Requirements, International Trade (IT) Loans",
+      "difficulty": "applied"
+    }
+  ]
+}

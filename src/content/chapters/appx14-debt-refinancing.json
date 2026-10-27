@@ -1,0 +1,395 @@
+{
+  "id": "appx14-debt-refinancing",
+  "order": 410,
+  "part": "APPX",
+  "program": "7a",
+  "title": "Appendix 14: 7(a) Debt Refinancing Requirements",
+  "subtitle": "When 7(a) proceeds can pay off existing debt, how to prove the refinance is legitimate, and the program-specific twists",
+  "sopRef": "SOP 50 10 8.1, Appendix 14",
+  "estimatedMinutes": 40,
+  "learningObjectives": [
+    "Apply the 12-month, 29-day currency test and the no-loss-shifting principle to any debt proposed for refinancing",
+    "Identify which debt types are eligible, ineligible, or conditionally eligible (MCAs, credit cards, HELOCs, seller notes)",
+    "Calculate the 10 percent installment payment improvement and recognize its exceptions",
+    "Apply the extra conditions for Same Institution Debt, other lenders' 7(a) loans, and 504 refinances",
+    "Assemble the required written analysis, supporting documents and Terms and Conditions language",
+    "Recognize program-specific refinancing rules for Express, 7(a) Small, MARC, CAPLines and EWCP"
+  ],
+  "topics": [
+    {
+      "id": "refi-core-test",
+      "title": "The core test: never pay a creditor facing a loss",
+      "body": "Debt refinancing is one of the most common uses of 7(a) proceeds, and also one of the most scrutinized. Appendix 14 pulls every refinancing rule for 7(a) into one place. All 7(a) programs apply the **General Requirements** unless a **Program-Specific** rule says otherwise.\n\nThe whole appendix grows out of one principle from 13 CFR 120.140(j)(1) and 120.201:\n\n> SBA-guaranteed proceeds may **not** be used to pay a creditor who is in a position to sustain a loss.\n\nThat includes the lender's own debt. If a refinance would shift all or part of a potential loss from the original lender onto SBA, it is ineligible. SBA does not want its guaranty to become a bailout for a creditor holding a troubled loan.\n\n#### The \"current\" test\n\nBecause a troubled loan is the classic way a creditor ends up \"in a position to sustain a loss,\" SBA uses payment history as a hard eligibility screen:\n\n- The debt being refinanced **must be, and must have been, current** for at least the **last 12 months**, or for the life of the loan if it is shorter than 12 months.\n- \"Current\" means **no required payment has remained unpaid for more than 29 days**.\n- A loan that **matured and was not paid within 29 days of the maturity date** is not current and is **not eligible** for refinancing.\n\n| Situation | Eligible? |\n|---|---|\n| Loan 8 months old, never more than 29 days late | Yes (life of loan is less than 12 months) |\n| Payment 35 days late 7 months ago | No - not current within the last 12 months |\n| Balloon matured 45 days ago and is still unpaid | No - matured debt not paid within 29 days |\n\n> **Watch out:** The matured-loan rule catches deals that look routine. A borrower whose balloon note came due and whose bank simply \"let it ride\" past 29 days cannot refinance that note with 7(a) proceeds, even if every installment before maturity was paid on time.\n\n> **In practice:** Pull a payment history for every debt on the refinancing schedule before you invest time in underwriting. The 12-month currency check is a quick pass/fail screen that can kill a deal early.",
+      "keyPoints": [
+        "Proceeds may not pay a creditor in a position to sustain a loss, including the lender's own debt (13 CFR 120.140(j)(1), 120.201).",
+        "Debt must be current for the last 12 months or life of the loan, whichever is less.",
+        "Current = no required payment unpaid for more than 29 days.",
+        "Matured debt not paid within 29 days of maturity is not current and not eligible.",
+        "General Requirements apply to every 7(a) program unless a Program-Specific rule says otherwise."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 14, General Requirements (13 CFR 120.140(j)(1) and 120.201)"
+    },
+    {
+      "id": "eligible-debt-types",
+      "title": "Which business debts can be refinanced",
+      "body": "Once a debt passes the \"current\" test, it must also fit one of the categories SBA recognizes as a legitimate reason to refinance. Each category describes a debt whose structure is genuinely hurting the business, rather than a creditor looking for an exit.\n\n#### Eligible categories\n\n1. **Demand notes or balloon payments** - any debt structured this way.\n2. **Above-maximum interest rate** - debt whose rate exceeds the SBA maximum interest rate for the loan's size or term.\n3. **Credit card debt used for business expenses** - the Applicant must certify the proceeds were used **exclusively for the business** and not for any ineligible purpose under 13 CFR 120.130.\n4. **Over-collateralized debt** - measured against 7(a) collateral requirements (Appendix 19 defines \"fully secured\").\n5. **Revolving lines of credit** (short- or long-term) where the original lender is **unwilling to renew**, or the Applicant is restructuring for a **lower rate or longer term**.\n6. **Debt with an inappropriate maturity** - for example a 3-year term loan used to buy equipment with a 15-year useful life.\n7. **Debt used to finance a change of ownership** of a going concern. Appendix 15 has the detailed rules; **seller debt** from a change of ownership may be refinanced after it has been in place and current for **36 months**.\n8. **Balance-sheet debt** - eligible if the debt also shows on the business tax returns (Schedule C for sole proprietors) with the **interest expense** associated with it.\n9. **HELOC** - the Applicant must certify that the amount being refinanced was used **exclusively for business**.\n10. **Non-SBA debt from another lender** - eligible if the new loan meets the **10 percent improvement** to installment payment requirement.\n\n#### Lender reliance on certifications\n\nFor both credit card debt and HELOCs, the lender may **rely on the Applicant's certification**. If that certification later proves invalid, SBA **will not use it as a basis to deny or repair** the guaranty purchase. This is an unusual safe harbor - the risk of a false certification sits with the borrower, not the lender.\n\n> **In practice:** Have the Applicant sign the business-use certification for each card or HELOC balance being refinanced and keep it in the file next to the statement. That signature is what earns the purchase-review protection.\n\n> **Watch out:** The tax-return test for balance-sheet debt is about **interest expense** appearing on the return. A loan that sits on the balance sheet but whose interest never shows up as a business expense is a red flag that it may really be personal debt.",
+      "keyPoints": [
+        "Ten eligible categories, including demand/balloon debt, above-max rate debt, and inappropriate maturities.",
+        "Credit card and HELOC debt require an Applicant certification of exclusive business use.",
+        "Lender may rely on the certification; an invalid certification is not a basis to deny or repair the guaranty.",
+        "Seller debt from a change of ownership is refinanceable after 36 months in place and current.",
+        "Balance-sheet debt must appear on business tax returns showing the interest expense."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 14, General Requirements, Para. 1"
+    },
+    {
+      "id": "ineligible-debt",
+      "title": "Debts that cannot be refinanced",
+      "body": "Some debt types are off-limits outright, and a few items that look like refinancing are not treated as refinancing at all.\n\n#### Never eligible\n\n- **Factoring agreements** are not eligible for refinancing.\n- **Debt owed to an SBIC or a New Markets Venture Capital Company** may not be refinanced with a 7(a) loan (13 CFR 120.130(b)).\n- **Debt originally incurred for an ineligible SBA purpose** may not be refinanced, **unless the condition causing the ineligibility no longer exists**.\n\n#### Sales-Based Repayment Agreements (Merchant Cash Advances)\n\nMCAs and similar sales-based agreements are eligible **only if all three** conditions are true:\n\n1. The original agreement has been **converted to a term loan**;\n2. It has **amortized for at least 24 months** since conversion; and\n3. **No additional agreements** have been put in place since the prior agreement(s) were converted.\n\nIf the sales-based agreement is **still active**, it is not eligible.\n\n| Debt type | Rule |\n|---|---|\n| Factoring agreement | Not eligible |\n| Active MCA | Not eligible |\n| MCA converted to term loan, 24+ months amortizing, no new MCAs | Eligible |\n| SBIC or NMVCC debt | Not eligible |\n| Debt for an ineligible purpose | Not eligible unless the ineligibility condition is gone |\n| Trade payables | Not considered refinancing |\n\n#### Trade payables are not \"refinancing\"\n\nPaying trade payables (amounts owed to suppliers in the ordinary course) is **not considered debt refinancing**, so the Appendix 14 analysis does not apply to them.\n\n> **Watch out:** Borrowers who use MCAs often stack them. A business that converted one MCA to a term loan 30 months ago but took a new advance last year fails the \"no additional agreements\" condition, so the converted loan cannot be refinanced.\n\n> **In practice:** When a borrower's bank statements show daily or weekly ACH debits to a funder, treat it as a likely sales-based agreement and confirm its status before quoting a refinance.",
+      "keyPoints": [
+        "Factoring agreements are never eligible for refinancing.",
+        "MCAs: eligible only if converted to a term loan, amortized at least 24 months, and no new agreements since.",
+        "Active sales-based agreements are not eligible.",
+        "No refinancing of SBIC or New Markets Venture Capital Company debt (13 CFR 120.130(b)).",
+        "Debt for an originally ineligible purpose is not refinanceable unless the ineligibility no longer exists.",
+        "Paying trade payables is not debt refinancing."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 14, General Requirements, Paras. 2, 3 and 10"
+    },
+    {
+      "id": "same-institution-debt",
+      "title": "Refinancing Same Institution Debt (SID)",
+      "body": "Refinancing your own institution's loan is where the \"shift the loss to SBA\" concern is sharpest, so SID carries extra conditions on top of everything else in the appendix.\n\n#### Basic rules\n\n- Non-SBA SID **may be processed under PLP authority**, but all other conditions of Appendix 14 must still be met.\n- Under 13 CFR 120.452, a lender **may not use delegated authority to reduce its credit exposure** to the Applicant.\n- A 7(a) loan may not refinance SID where there is an **appearance** that the lender will shift all or part of a potential loss to SBA (13 CFR 120.201).\n\n#### Extra file documentation for SID\n\n| Item | Look-back |\n|---|---|\n| Transcript of due dates and payment receipt dates | Prior **36 months** or life of loan, whichever is less |\n| Written explanation of late payments and late charges | Last **36 months** |\n\nFor this purpose a **late payment** is any payment made **more than 29 days** after the due date. Note the look-back is longer than the general 12-month currency test.\n\n#### What is NOT treated as SID refinancing\n\n1. An **interim loan** made for purposes other than real estate construction and **approved within 90 days** before the PLP loan number is issued.\n2. A **construction loan** that has **not been disbursed** when the PLP loan number is issued.\n3. In an **Initial Acquisition** change of ownership, paying off the **seller's** loan with proceeds of the Borrower's loan.\n\n#### Refinancing your own 7(a) loan\n\nA lender may refinance **its own 7(a) loan** through delegated processing **only if**:\n\n- it cannot modify the existing loan because a **secondary market investor will not agree** to the modified terms; or\n- an **increase** in the existing SBA-guaranteed loan is **not possible**.\n\n> **Watch out:** \"Appearance\" is the standard, not proof. If your bank's own loan has been downgraded internally or is on a watch list, refinancing it into a guaranteed loan will look like loss-shifting regardless of intent.\n\n> **In practice:** Build the 36-month payment transcript straight from your core system and attach it to the credit memo along with the late-payment narrative; it is a common gap in SID files.",
+      "keyPoints": [
+        "Non-SBA SID may be processed under PLP, but all Appendix 14 conditions still apply.",
+        "Delegated authority may not be used to reduce the lender's credit exposure (13 CFR 120.452).",
+        "SID files need a 36-month payment transcript and a written explanation of late payments (over 29 days).",
+        "Not SID: interim non-construction loans approved within 90 days before the PLP number, undisbursed construction loans, Initial Acquisition seller-loan payoffs.",
+        "Own 7(a) loan may be refinanced via delegated processing only if a secondary market investor blocks modification or an increase is not possible."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 14, General Requirements, Para. 4"
+    },
+    {
+      "id": "refi-7a-and-504",
+      "title": "Refinancing another lender's 7(a) or an SBA 504 loan",
+      "body": "SBA debt can itself be refinanced with a new 7(a) loan, with a few program-specific twists.\n\n#### Another lender's 7(a) loan\n\nProceeds may refinance existing 7(a) loans from **other lenders**, provided the Appendix 14 conditions are met. Any applicable **subsidy recoupment fees** apply.\n\n(Refinancing **your own** 7(a) loan is the narrower SID case covered in the previous topic.)\n\n#### An SBA 504 loan\n\nA 504 loan can be refinanced with a 7(a) loan under **delegated or non-delegated** authority if the Appendix 14 conditions are met **and** one of these is true:\n\n1. **Both** the Third Party Loan (TPL) **and** the 504 loan are being refinanced; **or**\n2. The Third Party Loan has been **paid in full**, and the 504 loan needs to be refinanced as part of a **larger transaction** funding **expansion of or renovations to** the Project Property.\n\nTwo more rules:\n\n- Any applicable **504 prepayment penalties** apply.\n- The 7(a) lender **may not solely refinance the TPL's loan** for an existing 504 project.\n\n| Proposed refinance | Allowed? |\n|---|---|\n| TPL + 504 debenture together | Yes |\n| 504 only, TPL already paid off, part of an expansion project | Yes |\n| 504 only, TPL paid off, no expansion or renovation | No |\n| TPL only, 504 left in place | No |\n\n> **Watch out:** Lenders sometimes want to take out only the first-lien TPL piece of a 504 because it is the larger balance. The SOP expressly prohibits a 7(a) that solely refinances the TPL loan on an existing 504 project.\n\n> **In practice:** When a 504 is being refinanced, get the prepayment penalty figure from the CDC early - it changes the sources and uses and can affect whether the 10 percent payment improvement test is met.",
+      "keyPoints": [
+        "Another lender's 7(a) loan may be refinanced if Appendix 14 conditions are met; subsidy recoupment fees apply.",
+        "504 refinance allowed under delegated or non-delegated authority when TPL and 504 are both refinanced.",
+        "Or when the TPL is paid in full and the 504 is refinanced within a larger expansion/renovation transaction.",
+        "504 prepayment penalties apply.",
+        "A 7(a) may not solely refinance the TPL loan on an existing 504 project."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 14, General Requirements, Paras. 5 and 6"
+    },
+    {
+      "id": "ten-percent-improvement",
+      "title": "The 10 percent payment improvement test",
+      "body": "A refinance should leave the borrower better off. SBA measures that mechanically: the **new installment payment must be at least 10 percent less** than the existing installment amount(s) **in aggregate**.\n\n#### How the calculation works\n\n- If several debts are being refinanced at the same time, their payments may be **combined** in the calculation.\n- If the existing note has an **escalating payment structure**, compare the new installment to the **expected installment within the next 12 months**, not just today's payment.\n\n**Example:** A borrower pays $4,000 per month on an equipment loan and $1,500 per month on a term loan from another bank. Combined existing payments are $5,500. The new 7(a) payment must be no more than $4,950 ($5,500 less 10 percent).\n\n#### Exceptions - debts that do not have to meet the test\n\nThe 10 percent test does **not** apply to:\n\n- Debt (short- or long-term) structured with a **demand note or balloon payment**;\n- **Credit card** obligations and **HELOCs** used for business purposes; and\n- **Revolving lines of credit** (short- or long-term) where the original lender is **unable or unwilling to renew**, or the Applicant is restructuring for a **lower rate or longer term**.\n\nThe logic: for these debts the \"payment\" is either undefined (a demand note), artificially low (interest-only revolver or card minimum), or about to disappear (a non-renewing line), so a payment comparison would be meaningless.\n\n#### Where the test is required by name\n\n- Refinancing **non-SBA debt from another lender** (eligible category 10) requires meeting the 10 percent test.\n- Appendix 15 applies the same test when refinancing **seller notes** from a change of ownership.\n\n> **Watch out:** An escalating note can hide a failure. If a note steps up from $3,000 to $3,800 in month 9, the 10 percent comparison is against $3,800 - which helps the borrower - but you must document the step-up from the note itself.\n\n> **In practice:** Show the improvement math as a small table in the credit memo: each debt, its current payment, the aggregate, the new payment, and the percentage reduction.",
+      "keyPoints": [
+        "New installment must be at least 10 percent less than existing installment(s) in aggregate.",
+        "Multiple debts refinanced together may be aggregated in the calculation.",
+        "Escalating notes: compare to the expected installment within the next 12 months.",
+        "Exempt: demand/balloon debt, business credit cards and HELOCs, and qualifying revolving lines."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 14, General Requirements, Para. 7 (Ten Percent Improvement to Installment Payment Amount)"
+    },
+    {
+      "id": "refi-documentation",
+      "title": "Documenting a refinance: analysis, support and Terms and Conditions",
+      "body": "Every refinance needs a paper trail that explains why the refinance is legitimate and exactly what is being paid off.\n\n#### 1. Written analysis in the application\n\nThe analysis must address:\n\n1. **Why the debt was incurred**;\n2. The factors supporting that the refinance will **not pay a creditor in a position to sustain a loss**;\n3. **Why the debt is being restructured** (for example, over-obligation or imprudent borrowing);\n4. **How the new loan will improve** the Applicant's financial condition;\n5. An **itemization of all debts** being repaid when the individual creditor receives **$10,000 or more**, and/or the loan number and dollar amount of any existing SBA debt being refinanced; and\n6. Why the lender believes the debt **no longer meets the Applicant's needs**.\n\n#### 2. Supporting documentation for each debt\n\n- Retain copies of the **notes, security agreements, leases**, and other documents evidencing the debt. For **non-delegated** (LGPC) submissions, include them **with the application**.\n- When applicable, include the **most recent credit card statement** showing the account holder and current balance.\n\n#### 3. SBA Terms and Conditions (Authorization)\n\n| Required in T&Cs | Detail |\n|---|---|\n| Use of Proceeds | Refinancing must be **specifically identified** |\n| Itemization | All debts repaid where the individual creditor gets **$10,000 or more** |\n| SBA debt | Loan number and dollar amount of any existing SBA debt being refinanced |\n\n#### Interim advances (bridge loans)\n\nAfter the loan has an **SBA loan number** and **before disbursement**, the lender or a lender affiliate may make **interim advances**, and 7(a) proceeds may reimburse them. This works for both delegated and non-delegated loans, and **no notification to SBA** is required.\n\n> **Watch out:** The $10,000 threshold is per creditor. Five credit cards with $3,000 each do not need line-item itemization, but one $12,000 card does.\n\n> **In practice:** Write the refinancing narrative in the order the SOP lists the six items. Reviewers (and SBA during purchase review) look for each one, and a missing \"how this improves the business\" paragraph is a common finding.",
+      "keyPoints": [
+        "Written analysis covers six items, from why the debt was incurred to why it no longer meets the Applicant's needs.",
+        "Itemize every creditor receiving $10,000 or more, plus loan number and amount of any SBA debt refinanced.",
+        "Retain notes, security agreements and leases; include them with LGPC (non-delegated) submissions.",
+        "T&Cs must specifically identify the refinancing in Use of Proceeds.",
+        "Interim advances after loan number and before disbursement may be reimbursed; no SBA notice required."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 14, General Requirements, Paras. 8, 9 and 11"
+    },
+    {
+      "id": "program-specific-refi",
+      "title": "Program-specific refinancing rules",
+      "body": "The General Requirements apply across 7(a), but several programs layer on exceptions. Here is the full map:\n\n| Program | Refinancing rule |\n|---|---|\n| **Standard 7(a)** | General Requirements, no changes |\n| **7(a) Small and SBA Express** | General Requirements apply; **no written credit memorandum** required, but supporting documentation for the refinanced debt **must be retained** |\n| **MARC** | Only debt whose **original purpose was working capital** may be refinanced |\n| **Working Capital CAPLine** | May refinance **only existing short-term revolving debt**, with conditions (below) |\n| **Contract, Seasonal, Builders CAPLines** | **Not eligible** to refinance existing debt |\n| **Export Express** | General Requirements, no changes |\n| **EWCP** | General Requirements plus export-specific conditions (next topic) |\n| **International Trade** | General Requirements apply |\n\n#### Working Capital CAPLine conditions\n\n1. The short-term revolving debt must be **terminated** once paid off with the CAPLine.\n2. The Borrower must have either a **borrowing base** (if the CAPLine is disbursed on a Borrowing Base Certificate) or **collateral** sufficient to support the CAPLine **plus any other short-term debt** not being refinanced.\n3. If same-institution short-term revolving debt is refinanced and the Applicant **defaults within 90 days of initial disbursement**, SBA **presumes** the proceeds paid a creditor in a position to sustain a loss (13 CFR 120.201) and **may deny liability** on the guaranty.\n4. The loan should be secured with **at least the same collateral and lien priority** as the refinanced debt, except:\n   - if the refinanced debt is **over-collateralized** relative to SBA requirements and the SBA loan stays fully secured, the excess collateral need not be taken; and\n   - **substitute collateral** of comparable value and useful life may be taken if acceptable to SBA or the lender under delegated authority.\n\n> **Watch out:** The 90-day default presumption on a Working Capital CAPLine that refinanced your own revolver is a guaranty killer. Underwrite these as if the old line never existed.\n\n> **In practice:** For Express and 7(a) Small, \"no credit memo\" does not mean \"no evidence.\" Keep the notes and statements for each refinanced debt in the file or expect problems at purchase review.",
+      "keyPoints": [
+        "7(a) Small and Express: no written credit memo, but supporting documents for refinanced debt must be kept.",
+        "MARC may refinance only debt originally used for working capital.",
+        "Working Capital CAPLine may refinance only short-term revolving debt, which must then be terminated.",
+        "Default within 90 days on a CAPLine refinancing same-institution revolving debt triggers a loss-shifting presumption.",
+        "Contract, Seasonal and Builders CAPLines may not refinance existing debt."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 14, Program-Specific Requirements"
+    },
+    {
+      "id": "ewcp-refi",
+      "title": "Export Working Capital Program (EWCP) refinancing",
+      "body": "EWCP loans follow the General Requirements with a set of export-specific exceptions designed to make sure the refinanced debt really supports export activity.\n\n#### What can be refinanced\n\n- Lenders may use **delegated or non-delegated** authority to refinance existing **SBA 7(a)-guaranteed loans** (term or line of credit), including export-related **SBA Express, CAPLine, EWCP, Export Express**, and export lines of credit.\n- This includes **same-institution** SBA loans where there are export sales, but **only the export collateral** may be used to refinance same-institution debt.\n- All refinanced debts must be **fully supported by active export sales or pending export orders**.\n- The EWCP terms and conditions in the SBA Loan System must specify **additional eligible uses of proceeds for subsequent draws**.\n- Any business debt refinanced must be supported by **eligible collateral** under a **Borrowing Base Certificate** or a **Transaction-Based** loan.\n- The refinanced loan must be **terminated** after it is paid off.\n\n#### Must go non-delegated (LGPC)\n\n- Loans involving a **Single Employer 401(k)** plan, including **ROBS**, unless the plan's only investment at application is the equity in the Applicant business; and\n- Loans involving a **Multiple-Employer 401(k)** plan, including a ROBS plan.\n\n#### Before first disbursement\n\n1. **Collateral** for the refinanced loan is transferred to secure the EWCP loan.\n2. Any outstanding **receivable** that would have paid down the refinanced loan is applied to the EWCP loan in the **same or greater percentage**.\n\n#### Tax-return seasoning for \"refinance of a refinance\"\n\nIf the debt being refinanced was itself used to refinance a prior debt, the loan (and its interest) must appear on the Applicant's **balance sheet and business tax returns** (Schedule C for sole proprietors) for **two full tax cycles** before application. If the debt's term is shorter than that, it must appear for the full tax cycle(s) between its disbursement and the EWCP application.\n\n> **Watch out:** Only export collateral can support refinancing your own institution's debt on an EWCP. Domestic receivables do not count toward that piece.",
+      "keyPoints": [
+        "EWCP may refinance existing SBA 7(a) loans (term or line), including export Express, CAPLine, EWCP and Export Express.",
+        "Same-institution refinance allowed only with export collateral; debts must be supported by export sales or orders.",
+        "Refinanced loan must be terminated; collateral must transfer to the EWCP loan before first disbursement.",
+        "Single Employer 401(k)/ROBS (unless the plan only holds Applicant equity) and Multiple-Employer 401(k) loans go to the LGPC.",
+        "A debt that itself refinanced prior debt must show on balance sheet and tax returns for two full tax cycles."
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 14, Program-Specific Requirements, EWCP Loans"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Current",
+      "definition": "A debt on which no required payment has remained unpaid for more than 29 days. Debt must be current for the last 12 months (or life of loan) to be refinanced."
+    },
+    {
+      "term": "Creditor in a position to sustain a loss",
+      "definition": "A lender whose debt is troubled enough that refinancing it with a 7(a) loan would shift all or part of a potential loss to SBA; paying such a creditor is prohibited (13 CFR 120.201)."
+    },
+    {
+      "term": "Same Institution Debt (SID)",
+      "definition": "Debt the Applicant already owes to the same lender that is making the 7(a) loan. Refinancing it requires extra documentation, including a 36-month payment transcript."
+    },
+    {
+      "term": "Ten Percent Improvement",
+      "definition": "The rule that the new installment payment must be at least 10 percent less than the aggregate existing installment(s) being refinanced, with exceptions for demand/balloon debt, business credit cards and HELOCs, and qualifying revolving lines."
+    },
+    {
+      "term": "Sales-Based Repayment Agreement",
+      "definition": "A financing such as a Merchant Cash Advance repaid from a share of sales. Refinanceable only after conversion to a term loan with 24 months of amortization and no new agreements."
+    },
+    {
+      "term": "Factoring agreement",
+      "definition": "A sale or financing of receivables to a factor. Factoring agreements are not eligible for refinancing."
+    },
+    {
+      "term": "HELOC",
+      "definition": "Home Equity Line of Credit. Refinanceable if the Applicant certifies the amount was used exclusively for business; the lender may rely on the certification."
+    },
+    {
+      "term": "Interim advance (bridge loan)",
+      "definition": "Funds advanced by the lender or its affiliate after the SBA loan number is issued and before disbursement, which 7(a) proceeds may reimburse without notifying SBA."
+    },
+    {
+      "term": "Third Party Loan (TPL)",
+      "definition": "The senior lender's loan in a 504 project. A 7(a) may not solely refinance the TPL loan on an existing 504 project."
+    },
+    {
+      "term": "Subsidy recoupment fee",
+      "definition": "A fee that may apply when an existing 7(a) loan from another lender is refinanced with a new 7(a) loan."
+    },
+    {
+      "term": "Trade payables",
+      "definition": "Amounts owed to suppliers in the ordinary course of business. Paying them is not considered debt refinancing."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "a14-q1",
+      "question": "For purposes of SBA debt refinancing, when is a debt considered \"current\"?",
+      "options": [
+        "No required payment has remained unpaid for more than 29 days",
+        "No required payment has remained unpaid for more than 59 days",
+        "No payment has been late by even one day in the last 12 months",
+        "The borrower has made at least 12 consecutive payments"
+      ],
+      "correctIndex": 0,
+      "explanation": "Appendix 14 defines current as a required payment that has not remained unpaid for more than 29 days. The 59-day figure sounds like a typical delinquency bucket but is not the SOP standard, and a single day late does not make a debt non-current.",
+      "sopRef": "SOP 50 10 8.1, Appendix 14, General Requirements",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a14-q2",
+      "question": "How long must a debt have been current to be eligible for refinancing with 7(a) proceeds?",
+      "options": [
+        "At least the last 6 months",
+        "At least the last 36 months or the life of the loan, whichever is less",
+        "At least the last 24 months, with no exceptions",
+        "At least the last 12 months or the life of the loan, whichever is less"
+      ],
+      "correctIndex": 3,
+      "explanation": "The General Requirements require the debt to be, and to have been, current for at least the last 12 months or the life of the loan, whichever is less. 36 months is the payment-transcript look-back for Same Institution Debt, not the general currency test.",
+      "sopRef": "SOP 50 10 8.1, Appendix 14, General Requirements",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a14-q3",
+      "question": "A borrower's 5-year balloon note matured 40 days ago. All installments before maturity were paid on time, but the balloon has not been paid. The borrower asks to refinance it with a 7(a) loan. What is the correct answer?",
+      "options": [
+        "Eligible, because demand and balloon debt is an eligible category",
+        "Eligible, as long as the new payment is at least 10 percent lower",
+        "Not eligible, because a matured loan not paid within 29 days of maturity is not current",
+        "Eligible only if processed non-delegated through the LGPC"
+      ],
+      "correctIndex": 2,
+      "explanation": "Although balloon debt is normally an eligible category, a loan that has matured and not been paid within 29 days of maturity is not current and is not eligible for refinancing. The 10 percent test is irrelevant here, and balloon debt is actually exempt from it.",
+      "sopRef": "SOP 50 10 8.1, Appendix 14, General Requirements",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a14-q4",
+      "question": "Which of the following debts is NOT eligible to be refinanced with a 7(a) loan?",
+      "options": [
+        "A 3-year term loan used to buy equipment with a 15-year useful life",
+        "A factoring agreement on the business's receivables",
+        "A business credit card balance the Applicant certifies was used exclusively for the business",
+        "A revolving line of credit the original lender is unwilling to renew"
+      ],
+      "correctIndex": 1,
+      "explanation": "Factoring agreements are expressly not eligible for refinancing. The other three options are each listed eligible categories: inappropriate maturity, certified business credit card debt, and a non-renewing revolving line.",
+      "sopRef": "SOP 50 10 8.1, Appendix 14, General Requirements, Para. 2",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a14-q5",
+      "question": "A restaurant converted its Merchant Cash Advance into a term loan 30 months ago and it has amortized since then. Eight months ago the owner took a new MCA from a different funder. Can the converted term loan be refinanced?",
+      "options": [
+        "No, because an additional agreement was implemented after the conversion",
+        "Yes, because it has amortized for more than 24 months",
+        "Yes, if the new payment is at least 10 percent lower",
+        "No, because MCAs can never be refinanced under any circumstances"
+      ],
+      "correctIndex": 0,
+      "explanation": "A Sales-Based Repayment Agreement is eligible only if converted to a term loan, amortized at least 24 months, and no additional agreements have been implemented since conversion. The new MCA fails the third condition. MCAs are not categorically ineligible, so the last option is wrong.",
+      "sopRef": "SOP 50 10 8.1, Appendix 14, General Requirements, Para. 3",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a14-q6",
+      "question": "A lender refinances a borrower's credit card debt after the borrower certifies it was used exclusively for business. At guaranty purchase, SBA finds part of the balance was personal. What is SBA's position?",
+      "options": [
+        "SBA will repair the guaranty by the personal portion",
+        "SBA will deny the guaranty because the refinance was ineligible",
+        "SBA will not use the invalid certification as a basis to deny or repair; the lender may rely on it",
+        "SBA will require the lender to repurchase the guaranteed portion from the secondary market"
+      ],
+      "correctIndex": 2,
+      "explanation": "Appendix 14 states that if the Applicant's business-use certification is determined invalid, SBA will not use this as a basis to deny or repair the guaranty purchase, and the lender can rely on the certification. The same protection applies to HELOCs.",
+      "sopRef": "SOP 50 10 8.1, Appendix 14, General Requirements, Para. 1",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a14-q7",
+      "question": "A borrower pays $6,000 per month on a term loan from another bank (no balloon) and $2,000 per month on an equipment note being refinanced at the same time. What is the highest new 7(a) installment that meets the 10 percent improvement requirement?",
+      "options": [
+        "$7,600",
+        "$7,200",
+        "$7,800",
+        "$5,400"
+      ],
+      "correctIndex": 1,
+      "explanation": "Debts refinanced together may be aggregated: $6,000 + $2,000 = $8,000. The new installment must be at least 10 percent less, so no more than $7,200. $5,400 only reduces the $6,000 payment by 10 percent and ignores the aggregation.",
+      "sopRef": "SOP 50 10 8.1, Appendix 14, General Requirements, Para. 7 (Ten Percent Improvement)",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a14-q8",
+      "question": "Which debt being refinanced is exempt from the 10 percent improvement to installment payment requirement?",
+      "options": [
+        "A fully amortizing term loan from another bank",
+        "An equipment loan with an above-maximum interest rate",
+        "A fully amortizing loan with an escalating payment structure",
+        "A demand note"
+      ],
+      "correctIndex": 3,
+      "explanation": "The exceptions to the 10 percent test are demand/balloon debt, business credit card obligations and HELOCs, and qualifying revolving lines of credit. Escalating-payment notes are not exempt; they are measured against the expected installment within the next 12 months.",
+      "sopRef": "SOP 50 10 8.1, Appendix 14, General Requirements, Para. 7 (Ten Percent Improvement)",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a14-q9",
+      "question": "When refinancing Same Institution Debt, what payment history must the lender include in its loan file?",
+      "options": [
+        "A transcript of due dates and payment receipt dates for the prior 36 months or the life of the loan, whichever is less",
+        "A transcript for the prior 12 months only",
+        "A transcript for the prior 24 months or the life of the loan, whichever is greater",
+        "No transcript is needed if the loan is processed under PLP"
+      ],
+      "correctIndex": 0,
+      "explanation": "For SID, the lender must include a transcript of due dates and receipt dates for the prior 36 months or life of the loan, whichever is less, plus a written explanation of any late payments (over 29 days) in the last 36 months. The 12-month figure is the general currency test.",
+      "sopRef": "SOP 50 10 8.1, Appendix 14, General Requirements, Para. 4",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a14-q10",
+      "question": "A PLP lender approved a non-construction interim loan to a borrower 60 days before the PLP loan number is issued, and now wants the 7(a) loan to pay it off. How is this treated?",
+      "options": [
+        "It is refinancing of SID and requires a 36-month transcript",
+        "It is ineligible because the lender would reduce its exposure",
+        "It is not considered refinancing of SID",
+        "It must be processed non-delegated through the LGPC"
+      ],
+      "correctIndex": 2,
+      "explanation": "SBA does not consider it SID refinancing when the debt is an interim loan made for other than real estate construction purposes and approved within 90 days before the PLP loan number is issued. 60 days is within that window.",
+      "sopRef": "SOP 50 10 8.1, Appendix 14, General Requirements, Para. 4",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a14-q11",
+      "question": "A lender wants to use delegated processing to refinance one of its own existing 7(a) loans. Under which condition is that allowed?",
+      "options": [
+        "Whenever the borrower requests a lower rate",
+        "When a secondary market investor will not agree to modified terms on the existing loan",
+        "When the existing loan has been current for 12 months",
+        "When the lender's internal risk rating on the loan has declined"
+      ],
+      "correctIndex": 1,
+      "explanation": "A lender may refinance its own 7(a) loan via delegated processing only if it cannot modify the loan because a secondary market investor will not agree, or an increase to the existing guaranteed loan is not possible. A declining risk rating would suggest loss-shifting, which is prohibited.",
+      "sopRef": "SOP 50 10 8.1, Appendix 14, General Requirements, Para. 4",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a14-q12",
+      "question": "A 504 borrower has already paid off its Third Party Loan and now wants a 7(a) loan to refinance the 504 loan alone, with no other project. What is the result?",
+      "options": [
+        "Allowed under delegated authority only",
+        "Allowed if 504 prepayment penalties are waived",
+        "Allowed because the TPL is paid in full",
+        "Not allowed, because with the TPL paid off the 504 may be refinanced only as part of a larger transaction funding expansion or renovation of the Project Property"
+      ],
+      "correctIndex": 3,
+      "explanation": "A 504 may be refinanced with a 7(a) if both the TPL and 504 are refinanced, or if the TPL is paid in full and the 504 is refinanced as part of a larger transaction for expansion of or renovations to the Project Property. A standalone 504 refinance does not qualify, and 504 prepayment penalties apply rather than being waived.",
+      "sopRef": "SOP 50 10 8.1, Appendix 14, General Requirements, Para. 6",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a14-q13",
+      "question": "In the refinancing analysis and SBA Terms and Conditions, debts must be itemized when the individual creditor will be paid at least what amount?",
+      "options": [
+        "$5,000",
+        "$25,000",
+        "$10,000",
+        "$50,000"
+      ],
+      "correctIndex": 2,
+      "explanation": "Both the written analysis and the T&Cs require an itemization of all debts repaid by loan proceeds when the individual creditor is to be paid $10,000 or more, along with the loan number and amount of any SBA debt refinanced.",
+      "sopRef": "SOP 50 10 8.1, Appendix 14, General Requirements, Paras. 8 and 9",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a14-q14",
+      "question": "Which 7(a) program may NOT use proceeds to refinance existing debt at all?",
+      "options": [
+        "Seasonal CAPLine",
+        "Working Capital CAPLine",
+        "MARC",
+        "Export Express"
+      ],
+      "correctIndex": 0,
+      "explanation": "Contract, Seasonal and Builders CAPLines are not eligible to refinance existing debt. Working Capital CAPLines may refinance short-term revolving debt, MARC may refinance debt originally used for working capital, and Export Express follows the General Requirements.",
+      "sopRef": "SOP 50 10 8.1, Appendix 14, Program-Specific Requirements",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a14-q15",
+      "question": "A lender uses a Working Capital CAPLine to refinance its own short-term revolving line to the borrower. The borrower defaults 75 days after initial disbursement. What does the SOP provide?",
+      "options": [
+        "Nothing special; normal purchase review applies",
+        "SBA presumes the proceeds paid a creditor in a position to sustain a loss and may deny liability on the guaranty",
+        "SBA automatically repairs the guaranty by 50 percent",
+        "The presumption applies only if default occurs within 30 days"
+      ],
+      "correctIndex": 1,
+      "explanation": "If a Working Capital CAPLine refinances same-institution short-term revolving debt and the Applicant defaults within 90 days of initial disbursement, SBA presumes a loss was shifted to SBA in violation of 13 CFR 120.201 and may deny liability. 75 days is inside that 90-day window.",
+      "sopRef": "SOP 50 10 8.1, Appendix 14, Program-Specific Requirements, Working Capital CAPLine",
+      "difficulty": "scenario"
+    }
+  ]
+}

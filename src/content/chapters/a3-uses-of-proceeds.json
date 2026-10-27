@@ -1,0 +1,402 @@
+{
+  "id": "a3-uses-of-proceeds",
+  "order": 130,
+  "part": "A",
+  "program": "core",
+  "title": "Uses of Proceeds",
+  "subtitle": "What SBA loan money can and cannot pay for, plus occupancy and leased-space rules",
+  "sopRef": "SOP 50 10 8.1, Section A, Ch. 3",
+  "estimatedMinutes": 45,
+  "learningObjectives": [
+    "List the eligible uses of proceeds common to 7(a) and 504, and the 7(a)-only uses",
+    "Calculate the 7(a) guaranty when a lender sells its own OREO",
+    "Apply the farm enterprise and excess land rules",
+    "Identify restricted uses, including trust fund taxes, C-PACE, and the 504 relocation limit",
+    "Calculate occupancy for existing buildings, new construction, and EPC structures",
+    "Apply lease, ground lease, and tenant improvement rules when the borrower leases its space"
+  ],
+  "topics": [
+    {
+      "id": "eligible-uses-all-loans",
+      "title": "Eligible uses common to 7(a) and 504",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 3, Para. A.1",
+      "body": "Every SBA loan starts with one question: **what will the money be used for?** The use of proceeds drives eligibility, collateral, maturity, and often which program fits. 13 CFR § 120.120 lists the uses that apply to **any** SBA Loan, whether 7(a) or 504.\n\n#### The common list\n\nA Borrower may use proceeds from any SBA Loan to:\n\n1. **Acquire land** (by purchase or lease) as part of an eligible project;\n2. **Improve a site** (grading, streets, parking lots, landscaping), including **up to 5 percent for community improvements** such as curbs and sidewalks;\n3. **Purchase** one or more existing buildings;\n4. **Convert, expand, or renovate** one or more existing buildings;\n5. **Construct** one or more new buildings;\n6. **Acquire (by purchase or lease) and install fixed assets**;\n7. **Finance a Lender's Other Real Estate Owned (OREO)**, subject to the special conditions covered in the next topic.\n\n#### The 504 fixed-asset twist\n\nFor a **504** loan, fixed assets must have a **useful life of at least 10 years** and be at a **fixed location**. Short-term financing for equipment, furniture, and furnishings may be permitted only where it is **essential to and a minor portion of** the 504 Project. That reflects 504's purpose as long-term financing for durable assets.\n\n#### How the program split works\n\n| Use | 7(a) | 504 |\n|---|---|---|\n| Land, buildings, construction, renovation, site work | Yes | Yes |\n| Long-lived fixed assets (machinery, equipment) | Yes | Yes (10+ year life, fixed location) |\n| Lender OREO purchase | Yes (with guaranty limits) | Yes (Third Party Lender's OREO) |\n| Inventory, supplies, raw materials, working capital | Yes | No |\n| Revolving lines of credit | Only under specific delivery methods | No |\n\nThe 7(a)-only items and the farm-specific list are covered in separate topics in this chapter.\n\n> **In practice:** If a borrower wants to buy a building **and** fund inventory and working capital, 504 alone cannot do it. That is a common reason a deal is structured as 7(a), or as a 504 for the real estate plus a separate 7(a) for working capital.\n\n> **Watch out:** \"Eligible use\" is necessary but not sufficient. The same project can still fail because of the restrictions in Para. B (for example, land held for future development) or the occupancy rules in Para. C.",
+      "keyPoints": [
+        "Common uses: land, site improvements, buying/renovating/constructing buildings, fixed assets, lender OREO",
+        "Site improvements may include up to 5% for community improvements such as curbs and sidewalks",
+        "504 fixed assets need a useful life of at least 10 years and a fixed location",
+        "504 short-term equipment/furniture financing only when essential to and a minor portion of the project",
+        "Inventory, supplies, raw materials, and working capital are 7(a)-only uses"
+      ]
+    },
+    {
+      "id": "oreo-purchases",
+      "title": "Financing a lender's Other Real Estate Owned (OREO)",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 3, Para. A.1.g",
+      "body": "**OREO** is real estate a lender owns, usually because it took the property back through foreclosure. Lenders are often eager to sell it, which creates a conflict of interest when the same lender finances the buyer with an SBA guaranty. The SOP adds safeguards whenever proceeds will buy real estate owned by the **7(a) Lender** (for 7(a)) or the **Third Party Lender** (for 504) that is making the loan.\n\n#### What the application must include\n\n1. **An independent real estate appraisal** meeting SBA Loan Program Requirements. This **cannot be delayed until closing**. For 7(a), the appraisal must also give the **liquidation value**.\n2. **An explanation of how the lender acquired the property.** If the acquisition was triggered by a **business failure at that location**, the lender must submit a **detailed explanation of why the new Applicant will succeed** there.\n3. **For 7(a): the lender's cost in the real estate.**\n\n#### The 7(a) guaranty cap\n\nTo get the full SBA guaranty, the **sales price may not exceed the lesser of**:\n\n- the **mortgage balance plus care and preservation expenses**, or\n- the **liquidation value**.\n\nIf the price is higher, the guaranty is **reduced accordingly**. The SOP's example:\n\n| Item | Amount |\n|---|---|\n| OREO sales price | $1.2 million |\n| Lender's costs or liquidation value, whichever is less | $1.0 million |\n| Guaranty amount (75% of $1.0 million) | $750,000 |\n| Effective SBA guaranty ($750,000 / $1,200,000) | 62.5% |\n\nIn other words, SBA guarantees only against the value it considers supportable, and the lender carries the rest of the risk on any markup.\n\n> **Watch out:** The appraisal for an OREO deal must be in the application. A lender cannot rely on the usual practice of ordering the appraisal as a closing condition.\n\n> **In practice:** Software that calculates guaranty amounts should flag OREO transactions and compute the effective guaranty percentage from the lesser-of test, rather than applying the standard percentage to the full loan.",
+      "keyPoints": [
+        "OREO = real estate owned by the 7(a) Lender or 504 Third Party Lender making the loan",
+        "Independent appraisal required in the application; cannot be delayed to closing",
+        "7(a) appraisal must also state liquidation value",
+        "Explain how the lender acquired the property; if a business failed there, explain why the new Applicant will succeed",
+        "7(a) full guaranty only if price does not exceed the lesser of (mortgage balance + care/preservation costs) or liquidation value",
+        "Example: $1.2M price, $1.0M cap, 75% guaranty = $750,000, effective guaranty 62.5%"
+      ]
+    },
+    {
+      "id": "7a-only-uses",
+      "title": "7(a)-only uses: working capital, inventory, and revolving credit",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 3, Para. A.2",
+      "body": "7(a) is the flexible program. On top of the common list, a 7(a) Borrower may also use proceeds for:\n\n1. **Inventory**;\n2. **Supplies**;\n3. **Raw materials** (including work-in-progress);\n4. **Working capital** to finance everyday operations and short-term operational needs;\n5. **Revolving lines of credit** under **CAPLines, SBA Express, Export Express, and the Export Working Capital Program (EWCP)**;\n6. Under **CAPLines, Export Express, or EWCP**: a **Standby Letter of Credit** when required as a **bid bond, performance bond, or advance payment guarantee**.\n\n#### Working capital, more precisely\n\nThe SOP adds three clarifications:\n\n- **Software and cloud services.** Working capital may be used to acquire and/or use business software or cloud computing services, for example to run operations, deliver products or services, process or track payroll, human resources, sales and billing, accounting, or tracking of supplies, inventory, records, and expenses.\n- **EPC/OC Co-Borrowers.** If the OC is a Co-Borrower with the EPC, part of the proceeds may fund working capital and/or other assets, including intangible assets, for the OC's use.\n- **No back-door refinancing.** Working capital proceeds may **not** be used to **refinance existing debt** or to finance **any ineligible purpose**.\n\n#### Where revolving credit and standby LCs fit\n\n| Feature | CAPLines | SBA Express | Export Express | EWCP |\n|---|---|---|---|---|\n| Revolving line of credit | Yes | Yes | Yes | Yes |\n| Standby LC (bid, performance, advance payment) | Yes | No | Yes | Yes |\n\nOutside these delivery methods, revolving lines are a restricted use (see Para. B). The restrictions list also allows revolving credit under **MARC** (Manufacturers' Access to Revolving Credit).\n\n> **Watch out:** Labeling a payoff of an existing line of credit as \"working capital\" does not make it eligible. Refinancing has its own rules and cannot ride in under the working capital bucket.\n\n> **In practice:** For a software company selling to SBA lenders, the explicit mention of business software and cloud computing is useful: a borrower's SaaS subscriptions are a recognized working capital use.",
+      "keyPoints": [
+        "7(a) adds: inventory, supplies, raw materials (incl. work-in-progress), and working capital",
+        "Working capital may pay for business software and cloud computing services",
+        "Working capital may not refinance existing debt or fund any ineligible purpose",
+        "Revolving lines allowed under CAPLines, SBA Express, Export Express, and EWCP",
+        "Standby Letters of Credit (bid, performance, advance payment) under CAPLines, Export Express, or EWCP",
+        "OC Co-Borrower with an EPC may receive working capital and intangible assets"
+      ]
+    },
+    {
+      "id": "farm-enterprises",
+      "title": "Farm enterprises and the excess land rule",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 3, Para. A.3",
+      "body": "Agricultural businesses can be SBA borrowers, and the SOP lists the farm-specific uses of proceeds separately.\n\n#### Eligible farm uses\n\n- **Land, buildings, and land improvements** as part of an eligible project. Examples: fencing, irrigation systems, construction of dikes, silos, barns, and hog and dairy facilities.\n- **Construction, renovation, or improvement** (including water systems) of **farm buildings other than residences**.\n\nListed under **\"For 7(a) only\"**:\n\n- Purchase of **farm machinery and equipment**;\n- Purchase of **seed** and acquisition of **animals**;\n- **Operating expenses** directly related to the farming operation, **excluding personal or family living expenses**; and\n- **Refinancing debt** related to the farming operation, **excluding personal or family debt**, provided the refinancing meets SBA Loan Program Requirements.\n\n#### The excess land rule\n\nFarms naturally tempt buyers to pick up \"a few more acres.\" The SOP is blunt:\n\n- Acquiring **land in excess of the farming operation's needs** is **not** an eligible use.\n- Proceeds may **not** buy **vacant or row crop land** for possible future use, future construction, or to **lease to third parties**.\n- If excess land is acquired **at the same time** as the SBA Loan, it must be **financed from sources other than SBA**, and the **source of that financing must be documented** in the loan file.\n\n**SOP example:** a concentrated animal feedlot operation (CAFO) needs only **10 acres** for its operation, including housing and feeding animals, service and access roads, and waste management. It may **not** use SBA-guaranteed proceeds to buy additional farmland that is not used in its operation.\n\n#### Why this matters\n\nThe excess land rule is the farm version of the general restriction on property held for future development, sale, lease, or investment (Para. B). SBA finances what the business uses, not speculative land holdings.\n\n> **In practice:** When a farm purchase contract covers more acreage than the operation needs, split the purchase price in the credit memo, finance only the operating acreage with SBA proceeds, and document the separate financing for the rest.\n\n> **Watch out:** Personal or family living expenses and personal or family debt are excluded even though a farm is often also the family's home. Keep household items out of the use of proceeds.",
+      "keyPoints": [
+        "Eligible: farm land, buildings, and improvements (fencing, irrigation, dikes, silos, barns, hog/dairy facilities)",
+        "Farm buildings other than residences may be constructed, renovated, or improved",
+        "7(a) only: farm machinery, seed and animals, farm operating expenses, and farm-related refinancing",
+        "Personal or family living expenses and personal or family debt are excluded",
+        "Land beyond the operation's needs, or land for future use or lease to third parties, is ineligible",
+        "Excess land bought at the same time must be financed outside SBA, with the source documented"
+      ]
+    },
+    {
+      "id": "restricted-uses",
+      "title": "Restricted uses of proceeds",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 3, Para. B",
+      "body": "13 CFR § 120.130 lists what proceeds may **not** be used for. The prohibition covers the purposes themselves **and the replacement of funds used or borrowed** for them. You cannot pay for a prohibited item with cash and then \"refill\" the account with SBA money.\n\n#### The list\n\n1. **Payments, distributions, or loans to an Associate** of the Applicant (13 CFR § 120.10). Exceptions: compensation for services actually rendered at a fair and reasonable rate, and 7(a) changes of ownership under 13 CFR § 120.202 and Section B's guidance on partial changes of ownership.\n2. **Refinancing debt owed to an SBIC or an NMVCC** (Small Business Investment Company or New Markets Venture Capital Company).\n3. **Floor plan financing**.\n4. **Revolving lines of credit**, except under **SBA Express, CAPLines, EWCP, MARC, and Export Express**.\n5. **Investments in real or personal property acquired and held primarily for future development, sale, lease, or investment.** Exceptions: loans to an **EPC** and to small contractors under **Builders CAPLine**. **Excess land** (land not for immediate use as part of the project) cannot be funded with SBA proceeds.\n6. **Delinquent taxes** (details in the next topic).\n7. **504 only: relocation** out of a community causing a large workforce reduction (next topic).\n8. **Paying a creditor in a position to sustain a loss**, which would shift all or part of a potential loss from an existing debt to SBA (13 CFR §§ 120.201 and 120.884(b)).\n9. **Any purpose that does not benefit the small business**, including a loan to an Applicant **for the benefit of an affiliated business**.\n10. **C-PACE.** Whether at origination or as a servicing action, SBA Lenders may **not** permit a **C-PACE loan** on a property that has or will have a 7(a) or 504 loan.\n11. **Any use restricted by 13 CFR §§ 120.201 (7(a)) and 120.884 (504).**\n\n#### Reading the list like an underwriter\n\n| Restriction | Underlying concern |\n|---|---|\n| Associates, affiliate benefit, no business benefit | Money leaving the business for insiders |\n| Creditor shift, SBIC/NMVCC refinance | Moving existing losses onto SBA or other federal programs |\n| Floor plan, most revolving lines | Short-term inventory or credit products outside SBA's design |\n| Passive investment, excess land | Speculation rather than operating use |\n| C-PACE | A senior assessment lien that would undercut SBA's collateral position |\n\n> **Watch out:** C-PACE applies **during the life of the loan**, not just at closing. A servicing request to add C-PACE financing on a property securing a 7(a) or 504 loan must be refused.\n\n> **In practice:** Payments to an Associate can be fine if they are fair compensation for real services. Document the services and why the rate is reasonable.",
+      "keyPoints": [
+        "Prohibition also covers replacing funds used or borrowed for a restricted purpose",
+        "No payments, distributions, or loans to Associates, except fair pay for services or permitted 7(a) changes of ownership",
+        "No refinancing SBIC or NMVCC debt; no floor plan financing",
+        "Revolving lines only under SBA Express, CAPLines, EWCP, MARC, and Export Express",
+        "No passive investment property or excess land (exceptions: EPC loans and Builders CAPLine)",
+        "No C-PACE loan on property that has or will have a 7(a) or 504 loan, at origination or in servicing",
+        "No uses that shift a creditor's loss to SBA or benefit an affiliate rather than the small business"
+      ]
+    },
+    {
+      "id": "delinquent-taxes-relocation",
+      "title": "Delinquent taxes and 504 relocation limits",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 3, Para. B.6-B.7",
+      "body": "Two restrictions need more detail than a one-line list entry.\n\n#### Delinquent taxes\n\nSBA distinguishes between taxes the business **owes on its own income** and taxes it **collected from others and held in trust** for a government.\n\n| Tax type | Can SBA proceeds pay it if past due? |\n|---|---|\n| Federal, state, or local **payroll taxes** | **No** |\n| **Sales taxes** or similar taxes collected and held in trust for a government | **No** (13 CFR § 120.130(e)) |\n| **Delinquent business income taxes** | **Possibly**, only if the Applicant has an **approved IRS payment arrangement** and is **current** on its payments |\n\nWhy the difference? Trust fund taxes are not the business's money. A business that spent its employees' withheld taxes or its customers' sales tax has diverted government funds, and SBA will not backfill that.\n\n#### 504 relocation restriction (13 CFR § 120.881)\n\nFor the **504 program only**, proceeds may not finance relocating the Applicant **out of a community** if there will be:\n\n- a **net reduction of one-third or more** in the Applicant's workforce, or\n- a **substantial increase in unemployment** in any area of the country.\n\nAn **exception** may be allowed if the **CDC can justify** the relocation because **both**:\n\n1. The relocation is for **key economic reasons** and crucial to the Applicant's continued existence, economic well-being, and/or competitiveness; **and**\n2. The **economic development benefits** to the Applicant and the receiving community **outweigh the negative impact** on the community the Applicant is leaving.\n\nThis rule reflects 504's mission: it is an economic development program, so SBA does not want to finance moving jobs from one community to another.\n\n> **Watch out:** A borrower with an IRS installment agreement who has **missed** installments does not qualify for the income tax exception. Both elements are required: an approved arrangement **and** being current on it.\n\n> **In practice:** When a 504 project involves moving the business to another town, ask early about headcount changes. If the workforce will shrink by a third or more, the CDC's justification needs to address both prongs of the exception.",
+      "keyPoints": [
+        "No proceeds for past-due payroll taxes, sales taxes, or similar trust fund taxes (13 CFR § 120.130(e))",
+        "Delinquent business income taxes may be paid only with an approved IRS payment arrangement on which the Applicant is current",
+        "504 only: no financing relocation out of a community with a net workforce reduction of one-third or more",
+        "Also barred if relocation causes a substantial increase in unemployment in any area",
+        "Exception requires CDC justification of key economic reasons AND benefits outweighing the negative impact"
+      ]
+    },
+    {
+      "id": "occupancy-percentages",
+      "title": "Occupancy requirements: how much space the business must use",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 3, Para. C.1",
+      "body": "SBA finances **owner-occupied** real estate, not investment property. The occupancy rules (13 CFR § 120.131) apply whenever proceeds **purchase or improve real estate**, or **refinance debt secured by real estate**. Percentages are measured on the **total project**.\n\n#### The percentages\n\n| Scenario | Business must occupy | May lease to third parties |\n|---|---|---|\n| **Existing building** | **51%** of Rentable Property | Up to **49%** |\n| **New construction** | **60%** of Rentable Property | Up to **20% permanently**, plus an additional **20% temporarily**, intending to use some of that 20% within **3 years** and all of it within **10 years** |\n\n#### When an EPC owns the real estate\n\n- The EPC must lease **100%** of the Rentable Property to the eligible OC(s).\n- The **OC(s)** then meet the same percentages: occupy **51%** of an existing building and may **sublease** up to 49%; or occupy **60%** of new construction, permanently sublease up to 20%, and temporarily sublease another 20% (some used within 3 years, all within 10 years).\n\n#### What counts as \"Rentable Property\"\n\n**Rentable Property** is the total square footage of all buildings or facilities used for business operations (13 CFR § 120.10):\n\n- **Excludes** stairways, elevators, and mechanical areas.\n- **Includes** common areas. The lender may count all common areas toward the Applicant's or OC's occupancy share.\n- **May include exterior space actively used in operations** (but **not parking areas**). Examples: outdoor storage yards for general contractors, trucking companies, and moving and storage companies; boat slips and docks for marinas.\n\n#### Mixed-use buildings\n\nIn an **existing building zoned for both commercial and residential use**, subject to the occupancy percentages, the owner may either occupy or rent out the residential-zoned space. Residential space **occupied by the business owner** counts as business occupancy **only** if it meets the residential-space rule (essential to the business, no more than 49%) and zoning requirements.\n\n> **In practice:** Occupancy calculations are a frequent source of findings. Keep the square footage worksheet in the file, showing excluded areas, included common areas, and any exterior operating space.\n\n> **Watch out:** Parking lots never count as Rentable Property, even if they are large and used by customers.",
+      "keyPoints": [
+        "Rules apply when proceeds buy or improve real estate or refinance real estate-secured debt",
+        "Existing building: occupy 51%, lease up to 49%",
+        "New construction: occupy 60%, lease 20% permanently, 20% temporarily (some used within 3 years, all within 10)",
+        "EPC leases 100% to the OC(s); the OC(s) meet the same occupancy percentages",
+        "Rentable Property excludes stairways, elevators, mechanical areas; includes common areas",
+        "Actively used exterior space (not parking) may count, e.g., contractor yards, marina slips"
+      ]
+    },
+    {
+      "id": "occupancy-timing-tenants",
+      "title": "Occupancy timing, tenants, and residential space",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 3, Para. C.1",
+      "body": "#### Time to meet occupancy\n\nSometimes the borrower cannot move in right away, for example because a **pre-existing tenant lease** has a few more months to run. The lender may allow time after closing, but **in no case more than 1 year** to meet occupancy requirements.\n\n**504 has extra rules**, because a 504 loan is **permanent, take-out financing**:\n\n- A CDC must **not** submit a 504 closing package if the Borrower will not be **occupying and operating** in the required amount of project property **upon funding**.\n- If the Borrower cannot meet occupancy in time, the CDC must submit **in advance and in writing to the SLPC** a request to extend the period, with an explanation and supporting documentation, for SLPC approval.\n- If SLPC approves, once the Borrower occupies the property as required by the Authorization, the CDC must submit a **327 action** certifying compliance within the approved timeframe.\n\n#### Tenants\n\n- The occupancy limits apply **whether the tenant is commercial or residential**.\n- Proceeds may **not improve or renovate space to be subleased** to a third party. For **504**, those improvements may not secure the **Third Party Loan**.\n- **Illegal-activity tenants.** For the life of the loan, real estate pledged as collateral, or where the Borrower or OC operates, may not be leased to or occupied by a business the Borrower or OC knows is engaged in activity **illegal under Federal, state, or local law**, or activity that can reasonably be seen to support or facilitate illegal activity (the SOP's example: a **marijuana dispensary**).\n\n| If such a lease is discovered | Required action |\n|---|---|\n| 7(a) | Lender notifies **SBA counsel** as soon as it becomes aware and advises what action it intends to take |\n| 504 | CDC notifies **SBA counsel** as soon as it becomes aware, to determine what action should be taken |\n\n#### Residential space as part of the business\n\nIf the business **requires a resident owner or manager**, proceeds may buy or build a building that includes **residential space essential to the business**:\n\n- The residential square footage must be **appropriate to the business's needs** and may **not exceed 49% of the total property**.\n- SOP example: a **livestock operation** may need someone on premises at all times; that residential space is considered occupied by the business.\n\n> **Watch out:** Because marijuana remains illegal under Federal law, a dispensary tenant is a problem even where state law allows it. This is an ongoing, life-of-loan covenant, not just a closing check.",
+      "keyPoints": [
+        "Borrower may get time after closing to meet occupancy, but never more than 1 year",
+        "504: no closing package unless the Borrower is occupying and operating upon funding, absent advance SLPC approval",
+        "After an approved 504 extension, the CDC certifies compliance through a 327 action",
+        "No proceeds to improve space subleased to third parties; for 504 such improvements cannot secure the Third Party Loan",
+        "No tenants engaged in activity illegal under Federal, state, or local law (e.g., marijuana dispensary); notify SBA counsel",
+        "Residential space essential to the business is allowed up to 49% of the total property"
+      ]
+    },
+    {
+      "id": "leased-premises",
+      "title": "When the borrower leases its space",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 3, Para. C.2",
+      "body": "Many borrowers do not own their premises. When SBA money goes into a space the borrower only leases, the lender's collateral depends on the lease surviving.\n\n#### The trigger: $500,000 or 30%\n\nThe lease requirements apply when the Borrower operates in leased space and **$500,000 or 30% (whichever is less)** of either:\n\n- **loan proceeds** will be used for **leasehold improvements**, or\n- the **proposed collateral** consists of leasehold improvements, fixtures, machinery, or equipment **attached to leased real estate**.\n\n#### What the lender must do\n\n| Requirement | 7(a) | 504 |\n|---|---|---|\n| Obtain a copy of the written lease | Must | Must |\n| Lease term (including Borrower-only renewal options) vs. loan term | **Should** equal or exceed | **Must** equal or exceed |\n| Assignment of lease and Landlord's waiver | Should be obtained | Should be obtained |\n| If the assignment or waiver cannot be obtained | Lease term (with Borrower-only options) **must** equal or exceed the loan term, and the lender documents its attempts and the reasons | Same |\n\n#### Ground leases\n\nIf proceeds will finance improvements on a **leasehold interest in land**, the ground lease must include, at a minimum, detailed clauses on:\n\n1. The tenant's right to encumber the leasehold estate;\n2. No modification or cancellation without the SBA Lender's or assignee's approval;\n3. The SBA Lender's or assignee's right to:\n   - acquire the leasehold at foreclosure or by assignment, and reassign it (with options); the lessor may not unreasonably withhold, condition, or delay the reassignment;\n   - sublease;\n   - share in hazard insurance proceeds from damage to improvements;\n   - share in condemnation proceeds; and\n   - exercise rights upon tenant default or termination.\n\n#### Landlord reimbursements for tenant improvements\n\nIf proceeds finance tenant improvements and the **landlord will reimburse** the Borrower, the reimbursement must **pay down the loan** to a point that will not trigger a **subsidy recoupment fee**. Any remainder may go to working capital or to reduce rent. Alternatively, if the lender documents that the reimbursement was factored into its **working capital adequacy analysis**, the reimbursement may be used for working capital or to reduce rent.\n\n#### Indian lands held in trust\n\nIf the owner of trust land cannot get approval for a lien, the lender may consider an **Assignment of Lease**, which must also be approved by the **Secretary of the Interior** or an authorized representative.\n\n> **Watch out:** For 7(a), \"should\" becomes \"must\" the moment the lender cannot get the assignment of lease or landlord's waiver. Document every attempt.",
+      "keyPoints": [
+        "Trigger: lesser of $500,000 or 30% of proceeds for leasehold improvements, or of collateral attached to leased real estate",
+        "Lender must obtain the written lease",
+        "7(a): lease term with Borrower-only options should equal or exceed the loan term; 504: must",
+        "Without an assignment of lease or landlord's waiver, the term must equal or exceed the loan term for both programs",
+        "Ground leases need clauses on encumbrance, no modification without lender approval, and lender rights",
+        "Landlord TI reimbursements pay down the loan (avoiding subsidy recoupment) unless built into the working capital analysis",
+        "Indian trust land: Assignment of Lease must be approved by the Secretary of the Interior"
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Use of proceeds",
+      "definition": "What SBA loan funds are spent on. Eligibility is defined in 13 CFR § 120.120 and restrictions in 13 CFR § 120.130."
+    },
+    {
+      "term": "OREO",
+      "definition": "Other Real Estate Owned: real estate owned by the 7(a) Lender or 504 Third Party Lender making the loan, typically acquired through foreclosure."
+    },
+    {
+      "term": "Liquidation value",
+      "definition": "The value of real estate in a liquidation scenario; required in 7(a) OREO appraisals and used in the guaranty cap."
+    },
+    {
+      "term": "Working capital",
+      "definition": "7(a) proceeds for everyday operations and short-term operational needs, including business software and cloud services; may not refinance existing debt."
+    },
+    {
+      "term": "Standby Letter of Credit",
+      "definition": "A letter of credit used as a bid bond, performance bond, or advance payment guarantee; an eligible use under CAPLines, Export Express, or EWCP."
+    },
+    {
+      "term": "Associate",
+      "definition": "An insider of the Applicant as defined in 13 CFR § 120.10. Payments, distributions, or loans to Associates are restricted uses."
+    },
+    {
+      "term": "Floor plan financing",
+      "definition": "Inventory financing typically used by dealers to carry stock on hand; a restricted use of SBA proceeds."
+    },
+    {
+      "term": "C-PACE",
+      "definition": "Commercial Property Assessed Clean Energy financing. SBA Lenders may not permit a C-PACE loan on property that has or will have a 7(a) or 504 loan."
+    },
+    {
+      "term": "Trust fund taxes",
+      "definition": "Payroll, sales, or similar taxes the Applicant collects and holds in trust for a government; past-due amounts cannot be paid with SBA proceeds."
+    },
+    {
+      "term": "Rentable Property",
+      "definition": "Total square footage of buildings or facilities used for business operations, excluding stairways, elevators, and mechanical areas and including common areas; may include actively used exterior space other than parking."
+    },
+    {
+      "term": "Excess land",
+      "definition": "Land not for immediate use as part of the project or beyond a farming operation's needs; may not be funded with SBA proceeds."
+    },
+    {
+      "term": "327 action",
+      "definition": "A servicing action submission; for 504, the CDC uses it to certify the Borrower met occupancy within an SLPC-approved timeframe."
+    },
+    {
+      "term": "Ground lease",
+      "definition": "A lease of land on which the tenant builds or improves. When SBA proceeds finance the improvements, the ground lease must contain specific lender-protection clauses."
+    },
+    {
+      "term": "Landlord's waiver",
+      "definition": "A landlord's agreement waiving or subordinating its claims to the tenant-borrower's collateral; should be obtained when the leased-space trigger applies."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "a3-q1",
+      "difficulty": "basic",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 3, Para. A.1",
+      "question": "For site improvements, what share of proceeds may go to community improvements such as curbs and sidewalks?",
+      "options": [
+        "Up to 2 percent",
+        "Up to 5 percent",
+        "Up to 10 percent",
+        "Up to 20 percent"
+      ],
+      "correctIndex": 1,
+      "explanation": "Site improvements may include up to 5 percent for community improvements such as curbs and sidewalks. The other percentages do not appear in this rule; 20% is an occupancy leasing figure."
+    },
+    {
+      "id": "a3-q2",
+      "difficulty": "applied",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 3, Para. A.1",
+      "question": "Which asset is the best fit for long-term 504 financing as a fixed asset?",
+      "options": [
+        "Delivery vans with a 5-year useful life",
+        "Office furniture that is the largest part of the project",
+        "Industrial equipment with a 15-year useful life installed at the plant",
+        "Laptop computers for remote staff"
+      ],
+      "correctIndex": 2,
+      "explanation": "For 504, fixed assets must have a useful life of at least 10 years and be at a fixed location. Short-term equipment and furniture financing is allowed only when essential to and a minor portion of the project, so furniture that dominates the project does not qualify."
+    },
+    {
+      "id": "a3-q3",
+      "difficulty": "scenario",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 3, Para. A.1.g",
+      "question": "A 7(a) Lender sells its OREO building for $1.2 million. Its mortgage balance plus care and preservation costs is $1.1 million, and liquidation value is $1.0 million. With a 75% guaranty, what is the guaranty amount?",
+      "options": [
+        "$900,000",
+        "$825,000",
+        "$1,200,000",
+        "$750,000"
+      ],
+      "correctIndex": 3,
+      "explanation": "The full guaranty applies only up to the lesser of the lender's costs or liquidation value, here $1.0 million. 75% of $1.0 million is $750,000, an effective guaranty of 62.5% of the $1.2 million price. $900,000 wrongly applies 75% to the full price."
+    },
+    {
+      "id": "a3-q4",
+      "difficulty": "applied",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 3, Para. A.1.g",
+      "question": "Which statement about the appraisal for an OREO purchase is correct?",
+      "options": [
+        "An independent appraisal must be included in the application and cannot be delayed until closing",
+        "The appraisal may be ordered as a pre-closing condition like other real estate loans",
+        "The lender's internal valuation is acceptable because the lender owns the property",
+        "No appraisal is needed if the price equals the mortgage balance"
+      ],
+      "correctIndex": 0,
+      "explanation": "For OREO deals, the application must include an independent appraisal meeting SBA requirements, and this requirement cannot be delayed until loan closing. For 7(a) the appraisal must also give liquidation value."
+    },
+    {
+      "id": "a3-q5",
+      "difficulty": "basic",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 3, Para. A.2",
+      "question": "Under which delivery methods may 7(a) proceeds fund a Standby Letter of Credit required as a bid or performance bond?",
+      "options": [
+        "SBA Express, CAPLines, and EWCP",
+        "Standard 7(a) and 7(a) Small Loans",
+        "CAPLines, Export Express, and EWCP",
+        "Any 7(a) delivery method"
+      ],
+      "correctIndex": 2,
+      "explanation": "Standby Letters of Credit for bid bonds, performance bonds, or advance payment guarantees are allowed under CAPLines, Export Express, or EWCP. SBA Express allows revolving lines but is not listed for standby LCs."
+    },
+    {
+      "id": "a3-q6",
+      "difficulty": "scenario",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 3, Para. A.2",
+      "question": "A borrower requests $200,000 labeled working capital; $120,000 would pay off an existing bank line of credit. How should the lender treat it?",
+      "options": [
+        "Approve it all as working capital, since lines of credit fund operations",
+        "The $120,000 is not working capital; working capital proceeds may not refinance existing debt",
+        "Approve it if the bank line is less than 2 years old",
+        "Approve it under SBA Express only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Working capital proceeds may not be used to refinance existing debt or to finance any ineligible purpose. Any refinancing must qualify under the separate refinancing rules, not as working capital."
+    },
+    {
+      "id": "a3-q7",
+      "difficulty": "scenario",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 3, Para. A.3",
+      "question": "A CAFO needs 10 acres for its operation but the seller insists on selling 40 acres together. What may the borrower do?",
+      "options": [
+        "Finance all 40 acres with SBA proceeds since it is one contract",
+        "Finance 40 acres if the extra land will be leased to a neighbor",
+        "Finance the extra 30 acres only with a 504 loan",
+        "Finance the operating acreage with SBA proceeds and finance the excess land from non-SBA sources, documenting that source"
+      ],
+      "correctIndex": 3,
+      "explanation": "Land beyond the operation's needs is ineligible, including land to lease to third parties. If excess land is acquired at the same time as the SBA Loan, it must be financed from other sources and the source documented in the loan file."
+    },
+    {
+      "id": "a3-q8",
+      "difficulty": "basic",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 3, Para. B",
+      "question": "Which use of proceeds is restricted?",
+      "options": [
+        "Floor plan financing",
+        "Purchase of inventory",
+        "Construction of a new building",
+        "Fair compensation to an owner for services actually rendered"
+      ],
+      "correctIndex": 0,
+      "explanation": "Floor plan financing is on the restricted list. Inventory (7(a)) and construction are eligible uses, and payments to an Associate are allowed when they are compensation for services actually rendered at a fair and reasonable rate."
+    },
+    {
+      "id": "a3-q9",
+      "difficulty": "applied",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 3, Para. B.6",
+      "question": "An applicant has past-due amounts for several taxes. Which may potentially be paid with SBA proceeds?",
+      "options": [
+        "Past-due payroll taxes withheld from employees",
+        "Past-due state sales taxes collected from customers",
+        "Delinquent business income taxes under an approved IRS payment arrangement on which the Applicant is current",
+        "Any delinquent taxes if the lender documents a strong cash flow"
+      ],
+      "correctIndex": 2,
+      "explanation": "Only delinquent business income taxes may be paid, and only with an approved IRS payment arrangement on which the Applicant is current. Payroll and sales taxes held in trust for a government may not be paid with proceeds (13 CFR § 120.130(e))."
+    },
+    {
+      "id": "a3-q10",
+      "difficulty": "scenario",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 3, Para. B.7",
+      "question": "A manufacturer plans a 504 project to move from Town A to Town B, cutting its workforce from 90 to 55. What applies?",
+      "options": [
+        "Nothing; relocation limits apply only to 7(a)",
+        "The project is barred unless the CDC justifies key economic reasons and benefits that outweigh the harm to Town A",
+        "The project is allowed because the reduction is under 50%",
+        "The project is barred with no possible exception"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 504 relocation restriction applies to a net workforce reduction of one-third or more; 35 of 90 is about 39%. An exception may be allowed if the CDC justifies both key economic reasons and benefits outweighing the negative impact. The rule is 504-only, not 7(a)."
+    },
+    {
+      "id": "a3-q11",
+      "difficulty": "basic",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 3, Para. C.1",
+      "question": "For new construction, what percentage of Rentable Property must the Applicant occupy?",
+      "options": [
+        "51%",
+        "60%",
+        "75%",
+        "100%"
+      ],
+      "correctIndex": 1,
+      "explanation": "For new construction, the Applicant must occupy 60%, may permanently lease up to 20%, and may temporarily lease another 20%. 51% is the existing-building figure, and 100% is what an EPC must lease to the OC."
+    },
+    {
+      "id": "a3-q12",
+      "difficulty": "applied",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 3, Para. C.1",
+      "question": "Which space may be counted as Rentable Property toward a marina's occupancy?",
+      "options": [
+        "Customer parking areas",
+        "Elevator shafts",
+        "Mechanical rooms",
+        "Boat slips and docks actively used in operations"
+      ],
+      "correctIndex": 3,
+      "explanation": "Rentable Property may include exterior space actively used in operations, such as boat slips and docks for marinas, but never parking areas. Stairways, elevators, and mechanical areas are excluded."
+    },
+    {
+      "id": "a3-q13",
+      "difficulty": "scenario",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 3, Para. C.1",
+      "question": "A CDC is ready to close a 504 loan, but the Borrower cannot move in for 5 months because an existing tenant's lease runs that long. What must the CDC do?",
+      "options": [
+        "Submit the closing package and note the delay in the file",
+        "Wait 1 year and then submit a 327 action",
+        "Submit an advance written request to the SLPC to extend the occupancy period, with explanation and support",
+        "Nothing, since up to 1 year is automatically allowed"
+      ],
+      "correctIndex": 2,
+      "explanation": "A CDC must not submit a 504 closing package unless the Borrower is occupying and operating upon funding, unless the SLPC approved an extension in advance. After approval and occupancy, the CDC submits a 327 action. The 1-year limit is a ceiling, not an automatic allowance."
+    },
+    {
+      "id": "a3-q14",
+      "difficulty": "applied",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 3, Para. C.2",
+      "question": "A 7(a) borrower in leased space will use $400,000 of a $1,000,000 loan for leasehold improvements. The lender cannot get a landlord's waiver. What is required?",
+      "options": [
+        "The lease term, including Borrower-only renewal options, must equal or exceed the loan term, and the lender documents its attempts",
+        "Nothing, because the $500,000 threshold is not reached",
+        "The loan must be declined",
+        "Only a copy of the lease, with no term requirement"
+      ],
+      "correctIndex": 0,
+      "explanation": "The trigger is the lesser of $500,000 or 30% of proceeds; 30% of $1,000,000 is $300,000, which $400,000 exceeds. Without the assignment or waiver, the lease term with Borrower-only options must equal or exceed the loan term, and the lender must document its attempts and reasons."
+    }
+  ]
+}

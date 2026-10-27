@@ -1,0 +1,407 @@
+{
+  "id": "a1-eligibility-part-2",
+  "order": 111,
+  "part": "A",
+  "program": "core",
+  "title": "Eligibility Part 2: Ineligible types of businesses",
+  "subtitle": "Working through the 13 CFR 120.110 ineligible list: lending, passive businesses, gambling, cannabis, criminal history, prior losses and more",
+  "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. E",
+  "estimatedMinutes": 55,
+  "learningObjectives": [
+    "Screen an Applicant against each ineligible business type in 13 CFR 120.110",
+    "Apply the revenue-mix tests for pawn shops, check cashers, credit-sale financers, lodging and gambling",
+    "Distinguish eligible operating businesses from ineligible passive businesses, including space-rental and management-agreement models",
+    "Determine eligibility of marijuana, hemp and CBD-related businesses",
+    "Apply the Prior Loss and Delinquent Federal Debt rules, including CAIVRS checks and the minority investor waiver",
+    "Recognize the other bars: tribal and government ownership, packagers, criminal history, lender equity, speculation, and delinquent existing SBA loans"
+  ],
+  "topics": [
+    {
+      "id": "ineligible-overview-lending",
+      "title": "Ineligible businesses: the list and businesses engaged in lending",
+      "body": "After the basic tests, the lender must determine whether the Applicant is one of the **ineligible business types** listed in 13 CFR 120.110. Some types on the list are absolutely ineligible; others can be eligible in limited circumstances spelled out in the SOP. This part of the course walks through the list in SOP order (Paragraph E, subparagraphs 1 to 21).\n\n### E.1 Non-profit businesses\n\nNon-profits are ineligible; for-profit subsidiaries may be eligible (see Part 1 for the conditions).\n\n### E.2 Businesses engaged in lending (13 CFR 120.110(b))\n\nSBA cannot guarantee a loan that funds a business **primarily engaged in lending or investment**, or an otherwise eligible business engaged in financing, factoring, or investment **not related or essential to the business**. That rules out:\n\n- Banks;\n- Life Insurance Companies (but **not independent agents**);\n- Finance Companies;\n- Factoring Companies;\n- Investment Companies;\n- Bail Bond Companies; and\n- other businesses whose **stock in trade is money**.\n\n### The limited exceptions\n\n| Business | Eligible when |\n|---|---|\n| **Pawn shop** | **More than 50%** of prior year revenue comes from merchandise sales rather than interest on loans |\n| **Business that finances its own credit sales** | **Less than 50%** of its revenue is from financing its sales |\n| **Mortgage servicing company** | It disburses loans and **sells them within 14 calendar days** of closing; or it is **primarily engaged in servicing** loans. Mortgage companies that make loans and **hold them in portfolio** are **not** eligible |\n| **Check cashing business** | **More than 50%** of its revenue is from the service of cashing checks |\n| **Fee-based financial advisor** | It does not use loan proceeds to invest in its own portfolio of investments |\n\n> **Watch out:** The pawn shop and check casher tests are \"more than 50%\" of the good revenue; the credit-sales test is \"less than 50%\" of the bad revenue. Exactly 50% fails all three.\n\n> **In practice:** These tests are revenue-mix tests. An eligibility engine needs a revenue breakdown by source (merchandise vs. interest, check cashing vs. other, financing vs. sales) from the prior year's financials.",
+      "keyPoints": [
+        "The lender must check every Applicant against the ineligible list in 13 CFR 120.110",
+        "Non-profits ineligible; for-profit subsidiaries may be eligible (E.1)",
+        "Banks, life insurance companies (not independent agents), finance, factoring, investment and bail bond companies are ineligible",
+        "Pawn shop: eligible if more than 50% of prior-year revenue is merchandise sales",
+        "Credit-sale financers: eligible if less than 50% of revenue is from financing sales",
+        "Mortgage companies: eligible if they sell loans within 14 calendar days or primarily service; ineligible if they hold loans in portfolio",
+        "Check cashers: eligible if more than 50% of revenue is from check cashing"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. E.1-2"
+    },
+    {
+      "id": "passive-real-estate",
+      "title": "Passive businesses: landlords, developers and space rental",
+      "body": "SBA finances **operating** businesses. 13 CFR 120.110(c) makes **passive businesses** ineligible, and the SOP goes into detail because many modern business models sit close to the line.\n\n### Real estate holders\n\n- **Developers and landlords** that do not actively use or occupy the assets acquired or improved with the loan are **not eligible**, except **Eligible Passive Companies** under 13 CFR 120.111.\n- Businesses **primarily engaged in subdividing real property** into lots and developing it for resale on their own account are not eligible.\n- Businesses **primarily engaged in owning or purchasing real estate and leasing it** for any purpose are not eligible.\n\n### Space-rental models\n\n**Shopping centers, office suites (aka salon suites), ghost kitchens**, and similar models that earn income by renting space to independent businesses serving the public are **not eligible unless all of the following apply**:\n\n1. Revenue is earned through **membership dues (not rent)**;\n2. Customers do **not have an assigned space** they can return to each visit - no office with a lockable door, no particular kitchen setup, and the space cannot be personalized; and\n3. The business is responsible for **upkeep and maintenance** and **supplies the equipment** for a fully functioning office or kitchen where customers can drop in and work. Customers may bring their own tools (e.g., kitchen knives).\n\nA business is **either fully eligible or fully ineligible**. A **combined model** - part rent and part membership dues, or offering an assigned-space option - is **not eligible**.\n\n### Land leases and stand-alone assets\n\n| Business | Eligible? |\n|---|---|\n| Leases land for a cell phone tower, solar panels, billboards, or wind turbine | **No** |\n| Operates the cell phone tower, solar panel, billboard, or wind turbine | **Yes** |\n| EV-charging station, or any business structured as a stand-alone asset operated on a passive basis | **No** |\n\n### Other passive models\n\n- **Apartment buildings and mobile home parks** are not eligible.\n- **Residential facilities** that are not licensed as nursing homes or assisted living facilities **and** do not provide healthcare and/or medical services are not eligible.\n- **Leveled models** where the owner relies on a middle-level operator (e.g., some cleaning service models) and **does not own the contracts** supporting the business are not eligible.\n\n> **Watch out:** A co-working space that charges membership dues but also sells a \"dedicated desk\" tier is a combined model and fully ineligible.",
+      "keyPoints": [
+        "Developers and landlords that do not actively use or occupy the assets are ineligible (except EPCs under 13 CFR 120.111)",
+        "Businesses primarily engaged in subdividing land for resale, or owning/leasing real estate for any purpose, are ineligible",
+        "Shopping centers, office/salon suites, ghost kitchens are ineligible unless ALL three tests are met: membership dues, no assigned space, business supplies upkeep and equipment",
+        "A business is fully eligible or fully ineligible - mixed rent/membership models are ineligible",
+        "Leasing land for cell towers, solar panels, billboards or wind turbines is ineligible; the operator of the tower or panel is eligible",
+        "EV-charging stations and stand-alone passive assets are ineligible"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. E.3"
+    },
+    {
+      "id": "passive-management-agreements",
+      "title": "Passive businesses: management agreements and control agreements",
+      "body": "Hotels, restaurants and healthcare practices often hire a third-party **management company**. That is allowed, but only if the owners remain in charge.\n\n### The rule\n\nA business that has entered into a management agreement giving the management company **sole discretion over business operations** is an **ineligible passive business**. If the management company does **not** have sole discretion and the Applicant exercises **meaningful oversight**, the Applicant is eligible.\n\n### \"Meaningful oversight\" checklist\n\nThe management agreement must provide for the Applicant to do **all** of the following:\n\n1. **Approve the annual operating budget**;\n2. **Approve any capital expenditures or operating expenses over a significant dollar threshold**;\n3. **Have control over the bank accounts**; and\n4. **Have oversight over the employees** operating the business - and those employees **must be employees of the Applicant**.\n\nMissing any one of the four means the agreement fails.\n\n### Who must review the agreement\n\nRegardless of whether the loan is processed under **delegated or non-delegated** procedures, the SBA Lender must review the management agreement to determine whether it makes the Applicant an ineligible passive business. The **only exception** is a management agreement that is part of the **franchise disclosure documents (FDD)** for a brand listed on SBA's **Franchise Directory** - SBA has already reviewed those.\n\n### Control agreements\n\n**Note:** businesses that have entered into an **agreement for control** (including a **side agreement**) that gives a **non-guarantor** owner or investor control of the business are **ineligible**. This sits alongside the 2023 affiliation rule change: control no longer creates affiliation for size purposes, but handing control to someone who is not standing behind the loan still makes the business ineligible.\n\n> **In practice:** For a hotel deal with a third-party operator, pull the management agreement and map each of the four oversight items to a specific clause. If employees are on the management company's payroll, the agreement fails item 4.\n\n> **Watch out:** If the franchisor or its affiliate is the management company, a separate franchise rule makes the Applicant ineligible regardless of the oversight clauses (covered in Part 3).",
+      "keyPoints": [
+        "A management company with sole discretion over operations makes the Applicant an ineligible passive business",
+        "Eligible if the Applicant exercises meaningful oversight: approves budget, approves significant capex/opex, controls bank accounts, oversees employees (who must be the Applicant's)",
+        "Lenders must review management agreements under delegated and non-delegated processing, unless the agreement is part of an FDD for a Franchise Directory brand",
+        "An agreement (including a side agreement) giving a non-guarantor owner/investor control makes the business ineligible"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. E.3"
+    },
+    {
+      "id": "rental-exceptions",
+      "title": "When renting or leasing businesses are eligible",
+      "body": "Not every business that rents something out is passive. The SOP lists the limited circumstances in which businesses engaged in renting or leasing **are eligible**.\n\n### Lodging and transient businesses\n\n**Hotels, motels, recreational vehicle parks, marinas, campgrounds** and similar businesses are eligible if:\n\n- **more than 50%** of the business's revenue for the **prior year** comes from **transients who stay 30 days or less** at a time; and\n- the business complies with all zoning and other legal requirements.\n\nIf the Applicant is a **Start-Up Business**, its **projections** must show more than 50% of revenue will come from such transients. Rentals of residential or commercial space - whether booked through an internet platform connecting travelers and hosts or directly with the owner - must comply with all local laws (including zoning codes) and homeowners' or condominium association rules.\n\n### Senior living and healthcare\n\nBusinesses **licensed as nursing homes, assisted living facilities, or state-licensed equivalents** that **provide healthcare and/or medical services** are eligible. Healthcare or medical services include, but are not limited to, wellness checks, monitoring or helping take medications, monitoring blood sugar levels, and having medical staff onsite (even part-time). The lender must consider the **terms of the license** under which the business operates. (Unlicensed residential facilities without healthcare services are ineligible.)\n\n### Other eligible models\n\n| Business | Condition |\n|---|---|\n| Services requiring **professional licenses** (e.g., medspas) | Ownership structure meets all applicable **state** requirements; if franchised, meets franchise requirements; lender documents eligibility and ownership structure in the loan file |\n| **Leasing equipment, household goods or other items** | Eligible (but see the lending rules in E.2) |\n| **Barber shops, hair salons, nail salons**, similar personal services | Eligible whether they have employees **or contract with individuals** to provide services directly to the public (but see the developer/landlord rules) |\n\n### All or nothing\n\nAn **ineligible business cannot obtain an SBA Loan for any purpose**, including buying or building a building for its own use. You cannot carve out an \"eligible\" use of proceeds for an ineligible business.\n\n> **Watch out:** A 60-unit motel where 55% of last year's revenue came from guests on monthly (31+ day) stays fails the transient test, even though it looks like a hotel.",
+      "keyPoints": [
+        "Hotels, motels, RV parks, marinas, campgrounds: eligible if more than 50% of prior-year revenue is from transients staying 30 days or less (start-ups: projections)",
+        "Short-term rentals must comply with local laws, zoning and HOA/condo rules",
+        "Licensed nursing homes/assisted living (or state equivalents) that provide healthcare and/or medical services are eligible",
+        "Professional-license businesses (e.g., medspas) eligible if ownership meets state rules; document in file",
+        "Equipment and household goods leasing businesses are eligible",
+        "Barber shops, salons and similar personal services are eligible whether they use employees or contractors",
+        "An ineligible business cannot get an SBA Loan for any purpose, even its own building"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. E.3"
+    },
+    {
+      "id": "ineligible-gambling-foreign-pyramid",
+      "title": "Life insurers, foreign, pyramid, gambling and illegal activity",
+      "body": "### E.4 to E.6: quick hits\n\n- **Life insurance carriers** are not eligible (13 CFR 120.110(d)). Independent agents are a different matter (see E.2).\n- **Businesses located in a foreign country** are not eligible (13 CFR 120.110(e)). Citizenship rules add restrictions on ownership.\n- **Pyramid or multilevel sales distribution plans** are not eligible (13 CFR 120.110(f)).\n\n### E.7 Gambling (13 CFR 120.110(g))\n\nA business is **not eligible** if it obtains **more than one-third** of its annual gross revenue for the prior year, **including rental income**, from **legal gambling** activities.\n\nTwo refinements:\n\n1. **Purpose test.** If the **purpose** of the business is gambling - such as a **pari-mutuel betting racetrack, a gambling casino, or skill games (e.g., video poker)** - it is ineligible **regardless of the percentage** of revenue from gambling.\n2. **Incidental gambling can be fine.** A business may be eligible if it obtains **one-third or less** of annual gross revenue, including rental income, from:\n   - commissions on **official State lottery** ticket sales under a State license; or\n   - gambling activities **licensed and supervised by a state authority** where legal.\n\n| Example | Result |\n|---|---|\n| Convenience store, 8% of revenue from state lottery commissions | Can be eligible |\n| Bar earning 40% of revenue from licensed video gaming terminals | Ineligible (over one-third) |\n| Skill-game parlor, any revenue mix | Ineligible (purpose is gambling) |\n\n### E.8 Illegal activity (13 CFR 120.110(h))\n\nApplicants engaged in activity **illegal under federal, state, or local law** are not eligible. This includes businesses that **make, sell, service, distribute, or promote** products or services used in connection with illegal activity, **unless** such use is completely outside the Applicant's intended market.\n\nIf the business sells products made from **hemp or CBD** or **devices associated with consuming marijuana**, the lender must obtain documentation from the Applicant sufficient to show the products are not illegal under federal, state, or local law. The next topic covers marijuana, hemp and CBD in detail.\n\n> **Watch out:** The gambling threshold counts **rental income**. A landlord-operator renting floor space to a gaming machine operator still counts that rent toward the one-third.",
+      "keyPoints": [
+        "Life insurance carriers are ineligible (E.4); businesses located in a foreign country are ineligible (E.5)",
+        "Pyramid or multilevel sales distribution plans are ineligible (E.6)",
+        "Gambling: ineligible if more than one-third of prior-year gross revenue (including rent) is from legal gambling",
+        "If the purpose of the business is gambling (casino, racetrack, skill games), ineligible regardless of percentage",
+        "Any activity illegal under federal, state or local law makes the business ineligible (E.8)"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. E.4-8"
+    },
+    {
+      "id": "marijuana-hemp-cbd",
+      "title": "Marijuana, hemp and CBD",
+      "body": "### Marijuana\n\nBecause federal law prohibits the distribution and sale of marijuana, financial transactions with a marijuana-related business generally involve funds derived from illegal activity. The **nature of the business's specific operations** determines eligibility.\n\n**Ineligible** - regardless of the amount of such activity:\n\n- any business that **grows, produces, processes, distributes, or sells** marijuana or marijuana products, edibles, or derivatives; and\n- businesses selling **smoking devices, pipes, bongs, inhalants, or other products** if the products are **primarily intended or designed for marijuana use** or the business **markets** them for such use.\n\nThis applies to **recreational and medical** use, **even if the business is legal** under the state or local law where it is located.\n\n### Hemp\n\nConsistent with the Agriculture Improvement Act of 2018 (Public Law No. 115-334), a business that grows, produces, processes, distributes or sells hemp products is eligible **only if** the hemp meets:\n\n- the definition in **section 297A of the Agricultural Marketing Act of 1946**; **and**\n- any applicable **state** definition of hemp. Some states define hemp with a **lower THC** level than the federal definition.\n\nThe lender must obtain documentation showing the hemp meets the applicable definitions. For Applicants that will **grow, produce, and/or process** hemp, the lender must also obtain documentation of the **testing protocols** the business will follow to keep the hemp and any extracted products within the definitions.\n\n### Cannabidiol (CBD)\n\nEligibility factors include, but are not limited to:\n\n1. **Source** - derived from hemp or from marijuana;\n2. **Product type** - topical or ingested. Per FDA guidance, it is illegal under the Food, Drug, and Cosmetic Act to add CBD to any **food (human or animal), dietary supplements, and certain cosmetics**, because CBD is the active ingredient of an FDA-approved drug;\n3. **Health claims** made about the products; and\n4. Whether all products comply with **all applicable federal, state, and local laws**, including FDA rules.\n\nThe lender must obtain documentation showing the CBD products comply with all applicable laws, **including necessary certificates of lab analysis**.\n\n> **Watch out:** A head shop that sells mostly glassware \"for tobacco\" but markets it on social media with cannabis imagery is ineligible: marketing for marijuana use is enough.\n\n> **In practice:** For a CBD retailer, a clean file has the product list, source documentation (hemp), lab certificates, and a note that no ingestible food or supplement products are sold.",
+      "keyPoints": [
+        "Marijuana businesses are ineligible regardless of the amount of activity, even if legal under state law, recreational or medical",
+        "Includes sellers of smoking devices, pipes, bongs etc. primarily intended, designed or marketed for marijuana use",
+        "Hemp businesses eligible only if hemp meets section 297A of the Agricultural Marketing Act of 1946 AND any state definition",
+        "Hemp growers/processors: lender must obtain documentation of testing protocols",
+        "CBD: consider source, product type (FDA bars CBD in food, supplements, certain cosmetics), health claims, and legal compliance; obtain certificates of lab analysis"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. E.8"
+    },
+    {
+      "id": "patronage-government-packagers",
+      "title": "Discrimination, government-owned, tribal businesses, packagers and criminal history",
+      "body": "### E.9 Restricted patronage and discriminatory hiring (13 CFR 120.110(i), 113.3(a))\n\n- Businesses that **restrict patronage for any reason other than capacity** are ineligible. Example: a men's-only or women's-only health club.\n- A fitness center that **markets to one gender** may be eligible if it permits both men and women to join and use the facility. The lender must document the file with:\n  1. an **affidavit** signed by the Applicant that the business is open to both men and women; and\n  2. **evidence** of that, such as appropriate bath/locker rooms or documented membership demographics.\n- Except as permitted under section 702(a) of the Civil Rights Act of 1964, businesses with **discriminatory hiring practices** are ineligible. Example: a restaurant that employs only servers of one gender.\n\n### E.10 Government-owned entities (13 CFR 120.110(j))\n\nGovernment-owned entities are ineligible, **except businesses owned or controlled by a Native American tribe**. Businesses owned by **municipalities and other political subdivisions** are ineligible.\n\nFor Native American businesses:\n\n- A **tribe itself** is a governmental entity and is **not eligible**.\n- A small business owned in whole or in part by a **state or federally recognized tribe** may be eligible if it meets all other Loan Program Requirements and:\n  1. establishes it is a **separate legal entity** from the tribe and submits the documents authorizing its existence; and\n  2. for **federally recognized** tribes, the tribe **waives sovereign immunity** for the collateral and for collection of the loan from the Applicant, **and** agrees to a **\"sue and be sued\"** clause naming **U.S. Federal courts** as courts of competent jurisdiction. State-only recognized tribes do not have sovereign immunity, so this step is not needed for them.\n- Lenders may seek help from the **Bureau of Indian Affairs (BIA)** on loans collateralized by Indian lands held in trust.\n\n### E.11 Loan packagers (13 CFR 120.110(m))\n\nLoan packagers, **including Lender Service Providers**, and other businesses earning **more than one-third** of gross annual revenue from **packaging SBA loans** are ineligible.\n\n### E.12 Associates with criminal issues (13 CFR 120.110(n))\n\nA business is ineligible if an **Associate** is:\n\n- **currently incarcerated**;\n- **serving a sentence of imprisonment** imposed upon adjudication of guilty; or\n- **under indictment** for a **felony** or any crime involving or relating to **financial misconduct or a false statement**.\n\nA business owned by someone currently on **parole or probation** **may be eligible**. If the business's success depends primarily on that person, the Applicant must give the lender a **plan for continued operations** in the event of reincarceration, and the lender should consider requiring an **additional individual** to provide a full or limited guaranty.\n\n> **Watch out:** Probation is not a bar, but indictment is. An owner under indictment for a felony makes the business ineligible even though there has been no conviction.",
+      "keyPoints": [
+        "Restricting patronage for any reason other than capacity, or discriminatory hiring, makes a business ineligible",
+        "Gender-marketed gyms can be eligible with an Applicant affidavit plus evidence the facility is open to both men and women",
+        "Government-owned entities are ineligible, except businesses owned or controlled by a Native American tribe",
+        "Tribe-owned businesses: separate legal entity; federally recognized tribes must waive sovereign immunity and agree to \"sue and be sued\" in U.S. Federal courts",
+        "Loan packagers (including LSPs) earning more than one-third of gross revenue from packaging SBA loans are ineligible",
+        "Associate incarcerated, serving a sentence, or under indictment for a felony or financial misconduct/false statement crime = ineligible"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. E.9-12"
+    },
+    {
+      "id": "lender-equity-prurient-political",
+      "title": "Lender equity, prurient businesses, politics, speculation and other bars",
+      "body": "### E.13 Lender equity\n\nA business in which the **SBA Lender or any of its Associates owns an equity interest**, directly or indirectly, is **not eligible**. The only exception is when the Applicant's Associate is a **Small Business Investment Company (SBIC)**, in which case 13 CFR 120.104 applies.\n\n### E.14 Prurient sexual nature (13 CFR 120.110(p))\n\nSBA has determined that financing lawful activities of a prurient sexual nature is not in the public interest. A business is ineligible if:\n\n1. it presents **live or recorded performances** of a prurient sexual nature; or\n2. it derives **more than 5%** of gross revenue, directly or indirectly, from products, services, or depictions of a prurient sexual nature. The **5%** threshold is the **de minimis** level.\n\nThe lender must consider whether the nature and extent of the sexual component makes the activity prurient.\n\n### E.17 Political or lobbying activities (13 CFR 120.110(r))\n\nBusinesses **primarily engaged** in political or lobbying activities are ineligible: an Applicant deriving **over 50%** of gross annual revenue from these activities is not eligible.\n\n### E.18 Speculation (13 CFR 120.110(s))\n\nSpeculative businesses - those buying and holding an item solely until the price rises, or engaging in a risky business for the chance of an unusually large profit - are ineligible.\n\n| Speculative (ineligible) | Non-speculative (may be eligible) |\n|---|---|\n| Wildcatting in oil | Drilling for oil in **established fields** |\n| Dealing in stocks, bonds, commodity futures, other financial instruments | Grain elevator using a commodity contract to **lock in a price**; farmer locking in a harvest price |\n| Mining gold or silver outside established fields | |\n| Research and Development | |\n| Building homes for future sale (spec homes) | Building a home **under contract with an identified purchaser** |\n\nSpec homes with no sales contract **are eligible under the 7(a) Builders CAPLines program** (13 CFR 120.391).\n\n### Other bars\n\n- **E.19:** A **Small Business Lending Company (SBLC)** may not lend to an Applicant that has received financing (or a commitment) from an **SBIC that is an Associate of the SBLC** (13 CFR 120.476).\n- **E.20:** Businesses located within the **Coastal Barrier Resource System** (13 CFR 120.175).\n- **E.21:** The business is ineligible if it has an **existing 7(a) or 504 loan that is not current** when the new SBA loan number is issued. \"Current\" means no required payment has remained unpaid **for more than 29 days**. A loan that **matured and was not paid within 29 days** of maturity is not current and **cannot be refinanced**. The SBA Loan System shows a **\"caution\" pop-up** if the business is delinquent on a 7(a) or 504 loan.\n\n(Prior Loss and Delinquent Federal Debt, E.15 and E.16, have their own topic.)\n\n> **Watch out:** The 29-day test is measured at loan number issuance, not at application. A borrower who catches up before the number is pulled is fine; one who slips past 29 days the week before is not.",
+      "keyPoints": [
+        "Ineligible if the SBA Lender or any of its Associates owns equity in the Applicant (SBIC exception under 13 CFR 120.104)",
+        "Prurient: ineligible if live or recorded prurient performances, or more than 5% (de minimis) of gross revenue from prurient products/services",
+        "Political/lobbying: ineligible if over 50% of gross annual revenue is from political or lobbying activities",
+        "Speculative businesses ineligible (wildcatting, dealing in securities/commodities, gold/silver outside established fields, R&D, spec homes except Builders CAPLines)",
+        "SBLC may not lend to an Applicant financed by an SBIC that is the SBLC's Associate",
+        "Coastal Barrier Resource System locations ineligible",
+        "Existing 7(a)/504 loan must be current (no payment unpaid more than 29 days) when the new loan number is issued"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. E.13-21"
+    },
+    {
+      "id": "prior-loss-delinquent-debt",
+      "title": "Prior Loss to the Government and Delinquent Federal Debt",
+      "body": "Two separate rules screen out businesses that have hurt the government in the past or currently owe it money. Both rely on **CAIVRS** (the Credit Alert Verification Reporting System).\n\n### E.15 Prior Loss to the Government (13 CFR 120.110(q))\n\nAn Applicant is not eligible if there is a **Prior Loss**, meaning:\n\n- the **Applicant** previously defaulted on a Federal loan or federally assisted financing, resulting in a loss to the government; or\n- **any other business owned, operated, or controlled by the Applicant or an Associate** previously defaulted (or guaranteed a loan that defaulted), resulting in a loss.\n\n**\"Loss\"** is a deficiency recognized after the agency's write-off or close-out, including amounts **compromised**, **discharged in bankruptcy**, and unreimbursed **8(a) advance payments**. It does **not** include unpaid/delinquent **taxes** or FDIC losses from selling a loan at a discount.\n\n**\"Federal loan or federally assisted financing\"** covers business-purpose loans (including Federal disaster loans) made or guaranteed by any Federal agency, and 8(a)-type advance payments. It does **not** include loans held or securitized by **Fannie Mae or Freddie Mac**, or financing to an **individual** (e.g., student loans).\n\nLender duties:\n\n- **Must** check CAIVRS (multiple SSNs/EINs may be searched) and **retain documentation** in the loan file.\n- If the Prior Loss is **fully satisfied**, the application can proceed, **including under delegated authority**, with documentation of how it was satisfied.\n- **Must inform** the Applicant that if the loan defaults and SBA suffers a loss, the business, guarantors, and controlling Associates will be referred for CAIVRS listing.\n\n**Waiver for a Non-controlling Minority Equity Investor.** SBA may waive the rule when an owner of the Applicant was, in the business with the prior loss on an SBA 7(a) or 504 loan:\n\n1. a holder of **less than 20%** of the equity;\n2. **not a guarantor or co-borrower** on the defaulted loan; and\n3. **without any control** over that business.\n\nSBA then evaluates the full circumstances case by case at application through the **Risk Mitigation Framework**, considering the prior loans, number and percentage of defaults, timing (including early defaults), and the investor's capital relative to total SBA loan amounts. The waiver covers **only SBA 7(a)/504 losses**, not non-SBA Federal loans, PPP, SBA EIDL, or COVID-19 EIDL.\n\n### E.16 Delinquent Federal Debt (31 CFR 285.13)\n\nAn Applicant is ineligible if the **Applicant or any guarantor (except a Supplemental Guarantor)** owes a **nontax** Federal debt (including debt administered by an Agent) that is **delinquent**: unpaid **within 90 days** of the payment due date, even if collection has been suspended.\n\nA debt is **not delinquent** if it was released or compromised, or the delinquency was cured; it is in bankruptcy (and the obligor is current on any plan) or discharged; the obligor is paying as agreed under a written repayment agreement; or it is under administrative or judicial appeal. If a Loss occurred, the Prior Loss rule still applies.\n\nThe lender **must** check CAIVRS for the Applicant, guarantors and Associates, keep documentation, and inform the Applicant of CAIVRS referral on default. A fully satisfied debt allows processing, including delegated. SBA waivers under 31 CFR 285.13(g) are **rare**; the authority sits with the head of the agency, who may delegate it to the CFO or Deputy CFO.\n\n> **Watch out:** A compromised SBA loan is not \"resolved\" for Prior Loss purposes - a compromise is itself a Loss. Only full satisfaction clears it.",
+      "keyPoints": [
+        "Prior Loss: Applicant, or a business owned/operated/controlled by the Applicant or an Associate, defaulted on a Federal loan causing a loss = ineligible",
+        "\"Loss\" excludes unpaid taxes and FDIC discount sales; \"Federal loan\" excludes Fannie/Freddie loans and loans to individuals (e.g., student loans)",
+        "Lenders must check CAIVRS and keep documentation in the file",
+        "Fully satisfied Prior Loss or Delinquent Federal Debt: may proceed, even delegated, with file documentation",
+        "Waiver possible for Non-controlling Minority Equity Investor: under 20% equity, not a guarantor/co-borrower, no control; SBA 7(a)/504 losses only",
+        "Delinquent Federal Debt = nontax Federal debt unpaid 90 days past due, owed by Applicant or any guarantor (except Supplemental Guarantor)"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. E.15-16"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Passive business",
+      "definition": "A business that does not actively use or occupy the assets financed, such as a landlord or developer; ineligible except Eligible Passive Companies."
+    },
+    {
+      "term": "Meaningful oversight",
+      "definition": "Under a management agreement, the Applicant approves the budget and significant expenditures, controls bank accounts, and oversees employees who are its own."
+    },
+    {
+      "term": "Transient",
+      "definition": "For lodging businesses, a guest staying 30 days or less at a time; more than 50% of revenue must come from transients."
+    },
+    {
+      "term": "Associate",
+      "definition": "A person or entity associated with the Applicant as defined in the SOP glossary; an Associate's criminal or default history can make the Applicant ineligible."
+    },
+    {
+      "term": "Prior Loss",
+      "definition": "A default on a Federal loan or federally assisted financing by the Applicant or a business owned, operated or controlled by the Applicant or an Associate, resulting in a loss to the government."
+    },
+    {
+      "term": "Delinquent Federal Debt",
+      "definition": "A nontax debt owed to the Federal Government by the Applicant or any guarantor (except a Supplemental Guarantor) not paid within 90 days of its due date."
+    },
+    {
+      "term": "CAIVRS",
+      "definition": "Credit Alert Verification Reporting System; lenders must check it for Prior Loss and Delinquent Federal Debt and keep documentation."
+    },
+    {
+      "term": "Non-controlling Minority Equity Investor",
+      "definition": "An owner who held less than 20% of a business with a prior SBA loss, was not a guarantor or co-borrower, and had no control; may qualify for a waiver."
+    },
+    {
+      "term": "Speculative business",
+      "definition": "A business that buys and holds items for price appreciation or takes risky bets for unusually large profits, e.g., wildcatting or spec home building."
+    },
+    {
+      "term": "Current (existing SBA loan)",
+      "definition": "No required payment unpaid for more than 29 days at the time the new SBA loan number is issued."
+    },
+    {
+      "term": "De minimis (prurient)",
+      "definition": "The 5% of gross revenue threshold above which prurient sales or displays make a business ineligible."
+    },
+    {
+      "term": "Coastal Barrier Resource System",
+      "definition": "Federally designated coastal areas; businesses located within them are ineligible (13 CFR 120.175)."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "a1p2-q1",
+      "question": "A pawn shop had $1.2 million of prior-year revenue: $700,000 from merchandise sales and $500,000 from interest on loans. Is it eligible?",
+      "options": [
+        "Yes, because more than 50% of prior-year revenue is from merchandise sales",
+        "No, because pawn shops are businesses whose stock in trade is money",
+        "No, because interest exceeds one-third of revenue",
+        "Yes, but only for a 504 loan"
+      ],
+      "correctIndex": 0,
+      "explanation": "A pawn shop is eligible if more than 50% of prior-year revenue is from merchandise sales; $700,000 of $1.2 million is about 58%. The one-third threshold belongs to the gambling and packager rules.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. E.2",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a1p2-q2",
+      "question": "Which mortgage company is eligible for an SBA loan?",
+      "options": [
+        "One that makes loans and holds them in its own portfolio",
+        "One that sells its loans within 45 days of closing",
+        "One that disburses loans and sells them within 14 calendar days of closing",
+        "One that funds loans with warehouse lines and sells them quarterly"
+      ],
+      "correctIndex": 2,
+      "explanation": "A mortgage company that disburses loans and sells them within 14 calendar days of closing, or is primarily engaged in servicing, is eligible. Holding loans in portfolio, or longer holding periods, is ineligible.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. E.2",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a1p2-q3",
+      "question": "A ghost kitchen charges monthly membership dues, lets any member use any open station, and supplies all equipment and maintenance. It also offers a premium tier with a reserved, lockable kitchen for $500 more a month. Is it eligible?",
+      "options": [
+        "Yes, because most revenue is membership dues",
+        "Yes, if the reserved tier is less than 50% of revenue",
+        "No, unless the lender gets an exception from SBA",
+        "No, because a combined model with an assigned-space option is ineligible"
+      ],
+      "correctIndex": 3,
+      "explanation": "Space-rental models must meet all three tests, and a business is fully eligible or fully ineligible: offering an assigned-space option makes it a combined model and ineligible. There is no revenue-share threshold for this rule.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. E.3",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a1p2-q4",
+      "question": "A hotel owner hires a management company. Which agreement term would make the hotel an ineligible passive business?",
+      "options": [
+        "The owner approves the annual operating budget",
+        "The hotel staff are employees of the management company",
+        "The owner must approve capital expenditures over a significant threshold",
+        "The owner controls the hotel bank accounts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Meaningful oversight requires the Applicant to oversee employees who must be the Applicant's own employees. The other three terms are required elements of meaningful oversight.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. E.3",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a1p2-q5",
+      "question": "An RV park reports that 45% of last year's revenue came from guests staying 30 days or less and 55% from seasonal guests staying 3 to 6 months. Is it eligible?",
+      "options": [
+        "No, because more than 50% must come from transients staying 30 days or less",
+        "Yes, because RV parks are always eligible",
+        "Yes, because at least one-third is from transients",
+        "No, because RV parks are passive real estate"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lodging-type businesses are eligible only if more than 50% of prior-year revenue is from transients staying 30 days or less. 45% fails; RV parks are not automatically eligible or ineligible.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. E.3",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a1p2-q6",
+      "question": "A landowner leases a parcel to a solar company that installs and operates panels on it. Which is eligible for an SBA loan?",
+      "options": [
+        "The landowner leasing the land",
+        "Both the landowner and the solar operator",
+        "The solar company operating the panels",
+        "Neither, because solar projects are speculative"
+      ],
+      "correctIndex": 2,
+      "explanation": "Businesses leasing land for solar panels (or cell towers, billboards, wind turbines) are ineligible, but the business operating the panels is eligible.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. E.3",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a1p2-q7",
+      "question": "A convenience store earns 30% of its prior-year gross revenue from commissions on official State lottery ticket sales under a State license. Is the gambling rule a bar to eligibility?",
+      "options": [
+        "Yes, any gambling revenue disqualifies the business",
+        "No, because lottery commissions are one-third or less of gross revenue",
+        "Yes, because lottery sales make gambling the purpose of the business",
+        "No, as long as gambling revenue stays below 50%"
+      ],
+      "correctIndex": 1,
+      "explanation": "A business may be eligible if one-third or less of gross revenue (including rental income) comes from State lottery commissions under a State license. The threshold is one-third, not 50%, and selling lottery tickets does not make gambling the purpose of a convenience store.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. E.7",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a1p2-q8",
+      "question": "A retailer in a state where recreational marijuana is legal sells marijuana edibles that account for 3% of its revenue. Is it eligible?",
+      "options": [
+        "Yes, because the activity is de minimis",
+        "Yes, because it is legal under state law",
+        "No, unless it obtains certificates of lab analysis",
+        "No, because selling marijuana products is ineligible regardless of amount"
+      ],
+      "correctIndex": 3,
+      "explanation": "Businesses that sell marijuana products or edibles are ineligible regardless of the amount, even if legal under state law. The 5% de minimis figure belongs to the prurient rule, and lab certificates are a CBD requirement.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. E.8",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a1p2-q9",
+      "question": "A hemp grower in a state whose THC limit for hemp is lower than the federal limit applies for a 7(a) loan. What must the lender obtain?",
+      "options": [
+        "Documentation that the hemp meets the federal and state definitions, plus the testing protocols the grower will follow",
+        "Only a certificate that the hemp meets the federal definition",
+        "An FDA approval for the hemp",
+        "Nothing, since hemp was legalized in 2018"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hemp must meet both section 297A of the Agricultural Marketing Act of 1946 and any applicable state definition, and for growers/processors the lender must obtain documentation of testing protocols. Meeting only the federal definition is not enough.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. E.8",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a1p2-q10",
+      "question": "A tribally owned enterprise of a federally recognized tribe applies for a 504 loan. Beyond meeting all other requirements, what is required?",
+      "options": [
+        "Nothing extra; tribal businesses are treated like any other business",
+        "The tribe itself must be the borrower",
+        "Proof it is a separate legal entity, plus a waiver of sovereign immunity and a \"sue and be sued\" clause naming U.S. Federal courts",
+        "Approval from the Bureau of Indian Affairs"
+      ],
+      "correctIndex": 2,
+      "explanation": "A tribe itself is ineligible as a governmental entity. A tribally owned business must establish it is a separate legal entity and, for federally recognized tribes, the tribe must waive sovereign immunity and agree to a sue-and-be-sued clause. BIA help is optional for trust lands.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. E.10",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a1p2-q11",
+      "question": "The 60% owner of an Applicant is on probation after serving a sentence, and the business depends mainly on her. What does the SOP require?",
+      "options": [
+        "The business is ineligible until probation ends",
+        "The Applicant must provide a plan for continued operations if she is reincarcerated, and the lender should consider an additional guarantor",
+        "She must divest her ownership before the loan number is issued",
+        "Nothing, since probation is not addressed"
+      ],
+      "correctIndex": 1,
+      "explanation": "A business owned by someone on parole or probation may be eligible; if success depends primarily on that person, the Applicant must provide a continuity plan and the lender should consider requiring an additional full or limited guaranty. Incarceration or indictment, not probation, is the bar.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. E.12",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a1p2-q12",
+      "question": "For the prurient-sexual-nature rule, what is the de minimis gross revenue threshold?",
+      "options": [
+        "One-third",
+        "10%",
+        "1%",
+        "5%"
+      ],
+      "correctIndex": 3,
+      "explanation": "A business deriving more than 5% of gross revenue from prurient products, services or depictions is ineligible; the SOP interprets 5% as the de minimis threshold. One-third is the gambling threshold.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. E.14",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a1p2-q13",
+      "question": "An owner held 15% of a company that defaulted on an SBA 7(a) loan with a loss. She was not a guarantor and had no control. She now owns 60% of a new Applicant. What applies?",
+      "options": [
+        "The Applicant is permanently ineligible",
+        "The Prior Loss rule does not apply to owners under 20%",
+        "She may qualify for a Non-controlling Minority Equity Investor waiver, evaluated case by case by SBA",
+        "The lender may approve under delegated authority without further action"
+      ],
+      "correctIndex": 2,
+      "explanation": "An owner who held less than 20%, was not a guarantor or co-borrower, and had no control can be considered for a waiver, which SBA evaluates case by case through the Risk Mitigation Framework. The rule still applies; it is not automatically waived.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. E.15",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a1p2-q14",
+      "question": "Which of the following is a Delinquent Federal Debt that makes an Applicant ineligible?",
+      "options": [
+        "A guarantor's nontax Federal debt 120 days past due with no repayment agreement",
+        "A debt 120 days past due that is under administrative appeal",
+        "A debt where the obligor is paying as agreed under a written repayment agreement",
+        "A Supplemental Guarantor's nontax debt 120 days past due"
+      ],
+      "correctIndex": 0,
+      "explanation": "A nontax debt unpaid within 90 days of the due date is delinquent, and it counts for the Applicant or any guarantor except a Supplemental Guarantor. Debts under appeal or under a repayment plan being paid as agreed are not delinquent.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. E.16",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a1p2-q15",
+      "question": "An Applicant has an existing SBA 504 loan whose last payment has been unpaid for 35 days when the lender requests the new SBA loan number. What is the result?",
+      "options": [
+        "Eligible, because the loan is less than 60 days delinquent",
+        "Eligible, if the new loan will refinance the 504 loan",
+        "Ineligible only if the delinquency appears in CAIVRS",
+        "Ineligible, because the existing loan is not current (unpaid more than 29 days)"
+      ],
+      "correctIndex": 3,
+      "explanation": "An existing 7(a) or 504 loan must be current - no payment unpaid more than 29 days - when the new loan number is issued. Refinancing does not cure it, and CAIVRS listing is not the test.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. E.21",
+      "difficulty": "scenario"
+    }
+  ]
+}

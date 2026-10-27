@@ -1,0 +1,359 @@
+{
+  "id": "appx18-interest-rates",
+  "order": 450,
+  "part": "APPX",
+  "program": "7a",
+  "title": "Appendix 18: Interest Rate Requirements",
+  "subtitle": "Maximum rates, allowed base rates, adjustment mechanics, swaps, and program exceptions for 7(a) loans",
+  "sopRef": "SOP 50 10 8.1, Appendix 18",
+  "estimatedMinutes": 30,
+  "learningObjectives": [
+    "Determine the maximum allowable rate for a 7(a) loan using the loan-size spread table",
+    "Identify the acceptable Base Rates and Alternative Base Rates and how each is sourced",
+    "Structure compliant variable rate adjustments, ceilings and floors, and fixed/variable combinations",
+    "Process post-approval rate changes and choose permitted accrual methods",
+    "Apply the conditions for interest rate swaps on 7(a) loans",
+    "Recognize the SBA Express, Export Express and EWCP exceptions"
+  ],
+  "topics": [
+    {
+      "id": "rate-basics",
+      "title": "Fixed vs. variable rates, the federal maximum, and no default rates",
+      "body": "A 7(a) loan may have a **fixed** or a **variable** interest rate. The Lender **negotiates the rate with the Applicant**, but always subject to SBA's maximum allowable rates (13 CFR 120.213 and 120.214).\n\n#### SBA's rules preempt state law\n\nThe maximum interest rate on any 7(a) loan is governed by SBA's regulations, which **preempt any provisions of a state's constitution or law**. A state usury limit does not change what SBA allows, in either direction.\n\n#### Maximum fixed rate\n\n- SBA periodically publishes the maximum allowable **fixed** rate in the **Federal Register**.\n- It equals the **Prime rate in effect on the first business day of the month** plus an allowable spread over Prime, as set in the most recent Federal Register Notice.\n- Current maximum fixed rates are listed on the **Fiscal Transfer Agent (FTA) Wiki**.\n- **The maximum fixed rate may only be used if the rate stays in effect for the entire term of the loan, without adjustment or reset.** Otherwise, the variable rate maximums apply.\n\n> **Watch out:** A \"fixed for 5 years, then resets\" loan is **not** a fixed rate loan for SBA purposes. It is a variable rate loan (with a delayed first adjustment) and must meet the variable rate maximums.\n\n#### Default interest rates\n\n**Default interest rates are not permitted** under the General Requirements. A Lender cannot increase the rate because the Borrower defaults. The exceptions are **SBA Express** and **Export Express**, covered in the program-specific topic. 7(a) Small loans explicitly follow the general rule: no default rates.\n\n#### What the Note must say\n\n| Rate type | Note must include |\n|---|---|\n| Fixed | The specific interest rate |\n| Variable | (1) The base rate or Alternative Base Rate being used; (2) the publication where it regularly appears (e.g., Wall Street Journal for Prime or Treasury Rates, Federal Reserve Bank of New York for SOFR, Federal Register for the SBA Optional Peg Rate); (3) the percentage spread, including any planned spread changes (e.g., in a construction loan); (4) the initial rate from disbursement to first adjustment; (5) the date or timing of the first adjustment; (6) the frequency of adjustment |\n\nFor variable rate loans, the following must also be defined in **both the SBA Loan System and the Note**: base rate or Alternative Base Rate, spread, frequency of change, range of fluctuation, and ceiling and floor (if any). All allowed rates are also published on SBA's website.",
+      "keyPoints": [
+        "7(a) rates may be fixed or variable; Lender negotiates subject to SBA maximums",
+        "SBA's interest rate regulations preempt state constitutions and laws",
+        "Max fixed rate = Prime on first business day of the month + spread from the Federal Register Notice",
+        "Max fixed rate only if the rate holds for the entire term with no reset",
+        "Default interest rates are not permitted (except SBA Express and Export Express)"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 18, General Policy on Interest Rates, Para. 1"
+    },
+    {
+      "id": "base-rates",
+      "title": "Base Rates and Alternative Base Rates",
+      "body": "A variable rate loan is priced as **base rate + spread**. SBA allows two **Base Rates** and three **Alternative Base Rates** (13 CFR 120.214).\n\n| Category | Rate | How it is determined |\n|---|---|---|\n| Base Rate | **Prime Rate** | The rate in effect on the **first business day of the month**, as identified in a national financial newspaper or website. It appears in the newspaper on the second business day. |\n| Base Rate | **SBA Optional Peg Rate** | A weighted average of rates the Federal government pays for loans with maturities similar to the average 7(a) loan. SBA calculates and publishes it **quarterly in the Federal Register**. |\n| Alternative Base Rate | **SOFR** (Secured Overnight Funding Rate) | The daily rate reported for the **first business day of the month** by the Federal Reserve Bank of New York. |\n| Alternative Base Rate | **5-year Treasury Note Rate** | Federal Reserve Select Interest Rates, Treasury constant maturities, reported for the **final business day of the prior month**. |\n| Alternative Base Rate | **10-year Treasury Note Rate** | Same source and timing as the 5-year rate. |\n\n#### Practical details\n\n- **Website timing trap.** If you pull Prime from a website, check whether it shows the current day's rate or the previous day's; some newspaper websites publish the previous day's rate.\n- **SOFR products.** SBA recognizes that institutions use different SOFR products to deliver an equivalent reference rate, such as 30-day term SOFR and 30-Day Average SOFR. Lenders may continue to use their established in-house SOFR reference rates of **30 days or less**, because these closely correlate with daily SOFR.\n- **Rounding.** Base rates are rounded to **two decimal places**: .004 rounds down to .00 and .005 rounds up to .01.\n\n#### Which month's rate sets the initial rate?\n\nFor variable rate loans, the base rate in effect on the **first business day of the month** sets the basis for the initial rate for any complete loan application **received by SBA during that month**. The date the complete application is \"received by SBA\" is **the date the loan is approved and assigned an SBA loan number**.\n\n> **In practice:** Treasury-based Alternative Base Rates look back to the last business day of the **prior** month, while Prime and SOFR use the **first** business day of the current month. Rate engines need different lookup logic for each.",
+      "keyPoints": [
+        "Base Rates: Prime Rate or SBA Optional Peg Rate",
+        "Alternative Base Rates: SOFR, 5-year Treasury, or 10-year Treasury",
+        "Prime and SOFR: first business day of the month; Treasuries: final business day of the prior month",
+        "Optional Peg Rate is published quarterly in the Federal Register",
+        "In-house SOFR reference rates of 30 days or less are acceptable",
+        "Base rates round to two decimals: .004 down, .005 up"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 18, General Policy on Interest Rates, Paras. 1.e and 2"
+    },
+    {
+      "id": "maximum-spreads",
+      "title": "Maximum allowable spreads by loan size",
+      "body": "The heart of Appendix 18 is the maximum spread table. The cap depends on **loan amount** and on whether the Lender uses a Base Rate or an Alternative Base Rate.\n\n| Loan amount | Max rate with Base Rate (Prime or Optional Peg) | Max rate with Alternative Base Rate (SOFR, 5-yr or 10-yr Treasury) |\n|---|---|---|\n| $50,000 and less | Base rate + 6.5% | Capped at Prime + 6.5% |\n| $50,001 up to and including $250,000 | Base rate + 6% | Capped at Prime + 6.0% |\n| $250,001 up to and including $350,000 | Base rate + 4.5% | Capped at Prime + 4.5% |\n| $350,001 and higher | Base rate + 3% | Capped at Prime + 3.0% |\n\n#### How the Alternative Base Rate cap works\n\nWhen using an Alternative Base Rate, the **maximum interest rate (Alternative Base Rate plus spread)** is determined by loan amount **with a cap based on the Prime rate**. In other words, the Lender can choose any spread over SOFR or a Treasury rate, as long as the resulting all-in rate does not exceed Prime plus the allowed spread for that loan size.\n\n**Example:** On a $1,000,000 loan, if Prime is 7.50%, the maximum all-in rate is 10.50% whether the Lender prices off Prime or off SOFR. If SOFR is 4.30%, the Lender could use a spread up to 6.20% over SOFR and still be at the cap (illustrative figures).\n\n#### Spread rules that apply at every adjustment\n\n- The Lender must **designate in its application for guaranty** the percentage spread to be added at each adjustment date. **The same spread must be used for all adjustments.**\n- The spread identified in the Note **may not be changed during the life of the loan without the Borrower's written agreement**.\n- SBA's maximum applies **both to the initial Note rate** and to the **combined rate** obtained by adding the spread to the base rate or Alternative Base Rate. The spread applied to adjustments must be **less than or equal to the maximum allowed by SBA at origination**.\n\n> **Watch out:** The tiers use \"and less,\" \"up to and including,\" and \"and higher.\" A $250,000 loan is in the 6% tier; a $250,001 loan drops to 4.5%. A $350,000 loan is still at 4.5%.",
+      "keyPoints": [
+        "$50,000 and less: base + 6.5%",
+        "$50,001 to $250,000: base + 6%",
+        "$250,001 to $350,000: base + 4.5%",
+        "$350,001 and higher: base + 3%",
+        "Alternative Base Rate loans are capped at Prime plus the same tiered spread",
+        "Same spread for all adjustments; spread changes require Borrower's written agreement"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 18, General Policy on Interest Rates, Paras. 2-3"
+    },
+    {
+      "id": "adjustments-caps",
+      "title": "Rate adjustments, ceilings and floors, and fixed/variable combinations",
+      "body": "#### When the rate adjusts\n\n- **First adjustment:** may occur on the **first calendar day of the month following initial disbursement**, using the base rate in effect on the first business day of that month. Lenders **may delay the first adjustment**; some have used periods as long as **5 years** to give the Borrower a set rate for the first 5 years, after which the rate fluctuates as stated in the SBA Loan System.\n- **Frequency:** the Lender must state the adjustment frequency in the Note. It **may not be changed without the Borrower's written consent**.\n- **Subsequent adjustments** may occur **no more frequently than monthly**. Each sets the rate on the **first calendar day of the adjustment period** using the base rate in effect on the **first business day** of that period.\n- The rate changes on the first calendar day **even though it may not be known until the second business day**. Example: if the 1st is a Sunday, the base rate is Prime in effect Monday, reported in the Wall Street Journal on Tuesday.\n- Many lenders use the **calendar quarter** as the adjustment period, especially those that sell the guaranteed portion on the Secondary Market.\n- After the rate begins fluctuating, the loan can be **re-amortized**; typically it is re-amortized at every adjustment to ensure full amortization by maturity.\n\n#### Ceilings and floors\n\nSBA lets a Lender limit upward and downward movement with a ceiling and floor if:\n\n1. **Both** the floor and ceiling are **stated in the Note**, and\n2. The distance from the Note rate **down to the floor** is **equal to or greater than** the distance from the Note rate **up to the ceiling**.\n\n**Example:** Note rate 10%, ceiling 12% (2 points up), so the floor must be **8% or lower**.\n\n> **Watch out:** A floor alone, or a floor closer to the Note rate than the ceiling, does not comply. The structure must never protect the Lender more than it protects the Borrower.\n\n#### Fixed and variable combinations\n\nA Lender may put a **fixed rate on one portion** (guaranteed or unguaranteed) and a **variable rate on the other**, as long as **neither exceeds the SBA maximum**. A common use: keep a variable rate on the unguaranteed portion and sell a fixed rate guaranteed portion on the Secondary Market.\n\nIf a combination is used, **the entire loan is considered a variable rate loan**, and the rate on both portions must be **based on the variable rate**.",
+      "keyPoints": [
+        "First adjustment: first calendar day of month after initial disbursement; may be delayed (e.g., 5 years)",
+        "Subsequent adjustments no more frequently than monthly; frequency changes need Borrower consent",
+        "Ceiling/floor allowed only if both are in the Note and the floor gap is at least the ceiling gap",
+        "Note rate 10%, ceiling 12% means floor must be 8% or lower",
+        "Fixed/variable combinations make the entire loan a variable rate loan"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 18, General Policy on Interest Rates, Paras. 3-4"
+    },
+    {
+      "id": "changes-accrual-amortization",
+      "title": "Post-approval rate changes, accrual methods, and amortization",
+      "body": "#### Changing the rate after approval\n\n| Timing | What can change | Conditions |\n|---|---|---|\n| **After approval, before first disbursement** | Initial Note rate, base rate or Alternative Base Rate, spread, or switching fixed to variable or variable to fixed | New rate may not exceed the **maximum allowable rate at the time of loan application**; Borrower's **written consent, separate and apart from executing the loan documents**; Lender notifies the **LGPC** or makes the change through **E-Tran Servicing** (or successor SBA Loan System) |\n| **After disbursement (variable rate loans)** | Base rate, Alternative Base Rate, or spread | Change must be based on a method permitted when the loan was approved and consistent with rate regulations at approval; Borrower's **written agreement**; Lender notifies the **CLSC** or uses **E-Tran Servicing**. See SOP 50 57. |\n\n**Example from the SOP:** a loan was approved with a variable rate and Prime has since changed. The Borrower asks to switch to fixed. If the loan has not been disbursed and the chosen fixed rate does not exceed the maximum allowable fixed rate at the time of application, the Lender may make the change.\n\n#### Accrual method\n\n- SBA does **not** require a specific accrual method **unless the loan is sold on the Secondary Market**.\n- Loans sold on the Secondary Market must use **30/360** or **Actual/365**.\n- **365/360** is permitted on loans not sold, but Lenders **cannot use 365/360 and charge the maximum allowable rate**, because the effective Annual Percentage Rate would exceed SBA's regulatory maximum.\n\n> **Watch out:** 365/360 charges 365 days of interest on a 360-day year, so the effective rate is slightly higher than the stated rate. At the maximum rate, that pushes the loan over the cap.\n\n#### Amortization (13 CFR 120.214(e))\n\n- Use an amortization schedule appropriate for the type of loan.\n- **SBA does not allow balloon payments.**\n- A **fixed rate** loan must use a payment that **fully amortizes the loan by maturity**.\n- **Variable rate** loans are typically re-amortized at each rate adjustment to ensure full amortization.\n- The schedule may also be adjusted to meet the **cash flow needs of the business**.",
+      "keyPoints": [
+        "Pre-disbursement changes: rate may not exceed max at application; separate written Borrower consent; notify LGPC or use E-Tran Servicing",
+        "Post-disbursement variable changes: method permitted at approval; Borrower written agreement; notify CLSC or use E-Tran Servicing",
+        "Secondary Market loans must accrue on 30/360 or Actual/365",
+        "365/360 cannot be combined with the maximum allowable rate",
+        "No balloon payments; fixed rate loans must fully amortize by maturity"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 18, General Policy on Interest Rates, Para. 3, Post-Approval Changes, Accrual Method, Amortization"
+    },
+    {
+      "id": "interest-rate-swaps",
+      "title": "Interest rate swap contracts",
+      "body": "An **interest rate swap** is a contract where one party pays a fee in exchange for the other party agreeing to pay any interest above an established amount. It relates **only to the payment of interest** and may last for all or part of the loan term.\n\n**SOP example:** a Borrower has a Prime + 2% variable 7(a) loan and buys a swap that sets its rate at 8%. When the Note rate is below 8%, the swap seller keeps the difference as compensation for the risk. When the Note rate is above 8%, the Borrower still pays 8% and the swap seller pays the excess to the Lender. The Borrower's benefit is a stable monthly payment.\n\n#### Conditions for using a swap with a 7(a) loan\n\n1. The contract is between the Borrower and the Lender or, if the swap seller is not the Lender, a third party. **SBA is not a party.**\n2. The swap **does not affect what the Borrower owes SBA** if SBA purchases the guaranty. After default, interest is calculated using the **base rate (or Alternative Base Rate) and spread in the Note**, not the swap.\n3. **SBA is not responsible if the swap seller defaults.** The Borrower remains liable for interest as required in the Note.\n4. Loans with swaps **may be sold on the Secondary Market**. The Lender must still forward principal and interest under the original loan terms per **SBA Form 1086**, and must work with the swap seller so funds are available for the fiscal and transfer agent on schedule.\n5. The full principal and interest required under the Note must be reported on **SBA Form 1502**.\n6. SBA **will not review** swap contracts or provide guidance on their use, and will not publish guidelines on their cost.\n7. The Borrower must **sign a statement** acknowledging that interest will be calculated at the Note rate if the swap is terminated.\n8. The swap contract must include this statement: \"The Small Business Administration is not a party to this contract and does not guarantee it. In the event SBA is called upon to honor its guaranty to the Lender, the Borrower's debt will be determined by the terms of the Note, including the variable interest rate provision.\"\n9. Swaps may be used on **new or existing loans**.\n10. The swap **does not have to last for the entire loan term**.\n11. SBA has **no standard form** for a swap contract.\n12. Any fees owed the swap counterparty due to Borrower default are **subordinated to the SBA 7(a) loan**.\n\n> **In practice:** From SBA's perspective the loan is always the variable rate Note. The swap is a side arrangement that cannot change reporting, Secondary Market remittances, or SBA's recovery.",
+      "keyPoints": [
+        "SBA is not a party to and does not guarantee swap contracts",
+        "After default, interest is calculated from the Note, not the swap",
+        "Borrower must sign a statement that the Note rate applies if the swap terminates",
+        "Required SBA disclaimer language must appear in the swap contract",
+        "Swap counterparty fees from Borrower default are subordinated to the 7(a) loan",
+        "Report full Note principal and interest on SBA Form 1502; Form 1086 remittances unchanged"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 18, General Policy on Interest Rates, Para. 5, Interest Rate Swap Contracts"
+    },
+    {
+      "id": "program-specific-rates",
+      "title": "Program-specific interest rate rules",
+      "body": "Most 7(a) programs follow the General Requirements exactly: **Standard 7(a), 7(a) Small, MARC, all CAPLine variants, and International Trade loans**. 7(a) Small loans are explicitly reminded that **default rates are not permitted**. Three programs differ.\n\n#### SBA Express\n\n- **Default interest rates are allowed.** A default rate is an increase in the rate upon a default event. It must be **appropriate and commercially reasonable**, consistent with the Lender's similar non-SBA loans.\n- For **variable rate** Express loans, the Lender **need not use the SBA base rates** in 13 CFR 120.214(c). It may use the same base rate it uses on similarly sized non-SBA commercial loans, with its established change intervals and payment accruals.\n- The rate throughout the term **may not exceed the maximum allowable 7(a) rate**.\n- **Only term loans may be sold** on the Secondary Market, and only if the base rate is one allowed in 13 CFR 120.214(c).\n\n#### Export Express\n\n- For variable rates, the Lender may use its own base rate for similarly sized non-SBA commercial loans, with its change intervals and accruals, but the rate may not exceed the **maximum allowable Export Express rate**. Secondary Market sale is allowed only if the base rate is one allowed in 13 CFR 120.214(c).\n- **Default rates** (an increase for failing to meet loan agreement conditions) are allowed if the Lender charges them on similarly sized non-SBA commercial loans and the rate stays within the Export Express maximum.\n- After default, the interest SBA will pay the Lender is **capped at the Standard 7(a) maximum rates**.\n\n#### Export Working Capital Program (EWCP)\n\n- **SBA does not prescribe EWCP interest rates** but monitors them for reasonableness (13 CFR 120.344(c)).\n- Rates may be fixed or variable and are negotiated with the Applicant.\n- The base rate may be **daily SOFR + 3%**, **Prime**, or **SBA's Optional Peg Rate**.\n- The Note spread may not change without the Borrower's written agreement.\n- After approval and **before final disbursement**, notify the **LGPC** of rate-related Note changes or use E-Tran Servicing; **after final disbursement**, notify the **CLSC** (by email to FSC.Servicing@sba.gov) or use E-Tran Servicing.\n- SBA's maximum applies **only to the initial Note rate**; later base rate changes are not subject to the maximum at application, but the spread cannot exceed SBA's stated maximum.\n- SBA does **not** require a specific accrual method for EWCP.\n\n| Program | Default rate allowed? | Lender's own base rate? |\n|---|---|---|\n| Standard, Small, MARC, CAPLines, IT | No | No |\n| SBA Express | Yes, commercially reasonable | Yes (Secondary Market only with allowed base rate, term loans only) |\n| Export Express | Yes, if used on similar non-SBA loans | Yes (Secondary Market only with allowed base rate) |",
+      "keyPoints": [
+        "Standard, Small, MARC, CAPLines and IT follow the general rules; no default rates",
+        "SBA Express: commercially reasonable default rates allowed; own base rate allowed within 7(a) max",
+        "Only SBA Express term loans with an allowed base rate may be sold on the Secondary Market",
+        "Export Express: SBA's post-default interest payment capped at Standard 7(a) maximum rates",
+        "EWCP: SBA does not prescribe rates; base may be daily SOFR + 3%, Prime or Optional Peg",
+        "EWCP: no required accrual method"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 18, Program-Specific Requirements"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Base Rate",
+      "definition": "Prime Rate or SBA Optional Peg Rate; added to a spread to set a variable 7(a) rate."
+    },
+    {
+      "term": "Alternative Base Rate",
+      "definition": "SOFR, 5-year Treasury or 10-year Treasury; the all-in rate is capped at Prime plus the tiered spread."
+    },
+    {
+      "term": "SBA Optional Peg Rate",
+      "definition": "Weighted average of rates the Federal government pays on loans with maturities similar to the average 7(a) loan; published quarterly in the Federal Register."
+    },
+    {
+      "term": "SOFR",
+      "definition": "Secured Overnight Funding Rate, reported by the Federal Reserve Bank of New York; in-house SOFR references of 30 days or less are acceptable."
+    },
+    {
+      "term": "Spread",
+      "definition": "The percentage added to the base rate; same spread at every adjustment and cannot change without the Borrower's written agreement."
+    },
+    {
+      "term": "Maximum allowable fixed rate",
+      "definition": "Prime on the first business day of the month plus the allowed spread from the Federal Register Notice; only for rates fixed for the entire term."
+    },
+    {
+      "term": "Default interest rate",
+      "definition": "An increase in rate upon default; prohibited except for SBA Express and Export Express."
+    },
+    {
+      "term": "Ceiling and floor",
+      "definition": "Rate limits allowed only if both are in the Note and the floor is at least as far from the Note rate as the ceiling."
+    },
+    {
+      "term": "Accrual method",
+      "definition": "How interest is computed; Secondary Market loans must use 30/360 or Actual/365."
+    },
+    {
+      "term": "Interest rate swap",
+      "definition": "A contract that fixes the Borrower's effective interest cost; SBA is not a party and it does not change what is owed under the Note."
+    },
+    {
+      "term": "SBA Form 1086 / Form 1502",
+      "definition": "Form 1086 is the Secondary Market agreement governing remittances; Form 1502 is where the Lender reports the principal and interest due under the Note."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "a18-q1",
+      "question": "What is the maximum allowable rate on a $300,000 7(a) variable rate loan priced off Prime?",
+      "options": [
+        "Prime + 6.5%",
+        "Prime + 6%",
+        "Prime + 3%",
+        "Prime + 4.5%"
+      ],
+      "correctIndex": 3,
+      "explanation": "Loans of $250,001 up to and including $350,000 are capped at base rate + 4.5%. Prime + 6% applies to $50,001-$250,000, and Prime + 3% to loans of $350,001 and higher.",
+      "sopRef": "SOP 50 10 8.1, Appendix 18, General Policy on Interest Rates, Para. 2.c",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a18-q2",
+      "question": "Which of the following is NOT an acceptable Base Rate or Alternative Base Rate for a Standard 7(a) variable rate loan?",
+      "options": [
+        "The Lender's own internal base rate",
+        "The SBA Optional Peg Rate",
+        "SOFR",
+        "The 10-year Treasury Note Rate"
+      ],
+      "correctIndex": 0,
+      "explanation": "The acceptable Base Rates are Prime and the SBA Optional Peg Rate; Alternative Base Rates are SOFR, 5-year and 10-year Treasury. Only SBA Express and Export Express may use the Lender's own base rate.",
+      "sopRef": "SOP 50 10 8.1, Appendix 18, General Policy on Interest Rates, Para. 2",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a18-q3",
+      "question": "A Lender proposes a $750,000 Standard 7(a) loan with a rate fixed for 5 years and then adjusting quarterly. Which maximum applies?",
+      "options": [
+        "The maximum allowable fixed rate, because the first 5 years are fixed",
+        "The maximum fixed rate for the first 5 years and the variable maximum after",
+        "The variable rate maximum, because the rate does not stay fixed for the entire term",
+        "No maximum applies to the first 5 years"
+      ],
+      "correctIndex": 2,
+      "explanation": "The maximum allowable fixed rate may only be used if it stays in effect for the entire term without adjustment or reset; otherwise variable rate maximums apply. Delaying the first adjustment is allowed, but the loan is still a variable rate loan.",
+      "sopRef": "SOP 50 10 8.1, Appendix 18, General Policy on Interest Rates, Para. 1.b",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a18-q4",
+      "question": "A Note rate is 9% and the ceiling is 11%. What floor is permissible?",
+      "options": [
+        "8%",
+        "7% or lower",
+        "Any floor, as long as it is stated in the Note",
+        "8.5%"
+      ],
+      "correctIndex": 1,
+      "explanation": "The gap between the Note rate and the floor must be equal to or greater than the gap between the Note rate and the ceiling. With a 2-point ceiling gap, the floor must be 7% or lower. 8% or 8.5% would give the Lender more downside protection than the Borrower gets upside protection.",
+      "sopRef": "SOP 50 10 8.1, Appendix 18, General Policy on Interest Rates, Para. 3, Interest Rate Ceilings and Floors",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a18-q5",
+      "question": "A Standard 7(a) Borrower misses three payments. The Lender's loan agreement says the rate rises 2% upon default. Is this permitted?",
+      "options": [
+        "No; default interest rates are not permitted on Standard 7(a) loans",
+        "Yes, if it is commercially reasonable",
+        "Yes, if it stays within the maximum allowable rate",
+        "Yes, but only after SBA purchases the guaranty"
+      ],
+      "correctIndex": 0,
+      "explanation": "Under the General Requirements, default interest rates are not permitted. Commercially reasonable default rates are allowed only on SBA Express (and, with conditions, Export Express) loans.",
+      "sopRef": "SOP 50 10 8.1, Appendix 18, General Policy on Interest Rates, Para. 1.d",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a18-q6",
+      "question": "A Lender plans to sell the guaranteed portion of a loan on the Secondary Market. Which accrual method may it use?",
+      "options": [
+        "365/360 only",
+        "Any method the Lender chooses",
+        "30/360 or Actual/365",
+        "Actual/360"
+      ],
+      "correctIndex": 2,
+      "explanation": "Loans sold on the Secondary Market must use 30/360 or Actual/365. 365/360 is permitted only on loans not sold, and even then not at the maximum rate because the APR would exceed SBA's maximum.",
+      "sopRef": "SOP 50 10 8.1, Appendix 18, General Policy on Interest Rates, Para. 3, Accrual Method",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a18-q7",
+      "question": "After approval but before first disbursement, a Borrower asks to switch a variable rate loan to a fixed rate. What must happen?",
+      "options": [
+        "The change is not allowed once the loan is approved",
+        "The new rate must not exceed the maximum at the time of application, the Borrower must consent in writing separately from the loan documents, and the Lender must notify the LGPC or use E-Tran Servicing",
+        "The Lender must notify the CLSC and obtain SBA's prior written approval",
+        "The Lender must submit a new application for guaranty"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pre-disbursement, the Lender may switch fixed/variable if the new rate does not exceed the maximum at application, with the Borrower's separate written consent, notifying the LGPC or using E-Tran Servicing. The CLSC route applies to post-disbursement changes.",
+      "sopRef": "SOP 50 10 8.1, Appendix 18, General Policy on Interest Rates, Para. 3, Post-Approval Changes",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a18-q8",
+      "question": "A Lender structures a loan with a fixed rate on the guaranteed portion and a variable rate on the unguaranteed portion. How does SBA treat the loan?",
+      "options": [
+        "As a fixed rate loan",
+        "As two separate loans",
+        "As not permitted",
+        "As a variable rate loan, with both portions based on the variable rate"
+      ],
+      "correctIndex": 3,
+      "explanation": "SBA allows fixed/variable combinations if neither rate exceeds the maximum, but the entire loan is considered a variable rate loan and both portions must be based on the variable rate.",
+      "sopRef": "SOP 50 10 8.1, Appendix 18, General Policy on Interest Rates, Para. 4",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a18-q9",
+      "question": "A 7(a) Borrower with a variable rate loan buys an interest rate swap from a third party, then defaults and SBA purchases the guaranty. How is the interest owed to SBA calculated?",
+      "options": [
+        "Using the swap's fixed rate",
+        "Using the higher of the swap rate and the Note rate",
+        "Using the base rate or Alternative Base Rate and spread in the variable rate Note",
+        "Using the maximum allowable fixed rate at default"
+      ],
+      "correctIndex": 2,
+      "explanation": "The swap does not affect the amount owed to SBA. After default, interest is calculated using the base rate or Alternative Base Rate and spread in the Note, not the swap contract.",
+      "sopRef": "SOP 50 10 8.1, Appendix 18, General Policy on Interest Rates, Para. 5, Interest Rate Swap Contracts",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a18-q10",
+      "question": "How often may subsequent rate adjustments occur on a variable rate 7(a) loan?",
+      "options": [
+        "No more frequently than monthly",
+        "No more frequently than quarterly",
+        "Daily, if SOFR is used",
+        "Only annually"
+      ],
+      "correctIndex": 0,
+      "explanation": "Subsequent adjustments may occur no more frequently than monthly. Many lenders choose the calendar quarter, especially for Secondary Market sales, but quarterly is not the SBA limit.",
+      "sopRef": "SOP 50 10 8.1, Appendix 18, General Policy on Interest Rates, Para. 3, Frequency of Interest Rate Adjustment",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a18-q11",
+      "question": "An SBA Express Lender wants to price a revolving line using its own commercial base rate and later sell it on the Secondary Market. What does Appendix 18 say?",
+      "options": [
+        "Allowed, as long as the rate never exceeds the 7(a) maximum",
+        "Allowed only for lines of credit, not term loans",
+        "Allowed if SBA approves the base rate",
+        "The own base rate is allowed within the 7(a) maximum, but only term loans using an allowed base rate may be sold"
+      ],
+      "correctIndex": 3,
+      "explanation": "Express Lenders may use their own base rate within the maximum 7(a) rate, but only term loans may be sold on the Secondary Market, and only if the base rate is one allowed in 13 CFR 120.214(c). A revolving line priced off an in-house base rate cannot be sold.",
+      "sopRef": "SOP 50 10 8.1, Appendix 18, Program-Specific Requirements, SBA Express Loans",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a18-q12",
+      "question": "Which statement about EWCP interest rates is correct?",
+      "options": [
+        "SBA prescribes a maximum of Prime + 3% for all EWCP loans",
+        "SBA does not prescribe EWCP rates but monitors them for reasonableness; the base rate may be daily SOFR + 3%, Prime, or the Optional Peg Rate",
+        "EWCP loans must use 30/360 accrual",
+        "EWCP loans may only use a fixed rate"
+      ],
+      "correctIndex": 1,
+      "explanation": "Per 13 CFR 120.344(c), SBA does not prescribe EWCP rates but monitors them, and the base rate may be daily SOFR + 3%, Prime or Optional Peg. SBA does not require a specific accrual method for EWCP, and rates may be fixed or variable.",
+      "sopRef": "SOP 50 10 8.1, Appendix 18, Program-Specific Requirements, EWCP Loans",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a18-q13",
+      "question": "A Lender pulls the Prime rate for a loan approved in a month where the 1st falls on a Sunday. Which Prime rate sets the rate?",
+      "options": [
+        "The rate in effect on Friday, the last business day before the 1st",
+        "The rate published in the Wall Street Journal on Monday",
+        "The rate in effect on Monday, the first business day, which appears in print on Tuesday",
+        "The average Prime for the prior month"
+      ],
+      "correctIndex": 2,
+      "explanation": "The base rate is the one in effect on the first business day of the month (Monday). It is reported in the newspaper on the second business day (Tuesday). Friday's rate and a publication-date rule are distractors; what matters is the rate in effect on the first business day.",
+      "sopRef": "SOP 50 10 8.1, Appendix 18, General Policy on Interest Rates, Para. 3, Frequency of Interest Rate Adjustment",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a18-q14",
+      "question": "An Export Express loan defaults and the Lender had been charging a default rate permitted under its policies. What interest will SBA pay the Lender after default?",
+      "options": [
+        "Interest capped at the Standard 7(a) maximum rates",
+        "The full default rate",
+        "No interest",
+        "The Note rate before the default rate took effect, with no cap"
+      ],
+      "correctIndex": 0,
+      "explanation": "For Export Express, the amount of interest SBA will pay a Lender following default is capped at the maximum interest rates for the Standard 7(a) loan program, even if a default rate was allowed.",
+      "sopRef": "SOP 50 10 8.1, Appendix 18, Program-Specific Requirements, Export Express Loans",
+      "difficulty": "scenario"
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "id": "a1-eligibility-part-1",
+  "order": 110,
+  "part": "A",
+  "program": "core",
+  "title": "Eligibility Part 1: The Applicant, size and affiliation",
+  "subtitle": "The basic tests every 7(a) and 504 Applicant must pass: operating, for-profit, U.S.-based, and small including affiliates",
+  "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Introduction and Paras. A-D",
+  "estimatedMinutes": 40,
+  "learningObjectives": [
+    "Explain why eligibility is determined early and must hold through closing and disbursement",
+    "Apply the Operating Business, for-profit, and U.S. location requirements, including for-profit subsidiaries of non-profits",
+    "Test size under the Industry Size Standard and the Alternative Size Standard, including the labor surplus area increase",
+    "Identify the date as of which size is measured for delegated and non-delegated loans",
+    "Determine affiliation using the ownership-based tests, family combination, and pro rata ownership",
+    "Recognize when options, convertibles and merger agreements are given present effect"
+  ],
+  "topics": [
+    {
+      "id": "eligibility-framework",
+      "title": "Why eligibility comes first",
+      "body": "Every SBA loan starts with one question: **is this Applicant eligible at all?** The SOP calls the eligibility determination \"a required and critical step\" and says the lender should complete and document it **as early as practicable**. Underwriting a loan you cannot make wastes everyone's time, and an ineligible loan that slips through can cost a 7(a) lender its guaranty or expose a CDC to a recovery claim.\n\n### Eligibility is a continuing condition\n\nThe Applicant must meet all core requirements **at the time of application and throughout loan closing and disbursement**. A business that was eligible on day one but becomes ineligible before closing (for example, by adding an ineligible owner) is a problem. Size is the main exception: it is measured as of a fixed date (see the size topic).\n\n### Where the rules live\n\n- 13 CFR **120.100** sets the eligibility requirements for all SBA business loan Applicants.\n- 13 CFR **120.110** lists ineligible business types.\n- The Applicant **and the project** must meet all **Loan Program Requirements** (statutes, regulations, SBA agreements, SOPs, Federal Register notices, official SBA notices and forms, and the SBA Terms and Conditions; for CDCs also Debenture requirements).\n\nThe core tests in 13 CFR 120.100 are that the Applicant must be:\n\n| Test | Short version |\n|---|---|\n| Operating Business | Actively operating, unless an Eligible Passive Company |\n| Organized for profit | No non-profits; for-profit subsidiaries may qualify |\n| Located in the U.S. | Including territories and possessions |\n| Small | Under SBA size standards, including affiliates |\n\nOn top of these, the Applicant must not be an ineligible business type, must meet citizenship and residency rules, must pass franchise checks if applicable, must show credit is not available elsewhere, and must clear CIP and OFAC screening.\n\n### ECOA: why lenders can ask about spouses\n\nSBA lending programs qualify as **\"Special-Purpose Credit Programs\"** under the Equal Credit Opportunity Act (ECOA). That means a lender may obtain and consider information about an Applicant's:\n\n- marital status;\n- sources of personal income;\n- alimony and child support; and\n- spouse's financial resources\n\nwhen determining program eligibility. It also means the SBA Lender has the right to obtain the **signature of an Applicant's spouse** (whether or not the spouse is an owner) or of another Person if it is required by Federal or State law, to obtain a valid lien on collateral, or for other reasons to protect SBA's and the lender's interests.\n\n> **In practice:** In a conventional loan, asking about a spouse can raise ECOA concerns. In an SBA loan it is expressly permitted, which is why SBA intake forms can collect spousal information.",
+      "keyPoints": [
+        "Eligibility must be determined and documented as early as practicable",
+        "Core requirements must be met at application AND throughout closing and disbursement",
+        "Eligibility rules for all SBA business loan Applicants are in 13 CFR 120.100",
+        "SBA programs are ECOA \"Special-Purpose Credit Programs\": marital status, alimony, child support and spouse finances may be considered",
+        "Lender may require a spouse's (or other Person's) signature when required by law, to get a valid lien, or to protect SBA and the lender"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Introduction"
+    },
+    {
+      "id": "operating-for-profit",
+      "title": "Operating Business and organized for profit",
+      "body": "### Operating Business (13 CFR 120.100(a))\n\nThe Applicant must be an **Operating Business**: a business that actually conducts operations. The one exception is an **Eligible Passive Company (EPC)**, a special structure (covered elsewhere in the SOP) where a passive real-estate-holding entity can borrow on behalf of an operating company that uses the property.\n\n### Organized for profit (13 CFR 120.100(b))\n\nAll Applicants must be **organized for profit**. Non-profit businesses are not eligible for SBA business loan assistance.\n\nTo confirm for-profit status, the lender may review organizational documents such as:\n\n1. Articles of Incorporation or Organization (filed with the Secretary of State or similar office in the state of organization);\n2. Corporate bylaws and amendments;\n3. Partnership Agreements;\n4. Association Bylaws; and\n5. Tax Returns.\n\n### For-profit subsidiaries of non-profits\n\n13 CFR 120.110(a) allows a **for-profit subsidiary of a non-profit** to be eligible if all other eligibility requirements are met, subject to three conditions:\n\n| Condition | Rule |\n|---|---|\n| **Size** | Include the non-profit affiliate's receipts or employees (as applicable) when sizing the for-profit entity. Exception: a concern owned and controlled by a **Native Hawaiian Organization (NHO)** is sized independently of its parent NHO and of other NHO-owned concerns (13 CFR 121.103(b)(2)). |\n| **Use of proceeds** | Loan proceeds must be used **exclusively** for the benefit of the for-profit business. |\n| **Guaranty** | If the non-profit owns **20% or more** of the for-profit business but cannot or will not guarantee the loan, the for-profit business is **not eligible**. |\n\n> **Watch out:** The non-profit parent is counted for size even though non-profits themselves cannot borrow. A small for-profit subsidiary of a very large non-profit health system may fail the size test once the parent's receipts or employees are added.",
+      "keyPoints": [
+        "Applicant must be an Operating Business, except Eligible Passive Companies (EPCs) - 13 CFR 120.100(a)",
+        "Non-profits are ineligible; for-profit subsidiaries of non-profits may be eligible - 13 CFR 120.100(b), 120.110(a)",
+        "Count the non-profit affiliate's receipts or employees in size (NHO-owned concerns are the exception)",
+        "Proceeds must benefit only the for-profit business",
+        "Non-profit owning 20% or more must guarantee, or the for-profit is ineligible"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. A-B"
+    },
+    {
+      "id": "located-in-us",
+      "title": "Located in the United States and trade restrictions",
+      "body": "13 CFR 120.100(c) requires the Applicant to be **located in the United States**, including its territories and possessions. The SOP spells out what that means in practice. The Applicant must:\n\n- be **created, organized, or incorporated** in the U.S., its territories, or possessions;\n- be **located and primarily operate** in the U.S. (including territories and possessions);\n- be **authorized to conduct business** in the state, territory, or possession where it seeks SBA financial assistance;\n- **pay taxes** to the United States, unless exempt (as with certain businesses in Puerto Rico and elsewhere); and\n- **to the extent practicable**, purchase only **American-made** equipment and products with the SBA loan proceeds.\n\n### Businesses that operate internationally\n\nA U.S. business with international operations can still be eligible, but the loan proceeds must be used **exclusively for the benefit of the U.S.-based Borrower**. As the SOP notes, the result is that the business and its employees are subject to U.S. and local taxes.\n\n### Trade restrictions\n\nBusinesses involved in international trade are subject to U.S. trade restrictions. A 7(a) or 504 loan **may not be made** to a business that:\n\n- **directly or indirectly exports** to a foreign country listed as prohibited (Note #7 on the EXIM Bank Country Limitation Schedule); or\n- is part of a transaction that would be prohibited under any of the sanctions programs administered by **OFAC** (Treasury's Office of Foreign Assets Control).\n\nSeparately, 13 CFR 120.110(e) makes businesses **located in a foreign country** ineligible, and the citizenship and residency rules add restrictions on who may own the Applicant.\n\n> **Watch out:** \"Indirectly\" matters. A U.S. manufacturer selling through a distributor whose goods end up in a Note 7 country can fail this test even if it never ships abroad itself.",
+      "keyPoints": [
+        "Applicant must be located in the U.S., its territories or possessions - 13 CFR 120.100(c)",
+        "Must be organized in, primarily operate in, be authorized to do business in, and pay taxes to the U.S. (unless exempt)",
+        "To the extent practicable, buy only American-made equipment and products with proceeds",
+        "International operators: proceeds only for the U.S.-based Borrower",
+        "No loans to businesses exporting (directly or indirectly) to EXIM Note 7 prohibited countries or transactions prohibited by OFAC sanctions"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. C"
+    },
+    {
+      "id": "size-standards",
+      "title": "Size standards: Industry and Alternative",
+      "body": "The Applicant must qualify as **small** under 13 CFR 120.100(d) and SBA's size regulations in 13 CFR Part 121, **including affiliates**. There are two ways to qualify, and the Applicant only needs to pass one.\n\n### Option 1: Industry Size Standard\n\nSBA publishes a size standard for each industry (usually expressed as annual receipts or number of employees) in the table at **13 CFR 121.201**. Two tests apply:\n\n1. **Applicant alone** (without affiliates) must not exceed the size standard for the industry in which it is primarily engaged.\n2. **Applicant plus affiliates** must not exceed the size standard for **either** the primary industry of the Applicant alone **or** the primary industry of the Applicant and its affiliates combined, **whichever is higher**. Primary industry is defined in 13 CFR 121.107.\n\nSBA calculates annual receipts for the Applicant and its affiliates based on **Federal tax returns** (13 CFR 121.104).\n\n### Option 2: Alternative Size Standard (13 CFR 121.301)\n\nThe Applicant, **including affiliates**, must meet both:\n\n| Test | Limit |\n|---|---|\n| Maximum tangible net worth | Not more than **$20 million** |\n| Average net income after Federal income taxes (excluding carry-over losses) for the **2 full fiscal years** before application | Not more than **$6.5 million** |\n\nThe Alternative Size Standard is useful for businesses whose receipts or headcount exceed their industry standard but whose balance sheet and earnings are modest.\n\n### Labor surplus area bonus\n\nThe applicable size standards are **increased by 25 percent** when the Applicant agrees to use **all** of the financial assistance within a **labor surplus area** (as designated by the Department of Labor). See 13 CFR 121.301(e).\n\n### Worked example\n\nA restaurant's own receipts are under its industry standard, but with an affiliated catering company the combined receipts exceed both industries' standards. It fails the industry test. It can still qualify if the combined group's tangible net worth is $20 million or less and its two-year average after-tax net income is $6.5 million or less.\n\n> **Watch out:** The Alternative Size Standard figures include affiliates too. You cannot escape affiliation by switching methods.",
+      "keyPoints": [
+        "Applicant may qualify under EITHER the Industry Size Standard OR the Alternative Size Standard",
+        "Industry: Applicant alone must fit its primary industry standard; with affiliates must fit the higher of the Applicant's or the combined group's primary industry standard",
+        "Receipts are calculated from Federal tax returns (13 CFR 121.104); table at 13 CFR 121.201",
+        "Alternative (13 CFR 121.301): tangible net worth not over $20 million AND average net income after Federal taxes (2 full fiscal years) not over $6.5 million",
+        "Size standards increase 25% if all assistance is used in a labor surplus area"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. D"
+    },
+    {
+      "id": "size-timing-determinations",
+      "title": "When size is measured and formal size determinations",
+      "body": "### When size is measured (13 CFR 121.302)\n\n| Situation | Size is measured as of |\n|---|---|\n| Non-delegated processing | The date the application is **accepted for SBA processing** |\n| Delegated processing (**PLP, SBA Express, Export Express, PLP-EWCP, and PCLP CDC**) | The date the **SBA Lender approves** the loan |\n\nEither way, **subsequent increases in size will not affect eligibility**. A business that grows past its size standard after the measurement date stays eligible.\n\nFor 7(a) and 504 loans involving a **business acquisition or change of ownership**, the **combined size** of the Applicant and the acquired business must meet the applicable size standards.\n\n### Certification and reliance (13 CFR 121.303)\n\nBy signing the application, the Applicant **certifies** that it is small under the applicable size standard. SBA or the lender may request additional information about size based on the application or any other source. SBA, or a lender processing under delegated authority, **may accept the Applicant's size information as true, unless credible evidence to the contrary is apparent**.\n\n### Formal size determinations\n\n- **Before denying eligibility based on size**, a formal size determination may be requested by the Applicant or by the SBA official with authority to take final action on the assistance (13 CFR 121.1001(b)(1)).\n- The SBA official may also request a determination of whether **affiliation** exists, to decide whether the Applicant together with its affiliates would exceed the **maximum loan amount and maximum guaranty amount** in 13 CFR 120.151.\n- Requests go to the **Government Contracting Area Director** serving the area where the **Applicant's headquarters** is located, regardless of where any parent company or affiliates are located.\n\n> **In practice:** For a delegated lender, the approval date is the snapshot that matters. A loan-origination system should record the data and date used for the size test so the lender can show the business was small on that day.\n\n> **Watch out:** Reliance on the Applicant's certification ends when credible contrary evidence is apparent. If a tax return or credit report suggests large affiliates, the lender cannot simply accept the certification.",
+      "keyPoints": [
+        "Size is determined as of the date the application is accepted for SBA processing; later growth does not matter",
+        "Delegated processing (PLP, SBA Express, Export Express, PLP-EWCP, PCLP CDC): size measured as of the lender's approval date",
+        "Business acquisitions/changes of ownership: combined size of Applicant and acquired business must fit",
+        "Signing the application is a size certification; lenders may accept it unless credible contrary evidence is apparent",
+        "Size/affiliation determination requests go to the Government Contracting Area Director for the Applicant's headquarters area"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. D"
+    },
+    {
+      "id": "affiliation-ownership",
+      "title": "Affiliation based on ownership",
+      "body": "The Small Business Act defines a small business as one that is **independently owned and operated** and **not dominant in its field**. SBA therefore counts certain other entities, called **Affiliates**, owned by the Applicant or by an owner of the Applicant when measuring the Applicant's size.\n\n### The 2023 change: control no longer creates affiliation\n\nOn April 10, 2023, SBA published the Final Rule on Affiliation and Lending Criteria (88 FR 21074, effective May 11, 2023). It **removed the principle of control**, both affirmative and negative, as a basis for affiliation in the business loan programs. Affiliation is now based on **ownership**.\n\nThere is one carry-over: **franchise, license, or similar agreements (e.g., management agreements)** must still be reviewed to see whether they give someone other than the Applicant **sole discretion** to manage the business (employees, finances, bank accounts) with no involvement by the owners. That would make the Applicant an **ineligible passive business**. The exception is management agreements that are part of the franchise disclosure documents for a brand listed on SBA's Franchise Directory.\n\n### The five ownership tests\n\n| # | Relationship | Affiliated? |\n|---|---|---|\n| 1 | Applicant owns **more than 50%** of another business | Yes - Applicant and that business |\n| 2 | A business owns **more than 50%** of the Applicant | Yes - owner and Applicant. If that owner also owns more than 50% of another business in the **same 3-digit NAICS subsector**, all three are affiliated |\n| 3 | An **individual** owns more than 50% of the Applicant and more than 50% of another business in the same 3-digit NAICS subsector | Yes - Applicant and the other business |\n| 4 | No one owns more than 50%; a **business** owning **20% or more** of the Applicant operates in the same 3-digit NAICS subsector | Yes - Applicant and that owner |\n| 5 | No one owns more than 50%; a **20%-or-more owner** also owns more than 50% of another business in the same 3-digit NAICS subsector | Yes - Applicant and that other business |\n\nNAICS codes are listed at 13 CFR 121.201 and searchable at naics.com and the Census Bureau NAICS site.\n\n### Counting ownership\n\n- **Family:** Ownership interests of **spouses and minor children are combined**. They are not combined when spouses and minor children hold interests in **different** businesses.\n- **Pro rata through entities:** SBA counts indirect ownership. Example from the SOP: Jane Doe owns 15% of the Applicant directly and 100% of Jane Doe, Inc., which owns 50% of the Applicant. Jane Doe is treated as owning **65%**.\n\n> **Watch out:** The 3-digit NAICS subsector test only applies where the SOP says so. An individual who owns 60% of the Applicant and 60% of a business in an unrelated subsector does not create affiliation under test 3.",
+      "keyPoints": [
+        "April 10, 2023 Final Rule (88 FR 21074, effective May 11, 2023) removed control (affirmative and negative) as a basis for affiliation",
+        "Affiliation tests now turn on ownership: more than 50%, or 20% or more combined with the same 3-digit NAICS subsector",
+        "Combine spouses' and minor children's ownership interests",
+        "Ownership through entities is counted pro rata",
+        "Management/franchise agreements still need review for passive-business problems (except management agreements in FDDs of Directory brands)"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. D"
+    },
+    {
+      "id": "affiliation-options-and-counting",
+      "title": "Options, convertibles, mergers, and counting the group's size",
+      "body": "### Stock options, convertible securities, and agreements to merge\n\nSBA gives these instruments **present effect**: it treats them as though the rights have already been exercised. So if someone holds options that, once exercised, would give them more than 50% of the Applicant, affiliation is analyzed as if they already own that stake.\n\nThis includes **agreements in principle** to merge. But the SOP draws limits:\n\n- **Not agreements in principle:** agreements to open or continue negotiations toward a possible merger or sale of stock at some later date. These are **not** given present effect.\n- **Not given present effect:** options, convertible securities, and agreements subject to conditions precedent that are **incapable of fulfillment, speculative, conjectural, or unenforceable** under state or Federal law, or where the probability of the transaction occurring is shown to be **extremely remote**.\n- **Divestiture does not count:** SBA will not give present effect to anyone's **ability to divest** all or part of their ownership to avoid a finding of affiliation. You size the business as it is, not as it could be restructured.\n\n### Determining the concern's size\n\nWhen sizing the Applicant, SBA counts the **receipts, employees** (per 13 CFR 121.201), or the **alternative size standard** figures (if used) of:\n\n- the concern whose size is at issue; and\n- **all of its domestic and foreign affiliates**, regardless of whether the affiliates are organized for profit.\n\nFor **exceptions to affiliation**, the SOP points to **13 CFR 121.103(b)**. (One example covered earlier: a concern owned and controlled by a Native Hawaiian Organization is sized independently of its parent NHO.)\n\n### Putting it together\n\n| Step | Question |\n|---|---|\n| 1 | Who owns the Applicant, directly and indirectly (pro rata, family combined, options treated as exercised)? |\n| 2 | Which of the five ownership tests create affiliates? |\n| 3 | Do the Applicant alone and the Applicant plus all affiliates (domestic, foreign, non-profit) meet the Industry or Alternative Size Standard? |\n| 4 | Was this measured on the right date (application acceptance or delegated approval)? |\n\n> **Watch out:** A signed letter of intent to merge with a larger company can be an agreement in principle and push the Applicant over its size standard. A note that the parties \"will continue discussions\" is not.",
+      "keyPoints": [
+        "Stock options, convertible securities and agreements to merge (including agreements in principle) are treated as already exercised",
+        "Agreements merely to open or continue negotiations are not agreements in principle",
+        "Rights subject to impossible, speculative or unenforceable conditions, or extremely remote, are not given present effect",
+        "Ability to divest to avoid affiliation is not given present effect",
+        "Count receipts/employees (or alternative standard) of the concern and ALL domestic and foreign affiliates, for-profit or not"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. D"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Applicant",
+      "definition": "The business applying for the 7(a) or 504 loan."
+    },
+    {
+      "term": "Operating Business",
+      "definition": "A business that actively conducts operations; required of all Applicants except Eligible Passive Companies."
+    },
+    {
+      "term": "Eligible Passive Company (EPC)",
+      "definition": "A passive entity permitted to borrow under 13 CFR 120.111 as an exception to the Operating Business requirement."
+    },
+    {
+      "term": "Special-Purpose Credit Program",
+      "definition": "ECOA status of SBA lending programs that allows consideration of marital status, alimony, child support and spouse finances for eligibility."
+    },
+    {
+      "term": "Industry Size Standard",
+      "definition": "The receipts- or employee-based limit for the Applicant's primary industry in 13 CFR 121.201, applied to the Applicant alone and with affiliates."
+    },
+    {
+      "term": "Alternative Size Standard",
+      "definition": "Tangible net worth of $20 million or less and average after-tax net income of $6.5 million or less for the 2 full fiscal years before application, including affiliates (13 CFR 121.301)."
+    },
+    {
+      "term": "Labor surplus area",
+      "definition": "A Department of Labor-designated area; using all assistance there raises size standards by 25 percent."
+    },
+    {
+      "term": "Affiliate",
+      "definition": "An entity whose size is counted with the Applicant's because of ownership relationships set out in the SOP and 13 CFR 121.301."
+    },
+    {
+      "term": "3-digit NAICS subsector",
+      "definition": "The industry grouping used in several affiliation tests; same-subsector ownership links can create affiliation."
+    },
+    {
+      "term": "Present effect",
+      "definition": "Treating stock options, convertible securities and agreements to merge as though already exercised when analyzing affiliation."
+    },
+    {
+      "term": "Formal size determination",
+      "definition": "A ruling on size or affiliation requested from the Government Contracting Area Director for the Applicant's headquarters area."
+    },
+    {
+      "term": "OFAC",
+      "definition": "Treasury's Office of Foreign Assets Control, which administers sanctions programs and lists."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "a1p1-q1",
+      "question": "When must an Applicant meet the core eligibility requirements of Section A, Chapter 1?",
+      "options": [
+        "Only at the time of application",
+        "At application and throughout loan closing and disbursement",
+        "Only at the time of disbursement",
+        "At application and for the full life of the loan"
+      ],
+      "correctIndex": 1,
+      "explanation": "The SOP requires the core requirements to be met at application and throughout closing and disbursement. Size is measured at a fixed date, but the chapter as a whole is not a one-time test at application only.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Introduction",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a1p1-q2",
+      "question": "Because SBA programs are ECOA \"Special-Purpose Credit Programs\", which action is permitted for an SBA Lender?",
+      "options": [
+        "Obtaining the signature of an Applicant's non-owner spouse when needed to obtain a valid lien on collateral",
+        "Requiring the spouse of a non-owner guarantor to co-sign solely because of marital status",
+        "Declining an applicant because they receive alimony",
+        "Refusing to consider income from child support"
+      ],
+      "correctIndex": 0,
+      "explanation": "The SOP lets the lender obtain a spouse's (or other Person's) signature when required by law, to obtain a valid lien, or to protect SBA and lender interests. It does not authorize requiring signatures merely due to marital status.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Introduction",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a1p1-q3",
+      "question": "A hospital non-profit owns 40% of a for-profit physical therapy company applying for a 7(a) loan. The non-profit will not guarantee the loan. Is the Applicant eligible?",
+      "options": [
+        "Yes, because for-profit subsidiaries of non-profits are eligible",
+        "Yes, as long as proceeds benefit only the for-profit business",
+        "No, because a non-profit owning 20% or more must guarantee the loan",
+        "No, because any non-profit ownership makes a business ineligible"
+      ],
+      "correctIndex": 2,
+      "explanation": "For-profit subsidiaries can be eligible, but if the non-profit affiliate owns 20% or more and cannot or will not guarantee, the business is not eligible. Non-profit ownership alone does not disqualify a business.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. B",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a1p1-q4",
+      "question": "Under the Alternative Size Standard, which combination of limits applies to the Applicant including affiliates?",
+      "options": [
+        "Tangible net worth up to $15 million; average net income up to $5 million",
+        "Tangible net worth up to $20 million; average net income after Federal taxes up to $6.5 million for the 2 full fiscal years before application",
+        "Tangible net worth up to $20 million; average net income up to $6.5 million for the 3 most recent fiscal years",
+        "Annual receipts up to $20 million; net income up to $6.5 million"
+      ],
+      "correctIndex": 1,
+      "explanation": "The SOP states a maximum tangible net worth of $20 million and average after-tax net income (excluding carry-over losses) of $6.5 million for the 2 full fiscal years prior to application. The $15M/$5M figures are older limits, and the test is not receipts-based.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. D",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a1p1-q5",
+      "question": "A PLP lender receives an application on March 1 and approves it under delegated authority on April 15. The business's receipts grow past its size standard on May 1. As of when is size measured, and is the business still eligible?",
+      "options": [
+        "March 1; ineligible because it is now large",
+        "April 15; still eligible because later increases do not affect eligibility",
+        "May 1; ineligible",
+        "The disbursement date; eligibility depends on size then"
+      ],
+      "correctIndex": 1,
+      "explanation": "For delegated processing (including PLP), size is determined as of the lender's approval date, and subsequent increases in size do not affect eligibility. The application-acceptance date applies to non-delegated processing.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. D",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a1p1-q6",
+      "question": "An Applicant agrees to use all of its SBA loan proceeds in a Department of Labor-designated labor surplus area. How does this affect the size test?",
+      "options": [
+        "Size standards increase by 10 percent",
+        "The Applicant is exempt from affiliation rules",
+        "The Alternative Size Standard limits double",
+        "Size standards increase by 25 percent"
+      ],
+      "correctIndex": 3,
+      "explanation": "Under 13 CFR 121.301(e), size standards are increased by 25 percent when all of the financial assistance will be used within a labor surplus area. It does not waive affiliation.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. D",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a1p1-q7",
+      "question": "Maria owns 55% of an Applicant bakery (NAICS 311) and 70% of a commercial bread wholesaler (also NAICS 311). Her husband owns 100% of an unrelated software firm. Which businesses are affiliated with the Applicant?",
+      "options": [
+        "Only the software firm",
+        "Both the wholesaler and the software firm",
+        "Neither, since control no longer creates affiliation",
+        "Only the bread wholesaler"
+      ],
+      "correctIndex": 3,
+      "explanation": "An individual owning more than 50% of the Applicant and more than 50% of another business in the same 3-digit NAICS subsector creates affiliation. Spousal interests are not combined when spouses hold interests in different businesses, and the software firm is in a different subsector.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. D",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a1p1-q8",
+      "question": "Jane owns 15% of an Applicant directly and 100% of Jane Inc., which owns 50% of the Applicant. What percentage does SBA consider Jane to own?",
+      "options": [
+        "15%",
+        "50%",
+        "65%",
+        "100%"
+      ],
+      "correctIndex": 2,
+      "explanation": "SBA counts pro rata ownership through entities: 15% direct plus 100% of Jane Inc.'s 50% equals 65%. Counting only the direct stake understates her ownership.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. D",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a1p1-q9",
+      "question": "No one owns more than 50% of an Applicant HVAC contractor. A corporation in the same 3-digit NAICS subsector owns 25% of it. Are they affiliated?",
+      "options": [
+        "No, because the owner holds less than 50%",
+        "Yes, because a 20%-or-more business owner in the same 3-digit NAICS subsector is affiliated",
+        "No, because negative control was eliminated in 2023",
+        "Only if the corporation has a seat on the board"
+      ],
+      "correctIndex": 1,
+      "explanation": "When no owner holds more than 50%, a business owner of 20% or more operating in the same 3-digit NAICS subsector is affiliated with the Applicant. Board seats and control are no longer the test.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. D",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a1p1-q10",
+      "question": "Which of the following does SBA give present effect when analyzing affiliation?",
+      "options": [
+        "A signed agreement in principle to merge with another company",
+        "A letter agreeing to continue negotiations toward a possible future sale",
+        "An option whose exercise condition is unenforceable under state law",
+        "An owner's ability to sell down shares to avoid affiliation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Agreements to merge, including agreements in principle, are treated as exercised. Agreements merely to continue negotiations, rights subject to unenforceable conditions, and the ability to divest are not given present effect.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. D",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a1p1-q11",
+      "question": "Where must a request for a formal size or affiliation determination be sent?",
+      "options": [
+        "The Government Contracting Area Director serving the area of the Applicant's headquarters",
+        "The SBA district office where the loan will be disbursed",
+        "The Government Contracting Area Director serving the parent company's location",
+        "The SBA Office of Hearings and Appeals"
+      ],
+      "correctIndex": 0,
+      "explanation": "Requests go to the Government Contracting Area Director for the area where the Applicant's headquarters is located, regardless of where the parent or affiliates are.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. D",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a1p1-q12",
+      "question": "A U.S. manufacturer sells through a distributor that resells its products into a country listed under Note 7 of the EXIM Country Limitation Schedule. Can it get a 504 loan?",
+      "options": [
+        "Yes, because it does not export directly",
+        "Yes, if proceeds are used only in the U.S.",
+        "Yes, with an OFAC license from the lender",
+        "No, because indirect exports to a prohibited country make it ineligible"
+      ],
+      "correctIndex": 3,
+      "explanation": "A 7(a) or 504 loan may not be made to a business that directly or indirectly exports to a country listed as prohibited (Note 7). Restricting proceeds to U.S. use addresses a different rule for international operators.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. C",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a1p1-q13",
+      "question": "For a non-delegated 7(a) loan involving a business acquisition, how is size tested?",
+      "options": [
+        "Only the buyer's size is tested",
+        "Only the acquired business's size is tested",
+        "The combined size of the Applicant and the acquired business must meet the size standard",
+        "Size is not tested for change-of-ownership loans"
+      ],
+      "correctIndex": 2,
+      "explanation": "For 7(a) and 504 loans involving a business acquisition or change of ownership, the combined size of the Applicant and the acquired business must meet applicable size standards.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. D",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a1p1-q14",
+      "question": "In determining a concern's size, which affiliates are counted?",
+      "options": [
+        "All domestic and foreign affiliates, whether or not organized for profit",
+        "Domestic for-profit affiliates only",
+        "Only affiliates in the same 3-digit NAICS subsector",
+        "Only affiliates that will guarantee the loan"
+      ],
+      "correctIndex": 0,
+      "explanation": "SBA counts the concern and all domestic and foreign affiliates, regardless of whether they are organized for profit. The NAICS subsector test determines whether some entities are affiliates, not which affiliates are counted.",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 1, Para. D",
+      "difficulty": "basic"
+    }
+  ]
+}

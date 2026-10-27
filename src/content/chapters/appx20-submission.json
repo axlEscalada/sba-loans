@@ -1,0 +1,309 @@
+{
+  "id": "appx20-submission",
+  "order": 470,
+  "part": "APPX",
+  "program": "7a",
+  "title": "Appendix 20: Submission of Application for Guaranty",
+  "subtitle": "What goes into a 7(a) application for guaranty, how it is submitted, and how declines are reconsidered",
+  "sopRef": "SOP 50 10 8.1, Appendix 20",
+  "estimatedMinutes": 25,
+  "learningObjectives": [
+    "Distinguish what PLP and non-delegated Lenders submit to SBA versus keep in the file",
+    "Assemble the General Requirements document checklist, including timing rules for financial statements",
+    "Report ownership and employee data correctly in the SBA Loan System",
+    "Apply the reconsideration process and deadlines for declined non-delegated loans",
+    "Identify documentation exceptions and additions for 7(a) Small, SBA Express, Export Express, CAPLines and EWCP"
+  ],
+  "topics": [
+    {
+      "id": "submission-framework",
+      "title": "How the application for guaranty works: PLP vs. non-delegated",
+      "body": "Appendix 20 lists what goes into a Lender's **application for guaranty** for every 7(a) program. The General Requirements apply to all 7(a) loans; the program sections list only exceptions or additions, and where they conflict, **the program-specific rule controls**.\n\n> **Watch out:** A program exception in Appendix 20 only changes **documentation and submission**. It never relieves the Lender of substantive requirements elsewhere, such as Appendix 14 (debt refinancing), Appendix 15 (changes of ownership), Appendix 19 (collateral), or Section A, Chapters 1 and 5.\n\n#### What every loan file needs\n\nRegardless of processing method, every 7(a) file must include the forms and information the Lender needs to make an **informed credit decision**. Forms are on SBA's website, and Centralized 7(a) Loan Submission Instructions are on the **Loan Guaranty Processing Center (LGPC)** website.\n\n#### Delegated vs. non-delegated\n\n| | PLP (delegated) | Non-delegated (through the LGPC) |\n|---|---|---|\n| What goes to SBA | SBA Form 1919 information and loan terms and conditions entered into the SBA Loan System | The application for guaranty **and all attachments** via the SBA Loan System, including the **bold** items in the checklist |\n| Who decides eligibility and credit | Lender, under its delegated authority | **SBA** makes the final determination on eligibility and creditworthiness, including uses of proceeds, collateral adequacy, loan structure, and required equity |\n| Outcome | Lender submits under its authority | SBA approves or declines in the SBA Loan System |\n| Documentation | Lender obtains and keeps **all** listed documents in its file | Same, plus submits the bold items |\n\n#### Data rules for every application\n\n- Submit **all terms and conditions** required by the SBA Loan System data fields.\n- List **100% of the total direct and indirect ownership** of the Applicant. The ownership percentages of all listed owners **must equal 100%**.\n\n#### Employee and jobs data (SBA Form 1919)\n\n| Data point | Definition |\n|---|---|\n| Existing employees | Counted per 13 CFR 121.106: **all individuals** employed full-time, part-time or otherwise; **not** converted to full-time equivalents |\n| Jobs created | Full-time (or equivalent) employees the business expects to **hire as a result of the loan** |\n| Jobs retained | Full-time (or equivalent) employees on payroll at application who **would be lost if the loan is not approved** |\n| Exclusion | **1099 contractors are not employees** |\n\n> **In practice:** Existing employees are a headcount, while jobs created and retained are full-time equivalents. A business with 10 part-timers has 10 existing employees.",
+      "keyPoints": [
+        "Program-specific rules control over General Requirements, but only for documentation and submission",
+        "PLP: enter Form 1919 info and loan terms into the SBA Loan System; keep all documents in the file",
+        "Non-delegated: submit the application and all attachments; SBA decides eligibility and credit",
+        "List 100% of direct and indirect ownership; percentages must total 100%",
+        "Existing employees are a headcount (not FTEs); jobs created/retained are FTEs; 1099 contractors excluded"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 20, General Requirements, Para. A.1"
+    },
+    {
+      "id": "document-checklist",
+      "title": "The application document checklist",
+      "body": "Every 7(a) loan file must contain the items below. For **non-delegated** loans, items in **bold** in the SOP must also be **submitted** to SBA with the application.\n\n| # | Item | Submit for non-delegated? |\n|---|---|---|\n| a | **SBA Form 1919**, one per Co-Borrower, signed by the Applicant's authorized representative | Information entered into the SBA Loan System; signed form kept in file |\n| b | **Lender's Credit Memorandum** addressing all Credit Standards for the program | Yes |\n| c | **Owner financial statement** for all owners of 20% or more (including spouse's and minor children's assets) and proposed guarantors, except Supplemental Guarantors | Yes |\n| d | Tax transcripts, plus **business financial statements or tax returns for the last 3 years and interim statements** (Applicant and affiliates), or **projections** for start-ups | Financials and projections: yes |\n| e | Copy of lease, if applicable | File |\n| f | Detailed listing of M&E to be purchased, with cost quotes | File |\n| g | Detailed listing of all assets purchased with proceeds | File |\n| h | Detailed listing of all collateral | File |\n| i | Franchise documents (see Section A, Ch. 1, Para. G) | File |\n| j | Real estate purchase items, including **cost breakdown** for improvements | Cost breakdown: yes |\n| k | Business acquisition items, including **business valuation**, **pro forma balance sheet**, **seller's financial statements** | Bolded items: yes |\n| l | **Debt refinancing** documentation | Yes |\n| m | **Documentation of U.S. National** status | Yes |\n| n | Management agreements, if applicable | File |\n\n#### SBA Form 1919 details\n\n- A **separate Form 1919 for each Co-Borrower**.\n- The \"Purpose of the loan\" amounts across all Forms 1919 should **equal the total loan request**.\n- Only the **information**, not the form itself, goes into the SBA Loan System; the signed form stays in the file.\n\n#### Other items explained\n\n- **Lease:** a copy, if applicable.\n- **Franchise:** for any Applicant operating under a franchise, license or similar agreement, follow Section A, Ch. 1, Para. G.\n- **Debt refinancing:** keep copies of all notes being refinanced, security agreements, leases, **transcripts for the most recent 12 months** (to prove the debt is current), or other evidence. Non-delegated Lenders must submit them to the LGPC.\n- **U.S. Nationals:** verify each U.S. National's status (birth certificate and/or passport), document findings in the file, and enter the U.S. National's **Social Security Number** in the SBA Loan System (Section A, Ch. 1, Para. F).\n- **Management agreements:** required if applicable **and** the agreement is not part of the franchise disclosure documents for a brand on the **Franchise Directory** (Section A, Ch. 1, Para. E.3.e).\n\n> **Watch out:** Items f-h (equipment, assets purchased, collateral listings) are exactly the items 7(a) Small, SBA Express and Export Express loans may scale back. Know the letters; the program exceptions refer to them.",
+      "keyPoints": [
+        "Separate SBA Form 1919 per Co-Borrower; purpose amounts should total the loan request",
+        "Non-delegated submissions include credit memo, owner financials, business financials/projections, and other bold items",
+        "Debt refinancing: keep notes, security agreements and 12 months of transcripts proving the debt is current",
+        "U.S. Nationals: verify via birth certificate and/or passport; enter SSN in SBA Loan System",
+        "Management agreements needed unless part of franchise disclosure documents for a Franchise Directory brand"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 20, General Requirements, Para. A.1.a-n"
+    },
+    {
+      "id": "financials-and-acquisitions",
+      "title": "Financial statement timing, projections, real estate and business purchases",
+      "body": "#### Timing rules for financial information\n\n| Document | Freshness requirement |\n|---|---|\n| Owner financial statement (SBA Form 413 or Lender's equivalent) | Signed and dated **within 90 days** of submission to SBA |\n| Business financial statements | Dated **within 120 days** of submission to SBA |\n| Interim financial statements | Dated **within 120 days prior** to submission to SBA |\n| Seller's financial statements (business purchase) | Last 3 complete fiscal years (or years in business if fewer); dated and signed or certified by the seller **within 120 days** prior to submission |\n| Seller's interim statements | No older than **120 days** from submission; dated and signed or certified |\n\n#### Business financials\n\nThe Lender must obtain tax transcripts (Section A, Ch. 5, Para. B) and either **business financial statements or tax returns for the last 3 years**, plus **interim statements**, for the Applicant **and any affiliates**:\n\n1. Year-end balance sheets for the last 3 years, with a **detailed debt schedule**;\n2. Year-end profit and loss statements for the last 3 years;\n3. Interim balance sheet (with detailed debt schedule) and interim P&L.\n\n**Start-ups, new businesses, and other projection-based applications** must include **detailed projections with supporting assumptions** showing **debt service coverage of 1.15 or greater within 2 years from loan funding**, or for construction projects, **within 2 years from the end of construction**.\n\n#### If proceeds will purchase real estate\n\n- **Appraisal** meeting Appendix 19's commercial real estate appraisal requirements;\n- Copy of the **signed purchase agreement**;\n- Lender's **environmental questionnaire**, if applicable (Section A, Ch. 5, Para. E);\n- **Cost breakdown** where improvements are included (submitted for non-delegated loans).\n\n#### If proceeds will purchase an existing business\n\n- Copy of the **buy-sell or purchase and sale agreement**;\n- **Business valuation** meeting Appendix 15 Para. C.1.a requirements;\n- **Pro forma balance sheet** for the business being purchased as of the date of transfer;\n- **Seller's financial statements** and **interim statements** (timing above);\n- All documentation required in Appendix 15, Para. D.\n\nIf the seller's financial statements are **not available**, the seller must provide an **alternate source of verifying revenues**, and the Lender's credit analysis must discuss **why** the statements are unavailable and **how** the Lender verified business revenue.\n\n> **Watch out:** Owner financial statements have a shorter shelf life (90 days) than business financials (120 days). A deal that sits in underwriting can easily outlive a personal financial statement.",
+      "keyPoints": [
+        "Owner financial statements: signed and dated within 90 days of submission",
+        "Business and interim financial statements: within 120 days of submission",
+        "3 years of business financials or returns plus interims, for the Applicant and affiliates",
+        "Projections must show DSCR of 1.15 or greater within 2 years of funding (or end of construction)",
+        "Business purchase: valuation, pro forma balance sheet, and seller financials; explain if seller statements unavailable"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 20, General Requirements, Para. A.1.c, d, j, k"
+    },
+    {
+      "id": "where-to-submit-reconsideration",
+      "title": "Where to submit, upload limits, and reconsideration of declines",
+      "body": "#### Where applications go\n\n- **Non-delegated:** submit the application for guaranty and all attachments via the **SBA Loan System to the LGPC**. Documents larger than **250MB** must be split into multiple documents; the system does not support uploads over 250MB.\n- **PLP:** submit via the **SBA Loan System**, keeping all required documentation in the Lender's loan file.\n- For SBA Terms and Conditions, post-approval and pre-disbursement changes, transfers of guaranty between Lenders, and closing and disbursement, see **Section B, Chapter 6**.\n\n#### Reconsideration of a declined non-delegated loan (13 CFR 120.193)\n\nIf the Lender believes the reasons for decline have been overcome, it can ask for reconsideration.\n\n| Step | Who decides | Requirements |\n|---|---|---|\n| First reconsideration | **LGPC** | Submit **within 6 months** of the decline date, with a detailed written explanation of how the Applicant overcame the reasons. If submitted **more than 120 days** after decline, include **current financial statements**. |\n| Second reconsideration | **D/FA or designee** (decision is **final**) | Submit to the **LGPC**, including a copy of the Center's decline letter and additional information addressing the decline reasons and how they were overcome. The LGPC forwards it to the D/FA or designee. |\n\n**Example:** an application is declined on March 1. A request on June 15 (about 106 days later) needs a detailed explanation but not new financials. A request on August 10 (more than 120 days later) must also include current financial statements. After September 1 (6 months), reconsideration is no longer available.\n\n#### EWCP variation\n\nFor non-delegated EWCP loans, a decline by the LGPC may be reconsidered by request to the LGPC **within 6 months**, which forwards it to the **Director, International Trade Finance (D/ITF)** or designee for a final decision.\n\n> **In practice:** Track decline dates in your pipeline. The 120-day and 6-month clocks both run from the date of decline, not from when the Lender learns of it or starts working on a response.",
+      "keyPoints": [
+        "Non-delegated: SBA Loan System to the LGPC; split documents over 250MB",
+        "PLP: submit via SBA Loan System and retain documentation in the file",
+        "Reconsideration: within 6 months of decline; over 120 days requires current financial statements",
+        "Second reconsideration goes through the LGPC to the D/FA or designee, whose decision is final",
+        "EWCP reconsideration: final decision by the D/ITF or designee"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 20, General Requirements, Para. A.2"
+    },
+    {
+      "id": "small-express-export-express",
+      "title": "7(a) Small, SBA Express, and Export Express exceptions",
+      "body": "Standard 7(a), MARC, and International Trade loans follow all General Requirements. The streamlined programs get documentation relief.\n\n#### 7(a) Small loans\n\nItems **f through h** (listing of M&E to be purchased with quotes, listing of all assets purchased with proceeds, and listing of all collateral) are required **only to the extent necessary** to document eligible uses of proceeds and support the credit analysis required by Section B, Ch. 2, Para. C (Credit Standards for 7(a) Small Loans and SBA Express).\n\n#### SBA Express and Export Express\n\nBoth programs share three exceptions:\n\n1. **If the Lender uses business financial statements and/or tax returns** for underwriting, it obtains **IRS tax transcripts** per Section A, Ch. 5, Para. B. All financial statements, tax returns and schedules reviewed and required by the Lender's policy for similar **non-SBA** commercial loans must be kept in the loan file and comply with the Lender's policies on collecting and reviewing financial information.\n2. **If the Lender does not use business financial information** to decide creditworthiness (for example, with some **credit scoring models**), it must still obtain **IRS tax transcripts** to verify that returns were **filed** and to determine the Applicant's **size**. Reconciliation of the transcripts is **not required** in this case.\n3. Items **f through h** are required only to the extent necessary, as for 7(a) Small loans.\n\n| Requirement | Standard 7(a) | 7(a) Small | SBA Express / Export Express |\n|---|---|---|---|\n| Items f-h (asset and collateral listings) | Required | Only as needed for uses of proceeds and credit analysis | Only as needed |\n| Business financials | 3 years plus interims | General rule | Per Lender's non-SBA policy |\n| IRS tax transcripts | Required with reconciliation | Required | Required; reconciliation not required if business financials are not used |\n\n> **Watch out:** Even with a credit-scoring model, transcripts are **never** optional on Express loans. They prove the returns were filed and support the size determination.",
+      "keyPoints": [
+        "Standard 7(a), MARC and IT loans: all General Requirements apply",
+        "7(a) Small, SBA Express and Export Express: items f-h only as needed for uses of proceeds and credit analysis",
+        "Express/Export Express: financials follow the Lender's non-SBA policy and stay in the file",
+        "Credit scoring without business financials still requires IRS tax transcripts (no reconciliation)"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 20, Program Specific Requirements, 7(a) Small Loans, SBA Express, Export Express"
+    },
+    {
+      "id": "caplines-ewcp-docs",
+      "title": "CAPLines and EWCP documentation",
+      "body": "#### CAPLines\n\nAll General Requirements apply, plus variant-specific items:\n\n| CAPLine | Additional documentation |\n|---|---|\n| **Working Capital** | A sample **Borrowing Base Calculation** if disbursed on a BBC; otherwise a **collateral basis calculation** |\n| **Seasonal** | Documentation of the **seasonal nature** of the business (month-by-month historical needs) and an Applicant-prepared **month-to-month cash flow projection for the next 12 months** |\n| **Contract** | A **project cost schedule** of all direct material, labor and overhead costs for the contract, by line item, with **no profit included**; a current **annual income statement** showing changes in operating, investing and financing cash flow for repayment; a **copy of the contract(s)** |\n| **Builders** | **Month-to-month cash flow** for all work by the Applicant, plus letters from (1) a **mortgage lender** that permanent financing is available to qualified purchasers, (2) a **real estate broker** that a market exists and the building fits the neighborhood, and (3) an **architect, appraiser or engineer** agreeing to inspect and certify interim disbursements |\n\nA Lender with its **own real estate lending department** staffed by people with appraisal and engineering experience may substitute **its own letter** for one or more of the three Builders letters. Closing and disbursement rules are in Section B, Ch. 6, Para. D.\n\n#### EWCP\n\n**Documentation specific to the request:**\n\n- Copy of the **letter of credit** and/or **buyer's order or contract**, if applicable;\n- **Export credit insurance** material (policy, application, buyer credit limit), if applicable;\n- **Export license(s)**, if required;\n- **Aging of receivables and payables, and inventory reports**, dated **within 180 days** of application;\n- **Cash flow projection** with **monthly** sales projections (may be **quarterly for asset-based loans**) for the **lesser of 12 months or the loan term**, highlighting the export transactions to be financed;\n- For **indirect exporting**, documentation from the Borrower's customer certifying it will sell the goods or services to a foreign buyer.\n\nAlso: a copy of the lease, if applicable, and a listing of all assets purchased with proceeds.\n\n**Process:**\n\n- **Non-delegated EWCP:** submit via the SBA Loan System and **email the assigned Export Finance Manager** (at a USEAC). The Export Finance Manager does a full review and recommends to the **LGPC**, which reviews the recommendation, Forms 1919 and the application for final approval.\n- **PLP-EWCP:** submit via the SBA Loan System and keep documents in the file.\n- **Post-approval/pre-disbursement changes:** send to the Export Finance Manager unless within the Lender's PLP-EWCP authority (see Ch. 6, Para. B).",
+      "keyPoints": [
+        "Working Capital CAPLine: sample Borrowing Base Calculation, or collateral basis calculation without a BBC",
+        "Seasonal CAPLine: seasonal history plus 12-month month-to-month cash flow projection",
+        "Contract CAPLine: cost schedule with no profit, income statement, and the contract(s)",
+        "Builders CAPLine: monthly cash flow plus mortgage lender, broker and architect/appraiser/engineer letters",
+        "EWCP: A/R, A/P and inventory reports within 180 days; cash flow projection for lesser of 12 months or term",
+        "Non-delegated EWCP: Export Finance Manager reviews and recommends; LGPC approves"
+      ],
+      "sopRef": "SOP 50 10 8.1, Appendix 20, Program Specific Requirements, CAPLines, EWCP"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Application for guaranty",
+      "definition": "The Lender's request for SBA's guaranty, made through the SBA Loan System with required data and documents."
+    },
+    {
+      "term": "LGPC",
+      "definition": "Loan Guaranty Processing Center; processes non-delegated 7(a) applications and first reconsiderations."
+    },
+    {
+      "term": "PLP",
+      "definition": "Preferred Lenders Program; Lenders with delegated authority who submit via the SBA Loan System and retain documents in their file."
+    },
+    {
+      "term": "SBA Form 1919",
+      "definition": "Borrower Information Form; one per Co-Borrower; its information is entered in the SBA Loan System and the signed form kept in the file."
+    },
+    {
+      "term": "SBA Form 413",
+      "definition": "Personal financial statement form; Lenders may use it or an equivalent, signed and dated within 90 days of submission."
+    },
+    {
+      "term": "Jobs created / retained",
+      "definition": "Full-time (or equivalent) employees to be hired because of the loan, or on payroll and lost if the loan is not approved."
+    },
+    {
+      "term": "Reconsideration",
+      "definition": "Request to revisit a declined non-delegated loan; within 6 months, with current financials if over 120 days."
+    },
+    {
+      "term": "D/FA",
+      "definition": "Director of Financial Assistance; decides second reconsiderations (final)."
+    },
+    {
+      "term": "Export Finance Manager",
+      "definition": "SBA staff at a USEAC who reviews non-delegated EWCP applications and recommends to the LGPC."
+    },
+    {
+      "term": "Supplemental Guarantor",
+      "definition": "A guarantor excluded from the owner financial statement requirement."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "a20-q1",
+      "question": "Within how many days of submission to SBA must an owner's personal financial statement be signed and dated?",
+      "options": [
+        "60 days",
+        "120 days",
+        "90 days",
+        "180 days"
+      ],
+      "correctIndex": 2,
+      "explanation": "Owner financial statements (SBA Form 413 or equivalent) must be signed and dated within 90 days of submission. 120 days applies to business and interim financial statements, and 180 days to EWCP aging and inventory reports.",
+      "sopRef": "SOP 50 10 8.1, Appendix 20, General Requirements, Para. A.1.c",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a20-q2",
+      "question": "A start-up's application is based on projections. What must the projections show?",
+      "options": [
+        "Debt service coverage of 1.25 or greater in year 1",
+        "Debt service coverage of 1.15 or greater within 2 years from loan funding (or end of construction for construction projects)",
+        "Positive net income within 3 years",
+        "Debt service coverage of 1.0 at funding"
+      ],
+      "correctIndex": 1,
+      "explanation": "Projections must include supporting assumptions reflecting debt service coverage of 1.15 or greater within 2 years from loan funding, or within 2 years from the end of construction. 1.25 is not the Appendix 20 standard.",
+      "sopRef": "SOP 50 10 8.1, Appendix 20, General Requirements, Para. A.1.d",
+      "difficulty": "basic"
+    },
+    {
+      "id": "a20-q3",
+      "question": "An Applicant has three owners. The Lender enters owners holding 50% and 30% in the SBA Loan System but omits a 20% indirect owner through a holding company. Is this compliant?",
+      "options": [
+        "No; the Lender must list 100% of direct and indirect ownership, totaling 100%",
+        "Yes; only direct owners must be listed",
+        "Yes; owners under 25% need not be listed",
+        "Yes, if the Lender keeps the holding company documents in its file"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Lender must list 100% of the total direct and indirect ownership of the Applicant, and the percentages must equal 100%. There is no threshold below which owners may be omitted.",
+      "sopRef": "SOP 50 10 8.1, Appendix 20, General Requirements, Para. A.1",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a20-q4",
+      "question": "A business has 6 full-time employees, 4 part-time employees, and 3 contractors paid on Form 1099. How many existing employees should be reported on SBA Form 1919?",
+      "options": [
+        "13",
+        "8",
+        "6",
+        "10"
+      ],
+      "correctIndex": 3,
+      "explanation": "Existing employees are counted per 13 CFR 121.106: all individuals employed full-time, part-time or otherwise, not converted to FTEs. 1099 contractors are not employees. So 6 + 4 = 10.",
+      "sopRef": "SOP 50 10 8.1, Appendix 20, General Requirements, Para. A.1, SBA Form 1919 employee data",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a20-q5",
+      "question": "A non-delegated 7(a) application was declined 5 months ago. The Lender believes the issues are resolved. What must the reconsideration request include?",
+      "options": [
+        "Only a new SBA Form 1919",
+        "A detailed written explanation of how the reasons were overcome, plus current financial statements",
+        "Nothing; reconsideration is unavailable after 120 days",
+        "A request directly to the D/FA"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reconsideration must be submitted to the LGPC within 6 months with a detailed explanation; any request more than 120 days after decline must also include current financial statements. The D/FA handles only a second reconsideration, routed through the LGPC.",
+      "sopRef": "SOP 50 10 8.1, Appendix 20, General Requirements, Para. A.2.c",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a20-q6",
+      "question": "If the LGPC declines a first reconsideration request on a Standard 7(a) loan, what is the Lender's next option?",
+      "options": [
+        "Resubmit as a PLP loan",
+        "Appeal to the SBA Administrator",
+        "Request a second reconsideration from the D/FA or designee, submitted through the LGPC; that decision is final",
+        "Request a hearing before the Office of Hearings and Appeals"
+      ],
+      "correctIndex": 2,
+      "explanation": "A second reconsideration may be requested from the D/FA or designee, whose decision is final. It is submitted to the LGPC with the decline letter and additional information, and the LGPC forwards it.",
+      "sopRef": "SOP 50 10 8.1, Appendix 20, General Requirements, Para. A.2.c",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a20-q7",
+      "question": "An SBA Express Lender uses a credit scoring model and does not rely on business financial statements. What must it still obtain?",
+      "options": [
+        "IRS tax transcripts to verify returns were filed and determine size, without reconciliation",
+        "Three years of business financial statements",
+        "Nothing beyond the credit score",
+        "IRS tax transcripts with full reconciliation to financial statements"
+      ],
+      "correctIndex": 0,
+      "explanation": "If the Lender does not use business financial information, it must still obtain IRS tax transcripts to verify filing and determine size, but reconciliation is not required. Full reconciliation applies when financials are used.",
+      "sopRef": "SOP 50 10 8.1, Appendix 20, Program Specific Requirements, SBA Express",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a20-q8",
+      "question": "For a 7(a) Small loan, which items are required only to the extent necessary to document eligible uses of proceeds and support the credit analysis?",
+      "options": [
+        "The credit memorandum and owner financial statements",
+        "Debt refinancing documents",
+        "Documentation of U.S. National status",
+        "Listings of M&E to be purchased, assets purchased with proceeds, and collateral (items f-h)"
+      ],
+      "correctIndex": 3,
+      "explanation": "For 7(a) Small loans (and SBA Express and Export Express), items f-h are required only to the extent necessary. The credit memo, refinancing documents and U.S. National documentation remain required.",
+      "sopRef": "SOP 50 10 8.1, Appendix 20, Program Specific Requirements, 7(a) Small Loans",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a20-q9",
+      "question": "A Lender is preparing a Contract CAPLine application. Which statement about the project cost schedule is correct?",
+      "options": [
+        "It must include the Applicant's expected profit margin",
+        "It must show direct material, labor and overhead by line item and may not include profit",
+        "It is only needed for Builders CAPLines",
+        "It replaces the copy of the contract"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Contract CAPLine requires a project cost schedule of all direct material, labor and overhead by line item; profit may not be included. A copy of the contract(s) is also required, so it does not replace it.",
+      "sopRef": "SOP 50 10 8.1, Appendix 20, Program Specific Requirements, CAPLines",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a20-q10",
+      "question": "A non-delegated EWCP application is submitted. Who conducts the full review and makes a recommendation?",
+      "options": [
+        "The Export Finance Manager assigned to a USEAC, who recommends to the LGPC for final approval",
+        "The CLSC",
+        "The D/FA",
+        "The Lender, under PLP authority"
+      ],
+      "correctIndex": 0,
+      "explanation": "For non-delegated EWCP, the Lender submits via the SBA Loan System and emails the Export Finance Manager, who conducts a full review and recommends to the LGPC for final approval.",
+      "sopRef": "SOP 50 10 8.1, Appendix 20, Program Specific Requirements, EWCP",
+      "difficulty": "applied"
+    },
+    {
+      "id": "a20-q11",
+      "question": "A loan will finance the purchase of a business, but the seller has no financial statements. What does Appendix 20 require?",
+      "options": [
+        "The loan cannot be submitted",
+        "The Lender may rely on the buyer's projections alone",
+        "The seller must provide an alternate source of verifying revenues, and the credit analysis must explain why statements are unavailable and how revenue was verified",
+        "SBA must waive the requirement in writing"
+      ],
+      "correctIndex": 2,
+      "explanation": "If the seller's financial statements are not available, the seller must provide an alternate source of verifying revenues, and the Lender must discuss why statements are unavailable and how it verified revenue.",
+      "sopRef": "SOP 50 10 8.1, Appendix 20, General Requirements, Para. A.1.k",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "a20-q12",
+      "question": "A non-delegated application includes a 400MB appraisal PDF. What should the Lender do?",
+      "options": [
+        "Mail a paper copy to the LGPC",
+        "Split it into multiple documents, since uploads over 250MB are not supported",
+        "Email it to the LGPC",
+        "Omit it and keep it in the file"
+      ],
+      "correctIndex": 1,
+      "explanation": "Documents greater than 250MB must be separated into multiple documents because the SBA Loan System does not support larger uploads.",
+      "sopRef": "SOP 50 10 8.1, Appendix 20, General Requirements, Para. A.2.a",
+      "difficulty": "scenario"
+    }
+  ]
+}

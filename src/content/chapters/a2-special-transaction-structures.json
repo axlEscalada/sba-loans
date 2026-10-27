@@ -1,0 +1,358 @@
+{
+  "id": "a2-special-transaction-structures",
+  "order": 120,
+  "part": "A",
+  "program": "core",
+  "title": "Special Transaction Structures",
+  "subtitle": "EPC/OC real estate structures, ESOPs, cooperatives, and 401(k)/ROBS-owned businesses",
+  "sopRef": "SOP 50 10 8.1, Section A, Ch. 2",
+  "estimatedMinutes": 40,
+  "learningObjectives": [
+    "Explain when an Eligible Passive Company can borrow and what it may finance",
+    "Apply the EPC-to-OC lease, rent, occupancy, and guaranty conditions",
+    "Determine size for affiliated and unaffiliated EPC/OC structures",
+    "Describe the trust conditions and Trustee certifications for trust-owned EPCs",
+    "Structure 7(a) ESOP and cooperative buyouts, including guaranty and cost rules",
+    "List the lender's obligations for businesses owned by 401(k) or ROBS plans"
+  ],
+  "topics": [
+    {
+      "id": "epc-oc-basics",
+      "title": "The EPC/OC structure: what it is and what it can finance",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 2, Para. A",
+      "body": "SBA generally will not finance assets that are held for passive income (13 CFR § 120.130(d)). Yet many small business owners hold their building in a separate real estate company and lease it to the operating business. The **Eligible Passive Company (EPC) rule** (13 CFR § 120.111) is the exception that makes that common structure financeable.\n\n- The **EPC** owns (or leases) the property.\n- The **Operating Company (OC)** is the actual small business that occupies and uses it.\n\nBecause this is an exception, **every condition in § 120.111 is interpreted strictly**. The consequences of missing one are severe:\n\n| Program | Consequence of non-compliance |\n|---|---|\n| 7(a) | On default, SBA may **deny liability on the guaranty** |\n| 504 | SBA may pursue a **CDC Recovery Claim** under 13 CFR § 120.938 for fraud, negligence, or misrepresentation by the CDC |\n\n#### What an EPC may use proceeds for\n\nAn EPC may use loan proceeds **only** to:\n\n1. Acquire or lease, and/or improve or renovate, **real or personal property** (including eligible refinancing) that it leases to one or more OCs for conducting the OC's business; or\n2. Finance a **change of ownership between the existing owners of the EPC**, but only when the selling owner(s) have held the real estate or personal property for **at least 36 months**.\n\nFor change-of-ownership details, 7(a) lenders look to Appendix 15 and the use-of-proceeds section of each delivery method chapter. Change of ownership is **not** an eligible use for CAPLines, EWCP, or revolving facilities. For 504, see Section C, Ch. 1, Para. C.13 (and the extra restrictions in C.13.a.iii for changes between existing EPC owners).\n\n#### What an EPC may not do\n\nApart from that change of ownership among existing owners, an EPC may **not** use proceeds to acquire a business, buy stock in a business, buy any intangible assets of a business, or refinance debt incurred for any of those purposes.\n\n#### When the EPC and OC are Co-Borrowers\n\nPutting the OC on the note as a Co-Borrower opens additional uses:\n\n- **7(a):** proceeds may include working capital and/or other assets, including **intangible assets**, for the OC's use.\n- **504:** proceeds may include fixed assets that will be **owned by the OC(s)**.\n\n> **In practice:** When a deal combines a building purchase with equipment or working capital for the business, the OC almost always needs to be a Co-Borrower, not just a guarantor. Spot this early when structuring the application.",
+      "keyPoints": [
+        "EPC rule (13 CFR § 120.111) is an exception to the passive-investment prohibition and is interpreted strictly",
+        "7(a) non-compliance can lead SBA to deny liability on the guaranty; 504 can trigger a CDC Recovery Claim",
+        "EPC proceeds: acquire/lease/improve property leased to the OC, or change of ownership among existing EPC owners",
+        "Change of ownership among EPC owners requires the seller to have held the property at least 36 months",
+        "EPC may not buy a business, stock, or intangibles, or refinance debt incurred for those purposes",
+        "With OC as Co-Borrower: 7(a) can add working capital and intangibles; 504 can add OC-owned fixed assets"
+      ]
+    },
+    {
+      "id": "epc-structure-and-lease",
+      "title": "Structuring the EPC and the EPC-to-OC lease",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 2, Para. A.1",
+      "body": "#### Who can be an EPC\n\nAn EPC can take **any legal form**: corporation, partnership, LLC, sole proprietor, tenancy in common, and so on. A **tenancy in common** is a form of ownership, not a separate legal entity. However many individuals or entities hold it, it counts as **one EPC**, and **all members must sign the loan documents**.\n\nLimits on the number of parties:\n\n- **Multiple, separately owned OCs** can participate.\n- **Multiple EPCs in one transaction are not permitted.**\n- An EPC may own several properties leased to the same OC(s). With multiple OCs, the **same OCs (with the same ownership) must jointly occupy each property**. One OC in building 1 and a different OC in building 2 is not allowed.\n\n#### Core conditions for every EPC\n\n1. The OC(s) must be an **eligible small business**.\n2. The use of proceeds must be eligible **as if the OC were borrowing directly**.\n3. The EPC (except a trust) and each OC must be **small** under 13 CFR Part 121.\n4. The EPC must **lease the project property directly** to the OC(s).\n5. The EPC (excluding a trust) may engage in **no business activity other than leasing** the property to the OC(s).\n\n#### Lease requirements\n\n| Requirement | What the SOP says |\n|---|---|\n| Form | Fully executed written lease |\n| Priority | Subordinated to SBA's mortgage, trust deed lien, or security interest (this is **not** the same as a Landlord's Waiver) |\n| Term | Including renewal options exercisable **solely by the OC**, at least equal to the loan term |\n| Collateral | EPC assigns **all rents** under the lease. An assignment of the lease itself is required only when needed to perfect the rent assignment or to let the lender exercise the tenant's rights on default |\n| Rent cap | Rent may not exceed the loan payment plus the EPC's direct holding costs (routine maintenance, utilities, insurance, property taxes) |\n| Occupancy | OC leases **100%** of the property from the EPC; it may sublease part of it under the Ch. 3 occupancy rules |\n\nFor **504**, the \"loan payment\" includes payments to SBA, the Third Party Lender, and any lender SBA authorized to provide the borrower's contribution. Rent may **not** include amounts for accelerated payments on the Third Party Loan.\n\n#### Repayment analysis\n\nThe lender must check that the **OC's cash flow** covers the loan payment (for 504, including the Third Party Loan payment) plus the costs of holding the property: maintenance, taxes, utilities, insurance, and all other ongoing expenses.\n\n> **Watch out:** A lease that lets the EPC charge \"market rent\" above debt service plus holding costs fails the rent cap. The EPC is meant to be a pass-through, not a profit center.",
+      "keyPoints": [
+        "Any legal form can be an EPC; a tenancy in common counts as one EPC and all members sign",
+        "Multiple OCs allowed; multiple EPCs in one transaction are not",
+        "With multiple OCs, the same OCs must jointly occupy every property",
+        "Lease must be written, subordinated to SBA's lien, and run at least the loan term (options solely at OC's choice)",
+        "EPC assigns all rents as collateral; rent capped at loan payment plus direct holding costs",
+        "OC leases 100% of the property and may sublease only under occupancy rules"
+      ]
+    },
+    {
+      "id": "epc-guaranties-mineral-leases",
+      "title": "EPC guaranties, loan limits, and mineral leases",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 2, Para. A.1",
+      "body": "#### Guaranties and Co-Borrower status\n\nThe OC(s) must be a **guarantor or a Co-Borrower**. Beyond that:\n\n- Each holder of **20% or more** of **either** the EPC **or** the OC must guarantee the loan. If the holder is a trust, the **Trustee** executes the guarantee on the trust's behalf.\n- Each **spouse owning less than 20%** of an EPC or OC must guarantee in full when the **combined ownership of both spouses and minor children is 20% or more**.\n- A **non-owner spouse** signs the appropriate collateral documents. That spouse's guaranty secured by jointly held collateral is limited to the spouse's interest in the collateral.\n- A person who signs the Note individually as a Borrower does not also need to sign a personal guaranty.\n- SBA, or the lender under delegated authority, may require other individuals or entities to give full or limited guaranties, regardless of ownership, when needed for credit or other reasons.\n- The OC **must be a Co-Borrower** (not just a guarantor) if it receives any proceeds or if proceeds buy any assets for its use.\n\n#### Loan limits\n\nThe amount of any loan to an EPC counts against the loan limit of **both the EPC and the OC**.\n\n#### Mineral (oil and gas) leases\n\nIf, in acquiring the property, the EPC becomes the beneficiary or owner of an existing mineral lease, it must **assign its interest** (including rights to rental, mineral, royalty, bonus, or similar payments) **to the OC(s)**, and that assignment must be **subordinated to all Deeds of Trust or Mortgages**. Then, as applicable:\n\n| Situation | 7(a) | 504 |\n|---|---|---|\n| Subordination not possible | 7(a) Lender obtains a legal opinion to that effect | CDC Closing Counsel provides a legal opinion to that effect |\n| Mineral lease terminated | Lender should try to have it removed from the Title Policy | Same |\n| Cannot remove from Title Policy | Document the assignment to the OC and obtain a title endorsement (e.g., CLTA 100.23 or 100.24) | Closing Counsel's Opinion states it examined and relied on the assignment; obtain a title endorsement |\n\nFor 7(a) in that last case, non-delegated lenders submit the EPC/OC lease with the guaranty application. Delegated lenders keep the executed lease in the file and submit it with any guaranty purchase request.\n\n> **In practice:** Mineral lease issues usually surface in the title commitment. Flag them early in rural and energy-producing states so the assignment and endorsement do not delay closing.",
+      "keyPoints": [
+        "OC must be a guarantor or Co-Borrower; Co-Borrower if it receives proceeds or assets",
+        "20%+ owners of the EPC or of the OC must guarantee; a trust guarantees through its Trustee",
+        "Spouses under 20% guarantee in full when spouses plus minor children hold 20%+",
+        "Loan to an EPC counts against the loan limit of both the EPC and the OC",
+        "Existing mineral lease interests must be assigned to the OC and subordinated to the mortgage",
+        "If the mineral lease cannot be removed from title: documentation plus a title endorsement (e.g., CLTA 100.23/100.24)"
+      ]
+    },
+    {
+      "id": "epc-trusts-size-financials",
+      "title": "Trust-owned EPCs, size determination, and financial statements",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 2, Para. A.2-A.5",
+      "body": "#### When a trust owns all or part of the EPC\n\nTrusts are common for estate planning, so the SOP adds specific conditions:\n\n1. The **Trustor's** eligibility status determines the trust's eligibility.\n2. **All donors** to the trust are treated as Trustors for eligibility purposes.\n3. The Trustee must warrant and certify that the trust will **not be revoked or substantially amended** for the loan term without SBA's **prior written consent**.\n4. The **Trustor must personally guarantee** the loan. Beneficiaries who exercise any control over the trust's actions must also guarantee.\n5. If an **ESOP trust agreement** prohibits it from being a guarantor or Co-Borrower, it **cannot use the EPC form** of borrowing.\n6. The **trust itself does not have to be small**.\n\nThe Trustee certifies in writing (to SBA, or to the lender processing under delegated authority) that:\n\n- The Trustee has authority to act;\n- The trust can borrow, pledge trust assets, and lease the property to the OC(s);\n- The Trustee has provided accurate, pertinent language from the trust agreement confirming the above; and\n- The Trustee has provided a true and complete list of all trustors and donors, and will update it any time it changes.\n\n#### Size determination\n\n| Relationship | How to measure size |\n|---|---|\n| EPC and OC(s) **affiliated** | Combine them. One OC: use the OC's NAICS code. Multiple unaffiliated OCs: use the NAICS code of the OC with the most revenue (and each OC must also be small under its own code). Multiple affiliated OCs: apply 13 CFR § 121.107 to find the primary industry; that OC NAICS code is the identifying code |\n| EPC and OC(s) **not affiliated** | Each entity must be small under the size standard for its own industry |\n\nA lease between the EPC and OC does **not by itself create affiliation**, even when they are Co-Borrowers. When sending data to SBA, use the **same NAICS code used to determine size** for the Applicant.\n\n#### Financial statements\n\n- The **EPC and each OC** must submit Financial Statements.\n- The **OC's statements are subject to tax verification**.\n- The usual requirement for an **aging of receivables and payables is waived for EPCs**.\n\n> **Watch out:** \"The trust doesn't have to be small\" does not mean the trust escapes scrutiny. The Trustor and controlling beneficiaries still guarantee, and the Trustee's certifications must be in the file.",
+      "keyPoints": [
+        "Trustor's eligibility determines the trust's eligibility; all donors are treated as Trustors",
+        "Trust may not be revoked or substantially amended during the loan term without SBA's prior written consent",
+        "Trustor and controlling beneficiaries must guarantee; the trust itself need not be small",
+        "Affiliated EPC and OC are combined for size; unaffiliated entities are each measured on their own",
+        "A lease between EPC and OC does not, by itself, create affiliation",
+        "EPC and each OC submit financial statements; OC's are tax-verified; A/R and A/P agings waived for EPCs"
+      ]
+    },
+    {
+      "id": "esop-loans",
+      "title": "Loans to Employee Stock Ownership Plans (ESOPs)",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 2, Para. B",
+      "body": "ESOP financing is **7(a) only** (13 CFR §§ 120.350-120.354). SBA may assist a qualified employee trust (or equivalent trust) that meets all applicable **IRS, Treasury, and Department of Labor** requirements.\n\n#### Who checks ESOP compliance\n\nThe **lender** does. SBA will **not** review any application, even a non-delegated one, for compliance with other agencies' requirements. Whether processing delegated or non-delegated, the lender must determine that the applicant and ESOP meet those legal requirements. **Prior to first disbursement**, the lender must obtain documentation that the ESOP or equivalent trust meets all applicable IRS, Treasury, and DOL regulations. Lenders may process these loans under delegated authority.\n\n#### Permitted structures\n\n| Structure | Purpose |\n|---|---|\n| Loan **to the ESOP** | (a) Buy a **controlling interest (at least 51%)** in the employer small business; or (b) buy qualified employer securities. In case (b), the business may use the funds for any general 7(a) purpose. In either case, the small business **must be a Co-Borrower** |\n| Loan **to the employer small business** | For the **sole** purpose of re-lending to the ESOP so that the ESOP owns **at least 51%** of the business |\n\n#### Special rules\n\n- **Transaction costs** of buying the controlling interest may be financed. Costs of **setting up the ESOP may not**.\n- If the **seller remains a partial owner**, the seller must give a **full, unlimited guarantee regardless of ownership percentage**. This is **statutory and cannot be waived**.\n- The **IRS prohibits ESOPs from guaranteeing** loans, so SBA does not require the ESOP to guarantee, and ESOP members need not guarantee personally. Owners holding interests **outside** the ESOP remain subject to normal guaranty rules.\n- An ESOP application **cannot be structured as an EPC/OC** (13 CFR § 120.111(a)(6)), because that rule requires every 20%+ owner of the EPC and OC to guarantee, with no exception.\n- Loans to an ESOP to buy a controlling interest (at least 51%) are **not subject to the equity injection requirement**.\n- When an SBA loan buys a business from an ESOP that is being dissolved, the employees (ESOP owners), except illegal aliens, may stay on as employees despite other SOP provisions.\n- **No independent business valuation is required**. The lender may instead use the ESOP's valuation made under **ERISA** specifications.\n\n> **In practice:** The two exemptions (no equity injection for 51%+ purchases, and use of the ERISA valuation) make ESOP buyouts very different from a normal change of ownership. Do not apply the standard Appendix 15 checklist blindly.",
+      "keyPoints": [
+        "ESOP loans are 7(a) only (13 CFR §§ 120.350-120.354)",
+        "Purposes: buy at least 51% of the employer, or buy qualified employer securities; the business is a Co-Borrower",
+        "ESOP set-up costs cannot be financed; transaction costs of the controlling-interest purchase can",
+        "A seller who stays on as partial owner must give a full unlimited guarantee (statutory, not waivable)",
+        "ESOP does not guarantee (IRS prohibits it); ESOP deals cannot be structured as EPC/OC",
+        "No equity injection for 51%+ purchases; ERISA valuation may replace an independent business valuation",
+        "Lender must document IRS/Treasury/DOL compliance before first disbursement; SBA does not review it"
+      ]
+    },
+    {
+      "id": "cooperatives",
+      "title": "Cooperatives",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 2, Para. C",
+      "body": "A cooperative is a business owned and controlled by its members, such as employees, producers, or customers. SBA lending to cooperatives follows a short set of rules that mirror the ESOP rules in several ways.\n\n#### The rules\n\n1. **Eligibility.** Every applicant operating under a cooperative structure must meet SBA's normal eligibility requirements. Being a cooperative is not an exemption from anything.\n2. **Delegated processing allowed.** SBA Lenders may process loans to a cooperative, or to an eligible small business owned or controlled by one, under delegated authority.\n3. **At least one guarantor.** Each loan must be guaranteed by **at least one individual or entity** (see Ch. 5, Para. A). Cooperatives often have many small member-owners, none of whom hits the 20% threshold, so this floor matters.\n4. **Controlling-interest purchases (7(a) only).** SBA may guarantee a loan to a cooperative to buy a **controlling interest (51% or more)** in the employer small business. **Transaction costs** of the purchase may be financed. Costs of **setting up the cooperative may not**.\n5. **Documentation.** The lender submits supporting organizational documents and agreements with the application, depending on the type of cooperative and loan purpose. Examples: Cooperative Agreement; organization documents; Articles of Incorporation/Organization; Bylaws; Operating, Conversion, Redemption, or Membership Agreements; and any other agreements as necessary.\n6. **Lender owns the legal review.** Whether delegated or non-delegated, the lender must confirm that the applicant and cooperative meet legal requirements and the conditions of other regulatory bodies. SBA will **not** review applications, even non-delegated ones, for compliance with other regulators' requirements.\n\n#### ESOP vs. cooperative: quick comparison\n\n| Item | ESOP | Cooperative |\n|---|---|---|\n| Program | 7(a) only | Eligible generally; controlling-interest purchase is 7(a) only |\n| Controlling interest | At least 51% | 51% or more |\n| Set-up costs financeable? | No | No |\n| Transaction costs of the purchase financeable? | Yes | Yes |\n| Who verifies other-agency compliance? | Lender | Lender |\n\n> **In practice:** Worker-cooperative conversions are a common succession path. Ask early for the conversion and membership agreements, since they decide who has control and therefore who can guarantee.",
+      "keyPoints": [
+        "Cooperatives must meet all normal SBA eligibility requirements",
+        "Delegated processing is allowed for cooperatives and businesses they own or control",
+        "Each loan needs at least one individual or entity guarantor",
+        "7(a) only: loan to a cooperative to buy 51% or more of the employer business",
+        "Purchase transaction costs may be financed; cooperative set-up costs may not",
+        "Lender, not SBA, confirms compliance with other regulators' requirements"
+      ]
+    },
+    {
+      "id": "401k-robs",
+      "title": "401(k) plans and ROBS (Rollovers as Business Start-ups)",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 2, Para. D",
+      "body": "In a **ROBS** arrangement, an entrepreneur forms a C corporation, has it sponsor a 401(k) plan, rolls retirement savings into the plan, and the plan buys company stock. The cash often becomes the borrower's equity injection. A business owned in whole or part by a 401(k) plan (including ROBS) **may be eligible** if the lender follows this section and the plan complies with all IRS, Treasury, and DOL requirements.\n\n#### Why lenders care\n\nA plan sponsor's failure to administer the plan properly can cause **plan disqualification and adverse tax consequences** for the sponsor and participants, which may hurt the borrower's ability to repay. The lender must confirm the plan meets other regulators' requirements. SBA will **not** review that compliance, even on non-delegated applications.\n\n#### Processing\n\n| Plan type (Applicant or any owner) | Processing |\n|---|---|\n| **Single Employer Plan**, including ROBS | May be processed under delegated authority. Subsequent contributions required under IRS and/or ERISA rules are permitted |\n| **Multiple-Employer Plan** (holds assets of other businesses in trust), including ROBS | May be processed under delegated authority. **Size standards and maximum SBA guaranty limits to a Borrower and its affiliates apply to the plan** |\n\n#### What the lender must do\n\n1. **Identify** in the SBA Loan System and the credit memo: the specific type of 401(k) plan, and, if applicable, that a ROBS plan is used for the equity contribution or another purpose (and specify that purpose).\n2. Obtain the **full unconditional guaranty of the plan sponsor(s)**, regardless of the sponsor's ownership percentage. It must be **secured** if SBA's collateral policies require it (7(a): Appendix 19; 504: Section C, Ch. 1, Para. E.2.a).\n3. Obtain plan documentation **with the application**:\n   - A **favorable IRS determination letter** (IRS Publication 794 explains its significance);\n   - For an existing plan, the **Annual Return/Report** (e.g., Form 5500 or 5500-EZ);\n   - For a ROBS plan: C corporation formation documents, 401(k) plan adoption documents, stock purchase documents, and related corporate resolutions.\n\n#### Restrictions\n\n- SBA loan proceeds may **not** pay any **401(k) plan formation costs**.\n- The application **cannot be structured as an EPC/OC** (13 CFR § 120.111(a)(6)): the 401(k) cannot guarantee under IRS rules, and the EPC rule requires every 20%+ owner to guarantee with no exception.\n- **Before any disbursement**, the lender obtains the **Borrower's certification** that the Borrower and plan comply with all IRS, Treasury, and DOL requirements and will comply with operating and reporting requirements.\n\n> **Watch out:** The sponsor guaranty is required \"regardless of the sponsor's individual ownership interest.\" In a ROBS deal the plan, not the individual, may own most of the stock, so the 20% test alone would miss the person who matters.",
+      "keyPoints": [
+        "Businesses owned by a 401(k)/ROBS plan may be eligible if the plan complies with IRS, Treasury, and DOL rules",
+        "Single and multiple-employer plans (including ROBS) may be processed under delegated authority",
+        "For multiple-employer plans, size standards and maximum guaranty limits apply to the plan",
+        "Plan sponsor(s) give a full unconditional guaranty regardless of ownership, secured if collateral policy requires",
+        "Required docs include a favorable IRS determination letter and, for existing plans, Form 5500/5500-EZ",
+        "No proceeds for plan formation costs; cannot be structured as EPC/OC",
+        "Borrower compliance certification required before any disbursement"
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Eligible Passive Company (EPC)",
+      "definition": "An entity that holds real or personal property and leases it to one or more Operating Companies; eligible for SBA financing only under the strict conditions of 13 CFR § 120.111."
+    },
+    {
+      "term": "Operating Company (OC)",
+      "definition": "The eligible small business that leases and occupies the property owned by the EPC and conducts the actual business operations."
+    },
+    {
+      "term": "Co-Borrower",
+      "definition": "A party that signs the Note jointly with the Borrower. The OC must be a Co-Borrower if it receives proceeds or proceeds buy assets for its use."
+    },
+    {
+      "term": "Tenancy in common",
+      "definition": "A form of legal ownership, not a separate legal entity. All co-tenants together are treated as one EPC and all must sign the loan documents."
+    },
+    {
+      "term": "Assignment of rents",
+      "definition": "Collateral the EPC (as landlord) must furnish, assigning all rents paid under the EPC-OC lease to secure the loan."
+    },
+    {
+      "term": "Trustor",
+      "definition": "The person who creates and funds a trust. The Trustor's eligibility determines the trust's eligibility, and the Trustor must personally guarantee. All donors are treated as Trustors."
+    },
+    {
+      "term": "Trustee",
+      "definition": "The person who administers the trust; executes guaranties on the trust's behalf and certifies authority, borrowing power, and the list of trustors and donors."
+    },
+    {
+      "term": "ESOP",
+      "definition": "Employee Stock Ownership Plan: a qualified employee trust meeting IRS, Treasury, and DOL requirements. SBA assists ESOPs through 7(a) loans only."
+    },
+    {
+      "term": "Cooperative",
+      "definition": "A member-owned business. Must meet normal SBA eligibility and have at least one guarantor; 7(a) may finance its purchase of 51% or more of the employer business."
+    },
+    {
+      "term": "ROBS",
+      "definition": "Rollovers as Business Start-ups: a structure where a C corporation's 401(k) plan, funded with rolled-over retirement savings, buys the corporation's stock."
+    },
+    {
+      "term": "Single Employer Plan",
+      "definition": "A 401(k) plan (including ROBS) sponsored by one employer; loans to businesses it owns may be processed under delegated authority."
+    },
+    {
+      "term": "Multiple-Employer Plan",
+      "definition": "A 401(k) plan holding in trust the assets of other businesses; size standards and maximum guaranty limits apply to the plan."
+    },
+    {
+      "term": "Favorable determination letter",
+      "definition": "An IRS letter giving advance assurance that a 401(k) plan's terms satisfy qualification requirements; required with the application."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "a2-q1",
+      "difficulty": "basic",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 2, Para. A",
+      "question": "An EPC wants to use SBA proceeds to buy out one of its existing owners. What is the minimum time the selling owner must have held the real estate?",
+      "options": [
+        "12 months",
+        "24 months",
+        "36 months",
+        "60 months"
+      ],
+      "correctIndex": 2,
+      "explanation": "An EPC may finance a change of ownership between its existing owners only when the selling owner(s) have held the property for at least 36 months. Shorter periods such as 12 or 24 months do not satisfy the rule."
+    },
+    {
+      "id": "a2-q2",
+      "difficulty": "applied",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 2, Para. A.1",
+      "question": "Which EPC-to-OC lease provision complies with the SOP?",
+      "options": [
+        "Rent set at 120% of the loan payment so the EPC builds a reserve",
+        "A lease subordinated to SBA's lien, with a term including OC-only renewal options at least equal to the loan term",
+        "A month-to-month lease, because the EPC and OC have common owners",
+        "A Landlord's Waiver used in place of lease subordination"
+      ],
+      "correctIndex": 1,
+      "explanation": "The lease must be written, subordinated to SBA's lien, and run at least the loan term counting options exercisable solely by the OC. Rent may not exceed the loan payment plus direct holding costs, so a built-in reserve fails. The SOP states subordination is not the same as a Landlord's Waiver."
+    },
+    {
+      "id": "a2-q3",
+      "difficulty": "scenario",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 2, Para. A",
+      "question": "Smith Properties LLC (EPC) owns two buildings. It wants to lease Building 1 to Smith Bakery Inc. and Building 2 to an unrelated Jones Florist Inc., and finance both with one SBA loan. Is this permissible?",
+      "options": [
+        "Yes, multiple separately owned OCs may participate in one EPC structure",
+        "Yes, as long as each OC is small under its own NAICS code",
+        "No, an EPC may own only one property",
+        "No, with multiple OCs the same OCs must jointly occupy each property"
+      ],
+      "correctIndex": 3,
+      "explanation": "An EPC may own several properties leased to the same OC(s), but with multiple OCs, the same OCs with the same ownership must jointly occupy each property. One OC in one building and another OC in the other is not permitted. Separately owned OCs may participate, but only by jointly occupying every property."
+    },
+    {
+      "id": "a2-q4",
+      "difficulty": "applied",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 2, Para. A.1",
+      "question": "In an EPC/OC 7(a) loan, the OC will receive $150,000 of working capital. What role must the OC play on the loan?",
+      "options": [
+        "Co-Borrower",
+        "Guarantor only",
+        "No role; only the EPC signs",
+        "Limited guarantor under SBA Form 148L"
+      ],
+      "correctIndex": 0,
+      "explanation": "The OC must be a guarantor or Co-Borrower in every EPC loan, but it must be a Co-Borrower if it receives any proceeds or proceeds buy assets for its use. Being only a guarantor is not enough when the OC receives working capital."
+    },
+    {
+      "id": "a2-q5",
+      "difficulty": "basic",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 2, Para. A.1",
+      "question": "How does a loan to an EPC count against SBA loan limits?",
+      "options": [
+        "Only against the EPC's limit",
+        "Only against the OC's limit",
+        "Against the limit of both the EPC and the OC",
+        "Split 50/50 between the EPC and the OC"
+      ],
+      "correctIndex": 2,
+      "explanation": "The SOP states that the amount of any loan received by an EPC applies to the loan limit of both the EPC and the OC. Counting it only against one entity would let the structure be used to exceed limits."
+    },
+    {
+      "id": "a2-q6",
+      "difficulty": "scenario",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 2, Para. A.3",
+      "question": "An EPC and its single OC have the same owners and are affiliated. The OC is a restaurant. How is size determined?",
+      "options": [
+        "The EPC and OC are each measured separately under their own NAICS codes",
+        "The EPC and OC are combined and measured using the OC's NAICS code",
+        "Only the EPC is measured, using a real estate NAICS code",
+        "Size is not tested for EPC transactions"
+      ],
+      "correctIndex": 1,
+      "explanation": "If the EPC and OC are affiliated, they are combined for size, and with only one OC the OC's NAICS code is used. Separate measurement applies only when the EPC and OC are not affiliated."
+    },
+    {
+      "id": "a2-q7",
+      "difficulty": "applied",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 2, Para. A.2",
+      "question": "A revocable family trust owns 100% of an EPC. Which statement is correct?",
+      "options": [
+        "The trust must be small under SBA size standards",
+        "Only the Trustee must guarantee; the Trustor is exempt",
+        "The Trustee must certify the trust will not be revoked or substantially amended during the loan term without SBA's prior written consent",
+        "Donors to the trust are disregarded for eligibility"
+      ],
+      "correctIndex": 2,
+      "explanation": "For trust-owned EPCs, the Trustee must warrant and certify the trust will not be revoked or substantially amended for the loan term without SBA's prior written consent. The trust itself does not have to be small, the Trustor must personally guarantee, and all donors are deemed Trustors."
+    },
+    {
+      "id": "a2-q8",
+      "difficulty": "basic",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 2, Para. B",
+      "question": "Which statement about ESOP financing is correct?",
+      "options": [
+        "ESOP loans are available under both 7(a) and 504",
+        "Costs of setting up the ESOP may be included in the use of proceeds",
+        "The ESOP must provide an unlimited guaranty",
+        "ESOP loans are 7(a) only, and the employer small business must be a Co-Borrower on a loan to the ESOP"
+      ],
+      "correctIndex": 3,
+      "explanation": "ESOP financing is for 7(a) loans only, and when the loan is to the ESOP the small business must be a Co-Borrower. ESOP set-up costs cannot be financed, and the IRS prohibits ESOPs from guaranteeing loans."
+    },
+    {
+      "id": "a2-q9",
+      "difficulty": "scenario",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 2, Para. B",
+      "question": "An ESOP is buying 60% of Acme Machining. The founder will keep 10% after the sale. What guaranty does the founder owe?",
+      "options": [
+        "A full, unlimited guarantee, because a selling owner who remains a partial owner must guarantee regardless of percentage",
+        "None, because the founder owns less than 20%",
+        "A limited guaranty only for two years after the sale",
+        "None, because ESOP transactions are exempt from guaranty requirements"
+      ],
+      "correctIndex": 0,
+      "explanation": "If the seller remains a partial owner, the seller must provide a full, unlimited guarantee regardless of ownership percentage. This is statutory and cannot be waived, so the 20% threshold does not apply. The ESOP itself is exempt from guaranteeing, not the seller."
+    },
+    {
+      "id": "a2-q10",
+      "difficulty": "applied",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 2, Para. B",
+      "question": "For a 7(a) loan to an ESOP to buy 51% of the employer, which statement is correct?",
+      "options": [
+        "A 10% equity injection is required",
+        "The lender may use the ESOP's ERISA-compliant valuation instead of an independent business valuation",
+        "SBA reviews the ESOP for IRS and DOL compliance on non-delegated loans",
+        "The deal may be structured as an EPC/OC to hold the real estate"
+      ],
+      "correctIndex": 1,
+      "explanation": "An independent business valuation is not required; the lender may use the ESOP valuation made under ERISA specifications. Such loans are not subject to equity injection, SBA does not review other-agency compliance even on non-delegated loans, and ESOP deals cannot be EPC/OC."
+    },
+    {
+      "id": "a2-q11",
+      "difficulty": "basic",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 2, Para. C",
+      "question": "What is the minimum guaranty requirement for a loan to a cooperative?",
+      "options": [
+        "Every member must guarantee",
+        "No guaranty is required for cooperatives",
+        "At least one individual or entity must guarantee",
+        "Only members owning 51% or more must guarantee"
+      ],
+      "correctIndex": 2,
+      "explanation": "Each loan to a cooperative must be guaranteed by at least one individual or entity, consistent with Ch. 5, Para. A. There is no blanket exemption and no requirement for every member to guarantee."
+    },
+    {
+      "id": "a2-q12",
+      "difficulty": "scenario",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 2, Para. D",
+      "question": "Maria used a ROBS plan to capitalize her new C corporation. The 401(k) plan owns 95% of the stock and Maria owns 5% directly; she is the plan sponsor. What guaranty is required from Maria?",
+      "options": [
+        "None, because she owns less than 20% directly",
+        "A limited guaranty equal to her 5% interest",
+        "A guaranty from the 401(k) plan instead of Maria",
+        "A full unconditional guaranty as plan sponsor, regardless of her ownership interest"
+      ],
+      "correctIndex": 3,
+      "explanation": "The lender must obtain the full unconditional guaranty of the 401(k) plan sponsor(s) regardless of the sponsor's individual ownership interest, secured if collateral policy requires. Under IRS rules the plan itself cannot guarantee."
+    },
+    {
+      "id": "a2-q13",
+      "difficulty": "applied",
+      "sopRef": "SOP 50 10 8.1, Section A, Ch. 2, Para. D",
+      "question": "Which use of proceeds or structure is allowed for a business owned by a ROBS plan?",
+      "options": [
+        "Processing under the lender's delegated authority",
+        "Paying the 401(k) plan formation costs",
+        "Structuring the loan as an EPC/OC",
+        "Skipping the IRS determination letter if the plan is new"
+      ],
+      "correctIndex": 0,
+      "explanation": "Single-employer and multiple-employer plans, including ROBS, may be processed under delegated authority. Proceeds may not pay plan formation costs, the application cannot be structured as EPC/OC, and a favorable IRS determination letter is required with the application."
+    }
+  ]
+}

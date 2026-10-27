@@ -1,0 +1,424 @@
+{
+  "id": "b2-7a-small-and-sba-express",
+  "order": 220,
+  "part": "B",
+  "program": "7a",
+  "title": "7(a) Small and SBA Express",
+  "subtitle": "Chapter 2: limits, rate caps, processing, Express lines and the streamlined underwriting rules for smaller 7(a) loans",
+  "sopRef": "SOP 50 10 8.1, Section B, Ch. 2",
+  "estimatedMinutes": 55,
+  "learningObjectives": [
+    "Distinguish 7(a) Small from SBA Express by size, structure and processing authority",
+    "Apply the $350,000 per-project and $500,000 aggregate Express limits, including affiliates and legacy programs",
+    "Explain the change of ownership modifications that apply to these products",
+    "Use the Express refinancing options and non-financial default rules correctly",
+    "Underwrite a 7(a) Small loan using the 1.10 DSC, statement dating and bank statement rules",
+    "Describe what SBA Express leaves to Lender judgment and what remains mandatory"
+  ],
+  "topics": [
+    {
+      "id": "b2-two-products",
+      "title": "Two streamlined products: 7(a) Small and SBA Express",
+      "body": "Chapter 2 covers the two 7(a) products built for smaller, simpler loans. They share a chapter because both lean heavily on the Lender's own commercial lending practices, but they are not the same thing.\n\n| | 7(a) Small | SBA Express |\n|---|---|---|\n| Size | **$350,000 or less** | **$500,000 or less** |\n| Structure | **Term (non-revolving)** loans only | Term loans or revolving lines of credit |\n| Who can make it | Any 7(a) Lender, non-delegated or PLP | **Only a Lender with SBA Express authority** |\n| Processing | Non-delegated (LGPC) or PLP | **Only** under the Lender's SBA Express delegated authority |\n| Excludes | Standard 7(a), SBA Express, Export Express, CAPLines, EWCP, Pilot loans | - |\n\n**SBA Express Lenders may not ask SBA's LGPC to process an Express loan under non-delegated authority.** If an Express Lender wants SBA to review a deal before approval, it has to use a different product.\n\n#### Where SBA Express comes from\n\nSBA Express was made a **permanent** SBA program by **P.L. 108-447, signed December 8, 2004**. Its purpose is to:\n\n- reduce government-mandated forms and procedures,\n- streamline processing, and\n- reduce the cost of smaller, less complex SBA loans,\n\nby letting Lenders use, to the maximum extent practicable, **their own loan analyses, procedures and documentation**.\n\n#### The \"similarly-sized, non-SBA\" yardstick\n\nFor both products, the Lender may use its own forms, internal credit memos, notes, collateral documents and servicing and liquidation documentation to the maximum extent practicable. In return, it **must follow the same established and proven internal procedures it uses for its similarly-sized, non-SBA guaranteed commercial loans**. That phrase appears again and again in this chapter. It means SBA will judge the Lender against its own conventional practice: a Lender cannot cut corners on an SBA loan that it would not cut on its own loan.\n\n> **Watch out:** Streamlined does not mean exempt. The Core Requirements in Section A still apply in full, including eligibility, credit elsewhere and fee rules.\n\n> **In practice:** A $300,000 term loan could be a 7(a) Small loan or an SBA Express loan. Lenders often choose based on guaranty percentage, rate, processing authority and how much SBA-specific underwriting they want to do. The guaranty percentages are in Appendix 16, Para. B.2.",
+      "keyPoints": [
+        "7(a) Small = term (non-revolving) 7(a) loans of $350,000 or less",
+        "SBA Express = loans of $500,000 or less made only by Lenders with SBA Express authority",
+        "SBA Express loans may not be processed non-delegated by the LGPC",
+        "SBA Express became permanent under P.L. 108-447, signed December 8, 2004",
+        "Lenders may use their own forms and procedures but must follow those used for similarly-sized, non-SBA guaranteed commercial loans"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 2, Introduction and Para. C"
+    },
+    {
+      "id": "b2-uses-and-change-of-ownership",
+      "title": "Uses of proceeds and change of ownership modifications",
+      "body": "#### Eligible uses\n\n7(a) Small and SBA Express loans must comply with all SBA Loan Program Requirements, including the Core Requirements in Section A. Proceeds must be used **exclusively for business-related purposes**, subject to **13 CFR 120.120** and **120.130**. In addition to the Core uses, proceeds may be used for:\n\n- **Debt refinancing** - Appendix 14, Para. B.2 (the 7(a) Small and Express rules).\n- **Changes of ownership** - Appendix 15.\n\n#### Changes of ownership: what is different for 7(a) Small and Express\n\nAppendix 15 holds the full rulebook for change of ownership financing: transaction types, eligibility, valuation, equity injection, DSC, collateral and documentation. Chapter 2 summarizes only the points that differ for these two products:\n\n| Appendix 15 requirement | Modification for 7(a) Small and SBA Express |\n|---|---|\n| **Business valuation** | An **internal business valuation** may be used at the Lender's discretion when the **Business Purchase Price is $350,000 or less** (instead of the independent valuation Appendix 15 otherwise requires based on transaction size and structure) |\n| **Debt service coverage** | **No change.** All Appendix 15 DSC requirements apply, including the minimum DSC and required cash flow analysis. There is no reduced DSC just because the loan is 7(a) Small or Express |\n| **Fully secured test** | The loan must meet Appendix 15's fully secured definition, but the Lender is **not required to include other held commercial real estate** of the borrower or guarantors when determining whether the loan is fully secured |\n| **Everything else** | All other Appendix 15 requirements still apply unless Appendix 15 expressly says otherwise |\n\n> **Watch out:** The internal valuation relief is tied to the **purchase price**, not the loan amount. A $300,000 Express loan financing part of a $600,000 acquisition does not qualify for an internal valuation.\n\n> **Watch out:** The 1.10 DSC used for 7(a) Small loans applies only to purposes **other than** changes of ownership. A change of ownership financed with a 7(a) Small loan follows Appendix 15's DSC rules.\n\n> **In practice:** In loan software, the change of ownership flag on a 7(a) Small or Express loan should switch the DSC method to the Appendix 15 rules and unlock the internal valuation option only when the purchase price is $350,000 or less.",
+      "keyPoints": [
+        "Proceeds must be used exclusively for business purposes, subject to 13 CFR 120.120 and 120.130",
+        "Debt refinancing for these products: Appendix 14, Para. B.2",
+        "Internal business valuation is allowed at Lender discretion when the Business Purchase Price is $350,000 or less",
+        "No reduced DSC standard for change of ownership just because the loan is 7(a) Small or Express",
+        "Fully secured test need not include other commercial real estate held by borrower or guarantors"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 2, Para. A"
+    },
+    {
+      "id": "b2-loan-amounts",
+      "title": "Maximum loan amounts and how they aggregate",
+      "body": "Lenders must comply with Section A, Ch. 4, Para. C (7(a) Loan Program Fees) and Para. D (7(a) Loan Program and Use of Agents). Within that framework, the size limits for these two products work differently.\n\n#### 7(a) Small: per project\n\n- Maximum **$350,000 per project**, **including other 7(a) loans made within 90 days**.\n- A 7(a) Small loan may only be **increased up to $350,000**. If it is increased above $350,000, it **becomes a Standard 7(a) loan** and must follow Chapter 1.\n\n#### SBA Express: aggregate\n\n- The maximum **aggregate** SBA Express amount is **$500,000 (gross)**.\n- The aggregate includes **all outstanding SBA Express, Community Advantage Pilot, Community Express, and Patriot Express loans** the Applicant and its Affiliates may have.\n- **7(a) Small loans are not included** in this limit.\n- For **Community Advantage Small Business Lending Companies (CA SBLCs)**, the maximum to any one Borrower is **$350,000**.\n\n#### Affiliates\n\nUnder **13 CFR 120.151**, Lenders must determine whether the Applicant has affiliates and document the result. If affiliation exists, SBA's maximums apply to the Applicant and all Affiliates as a single business.\n\n#### Examples\n\n| Situation | Result |\n|---|---|\n| Applicant has an outstanding $200,000 SBA Express line; requests a new Express term loan | New Express loan can be at most $300,000 (aggregate $500,000) |\n| Applicant's affiliate has a $150,000 Community Advantage Pilot loan outstanding | That $150,000 counts against the $500,000 Express aggregate |\n| Applicant has a $250,000 7(a) Small loan; requests an Express loan | The 7(a) Small loan does not count against the Express aggregate |\n| 7(a) Small loan of $300,000 approved; 45 days later another 7(a) loan of $100,000 for the same project | Combined $400,000 exceeds $350,000 per project, so it cannot all be 7(a) Small |\n\n> **Watch out:** \"Gross\" means the limit is measured on loan amounts, not on the guaranteed portion.\n\n> **In practice:** Exposure checks for Express need to pull legacy products (Community Express, Patriot Express, Community Advantage Pilot) for the Applicant and every affiliate. These old programs are easy to miss.",
+      "keyPoints": [
+        "7(a) Small maximum: $350,000 per project, including other 7(a) loans made within 90 days",
+        "A 7(a) Small loan increased above $350,000 becomes a Standard 7(a) loan",
+        "SBA Express aggregate maximum: $500,000 gross, including outstanding Express, CA Pilot, Community Express and Patriot Express loans of Applicant and Affiliates",
+        "7(a) Small loans do not count toward the SBA Express limit",
+        "CA SBLCs are limited to $350,000 to any one Borrower"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 2, Para. B.1"
+    },
+    {
+      "id": "b2-express-lines-and-refinancing",
+      "title": "Maturities, Express lines of credit and refinancing an Express loan",
+      "body": "#### Where maturities live\n\nMaximum maturities for these products are in **Appendix 17, Para. B.2 (7(a) Small)** and **Para. B.3 (SBA Express lines of credit)**. Maximum guaranty percentages are in **Appendix 16, Para. B.2**.\n\n#### Refinancing an SBA Express loan with a new SBA Express loan\n\nLenders may issue a **new SBA Express loan to refinance a current SBA Express loan at any point before amortizing payments begin**. The SOP gives two options:\n\n| | Option 1 - Line Retention | Option 2 - Extended Amortization |\n|---|---|---|\n| Purpose | Restart the revolving period so the Borrower keeps the line | Convert the balance into a longer term-out |\n| Key requirement | The credit memo must **address overall line utilization** and **justify why the line needs to be retained** | The new loan's term may **not exceed 10 years** |\n| Revolving period | Restarted | **Not allowed** - the new Express loan may not have a revolving period |\n| Effect on term | - | May set an amortization term longer than the initial repayment term of the original Express loan |\n\n#### How to think about it\n\nAn SBA Express line of credit has a revolving period followed by an amortization (term-out) period. Before term-out begins, the Lender has a decision point:\n\n- If the Borrower actively uses the line and still needs revolving credit, **Option 1** lets the Lender issue a new Express loan that restarts the revolving period, but only with a documented analysis of utilization.\n- If the Borrower has a balance it will not pay down soon, **Option 2** lets the Lender refinance it into a term loan of up to 10 years, which can lower the payment.\n\n> **Watch out:** Both options are available only **before amortizing payments begin** on the existing Express loan. Once term-out has started, these refinance options are no longer available.\n\n> **Watch out:** Under Option 2 the new loan cannot revolve. A Lender cannot both extend the amortization and keep a revolving feature.\n\n> **In practice:** A line sitting at 5% utilization for two years is hard to justify retaining under Option 1. A line consistently drawn and repaid within each year is easy to justify.",
+      "keyPoints": [
+        "Maturity rules: Appendix 17, Para. B.2 (7(a) Small) and B.3 (Express lines of credit); guaranty: Appendix 16, Para. B.2",
+        "A new Express loan may refinance a current Express loan at any point before amortizing payments begin",
+        "Option 1 Line Retention: credit memo must address line utilization and justify keeping the line",
+        "Option 2 Extended Amortization: term may not exceed 10 years and the new loan may not revolve"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 2, Para. B.3"
+    },
+    {
+      "id": "b2-nonfinancial-default",
+      "title": "SBA Express non-financial default provisions",
+      "body": "A **non-financial default provision** is a loan condition that, if violated, puts the loan in default **even though the Borrower has made all payments as agreed**. Examples might include breaching a financial covenant or failing to deliver financial statements. Under SBA Express, these provisions are allowed only under these conditions:\n\n1. **Definition:** they are loan conditions whose violation causes default even though all payments are current.\n2. **Substantive and agreed in writing:** the provisions must be substantive and must be agreed to by the Borrower **in writing at loan closing**.\n3. **Consistent with the Lender's own practice:** they must be consistent with those the Lender uses on its **similarly-sized, non-SBA guaranteed commercial loans**.\n4. **No purchase based solely on them:** a Lender **may not request purchase of the guaranty solely** because of a violation of a non-financial default provision (13 CFR 120.520).\n5. **A maturity date is required:** the note must establish a maturity date. For example, a line of credit may say it is payable on demand under certain conditions, **but in no case later than a certain date**.\n\n#### Why these rules exist\n\nExpress Lenders often want the same covenant package they use on conventional lines of credit. SBA permits that, but it does not want the guaranty used as a backstop for a technical default. So the Lender can use the provisions to manage the relationship, but the guaranty is triggered only by more than a non-financial violation alone.\n\n> **Watch out:** A \"payable on demand\" line with no outside maturity date does not comply. There must always be a stated date by which the loan is due.\n\n> **Watch out:** Provisions added only to SBA loans, and not used on the Lender's comparable conventional loans, fail the consistency test.\n\n> **In practice:** When a Borrower trips a covenant but keeps paying, the Lender may call a default under its documents, but it cannot send the loan to SBA for purchase on that basis alone.",
+      "keyPoints": [
+        "Non-financial default provisions cause default even when all payments are made as agreed",
+        "They must be substantive and agreed to by the Borrower in writing at closing",
+        "They must match those used on the Lender's similarly-sized, non-SBA guaranteed commercial loans",
+        "A Lender may not request guaranty purchase solely for a non-financial default violation (13 CFR 120.520)",
+        "The note must establish a maturity date, even for a demand line of credit"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 2, Para. B.4"
+    },
+    {
+      "id": "b2-interest-rates",
+      "title": "Maximum interest rates for 7(a) Small and SBA Express",
+      "body": "Interest rate requirements are detailed in **Appendix 18, Para. B.2 (7(a) Small) and B.3 (SBA Express)**. Chapter 2 includes a quick reference chart.\n\n- **Fixed rates:** the maximum allowable fixed rate is published on SBA's Wiki page.\n- **Variable rates:** the cap is a spread over **Prime or the SBA Optional Peg Rate**:\n\n| Loan amount | Maximum variable rate |\n|---|---|\n| $50,000 or less | Base + 6.5% |\n| $50,001 up to and including $250,000 | Base + 6.0% |\n| $250,001 up to and including $350,000 | Base + 4.5% |\n| SBA Express loans $350,001 up to and including $500,000 | Base + 3.0% |\n\n#### How to read the chart\n\n- The first three tiers apply to both 7(a) Small and SBA Express loans.\n- The last tier exists only for **SBA Express**, because 7(a) Small loans cannot exceed $350,000.\n- The tiers match the Standard 7(a) chart, so a $400,000 Express loan and a $400,000 Standard 7(a) loan share the same base + 3.0% cap.\n\n#### Examples\n\n| Loan | Cap |\n|---|---|\n| $45,000 SBA Express line | Base + 6.5% |\n| $150,000 7(a) Small term loan | Base + 6.0% |\n| $300,000 7(a) Small term loan | Base + 4.5% |\n| $480,000 SBA Express loan | Base + 3.0% |\n\n> **Watch out:** The boundaries are inclusive at the top of each tier. A loan of exactly $250,000 is in the base + 6.0% tier, and a loan of exactly $350,000 is in the base + 4.5% tier.\n\n> **In practice:** A loan increase can change the tier. If a $240,000 Express loan is increased to $260,000, the maximum spread drops from 6.0% to 4.5%, which the rate on the increased loan must respect.",
+      "keyPoints": [
+        "Maximum fixed rate is published on SBA's Wiki page",
+        "$50,000 or less: base + 6.5%; $50,001-$250,000: base + 6.0%; $250,001-$350,000: base + 4.5%",
+        "SBA Express $350,001-$500,000: base + 3.0%",
+        "Base rate is Prime or the SBA Optional Peg Rate; details in Appendix 18, Para. B.2-B.3"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 2, Para. B.5"
+    },
+    {
+      "id": "b2-credit-standards-processing",
+      "title": "Credit standards and processing methods",
+      "body": "The credit standards for these products start in the same place as Standard 7(a): **13 CFR 120.101 and 120.150**, a **commercially reasonable** analysis consistent with prudent lending standards, and the principle that **business cash flow is the primary source of repayment**. If the analysis shows no reasonable assurance of timely repayment from cash flow, the loan **must be declined** regardless of collateral or outside sources of repayment.\n\nWhat is different is how much the Lender may rely on its own tools: to the maximum extent practicable, Lenders may use **their own forms, internal credit memoranda, notes, collateral documents, and servicing and liquidation documentation**, following their established procedures for similarly-sized, non-SBA guaranteed commercial loans.\n\n#### Processing methods\n\n| Product | Allowed methods | What SBA reviews before issuing a loan number |\n|---|---|---|\n| 7(a) Small | **Non-delegated** (submit application and supporting documents to SBA) or **PLP** | Non-delegated: SBA reviews the application. PLP: SBA does not review credit or structure first |\n| SBA Express | **Only** the Lender's SBA Express **delegated** authority | Nothing: SBA does not review the credit or structure before issuing the SBA Loan Number |\n\nFor both PLP and SBA Express delegated loans:\n\n- The Lender must analyze creditworthiness under SBA Loan Program Requirements and properly document its file.\n- SBA reviews the analysis for adequacy **when the Lender requests guaranty purchase** or **during lender oversight activities**.\n\n#### Size boundaries during underwriting\n\n- A **7(a) Small loan may only be increased up to $350,000**. If increased above that, it becomes a **Standard 7(a)** loan and must follow Chapter 1.\n- **SBA Express loans may not exceed $500,000.**\n\n> **Watch out:** Because SBA Express is delegated-only, there is no route to get SBA's credit sign-off before closing. The Lender's file has to stand on its own when SBA reviews it at purchase.",
+      "keyPoints": [
+        "Credit standards start with 13 CFR 120.101 and 120.150; cash flow is the primary repayment source",
+        "Lenders may use their own credit memos, notes and collateral documents, following their non-SBA procedures",
+        "7(a) Small may be processed non-delegated or PLP",
+        "SBA Express is processed only under the Lender's SBA Express delegated authority",
+        "7(a) Small increased above $350,000 becomes Standard 7(a); Express may not exceed $500,000"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 2, Para. C.1"
+    },
+    {
+      "id": "b2-small-credit-history",
+      "title": "Underwriting 7(a) Small loans: the credit memo and credit history",
+      "body": "For 7(a) Small loans, the Lender must use **appropriate, prudent and generally accepted industry credit analysis processes**, consistent with those used for its similarly-sized, non-SBA guaranteed commercial loans, to determine **Credit History** and **Repayment Ability**. These may include **credit scoring models permitted by the Lender's primary Federal regulator**.\n\n#### What the credit memo must include\n\nBesides summarizing the operating business, ownership and loan request, the memo must **state why credit is not available elsewhere** and cover:\n\n1. Credit History\n2. Repayment Ability\n3. Insurance\n4. Other loan specifics (collateral, working capital, seller financing, and so on)\n\n#### Credit History requirements\n\n- Analyze the credit history of the **Applicant (and Operating Company, if applicable), its Associates, and guarantors**.\n- Review and analyze the personal credit reports of owners and Guarantors and discuss any credit issues.\n- For **non-delegated** loans, include a copy of the credit report **dated within 90 days** with the documents submitted in E-Tran.\n- A Lender may use a **scoring model that combines the Applicant and guarantors** if:\n  - its primary Federal regulator permits it,\n  - it is used for the Lender's similarly-sized, non-SBA guaranteed loans, and\n  - it **does not rely solely on consumer credit scores**.\n- Document the results in the credit memo. If a scoring model is used, state the **result (for example the score) and the acceptable approval range**.\n- An **SBLC** may use credit scoring. If it does, SBA may ask it to periodically provide the model for review.\n\n> **Watch out:** A model built only on the owners' FICO scores is not acceptable. The model must bring in more than consumer credit scores.\n\n> **In practice:** \"Score 212, approval range 180 and above\" is the kind of statement the memo needs. A score without the approval range does not show how the decision was made.",
+      "keyPoints": [
+        "Use prudent, generally accepted credit analysis consistent with the Lender's similarly-sized, non-SBA commercial loans",
+        "The credit memo must state why credit is not available elsewhere",
+        "Analyze credit history of the Applicant, Operating Company, Associates and guarantors",
+        "Non-delegated: include a credit report dated within 90 days",
+        "Scoring models must be regulator-permitted, used on non-SBA loans, and not rely solely on consumer scores",
+        "If scoring is used, the memo must state the score and the acceptable approval range"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 2, Para. C.2.a"
+    },
+    {
+      "id": "b2-small-repayment-ability",
+      "title": "Underwriting 7(a) Small loans: repayment ability and the 1.10 DSC",
+      "body": "Repayment Ability for a 7(a) Small loan means analyzing the Applicant's (and Operating Company's, if applicable) debt service coverage and, if applicable, projected earnings and assumptions.\n\n#### The DSC rule\n\n- For 7(a) Small loans **for purposes other than Changes of Ownership**, DSC must be **1.10:1 or greater** on either a historical or projected basis.\n- **DSC = Operating Cash Flow (OCF) / Debt Service (DS).**\n  - **OCF** = EBITDA. Additions and subtractions may be made using the Standard 7(a) rules in Section B, Ch. 1, Para. C.2.a.\n  - **DS** = future required principal and interest payments on all business debt, including the new SBA loan.\n- The Lender must obtain, analyze and retain the financial statements and projections needed to calculate DSC.\n\n#### Three ways to calculate DSC\n\n| Method | Requirement |\n|---|---|\n| **Last year-end statement** (tax return, internal, or accountant-prepared) | Must be dated and received **within 120 days of year end** |\n| **Last year-end plus interim** | DSC is calculated on year-end; the interim confirms **no decline** in financial condition. Interim must be dated **within 120 days of submission to SBA** |\n| **12-month projections** with supporting assumptions | Must show DSC of **1.10:1 within one year of loan funding**. **Not available for changes of ownership**, which follow Appendix 15 |\n\n#### Bank statements\n\n- The Lender must obtain and analyze the **two most recent months** of commercial bank activity or statements, from the time of application, for the **primary operating account**, and keep them in the credit file.\n- The purpose is to **confirm that all commercial debts and obligations** were included in the DSC calculation.\n- **Exception:** not required if the Applicant is **not currently in operation and has no commercial debts or obligations**.\n\n#### When the test is satisfied, and when it is not\n\n- If the Lender has an acceptable DSC **and** has reviewed two months of bank activity, the Repayment Ability requirement is **satisfied**.\n- If the Applicant does **not** meet the required DSC, the loan **must be processed under Standard 7(a) or SBA Express** procedures instead.\n\n> **Watch out:** Failing the 1.10 test does not automatically mean decline. It means the loan cannot be a 7(a) Small loan, and the Lender must underwrite it under Standard 7(a) (Chapter 1) or SBA Express.\n\n> **In practice:** Bank statements catch debts that never show up on the Applicant's debt schedule, such as merchant cash advances pulled by daily ACH.",
+      "keyPoints": [
+        "7(a) Small DSC (non-change of ownership) must be at least 1.10:1, historical or projected",
+        "DSC = OCF (EBITDA, with Ch. 1 adjustments) / DS (all business debt including the new loan)",
+        "Year-end statements must be dated and received within 120 days of year end; interims dated within 120 days of submission",
+        "12-month projections must show 1.10:1 within one year of funding; not allowed for changes of ownership",
+        "Review the two most recent months of primary operating account statements to confirm all debts (unless not in operation with no debts)",
+        "If DSC is not met, process under Standard 7(a) or SBA Express"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 2, Para. C.2.a"
+    },
+    {
+      "id": "b2-small-other-items-equity",
+      "title": "Underwriting 7(a) Small loans: insurance, other specifics and equity",
+      "body": "#### Insurance\n\nThe Lender must address whether **life insurance or other insurance** (other than hazard) will be required. For insurance other than hazard, it may follow the same written policies it uses for similarly-sized, non-SBA guaranteed commercial loans. **Hazard insurance is required** under Section A, Ch. 5, Para. C.1.\n\n#### Other specifics the memo must address (as applicable)\n\n1. A description of any **proposed collateral and its estimated value**.\n2. For loans **greater than $50,000**, when **50 percent or more** of proceeds are for **working capital**, an explanation of why that level is necessary and appropriate.\n3. The terms of any **seller financing and standby agreements**.\n4. Any **liens, judgments, or pending litigation**, including divorce proceedings.\n5. **Franchises** (as defined by the FTC): review credit information provided, such as the number of failed franchisees and franchisor cash flow projections. Review any **management agreement** for an ineligible passive company (unless it is part of the franchise disclosure documents for a Franchise Directory brand).\n6. Any **debt refinancing**, including justification and original purpose. **Copies of all notes to be refinanced** must be submitted with any loan submitted to the **LGPC**.\n7. The effect of any **affiliates** on repayment ability.\n\n#### Equity requirements\n\n- The credit analysis must include a **detailed discussion of the required equity and its adequacy**. Documentation and verification are covered in Section B, Ch. 6, Para. D.3.f.\n- **Start-ups** (in operation, generating revenue from intended operations, for **1 year or less**) need an injection of **at least 10% of total project costs** (all costs to become operational, regardless of source, **except lines of credit and 504 loans**). Loans approved **more than 90 days apart** are separate projects.\n- **Changes of ownership** follow Appendix 15.\n\n#### Sources of equity\n\nThe acceptable sources are the same as for Standard 7(a):\n\n- Debt on **full standby** (no principal or interest for the term of the 7(a) loan), documented with **SBA Form 155** or equivalent with the note attached; standby creditor subordinates liens and takes no action without the Lender's consent.\n- Cash that is **not borrowed** (including gifts).\n- **Personal loan** cash repaid from a source other than business cash flow (owner salary from the business does not qualify).\n- **Grants** with no repayment or clawback during the life of the 7(a) loan.\n- **Non-cash assets**, with an independent third-party valuation if valued above net book value (a business valuation does not count).\n- **Verified prepaid expenses** (not education, advisory services, or fees paid to an Agent).\n- **Equity investments** not subject to repayment before the guaranty is released (redeemable investments are treated as debt).\n\n> **Watch out:** The working capital explanation for 7(a) Small loans only kicks in for loans **greater than $50,000**. Standard 7(a) has no such floor.",
+      "keyPoints": [
+        "Hazard insurance is required (Section A, Ch. 5, Para. C.1); other insurance may follow the Lender's non-SBA policies",
+        "Loans over $50,000 with 50% or more working capital need an explanation in the memo",
+        "Copies of all notes to be refinanced must be submitted with any loan sent to the LGPC",
+        "Start-ups need at least a 10% injection of total project costs (excluding lines of credit and 504 loans)",
+        "Equity sources mirror Standard 7(a): full standby debt, unborrowed cash, qualifying personal loans, grants, valued assets, verified prepaids, non-redeemable equity"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 2, Para. C.2.a"
+    },
+    {
+      "id": "b2-express-underwriting",
+      "title": "Underwriting SBA Express loans",
+      "body": "SBA has authorized SBA Express Lenders to **make the credit decision without prior SBA review**. That freedom comes with a short list of firm requirements.\n\n#### Core requirements\n\n1. **Prudent, consistent analysis.** Use appropriate, prudent and generally accepted industry credit analysis processes and procedures (which may include credit scoring), consistent with the Lender's similarly-sized, non-SBA guaranteed commercial loans. Section A requirements apply.\n2. **Credit elsewhere.** Lenders **must not** make an SBA Express loan that would be available on reasonable commercial terms from **the Lender itself or another source** without a guaranty. The analysis must document the factors showing credit is not available elsewhere from non-Federal, non-State, non-local government sources (Section A, Ch. 1, Para. H).\n3. **Reasonable assurance of repayment** must be demonstrated.\n\n#### Business credit scoring\n\nLenders may use a **business credit scoring model** to assess character, reputation, credit history and/or repayment ability, if they do so for their similarly-sized, non-SBA guaranteed commercial loans. Rules:\n\n- The model **cannot rely solely on consumer credit scores**.\n- It may only be used **in addition to** the Lender's generally accepted credit analysis, not instead of it.\n- Results must be **documented in each loan file** and available for SBA review.\n- Lenders must **validate and document**, using appropriate statistical methods, that the model is **predictive of loan performance**, and give that documentation to SBA on request.\n- **SBLCs** do not make non-SBA loans, but SBA allows them to use credit scoring. SBLCs must provide model validation to SBA **annually**.\n\n#### Lender judgment\n\n- The credit decision, including **how much to weigh a past bankruptcy** or **whether to require an equity injection**, is left to the Lender's business judgment.\n- If the Lender requires equity and normally **verifies** it on its similarly-sized, non-SBA loans, it **must verify** it on its SBA Express loans too.\n- **Early loan defaults** will be reviewed by SBA under **SOP 50 57**.\n\n#### Agreements to review\n\nLenders must address franchise, license, dealer or similar agreements, and **management agreements** (unless part of franchise disclosure documents for a Franchise Directory brand), to determine whether a management agreement makes the business an **ineligible passive business**.\n\n> **Watch out:** Note the difference in wording on equity: the 7(a) Small and Standard 7(a) equity sections set a 10% start-up minimum, while the SBA Express underwriting section leaves whether to require an equity injection to the Lender's business judgment (with verification required if that is the Lender's normal practice).\n\n> **In practice:** SBA watches early defaults on Express loans closely. A pattern of loans defaulting soon after funding is a red flag in oversight even when each individual file looks complete.",
+      "keyPoints": [
+        "SBA Express Lenders make the credit decision without prior SBA review",
+        "Must not make an Express loan available on reasonable terms from the Lender itself or another source without a guaranty",
+        "Business credit scoring may supplement, not replace, the credit analysis and cannot rely solely on consumer scores",
+        "Scoring models must be statistically validated as predictive; SBLCs provide validation to SBA annually",
+        "Bankruptcy weighting and equity injection are Lender judgment; if the Lender verifies equity on non-SBA loans it must on Express",
+        "Early defaults are reviewed by SBA under SOP 50 57"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 2, Para. C.2.b"
+    },
+    {
+      "id": "b2-collateral-submission",
+      "title": "Collateral, guaranties and submission",
+      "body": "The rest of the rules for these products are found by reference, the same way Chapter 1 works for Standard 7(a).\n\n| Topic | Where to find the 7(a) Small and Express rules |\n|---|---|\n| Collateral | Appendix 19, Para. B.2 (7(a) Small) and B.3 (SBA Express) |\n| Personal guaranties | Section A, Ch. 5, Para. A |\n| Submitting the guaranty application | Appendix 20 |\n| Fees | Section A, Ch. 4, Para. C |\n| Use of Agents | Section A, Ch. 4, Para. D |\n| Guaranty percentages | Appendix 16, Para. B.2 |\n| Maturities | Appendix 17, Para. B.2 - B.3 |\n| Interest rates | Appendix 18, Para. B.2 - B.3 |\n| Debt refinancing | Appendix 14, Para. B.2 |\n| Changes of ownership | Appendix 15, as modified by this chapter |\n\n#### Putting the chapter together: choosing the path for a small loan\n\n1. **Size:** Is the request $350,000 or less (7(a) Small eligible) or up to $500,000 (Express eligible)? Check affiliates and aggregate Express exposure.\n2. **Structure:** Revolving line? 7(a) Small is term only, so a line points to SBA Express (or another product such as CAPLines).\n3. **Authority:** Does the Lender have SBA Express authority? Does it want SBA to review the deal (only possible for 7(a) Small, non-delegated)?\n4. **Credit test:** For 7(a) Small, can the Applicant show 1.10 DSC (or meet Appendix 15 for a change of ownership)? If not, move to Standard 7(a) or SBA Express procedures.\n5. **Equity:** 7(a) Small follows the start-up 10% rule; the SBA Express underwriting section leaves whether to require equity to the Lender's judgment, with verification required if that is the Lender's normal practice.\n\n> **In practice:** Many Lender platforms implement this as a product-selection step at intake. Getting the product right early avoids rework, because the DSC method, rate cap, equity rule and closing documents all depend on it.",
+      "keyPoints": [
+        "Collateral rules: Appendix 19, Para. B.2 (7(a) Small) and B.3 (Express)",
+        "Guaranty requirements: Section A, Ch. 5, Para. A; submission: Appendix 20",
+        "7(a) Small is term only; revolving lines point to SBA Express or another product",
+        "Product choice drives DSC method, rate cap, equity rule and closing documents"
+      ],
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 2, Paras. C.3 and D"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "7(a) Small loan",
+      "definition": "A term (non-revolving) 7(a) loan of $350,000 or less per project, including other 7(a) loans made within 90 days."
+    },
+    {
+      "term": "SBA Express",
+      "definition": "A delegated-only 7(a) product of up to $500,000 (aggregate, gross) made by Lenders with SBA Express authority, using the Lender's own forms and procedures."
+    },
+    {
+      "term": "SBA Express authority",
+      "definition": "Delegated authority that lets a Lender make SBA Express loans without prior SBA credit review; Express loans cannot be processed non-delegated by the LGPC."
+    },
+    {
+      "term": "LGPC",
+      "definition": "SBA's Loan Guaranty Processing Center, which processes non-delegated 7(a) loan guaranty requests."
+    },
+    {
+      "term": "Similarly-sized, non-SBA guaranteed commercial loans",
+      "definition": "The Lender's own conventional loans of similar size; their procedures are the benchmark Lenders must follow on 7(a) Small and Express loans."
+    },
+    {
+      "term": "Operating Cash Flow (OCF)",
+      "definition": "EBITDA, with additions and subtractions allowed under Section B, Ch. 1; the numerator of DSC for 7(a) Small loans."
+    },
+    {
+      "term": "Non-financial default provision",
+      "definition": "A loan condition whose violation causes default even when all payments are made as agreed; allowed under SBA Express under strict conditions."
+    },
+    {
+      "term": "Line Retention (Option 1)",
+      "definition": "Issuing a new SBA Express loan before amortization begins to restart the revolving period, with utilization justified in the credit memo."
+    },
+    {
+      "term": "Extended Amortization (Option 2)",
+      "definition": "Issuing a new non-revolving SBA Express loan, with a term of no more than 10 years, to refinance an existing Express loan before amortization begins."
+    },
+    {
+      "term": "CA SBLC",
+      "definition": "Community Advantage Small Business Lending Company; limited to $350,000 to any one Borrower under SBA Express."
+    },
+    {
+      "term": "Business credit scoring model",
+      "definition": "A statistically validated scoring model used in addition to credit analysis; it cannot rely solely on consumer credit scores."
+    },
+    {
+      "term": "P.L. 108-447",
+      "definition": "The law, signed December 8, 2004, that made SBA Express a permanent SBA program."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "b2-q1",
+      "question": "What is the maximum aggregate SBA Express loan amount for an Applicant and its Affiliates?",
+      "options": [
+        "$350,000",
+        "$500,000 gross",
+        "$500,000 guaranteed portion",
+        "$5,000,000"
+      ],
+      "correctIndex": 1,
+      "explanation": "The maximum aggregate SBA Express amount is $500,000 gross, including outstanding Express, CA Pilot, Community Express and Patriot Express loans. It is measured on gross loan amounts, not the guaranteed portion. $350,000 is the 7(a) Small maximum and the CA SBLC per-Borrower limit.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 2, Para. B.1",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b2-q2",
+      "question": "What minimum DSC must a 7(a) Small loan for equipment purchase demonstrate?",
+      "options": [
+        "1.00:1",
+        "1.10:1",
+        "1.15:1",
+        "1.25:1"
+      ],
+      "correctIndex": 1,
+      "explanation": "For 7(a) Small loans for purposes other than changes of ownership, DSC must be 1.10:1 or greater on a historical or projected basis. 1.15 is the Standard 7(a) threshold.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 2, Para. C.2.a",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b2-q3",
+      "question": "An SBA Express Lender has a deal it would like SBA to review before approval. What does the SOP allow?",
+      "options": [
+        "Submit it as an SBA Express loan to the LGPC for non-delegated processing",
+        "Submit it as SBA Express with a request for an exception to policy",
+        "SBA Express loans may not be processed non-delegated; the Lender would need to use another product such as a non-delegated 7(a) Small loan",
+        "Process it as Express and ask the district office for an informal review"
+      ],
+      "correctIndex": 2,
+      "explanation": "SBA Express loans are only processed via the Lender's SBA Express delegated authority, and Express Lenders may not request non-delegated processing by the LGPC. A 7(a) Small loan, by contrast, can be submitted non-delegated.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 2, Introduction and Para. C.1",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b2-q4",
+      "question": "A 7(a) Small loan of $320,000 was approved. The Borrower now needs an increase to $380,000. What happens?",
+      "options": [
+        "The increase is allowed and the loan stays a 7(a) Small loan",
+        "The increase is prohibited",
+        "The loan becomes a Standard 7(a) loan and must follow Section B, Ch. 1 requirements",
+        "The loan automatically converts to SBA Express"
+      ],
+      "correctIndex": 2,
+      "explanation": "7(a) Small loans may only be increased up to $350,000. If increased above $350,000, the loan becomes a Standard 7(a) loan and must follow Chapter 1. It does not convert to Express, which requires Express authority and its own processing.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 2, Para. C.2",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b2-q5",
+      "question": "An Applicant has an outstanding $150,000 Community Express loan and a $200,000 7(a) Small loan. Its 100% owned affiliate has a $100,000 SBA Express line. What is the largest new SBA Express loan possible?",
+      "options": [
+        "$50,000",
+        "$150,000",
+        "$250,000",
+        "$350,000"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Express aggregate is $500,000 and includes outstanding Express, CA Pilot, Community Express and Patriot Express loans of the Applicant and Affiliates: $150,000 + $100,000 = $250,000 used, leaving $250,000. 7(a) Small loans are not included, so $50,000 is wrong.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 2, Para. B.1",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b2-q6",
+      "question": "Which statement about SBA Express non-financial default provisions is correct?",
+      "options": [
+        "The Lender may request guaranty purchase solely because the Borrower breached a financial covenant",
+        "A line of credit may be payable on demand with no stated maturity date",
+        "The provisions may be stricter than those on the Lender's conventional loans to protect SBA",
+        "The provisions must be substantive and agreed to by the Borrower in writing at closing"
+      ],
+      "correctIndex": 3,
+      "explanation": "Non-financial default provisions must be substantive, agreed to in writing at closing, and consistent with the Lender's similarly-sized non-SBA loans. A Lender may not request purchase solely on such a violation (13 CFR 120.520), and the note must always state a maturity date.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 2, Para. B.4",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b2-q7",
+      "question": "A Borrower's SBA Express line of credit is in its revolving period and fully drawn. The Lender wants to refinance it into a new SBA Express term loan with a 10-year amortization. Which is correct?",
+      "options": [
+        "Allowed under Option 2, as long as the new loan has no revolving period and the term does not exceed 10 years",
+        "Not allowed; an Express loan can never refinance another Express loan",
+        "Allowed only after amortizing payments have begun",
+        "Allowed under Option 1, which also restarts the revolving period"
+      ],
+      "correctIndex": 0,
+      "explanation": "Option 2 (Extended Amortization) lets a Lender refinance an existing Express loan before amortizing payments begin with a term of up to 10 years, but the new loan may not revolve. Option 1 restarts revolving and requires utilization justification; neither option applies once amortization has begun.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 2, Para. B.3",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b2-q8",
+      "question": "What is the maximum variable interest rate on a $420,000 SBA Express loan?",
+      "options": [
+        "Prime or SBA Optional Peg Rate + 3.0%",
+        "Prime or SBA Optional Peg Rate + 4.5%",
+        "Prime or SBA Optional Peg Rate + 6.0%",
+        "Prime or SBA Optional Peg Rate + 6.5%"
+      ],
+      "correctIndex": 0,
+      "explanation": "SBA Express loans of $350,001 up to and including $500,000 are capped at base + 3.0%. Base + 4.5% applies to $250,001 through $350,000.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 2, Para. B.5",
+      "difficulty": "basic"
+    },
+    {
+      "id": "b2-q9",
+      "question": "For a 7(a) Small loan, which financial statement approach for calculating DSC complies with the SOP?",
+      "options": [
+        "A year-end statement received 150 days after year end",
+        "12-month projections showing 1.10:1 within one year of funding, for a change of ownership",
+        "Last year-end statement plus an interim dated within 120 days of submission to SBA, confirming no decline",
+        "Projections showing 1.10:1 within two years of funding"
+      ],
+      "correctIndex": 2,
+      "explanation": "Year-end statements must be dated and received within 120 days of year end, interims dated within 120 days of submission, and projections must show 1.10:1 within one year. The projection method is not available for changes of ownership.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 2, Para. C.2.a",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b2-q10",
+      "question": "A buyer is acquiring a business for a $325,000 purchase price using an SBA Express loan. What does Chapter 2 allow regarding the business valuation?",
+      "options": [
+        "An independent valuation is always required for changes of ownership",
+        "An internal business valuation may be obtained at the Lender's discretion",
+        "No valuation is required for SBA Express loans",
+        "SBA must perform the valuation"
+      ],
+      "correctIndex": 1,
+      "explanation": "For changes of ownership financed with 7(a) Small or SBA Express, an internal business valuation may be used at the Lender's discretion when the Business Purchase Price is $350,000 or less. Other Appendix 15 requirements, such as DSC, still apply.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 2, Para. A",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b2-q11",
+      "question": "A 7(a) Small Applicant shows DSC of 1.04 on its year-end statements and has no reliable projections. What must the Lender do?",
+      "options": [
+        "Decline the loan, since DSC below 1.10 is ineligible for any SBA loan",
+        "Approve it as a 7(a) Small loan if collateral is strong",
+        "Request an SBA exception to the 1.10 requirement",
+        "Process the loan under Standard 7(a) or SBA Express procedures"
+      ],
+      "correctIndex": 3,
+      "explanation": "If the Applicant does not meet the required DSC, the loan must be processed following the procedures for Standard 7(a) or SBA Express. That is not an automatic decline, and collateral cannot replace the repayment analysis.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 2, Para. C.2.a",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b2-q12",
+      "question": "Which business credit scoring practice is acceptable for SBA Express?",
+      "options": [
+        "A model based solely on the owners' consumer credit scores",
+        "Using the score in place of any other credit analysis",
+        "An SBLC using an unvalidated model because SBLCs make no non-SBA loans",
+        "A statistically validated model, used in addition to the Lender's credit analysis, with results documented in each file"
+      ],
+      "correctIndex": 3,
+      "explanation": "Scoring models may only supplement the Lender's credit analysis, cannot rely solely on consumer scores, must be validated as predictive, and results must be documented in each file. SBLCs may use scoring but must provide validation to SBA annually.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 2, Para. C.2.b",
+      "difficulty": "applied"
+    },
+    {
+      "id": "b2-q13",
+      "question": "A 7(a) Small loan of $200,000 to an existing retailer will use $120,000 for working capital. The Applicant has an active operating account. Which item is required in the credit file?",
+      "options": [
+        "An explanation of why the working capital level is necessary, plus the two most recent months of primary operating account statements",
+        "Only the two most recent months of bank statements; working capital explanations apply to Standard 7(a) only",
+        "An independent business valuation",
+        "SBA Form 1050 signed at application"
+      ],
+      "correctIndex": 0,
+      "explanation": "For 7(a) Small loans over $50,000 with 50% or more working capital, the memo must explain why that level is needed. The Lender must also review and retain two months of primary operating account statements to confirm debts. Form 1050 is a closing form and is not required for 7(a) Small loans.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 2, Para. C.2.a",
+      "difficulty": "scenario"
+    },
+    {
+      "id": "b2-q14",
+      "question": "Under the SBA Express underwriting requirements in Chapter 2, how is the decision to require an equity injection handled?",
+      "options": [
+        "SBA decides at loan number issuance based on its review of the file",
+        "Equity is left to the Lender's business judgment, but if the Lender requires and normally verifies equity on similar non-SBA loans, it must verify it on the Express loan",
+        "Equity is prohibited on SBA Express loans",
+        "The Lender must verify equity only if SBA requests it at guaranty purchase"
+      ],
+      "correctIndex": 1,
+      "explanation": "For SBA Express, whether to require equity is left to the Lender's business judgment, and if the Lender verifies equity on its similarly-sized non-SBA loans, it must do so on Express. SBA does not review Express credit decisions before issuing the loan number, so it cannot be SBA's decision at that point.",
+      "sopRef": "SOP 50 10 8.1, Section B, Ch. 2, Para. C.2.b",
+      "difficulty": "applied"
+    }
+  ]
+}
